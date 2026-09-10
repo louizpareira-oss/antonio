@@ -13,6 +13,10 @@ Plan to make the account eligible for the TikTok Creator Rewards Program after t
 6. [`docs/06-reference-video-teardown.md`](docs/06-reference-video-teardown.md) — frame-by-frame measurement of the course’s own example video, and how to rebuild it legitimately.
 7. [`docs/07-matching-visuals-to-dialogue.md`](docs/07-matching-visuals-to-dialogue.md) — the skill the course skipped: how to decide which picture goes on which line.
 
+## Scripts
+
+- [`scripts/01-forgive-the-past.md`](scripts/01-forgive-the-past.md) — 70s, 20 beats, full shot list and generation prompts.
+
 ## Account snapshot (Sep 2026)
 
 | Metric | Value |
