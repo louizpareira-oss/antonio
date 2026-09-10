@@ -10,6 +10,7 @@ Plan to make the account eligible for the TikTok Creator Rewards Program after t
 3. [`docs/03-technical-spec.md`](docs/03-technical-spec.md) — exact export settings, lengths, and things that auto-flag a video.
 4. [`docs/04-account-cleanup-and-30-day-plan.md`](docs/04-account-cleanup-and-30-day-plan.md) — what to delete, what to post, when to re-apply.
 5. [`docs/05-appeal-template.md`](docs/05-appeal-template.md) — a re-application message that references evidence instead of opinion.
+6. [`docs/06-reference-video-teardown.md`](docs/06-reference-video-teardown.md) — frame-by-frame measurement of the course’s own example video, and how to rebuild it legitimately.
 
 ## Account snapshot (Sep 2026)
 
