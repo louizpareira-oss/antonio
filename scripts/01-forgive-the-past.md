@@ -81,7 +81,7 @@ respond to, and it is what makes the video original in the way that matters.
 Rules for replacing them:
 
 - **Name an age or a date.** "I was nineteen" beats "when I was younger."
-- **Name one physical place.** A bus, a kitchen, a hospital corridor, a車 parked outside.
+- **Name one physical place.** A bus, a kitchen, a hospital corridor, a car parked outside.
 - **Give a number.** "Four hundred times" beats "so many times."
 - **Do not explain the feeling.** Say what happened. The feeling arrives on its own.
 
