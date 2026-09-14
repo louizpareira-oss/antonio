@@ -12,7 +12,8 @@ Plan to make the account eligible for the TikTok Creator Rewards Program after t
 5. [`docs/05-appeal-template.md`](docs/05-appeal-template.md) — a re-application message that references evidence instead of opinion.
 6. [`docs/06-reference-video-teardown.md`](docs/06-reference-video-teardown.md) — frame-by-frame measurement of the course’s own example video, and how to rebuild it legitimately.
 7. [`docs/07-matching-visuals-to-dialogue.md`](docs/07-matching-visuals-to-dialogue.md) — the skill the course skipped: how to decide which picture goes on which line.
-8. [`docs/09-anime-visuals-legitimately.md`](docs/09-anime-visuals-legitimately.md) — how to get the anime look without downloading anyone’s frames, plus the anime version of Script 01.
+8. [`docs/08-start-with-the-story.md`](docs/08-start-with-the-story.md) — the step before everything else: writing the script so every shot has a job.
+9. [`docs/09-anime-visuals-legitimately.md`](docs/09-anime-visuals-legitimately.md) — how to get the anime look without downloading anyone’s frames, plus the anime version of Script 01.
 
 ## Scripts and prompts
 
