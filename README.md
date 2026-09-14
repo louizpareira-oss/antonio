@@ -1,8 +1,8 @@
-# Short-form video production framework
+# Pigeon
 
-A complete pipeline for making original short-form video with AI-generated visuals:
-story first, then shots, then a character that survives every cut, then motion, then the
-two gates a video has to clear before it goes out.
+A complete system for making original short-form video with AI-generated visuals: story
+first, then shots, then a character that survives every cut, then motion, then the two
+gates a video has to clear before it goes out.
 
 **The rule the whole thing is built on:** the story is the engine. A good-looking clip
 cannot rescue a weak sequence. Nothing gets generated until every shot has a job.
@@ -34,7 +34,7 @@ cannot rescue a weak sequence. Nothing gets generated until every shot has a job
 - [`tools/new-video.sh`](tools/new-video.sh) — creates `VIDEO_NNN/` with the six stage
   folders and seeds the script template.
 
-## The pipeline
+## How Pigeon runs
 
 ```
 hooks  ->  story  ->  shot list  ->  master character  ->  stills

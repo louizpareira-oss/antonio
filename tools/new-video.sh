@@ -1,5 +1,5 @@
 #!/usr/bin/env sh
-# Create the folder structure for a new video and seed it with the script template.
+# Pigeon — create the folder structure for a new video and seed it with the template.
 # Usage: tools/new-video.sh 002 [target-dir]
 
 set -eu
