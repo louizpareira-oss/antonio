@@ -88,7 +88,7 @@ the setup cost — you stay in one tool, one headspace, one set of settings.
 
 | Batch | Stage | Do this | Then stop |
 |---|---|---|---|
-| **1** | **Ideas** | Collect many concepts. Write only the hook for each | Select the strongest hooks. Most die here, cheaply |
+| **1** | **Ideas** | Ten hooks per topic, using the hook generator in `prompts/00-master-prompt-library.txt`. Write only the hook | Keep three. Most die here, cheaply |
 | **2** | **Scripts** | Turn the survivors into complete five-beat stories | Every beat has a job and passes the delete test |
 | **3** | **Stills** | Generate visual assets for several videos in one sitting | Approve stills before animating a single one |
 | **4** | **Animation** | Animate only approved stills | — |

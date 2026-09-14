@@ -6,12 +6,15 @@ Reusable fill-in prompts for every stage. Tool-agnostic.
 Use in this order. Do not skip ahead — each one consumes the
 output of the one before it.
 
-  1. STORY        -> five beats
-  2. CHARACTER    -> the master block, written once per character
-  3. SCENE        -> one per shot
-  4. ANIMATION    -> one per approved still
+  1. HOOKS        -> ten candidates, keep three
+  2. STORY        -> five beats
+  3. CHARACTER    -> the master block, written once per character
+  4. SCENE        -> one per shot
+  5. ANIMATION    -> one per approved still
 
 Method: docs/08 (story), docs/10 (character), docs/11 (animation).
+Batches: docs/13. Sections 1-2 are Batch 1-2, section 4 is Batch 3,
+section 5 is Batch 4.
 
 ----------------------------------------------------------------
 ORDERING RULE — applies to every prompt below
@@ -28,7 +31,44 @@ into every prompt - if two thirds of your words are "cinematic,
 bad result.
 
 ================================================================
-1. STORY
+1. HOOKS  (Batch 1 - do this ten at a time)
+================================================================
+
+Give me 10 short-form video hooks for a story about [TOPIC].
+Each hook should create immediate curiosity and make the viewer
+want to know what happens next.
+Avoid generic introductions. Make each hook visually actionable.
+
+"Visually actionable" is the load-bearing phrase. A hook you
+cannot picture is a hook you cannot shoot. If the answer to
+"what is on screen while this is said?" is nothing, discard it.
+
+WHY TEN
+Ideas are the cheapest stage in the workflow and the only one with
+real leverage. A weak hook survives all the way to a finished
+video and then fails in public; a weak hook killed here costs one
+line of text. Generate ten, keep three, and let batch 2 only ever
+run on material that already earned its place.
+
+HOW TO PICK THREE
+Score each hook against these. Four yeses or it does not advance.
+
+  [ ] Could someone disagree with it?
+      A claim, not a slogan. This is the docs/08 test and it kills
+      most of the ten on its own.
+  [ ] Can I name the first shot, right now, in one sentence?
+      If not, it is a topic wearing a hook's clothes.
+  [ ] Does it open INSIDE the situation?
+      No runway, no throat-clearing, no "let me tell you about".
+  [ ] Does it promise something the payoff can actually deliver?
+      A hook that writes a cheque the ending cannot cash is worse
+      than a flat one - the viewer feels it and does not come back.
+
+Keep the discarded seven in a file. Hooks that fail against one
+concept often work against a different one a month later.
+
+================================================================
+2. STORY
 ================================================================
 
 Create a short-form story around this concept: [IDEA].
@@ -45,7 +85,7 @@ Constraints to add for this account:
   - One controlling image for the whole piece, not three.
 
 ================================================================
-2. CHARACTER CREATION  (write once, reuse verbatim)
+3. CHARACTER CREATION  (write once, reuse verbatim)
 ================================================================
 
 Create a consistent recurring character: [DESCRIPTION].
@@ -76,7 +116,7 @@ previous shots
 Script 01's filled-in block lives in docs/10-character-consistency.md.
 
 ================================================================
-3. SCENE / SHOT
+4. SCENE / SHOT
 ================================================================
 
 Use the established character exactly as described.
@@ -105,7 +145,7 @@ use the simpler docs/07 formula instead:
 [camera] + 9:16 vertical
 
 ================================================================
-4. ANIMATION  (one per approved still)
+5. ANIMATION  (one per approved still)
 ================================================================
 
 Animate the existing scene while preserving the character's
@@ -125,7 +165,7 @@ Camera moves that survive generation:
 Avoid: orbits, crash zooms, drone moves, whip pans.
 
 ================================================================
-5. NEGATIVE PROMPT  (paste into the negative field every time)
+6. NEGATIVE PROMPT  (paste into the negative field every time)
 ================================================================
 
 text, watermark, logo, subtitles, captions, signature, extra limbs,
@@ -135,7 +175,7 @@ split screen, collage
 Add for an anime look:  photorealistic, 3d render, cgi
 
 ================================================================
-6. BEFORE YOU SPEND A GENERATION
+7. BEFORE YOU SPEND A GENERATION
 ================================================================
 
 [ ] The beat this shot serves has a job.
