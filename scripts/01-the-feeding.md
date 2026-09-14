@@ -1,4 +1,4 @@
-# Script 02 — "The Feeding"
+# Script 01 — "The Feeding"
 
 **Target length:** 75 seconds (72.5s of voice + 2.5s silent hold)
 **Format:** 1080 × 1920, full bleed, no bars
@@ -62,21 +62,21 @@ the same man with a pigeon's head — coral-red eye-ring, navy overcoat,
 lanyard — same design as previous shots
 ```
 
-Anime, to match the account's established look (doc 09). A pigeon-headed man reads as
+Anime, to match the account's established look (doc 02). A pigeon-headed man reads as
 absurd in photoreal and as matter-of-fact in cel shading, which is the register this needs.
 
 ---
 
 ## A production decision, made early
 
-**A beak cannot lip-sync.** Doc 12 asks whether the character looks like it is talking;
+**A beak cannot lip-sync.** Doc 06 asks whether the character looks like it is talking;
 here the honest answer is that it never will. So:
 
 - The script is **voiceover-led**. Marcus never speaks on camera.
 - The only spoken line belongs to a **human** character, whose mouth animates normally.
 - Marcus's half of that exchange is a **reaction shot** — beat 21 is his eye, not his beak.
 
-This is the doc 12 fix applied at the writing stage instead of discovered in the edit.
+This is the doc 06 fix applied at the writing stage instead of discovered in the edit.
 
 ---
 
@@ -209,7 +209,7 @@ Remaining beats follow the same pattern — build them from the shot column abov
 
 ## Animation directions
 
-One action, one camera move, per doc 11.
+One action, one camera move, per doc 04.
 
 | Beats | Direction |
 |---|---|
@@ -237,8 +237,8 @@ Do not redesign the character or introduce new objects.
 
 ## Before upload
 
-Run [`docs/12-anti-slop-checklist.md`](../docs/12-anti-slop-checklist.md) and
-[`docs/03-technical-spec.md`](../docs/03-technical-spec.md). Two that matter here:
+Run both gates in [`docs/06-before-you-upload.md`](../docs/06-before-you-upload.md). Two
+that matter here:
 
-- **75 seconds** clears the 60s Creator Rewards threshold with margin.
-- **The AI-generated label goes on.** Non-negotiable for this account.
+- **75 seconds** sits inside the 65–90s window with margin at both ends.
+- **The AI-generated label goes on.**

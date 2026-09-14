@@ -3,8 +3,8 @@
 Copy this file to `scripts/NN-your-title.md` and fill it in **top to bottom**. Do not skip
 down to the shot list. Do not open an image generator until section 5 is complete.
 
-Method behind it: [`docs/08-start-with-the-story.md`](../docs/08-start-with-the-story.md)
-(story) and [`docs/07-matching-visuals-to-dialogue.md`](../docs/07-matching-visuals-to-dialogue.md)
+Method behind it: [`docs/01-start-with-the-story.md`](../docs/01-start-with-the-story.md)
+(story) and [`docs/02-matching-visuals-to-dialogue.md`](../docs/02-matching-visuals-to-dialogue.md)
 (shots).
 
 ---
@@ -61,7 +61,7 @@ abstract. Long speeches are allowed only when the entire shot is built around th
 
 Use whichever register the video needs. Delete the other.
 
-### Single voice (monologue — the Script 02 register)
+### Single voice (monologue — the Script 01 register)
 
 ```
 [beat 1 line]
@@ -126,7 +126,7 @@ contains three places, that is three shots.
 | 3 | | | | | | | |
 | — | __–__ | *(silence)* | | — | — | Hold the final shot | — |
 
-Folders (from doc 07): `01-alone` · `02-turning-away` · `03-storm` · `04-crowd` ·
+Folders (from doc 02): `01-alone` · `02-turning-away` · `03-storm` · `04-crowd` ·
 `05-hands` · `06-threshold` · `07-open` · `08-face`
 
 Timing rules: 2–5s per shot · cut on the breath, not mid-word · bring the final image in
@@ -136,7 +136,7 @@ Timing rules: 2–5s per shot · cut on the breath, not mid-word · bring the fi
 
 ## 6. Generation prompts
 
-Only now. One per shot, using the doc 07 formula:
+Only now. One per shot, using the doc 02 formula:
 
 ```
 [subject] + [action] + [environment] + [light] + [mood] + [camera] + 9:16 vertical

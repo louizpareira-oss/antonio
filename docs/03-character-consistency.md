@@ -1,6 +1,6 @@
-# 10. Keeping the character the same in every shot
+# 3. Keeping the character the same in every shot
 
-Doc 07 makes the claim: *"Cheap edits change the person every cut; good ones follow one."*
+Doc 02 makes the claim: *"Cheap edits change the person every cut; good ones follow one."*
 Following one person is what separates a film from a slideshow. But 07 never says how to
 do it, and the generator will not do it for you — every clip is generated independently,
 with no memory of the last one.
@@ -55,7 +55,7 @@ instantly. Give your character one thing that unmistakable.
 
 ## A worked master block
 
-From [`scripts/02-the-feeding.md`](../scripts/02-the-feeding.md) — a character who is a
+From [`scripts/01-the-feeding.md`](../scripts/01-the-feeding.md) — a character who is a
 human body with a pigeon's head, which makes every field above do visible work:
 
 ```
@@ -89,7 +89,7 @@ part bird will grow talons the moment you stop saying otherwise.
 
 ### Negatives are part of the character
 
-A composite character needs negative terms as specific as its positive ones. Script 02
+A composite character needs negative terms as specific as its positive ones. Script 01
 carries `multiple heads, bird body, full bird` on every clip, because generators drift
 toward a whole pigeon, or a bird perched on a human neck. Work out your character's
 failure mode early and name it every time.
@@ -130,15 +130,15 @@ Worked example, in the source material's register:
 > shocked after seeing something off-screen. Medium shot, vertical composition, natural
 > cinematic lighting, expressive pose, consistent character design and proportions.*
 
-### This supersedes the doc 07 formula
+### This supersedes the doc 02 formula
 
-Doc 07 gives `[subject] + [action] + [environment] + [light] + [mood] + [camera] + 9:16`.
+Doc 02 gives `[subject] + [action] + [environment] + [light] + [mood] + [camera] + 9:16`.
 That is still correct for a shot with **no recurring character** — an empty doorway, a
 folder on a table, rain on a street. Use this one whenever a person is on screen. Three
 differences:
 
 1. **Subject becomes the master block**, verbatim.
-2. **Expression is its own slot.** Left implicit, faces default to neutral, and doc 07's
+2. **Expression is its own slot.** Left implicit, faces default to neutral, and doc 02's
    whole method depends on the face doing the emotional work.
 3. **A consistency instruction closes every prompt.** `consistent character design and
    proportions` — cheap, and it measurably helps.
@@ -192,7 +192,7 @@ bring back changed. They carry the rewatch, and a seed alone will not protect th
 
 ## More than one character
 
-Script 02 has one recurring character, so one block is enough. For a scene with dialogue
+Script 01 has one recurring character, so one block is enough. For a scene with dialogue
 (`scripts/00-template.md`'s Character A / Character B register):
 
 - **One master block per character**, labelled, both at the top of the pack.

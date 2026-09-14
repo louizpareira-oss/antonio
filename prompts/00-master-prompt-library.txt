@@ -12,8 +12,8 @@ output of the one before it.
   4. SCENE        -> one per shot
   5. ANIMATION    -> one per approved still
 
-Method: docs/08 (story), docs/10 (character), docs/11 (animation).
-Batches: docs/13. Sections 1-2 are Batch 1-2, section 4 is Batch 3,
+Method: docs/01 (story), docs/03 (character), docs/04 (animation).
+Batches: docs/05. Sections 1-2 are Batch 1-2, section 4 is Batch 3,
 section 5 is Batch 4.
 
 ----------------------------------------------------------------
@@ -54,7 +54,7 @@ HOW TO PICK THREE
 Score each hook against these. Four yeses or it does not advance.
 
   [ ] Could someone disagree with it?
-      A claim, not a slogan. This is the docs/08 test and it kills
+      A claim, not a slogan. This is the docs/01 test and it kills
       most of the ten on its own.
   [ ] Can I name the first shot, right now, in one sentence?
       If not, it is a topic wearing a hook's clothes.
@@ -113,7 +113,7 @@ SHORT FORM  (for hands/objects shots where they are not the subject)
 the same [subject] - [one marking], [one garment] - same design as
 previous shots
 
-A filled-in block lives in scripts/02-the-feeding.md.
+A filled-in block lives in scripts/01-the-feeding.md.
 
 ================================================================
 4. SCENE / SHOT
@@ -139,7 +139,7 @@ Free - change every shot:  camera angle, location within the world,
                            pose, expression, action
 
 FOR A SHOT WITH NO RECURRING CHARACTER (a doorway, hands, rain)
-use the simpler docs/07 formula instead:
+use the simpler doc 02 formula instead:
 
 [subject] + [action] + [environment] + [light] + [mood] +
 [camera] + 9:16 vertical

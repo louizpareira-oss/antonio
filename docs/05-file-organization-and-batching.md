@@ -1,4 +1,4 @@
-# 13. File organization and batch production
+# 5. File organization and batch production
 
 One video, you can keep in your head. Four videos in flight, and you will lose twenty
 minutes hunting for the right take of clip 14 — or worse, ship the wrong one.
@@ -21,7 +21,7 @@ VIDEO_001/
 
 The source this is adapted from uses vendor folder names — `03_GROK_ANIMATION`,
 `04_FLASHLOOP_AUDIO`. Do not. This repo's workflow names **four** possible stills tools and
-**three** animation tools, and doc 09 tells you outright to switch tools if yours cannot do
+**three** animation tools, and doc 02 tells you outright to switch tools if yours cannot do
 native 9:16. A folder called `03_GROK_ANIMATION` full of Kling output is a folder that lies
 to you, and renaming it later breaks every path you already wrote down.
 
@@ -59,7 +59,7 @@ Four rules that matter more than they look:
 
 ### Mark the matched pair
 
-Script 02's beats 1 and 22 are the same bench, and the rewatch depends on them matching.
+Script 01's beats 1 and 22 are the same bench, and the rewatch depends on them matching.
 Name them so you cannot miss it:
 
 ```

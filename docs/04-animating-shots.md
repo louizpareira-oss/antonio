@@ -1,10 +1,10 @@
-# 11. Animating a shot without wrecking it
+# 4. Animating a shot without wrecking it
 
-Doc 10 keeps the character the same from shot to shot. This one keeps them the same
+Doc 03 keeps the character the same from shot to shot. This one keeps them the same
 *within* a shot, once it starts moving — and stops the motion from becoming the thing that
 makes the video look generated.
 
-Motion is not optional here. Doc 03's auto-fail list includes *"slideshow of still images
+Motion is not optional here. Doc 06's auto-fail list includes *"slideshow of still images
 with no motion"*. But the failure on the other side is just as expensive: a clip where
 everything moves at once is unusable in the edit, and you paid for it.
 
@@ -40,7 +40,7 @@ The second one you can direct, judge and re-roll. The first one you can only acc
 throw away — you have no idea which word produced the result, so you cannot fix it.
 
 **Name the body parts.** Head, eyes, shoulders, hands. "Reacts emotionally" is not a
-direction; "eyes drop, head turns slightly away" is. This is the same move doc 07 makes for
+direction; "eyes drop, head turns slightly away" is. This is the same move doc 02 makes for
 stills — emotions are invisible, bodies are visible — applied to motion.
 
 ---
@@ -69,19 +69,19 @@ Pick one per shot. These are the ones that survive generation:
 |---|---|---|
 | **Static, internal motion only** | Close-ups, hands, faces | The safest. Motion comes from the subject, not the frame |
 | **Slow push in** | Building pressure, a turn, a realization | The default for escalation beats |
-| **Slow pull back** | A reveal of context — the whole floor was empty | Script 02's beat 13 |
+| **Slow pull back** | A reveal of context — the whole floor was empty | Script 01's beat 13 |
 | **Slow pan** | Following a body across a space | Keep it short; pans drift |
 | **Gentle handheld drift** | Memory, unease | Easy to overdo. Barely perceptible is correct |
 
 Avoid: orbits, crash zooms, drone moves, whip pans. They read as generated, they fight
 your cut, and they are the first thing a viewer registers as AI.
 
-**Matched shots need matched cameras.** Script 02's beats 1 and 22 are the same bench seen
+**Matched shots need matched cameras.** Script 01's beats 1 and 22 are the same bench seen
 twice. Same framing, same move, same duration, or the return does not land.
 
 ---
 
-## Applying it to Script 02
+## Applying it to Script 01
 
 The shots divide cleanly by type:
 

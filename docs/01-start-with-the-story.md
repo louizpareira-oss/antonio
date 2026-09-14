@@ -1,9 +1,9 @@
-# 8. Start with the story
+# 1. Start with the story
 
 > The story is the engine. A good-looking AI clip cannot rescue a weak sequence. Before
 > opening an image generator, write the story in a way that gives **every shot a job**.
 
-Doc 07 tells you which picture goes on which line. This one comes first: it is how you get
+Doc 02 tells you which picture goes on which line. This one comes first: it is how you get
 lines worth putting pictures on.
 
 ---
@@ -71,7 +71,7 @@ shape you chose on purpose. Four that work in this niche:
 | **The Reframe** | Take one common word and redefine it by the end | 14–18 | Big abstract nouns: forgiveness, discipline, love |
 | **The Escalation** | Small → larger → largest → one quiet line | 20–24 | Anger, urgency, wake-up-call energy |
 
-Script 02 is a Confession wearing a Reversal: *people keep throwing bread at me* → *none of
+Script 01 is a Confession wearing a Reversal: *people keep throwing bread at me* → *none of
 them were cruel, they were comfortable* → *and I started buying the bread myself.*
 
 Two turns, not one. **The last turn should recontextualise the opening line**, so the
@@ -108,7 +108,7 @@ The five contain the twenty. Steps 4 and 5 below are about shot beats.
 
 ### How the twenty sit inside the five
 
-Script 02, mapped:
+Script 01, mapped:
 
 | Movement | Shot beats | Time | Share |
 |---|---|---|---|
@@ -145,7 +145,7 @@ If a movement contains no job from its row, that movement is not doing its work 
 
 Pick a single concrete world and pull all your vocabulary from it.
 
-Script 02 picks **feeding**: bread, crumbs, a flock, being fed versus buying your own bag.
+Script 01 picks **feeding**: bread, crumbs, a flock, being fed versus buying your own bag.
 Every abstract idea in the script arrives wearing it — *one conversation that didn't end in
 crumbs* is loneliness, and it never says the word.
 
@@ -155,7 +155,7 @@ You get three things free:
    "I internalised how they saw me" is not.
 2. **The visuals cohere automatically.** You now have a look, and you did not have to
    invent one per shot.
-3. **The return becomes available.** Doc 07's strongest technique — show an image early,
+3. **The return becomes available.** Doc 02's strongest technique — show an image early,
    bring it back changed — only works if there *is* a recurring image. That is this.
 
 **One image per video.** Feeding *and* a storm *and* a locked door is not three metaphors,
@@ -166,7 +166,7 @@ it is none.
 ## Step 4 — Write in beats, not paragraphs
 
 Write the voiceover as single lines with blank lines between them, the way
-`scripts/02-the-feeding.md` does. The line breaks are your pauses; you breathe at
+`scripts/01-the-feeding.md` does. The line breaks are your pauses; you breathe at
 each one, and you cut at each one.
 
 Four rules:
@@ -183,11 +183,11 @@ twenty jobs.
 
 ### The sentence is not the unit — the picture is
 
-Doc 07 says *one picture per pause*. That rule and the one above only look like they
+Doc 02 says *one picture per pause*. That rule and the one above only look like they
 disagree; both are counting **visual ideas**, and a sentence is not reliably one of those.
-It cuts both ways, and Script 02 does both:
+It cuts both ways, and Script 01 does both:
 
-| | Script 02 | What happens |
+| | Script 01 | What happens |
 |---|---|---|
 | **Two sentences, one shot** | Beat 8 — *"I laughed. That was the mistake."* | Held on one shot: his shoulders moving, seen from behind. The second sentence reinterprets the picture rather than replacing it. Cutting there would throw away the turn |
 | **One line, three shots** | A montage line — *"in the shower, on the bus, at three in the morning"* | Three locations is three pictures. Holding one shot would flatten the point of the line |
@@ -207,7 +207,7 @@ carries it. That is the length test — not a word count:
 > **Name the action happening while the line is spoken. If you cannot, the line is too
 > long or too abstract.**
 
-Script 02 passes it everywhere. *"In November I bought a bag of bread. For myself"* attaches
+Script 01 passes it everywhere. *"In November I bought a bag of bread. For myself"* attaches
 to a hand putting coins on a shop counter. *"I laughed"* attaches to shoulders moving, seen
 from behind. The line and the body do the same thing at the same moment, which is why it
 reads as a film rather than narration over stock.
@@ -261,7 +261,7 @@ generated clip later.
 
 ## The energy has to have a shape
 
-Doc 07 notes that a good sequence goes quiet → storm → quiet → close → loud → quiet. That
+Doc 02 notes that a good sequence goes quiet → storm → quiet → close → loud → quiet. That
 shape is not an editing decision. It is decided here.
 
 Sketch it. Put your twenty beats on a line and mark each one loud or quiet:
@@ -280,7 +280,7 @@ beats, you have no loud ones either; you just have noise.
 
 ---
 
-## Worked example — Script 02, beats 1 to 9
+## Worked example — Script 01, beats 1 to 9
 
 | # | Line | Job |
 |---|---|---|
@@ -337,7 +337,7 @@ Any box unticked, you are not ready to generate. You are ready to rewrite.
 ## Then, and only then
 
 With a beat sheet where every line has a job, go to
-[`docs/07-matching-visuals-to-dialogue.md`](07-matching-visuals-to-dialogue.md) and turn
+[`docs/02-matching-visuals-to-dialogue.md`](02-matching-visuals-to-dialogue.md) and turn
 each job into a picture, then each picture into a prompt.
 
 The story decides the shots. The shots decide the prompts. The generator is the last thing
