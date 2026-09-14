@@ -15,6 +15,8 @@ Plan to make the account eligible for the TikTok Creator Rewards Program after t
 8. [`docs/08-start-with-the-story.md`](docs/08-start-with-the-story.md) — the step before everything else: writing the script so every shot has a job.
 9. [`docs/09-anime-visuals-legitimately.md`](docs/09-anime-visuals-legitimately.md) — how to get the anime look without downloading anyone’s frames, plus the anime version of Script 01.
 10. [`docs/10-character-consistency.md`](docs/10-character-consistency.md) — the master character block, the shot prompt formula, and why seed-locking alone does not keep a face the same.
+11. [`docs/11-animating-shots.md`](docs/11-animating-shots.md) — the animation prompt formula, and why one action plus one camera move beats anything "cinematic".
+12. [`docs/12-anti-slop-checklist.md`](docs/12-anti-slop-checklist.md) — **the editorial gate to run before every upload, plus a troubleshooting table.**
 
 ## Scripts and prompts
 
