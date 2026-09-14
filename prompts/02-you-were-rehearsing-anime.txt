@@ -1,6 +1,6 @@
 ================================================================
 "YOU WERE REHEARSING" - AI VIDEO PROMPT PACK (ANIME STYLE)
-22 clips - 9:16 vertical - 1080x1920 - Script 02
+21 clips - 9:16 vertical - 1080x1920 - Script 02 - 1:02 cut
 ================================================================
 
 HOW TO USE
@@ -8,18 +8,26 @@ HOW TO USE
   horizontal or letterboxed result - that is the exact thing that
   got the account demonetized. If your tool only does 16:9, change
   tools. Do not crop a wide video to fit.
-- 5 seconds per clip is enough. 3 seconds for clips 2, 16, 19, 20.
+- Generate everything at 5 seconds and TRIM on the timeline. The
+  runtime of this video is tight (1:02 total) so the trim lengths
+  matter - each clip below lists the seconds it holds for.
 - Generate 3 takes of each, keep the best one.
 - Lock the SEED if your tool has one, so the man looks the same in
   every clip. He is the whole video.
 - TWO MATCHED PAIRS. Generate each pair back to back, same seed,
   same framing, changing ONLY the light:
-      CLIPS 1 and 20  - the bedroom from the doorway
-      CLIPS 2 and 19  - the extreme close-up of his eyes
-  These pairs are why people watch it twice. Do not skip clip 20.
-- Clip 10 is the only shot where he looks into the lens. Keep it
+      CLIPS 1 and 19  - the bedroom from the doorway
+      CLIPS 2 and 18  - the extreme close-up of his eyes
+  These pairs are why people watch it twice. Do not skip clip 19.
+- Clip 9 is the only shot where he looks into the lens. Keep it
   that way - it stops working if you use eye contact anywhere else.
 - Turn ON TikTok's AI-generated content label when you upload.
+
+LENGTH RULE FOR THIS CUT
+The voice ends at 58.7s and clip 19 holds in silence until the
+export reads 1:02. If your voiceover runs long or short, change the
+length of that final hold - never trim a word out of the script and
+never let the export drop below 1:01.
 
 WANT LIVE-ACTION INSTEAD?
 Delete this phrase everywhere it appears:
@@ -39,8 +47,9 @@ cars, mansions, stacks of cash, gold chains
 
 ================================================================
 
-[1] "You think about money more than you'd admit to anyone."
-    *** PAIR WITH 20 - SAME FRAMING, SAME SEED ***
+[1] 0.0-3.4  (3.4s)
+"You think about money more than you'd admit to anyone."
+    *** PAIR WITH 19 - SAME FRAMING, SAME SEED ***
 Static wide shot looking into a small bedroom from the open
 doorway at night, a young man in his mid-twenties, dark hair,
 plain dark t-shirt, lying on his back on the bed fully dressed, a
@@ -50,8 +59,9 @@ watercolour background, muted nostalgic palette, subtle film grain,
 90s anime aesthetic, clean line art, quiet and restless, static
 camera, anime film still, 9:16 vertical
 
-[2] "You'll probably get it."
-    *** PAIR WITH 19 - SAME FRAMING, SAME SEED ***
+[2] 3.4-4.7  (1.3s - short on purpose)
+"You'll probably get it."
+    *** PAIR WITH 18 - SAME FRAMING, SAME SEED ***
 Extreme close-up of a young man's eyes open in the dark, alert and
 calculating rather than dreamy, cold blue light across the upper
 face, deep shadow, cel-shaded anime, hand-painted watercolour
@@ -59,7 +69,8 @@ background, muted nostalgic palette, subtle film grain, 90s anime
 aesthetic, clean line art, certain, still camera, anime film still,
 9:16 vertical
 
-[3] "Not because wanting something hard enough bends reality,"
+[3] 4.7-7.4  (2.7s)
+"Not because wanting it badly enough bends reality,"
 Close-up of a hand dropping a single coin into the water of a stone
 fountain, ripples closing over it, pale daylight, shallow water,
 cel-shaded anime, hand-painted watercolour background, muted
@@ -67,8 +78,8 @@ nostalgic palette, subtle film grain, 90s anime aesthetic, clean
 line art, dismissive and quiet, static camera, anime film still,
 9:16 vertical
 
-[4] "but because a person who stays quietly obsessed with one
-     question for years"
+[4] 7.4-10.8  (3.4s)
+"but because a person obsessed with one question for years"
 Wide exterior night shot of a dark apartment block, dozens of black
 windows and exactly one window lit warm yellow near the top, empty
 street below, cold blue night, cel-shaded anime, hand-painted
@@ -76,7 +87,8 @@ watercolour background, muted nostalgic palette, subtle film grain,
 90s anime aesthetic, clean line art, solitary and persistent, slow
 push in, anime film still, 9:16 vertical
 
-[5] "ends up knowing things that can't be taught in a weekend."
+[5] 10.8-14.5  (3.7s)
+"ends up knowing things that can't be taught in a weekend."
 Close-up of a stack of worn notebooks on a desk, broken spines,
 pages dense with small handwriting in the margins, one open, warm
 desk lamp light, cel-shaded anime, hand-painted watercolour
@@ -84,8 +96,8 @@ background, muted nostalgic palette, subtle film grain, 90s anime
 aesthetic, clean line art, accumulated effort, slow pan across,
 anime film still, 9:16 vertical
 
-[6] "You start noticing which people in a room are building
-     something"
+[6] 14.5-17.9  (3.4s)
+"You start noticing who in a room is building something"
 Overhead shot of a small cafe table, two pairs of hands, one hand
 sketching a diagram on a paper napkin with a pen, the other hand
 slowly turning a glass, warm interior light, cel-shaded anime,
@@ -93,7 +105,8 @@ hand-painted watercolour background, muted nostalgic palette,
 subtle film grain, 90s anime aesthetic, clean line art, observant,
 static overhead camera, anime film still, 9:16 vertical
 
-[7] "and which ones are only describing it."
+[7] 17.9-19.6  (1.7s - short on purpose)
+"and who's only describing it."
 A young man talking with large sweeping hand gestures at a table,
 the two listeners' faces blank and unmoved, dim bar interior, warm
 dull light, cel-shaded anime, hand-painted watercolour background,
@@ -101,16 +114,8 @@ muted nostalgic palette, subtle film grain, 90s anime aesthetic,
 clean line art, hollow, slight slow motion, anime film still,
 9:16 vertical
 
-[8] "You learn the difference between a risk and a gamble,"
-Close-up of one hand placing a single chip down deliberately on a
-green felt table, no pile of chips, no crowd, one overhead light,
-dark surroundings, cel-shaded anime, hand-painted watercolour
-background, muted nostalgic palette, subtle film grain, 90s anime
-aesthetic, clean line art, deliberate and controlled, static close
-shot, anime film still, 9:16 vertical
-
-[9] "and you stop reading every loss as proof you were wrong to
-     try."
+[8] 19.6-23.6  (4.0s)
+"You stop reading every loss as proof you were wrong to try."
 A young man sitting on the edge of a bed in a dim room, elbows on
 knees, head lowered, then slowly lifting his head, grey light from
 one window, cel-shaded anime, hand-painted watercolour background,
@@ -118,7 +123,8 @@ muted nostalgic palette, subtle film grain, 90s anime aesthetic,
 clean line art, defeated then steady, static camera, anime film
 still, 9:16 vertical
 
-[10] "Nobody warns you about the hard part."   *** THE TURN ***
+[9] 23.6-26.0  (2.4s)   *** THE TURN ***
+"Nobody warns you about the hard part."
 Medium close-up of a young man looking directly into the camera,
 calm, unblinking, one side of his face lit by cold window light,
 plain dark background, cel-shaded anime, hand-painted watercolour
@@ -126,8 +132,9 @@ background, muted nostalgic palette, subtle film grain, 90s anime
 aesthetic, clean line art, direct and confrontational, static
 camera holding still, anime film still, 9:16 vertical
 
-[11] "Understanding it doesn't make the waiting easier - it makes
-      it worse,"
+[10] 26.0-29.7  (3.7s)
+"Understanding it doesn't make the waiting easier - it makes it
+ worse,"
 A young man standing completely still on a crowded train platform
 while a blurred crowd of commuters streams past him on both sides,
 grey daylight, cel-shaded anime, hand-painted watercolour
@@ -135,15 +142,16 @@ background, muted nostalgic palette, subtle film grain, 90s anime
 aesthetic, clean line art, stuck and impatient, slight slow motion
 on the crowd, anime film still, 9:16 vertical
 
-[12A] "because the clearer it gets,"
+[11A] 29.7-31.4  (1.7s)
+"because the clearer it gets,"
 Close-up of a hand wiping condensation from a cold window pane, a
 night city coming into sharp focus beyond the cleared streak, blue
 light, cel-shaded anime, hand-painted watercolour background, muted
 nostalgic palette, subtle film grain, 90s anime aesthetic, clean
 line art, clarifying, static camera, anime film still, 9:16 vertical
 
-[12B] "the more unbearable it is to watch yourself not doing it
-       yet."
+[11B] 31.4-35.4  (4.0s)   *** THE SCREENSHOT LINE ***
+"the more unbearable it is to watch yourself not doing it yet."
 A young man standing outside at night on a wet pavement, seen from
 behind, looking up through a tall glass wall into a brightly lit
 office floor where people are working late, he is outside in the
@@ -152,7 +160,8 @@ hand-painted watercolour background, muted nostalgic palette,
 subtle film grain, 90s anime aesthetic, clean line art, excluded
 and aching, slow push in, anime film still, 9:16 vertical
 
-[13] "That discomfort isn't a sign you're failing."
+[12] 35.4-37.8  (2.4s)
+"That discomfort isn't a sign you're failing."
 Close-up of two hands gripping the edge of a bathroom sink, head
 lowered out of frame, water running, harsh overhead light, tiled
 wall, cel-shaded anime, hand-painted watercolour background, muted
@@ -160,7 +169,8 @@ nostalgic palette, subtle film grain, 90s anime aesthetic, clean
 line art, gathering himself, static camera, anime film still,
 9:16 vertical
 
-[14A] "It's the distance between who you are"
+[13A] 37.8-40.2  (2.4s)
+"It's the distance between who you are"
 A young man standing small at one end of a long empty corridor,
 seen from far away, dim overhead strip lights, vanishing point
 perspective, cel-shaded anime, hand-painted watercolour background,
@@ -168,7 +178,8 @@ muted nostalgic palette, subtle film grain, 90s anime aesthetic,
 clean line art, distant and separated, static wide shot, anime film
 still, 9:16 vertical
 
-[14B] "and who you've already become in your head,"
+[13B] 40.2-42.9  (2.7s)
+"and who you've already become in your head,"
 The far end of the same long corridor, a figure of the same build
 standing in a doorway of bright white light, back turned, slightly
 out of focus and indistinct, cel-shaded anime, hand-painted
@@ -176,8 +187,8 @@ watercolour background, muted nostalgic palette, subtle film grain,
 90s anime aesthetic, clean line art, unreachable, slow push in,
 anime film still, 9:16 vertical
 
-[15] "and that distance is the only thing that has ever moved
-      anyone anywhere."
+[14] 42.9-46.9  (4.0s)
+"and that distance is the only thing that has ever moved anyone."
 Very wide landscape shot of a single tiny figure walking along a
 long empty road or bridge at first light, vast pale sky above,
 mist low on the ground, cel-shaded anime, hand-painted watercolour
@@ -185,7 +196,8 @@ background, muted nostalgic palette, subtle film grain, 90s anime
 aesthetic, clean line art, small but moving, static wide shot,
 anime film still, 9:16 vertical
 
-[16] "So it keeps pulling, and you keep closing it,"
+[15] 46.9-48.9  (2.0s)
+"So you keep closing it -"
 Close-up of a pair of feet in plain shoes walking steadily along wet
 pavement, one step after another, even rhythm, grey morning light,
 cel-shaded anime, hand-painted watercolour background, muted
@@ -193,7 +205,8 @@ nostalgic palette, subtle film grain, 90s anime aesthetic, clean
 line art, ordinary and relentless, low tracking shot, anime film
 still, 9:16 vertical
 
-[17] "a year at a time, badly, in private, with no one clapping."
+[16] 48.9-52.3  (3.4s)
+"a year at a time, badly, in private, with nobody clapping."
 A young man alone at a desk at four in the morning, lit only by a
 computer screen, a plate of cold half-eaten food beside him, empty
 chairs around the room, dark apartment, cel-shaded anime,
@@ -201,15 +214,16 @@ hand-painted watercolour background, muted nostalgic palette,
 subtle film grain, 90s anime aesthetic, clean line art, unwitnessed,
 slow pull back, anime film still, 9:16 vertical
 
-[18] "Until one day the life you kept picturing stops sounding like
-      a fantasy -"
+[17] 52.3-56.0  (3.7s)
+"Until the life you kept picturing stops sounding like a fantasy -"
 Slow push toward a large window as the sun rises gold over a quiet
 city skyline, warm light flooding into a dim room, dust in the air,
 cel-shaded anime, hand-painted watercolour background, muted
 nostalgic palette, subtle film grain, 90s anime aesthetic, clean
 line art, arriving, slow dolly in, anime film still, 9:16 vertical
 
-[19] "because you were never daydreaming."
+[18] 56.0-57.7  (1.7s)
+"because you were never daydreaming."
      *** PAIR WITH 2 - SAME FRAMING, SAME SEED, WARM LIGHT ***
 Extreme close-up of the same young man's eyes, identical framing to
 clip 2, now lit by warm gold morning light instead of cold blue,
@@ -218,9 +232,11 @@ background, muted nostalgic palette, subtle film grain, 90s anime
 aesthetic, clean line art, resolved, still camera, anime film still,
 9:16 vertical
 
-[20] "You were rehearsing."
+[19] 57.7-62.0  (1.0s of voice + 3.3s silent hold)
+"You were rehearsing."
      *** PAIR WITH 1 - IDENTICAL FRAMING, SAME SEED ***
      *** MOST IMPORTANT CLIP IN THE VIDEO ***
+     *** THIS CLIP'S HOLD IS YOUR LENGTH ADJUSTER ***
 Static wide shot looking into the same small bedroom from the same
 open doorway, identical framing to clip 1, now empty of people, the
 bed made, a desk lamp on in the corner, the desk chair pulled out,
@@ -234,9 +250,16 @@ clean line art, quiet and hopeful, static camera, anime film still,
 EDIT NOTES
 
 - Cut on the breath, never mid-word.
-- Bring clip 20 in about ONE SECOND BEFORE the words "You were
-  rehearsing," then hold it for 2.3 seconds of silence after the
-  voice stops. That silence is where people decide to rewatch.
-- Total runtime must land over 60 seconds. Target 74.
+- Bring clip 19 in about ONE SECOND BEFORE the words "You were
+  rehearsing," then hold it in silence until the timeline reads
+  1:02. That silence is where people decide to rewatch, and it is
+  also what keeps you above the 60-second earning threshold.
+- Clips 2, 7, 11A, 15 and 18 run under 2 seconds. That is deliberate
+  and only happens near the two ends of the video. Do not shorten
+  anything between clips 3 and 17 to save time - take it out of the
+  final hold instead, down to a floor of 2.0 seconds.
+- Keep "You were rehearsing" on screen as a caption through the
+  entire silent hold.
+- Total runtime must read 1:02. NEVER export under 1:01.
 - Export 1080x1920, highest bitrate, CapCut watermark OFF.
 ================================================================

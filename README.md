@@ -18,8 +18,8 @@ Plan to make the account eligible for the TikTok Creator Rewards Program after t
 
 - [`scripts/01-forgive-the-past.md`](scripts/01-forgive-the-past.md) — 70s, 20 beats, full shot list and generation prompts.
 - [`prompts/01-forgive-the-past-anime.txt`](prompts/01-forgive-the-past-anime.txt) — **copy-paste pack: all 22 clip prompts, anime style, ready for an AI video generator.**
-- [`scripts/02-you-were-rehearsing.md`](scripts/02-you-were-rehearsing.md) — 74s, 22 clips. Built on the engine behind the 1M-view video, with a turn at 31s and a two-word ending. Includes a teardown of why the 1M video worked and the reusable 8-move formula.
-- [`prompts/02-you-were-rehearsing-anime.txt`](prompts/02-you-were-rehearsing-anime.txt) — **copy-paste pack: all 22 clip prompts, anime or live-action.**
+- [`scripts/02-you-were-rehearsing.md`](scripts/02-you-were-rehearsing.md) — **1:02**, 174 words, 21 clips. Built on the engine behind the 1M-view video, with a turn at 24s and a two-word ending. Includes a teardown of why the 1M video worked and the reusable 8-move formula.
+- [`prompts/02-you-were-rehearsing-anime.txt`](prompts/02-you-were-rehearsing-anime.txt) — **copy-paste pack: all 21 clip prompts with trim lengths, anime or live-action.**
 
 ## Account snapshot (Sep 2026)
 
