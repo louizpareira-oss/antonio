@@ -198,6 +198,28 @@ So the test is never "is this a new sentence." It is:
 A held shot across two lines is not a missing cut. It is a decision, and it reads as
 confidence — the thing that separates a film from a slideshow.
 
+### Dialogue: short enough to attach to an action
+
+Every spoken line should be attachable to a **specific character action** in the shot that
+carries it. That is the length test — not a word count:
+
+> **Name the action happening while the line is spoken. If you cannot, the line is too
+> long or too abstract.**
+
+Script 01 passes it everywhere. *"It's putting down the case you've been building"* attaches
+to hands setting a folder down. *"You were never the judge"* attaches to a man standing and
+looking up at an empty bench. The line and the body are doing the same thing at the same
+moment, which is why it reads as a film rather than narration over stock.
+
+The exception is real but narrow: **a long speech is allowed when the entire shot is built
+around it** — one held frame, one face, no cutting, the length itself being the point. One
+of those per video at most. If you are cutting away during a speech, the speech is too
+long; if you are holding on nothing, it was never a shot.
+
+**Narration is a last resort.** In a multi-character scene, a narration line that describes
+something already visible is the single most common thing to cut. The pictures are already
+telling the viewer; saying it as well makes both weaker.
+
 ---
 
 ## Step 5 — Give every beat a job
