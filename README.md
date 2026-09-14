@@ -17,12 +17,18 @@ Plan to make the account eligible for the TikTok Creator Rewards Program after t
 10. [`docs/10-character-consistency.md`](docs/10-character-consistency.md) — the master character block, the shot prompt formula, and why seed-locking alone does not keep a face the same.
 11. [`docs/11-animating-shots.md`](docs/11-animating-shots.md) — the animation prompt formula, and why one action plus one camera move beats anything "cinematic".
 12. [`docs/12-anti-slop-checklist.md`](docs/12-anti-slop-checklist.md) — **the editorial gate to run before every upload, plus a troubleshooting table.**
+13. [`docs/13-file-organization-and-batching.md`](docs/13-file-organization-and-batching.md) — folder structure, file naming, and the four production batches.
 
 ## Scripts and prompts
 
 - [`scripts/00-template.md`](scripts/00-template.md) — **blank fill-in template: claim, spine, job sheet, shot list, prompts, and the checklist that gates generating.**
 - [`scripts/01-forgive-the-past.md`](scripts/01-forgive-the-past.md) — 70s, 20 beats, full shot list and generation prompts.
+- [`prompts/00-master-prompt-library.txt`](prompts/00-master-prompt-library.txt) — **reusable fill-in prompts for every stage: story, character, scene, animation, negatives.**
 - [`prompts/01-forgive-the-past-anime.txt`](prompts/01-forgive-the-past-anime.txt) — **copy-paste pack: all 22 clip prompts, anime style, ready for an AI video generator.**
+
+## Tools
+
+- [`tools/new-video.sh`](tools/new-video.sh) — creates `VIDEO_NNN/` with the six stage folders and seeds the script template.
 
 ## Account snapshot (Sep 2026)
 

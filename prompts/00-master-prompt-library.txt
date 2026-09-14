@@ -1,0 +1,152 @@
+================================================================
+MASTER PROMPT LIBRARY
+Reusable fill-in prompts for every stage. Tool-agnostic.
+================================================================
+
+Use in this order. Do not skip ahead — each one consumes the
+output of the one before it.
+
+  1. STORY        -> five beats
+  2. CHARACTER    -> the master block, written once per character
+  3. SCENE        -> one per shot
+  4. ANIMATION    -> one per approved still
+
+Method: docs/08 (story), docs/10 (character), docs/11 (animation).
+
+----------------------------------------------------------------
+ORDERING RULE — applies to every prompt below
+----------------------------------------------------------------
+Put what controls the shot first:
+
+  character -> action -> setting -> camera -> expression
+
+More words do not mean better images. Anything after that
+sequence is decoration, and decoration is the first thing to cut
+when a shot comes out wrong. Do not stuff unrelated style terms
+into every prompt - if two thirds of your words are "cinematic,
+8k, masterpiece, trending", you cannot tell which one caused a
+bad result.
+
+================================================================
+1. STORY
+================================================================
+
+Create a short-form story around this concept: [IDEA].
+Use five beats: hook, setup, escalation, payoff setup, payoff.
+Make the opening immediately interesting - open inside the
+situation, do not explain the setup first.
+Keep dialogue short and easy to attach to specific visual actions.
+End with a clear payoff.
+
+Constraints to add for this account:
+  - Target 65-90 seconds. Roughly 20 beats.
+  - Escalation is the longest movement, the payoff the shortest.
+  - The last beat should recontextualise the first.
+  - One controlling image for the whole piece, not three.
+
+================================================================
+2. CHARACTER CREATION  (write once, reuse verbatim)
+================================================================
+
+Create a consistent recurring character: [DESCRIPTION].
+Distinctive identifying features: [FEATURES].
+Clothing/accessories: [DETAILS].
+Expression/personality: [TRAITS].
+Visual style: [STYLE].
+Create a clean vertical composition suitable for short-form video.
+Prioritize consistent anatomy, markings, proportions and
+recognizable identity.
+
+Then collapse the result into a MASTER BLOCK you paste into every
+later prompt. Never paraphrase it - "dark coat" in one prompt and
+"black jacket" in the next is two different characters.
+
+MASTER BLOCK
+A [subject], with [distinctive markings], [eye / face details],
+[body proportions], wearing [outfit / accessory].
+Visual style: [style]. Lighting: [lighting].
+Environment: [world / location].
+Keep the character design, markings, proportions and accessories
+consistent across every shot.
+
+SHORT FORM  (for hands/objects shots where they are not the subject)
+the same [subject] - [one marking], [one garment] - same design as
+previous shots
+
+Script 01's filled-in block lives in docs/10-character-consistency.md.
+
+================================================================
+3. SCENE / SHOT
+================================================================
+
+Use the established character exactly as described.
+Scene: [LOCATION].
+Action: [ACTION].
+Emotion: [EMOTION].
+Other character/object: [DETAIL].
+Camera: [SHOT TYPE + ANGLE].
+Lighting: [LIGHTING].
+
+Single-line form:
+
+[MASTER BLOCK] + [ACTION] + [ENVIRONMENT] +
+[CAMERA / COMPOSITION] + [EXPRESSION] + [LIGHTING] +
+consistent character design and proportions, 9:16 vertical
+
+Locked - never rephrase:   species/age/build, markings, hair,
+                           eyes, outfit, visual style, lighting family
+Free - change every shot:  camera angle, location within the world,
+                           pose, expression, action
+
+FOR A SHOT WITH NO RECURRING CHARACTER (a doorway, hands, rain)
+use the simpler docs/07 formula instead:
+
+[subject] + [action] + [environment] + [light] + [mood] +
+[camera] + 9:16 vertical
+
+================================================================
+4. ANIMATION  (one per approved still)
+================================================================
+
+Animate the existing scene while preserving the character's
+identity and appearance.
+The [character] [specific action]. Its [head / eyes / body] move
+naturally as it reacts.
+The camera [subtle camera movement]. Keep the environment stable.
+Do not redesign the character or introduce new objects.
+
+RESTRAINT: one character action + one camera move. Nothing else.
+Name body parts - "eyes drop, head turns slightly away", never
+"reacts emotionally", never "exciting cinematic animation".
+
+Camera moves that survive generation:
+  static (internal motion only) . slow push in . slow pull back
+  short slow pan . barely-perceptible handheld drift
+Avoid: orbits, crash zooms, drone moves, whip pans.
+
+================================================================
+5. NEGATIVE PROMPT  (paste into the negative field every time)
+================================================================
+
+text, watermark, logo, subtitles, captions, signature, extra limbs,
+deformed hands, distorted face, horizontal, letterbox, black bars,
+split screen, collage
+
+Add for an anime look:  photorealistic, 3d render, cgi
+
+================================================================
+6. BEFORE YOU SPEND A GENERATION
+================================================================
+
+[ ] The beat this shot serves has a job.
+[ ] The master block is pasted, not paraphrased.
+[ ] Only camera, location, pose, expression and action changed.
+[ ] Expression is stated explicitly.
+[ ] The prompt ends with a consistency instruction.
+[ ] No style terms that do not describe this shot.
+[ ] Generating 9:16 native, 1080x1920 - never crop a wide result.
+[ ] Seed locked, if the tool has one.
+
+Approve the still BEFORE animating it. Animating an unapproved
+still is the most expensive mistake in this workflow - you pay
+twice and throw both away.
