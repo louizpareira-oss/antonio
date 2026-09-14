@@ -69,33 +69,34 @@ Pick one per shot. These are the ones that survive generation:
 |---|---|---|
 | **Static, internal motion only** | Close-ups, hands, faces | The safest. Motion comes from the subject, not the frame |
 | **Slow push in** | Building pressure, a turn, a realization | The default for escalation beats |
-| **Slow pull back** | A reveal of context — he was alone the whole time | Script 01's beat 2 |
+| **Slow pull back** | A reveal of context — the whole floor was empty | Script 02's beat 13 |
 | **Slow pan** | Following a body across a space | Keep it short; pans drift |
 | **Gentle handheld drift** | Memory, unease | Easy to overdo. Barely perceptible is correct |
 
 Avoid: orbits, crash zooms, drone moves, whip pans. They read as generated, they fight
 your cut, and they are the first thing a viewer registers as AI.
 
-**Matched shots need matched cameras.** Script 01's clips 3 and 20 are the same doorway
-seen twice. Same framing, same move, same duration, or the return does not land.
+**Matched shots need matched cameras.** Script 02's beats 1 and 22 are the same bench seen
+twice. Same framing, same move, same duration, or the return does not land.
 
 ---
 
-## Applying it to Script 01
+## Applying it to Script 02
 
-The pack's shots divide cleanly:
+The shots divide cleanly by type:
 
 | Shot type | Beats | Animation direction |
 |---|---|---|
-| Face / close-up | 1, 2, 7, 19 | Static camera. Eyes, jaw, breath only |
-| Hands / objects | 9, 11, 17 | Static camera. One action, completed — the folder is set down and released |
-| Thresholds | 3, 8, 10, 16, 20 | Slow push, or static. Nothing enters the frame |
-| Wide / alone | 6, 12, 14, 15, 18 | Slow pull back. The emptiness is the subject |
-| Montage | 5 | Three separate short clips, static each. Do not animate one into another |
+| Face / close-up | 2, 10, 20, 21 | Static camera. Eyes and one small movement only |
+| Hands / objects | 3, 4, 7, 11, 14, 16, 18 | Static camera. One action, completed — coins go down, bread tears |
+| Wide / alone | 12, 13, 15, 19 | Slow pull back, or static. The emptiness is the subject |
+| Bench (matched pair) | 1, 22 | Static, identical framing. Only the light and the second figure change |
+| Arrivals | 17 | Static. Birds land; the camera does not follow them |
 
-Beat 5 is worth calling out: *"In the shower. On the bus. At three in the morning."* Three
-locations is three clips, not one clip that travels. Asking a generator to move between
-locations is asking it to invent the space in between, and it will.
+Beat 8 is worth calling out: *"I laughed. That was the mistake."* The direction is
+shoulders rising and falling twice, seen from behind, and **nothing else** — no head, no
+turn, no camera move. A single restrained action carries the most important turn in the
+script. Ask for more and you will get a clip you cannot use.
 
 ---
 

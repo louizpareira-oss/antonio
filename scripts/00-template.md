@@ -61,7 +61,7 @@ abstract. Long speeches are allowed only when the entire shot is built around th
 
 Use whichever register the video needs. Delete the other.
 
-### Single voice (monologue — the Script 01 register)
+### Single voice (monologue — the Script 02 register)
 
 ```
 [beat 1 line]

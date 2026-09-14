@@ -52,7 +52,8 @@ If nobody can disagree with it, it is a slogan, and slogans scroll past.
 | Choose peace over drama | Avoiding conflict to keep the peace starts a war you host by yourself |
 
 Write your claim at the top of the file and do not start writing lines until it is there.
-Script 01 keeps it under a heading called **"The idea underneath"** — copy that habit.
+`scripts/00-template.md` keeps it under a heading called **"The idea underneath"** — copy
+that habit.
 
 If the sentence takes you three sentences, you do not have it yet. Keep cutting.
 
@@ -70,8 +71,8 @@ shape you chose on purpose. Four that work in this niche:
 | **The Reframe** | Take one common word and redefine it by the end | 14–18 | Big abstract nouns: forgiveness, discipline, love |
 | **The Escalation** | Small → larger → largest → one quiet line | 20–24 | Anger, urgency, wake-up-call energy |
 
-Script 01 is a Reversal wearing a Confession: *you think you're angry about the event* →
-*you're angry about the version that never happened* → *and you were never the judge.*
+Script 02 is a Confession wearing a Reversal: *people keep throwing bread at me* → *none of
+them were cruel, they were comfortable* → *and I started buying the bread myself.*
 
 Two turns, not one. **The last turn should recontextualise the opening line**, so the
 viewer wants to hear the first eight seconds again. That is the entire rewatch mechanic,
@@ -107,24 +108,24 @@ The five contain the twenty. Steps 4 and 5 below are about shot beats.
 
 ### How the twenty sit inside the five
 
-Script 01, mapped:
+Script 02, mapped:
 
 | Movement | Shot beats | Time | Share |
 |---|---|---|---|
-| Hook | 1–2 | 0.0–5.5s | 8% |
-| Setup | 3–5 | 5.5–16.0s | 15% |
-| Escalation | 6–13 | 16.0–45.0s | 41% |
-| Payoff setup | 14–18 | 45.0–62.0s | 24% |
-| Payoff | 19–20 + hold | 62.0–70.0s | 11% |
+| Hook | 1–3 | 0.0–9.0s | 12% |
+| Setup | 4–6 | 9.0–19.5s | 14% |
+| Escalation | 7–16 | 19.5–55.0s | 47% |
+| Payoff setup | 17–19 | 55.0–65.5s | 14% |
+| Payoff | 20–22 | 65.5–75.0s | 13% |
 
 Read that column of shares before you write. **Escalation is the largest movement and the
 payoff is the shortest.** Most first drafts get this exactly backwards — a long windup and
 a rushed middle, then a final third that keeps explaining the ending.
 
-Beats 14–18 are worth studying. They are doing nothing but loading the reveal: *they sleep
-fine*, *you're the only one still sitting there*, *no one is behind the bench*, *the bars
-loosen*, *the tally marks*. Then beat 19 is four words. The payoff is short **because** the
-payoff setup was long.
+Beats 17–19 are worth studying. They do nothing but load the reveal: *the real ones came
+down for the crumbs*, *they didn't know me either*, *not one thing and not the other*. Then
+the payoff is two words of dialogue and a blink. It is short **because** the setup was
+patient.
 
 ### Which jobs live in which movement
 
@@ -144,28 +145,28 @@ If a movement contains no job from its row, that movement is not doing its work 
 
 Pick a single concrete world and pull all your vocabulary from it.
 
-Script 01 picks a **courtroom**: building a case, collecting evidence, a trial that never
-comes, the bench, the sentence, the defendant. Every abstract idea in the script arrives
-wearing courtroom clothes.
+Script 02 picks **feeding**: bread, crumbs, a flock, being fed versus buying your own bag.
+Every abstract idea in the script arrives wearing it — *one conversation that didn't end in
+crumbs* is loneliness, and it never says the word.
 
 You get three things free:
 
-1. **The lines stop being abstract.** "Put down the case you've been building" is a
-   picture. "Let go of resentment" is not.
+1. **The lines stop being abstract.** "A bag of bread I bought for myself" is a picture.
+   "I internalised how they saw me" is not.
 2. **The visuals cohere automatically.** You now have a look, and you did not have to
    invent one per shot.
 3. **The return becomes available.** Doc 07's strongest technique — show an image early,
    bring it back changed — only works if there *is* a recurring image. That is this.
 
-**One image per video.** A courtroom *and* a storm *and* a locked door is not three
-metaphors, it is none.
+**One image per video.** Feeding *and* a storm *and* a locked door is not three metaphors,
+it is none.
 
 ---
 
 ## Step 4 — Write in beats, not paragraphs
 
 Write the voiceover as single lines with blank lines between them, the way
-`scripts/01-forgive-the-past.md` does. The line breaks are your pauses; you breathe at
+`scripts/02-the-feeding.md` does. The line breaks are your pauses; you breathe at
 each one, and you cut at each one.
 
 Four rules:
@@ -184,12 +185,12 @@ twenty jobs.
 
 Doc 07 says *one picture per pause*. That rule and the one above only look like they
 disagree; both are counting **visual ideas**, and a sentence is not reliably one of those.
-It cuts both ways, and Script 01 does both:
+It cuts both ways, and Script 02 does both:
 
-| | Script 01 | What happens |
+| | Script 02 | What happens |
 |---|---|---|
-| **Two sentences, one shot** | Beat 6 — *"Every time, I win. Every time, I say the perfect thing."* | Held on one shot: a man speaking to an empty chair. The second sentence deepens the picture, it does not replace it. Cutting there would throw away the shot's best second |
-| **One line, three shots** | Beat 5 — *"In the shower. On the bus. At three in the morning."* | Three locations is three pictures. Holding one shot would flatten the whole point of the line |
+| **Two sentences, one shot** | Beat 8 — *"I laughed. That was the mistake."* | Held on one shot: his shoulders moving, seen from behind. The second sentence reinterprets the picture rather than replacing it. Cutting there would throw away the turn |
+| **One line, three shots** | A montage line — *"in the shower, on the bus, at three in the morning"* | Three locations is three pictures. Holding one shot would flatten the point of the line |
 
 So the test is never "is this a new sentence." It is:
 
@@ -206,10 +207,10 @@ carries it. That is the length test — not a word count:
 > **Name the action happening while the line is spoken. If you cannot, the line is too
 > long or too abstract.**
 
-Script 01 passes it everywhere. *"It's putting down the case you've been building"* attaches
-to hands setting a folder down. *"You were never the judge"* attaches to a man standing and
-looking up at an empty bench. The line and the body are doing the same thing at the same
-moment, which is why it reads as a film rather than narration over stock.
+Script 02 passes it everywhere. *"In November I bought a bag of bread. For myself"* attaches
+to a hand putting coins on a shop counter. *"I laughed"* attaches to shoulders moving, seen
+from behind. The line and the body do the same thing at the same moment, which is why it
+reads as a film rather than narration over stock.
 
 The exception is real but narrow: **a long speech is allowed when the entire shot is built
 around it** — one held frame, one face, no cutting, the length itself being the point. One
@@ -279,21 +280,23 @@ beats, you have no loud ones either; you just have noise.
 
 ---
 
-## Worked example — Script 01, first seven beats
+## Worked example — Script 02, beats 1 to 9
 
 | # | Line | Job |
 |---|---|---|
-| 1 | You're not still angry about what happened. | **Hook** — sounds wrong on purpose |
-| 2 | You're angry that it didn't happen differently. | **Turn** — the claim lands |
-| 3 | I was nineteen the last time I spoke to him. | **Evidence** — a real number, a real person |
-| 4 | I've had that conversation four hundred times since. | **Evidence** — the specific absurd count |
-| 5 | In the shower. On the bus. At three in the morning. | **Escalation** — same idea, three places |
-| 6 | Every time, I win. Every time, I say the perfect thing. | **Escalation** — peak of the fantasy |
-| 7 | And every time, I wake up, and it still went the way it went. | **Turn** — the floor drops out |
+| 1 | The first one hit me in the chest. | **Hook** — opens mid-incident, no runway |
+| 2 | I was twenty-six. I was wearing my good coat. | **Evidence** — a real age, a real garment |
+| 3 | Nobody throws bread at a man in a good coat. | **Turn** — the joke that is not a joke |
+| 4 | My name is Marcus. I do accounts payable. | **Setup** — who |
+| 5 | I have a flat, a season ticket, and a mother who calls on Sundays. | **Evidence** — an ordinary life, itemised |
+| 6 | What I wanted was one conversation that didn't end in crumbs. | **Evidence** — what he wants |
+| 7 | At work, someone left a slice of white bread on my keyboard. | **Escalation** — it follows him indoors |
+| 8 | I laughed. That was the mistake. | **Turn** — he joins in against himself |
+| 9 | Once you laugh, it's a bit. And a bit has to keep going. | **Escalation** — the trap closes |
 
-Every beat is doing one thing. Delete beat 4 and beat 5 has nothing to escalate. Delete
-beat 6 and beat 7 has no height to fall from. That is what "gives every shot a job" means
-in practice: **the sequence would break without it.**
+Every beat does one thing. Delete beat 5 and beat 6's want has no ordinary life to sit
+against. Delete beat 8 and beat 9 has nothing to explain. That is what "gives every shot a
+job" means in practice: **the sequence would break without it.**
 
 ---
 
@@ -322,7 +325,7 @@ Any box unticked, you are not ready to generate. You are ready to rewrite.
 | No controlling image | Every shot looks like it came from a different video | Step 3 — one world |
 | Beats that only set up other beats | Viewers drop around 15–20 seconds | Deletion test |
 | All escalation, no quiet | Exhausting; no rewatches | Energy map — add landings |
-| Reveal in the middle | The last 20 seconds have nothing to do | Move it to beat 18–19 |
+| Reveal in the middle | The last 20 seconds have nothing to do | Move it into the final movement |
 | Runway before the hook | Drop-off in the first 3 seconds | Open inside the situation; move the setup after it |
 | Payoff setup skipped | The twist lands on nothing and reads as random | Spend 20%+ of runtime loading it, as beats 14–18 do |
 | Explaining after the payoff | Strong ending, then a limp final 10 seconds | End on the Landing. Say less than you want to |

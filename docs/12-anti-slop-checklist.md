@@ -48,7 +48,9 @@ the day you made it.
 
 ## If a character speaks on screen
 
-Script 01 is a voiceover monologue, so lip-sync is not a risk. If you make a scene where a
+Script 02 is voiceover-led, and its character has a beak — lip-sync is not merely a risk
+there, it is impossible, which is why the script routes its one spoken line to a human.
+If you make a scene where a
 character speaks on camera, two extra rows apply:
 
 - [ ] The clip has usable head and mouth movement at the moment of the line.

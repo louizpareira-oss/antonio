@@ -113,7 +113,7 @@ SHORT FORM  (for hands/objects shots where they are not the subject)
 the same [subject] - [one marking], [one garment] - same design as
 previous shots
 
-Script 01's filled-in block lives in docs/10-character-consistency.md.
+A filled-in block lives in scripts/02-the-feeding.md.
 
 ================================================================
 4. SCENE / SHOT

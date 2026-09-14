@@ -49,9 +49,9 @@ Four rules that matter more than they look:
 
 - **Zero-pad the beat number.** `01`, not `1`. Otherwise your file manager sorts
   `1, 10, 11, 12, 2, 20, 3` and the shot list stops matching the folder.
-- **Keep split beats lettered**, matching the prompt pack: beat 5 is already `5A`, `5B`,
-  `5C` in `prompts/01-forgive-the-past-anime.txt`, so the files are `05A_SETUP_STILL.png`
-  and so on. Twenty beats, twenty-two clips — the numbering has to absorb that.
+- **Keep split beats lettered.** When one line needs three pictures — a montage of
+  locations, say — it stays one beat and becomes `05A_SETUP_STILL.png`, `05B_…`, `05C_…`.
+  Beat count and clip count are not the same number, and the naming has to absorb that.
 - **The movement name is there so you can see the spine in the file list.** Scrolling a
   folder that reads HOOK, HOOK, SETUP, SETUP, SETUP, ESCALATION… tells you instantly
   whether your escalation is too short.
@@ -59,12 +59,12 @@ Four rules that matter more than they look:
 
 ### Mark the matched pair
 
-Script 01's clips 3 and 20 are the same doorway, and the rewatch depends on them matching.
+Script 02's beats 1 and 22 are the same bench, and the rewatch depends on them matching.
 Name them so you cannot miss it:
 
 ```
-03_SETUP_STILL_PAIR.png
-20_PAYOFF_STILL_PAIR.png
+01_HOOK_STILL_PAIR.png
+22_PAYOFF_STILL_PAIR.png
 ```
 
 ---

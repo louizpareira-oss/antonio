@@ -11,8 +11,8 @@ This is the how.
 
 ## Seed-locking is not the answer
 
-`prompts/01-forgive-the-past-anime.txt` currently says *"Lock the SEED if your tool has
-one, so the man looks the same."* That advice is not wrong, it is just not enough:
+The usual advice is *"lock the seed so the character looks the same."* That is not wrong,
+it is just nowhere near enough:
 
 - A seed reproduces a result **for the same prompt**. Change the prompt — which you must,
   every shot — and the seed no longer protects the face.
@@ -53,30 +53,46 @@ instantly. Give your character one thing that unmistakable.
 
 ---
 
-## Script 01's master block
+## A worked master block
 
-Ready to paste at the top of the prompt pack:
+From [`scripts/02-the-feeding.md`](../scripts/02-the-feeding.md) — a character who is a
+human body with a pigeon's head, which makes every field above do visible work:
 
 ```
-MASTER CHARACTER
-A young man in his mid-twenties, lean build with narrow shoulders and
-slightly hollow cheeks, straight black hair falling over his right
-eyebrow, tired dark brown eyes with faint shadows beneath them, wearing
-a long charcoal overcoat with the collar turned up over a plain grey shirt.
+MASTER CHARACTER — MARCUS
+A man in his late twenties with the head of a common city pigeon:
+smooth grey feathers, an iridescent green-violet sheen across the
+throat, a narrow coral-red ring around each dark orange eye, short
+pale beak. Human body, average height, slightly narrow shoulders,
+human hands. Wearing a good navy wool overcoat over a white shirt,
+with an office lanyard at the chest.
 Visual style: 90s cel-shaded anime, clean line art, hand-painted
 watercolour backgrounds, muted nostalgic palette, subtle film grain.
-Lighting: single-source — cold blue night, or flat grey morning.
-Environment: an unnamed city at night, and an empty wood-panelled courtroom.
-Keep the character design, hair, eyes, proportions and the overcoat
-consistent across every shot.
+Lighting: overcast grey daylight, sodium streetlight at night, or
+cold blue dawn.
+Environment: an unnamed grey city — a park bench, an open-plan
+office, a corner shop.
+Keep the head, eye-ring, throat sheen, proportions, overcoat and
+lanyard consistent across every shot.
 ```
 
-**Short form**, for shots where he is not the subject (hands, objects, the doorway):
+**Short form**, for shots where he is not the subject (hands, objects, an empty bench):
 
 ```
-the same young man — black hair over the right eyebrow, charcoal overcoat,
-collar turned up — same design as previous shots
+the same man with a pigeon's head — coral-red eye-ring, navy overcoat,
+lanyard — same design as previous shots
 ```
+
+The coral-red eye-ring is the distinctive marking; the navy overcoat and lanyard are the
+anchors that survive any angle. `human hands` is in there for a reason — a character who is
+part bird will grow talons the moment you stop saying otherwise.
+
+### Negatives are part of the character
+
+A composite character needs negative terms as specific as its positive ones. Script 02
+carries `multiple heads, bird body, full bird` on every clip, because generators drift
+toward a whole pigeon, or a bird perched on a human neck. Work out your character's
+failure mode early and name it every time.
 
 ---
 
@@ -152,32 +168,31 @@ not a fresh paragraph each time.
 
 ---
 
-## Audit: what the current pack gets wrong
+## Audit your own prompt pack
 
-Measured against `prompts/01-forgive-the-past-anime.txt` as it stands:
+Before generating, run these counts over the pack you are about to spend money on. They
+take a minute and they predict exactly how the character will fall apart:
 
-| Finding | Count | Effect |
+| Check | Target | What failing it costs |
 |---|---|---|
-| Prompts containing a consistency instruction | **0 of 22** | Nothing tells the model the man is the same man |
-| Distinct phrasings of the same character | **9** | "young man in his mid-twenties", "young man in a dark overcoat", "young man waking on a futon" … |
-| Shots naming his age | **2** | He will read as a different age in the other shots |
-| Shots naming his hair | **2** | Hair colour and cut will drift |
-| Shots naming his eyes | **0** | Faces drift fastest and nothing is holding them |
-| Full style block repeated per prompt | **20 times** | ~30 words per prompt describing style, not the shot |
+| Prompts containing a consistency instruction | **all of them** | Nothing tells the model this is the same character |
+| Distinct phrasings of the character | **1** | Every extra phrasing is another person as far as the model is concerned |
+| Prompts naming the eyes | **all with a face** | Faces drift fastest; nothing else holds them |
+| Prompts naming the distinctive marking | **all** | The one thing a viewer tracks between cuts |
+| Style block repeated per prompt | **0** | Words spent on style are words not spent on the shot |
 
-Clips 3 and 20 are the matched pair the whole video's rewatch depends on — the doorway,
-seen again at dawn. They are the shots most at risk from drift, and right now they are
-protected by a seed and nothing else.
+```sh
+grep -c "consistent character design" prompts/your-pack.txt
+```
 
-**The fix:** paste the master block at the top of the pack, replace all nine phrasings with
-it, strip the repeated style paragraph down to a short tag, and close every prompt with
-`consistent character design and proportions`.
+The shots most at risk are always the **matched pair** — the frame you show early and
+bring back changed. They carry the rewatch, and a seed alone will not protect them.
 
 ---
 
 ## More than one character
 
-Script 01 has one man on screen, so one block is enough. For a scene with dialogue
+Script 02 has one recurring character, so one block is enough. For a scene with dialogue
 (`scripts/00-template.md`'s Character A / Character B register):
 
 - **One master block per character**, labelled, both at the top of the pack.
