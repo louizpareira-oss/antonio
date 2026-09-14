@@ -79,6 +79,67 @@ and it is decided here, in the writing — not in the edit.
 
 ---
 
+## The five-beat spine
+
+Whichever shape you picked, it sits on the same spine. Five movements, in this order:
+
+| # | Movement | Its one duty | Failure mode |
+|---|---|---|---|
+| 1 | **Hook** | Open *inside* the unusual situation, conflict or question | Spending seconds explaining the setup first |
+| 2 | **Setup** | Establish who is involved and what they want | Being interesting instead of being clear |
+| 3 | **Escalation** | Make it harder, stranger, funnier or more emotional | Restating instead of raising |
+| 4 | **Payoff setup** | The moment immediately before the reveal | Skipping it, so the payoff has nothing to land on |
+| 5 | **Payoff** | Deliver the twist, win, loss or emotional resolution | Explaining it after delivering it |
+
+**Beat 1 does not get a runway.** The most common short-form failure is three seconds of
+throat-clearing before the situation starts. Open in it. The Setup can arrive *after* the
+Hook — the viewer will wait ten seconds for context they have a reason to want, and zero
+seconds for context they do not.
+
+### Two words called "beat"
+
+This document now uses the word twice, deliberately:
+
+- **Spine beats** — the five movements above. Sections of the video. Five per script.
+- **Shot beats** — one line, one picture, 2.5–4 seconds. Roughly twenty per script.
+
+The five contain the twenty. Steps 4 and 5 below are about shot beats.
+
+### How the twenty sit inside the five
+
+Script 01, mapped:
+
+| Movement | Shot beats | Time | Share |
+|---|---|---|---|
+| Hook | 1–2 | 0.0–5.5s | 8% |
+| Setup | 3–5 | 5.5–16.0s | 15% |
+| Escalation | 6–13 | 16.0–45.0s | 41% |
+| Payoff setup | 14–18 | 45.0–62.0s | 24% |
+| Payoff | 19–20 + hold | 62.0–70.0s | 11% |
+
+Read that column of shares before you write. **Escalation is the largest movement and the
+payoff is the shortest.** Most first drafts get this exactly backwards — a long windup and
+a rushed middle, then a final third that keeps explaining the ending.
+
+Beats 14–18 are worth studying. They are doing nothing but loading the reveal: *they sleep
+fine*, *you're the only one still sitting there*, *no one is behind the bench*, *the bars
+loosen*, *the tally marks*. Then beat 19 is four words. The payoff is short **because** the
+payoff setup was long.
+
+### Which jobs live in which movement
+
+| Movement | Jobs it is made of (Step 5) |
+|---|---|
+| Hook | Hook, sometimes an immediate Turn |
+| Setup | Evidence |
+| Escalation | Escalation, Turn |
+| Payoff setup | Evidence, Escalation, Turn |
+| Payoff | Reveal, Landing |
+
+If a movement contains no job from its row, that movement is not doing its work yet.
+
+---
+
 ## Step 3 — One controlling image
 
 Pick a single concrete world and pull all your vocabulary from it.
@@ -107,15 +168,35 @@ Write the voiceover as single lines with blank lines between them, the way
 `scripts/01-forgive-the-past.md` does. The line breaks are your pauses; you breathe at
 each one, and you cut at each one.
 
-Three rules:
+Four rules:
 
 - **One idea per line.** If a line contains "and" joining two ideas, it is two beats.
 - **2.5–4 seconds when read aloud.** Read it out. If you run out of breath, split it.
 - **No line exists only to set up the next one.** A beat that carries no weight of its own
   is a beat the viewer uses to leave.
+- **Count visuals, not sentences.** If a sentence does not require a new picture, it does
+  not get its own shot.
 
 At 70 seconds you are writing roughly **20 beats**. That is the budget. Twenty pictures,
 twenty jobs.
+
+### The sentence is not the unit — the picture is
+
+Doc 07 says *one picture per pause*. That rule and the one above only look like they
+disagree; both are counting **visual ideas**, and a sentence is not reliably one of those.
+It cuts both ways, and Script 01 does both:
+
+| | Script 01 | What happens |
+|---|---|---|
+| **Two sentences, one shot** | Beat 6 — *"Every time, I win. Every time, I say the perfect thing."* | Held on one shot: a man speaking to an empty chair. The second sentence deepens the picture, it does not replace it. Cutting there would throw away the shot's best second |
+| **One line, three shots** | Beat 5 — *"In the shower. On the bus. At three in the morning."* | Three locations is three pictures. Holding one shot would flatten the whole point of the line |
+
+So the test is never "is this a new sentence." It is:
+
+> **Does the picture change? If it does not, hold. If it does, cut.**
+
+A held shot across two lines is not a missing cut. It is a decision, and it reads as
+confidence — the thing that separates a film from a slideshow.
 
 ---
 
@@ -198,6 +279,8 @@ in practice: **the sequence would break without it.**
 
 - [ ] My claim is one sentence, and someone could argue with it.
 - [ ] I chose a shape, and I know where the turns are.
+- [ ] All five spine beats are present, and the Hook opens inside the situation.
+- [ ] Escalation is my longest movement and the Payoff is my shortest.
 - [ ] I have one controlling image, not three.
 - [ ] The script is written as beats with blank lines between them.
 - [ ] Every beat has a job written next to it.
@@ -218,6 +301,10 @@ Any box unticked, you are not ready to generate. You are ready to rewrite.
 | Beats that only set up other beats | Viewers drop around 15–20 seconds | Deletion test |
 | All escalation, no quiet | Exhausting; no rewatches | Energy map — add landings |
 | Reveal in the middle | The last 20 seconds have nothing to do | Move it to beat 18–19 |
+| Runway before the hook | Drop-off in the first 3 seconds | Open inside the situation; move the setup after it |
+| Payoff setup skipped | The twist lands on nothing and reads as random | Spend 20%+ of runtime loading it, as beats 14–18 do |
+| Explaining after the payoff | Strong ending, then a limp final 10 seconds | End on the Landing. Say less than you want to |
+| A cut on every sentence | Busy, slideshow-like, no shot gets to breathe | Count visuals, not sentences — hold when the picture does not change |
 | Generating before writing | Hours of clips, none of them fit | This entire document |
 
 ---
