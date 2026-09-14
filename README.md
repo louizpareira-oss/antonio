@@ -24,6 +24,8 @@ cannot rescue a weak sequence. Nothing gets generated until every shot has a job
 
 ## Working files
 
+- [`ideas/00-idea-bank.md`](ideas/00-idea-bank.md) — **Batch 1 lives here.** Shaped
+  concepts, raw hooks, and the shared world the characters come from.
 - [`scripts/00-template.md`](scripts/00-template.md) — **blank fill-in template.** Claim,
   spine, job sheet, shot list, prompts, and the checklist that gates generating.
 - [`scripts/01-the-feeding.md`](scripts/01-the-feeding.md) — 75s, 22 beats. A worked

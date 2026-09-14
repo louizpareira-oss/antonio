@@ -64,8 +64,9 @@ Score each hook against these. Four yeses or it does not advance.
       A hook that writes a cheque the ending cannot cash is worse
       than a flat one - the viewer feels it and does not come back.
 
-Keep the discarded seven in a file. Hooks that fail against one
-concept often work against a different one a month later.
+Keep the discarded seven in ideas/00-idea-bank.md, under Raw.
+Hooks that fail against one concept often work against a different
+one a month later.
 
 ================================================================
 2. STORY
