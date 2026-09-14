@@ -23,6 +23,7 @@ Plan to make the account eligible for the TikTok Creator Rewards Program after t
 
 - [`scripts/00-template.md`](scripts/00-template.md) — **blank fill-in template: claim, spine, job sheet, shot list, prompts, and the checklist that gates generating.**
 - [`scripts/01-forgive-the-past.md`](scripts/01-forgive-the-past.md) — 70s, 20 beats, full shot list and generation prompts.
+- [`scripts/02-the-feeding.md`](scripts/02-the-feeding.md) — 75s, 22 beats. Pigeon-headed character, master block, shot list and prompts.
 - [`prompts/00-master-prompt-library.txt`](prompts/00-master-prompt-library.txt) — **reusable fill-in prompts for every stage: story, character, scene, animation, negatives.**
 - [`prompts/01-forgive-the-past-anime.txt`](prompts/01-forgive-the-past-anime.txt) — **copy-paste pack: all 22 clip prompts, anime style, ready for an AI video generator.**
 
