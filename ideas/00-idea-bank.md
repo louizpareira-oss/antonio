@@ -46,6 +46,18 @@ before you arrived. The trap is that you will audition for it, alone, where nobo
 **Payoff:** An old woman uses his name. Nobody had in a year.
 → [`scripts/01-the-feeding.md`](../scripts/01-the-feeding.md)
 
+### 09 — No Rush · `written`
+**Claim:** Nobody has ever been unkind to me. They have been patient — and patience is how
+people tell you that you cost them something, without ever having to say it. The kindness
+is real, which is what makes it unanswerable.
+**Character:** Tortoise head. Forty-one. Archives. Corduroy jacket, reading glasses.
+**Image:** The meter — patience as something spent, watched and itemised. Held doors,
+kettles, running numbers, receipts, counted stairs.
+**Hook:** *"He's been holding that door for nine seconds."*
+**Payoff:** A colleague falls into step at his pace and says *"Same time tomorrow?"* — not
+waiting for him, arriving with him.
+→ [`scripts/02-no-rush.md`](../scripts/02-no-rush.md)
+
 ### 02 — Good Boy · `shaped`
 **Claim:** Being liked is not being known. The version of you people love is the one that
 costs the most to maintain, and you will keep paying because the applause is real.
@@ -109,7 +121,6 @@ Hooks with no claim yet. They do not advance until they get one.
 |---|---|---|---|
 | 07 | *"Nobody has ever asked me what I can see from up here."* | Heron / crane head | Perspective as isolation — seeing what is coming does not help if nobody asks |
 | 08 | *"I keep going back to the same window."* | Moth head | Not failing to learn — the light is the only thing visible |
-| 09 | *"They are so patient with me. It is the worst thing about them."* | Tortoise head | Patience as a way of telling someone they are a burden |
 | 10 | *"I was told I would grow into my face."* | Unspecified, adolescent | Waiting to become someone people expect |
 | 11 | *"My mother has never once mentioned it."* | Any | The kindness of never naming a thing, and what it also refuses |
 | 12 | *"I am the only one in the photograph who is not smiling, and I was."* | Any beaked character | A face that cannot perform the expected expression |

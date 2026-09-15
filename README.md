@@ -30,6 +30,8 @@ cannot rescue a weak sequence. Nothing gets generated until every shot has a job
   spine, job sheet, shot list, prompts, and the checklist that gates generating.
 - [`scripts/01-the-feeding.md`](scripts/01-the-feeding.md) — 75s, 22 beats. A worked
   script: pigeon-headed character, master block, full shot list and prompts.
+- [`scripts/02-no-rush.md`](scripts/02-no-rush.md) — 78s, 22 beats. Tortoise-headed
+  character, from idea 09 in the bank.
 - [`prompts/00-master-prompt-library.txt`](prompts/00-master-prompt-library.txt) —
   **reusable fill-in prompts for every stage:** hooks, story, character, scene, animation,
   negatives.
