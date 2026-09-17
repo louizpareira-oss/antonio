@@ -15,6 +15,9 @@ HOW TO USE
   11 and 16 are 3.
 - If a take is bad, re-run it on the SAME still. Never regenerate
   the still - that is how the characters drift.
+- The characters are pigeon heads on human bodies. Watch every
+  take for a head turning human, or an arm turning into a wing
+  halfway through. That is a re-run, not a keeper.
 - Generate 3 takes of each, keep the best one.
 - Turn ON TikTok's AI-generated content label when you upload.
 
@@ -29,55 +32,55 @@ THE RULES THESE PROMPTS FOLLOW (keep them if you write your own)
   the face. Use them instead of performance.
 
 NEGATIVE PROMPT (paste into the negative field for every clip)
-morphing, warping face, changing costume, character swap, extra
-characters appearing, camera shake, handheld, fast motion, zoom,
-text, watermark, subtitles
+morphing, warping face, head turning human, wings replacing arms,
+feathered arms, changing costume, character swap, extra characters
+appearing, camera shake, handheld, fast motion, zoom, text,
+watermark, subtitles
 
 ================================================================
 
 [1] SCENE 1 - THE POUR   *** PAIR WITH 15 ***
 FIRST FRAME: still 01
 The gold and the mud pour continuously in heavy slow viscous
-streams, pooling and spreading thickly on the floor. Dust
-particles drift through the window light. The three pigeons stay
-completely still, deadpan, no expression change; Poopy Son blinks
-once. Camera completely locked, no push, no drift, no zoom. 5
+streams, pooling and spreading thickly on the floor. Dust particles
+drift through the window light. The three pigeon-headed characters
+stay completely still, deadpan, no expression change; Poopy Son
+blinks once. Camera completely locked, no push, no drift, no zoom. 5
 seconds.
 
 [2] SCENE 2 - GOLD SETTLES
 FIRST FRAME: still 02
-The last of the gold runs slowly down his feathers and drips off
-his chin, the surface hardening to a gleam. He blinks once,
-slowly, expression unchanged. Head stays still, helmet stays
-crooked. Camera completely locked. 5 seconds.
+The last of the gold runs slowly down his feathers and drips off his
+chin, the surface hardening to a gleam. He blinks once, slowly,
+expression unchanged. Head stays still, helmet stays crooked. Camera
+completely locked. 5 seconds.
 
 [3] SCENE 3 - MUD SETTLES
 FIRST FRAME: still 03
-Thick mud slides slowly down his face and off his beak in one
-heavy drip. He blinks the mud out of his eyes twice, then holds a
-level steady gaze straight down the lens. No smile. Camera
-completely locked. 5 seconds.
+Thick mud slides slowly down his face and off his beak in one heavy
+drip. He blinks the mud out of his eyes twice, then holds a level
+steady gaze straight down the lens. No smile. Camera completely
+locked. 5 seconds.
 
 [4] SCENE 4A - BROWN LOW   *** PAIR WITH 6 ***
 FIRST FRAME: still 04
 The van's open door swings slightly. A loose corner of the banner
 lifts and drops in the wind, weeds sway, small ripples cross a
-puddle. Nothing else moves, no people, no vehicles arriving.
-Camera completely locked, no drift. 5 seconds.
+puddle. Nothing else moves, no people, no vehicles arriving. Camera
+completely locked, no drift. 5 seconds.
 
 [5] SCENE 4B - THE LANDING   *** PAIR WITH 7 ***
 FIRST FRAME: still 05
 Mud ripples outward from him in heavy slow viscous rings. He
-straightens the bottle cap helmet with one wing, lifts his chin,
-and holds. Deadpan, no smile, no other movement. Camera
-completely locked. 5 seconds.
+straightens the bottle cap helmet with one hand, lifts his chin, and
+holds. Deadpan, no smile, no other movement. Camera completely
+locked. 5 seconds.
 
 [6] SCENE 5A - GOLDEN HIGH
 FIRST FRAME: still 06
-Gold banners ripple gently, the lens flare shifts slowly across
-the frame, the valet stands perfectly still holding the door.
-Nobody gets out of the car. Camera completely locked, no drift.
-5 seconds.
+Gold banners ripple gently, the lens flare shifts slowly across the
+frame, the valet stands perfectly still holding the door. Nobody
+gets out of the car. Camera completely locked, no drift. 5 seconds.
 
 [7] SCENE 5B - THE WALK   (3s)
 FIRST FRAME: still 07
@@ -88,72 +91,70 @@ tracks with him at a constant height, no shake. 3 seconds.
 
 [8] SCENE 6A - THE CHALKBOARD   *** PAIR WITH 10 ***
 FIRST FRAME: still 08
-Very slow push in toward the chalkboard. Poopy Son finishes one
-last symbol and lowers the chalk. Water drips steadily into the
-bucket, chalk dust floats in the light. The teacher does not move
-at all. The writing on the board must not change or morph.
-3 seconds of push, then hold. 5 seconds.
+Very slow push in toward the chalkboard. Poopy Son finishes one last
+symbol and lowers the chalk. Water drips steadily into the bucket,
+chalk dust floats in the light. The teacher does not move at all.
+The writing on the board must not change or morph. 3 seconds of
+push, then hold. 5 seconds.
 
 [9] SCENE 6B - THE EYES   *** PAIR WITH 11 ***
 FIRST FRAME: still 09
-Extremely slow push in. He blinks once and holds the camera's
-gaze, the light catching his eyes, chalk dust drifting through
-the beam. No smile, no head turn, no expression change. Nothing
-else in the room moves. 5 seconds.
+Extremely slow push in. He blinks once and holds the camera's gaze,
+the light catching his eyes, chalk dust drifting through the beam.
+No smile, no head turn, no expression change. Nothing else in the
+room moves. 5 seconds.
 
 [10] SCENE 7A - THE LECTURE THEATRE
 FIRST FRAME: still 10
-He holds his raised wing up, waving it slightly, eager, waiting
-to be picked. Nobody calls on him. The other students stay
-motionless, reflections shift faintly on the gold surfaces. The
-sum on the board must not change. Camera completely locked.
-5 seconds.
+He holds his raised hand up, waving it slightly, eager, waiting to
+be picked. Nobody calls on him. The other students stay motionless,
+reflections shift faintly on the gold surfaces. The sum on the board
+must not change. Camera completely locked. 5 seconds.
 
 [11] SCENE 7B - THE CRAYON   (3s)
 FIRST FRAME: still 11
-He chews the gold crayon slowly and calmly, three unhurried
-chews, blinks once, expression completely unchanged. Held a beat
-too long. No other movement. Camera completely locked. 3 seconds.
+He chews the gold crayon slowly and calmly, three unhurried chews,
+blinks once, expression completely unchanged. Held a beat too long.
+No other movement. Camera completely locked. 3 seconds.
 
 [12] SCENE 8A - THE DINNER TABLE
 FIRST FRAME: still 12
-The two report cards slide down the polished table toward
-POP-CUH and come to rest. All three pigeons stay completely
-still, no expression change, no head turns. Dust motes drift
-through the window light. Camera completely locked. 5 seconds.
+The two report cards slide down the polished table toward POP-CUH
+and come to rest. All three pigeon-headed characters stay completely
+still, no expression change, no head turns. Dust motes drift through
+the window light. Camera completely locked. 5 seconds.
 
 [13] SCENE 8B - THE SILENT HOLD
 FIRST FRAME: still 13
 His eyes move only: one report card, then the other, then back to
 the first. Nothing else moves at all - no head turn, no blink for
 the first three seconds, no expression, no shoulder movement.
-Absolutely still and deadpan, held. Camera completely locked.
-5 seconds.
+Absolutely still and deadpan, held. Camera completely locked. 5
+seconds.
 
 [14] SCENE 9 - GRADUATION
 FIRST FRAME: still 14
 Both stare straight down the lens without blinking. The cardboard
-sign bends a little further in Golden Son's wing. A light wind
-moves the gown and a loose corner of the sign. Neither blinks,
-neither speaks, neither turns. Camera completely locked.
-5 seconds.
+sign bends a little further in Golden Son's hand. A light wind moves
+the gown and a loose corner of the sign. Neither blinks, neither
+speaks, neither turns. Camera completely locked. 5 seconds.
 
 [15] SCENE 10 - THE POUR, REVERSED   *** PAIR WITH 1 ***
 FIRST FRAME: still 15
 The gold and the mud pour continuously in heavy slow viscous
 streams, gold running off the motorcycle helmet, mud sliding down
-gold feathers. Poopy Son pours steadily and does not smile, does
-not look at either of them. The other two stay motionless. Camera
-completely locked, identical to the opening shot, no drift.
-5 seconds.
+gold feathers. Poopy Son pours steadily and does not smile, does not
+look at either of them. The other two stay motionless. Camera
+completely locked, identical to the opening shot, no drift. 5
+seconds.
 
 [16] SCENE 10B - THE EMPTY CENTRE   (3s)
 FIRST FRAME: still 16
-Nothing moves except dust drifting in the window light and, at
-the very end, one last drip of mud falling from the pigeon on the
-right. Both stay motionless, still looking at the empty centre.
-Nobody walks into frame. Camera completely locked, held.
-3 seconds, extendable.
+Nothing moves except dust drifting in the window light and, at the
+very end, one last drip of mud falling from the man on the right.
+Both stay motionless, still looking at the empty centre. Nobody
+walks into frame. Camera completely locked, held. 3 seconds,
+extendable.
 
 ================================================================
 AFTER YOU GENERATE

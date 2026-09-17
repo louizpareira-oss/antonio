@@ -25,12 +25,19 @@ HOW TO USE
   to an image prompt - it comes back blurred.
 
 CHARACTER BIBLE (keep these words identical in every prompt)
-  POP-CUH     - adult pigeon, slate grey feathers, gold
-                motorcycle helmet, heavy gold chains
-  GOLDEN SON  - young pigeon, gleaming iridescent gold-dipped
-                feathers, small gold helmet, gold chain
-  POOPY SON   - young pigeon, matted brown feathers, plastic
-                bottle cap helmet, bright alert intelligent eyes
+Every character is a HUMAN BODY with a PIGEON HEAD - fully
+clothed, standing upright on two human legs, human arms and
+human hands. Feathers and beak on the head only. No wings, no
+bird feet, no full-bird characters anywhere in this video.
+  POP-CUH     - grown man's body, slate grey pigeon head, gold
+                motorcycle helmet, heavy gold chains over a
+                black tracksuit
+  GOLDEN SON  - schoolboy's body, gleaming iridescent gold-dipped
+                pigeon head, gold-dipped skin, small gold helmet,
+                gold chain, gold school uniform
+  POOPY SON   - schoolboy's body, matted brown pigeon head,
+                bright alert intelligent eyes, plastic bottle cap
+                helmet, mud-stained hand-me-down clothes
 
 TWO PALETTES, never mixed until clip 14
   GOLD  - over-lit, lens flare, warm luxurious amber, pristine
@@ -38,183 +45,207 @@ TWO PALETTES, never mixed until clip 14
 
 NEGATIVE PROMPT (paste into the negative field for every still)
 text, watermark, logo, subtitles, captions, signature, extra
-limbs, deformed wings, distorted face, photorealistic, live
-action, horror, horizontal, letterbox, black bars, split screen,
-collage, cluttered composition, motion blur
+limbs, deformed hands, distorted face, human head, human face,
+feathered arms, wings instead of arms, full bird body, bird
+standing on bird legs, photorealistic, live action, horror,
+horizontal, letterbox, black bars, split screen, collage,
+cluttered composition, motion blur
 
 ================================================================
 
 [1] SCENE 1 - THE POUR   *** PAIR WITH 15 ***
-Symmetrical medium-long static frame in a bright modern office
-and living space with floor-to-ceiling windows, warm golden hour
-light, dust motes in the air. Centre: POP-CUH, adult pigeon,
-slate grey feathers, gold motorcycle helmet, heavy gold chains,
-holding a bucket in each wing, mid-pour. Left: GOLDEN SON, young
-pigeon, a thick stream of molten gold falling onto him. Right:
-POOPY SON, young pigeon in a plastic bottle cap helmet, a thick
-stream of brown mud falling onto him. Both streams frozen in the
-air. Nobody reacts. Highly stylized 3D character animation,
+Symmetrical medium-long static frame in a bright modern office and
+living space with floor-to-ceiling windows, warm golden hour light,
+dust motes in the air. Centre: POP-CUH, a grown man with the head of
+a pigeon, slate grey head feathers, gold motorcycle helmet, heavy
+gold chains over a black tracksuit, human body, human arms and
+hands, holding a bucket in each hand, mid-pour. Left: GOLDEN SON,
+pigeon-headed schoolboy in a school uniform, a thick stream of
+molten gold falling onto him. Right: POOPY SON, pigeon-headed
+schoolboy in a plastic bottle cap helmet and mud-stained clothes, a
+thick stream of brown mud falling onto him. Both streams frozen in
+the air. Nobody reacts. Highly stylized 3D character animation,
+anthropomorphic pigeon-headed characters with human bodies,
 Pixar-esque polish, edgy urban street-style character design,
-cinematic high-end production lighting, warm golden hour rim
-light, 35mm, deadpan, 9:16 vertical
+cinematic high-end production lighting, warm golden hour rim light,
+35mm, deadpan, 9:16 vertical
 
 [2] SCENE 2 - GOLD SETTLES
-Close-up of GOLDEN SON, young pigeon, molten gold running down
-over his feathers and setting into a gleaming iridescent
-gold-dipped finish, small gold helmet sitting slightly crooked,
-vacant contented expression. Over-lit, lens flare, warm luxurious
-amber palette, blurred bright window behind. Highly stylized 3D
-character animation, Pixar-esque polish, edgy urban street-style
-character design, cinematic high-end production lighting, shallow
-depth of field, 50mm, 9:16 vertical
+Close-up of GOLDEN SON, a schoolboy with the head of a pigeon, human
+body and hands, molten gold running down over his feathers and
+setting into a gleaming iridescent gold-dipped finish, small gold
+helmet sitting slightly crooked, vacant contented expression.
+Over-lit, lens flare, warm luxurious amber palette, blurred bright
+window behind. Highly stylized 3D character animation,
+anthropomorphic pigeon-headed characters with human bodies,
+Pixar-esque polish, edgy urban street-style character design,
+cinematic high-end production lighting, shallow depth of field,
+50mm, 9:16 vertical
 
 [3] SCENE 3 - MUD SETTLES
-Close-up of POOPY SON, young pigeon, thick brown mud sliding off
-his matted feathers, a plastic bottle cap sitting on his head
-like a helmet, bright alert intelligent eyes. Drab muddy brown
-palette, flat overcast light, blurred bright window behind.
-Highly stylized 3D character animation, Pixar-esque polish,
-cinematic high-end production lighting, shallow depth of field,
-50mm, deadpan, 9:16 vertical
+Close-up of POOPY SON, a schoolboy with the head of a pigeon, human
+body and hands, thick brown mud sliding off his matted head feathers
+and clothes, a plastic bottle cap sitting on his head like a helmet,
+bright alert intelligent eyes. Drab muddy brown palette, flat
+overcast light, blurred bright window behind. Highly stylized 3D
+character animation, anthropomorphic pigeon-headed characters with
+human bodies, Pixar-esque polish, cinematic high-end production
+lighting, shallow depth of field, 50mm, deadpan, 9:16 vertical
 
 [4] SCENE 4A - BROWN LOW   *** PAIR WITH 6 ***
 Exterior wide symmetrical static frame of a poor run-down school:
 cracked concrete steps, chain-link fence, a sagging hand-painted
-banner, weeds in the kerb, puddles on the pavement, one dented
-old van stopped crookedly half off the kerb with its side door
-hanging open. Flat overcast light, drab muddy brown and grey
-palette. Highly stylized 3D character animation, Pixar-esque
-polish, edgy urban street-style character design, cinematic
-high-end production lighting, 35mm, 9:16 vertical
+banner, weeds in the kerb, puddles on the pavement, one dented old
+van stopped crookedly half off the kerb with its side door hanging
+open. Flat overcast light, drab muddy brown and grey palette. Highly
+stylized 3D character animation, anthropomorphic pigeon-headed
+characters with human bodies, Pixar-esque polish, edgy urban
+street-style character design, cinematic high-end production
+lighting, 35mm, 9:16 vertical
 
 [5] SCENE 4B - THE LANDING   *** PAIR WITH 7 ***
-Medium shot of POOPY SON, young pigeon with matted brown feathers
-and a plastic bottle cap helmet, sitting in a muddy puddle where
-he has just landed, mud splashed outward around him, helmet
-knocked askew. Bright alert eyes, dignified. Drab muddy brown
-palette, overcast light, run-down school steps blurred behind.
-Highly stylized 3D character animation, Pixar-esque polish,
-cinematic high-end production lighting, 35mm, deadpan, 9:16
-vertical
+Medium shot of POOPY SON, a schoolboy with the head of a pigeon,
+matted brown head feathers, plastic bottle cap helmet, mud-stained
+hand-me-down clothes, human body, human arms and hands, sitting in a
+muddy puddle where he has just landed, mud splashed outward around
+him, helmet knocked askew. Bright alert eyes, dignified. Drab muddy
+brown palette, overcast light, run-down school steps blurred behind.
+Highly stylized 3D character animation, anthropomorphic
+pigeon-headed characters with human bodies, Pixar-esque polish,
+cinematic high-end production lighting, 35mm, deadpan, 9:16 vertical
 
 [6] SCENE 5A - GOLDEN HIGH
 Exterior wide symmetrical static frame of an absurdly luxurious
 school: white marble steps, gold banners, manicured topiary, a
-pigeon valet in gold livery holding a car door open, a gold
+pigeon-headed valet in gold livery holding a car door open, a gold
 luxury car stopped perfectly square at the kerb. Over-lit, lens
 flare off every gold surface, warm luxurious amber palette,
-pristine. Highly stylized 3D character animation, Pixar-esque
-polish, edgy urban street-style character design, cinematic
-high-end production lighting, golden hour rim light, 35mm, 9:16
-vertical
+pristine. Highly stylized 3D character animation, anthropomorphic
+pigeon-headed characters with human bodies, Pixar-esque polish, edgy
+urban street-style character design, cinematic high-end production
+lighting, golden hour rim light, 35mm, 9:16 vertical
 
 [7] SCENE 5B - THE WALK   (3s)
-Medium shot of GOLDEN SON, young pigeon with gleaming iridescent
-gold-dipped feathers, small gold helmet and gold chain,
-mid-strut on white marble steps, chest out, total unearned
-confidence, gold banners behind him, lens flare, warm amber
-light. Highly stylized 3D character animation, Pixar-esque
-polish, edgy urban street-style character design, cinematic
-high-end production lighting, 50mm, 9:16 vertical
+Medium shot of GOLDEN SON, a schoolboy with the head of a pigeon,
+gleaming iridescent gold-dipped head feathers, gold-dipped skin,
+small gold helmet, gold chain and gold school uniform, human body,
+human arms and hands, mid-strut on white marble steps, chest out,
+total unearned confidence, gold banners behind him, lens flare, warm
+amber light. Highly stylized 3D character animation, anthropomorphic
+pigeon-headed characters with human bodies, Pixar-esque polish, edgy
+urban street-style character design, cinematic high-end production
+lighting, 50mm, 9:16 vertical
 
 [8] SCENE 6A - THE CHALKBOARD   *** PAIR WITH 10 ***
 Interior of a poor run-down classroom, cracked chalkboard, water
 leaking from the ceiling into a bucket, three students at battered
-desks. POOPY SON, young pigeon with matted brown feathers and a
-plastic bottle cap helmet, stands at the board, which is covered
-edge to edge in immaculate complex mathematics. An exhausted adult
-pigeon teacher stares at it. Dim drab desaturated light from
-dirty windows, chalk dust in the air. Highly stylized 3D
-character animation, Pixar-esque polish, cinematic high-end
-production lighting, 35mm, 9:16 vertical
+desks. POOPY SON, a schoolboy with the head of a pigeon, matted
+brown head feathers, plastic bottle cap helmet, mud-stained
+hand-me-down clothes, human body, human arms and hands, stands at
+the board, which is covered edge to edge in immaculate complex
+mathematics. An exhausted pigeon-headed teacher stares at it. Dim
+drab desaturated light from dirty windows, chalk dust in the air.
+Highly stylized 3D character animation, anthropomorphic
+pigeon-headed characters with human bodies, Pixar-esque polish,
+cinematic high-end production lighting, 35mm, 9:16 vertical
 
 [9] SCENE 6B - THE EYES   *** PAIR WITH 11 ***
-Close-up of POOPY SON, young pigeon with matted brown feathers
-and a plastic bottle cap helmet, bright alert intelligent eyes
-catching the one clean shaft of light in the room, chalk dust in
-the air, cracked chalkboard blurred behind him. Quiet, knowing,
-not smiling. Shallow depth of field. Highly stylized 3D character
-animation, Pixar-esque polish, cinematic high-end production
+Close-up of POOPY SON, a schoolboy with the head of a pigeon, matted
+brown head feathers, plastic bottle cap helmet, mud-stained
+hand-me-down clothes, human body, human arms and hands, bright alert
+intelligent eyes catching the one clean shaft of light in the room,
+chalk dust in the air, cracked chalkboard blurred behind him. Quiet,
+knowing, not smiling. Shallow depth of field. Highly stylized 3D
+character animation, anthropomorphic pigeon-headed characters with
+human bodies, Pixar-esque polish, cinematic high-end production
 lighting, 50mm, 9:16 vertical
 
 [10] SCENE 7A - THE LECTURE THEATRE
-Symmetrical static wide of a polished gold lecture theatre, rows
-of gold-feathered pigeon students. Front row centre: GOLDEN SON,
-young pigeon with gleaming gold-dipped feathers and a small gold
-helmet, one wing raised high with total confidence. On the board
+Symmetrical static wide of a polished gold lecture theatre, rows of
+gold-feathered pigeon-headed students in gold uniforms. Front row
+centre: GOLDEN SON, pigeon-headed schoolboy, gleaming gold-dipped
+head feathers, gold-dipped skin, small gold helmet and gold school
+uniform, one hand raised high with total confidence. On the board
 behind him a very simple sum. Over-lit warm amber palette,
 reflections off every gold surface. Highly stylized 3D character
-animation, Pixar-esque polish, edgy urban street-style character
-design, cinematic high-end production lighting, 35mm, 9:16
-vertical
+animation, anthropomorphic pigeon-headed characters with human
+bodies, Pixar-esque polish, edgy urban street-style character
+design, cinematic high-end production lighting, 35mm, 9:16 vertical
 
 [11] SCENE 7B - THE CRAYON   (3s)
-Close-up of GOLDEN SON, young pigeon with gleaming iridescent
-gold-dipped feathers and a small gold helmet, a gold crayon held
-in his beak, vacant contented expression, warm amber light and
-gold reflections, blurred gold lecture hall behind. Deadpan.
-Highly stylized 3D character animation, Pixar-esque polish,
-cinematic high-end production lighting, shallow depth of field,
-50mm, 9:16 vertical
+Close-up of GOLDEN SON, pigeon-headed schoolboy, gleaming iridescent
+gold-dipped head feathers, gold-dipped skin, small gold helmet and
+gold school uniform, a gold crayon held in his beak, vacant
+contented expression, warm amber light and gold reflections, blurred
+gold lecture hall behind. Deadpan. Highly stylized 3D character
+animation, anthropomorphic pigeon-headed characters with human
+bodies, Pixar-esque polish, cinematic high-end production lighting,
+shallow depth of field, 50mm, 9:16 vertical
 
 [12] SCENE 8A - THE DINNER TABLE
 Symmetrical static wide of a formal dining room with an absurdly
-long polished table, tall windows, golden hour light streaming
-in, dust motes. POP-CUH, adult pigeon in gold motorcycle helmet
-and heavy gold chains, seated at the head of the table. GOLDEN
-SON, gold-dipped pigeon, at one far end. POOPY SON, matted brown
-pigeon with a plastic bottle cap helmet, at the other far end.
-Two report cards on the table. Warm luxurious gold and amber
-palette. Highly stylized 3D character animation, Pixar-esque
-polish, cinematic high-end production lighting, 35mm, 9:16
-vertical
+long polished table, tall windows, golden hour light streaming in,
+dust motes. POP-CUH, pigeon-headed man in gold motorcycle helmet and
+heavy gold chains, seated at the head of the table. GOLDEN SON,
+gold-dipped pigeon-headed young man-headed young man, at one far
+end. POOPY SON, pigeon-headed young man with matted brown head
+feathers and a plastic bottle cap helmet, at the other far end. Two
+report cards on the table. Warm luxurious gold and amber palette.
+Highly stylized 3D character animation, anthropomorphic
+pigeon-headed characters with human bodies, Pixar-esque polish,
+cinematic high-end production lighting, 35mm, 9:16 vertical
 
 [13] SCENE 8B - THE SILENT HOLD
-Close-up of POP-CUH, adult pigeon, slate grey feathers, gold
-motorcycle helmet, heavy gold chains, looking down at two report
-cards held in his wings. No expression at all. Warm golden hour
-window light raking across the gold helmet, dark dining room
-behind, shallow depth of field. Completely still, deadpan.
-Highly stylized 3D character animation, Pixar-esque polish,
+Close-up of POP-CUH, a grown man with the head of a pigeon, slate
+grey head feathers, gold motorcycle helmet, heavy gold chains over a
+black tracksuit, human body, human arms and hands, looking down at
+two report cards held in his hands. No expression at all. Warm
+golden hour window light raking across the gold helmet, dark dining
+room behind, shallow depth of field. Completely still, deadpan.
+Highly stylized 3D character animation, anthropomorphic
+pigeon-headed characters with human bodies, Pixar-esque polish,
 cinematic high-end production lighting, 50mm, 9:16 vertical
 
 [14] SCENE 9 - GRADUATION
-Symmetrical two-shot, both characters facing straight down the
-lens. On the left POOPY SON, now grown, matted brown feathers,
+Symmetrical two-shot, both characters facing straight down the lens.
+On the left POOPY SON, now a grown man, matted brown pigeon head,
 plain mud-brown graduation cap and gown, holding a real diploma,
-standing straight and calm. On the right GOLDEN SON, now grown,
-gold-dipped feathers, gold tracksuit, holding a bent cardboard
-sign. Flat even overcast light, the warm gold and the drab brown
-palettes sharing one frame for the first time. Highly stylized 3D
-character animation, Pixar-esque polish, edgy urban street-style
-character design, cinematic high-end production lighting, 35mm,
-deadpan, 9:16 vertical
+standing straight and calm. On the right GOLDEN SON, now a grown
+man, gold-dipped pigeon head, gold-dipped skin, gold tracksuit,
+holding a bent cardboard sign. Flat even overcast light, the warm
+gold and the drab brown palettes sharing one frame for the first
+time. Highly stylized 3D character animation, anthropomorphic
+pigeon-headed characters with human bodies, Pixar-esque polish, edgy
+urban street-style character design, cinematic high-end production
+lighting, 35mm, deadpan, 9:16 vertical
 
 [15] SCENE 10 - THE POUR, REVERSED   *** PAIR WITH 1 ***
 Symmetrical medium-long static frame in the same bright modern
 office and living space with floor-to-ceiling windows, identical
-framing and camera height to the first pour, warm golden hour
-light, dust motes. Centre: POOPY SON, now grown, groomed brown
-feathers, plain grey suit, no gold anywhere, a bucket in each
-wing, mid-pour. Left: POP-CUH, adult pigeon in a gold motorcycle
-helmet, molten gold falling onto him and running off the helmet.
-Right: GOLDEN SON, gold-dipped pigeon, brown mud falling onto
-him. He is not smiling. Highly stylized 3D character animation,
-Pixar-esque polish, edgy urban street-style character design,
-cinematic high-end production lighting, warm golden hour rim
-light, identical framing to the opening shot, 35mm, 9:16 vertical
+framing and camera height to the first pour, warm golden hour light,
+dust motes. Centre: POOPY SON, now a grown man, groomed brown pigeon
+head, plain grey suit, no gold anywhere, a bucket in each hand,
+mid-pour. Left: POP-CUH, pigeon-headed man in a gold motorcycle
+helmet and black tracksuit, molten gold falling onto him and running
+off the helmet. Right: GOLDEN SON, gold-dipped pigeon-headed young
+man-headed young man, brown mud falling onto him. He is not smiling.
+Highly stylized 3D character animation, anthropomorphic
+pigeon-headed characters with human bodies, Pixar-esque polish, edgy
+urban street-style character design, cinematic high-end production
+lighting, warm golden hour rim light, identical framing to the
+opening shot, 35mm, 9:16 vertical
 
 [16] SCENE 10B - THE EMPTY CENTRE   (3s)
 The same bright modern office and living space, identical framing
 and camera height, the centre of the frame now empty, two buckets
 set down on the floor in the middle. On the left a gold-drenched
-adult pigeon in a gold motorcycle helmet, on the right a
-mud-drenched gold-dipped pigeon, both motionless and both looking
-at the empty space between them. Floor-to-ceiling windows, warm
-golden hour light, dust particles. Highly stylized 3D character
-animation, Pixar-esque polish, cinematic high-end production
-lighting, identical framing to the opening shot, 35mm, 9:16
-vertical
+pigeon-headed man in a gold motorcycle helmet, on the right the
+mud-drenched gold-dipped pigeon-headed man, both motionless and both
+looking at the empty space between them. Floor-to-ceiling windows,
+warm golden hour light, dust particles. Highly stylized 3D character
+animation, anthropomorphic pigeon-headed characters with human
+bodies, Pixar-esque polish, cinematic high-end production lighting,
+identical framing to the opening shot, 35mm, 9:16 vertical
 
 ================================================================
 BEFORE YOU MOVE TO STAGE 2
@@ -222,9 +253,13 @@ BEFORE YOU MOVE TO STAGE 2
 2. Check the pairs against each other: 1/15/16 must share a
    horizon line and camera height, 4/6 and 5/7 and 8/10 and 9/11
    must share framing
-3. Check the three pigeons look like the same three pigeons in
-   every frame - helmet, chains, bottle cap, eye shape
-4. Fix anything wrong HERE. Re-rolling a still is cheap,
+3. Check the three characters look like the same three
+   characters in every frame - helmet, chains, bottle cap, eye
+   shape, and the same build under the clothes
+4. Check every one of them is a pigeon HEAD on a HUMAN BODY. Any
+   frame with a full bird, feathered arms or a human face is a
+   re-roll, not a keeper
+5. Fix anything wrong HERE. Re-rolling a still is cheap,
    re-rolling a video clip is not
-5. Only then open 02-two-sons-animation-prompts.txt
+6. Only then open 02-two-sons-animation-prompts.txt
 ================================================================
