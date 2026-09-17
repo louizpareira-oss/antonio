@@ -19,7 +19,8 @@ Plan to make the account eligible for the TikTok Creator Rewards Program after t
 - [`scripts/01-forgive-the-past.md`](scripts/01-forgive-the-past.md) — 70s, 20 beats, full shot list and generation prompts.
 - [`prompts/01-forgive-the-past-anime.txt`](prompts/01-forgive-the-past-anime.txt) — **copy-paste pack: all 22 clip prompts, anime style, ready for an AI video generator.**
 - [`prompts/02-two-sons-pigeons.txt`](prompts/02-two-sons-pigeons.txt) — **copy-paste pack: all 16 clip prompts, stylized 3D pigeon style, ready for an AI video generator.**
-- [`prompts/02-two-sons-image-and-animation.txt`](prompts/02-two-sons-image-and-animation.txt) — **the same 16 clips split into a still-image prompt and a motion prompt each, for the still-first / image-to-video workflow.**
+- [`prompts/02-two-sons-image-prompts.txt`](prompts/02-two-sons-image-prompts.txt) — **stage 1: the 16 still-image prompts on their own.**
+- [`prompts/02-two-sons-animation-prompts.txt`](prompts/02-two-sons-animation-prompts.txt) — **stage 2: the 16 motion prompts on their own, one per approved still.**
 
 ## Account snapshot (Sep 2026)
 
