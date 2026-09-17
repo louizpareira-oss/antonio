@@ -16,8 +16,19 @@ Plan to make the account eligible for the TikTok Creator Rewards Program after t
 
 ## Scripts and prompts
 
+**Script 01 — "Forgive the Past"** (sincere lane, 70s, anime)
+
 - [`scripts/01-forgive-the-past.md`](scripts/01-forgive-the-past.md) — 70s, 20 beats, full shot list and generation prompts.
 - [`prompts/01-forgive-the-past-anime.txt`](prompts/01-forgive-the-past-anime.txt) — **copy-paste pack: all 22 clip prompts, anime style, ready for an AI video generator.**
+
+**Script 02 — "Golden Son"** (comedy lane, 70s, stylized 3D)
+
+- [`scripts/02-golden-son-brief.md`](scripts/02-golden-son-brief.md) — **the production brief: visual design, lighting chart, lens package, character sheet, sound mix states, risk register.**
+- [`scripts/02-golden-son.md`](scripts/02-golden-son.md) — 10 scenes, full dialogue, shot list, voice direction, captions, alternative hooks.
+- [`prompts/02-golden-son-3d.txt`](prompts/02-golden-son-3d.txt) — copy-paste pack: all 16 clip prompts, stylized 3D, ready for an AI video generator.
+
+Two lanes on purpose. Posting one template repeatedly is itself on the auto-fail checklist —
+a sincere script and a satirical one give the grid variety a reviewer can see at a glance.
 
 ## Account snapshot (Sep 2026)
 
