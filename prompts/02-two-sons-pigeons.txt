@@ -1,0 +1,223 @@
+================================================================
+"TWO SONS" — AI VIDEO PROMPT PACK (3D PIGEON STYLE)
+16 clips · 9:16 vertical · 1080x1920
+================================================================
+
+HOW TO USE
+- Generate each clip at 9:16 VERTICAL, 1080x1920. Never accept a
+  horizontal or letterboxed result - that is the exact thing that
+  got the account demonetized. If your tool only does 16:9, change
+  tools. Do not crop a wide video to fit.
+- 5 seconds per clip is enough. 3 seconds for the clips marked (3s).
+- Generate 3 takes of each, keep the best one.
+- Lock the SEED if your tool has one, so the three pigeons look the
+  same in every clip. POP-CUH: slate grey, gold motorcycle helmet,
+  heavy gold chains. GOLDEN SON: gold-dipped iridescent feathers,
+  small gold helmet. POOPY SON: matted brown feathers, plastic
+  bottle cap helmet.
+- MATCHED PAIRS - generate each pair back to back, same seed, same
+  framing, same camera height:
+      1  <->  15 and 16   (the pour, and the pour reversed)
+      4  <->  6           (the two schools)
+      5  <->  7           (the two arrivals)
+      8  <->  10          (the two classrooms)
+      9  <->  11          (the two close-ups)
+  Clip 15 is the whole video. Do not skip it, do not reframe it.
+- Two palettes, never mixed until clip 14: warm over-lit GOLD for
+  anything Golden Son touches, drab overcast BROWN for Poopy Son.
+- Turn ON TikTok's AI-generated content label when you upload.
+
+NEGATIVE PROMPT (paste into the negative field for every clip)
+text, watermark, logo, subtitles, captions, signature, extra limbs,
+deformed wings, distorted face, photorealistic, live action, horror,
+horizontal, letterbox, black bars, split screen, collage
+
+================================================================
+
+[1] SCENE 1 - THE POUR   *** PAIR WITH 15 ***
+Symmetrical medium-long static shot in a bright modern office and
+living space with floor-to-ceiling windows. Centre: POP-CUH, adult
+pigeon, slate grey feathers, gold motorcycle helmet, heavy gold
+chains. He pours a stream of molten gold onto GOLDEN SON on his
+left, young pigeon, and pours thick brown mud onto POOPY SON on his
+right, young pigeon in a plastic bottle cap helmet. Heavy viscous
+liquid physics, dust particles catching the window light. Nobody
+reacts. Highly stylized 3D character animation, Pixar-esque polish,
+edgy urban street-style character design, cinematic high-end
+production lighting, warm golden hour rim light, 35mm, static
+camera, deadpan, 9:16 vertical
+
+[2] SCENE 2 - GOLD SETTLES
+Close-up of GOLDEN SON, young pigeon, the last of the molten gold
+running down over his feathers and setting into a gleaming
+iridescent gold-dipped finish, a small gold helmet settling
+crooked on his head, vacant contented expression. Over-lit, lens
+flare, warm luxurious amber palette. Highly stylized 3D character
+animation, Pixar-esque polish, edgy urban street-style character
+design, cinematic high-end production lighting, shallow depth of
+field, 50mm, static camera, 9:16 vertical
+
+[3] SCENE 3 - MUD SETTLES
+Close-up of POOPY SON, young pigeon, thick brown mud sliding off
+his matted feathers, a plastic bottle cap sitting on his head like
+a helmet, bright alert intelligent eyes blinking the mud away.
+Drab muddy brown palette, flat overcast light from the windows.
+Highly stylized 3D character animation, Pixar-esque polish,
+cinematic high-end production lighting, shallow depth of field,
+50mm, static camera, deadpan, 9:16 vertical
+
+[4] SCENE 4A - BROWN LOW   *** PAIR WITH 6 ***
+Exterior wide symmetrical static shot of a poor run-down school:
+cracked concrete steps, chain-link fence, a sagging hand-painted
+banner, weeds in the kerb, one dented old van not quite stopped at
+the kerb, door hanging open. Flat overcast light, drab muddy brown
+and grey palette, puddles. Highly stylized 3D character animation,
+Pixar-esque polish, edgy urban street-style character design,
+cinematic high-end production lighting, 35mm, static camera, 9:16
+vertical
+
+[5] SCENE 4B - THE LANDING   *** PAIR WITH 7 ***
+Medium shot, POOPY SON, young pigeon with matted brown feathers
+and a plastic bottle cap helmet, sitting in a muddy puddle where
+he landed, mud rippling outward in heavy slow viscous physics. He
+straightens his bottle cap helmet with one wing and lifts his
+chin. Bright alert eyes, dignified. Drab muddy brown palette,
+overcast light. Highly stylized 3D character animation,
+Pixar-esque polish, cinematic high-end production lighting,
+35mm, static camera, deadpan, 9:16 vertical
+
+[6] SCENE 5A - GOLDEN HIGH
+Exterior wide symmetrical static shot of an absurdly luxurious
+school: white marble steps, gold banners, manicured topiary, a
+pigeon valet in gold livery. A gold luxury car stopped properly
+at the kerb, door held open. Over-lit, lens flare off every gold
+surface, warm luxurious amber palette, pristine. Highly stylized
+3D character animation, Pixar-esque polish, edgy urban
+street-style character design, cinematic high-end production
+lighting, golden hour rim light, 35mm, static camera, 9:16
+vertical
+
+[7] SCENE 5B - THE WALK   (3s)
+Slow motion medium shot of GOLDEN SON, young pigeon with gleaming
+iridescent gold-dipped feathers, small gold helmet and gold
+chain, strutting up white marble steps with total unearned
+confidence, gold banners behind him, lens flare, warm amber
+light. Highly stylized 3D character animation, Pixar-esque
+polish, edgy urban street-style character design, cinematic
+high-end production lighting, slow motion, 50mm, 9:16 vertical
+
+[8] SCENE 6A - THE CHALKBOARD
+Interior of a poor run-down classroom, cracked chalkboard, water
+leaking from the ceiling into a bucket, three students. POOPY
+SON, young pigeon with matted brown feathers and a bottle cap
+helmet, stands at the board, which is covered edge to edge in
+immaculate complex mathematics. An exhausted adult pigeon teacher
+stares at it. Dim drab desaturated light from dirty windows.
+Highly stylized 3D character animation, Pixar-esque polish,
+cinematic high-end production lighting, slow push in, 35mm,
+9:16 vertical
+
+[9] SCENE 6B - THE EYES
+Close-up of POOPY SON, young pigeon with matted brown feathers
+and a plastic bottle cap helmet, his bright alert intelligent
+eyes catching the one clean shaft of light in the room, chalk
+dust in the air, cracked chalkboard blurred behind him. Quiet,
+knowing, not smiling. Shallow depth of field. Highly stylized 3D
+character animation, Pixar-esque polish, cinematic high-end
+production lighting, slow push in, 50mm, 9:16 vertical
+
+[10] SCENE 7A - THE LECTURE THEATRE
+Symmetrical static wide of a polished gold lecture theatre, rows
+of gold-feathered pigeon students. Front row: GOLDEN SON, young
+pigeon with gleaming gold-dipped feathers and a small gold
+helmet, raising one wing with total confidence. On the board
+behind him a very simple sum. Over-lit warm amber palette,
+reflections off every gold surface. Highly stylized 3D character
+animation, Pixar-esque polish, edgy urban street-style character
+design, cinematic high-end production lighting, 35mm, static
+camera, 9:16 vertical
+
+[11] SCENE 7B - THE CRAYON   (3s)
+Close-up of GOLDEN SON, young pigeon with gleaming iridescent
+gold-dipped feathers and a small gold helmet, calmly chewing a
+gold crayon, vacant contented expression, warm amber light and
+gold reflections, blurred gold lecture hall behind. Deadpan, held
+a beat too long. Highly stylized 3D character animation,
+Pixar-esque polish, cinematic high-end production lighting,
+shallow depth of field, 50mm, 9:16 vertical
+
+[12] SCENE 8A - THE DINNER TABLE
+Symmetrical static wide shot of a formal dining room with an
+absurdly long table, tall windows, golden hour light streaming
+in. POP-CUH, adult pigeon in gold motorcycle helmet and gold
+chains, seated at the head. GOLDEN SON, gold-dipped pigeon, at
+one far end. POOPY SON, matted brown pigeon with a bottle cap
+helmet, at the other far end. Two report cards sliding down the
+polished table. Warm luxurious gold and amber palette, dust motes
+in the light. Highly stylized 3D character animation, Pixar-esque
+polish, cinematic high-end production lighting, 35mm, static
+camera, 9:16 vertical
+
+[13] SCENE 8B - THE SILENT HOLD
+Close-up of POP-CUH, adult pigeon, slate grey feathers, gold
+motorcycle helmet, heavy gold chains, looking down at two report
+cards held in his wings, reading one then the other then the
+first again. No expression at all. Warm golden hour window light
+raking across the gold helmet, dark dining room behind, shallow
+depth of field. Completely still, deadpan, held. Highly stylized
+3D character animation, Pixar-esque polish, cinematic high-end
+production lighting, 50mm, static camera, 9:16 vertical
+
+[14] SCENE 9 - GRADUATION
+Symmetrical two-shot, both characters facing straight down the
+lens, neither blinking. On the left POOPY SON, now grown, matted
+brown feathers, plain mud-brown graduation cap and gown, holding
+a real diploma, standing straight and calm. On the right GOLDEN
+SON, now grown, gold-dipped feathers, gold tracksuit, holding a
+bent cardboard sign. Flat even overcast light, the warm gold and
+the drab brown palettes sharing one frame for the first time.
+Highly stylized 3D character animation, Pixar-esque polish, edgy
+urban street-style character design, cinematic high-end
+production lighting, 35mm, static camera, deadpan, 9:16 vertical
+
+[15] SCENE 10 - THE POUR, REVERSED   *** PAIR WITH 1 ***
+Symmetrical medium-long static shot in the same bright modern
+office and living space with floor-to-ceiling windows, identical
+framing and camera height to the first pour. Centre: POOPY SON,
+now grown, groomed brown feathers, plain grey suit, no gold
+anywhere. He pours a stream of molten gold onto POP-CUH on his
+left, adult pigeon in a gold motorcycle helmet, gold running off
+the helmet, and pours thick brown mud onto GOLDEN SON on his
+right, gold-dipped pigeon. Heavy viscous liquid physics, dust
+particles catching the window light. He is not smiling. Highly
+stylized 3D character animation, Pixar-esque polish, edgy urban
+street-style character design, cinematic high-end production
+lighting, warm golden hour rim light, identical framing to the
+opening shot, 35mm, static camera, 9:16 vertical
+
+[16] SCENE 10B - THE EMPTY CENTRE   (3s)
+The same bright modern office and living space, identical framing
+and camera height, the centre of the frame now empty, two buckets
+set down on the floor, a gold-drenched adult pigeon on the left
+and a mud-drenched gold pigeon on the right both motionless and
+looking at the empty space. Floor-to-ceiling windows, warm golden
+hour light, dust particles, one last drip of mud. Highly stylized
+3D character animation, Pixar-esque polish, cinematic high-end
+production lighting, identical framing to the opening shot, 35mm,
+static camera, held, 9:16 vertical
+
+================================================================
+AFTER YOU GENERATE
+1. Sort clips into order (1, 2, 3, 4, 5 ... 16)
+2. Lay the four voice tracks into CapCut FIRST, then cut the
+   clips to the pauses. Picture follows voice, never the reverse
+3. Scene 8 needs a FULL 2-SECOND SILENCE on clip 13 - mute the
+   music bed entirely, bring it back on "Hell nah, cuh"
+4. Hold clip 16 for a full 2 seconds after the last line, under
+   silence, then one mud drip
+5. Project must be 1080x1920 from the start. No 4:3, no masking,
+   no frame, no black bars
+6. Final length must be OVER 60 seconds. Target 70. If it lands
+   short, extend the clip 16 hold - do not cut a scene
+7. AI-generated content label ON at upload
+================================================================
