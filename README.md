@@ -1,4 +1,15 @@
-# Content Rebuild — @legendary_louiz
+# @legendary_louiz — content rebuild + personal practice
+
+Two separate things live here.
+
+1. **The TikTok plan** (docs 01–09, `scripts/`, `prompts/`) — getting the account
+   eligible for the Creator Rewards Program again.
+2. **Personal practice** (docs 10–11) — talking to girls, and speaking English clearly.
+   Nothing to post. These are for you.
+
+---
+
+## Part 1 — TikTok content rebuild
 
 Plan to make the account eligible for the TikTok Creator Rewards Program after the
 "Account with low quality content" rejection (appeal denied Sep 4, 2026).
@@ -18,6 +29,23 @@ Plan to make the account eligible for the TikTok Creator Rewards Program after t
 
 - [`scripts/01-forgive-the-past.md`](scripts/01-forgive-the-past.md) — 70s, 20 beats, full shot list and generation prompts.
 - [`prompts/01-forgive-the-past-anime.txt`](prompts/01-forgive-the-past-anime.txt) — **copy-paste pack: all 22 clip prompts, anime style, ready for an AI video generator.**
+
+---
+
+## Part 2 — Personal practice
+
+- [`docs/10-talking-to-girls.md`](docs/10-talking-to-girls.md) — how to open, keep a
+  conversation alive, read whether she is interested, ask for the number, and leave well
+  when the answer is no. Plus a two-week practice plan.
+- [`docs/11-speak-english-clearly.md`](docs/11-speak-english-clearly.md) — rhythm, word
+  endings, pauses instead of fillers, the sounds worth fixing, shadowing, and a
+  15-minute daily routine.
+
+Run the two together: doc 11's daily 15 minutes next to doc 10's two-week plan. When
+your mouth is sure of the words, your body calms down — and calm is what she actually
+reads.
+
+---
 
 ## Account snapshot (Sep 2026)
 
