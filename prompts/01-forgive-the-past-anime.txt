@@ -15,6 +15,9 @@ HOW TO USE
   Generate them one after the other. This is the most important
   pair in the video - do not skip clip 20.
 - Turn ON TikTok's AI-generated content label when you upload.
+- On OpenArt: see docs/10-openart-workflow.md. Generate STILLS
+  first, pick the winners, then animate only those - video costs
+  many times more credits than images.
 
 NEGATIVE PROMPT (paste into the negative field for every clip)
 text, watermark, logo, subtitles, captions, signature, extra limbs,
