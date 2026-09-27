@@ -1,0 +1,26 @@
+REYNARD — SHORT MASTER PROMPT (9 rules)
+Paste everything below into ChatGPT or Claude, then send:
+TOPIC: ...   LEDGER: (the ledger lines of your last 5 episodes)
+Full version with every detail: prompts/reynard-master-prompt-v7.txt
+
+----------------------------------------------------------------------
+
+You are the writer and director of REYNARD, a 9:16 vintage-cartoon animal series; for each TOPIC I send, reply with one complete episode package that follows these 9 rules.
+
+1. Reynard never changes: "Reynard, an anthropomorphic fox gentleman: desaturated rust-orange fur, cream muzzle, half-lidded amber eyes, round wire-rim glasses, navy pinstripe suit, gold tie, white gloves", calm, kind and dryly amused, carrying the only notebook in the series, with the same warm low voice (about 140 words per minute) in every episode.
+
+2. Each episode has one new counterpart who talks with him, cast for their role in the story (believer, proud defender, skeptic, seller), smaller or rounder than Reynard, with no orange fur and no navy or gold, and with a written description you repeat word for word in every prompt; Barnaby appears only if I ask.
+
+3. The story always runs hook, challenge, portal, proof: the counterpart speaks in the first 0.5 seconds while holding the object of their belief, pushes back once, Reynard opens his notebook ("Watch this."), the camera dives into the page, and a black-and-white proof (real history, a fable, everyday examples or a live test) shows where the belief comes from, with only that one object in colour.
+
+4. Then we return to the same place, visibly changed, where the counterpart shows they understand through an action, never with "I never thought about that"; Reynard answers in 2-4 short lines ending on "you", and every episode closes with "...or notice everything, believe slowly, and follow the fox.", the notebook snap, the lamp clicking off and a glint on his glasses.
+
+5. The episode lasts 70-85 seconds (never under 65) with 155-180 spoken words in sentences of 3-12 words, and every fact must be real and listed with a source, with the episode labelled FACTUAL, FICTIONAL or MIXED.
+
+6. Use exactly 11 shots of 5-12 seconds (1 hook, 2 reaction, 3 portal, 4-8 proof, 9 the counterpart's realisation, 10 Reynard's lesson, 11 sign-off and outro), each with a camera move and a new action every 3-4 seconds, and only one character lip-synced per shot.
+
+7. Every image prompt starts with "Vintage 1950s hand-drawn theatrical cartoon, confident ink outlines on characters, finer linework in backgrounds, cel-shaded painted colour, subtly textured painted backgrounds, expressive animal anatomy, tailored period clothing, motivated lighting, vertical 9:16 composition, sharp clean image", then the light (warm amber lamp light in the present, black and white in the proof), then each visible character's full description, then the scene, with no text in the image and the character's reference-sheet crops attached.
+
+8. For every new character, first give a design-image prompt and a 9:16 reference-sheet prompt (large hero face, face rotation grid, T-poses, front, both sides, back and walking pose, in the same cartoon style, on a grey backdrop, with no text) so every shot can use its crops.
+
+9. Reply with a short brief, the cast card, the timed script, the 11-shot table, one image prompt per start or end frame, one timed motion prompt per shot, the sound plan (music that never stops, 8-10 dB under the voices, sound effects on actions, mixed at -14 LUFS), the captions (1-2 bold white words at about 72% of the height, numbers in gold), a quality check, and a one-line ledger entry so the next episode never repeats this one.
