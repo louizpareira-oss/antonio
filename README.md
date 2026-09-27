@@ -22,7 +22,7 @@ Plan to make the account eligible for the TikTok Creator Rewards Program after t
 - [`prompts/01-forgive-the-past-anime.txt`](prompts/01-forgive-the-past-anime.txt) — **copy-paste pack: all 22 clip prompts, anime style, ready for an AI video generator.**
 - [`scripts/02-seventy-percent-off.md`](scripts/02-seventy-percent-off.md) — Reynard episode: "Seventy Percent Off What?" — 82 s, 11 long shots, full script, shot table, sound plan, checked facts.
 - [`prompts/02-seventy-percent-off.txt`](prompts/02-seventy-percent-off.txt) — **copy-paste pack for it: Hazel's design and sheet prompts, 12 keyframes, 11 motion prompts.**
-- [`prompts/reynard-master-prompt-v7.txt`](prompts/reynard-master-prompt-v7.txt) — **current copy-paste master prompt (v7.2) for the Reynard series: fixed format, rotating cast, character reference sheets, voices, 11 long shots with keyframe and motion prompts, sound, captions, quality gate and ledger.**
+- [`prompts/reynard-master-prompt-v7.txt`](prompts/reynard-master-prompt-v7.txt) — **current copy-paste master prompt (v7.3, about 2,950 words) for the Reynard series: fixed format, rotating cast, character reference sheets, voices, 11 long shots with keyframe and motion prompts, sound, captions, quality gate and ledger.**
 - [`prompts/reynard-reference-sheet.txt`](prompts/reynard-reference-sheet.txt) — **make this first, once: Reynard's 9:16 character reference sheet prompt and how to cut it into crops.**
 - [`prompts/reynard-master-prompt-v6.txt`](prompts/reynard-master-prompt-v6.txt) — superseded by v7; kept for reference.
 

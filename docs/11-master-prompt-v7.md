@@ -102,4 +102,11 @@ Two more changes came from building [Script 02](../scripts/02-seventy-percent-of
 MiniMax H3 Max (up to 15 s). A long clip costs more than a 5 s one, so check the price per clip
 length before generating.
 
+## v7.3 — same rules, 30% shorter
+
+The same prompt in about 30% fewer words (4,230 → 2,955). Wordy explanations became short rules
+and the cast menu became a table. The style block, the reference-sheet template, Reynard's lock
+and the mantra are word for word the same, and every rule, number and section number is
+unchanged, so Script 02 and the sheet prompt still match it exactly.
+
 → Prompt: [`prompts/reynard-master-prompt-v7.txt`](../prompts/reynard-master-prompt-v7.txt)
