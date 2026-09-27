@@ -1,0 +1,244 @@
+=====================================================================
+"SEVENTY PERCENT OFF WHAT?" — REYNARD EPISODE 02 PROMPT PACK
+11 long shots · 12 keyframes · 9:16 · 1080x1920 · 82.4 s
+Script, timings and sound: scripts/02-seventy-percent-off.md
+=====================================================================
+
+ORDER OF WORK
+1. Reynard's reference sheet (once, if not done):
+   prompts/reynard-reference-sheet.txt
+2. Hazel: DESIGN IMAGE -> approve one -> HAZEL SHEET with the design
+   image attached -> cut the crops.
+3. Voices first: generate every line (script section C) and lay the
+   voice track out in CapCut. It sets the length of every shot.
+4. KEYFRAMES: one image per keyframe, 9:16, with the listed crops
+   attached. Same image model for all of them. Make FLOOR-HONEST
+   and FLOOR-EMPTY as image-to-image edits, in that order.
+5. SHOTS: one clip per shot from its start frame (and end frame).
+   Long clips: Kling 3.0 (up to 15 s), Wan 3.0 (up to 30 s) or
+   MiniMax H3 Max (up to 15 s). Talking shots: attach the audio.
+6. Reject any clip where a face, marking or outfit drifts; redo it
+   from the same start frame.
+7. Turn on TikTok's AI-generated label when posting.
+
+=====================================================================
+HAZEL — DESIGN IMAGE (generate 3-4, approve one)
+=====================================================================
+Vintage 1950s hand-drawn theatrical cartoon character design, confident ink outlines, cel-shaded painted colour, Hazel, an anthropomorphic hedgehog woman in her thirties: small and round, dark chocolate-brown quills with cream tips, soft beige face, bright black eyes, rosy cheeks, pink button nose, sky-blue 1950s swing coat with big white buttons, tiny sky-blue pillbox hat, full body, three-quarter front view, neutral standing pose, neutral grey studio backdrop, soft even studio lighting, sharp clean image
+
+=====================================================================
+HAZEL — REFERENCE SHEET (attach the approved design image)
+Crops: [HAZEL-FACE] [HAZEL-FRONT] [HAZEL-34] [HAZEL-SIDE-L]
+       [HAZEL-SIDE-R] [HAZEL-BACK] [HAZEL-WALK]
+=====================================================================
+9:16 character reference sheet of Hazel, an anthropomorphic hedgehog woman in her thirties: small and round, dark chocolate-brown quills with cream tips, soft beige face, bright black eyes, rosy cheeks, pink button nose, sky-blue 1950s swing coat with big white buttons, tiny sky-blue pillbox hat, matching the attached
+reference image exactly: enlarged hero face close-up, face rotation
+grid, T-pose front, T-pose back, front neutral, side left, side
+right, three-quarter front, three-quarter back, full back, walking
+pose.
+Layout: vertical 9:16 portrait canvas, designed like a premium film
+or game studio character turnaround board.
+Top section (identity focus): one very large hero face close-up
+spanning about 50-60% of the width, positioned prominently as the
+main visual anchor. Beside it: a compact face rotation grid showing
+the head from the front, three-quarter, side and back, looking down
+and looking up, plus one supporting portrait crop. This top row
+immediately establishes facial identity.
+Middle section: T-pose front, T-pose back, front neutral - three
+evenly spaced panels.
+Lower section: side left, side right, three-quarter front, full back,
+three-quarter back, walking pose - two clean rows of three with
+balanced spacing.
+Full-body poses stay large enough for every face, outfit and prop
+detail to read clearly, while the face sheet at the top keeps
+priority. The composition fills the tall 9:16 frame with a strong
+hierarchy: face identity first, body turnaround second.
+Match the face, fur colour, markings, fur texture, eyes, outfit,
+accessories and proportions of the reference exactly. No redesign,
+no new stylisation, no reinterpretation: the reference's own
+rendering style - the vintage hand-drawn cartoon style of this
+series - is preserved 100% identically in every panel.
+Neutral grey studio backdrop. Soft three-point studio lighting, flat
+even illumination, no harsh shadows. Thin white gutters separating
+panels. No text, no labels, no watermarks.
+
+=====================================================================
+KEYFRAMES (12)
+=====================================================================
+
+--- K01 | look A | used by shot 01 ---
+ATTACH: [REYNARD-FRONT] [REYNARD-34] [HAZEL-WALK] [HAZEL-FACE]
+Vintage 1950s hand-drawn theatrical cartoon, confident ink outlines on characters, finer linework in backgrounds, cel-shaded painted colour, subtly textured painted backgrounds, expressive animal anatomy, tailored period clothing, motivated lighting, vertical 9:16 composition, sharp clean image, warm amber light from a small fabric-shaded table lamp on the kitchen table, muted earth tones, cool blue evening light through the window behind the table, soft vignette. Characters: Reynard, an anthropomorphic fox gentleman: desaturated rust-orange fur, cream muzzle, half-lidded amber eyes, round wire-rim glasses, navy pinstripe suit, gold tie, white gloves. Hazel, an anthropomorphic hedgehog woman in her thirties: small and round, dark chocolate-brown quills with cream tips, soft beige face, bright black eyes, rosy cheeks, pink button nose, sky-blue 1950s swing coat with big white buttons, tiny sky-blue pillbox hat. Scene: Wide shot of Hazel's small 1950s city apartment kitchen: pale mint-green cabinets, cream patterned wallpaper, black-and-white checkered floor, a small round wooden kitchen table with two chairs, a fabric-shaded table lamp on the table, a window behind the table looking onto a blue evening city street, the front door on the left. On the left, Hazel has just burst through the open front door mid-stride, arms full of plain cream-and-brown striped paper shopping bags, holding a red dress on a hanger high in her right paw; a big blank vivid-red sale tag hangs from the dress in the upper-left third of the frame. She beams, mouth open mid-word, facing right. On the right, Reynard sits at the kitchen table with a teacup in his hand, looking up at her with a calm half-smile, facing left. Reynard is the fox in images 1-2; Hazel is the hedgehog in images 3-4. Clear space in the lower middle of the frame for captions. One single full-frame scene.
+
+--- K02 | look A | used by shot 02 ---
+ATTACH: [HAZEL-FACE] [HAZEL-34]
+Vintage 1950s hand-drawn theatrical cartoon, confident ink outlines on characters, finer linework in backgrounds, cel-shaded painted colour, subtly textured painted backgrounds, expressive animal anatomy, tailored period clothing, motivated lighting, vertical 9:16 composition, sharp clean image, warm amber light from a small fabric-shaded table lamp on the kitchen table, muted earth tones, cool blue evening light through the window behind the table, soft vignette. Characters: Hazel, an anthropomorphic hedgehog woman in her thirties: small and round, dark chocolate-brown quills with cream tips, soft beige face, bright black eyes, rosy cheeks, pink button nose, sky-blue 1950s swing coat with big white buttons, tiny sky-blue pillbox hat. Scene: Close-up of Hazel, facing right, beaming proudly; she holds the big blank vivid-red sale tag of the red dress steady near her chin in her right paw, the tag clearly visible in the upper-left quarter of the frame. Warm lamp light from the right, soft warm-brown shadows, the dim doorway behind her. Match the attached reference images exactly. Face in the upper half of the frame, space below for captions. One single full-frame scene.
+
+--- K03 | look A | used by shot 03 ---
+ATTACH: [REYNARD-FACE] [REYNARD-34]
+Vintage 1950s hand-drawn theatrical cartoon, confident ink outlines on characters, finer linework in backgrounds, cel-shaded painted colour, subtly textured painted backgrounds, expressive animal anatomy, tailored period clothing, motivated lighting, vertical 9:16 composition, sharp clean image, warm amber light from a small fabric-shaded table lamp on the kitchen table, muted earth tones, cool blue evening light through the window behind the table, soft vignette. Characters: Reynard, an anthropomorphic fox gentleman: desaturated rust-orange fur, cream muzzle, half-lidded amber eyes, round wire-rim glasses, navy pinstripe suit, gold tie, white gloves. Scene: Medium shot of Reynard seated at the right side of the small round kitchen table, facing left, drawing a small brown leather notebook from his breast pocket with his right hand; his teacup and saucer sit beside him and the fabric-shaded table lamp glows warm; a knowing half-smile, eyes toward off-screen left. Blue evening window behind him. Match the attached reference images exactly. Space in the lower middle for captions. One single full-frame scene.
+
+--- K04 | look B | used by shot 04 ---
+ATTACH: none (no main character in frame)
+Vintage 1950s hand-drawn theatrical cartoon, confident ink outlines on characters, finer linework in backgrounds, cel-shaded painted colour, subtly textured painted backgrounds, expressive animal anatomy, tailored period clothing, motivated lighting, vertical 9:16 composition, sharp clean image, black-and-white vintage illustration, high contrast, one hard spotlight, 1950s newsreel mood; the red sale tags are the only thing in colour, vivid red. Scene: Close-up of a single blank vivid-red sale tag hanging on a string from the sleeve of a grey coat on a clothing rack, centred in the frame, the same simple shape as a hand-drawn price tag; high contrast; the red tag is the only colour. No lettering. One single full-frame scene.
+
+--- FLOOR-RED | look B | used by shot 04, 06 ---
+ATTACH: none (no main character in frame)
+Vintage 1950s hand-drawn theatrical cartoon, confident ink outlines on characters, finer linework in backgrounds, cel-shaded painted colour, subtly textured painted backgrounds, expressive animal anatomy, tailored period clothing, motivated lighting, vertical 9:16 composition, sharp clean image, black-and-white vintage illustration, high contrast, one hard spotlight, 1950s newsreel mood; the red sale tags are the only thing in colour, vivid red. Scene: High wide shot of a vast 1950s department store sales floor seen from a high wide angle: long aisles of clothing racks and glass counters under crystal chandeliers, a grand staircase at the back, busy animal shoppers in hats and coats; every garment, box and counter wears a vivid-red sale tag, so red tags sparkle across the whole grey floor. In the right foreground, a clerk stands behind a glass counter beside a tall tower of stacked coins. At the far end, a tall dark silhouette in suit and hat, no visible face, stands just inside the bright entrance doors. No signs or lettering. Space in the lower middle for captions. One single full-frame scene.
+
+--- K05 | look B | used by shot 05 ---
+ATTACH: none (no main character in frame)
+Vintage 1950s hand-drawn theatrical cartoon, confident ink outlines on characters, finer linework in backgrounds, cel-shaded painted colour, subtly textured painted backgrounds, expressive animal anatomy, tailored period clothing, motivated lighting, vertical 9:16 composition, sharp clean image, black-and-white vintage illustration, high contrast, one hard spotlight, 1950s newsreel mood; the red sale tags are the only thing in colour, vivid red. Scene: Low-angle medium-wide shot on the department store sales floor: a giant blank vivid-red sale tag, as big as a billboard, hangs high on cords from the ceiling; below it, the tall dark silhouette of the new boss in suit and hat, no visible face, stands on a step looking up, one hand on a cord; behind him, clerks on ladders clip more small red sale tags onto long clothing racks. The red tags are the only colour. No lettering. One single full-frame scene.
+
+--- FLOOR-HONEST | look B0 | used by shot 06, 07 ---
+ATTACH: none (no main character in frame)
+Vintage 1950s hand-drawn theatrical cartoon, confident ink outlines on characters, finer linework in backgrounds, cel-shaded painted colour, subtly textured painted backgrounds, expressive animal anatomy, tailored period clothing, motivated lighting, vertical 9:16 composition, sharp clean image, black-and-white vintage illustration, high contrast, one hard spotlight, 1950s newsreel mood; no colour anywhere in the frame. Scene: Image-to-image edit of keyframe FLOOR-RED, same framing and camera angle: every red sale tag is replaced by a small plain white tag, so there is no colour anywhere; the racks are neat and orderly, only a few shoppers remain, and two clerks with brooms stand beside metal bins; the clerk, the tower of coins and the silhouette at the far doors are unchanged. No signs or lettering. One single full-frame scene.
+
+--- FLOOR-EMPTY | look B0 | used by shot 07 ---
+ATTACH: none (no main character in frame)
+Vintage 1950s hand-drawn theatrical cartoon, confident ink outlines on characters, finer linework in backgrounds, cel-shaded painted colour, subtly textured painted backgrounds, expressive animal anatomy, tailored period clothing, motivated lighting, vertical 9:16 composition, sharp clean image, black-and-white vintage illustration, high contrast, one hard spotlight, 1950s newsreel mood; no colour anywhere in the frame. Scene: Image-to-image edit of keyframe FLOOR-HONEST, same framing: no shoppers at all, the back half of the store in darkness, the tower of coins toppled with coins scattered across the counter, the clerk resting her chin on her paw; the silhouette still stands at the far doors. No colour, no signs or lettering. One single full-frame scene.
+
+--- K08 | look B0 | used by shot 08 ---
+ATTACH: none (no main character in frame)
+Vintage 1950s hand-drawn theatrical cartoon, confident ink outlines on characters, finer linework in backgrounds, cel-shaded painted colour, subtly textured painted backgrounds, expressive animal anatomy, tailored period clothing, motivated lighting, vertical 9:16 composition, sharp clean image, black-and-white vintage illustration, high contrast, one hard spotlight, 1950s newsreel mood; no colour anywhere in the frame. Scene: Medium-wide shot from inside the department store looking at its tall brass-and-glass entrance doors, bright light outside; the tall dark silhouette of the new boss in suit and hat, no visible face, walks away from the camera toward the doors carrying a cardboard box of belongings; racks with plain white tags stand on both sides. No colour, no lettering. One single full-frame scene.
+
+--- K09 | look A-R | used by shot 09 ---
+ATTACH: [HAZEL-FACE] [HAZEL-34]
+Vintage 1950s hand-drawn theatrical cartoon, confident ink outlines on characters, finer linework in backgrounds, cel-shaded painted colour, subtly textured painted backgrounds, expressive animal anatomy, tailored period clothing, motivated lighting, vertical 9:16 composition, sharp clean image, warm amber light from a small fabric-shaded table lamp on the kitchen table, muted earth tones, rain streaking the dark blue window behind the table, the room a little darker now that night has fallen, soft vignette. Characters: Hazel, an anthropomorphic hedgehog woman in her thirties: small and round, dark chocolate-brown quills with cream tips, soft beige face, bright black eyes, rosy cheeks, pink button nose, sky-blue 1950s swing coat with big white buttons, tiny sky-blue pillbox hat. Scene: Medium close-up of Hazel now sitting at the left side of the small round kitchen table, facing right, still in her coat, shopping bags slumped around her chair; the red dress lies on the table in front of her and she holds up its big blank vivid-red sale tag in both paws, staring at it, quiet and deflated. Match the attached reference images exactly. Face in the upper half, space below for captions. One single full-frame scene.
+
+--- K10 | look A-R | used by shot 10 ---
+ATTACH: [REYNARD-FACE] [REYNARD-34] [HAZEL-BACK]
+Vintage 1950s hand-drawn theatrical cartoon, confident ink outlines on characters, finer linework in backgrounds, cel-shaded painted colour, subtly textured painted backgrounds, expressive animal anatomy, tailored period clothing, motivated lighting, vertical 9:16 composition, sharp clean image, warm amber light from a small fabric-shaded table lamp on the kitchen table, muted earth tones, rain streaking the dark blue window behind the table, the room a little darker now that night has fallen, soft vignette. Characters: Reynard, an anthropomorphic fox gentleman: desaturated rust-orange fur, cream muzzle, half-lidded amber eyes, round wire-rim glasses, navy pinstripe suit, gold tie, white gloves. Hazel, an anthropomorphic hedgehog woman in her thirties: small and round, dark chocolate-brown quills with cream tips, soft beige face, bright black eyes, rosy cheeks, pink button nose, sky-blue 1950s swing coat with big white buttons, tiny sky-blue pillbox hat. Scene: Over-the-shoulder shot across the small round kitchen table: in the left foreground, Hazel is seen from behind at her shoulder, the red dress with its big blank vivid-red sale tag on the table in front of her and a cream-and-brown striped paper shopping bag beside it; across the table on the right, Reynard faces left toward her, his open brown leather notebook and teacup beside him, the fabric-shaded lamp glowing warm between them; rain-streaked window behind him. Reynard is the fox in images 1-2; Hazel is the hedgehog in image 3. Space in the lower middle for captions. One single full-frame scene.
+
+--- K11 | look C | used by shot 11 ---
+ATTACH: [REYNARD-FACE] [REYNARD-FRONT]
+Vintage 1950s hand-drawn theatrical cartoon, confident ink outlines on characters, finer linework in backgrounds, cel-shaded painted colour, subtly textured painted backgrounds, expressive animal anatomy, tailored period clothing, motivated lighting, vertical 9:16 composition, sharp clean image, low-key lighting, dark background, one warm light from the table lamp across Reynard's face and glasses. Characters: Reynard, an anthropomorphic fox gentleman: desaturated rust-orange fur, cream muzzle, half-lidded amber eyes, round wire-rim glasses, navy pinstripe suit, gold tie, white gloves. Scene: Medium close-up of Reynard at the kitchen table in low-key light, looking straight into the camera, his open brown leather notebook in front of him at the bottom of the frame and the fabric-shaded table lamp beside it, one warm light across his face and glasses, the kitchen behind him fallen into darkness. Match the attached reference images exactly. Face in the upper half, space below for captions. One single full-frame scene.
+
+=====================================================================
+SHOT 01 | 0:00.0-0:07.0 (7.0 s) | HOOK + CHALLENGE | look A
+CLIP: 8 s | START: K01 | talking — both (wide shot)
+=====================================================================
+LINE: HAZEL - "Seventy percent off! Never pay full price!"
+LINE: REYNARD - "Seventy percent off what?"
+LINE: HAZEL - "The original price. A hundred dollars!"
+
+MOTION:
+0-2.5 s: Hazel bounces into the room and lifts the dress so the red tag swings, speaking excitedly; the bags sway on her arms. 2.5-4.5 s: Reynard sets his teacup down with a soft clink and speaks calmly. 4.5-7 s: Hazel taps the red tag proudly and answers. Camera: slow continuous push-in from the wide shot to a medium two-shot. Only the character who is speaking moves their mouth. End pose: Hazel holding up the tag, Reynard watching her.
+
+NOTE: Wide shot: natural mouth movement is enough. If your tool takes audio, attach the voice track for 0-7 s and say who speaks when; if the lips look wrong, keep the wide and cut the talking into shot 02 instead.
+
+=====================================================================
+SHOT 02 | 0:07.0-0:12.0 (5.0 s) | CHALLENGE | look A
+CLIP: 5 s | START: K02 | talking — Hazel from 3.4 s
+=====================================================================
+LINE: REYNARD (off-screen) - "Has anyone ever paid the hundred?"
+LINE: HAZEL - "Well… somebody must have."
+
+MOTION:
+0-2.4 s: Hazel beams, holding the tag steady near her chin while Reynard's question plays off-screen. 2.4-3.4 s: her smile slowly freezes and her eyes drop to the tag. 3.4-5 s: she glances up to the right and speaks, unsure. Camera: slow push-in. Keep the tag steady - a price graphic is added on it in the edit. End pose: Hazel looking right, uncertain.
+
+NOTE: Edit graphic on the tag: '70% OFF', '$100' struck through, '$30'.
+
+=====================================================================
+SHOT 03 | 0:12.0-0:17.6 (5.6 s) | CHALLENGE → PORTAL | look A
+CLIP: 6 s | START: K03 | talking — Reynard 0.2-4.0 s, then silent
+=====================================================================
+LINE: REYNARD - "Let me show you a store that stopped pretending."
+
+MOTION:
+0-4 s: Reynard opens the notebook flat on the table and speaks calmly, glancing from Hazel (off-screen left) down to the page. 4-5.6 s: the camera tilts down and pushes into the open page, where a loose pencil sketch of a price tag hanging on a string begins to glow. No writing on the page. End: the glowing sketch fills the frame.
+
+NOTE: Cut to shot 04 exactly as the sketch fills the frame; the low boom lands on the cut.
+
+=====================================================================
+SHOT 04 | 0:17.6-0:24.0 (6.4 s) | PROOF | look B
+CLIP: 8 s start/end frame | START: K04 | END: FLOOR-RED | voice-over
+=====================================================================
+LINE: REYNARD (VO) - "America, 2011."
+LINE: REYNARD (VO) - "One of its biggest department stores, JCPenney, hires a new boss."
+
+MOTION:
+Start frame: K04. End frame: FLOOR-RED. The camera pulls back and rises smoothly from the single red tag to the whole sales floor full of red tags and busy shoppers; in the last two seconds a tall dark silhouette in suit and hat steps in through the bright doors at the far end. End exactly on the FLOOR-RED frame.
+
+NOTE: Match cut: the red tag starts in the same place and shape as the glowing sketch at the end of shot 03.
+
+=====================================================================
+SHOT 05 | 0:24.0-0:32.3 (8.3 s) | PROOF | look B
+CLIP: 10 s | START: K05 | voice-over
+=====================================================================
+LINE: REYNARD (VO) - "He sees the trick. Sky-high 'original' prices."
+LINE: REYNARD (VO) - "Sales that never end."
+LINE: REYNARD (VO) - "So in 2012, he tries something crazy."
+
+MOTION:
+0-5 s: the silhouette looks up at the giant red tag while the clerks on ladders behind him keep clipping more small red tags onto the racks. 5-8.3 s: he grips the cord and yanks; the giant tag tears loose and drops, swinging down past the camera. Camera: slow push-in, then a quick tilt down with the falling tag. End pose: the giant tag crumpled on the floor.
+
+NOTE: Edit graphic on the giant tag while it hangs still (24.0-29.0 s): a huge '$100'.
+
+=====================================================================
+SHOT 06 | 0:32.3-0:38.7 (6.4 s) | PROOF | look B → B0
+CLIP: 8 s start/end frame | START: FLOOR-RED | END: FLOOR-HONEST | voice-over
+=====================================================================
+LINE: REYNARD (VO) - "No coupons. No fake sales."
+LINE: REYNARD (VO) - "One honest price, every day."
+LINE: HAZEL (VO) - "That sounds wonderful!"
+
+MOTION:
+Start frame: FLOOR-RED. End frame: FLOOR-HONEST. Clerks sweep the red tags off the racks into metal bins; the red drains from the store rack by rack until every item wears a plain white tag. Camera: locked with a very slow push-in. End exactly on the FLOOR-HONEST frame.
+
+=====================================================================
+SHOT 07 | 0:38.7-0:49.3 (10.6 s) | PROOF | look B0
+CLIP: 12 s start/end frame | START: FLOOR-HONEST | END: FLOOR-EMPTY | voice-over
+=====================================================================
+LINE: REYNARD (VO) - "But shoppers hate it."
+LINE: REYNARD (VO) - "No sale, no thrill. They stay home."
+LINE: REYNARD (VO) - "In one year, sales fall by a quarter — four billion dollars, gone."
+
+MOTION:
+Start frame: FLOOR-HONEST. End frame: FLOOR-EMPTY. The last shoppers glance at the plain tags, shrug and walk out; the aisles empty; the lights at the back switch off row by row; near the end the tall tower of coins on the counter topples and scatters while the clerk rests her chin on her paw. Camera: very slow push-in toward the counter. End exactly on the FLOOR-EMPTY frame.
+
+NOTE: Edit graphic from 43.9 s: '−25%' in gold above the counter.
+
+=====================================================================
+SHOT 08 | 0:49.3-0:54.6 (5.3 s) | PROOF | look B0 → B
+CLIP: 6 s | START: K08 | voice-over
+=====================================================================
+LINE: REYNARD (VO) - "The new boss is fired."
+LINE: REYNARD (VO) - "And the red tags come back."
+
+MOTION:
+0-2.5 s: the silhouette pushes a door open and steps out into the light with his box; the door swings shut. 2.5-5.3 s: red tags pop onto the racks on both sides one after another and a crowd of shoppers rushes in through the doors. Camera: locked. End pose: red-tagged racks and a busy doorway.
+
+=====================================================================
+SHOT 09 | 0:54.6-1:04.6 (10.0 s) | RETURN | look A-R
+CLIP: 10 s | START: K09 | talking — Hazel only (Reynard off-screen)
+=====================================================================
+LINE: HAZEL - "So I didn't save seventy dollars."
+LINE: REYNARD (off-screen) - "You spent thirty. The seventy was a feeling."
+LINE: HAZEL - "It was a good feeling."
+
+MOTION:
+0-1.2 s: Hazel stares at the tag. 1.2-3.5 s: she looks up to the right and speaks quietly. 3.5-7.4 s: she listens with her mouth closed while Reynard's voice speaks off-screen, her shoulders sinking a little. 7.4-10 s: a small rueful laugh and a shrug, then she speaks. Camera: slow push-in. Rain runs down the window. End pose: Hazel smiling ruefully, looking right.
+
+NOTE: Lip-sync: attach an audio track with only Hazel's two lines, silent while Reynard talks. His line is added in the edit.
+
+=====================================================================
+SHOT 10 | 1:04.6-1:13.8 (9.2 s) | RETURN | look A-R
+CLIP: 10 s | START: K10 | talking — Reynard only
+=====================================================================
+LINE: REYNARD - "They don't sell dresses — they sell winning."
+LINE: REYNARD - "Next time you see a slashed price, ask who wrote the first number."
+
+MOTION:
+0-3 s: Reynard speaks, nodding once toward the dress. 3-9.2 s: he leans in slightly and raises one white-gloved finger as he continues; in the foreground Hazel folds the red dress back into the striped bag, lays a blank receipt on top and pats it once. Camera: slow push-in toward Reynard. Only Reynard's mouth moves. End pose: the receipt on top of the bag, Reynard looking at Hazel with a kind half-smile.
+
+=====================================================================
+SHOT 11 | 1:13.8-1:22.4 (8.6 s) | SIGN-OFF + OUTRO | look C → D
+CLIP: 10 s | START: K11 | talking — Reynard 0.3-5.8 s, then silent
+=====================================================================
+LINE: REYNARD - "So keep collecting savings… or notice everything, believe slowly, and follow the fox."
+
+MOTION:
+0-6 s: Reynard speaks calmly to the camera, a slow dry smile on the last words, while the camera very slowly pushes in. 6-7 s: he closes the notebook with a soft snap. 7-8.6 s: he reaches over and clicks the lamp off; the frame falls to near-black and a thin glint of light slides across his round glasses. Hold on the dark. End: near-black frame, the glint fading.
+
+NOTE: Lip-sync: attach his line's audio for the first 6 s only.
