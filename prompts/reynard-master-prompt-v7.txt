@@ -1,8 +1,9 @@
 =====================================================================
-🦊 REYNARD — SERIES MASTER PROMPT v7.1
+🦊 REYNARD — SERIES MASTER PROMPT v7.2
 Merges the production engineering of "Rotating Cast / Cinematic
 Story v6.0" with the retention rules measured in the 5 reference
-videos. v7.1 adds the character reference sheet system (1.6, 5.6).
+videos. v7.1 added the character reference sheet system (1.6, 5.6);
+v7.2 makes 11 long shots the default (PART 4).
 Replaces both v6 prompts. Why: docs/11-master-prompt-v7.md
 =====================================================================
 
@@ -19,8 +20,8 @@ HOW TO USE (for you, not for the AI)
      TOPIC: extended warranties
      SHEETS: Reynard approved   (+ any returning companion)
      LEDGER: (paste the ledger lines from your last 5 episodes)
-     Optional: LENGTH, MODE, COUNTERPART, SETTING, SOURCES,
-               VOICE IDS, TOOLS (+ clip length limits)
+     Optional: LENGTH, SHOTS (default 11), MODE, COUNTERPART,
+               SETTING, SOURCES, VOICE IDS, TOOLS (+ clip limits)
 
 3. Make the new companion's design image and sheet FIRST (their
    prompts are in section B of the answer), then the shots.
@@ -260,7 +261,8 @@ outro.
 
 PROOF (0:17-0:52)
 Reynard narrates in voice-over, present tense. Every sentence adds
-new information and gets its own picture - never decorative shots
+new information and gets its own visual beat - a new action, a
+change or a camera reveal inside the shot - never decorative images
 that repeat a point. Halfway through, one re-hook turn ("Then...",
 "But..."). The counterpart may interject once, off-screen, 2-6
 words. Every beat has something concrete: a number, year, place,
@@ -306,12 +308,33 @@ PART 4 — TIMING
   at about 165 wpm, plus every silent beat listed separately. If it
   runs long, cut words - never speed up the voice.
 - Shot durations must add up exactly to the runtime.
-- 22-30 edit shots, made from about 15-20 generated clips (one clip
-  can give two shots). An edit shot and a generated clip are
-  different units: map them.
-- Shot lengths: hook and challenge 2-3 s; proof about 2 s (1.5-3 s);
-  return 3-5 s; sign-off one held close-up of 5-7 s. Before the
-  return, no shot runs longer than 4 s unless a performance earns it.
+- EXACTLY 11 SHOTS by default. If the user gives SHOTS, use that
+  number and scale the map below. One generated clip per shot, 5-12 s
+  long, made from a start frame - plus an end frame whenever the
+  picture has to change inside the shot.
+- The 11-shot map (for about 75-85 s):
+    1   HOOK + CHALLENGE, about 7 s: the hook, Reynard's crack and
+        the pushback in one wide shot that pushes in to a two-shot
+    2   CHALLENGE, about 5 s: close-up on the counterpart - the
+        sharper question off-screen, the beat, the curious line
+    3   PORTAL, about 5-6 s: Reynard's portal line, then the camera
+        pushes into the notebook page; match cut into shot 4 on the
+        boom
+    4-8 PROOF, five shots, about 35-37 s together (5-11 s each): 2-3
+        sentences per shot, each with its own beat; show the proof
+        world changing inside the shots (start and end frames, one
+        master frame seen in several states)
+    9   RETURN, about 9-10 s: on the counterpart - the realisation
+        and the admission; Reynard may speak off-screen
+    10  RETURN, about 9-10 s: on Reynard - the lesson, with the
+        counterpart's changed choice visible in the foreground
+    11  SIGN-OFF + OUTRO, about 8-9 s: the mantra to camera, then the
+        notebook snap, lamp off and glint in one continuous shot
+- Keep every long shot alive: one camera move, plus a new action or
+  change at least every 3-4 s, written as timed beats in the motion
+  prompt ("0-2.5 s: ... 2.5-5 s: ..."). No shot over 12 s.
+- Lip-sync one character per shot. The other speaks off-screen, or
+  the shot is wide enough that mouths are small.
 - Cut between sentences, not in the middle of a word.
 
 
@@ -326,6 +349,10 @@ on characters, finer linework in backgrounds, cel-shaded painted
 colour, subtly textured painted backgrounds, expressive animal
 anatomy, tailored period clothing, motivated lighting, vertical 9:16
 composition, sharp clean image"
+Write every image prompt in this order: the STYLE BLOCK, the LOOK
+(5.2), then "Characters:" with each visible character's full lock
+text as its own sentence, then "Scene:" with the moment itself,
+calling the characters by name.
 
 5.2 LOOKS - one per shot
   A PRESENT ... warm amber practical light (lamp, window, shop
@@ -342,7 +369,8 @@ composition, sharp clean image"
 - Foreground, subject and background layers; faces and the
   signature object get clear space.
 - Progress through sizes: wide -> two-shot -> close-up -> insert ->
-  callback.
+  callback. Inside a long shot, a camera move can carry the change of
+  size (a wide pushing in to a two-shot).
 - Keep the 180-degree line, screen direction and eyelines
   consistent. No teleporting props, no changing room layouts.
   Declare any modern prop and keep it consistent.
@@ -386,9 +414,10 @@ on screen is added as a graphic in the edit.
 PART 6 — MOTION
 =====================================================================
 
-- One primary action and one camera intention per clip: locked,
-  gentle push-in, small pan, track or pull-back, each chosen for a
-  reason - not a push-in on everything.
+- One camera intention per clip: locked, gentle push-in, small pan,
+  track or pull-back, each chosen for a reason - not a push-in on
+  everything. One location per clip. Clips over 5 s get 2-3 timed
+  action beats; shorter clips get one primary action.
 - Restrained acting: eyes, lids, brows, jaw, breath, weight shift,
   one motivated gesture. A held, still reaction is allowed.
 - Dialogue: name the speaking character; the listener's mouth stays
@@ -468,22 +497,27 @@ C. SCRIPT
    runtime maths.
 
 D. SHOT TABLE
-   ID | start-end | duration | size | action | speaker + line |
-   purpose | camera | transition | sound. Durations add up to the
-   runtime. Clip map: which generated clip each shot comes from and
-   the tool's clip length.
+   ID | start-end | duration | size | action | lines (speaker +
+   words) | purpose | camera | transition | sound. Durations add up
+   to the runtime. Clip map: for every shot, its start frame, end
+   frame (if any), clip length and speech method.
 
-E. PROMPTS FOR EVERY SHOT
-   IMAGE (start frame): shot ID; 9:16; the sheet crops to attach,
-   chosen by 5.6 (e.g. [REYNARD-FACE] [REYNARD-34] [OTIS-FRONT]);
-   the lock text of every visible character; location; framing;
-   screen position and eyeline;
-   starting pose; props and hands; light direction; look; blank area
-   for graphics if needed. One moment per image.
-   MOTION: shot ID; final duration and generation length; what
-   changes from the start frame; one action; expression progression;
-   camera; physical environment motion; speaker, speech method and
-   the exact line; continuity constraints; end pose.
+E. KEYFRAME AND MOTION PROMPTS
+   KEYFRAMES: one image prompt for every start frame and end frame,
+   each with an ID (K01, K02... or a name such as FLOOR-RED) and the
+   shots that use it. One keyframe can serve several shots; make the
+   other states of a master frame as image-to-image edits of it.
+   Each prompt: 9:16; the sheet crops to attach, chosen by 5.6 (e.g.
+   [REYNARD-FACE] [REYNARD-34] [OTIS-FRONT]); STYLE BLOCK, LOOK,
+   Characters, Scene (order in 5.1): location; framing; screen
+   position and eyeline; starting pose; props and hands; light
+   direction; blank area for graphics if needed. One moment per
+   image.
+   MOTION (every shot): shot ID; final duration and clip length;
+   start frame and end frame; timed beats ("0-3 s: ..."); expression
+   progression; camera; physical environment motion; speaker,
+   speech method and the exact lines; continuity constraints; end
+   pose.
    If a tool is named, use only its real controls (references,
    audio, duration, negative field); never invent syntax. If no tool
    is named, write plain language.
@@ -508,7 +542,8 @@ QUALITY GATE
 [ ] real resistance before the portal; understanding only after
     the proof
 [ ] portal by about 0:17, with push-in and sound hit
-[ ] 22-30 shots; none over 4 s before the return without a reason
+[ ] 11 shots (or SHOTS), 5-12 s each, a new beat every 3-4 s inside
+    each shot, one lip-synced character per shot
 [ ] proof: new information every sentence, one colour object, one
     re-hook
 [ ] return to the same place, visibly changed; earned realisation

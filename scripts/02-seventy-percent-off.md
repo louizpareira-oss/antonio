@@ -2,7 +2,7 @@
 
 **Series:** Reynard · **Mode:** EXPOSE · **Status:** MIXED (fictional frame story, factual proof) · **Runtime:** 82.4 s · **Spoken words:** 167 · **Shots:** 11 long shots · **Keyframes:** 12
 
-Built with [`prompts/reynard-master-prompt-v7.txt`](../prompts/reynard-master-prompt-v7.txt) (v7.1), with the shot count set to 11 long shots on request. Copy-paste prompts: [`prompts/02-seventy-percent-off.txt`](../prompts/02-seventy-percent-off.txt).
+Built with [`prompts/reynard-master-prompt-v7.txt`](../prompts/reynard-master-prompt-v7.txt) (v7.2), in its default of 11 long shots. Copy-paste prompts: [`prompts/02-seventy-percent-off.txt`](../prompts/02-seventy-percent-off.txt).
 
 ---
 
@@ -174,7 +174,7 @@ Everything below is **PLANNED**. Likeness, lip-sync, motion, runtime and mix bec
 | First line within 0.5 s, signature object in frame 1, new location | ✅ PLANNED | Hazel at 0.3 s, red tag in frame 1; first ledger entry |
 | Real resistance before the portal; understanding only after the proof | ✅ PLANNED | "The original price. A hundred dollars!" / "Well… somebody must have." |
 | Portal by about 0:17, with push-in and sound hit | ✅ PLANNED | Push-in into the page 0:16.0–0:17.6, boom on the cut at 0:17.6 |
-| Shot count | ✅ PLANNED | 11 long shots by your request (master prompt default: 22–30); a new beat every 3–4 s inside each shot |
+| Shot count | ✅ PLANNED | 11 long shots (the master prompt v7.2 default); a new beat every 3–4 s inside each shot |
 | Proof: new information every sentence, one colour object, one re-hook | ✅ PLANNED | Every sentence has its own visual beat; red tags only; "But shoppers hate it." |
 | Return to the same place, visibly changed; earned realisation | ✅ PLANNED | Same kitchen, now raining; the dress goes back in the bag |
 | Payoff line + mantra + outro sting | ✅ PLANNED | Shots 10–11 |
@@ -186,7 +186,7 @@ Everything below is **PLANNED**. Likeness, lip-sync, motion, runtime and mix bec
 | Facts verified, qualified or removed; status labelled | ✅ PLANNED | MIXED, 3 sources |
 
 **What changes with 11 long shots:**
-- **Fewer generations:** 11 clips from 13 keyframes, instead of 28 clips.
+- **Fewer generations:** 11 clips from 12 keyframes.
 - **Longer clips:** 5–12 s each, so use tools that make long clips (Kling 3.0 up to 15 s, Wan 3.0 up to 30 s, MiniMax H3 Max up to 15 s). Each long clip costs more than a 5 s one, so check the price per clip length in OpenArt before generating.
 - **Risk:** a long AI clip has more time to drift. Reject any take where a face, marking or outfit changes, and redo it from the same start frame.
 

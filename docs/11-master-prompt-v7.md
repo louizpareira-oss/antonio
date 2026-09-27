@@ -30,7 +30,7 @@ written, it produces slower, calmer, well-made shorts that all feel different fr
 
 | # | It said | Measured in the 5 reference videos | v7 |
 |---|---|---|---|
-| 1 | 10–16 shots for 75 s, most 3–7 s | A new shot about every 3 s (25–37 per video); the proof section cuts every 1.7–2.7 s | 22–30 shots; nothing over 4 s before the return without a reason |
+| 1 | 10–16 shots for 75 s, most 3–7 s | A new shot about every 3 s (25–37 per video); the proof section cuts every 1.7–2.7 s | 22–30 shots; nothing over 4 s before the return without a reason. **Replaced in v7.2 by 11 long shots — see below** |
 | 2 | Hook within "roughly 2–4 s"; "a quiet opening can work" | First spoken word at 0.2–0.9 s | First line within 0.5 s, object in frame 1 |
 | 3 | 140–160 words for 75 s | 126–162 wpm with speech almost wall to wall → about 155–195 words for 75 s | 155–180 words, runtime maths shown |
 | 4 | Five structures to rotate; TV, flashback and direct-to-camera ending "never required" | All 5 references use one spine: hook → challenge → portal → proof → return → moral | One fixed spine; the MODE (exposé, fable, pattern, demonstration) is what rotates |
@@ -70,5 +70,36 @@ Two rules added around it:
 **Cost:** Reynard's sheet is made once (3–4 takes on Nano Banana Pro ≈ 120–160 credits). Each new
 companion needs a design image and a sheet: roughly 150–200 credits, then reused whenever they
 return.
+
+## v7.2 — 11 long shots by default
+
+Your call: 22–30 shots was too much to generate for every episode. Fewer, longer shots also mean
+fewer places for a character to drift between clips. Every episode is now **exactly 11 shots**
+(PART 4 of the prompt), each one a single clip of 5–12 s. A `SHOTS:` input changes the number
+for a single episode.
+
+The honest trade-off: the reference videos cut about every 3 seconds, and a long shot where
+nothing changes feels slow. So v7.2 keeps each shot moving instead of cutting:
+
+- **A fixed 11-shot map:** hook and challenge in two shots, the portal in one, five proof shots,
+  two return shots, and one shot for the sign-off and outro together.
+- **Timed beats:** every motion prompt has a camera move plus a new action or change at least every
+  3–4 seconds ("0–2.5 s: … 2.5–5 s: …"). No shot runs over 12 s.
+- **The proof changes inside its shots:** start and end frames, and one master frame shown in
+  several states (made as image-to-image edits), instead of cutting to new pictures.
+- **One lip-synced character per shot:** the other speaks off-screen, or the shot is wide.
+- **Word-by-word captions** keep the rhythm on screen.
+
+Two more changes came from building [Script 02](../scripts/02-seventy-percent-off.md) this way:
+
+1. **Output E is now keyframes + motion.** One keyframe can serve several shots, such as the
+   store floor shown red, honest and empty.
+2. **Image prompts follow a fixed order:** style → look → "Characters:" (each full lock as its own
+   sentence) → "Scene:" by name. Dropping a long description into the middle of a sentence made it
+   unclear which details belonged to which character.
+
+**Tools:** long clips need a tool that makes them: Kling 3.0 (up to 15 s), Wan 3.0 (up to 30 s) or
+MiniMax H3 Max (up to 15 s). A long clip costs more than a 5 s one, so check the price per clip
+length before generating.
 
 → Prompt: [`prompts/reynard-master-prompt-v7.txt`](../prompts/reynard-master-prompt-v7.txt)
