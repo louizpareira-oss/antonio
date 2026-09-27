@@ -3,6 +3,7 @@
 Rebuilt from a measured analysis of 5 reference videos: timings,
 cuts, colour, voices and loudness. Replaces v5.0.
 Why every rule exists: docs/10-master-prompt-v6.md
+SUPERSEDED: use prompts/reynard-master-prompt-v7.txt instead.
 =====================================================================
 
 HOW TO USE (for you, not for the AI)
