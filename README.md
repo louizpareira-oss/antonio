@@ -13,11 +13,13 @@ Plan to make the account eligible for the TikTok Creator Rewards Program after t
 6. [`docs/06-reference-video-teardown.md`](docs/06-reference-video-teardown.md) — frame-by-frame measurement of the course’s own example video, and how to rebuild it legitimately.
 7. [`docs/07-matching-visuals-to-dialogue.md`](docs/07-matching-visuals-to-dialogue.md) — the skill the course skipped: how to decide which picture goes on which line.
 8. [`docs/09-anime-visuals-legitimately.md`](docs/09-anime-visuals-legitimately.md) — how to get the anime look without downloading anyone’s frames, plus the anime version of Script 01.
+9. [`docs/10-master-prompt-v6.md`](docs/10-master-prompt-v6.md) — the 18 mistakes in the Reynard master prompt v5.0, measured against 5 reference videos, plus the OpenArt production pipeline and an example episode.
 
 ## Scripts and prompts
 
 - [`scripts/01-forgive-the-past.md`](scripts/01-forgive-the-past.md) — 70s, 20 beats, full shot list and generation prompts.
 - [`prompts/01-forgive-the-past-anime.txt`](prompts/01-forgive-the-past-anime.txt) — **copy-paste pack: all 22 clip prompts, anime style, ready for an AI video generator.**
+- [`prompts/reynard-master-prompt-v6.txt`](prompts/reynard-master-prompt-v6.txt) — **copy-paste master prompt for the Reynard series: script, voices, 24–30 shots, sound plan, captions.**
 
 ## Account snapshot (Sep 2026)
 
