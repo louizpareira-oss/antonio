@@ -1,0 +1,62 @@
+=====================================================================
+🦊 REYNARD — CHARACTER REFERENCE SHEET (make it once)
+Step 0 of the master prompt (prompts/reynard-master-prompt-v7.txt,
+section 1.6). The approved sheet is the source of truth for Reynard
+in every episode.
+=====================================================================
+
+HOW TO USE
+1. Attach your approved Reynard reference image(s).
+2. Model: Nano Banana Pro (best consistency, native 4K, 40 credits)
+   or Nano Banana 2 (20 credits). Aspect ratio 9:16, highest
+   resolution.
+3. Generate 3-4 takes. Keep the one where EVERY panel shows the same
+   face, markings, glasses, suit, tie, gloves and proportions. Reject
+   a take if even one panel drifts.
+4. If the description below disagrees with your reference image, the
+   IMAGE wins: change the description to match it before generating.
+5. Cut the approved sheet into these files and keep them forever:
+     REYNARD-FACE ..... the big hero face
+     REYNARD-FRONT .... front neutral
+     REYNARD-34 ....... three-quarter front
+     REYNARD-SIDE-L ... side left
+     REYNARD-SIDE-R ... side right
+     REYNARD-BACK ..... full back
+     REYNARD-WALK ..... walking pose
+6. In every master-prompt request, write: SHEETS: Reynard approved.
+
+---------------------------- PROMPT ----------------------------
+
+9:16 character reference sheet of Reynard, an anthropomorphic fox
+gentleman: desaturated rust-orange fur, cream muzzle, half-lidded
+amber eyes, round wire-rim glasses, navy pinstripe suit, gold tie,
+white gloves, small brown leather notebook in his breast pocket,
+matching the attached reference image exactly: enlarged hero face
+close-up, face rotation grid, T-pose front, T-pose back, front
+neutral, side left, side right, three-quarter front, three-quarter
+back, full back, walking pose.
+Layout: vertical 9:16 portrait canvas, designed like a premium film
+or game studio character turnaround board.
+Top section (identity focus): one very large hero face close-up
+spanning about 50-60% of the width, positioned prominently as the
+main visual anchor. Beside it: a compact face rotation grid showing
+the head from the front, three-quarter, side and back, looking down
+and looking up, plus one supporting portrait crop. This top row
+immediately establishes facial identity.
+Middle section: T-pose front, T-pose back, front neutral - three
+evenly spaced panels.
+Lower section: side left, side right, three-quarter front, full back,
+three-quarter back, walking pose - two clean rows of three with
+balanced spacing.
+Full-body poses stay large enough for every face, outfit and prop
+detail to read clearly, while the face sheet at the top keeps
+priority. The composition fills the tall 9:16 frame with a strong
+hierarchy: face identity first, body turnaround second.
+Match the face, fur colour, markings, fur texture, eyes, outfit,
+accessories and proportions of the reference exactly. No redesign,
+no new stylisation, no reinterpretation: the reference's own
+rendering style - the vintage hand-drawn cartoon style of this
+series - is preserved 100% identically in every panel.
+Neutral grey studio backdrop. Soft three-point studio lighting, flat
+even illumination, no harsh shadows. Thin white gutters separating
+panels. No text, no labels, no watermarks.

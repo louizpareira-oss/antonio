@@ -1,21 +1,30 @@
 =====================================================================
-🦊 REYNARD — SERIES MASTER PROMPT v7.0
+🦊 REYNARD — SERIES MASTER PROMPT v7.1
 Merges the production engineering of "Rotating Cast / Cinematic
 Story v6.0" with the retention rules measured in the 5 reference
-videos. Replaces both v6 prompts. Why: docs/11-master-prompt-v7.md
+videos. v7.1 adds the character reference sheet system (1.6, 5.6).
+Replaces both v6 prompts. Why: docs/11-master-prompt-v7.md
 =====================================================================
 
 HOW TO USE (for you, not for the AI)
+0. Before your first episode, make Reynard's reference sheet ONCE:
+   open prompts/reynard-reference-sheet.txt, attach your Reynard
+   image, generate at the highest resolution (on OpenArt: Nano Banana
+   Pro or Nano Banana 2, native 4K), approve the best take, and cut
+   it into the crops listed in section 1.6. You never make it again.
 1. Copy everything from "PROMPT STARTS HERE" to the end into ChatGPT
    or Claude (or Custom GPT / Claude Project instructions).
-2. Attach your Reynard reference image, then send:
+2. Attach your Reynard reference sheet (or image), then send:
 
      TOPIC: extended warranties
+     SHEETS: Reynard approved   (+ any returning companion)
      LEDGER: (paste the ledger lines from your last 5 episodes)
      Optional: LENGTH, MODE, COUNTERPART, SETTING, SOURCES,
                VOICE IDS, TOOLS (+ clip length limits)
 
-3. Save the ledger line at the end of every answer. Paste the last 5
+3. Make the new companion's design image and sheet FIRST (their
+   prompts are in section B of the answer), then the shots.
+4. Save the ledger line at the end of every answer. Paste the last 5
    next time so nothing repeats.
 
 ------------------------- PROMPT STARTS HERE -------------------------
@@ -46,8 +55,10 @@ PART 1 — FIXED: THE FORMAT
 1.1 REYNARD — IDENTITY LOCK
 The attached reference is the source of truth: species, face,
 muzzle, ears, markings, eye colour, silhouette, clothing, drawing
-style. Build the identity lock from it and list anything unclear
-(e.g. "tie colour unclear in the reference") instead of redesigning.
+style. Once his reference sheet is approved (1.6), the sheet is the
+source of truth. Build the identity lock from it and list anything
+unclear (e.g. "tie colour unclear in the reference") instead of
+redesigning.
 If no reference is attached, use this lock and label it PROVISIONAL:
 "Reynard, an anthropomorphic fox gentleman: desaturated rust-orange
 fur, cream muzzle, half-lidded amber eyes, round wire-rim glasses,
@@ -99,6 +110,63 @@ what the proof looks like; the spine never changes.
   or right 20% of the frame.
 - Turn on TikTok's AI-generated content label.
 
+1.6 CHARACTER REFERENCE SHEETS — the consistency system
+Every character who appears on screen gets ONE approved reference
+sheet before any shot is generated. Text descriptions drift; an
+approved sheet keeps the same face in every shot. The images are
+made in the image tool; you write the prompts.
+
+Order of work:
+  1. DESIGN IMAGE (new characters only - a character who already
+     has an approved reference image, like Reynard, skips this):
+     "Vintage 1950s hand-drawn theatrical cartoon character design,
+     confident ink outlines, cel-shaded painted colour, [LOCK TEXT],
+     full body, three-quarter front view, neutral standing pose,
+     neutral grey studio backdrop, soft even studio lighting, sharp
+     clean image". Generate 3-4 takes and approve one.
+  2. SHEET: the REFERENCE SHEET PROMPT below, with the approved image
+     attached, at the highest resolution the tool offers. Reject any
+     sheet in which one panel differs from the others (markings, eye
+     colour, outfit details, prop, proportions).
+  3. CROPS: cut the approved sheet into single-view references and
+     name them [NAME-FACE] (hero face), [NAME-FRONT] (front neutral),
+     [NAME-34] (three-quarter front), [NAME-SIDE-L], [NAME-SIDE-R],
+     [NAME-BACK] (full back) and [NAME-WALK] (walking pose).
+  4. LOCK: an approved sheet is never regenerated. Reynard's sheet
+     serves the whole series; a returning companion reuses theirs.
+
+REFERENCE SHEET PROMPT (use verbatim; replace [LOCK TEXT]):
+"9:16 character reference sheet of [LOCK TEXT], matching the attached
+reference image exactly: enlarged hero face close-up, face rotation
+grid, T-pose front, T-pose back, front neutral, side left, side
+right, three-quarter front, three-quarter back, full back, walking
+pose.
+Layout: vertical 9:16 portrait canvas, designed like a premium film
+or game studio character turnaround board.
+Top section (identity focus): one very large hero face close-up
+spanning about 50-60% of the width, positioned prominently as the
+main visual anchor. Beside it: a compact face rotation grid showing
+the head from the front, three-quarter, side and back, looking down
+and looking up, plus one supporting portrait crop. This top row
+immediately establishes facial identity.
+Middle section: T-pose front, T-pose back, front neutral - three
+evenly spaced panels.
+Lower section: side left, side right, three-quarter front, full back,
+three-quarter back, walking pose - two clean rows of three with
+balanced spacing.
+Full-body poses stay large enough for every face, outfit and prop
+detail to read clearly, while the face sheet at the top keeps
+priority. The composition fills the tall 9:16 frame with a strong
+hierarchy: face identity first, body turnaround second.
+Match the face, fur colour, markings, fur texture, eyes, outfit,
+accessories and proportions of the reference exactly. No redesign,
+no new stylisation, no reinterpretation: the reference's own
+rendering style - the vintage hand-drawn cartoon style of this
+series - is preserved 100% identically in every panel.
+Neutral grey studio backdrop. Soft three-point studio lighting, flat
+even illumination, no harsh shadows. Thin white gutters separating
+panels. No text, no labels, no watermarks."
+
 
 =====================================================================
 PART 2 — VARIES: THE CAST
@@ -129,8 +197,9 @@ slim Reynard; no orange fur (except his own kit, who is much smaller
 and dressed differently); no navy or gold outfit; one signature
 clothing colour and one signature prop. Write a COUNTERPART LOCK in
 the same format as Reynard's and reuse it word for word in every
-prompt. Rotation happens between episodes; inside an episode the
-design never changes.
+prompt, then build the counterpart's design image and reference
+sheet (1.6) before any shot. Rotation happens between episodes;
+inside an episode the design never changes.
 
 2.4 LEDGER: if given, do not repeat the previous episode's species,
 relationship, opening location or signature object, and do not
@@ -288,6 +357,30 @@ universal floating dust, no swaying indoor lamps.
 Labels, price tags, papers, signs and screens stay blank. Every word
 on screen is added as a graphic in the edit.
 
+5.6 USING THE SHEETS IN EVERY SHOT
+- Attach single-view crops, not the whole board. A multi-panel board
+  used as a reference can make the model return a grid, several
+  copies of the character, or the grey studio backdrop.
+- Pick the crops that match the shot, at most 3 per character:
+    close-up or medium ..... FACE + 34
+    profile ................ the SIDE crop facing the same direction
+                             as the character in this shot
+    seen from behind ....... BACK
+    walking ................ WALK + FACE
+    anything else .......... FRONT + 34 + FACE
+- Two characters in one shot: attach both sets and name them in the
+  prompt by image number ("the fox from images 1-2, the raccoon from
+  images 3-4"), each with their full lock text.
+- Every shot prompt describes one single full-frame scene with its
+  own location and lighting. The grey backdrop and the flat studio
+  light belong to the sheet only.
+- Use the same image model for the sheets and for every keyframe of
+  an episode; switching models changes the drawing.
+- Video: animate the approved keyframe as the start frame. Where the
+  tool also accepts subject references, attach the FACE and FRONT
+  crops. Reject any clip in which the face, markings or outfit drift
+  and regenerate it from the same start frame.
+
 
 =====================================================================
 PART 6 — MOTION
@@ -360,12 +453,14 @@ A. EPISODE BRIEF
 
 B. CAST AND CONTINUITY CARD
    Reynard lock (from the reference, or PROVISIONAL plus the list
-   of ambiguities); counterpart lock plus a turnaround-sheet prompt
-   ("[STYLE BLOCK] + [COUNTERPART LOCK], character turnaround sheet:
-   front, three-quarter, side and back views, full body, neutral
-   pose, plain warm background"); relationship; voices (asset IDs or
-   casting description); setting; palette; prop ownership; Barnaby
-   present or absent.
+   of ambiguities); counterpart lock; relationship; voices (asset
+   IDs or casting description); setting; palette; prop ownership;
+   Barnaby present or absent.
+   REFERENCE SHEETS: for every on-screen character without an
+   approved sheet (see SHEETS), the DESIGN IMAGE prompt (new
+   characters only) and the filled REFERENCE SHEET PROMPT from 1.6,
+   plus the crop names the shot prompts will use. For a character
+   with an approved sheet, write "sheet approved - crops [NAME-...]".
 
 C. SCRIPT
    speaker | performance cue | exact words. Silent actions and
@@ -379,9 +474,10 @@ D. SHOT TABLE
    the tool's clip length.
 
 E. PROMPTS FOR EVERY SHOT
-   IMAGE (start frame): shot ID; 9:16; attachment placeholders
-   [REF-REYNARD] [REF-COUNTERPART]; the lock text of every visible
-   character; location; framing; screen position and eyeline;
+   IMAGE (start frame): shot ID; 9:16; the sheet crops to attach,
+   chosen by 5.6 (e.g. [REYNARD-FACE] [REYNARD-34] [OTIS-FRONT]);
+   the lock text of every visible character; location; framing;
+   screen position and eyeline;
    starting pose; props and hands; light direction; look; blank area
    for graphics if needed. One moment per image.
    MOTION: shot ID; final duration and generation length; what
@@ -419,8 +515,10 @@ QUALITY GATE
 [ ] payoff line + mantra + outro sting
 [ ] one counterpart (or a justified third), locked design,
     different from the ledger
-[ ] lock text in every prompt; eyelines, props and geography
-    consistent
+[ ] every on-screen character has an approved sheet, or its design
+    and sheet prompts are in B
+[ ] lock text + matching sheet crops in every image prompt;
+    eyelines, props and geography consistent
 [ ] no lettering in images; captions from the final audio, in safe
     zones
 [ ] one speech method per line; unused generated audio muted;

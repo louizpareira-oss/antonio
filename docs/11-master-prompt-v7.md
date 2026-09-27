@@ -42,4 +42,33 @@ written, it produces slower, calmer, well-made shorts that all feel different fr
 | 10 | No 65 s floor, no export size, no safe-zone numbers, no AI label | [Doc 03](03-technical-spec.md) | All in the technical spec (1.5) |
 | 11 | Meta text about not claiming to have heard the reference audio | — | Cut: it spends the model's attention on nothing |
 
+## v7.1 — character reference sheets
+
+Consistency now starts before the first shot: every on-screen character gets **one approved
+9:16 reference sheet** (hero face, face rotation grid, T-poses, turnaround, walking pose), and
+every shot is generated from crops of that sheet. The layout is yours; it lives in section 1.6
+of the prompt, and Reynard's ready-to-paste version is
+[`prompts/reynard-reference-sheet.txt`](../prompts/reynard-reference-sheet.txt).
+
+Three changes to the sheet spec as it was written:
+
+| Original wording | Changed to | Why |
+|---|---|---|
+| "Photorealistic appearance preserved 100% consistently" | The reference's own vintage cartoon style preserved 100% | "Photorealistic" would turn Reynard into a realistic fox and fight the style of every shot |
+| "skin texture, hair" | fur colour, markings, fur texture, eyes | The whole cast are animals |
+| A garbled line ("Fl basy pon remin trge…") | "Full-body poses stay large enough for every face, outfit and prop detail to read clearly, while the face sheet at the top keeps priority." | Best reading of the damaged text |
+
+Two rules added around it:
+
+1. **Design image first for new characters.** A whole sheet generated from text alone drifts
+   from panel to panel. One approved full-body design image, then the sheet from that image.
+2. **Shots use single-view crops, never the whole board.** A multi-panel board as a reference can
+   make the model return a grid, several copies of the character, or the grey studio backdrop.
+   The prompt picks the crop that matches each shot's angle (face close-up → FACE + 34, profile →
+   the matching SIDE, from behind → BACK).
+
+**Cost:** Reynard's sheet is made once (3–4 takes on Nano Banana Pro ≈ 120–160 credits). Each new
+companion needs a design image and a sheet: roughly 150–200 credits, then reused whenever they
+return.
+
 → Prompt: [`prompts/reynard-master-prompt-v7.txt`](../prompts/reynard-master-prompt-v7.txt)
