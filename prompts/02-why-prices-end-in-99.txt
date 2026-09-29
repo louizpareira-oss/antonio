@@ -1,0 +1,308 @@
+================================================================
+"WHY PRICES END IN .99" — AI VIDEO PROMPT PACK
+30 shots · 9:16 vertical · 1080x1920 · picture-book + ledger look
+Script: scripts/02-why-prices-end-in-99.md (shot numbers match)
+================================================================
+
+WORKFLOW (image first, then animate)
+1. Make the two CHARACTER SHEETS below. Keep the best of each.
+2. For every SHOP shot (the Clerk / Pip), use image-to-image with the
+   matching character sheet as the reference, so the faces stay the
+   same. LEDGER shots do not need a reference.
+3. Animate each keyframe with image-to-video, 4-5 seconds. Use the
+   MOTION line as the video prompt.
+4. Never accept a horizontal or letterboxed result. If a tool only does
+   16:9, change tools. Do not crop a wide clip to fit.
+5. Turn ON TikTok's AI-generated content label when you upload.
+
+CREDIT ESTIMATE (your OpenArt balance was 5,941 on Sep 29, 2026)
+- Keyframes: 15 credits each (Seedream 4.5) or 20 (Nano Banana 2)
+- Animation: 50 credits per clip (PixVerse V6) or 100 (Wan 3.0)
+- Character sheets: about 30 credits for both.
+- TEST BATCH first: shots 1, 2, 3 and 5 = about 260 credits.
+- One take of all 30 shots = about 1,950 credits.
+- Three keyframe takes per shot, one animation each = about 2,850.
+
+NO TEXT IN THE PICTURES. Every tag, page and sign is generated BLANK.
+You type the real prices ($3.99, $4.00) in your editor. AI models
+garble digits, and garbled text is the giveaway in the videos we
+measured.
+
+NEGATIVE PROMPT (paste into the negative field for every shot)
+text, letters, numbers, digits, watermark, logo, subtitles, caption,
+signature, extra fingers, deformed hands, horizontal, letterbox, black
+bars, split screen, collage, photorealistic, 3d render, cgi
+
+THE TWO STYLE TAILS (already pasted at the end of each prompt below)
+SHOP:   gouache picture-book illustration, matte paper texture, soft
+        brush edges, warm amber lamplight against deep teal night,
+        limited palette, subtle film grain, no text, blank tags,
+        full frame, 9:16 vertical
+LEDGER: ink and pencil drawing on cream ledger paper, fine
+        crosshatching, grey and sepia linework, monochrome except one
+        small gold object, no text, blank tags, full frame, 9:16
+        vertical
+
+================================================================
+CHARACTER SHEETS (make these first)
+================================================================
+
+[CLERK]
+Character reference, full body and a face close-up side by side on a
+plain warm background: a tall grey heron shopkeeper with a long neck,
+long yellow beak, round brass-rimmed glasses, a deep green apron over
+a cream shirt with rolled sleeves, calm dry expression, gouache
+picture-book illustration, matte paper texture, soft brush edges,
+limited palette, no text, 9:16 vertical
+
+[PIP]
+Character reference, full body and a face close-up side by side on a
+plain warm background: a small round hedgehog customer in a mustard
+knitted scarf holding a wicker basket, wide hopeful eyes, gouache
+picture-book illustration, matte paper texture, soft brush edges,
+limited palette, no text, 9:16 vertical
+
+================================================================
+SHOP SHOTS  (use image-to-image with the character sheets)
+================================================================
+
+[1] "Which is cheaper: four dollars, or three ninety-nine?"
+KEYFRAME: Medium shot, the Clerk behind a wooden shop counter holding
+up two blank paper price tags, one in each hand, toward the camera, a
+brass till on the counter, glass jars on the shelves behind, deep
+teal night in the window, gouache picture-book illustration, matte
+paper texture, warm amber lamplight against deep teal night, subtle
+film grain, no text, blank tags, full frame, 9:16 vertical
+MOTION: slow push-in, the tags sway slightly, the lamp light flickers
+
+[2] "You said three ninety-nine."
+KEYFRAME: Pip the hedgehog at the counter on tiptoe, pointing eagerly
+at a blank paper tag, warm lamp glow, the Clerk's green apron just
+visible at the edge of frame, gouache picture-book illustration,
+matte paper texture, warm amber lamplight against deep teal night,
+no text, blank tags, full frame, 9:16 vertical
+MOTION: Pip bounces with excitement, slight push-in
+
+[3] "It's one cent."
+KEYFRAME: Extreme close-up of the Clerk's eye and beak, round brass
+glasses, one eyebrow lifted, dry expression, warm lamplight on one
+side of the face, gouache picture-book illustration, matte paper
+texture, deep teal shadow, no text, full frame, 9:16 vertical
+MOTION: almost still, one slow blink, a tiny push-in. Hold
+
+[4] "So why does it feel like a discount?"
+KEYFRAME: Pip alone with a full wicker basket in front of a crowded
+shop shelf, scratching his head, puzzled, warm lamplight, deep teal
+night at the window, gouache picture-book illustration, matte paper
+texture, no text, blank tags, full frame, 9:16 vertical
+MOTION: head tilts, a paw scratches, slow drift to the left
+
+[5] "Let's open the till."  (THE DRAWER: half of the matched pair)
+KEYFRAME: High angle looking straight down into an open brass cash
+till drawer on a wooden counter, dark velvet-lined compartments, one
+gold coin glinting, the Clerk's grey hand resting on the edge, warm
+amber lamplight, gouache picture-book illustration, matte paper
+texture, deep teal shadows, no text, full frame, 9:16 vertical
+MOTION: the camera drops straight down into the drawer until the
+whole frame is black. Hold black for 0.3 s before shot 6
+
+[27] "Next time at the till, round it up in your head."  (THE RETURN)
+BEST OPTION: take the finished video for shot 5 and REVERSE it in your
+editor. That is a guaranteed matched pair (the Clerk's hand will move
+backwards, so crop or cover that if it shows).
+FALLBACK KEYFRAME: Low angle looking up out of an open brass till
+drawer into a warm amber shop, the Clerk leaning calmly on the counter
+above, Pip at the edge of frame, gouache picture-book illustration,
+matte paper texture, deep teal night in the window, no text, full
+frame, 9:16 vertical
+FALLBACK MOTION: the camera rises up out of the dark drawer into the
+shop, then settles. Same framing as shot 5, reversed
+
+[28] "Three ninety-nine is four dollars."
+KEYFRAME: Extreme close-up of Pip's small paw holding a pencil, about
+to cross out a blank paper price tag on a shelf edge, warm lamplight,
+gouache picture-book illustration, matte paper texture, no text,
+blank tag, full frame, 9:16 vertical
+MOTION: the pencil scratches across the tag, slow push-in. (Type the
+prices as gold text in the editor)
+
+[29] "Still want it?"
+KEYFRAME: Extreme close-up of the Clerk's face, one eyebrow raised, a
+small gentle smile, round brass glasses catching lamplight, gouache
+picture-book illustration, matte paper texture, deep teal shadow, no
+text, full frame, 9:16 vertical
+MOTION: the eyebrow lifts a fraction, the smile grows slightly. Hold
+
+[30] "Then buy it. Your choice, not the tag's." + sign-off
+KEYFRAME: Medium shot, Pip at the counter placing a small item into
+his wicker basket, the Clerk behind the brass till, the till drawer
+sliding open, warm amber lamplight, deep teal night in the window,
+gouache picture-book illustration, matte paper texture, no text,
+blank tags, full frame, 9:16 vertical
+MOTION: the drawer slides open with a small bounce, then a slow pull
+back through the shop window to the dark night street, the Clerk
+turns the door sign to a blank card. Hold the last frame 1.5 s
+
+================================================================
+LEDGER SHOTS  (no reference needed; one gold object each)
+================================================================
+
+[6] "Nine. Nine. Nine. Nine."
+KEYFRAME: A ledger page seen from above with four gold coins in a
+neat row, everything else grey and sepia ink on cream paper, ink and
+pencil drawing, fine crosshatching, no text, full frame, 9:16
+vertical
+MOTION: slow push-in, the four coins glint one after another from left
+to right
+
+[7] "The popular story starts in the eighteen-hundreds."
+KEYFRAME: An old town street of shopfronts with striped awnings, ink
+and pencil drawing on cream ledger paper, fine crosshatching, grey
+and sepia linework, one gold price tag hanging on one shop door,
+blank, no text, full frame, 9:16 vertical
+MOTION: slow sideways track along the street, the gold tag swings
+
+[8] "Shopkeepers didn't trust their cashiers."
+KEYFRAME: A suspicious shopkeeper peeking from behind a curtain at a
+cashier working at a till, ink and pencil drawing on cream ledger
+paper, fine crosshatching, grey and sepia linework, one gold coin on
+the counter, no text, full frame, 9:16 vertical
+MOTION: the curtain sways, slow push toward the shopkeeper's eyes
+
+[9] "An odd price meant opening the drawer for change."
+KEYFRAME: An old till drawer springing open with a hand placing one
+small gold penny into it, ink and pencil drawing on cream ledger
+paper, fine crosshatching, grey and sepia linework, no text, full
+frame, 9:16 vertical
+MOTION: the drawer slides open, the hand drops the coin, a small bounce
+
+[10] "Every sale, recorded."
+KEYFRAME: A ledger open on a desk, a hand with a quill drawing a tally
+line, one gold tally mark among grey ones, ink and pencil drawing on
+cream ledger paper, fine crosshatching, no text, full frame, 9:16
+vertical
+MOTION: the quill draws the gold mark, slow push-in
+
+[11] "It's a great story. Nobody has properly proved it."
+KEYFRAME: A big storybook lying open with a magnifying glass over its
+blank pages, a gold ribbon bookmark, ink and pencil drawing on cream
+ledger paper, fine crosshatching, grey and sepia linework, no text,
+full frame, 9:16 vertical
+MOTION: the magnifying glass drifts slowly across the blank pages
+
+[12] "Here's what has been proved."
+KEYFRAME: Three researchers in white coats gathered around a table
+under a hanging lamp, one small gold price tag on the table, ink and
+pencil drawing on cream ledger paper, fine crosshatching, grey and
+sepia linework, no text, full frame, 9:16 vertical
+MOTION: the lamp swings gently, the researchers lean in together
+
+[13] "You read left to right."
+KEYFRAME: Extreme close-up of a human eye tracing a line of scribbled
+marks, a small gold arrow shape under the line pointing right, ink
+and pencil drawing on cream ledger paper, fine crosshatching, no
+text, full frame, 9:16 vertical
+MOTION: the eye scans left to right and the gold arrow slides with it
+
+[14] "Three ninety-nine? Your brain grabs the three,"
+KEYFRAME: A head in profile with a small filing cabinet where the
+brain would be, a hand reaching in to grab a gold price tag, ink and
+pencil drawing on cream ledger paper, fine crosshatching, grey and
+sepia linework, no text, blank tag, full frame, 9:16 vertical
+MOTION: the hand snatches the tag, the cabinet drawer wobbles
+
+[15] "and files it as three-something."
+KEYFRAME: The same head in profile, a gold price tag being slotted
+into a small cabinet drawer with a blank label, ink and pencil
+drawing on cream ledger paper, fine crosshatching, grey and sepia
+linework, no text, blank label, full frame, 9:16 vertical
+MOTION: the drawer slides shut, slow push-in on the blank label
+
+[16] "Four dollars? That's a four."
+KEYFRAME: A heavy oversized price tag being hung on a high shelf, gold
+and blank, everything else grey and sepia, ink and pencil drawing on
+cream ledger paper, fine crosshatching, no text, full frame, 9:16
+vertical
+MOTION: the tag swings and settles, the camera tilts up
+
+[17] "One cent. A whole category."
+KEYFRAME: Two tall shelves with a tiny gold penny balancing on the gap
+between them, ink and pencil drawing on cream ledger paper, fine
+crosshatching, grey and sepia linework, no text, full frame, 9:16
+vertical
+MOTION: the penny wobbles, the camera slowly pulls back to show the gap
+is huge
+
+[18] "Researchers call it the left-digit effect."
+KEYFRAME: A researcher in a white coat at a blank chalkboard drawing
+one big arrow pointing left, a gold piece of chalk in the hand, ink
+and pencil drawing on cream ledger paper, fine crosshatching, no
+text, full frame, 9:16 vertical
+MOTION: the chalk draws the arrow, slow push-in
+
+[19] "In one catalogue test, a dress sold more"
+KEYFRAME: A mail-order catalogue page with two identical dresses side
+by side, two blank price tags, one of them gold, ink and pencil
+drawing on cream ledger paper, fine crosshatching, grey and sepia
+linework, no text, full frame, 9:16 vertical
+MOTION: the page rustles, slow push-in on the gold tag
+
+[20] "after its price rose to end in nine."
+KEYFRAME: A crowd of shoppers pressing toward one dress on a rack with
+a gold tag while the other identical dress hangs ignored, ink and
+pencil drawing on cream ledger paper, fine crosshatching, grey and
+sepia linework, no text, full frame, 9:16 vertical
+MOTION: the crowd surges in from the edges, the gold-tagged dress sways
+
+[21] "The higher price won."
+KEYFRAME: A dress on a small podium with a gold rosette ribbon, grey
+confetti in the air, ink and pencil drawing on cream ledger paper,
+fine crosshatching, grey and sepia linework, no text, full frame,
+9:16 vertical
+MOTION: the rosette swings, grey confetti falls, slow push-in
+
+[22] "And the nine has a second job."
+KEYFRAME: A shop window with one item wearing a gold tag and passers-by
+stopping to stare in, ink and pencil drawing on cream ledger paper,
+fine crosshatching, grey and sepia linework, no text, full frame,
+9:16 vertical
+MOTION: passers-by stop one by one, slow sideways track
+
+[23] "Nine whispers sale."
+KEYFRAME: Shoppers rushing toward a rack under a gold tag, coats
+flying, ink and pencil drawing on cream ledger paper, fine
+crosshatching, grey and sepia linework, no text, full frame, 9:16
+vertical
+MOTION: fast movement, coats flying, the camera pushes with the crowd
+
+[24] "Round numbers whisper quality."
+KEYFRAME: A hushed velvet boutique with one gold ring under a glass
+dome, its tag turned face down, ink and pencil drawing on cream
+ledger paper, fine crosshatching, grey and sepia linework, no text,
+full frame, 9:16 vertical
+MOTION: very slow push-in, dust motes drift through the light
+
+[25] "So the tag isn't telling you the price."
+KEYFRAME: A shopper holding a blank price tag and reading it, a blank
+thought bubble above their head slowly filling with gold sparkle, ink
+and pencil drawing on cream ledger paper, fine crosshatching, grey
+and sepia linework, no text, full frame, 9:16 vertical
+MOTION: the thought bubble fills with sparkle, slight push-in
+
+[26] "It's telling you how to feel about it."
+KEYFRAME: A shopper with faint puppet strings running up from their
+arms and head to a gold price tag hanging above, ink and pencil
+drawing on cream ledger paper, fine crosshatching, grey and sepia
+linework, no text, full frame, 9:16 vertical
+MOTION: the strings tighten, the shopper's arm lifts, slow pull back
+
+================================================================
+CHECKLIST BEFORE YOU SPEND THE FULL BATCH
+================================================================
+[ ] Test batch (1, 2, 3, 5) looks right and the Clerk and Pip are
+    consistent from shot to shot
+[ ] Every clip is truly 9:16 with no bars
+[ ] No digits or words baked into any picture
+[ ] Fact table in the script checked
+[ ] Your own voice recorded from the script
+================================================================
