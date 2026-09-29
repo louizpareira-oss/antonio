@@ -8,6 +8,10 @@ if [ "${CLAUDE_CODE_REMOTE:-}" != "true" ]; then
   exit 0
 fi
 
+# Run in the background so the session starts immediately; /peek needs these
+# tools, so allow up to 5 minutes for the install to finish.
+echo '{"async": true, "asyncTimeout": 300000}'
+
 # ffmpeg package provides both ffmpeg and ffprobe
 if ! command -v ffmpeg >/dev/null 2>&1 || ! command -v ffprobe >/dev/null 2>&1; then
   export DEBIAN_FRONTEND=noninteractive
