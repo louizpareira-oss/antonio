@@ -127,13 +127,17 @@ It is still the reason people will rewatch. Do not cut 27.
 
 ## Cost: this version is cheaper
 
-Only 22 clips need generating.
+Only 22 clips need generating. Each shot is one keyframe (15 credits) plus one 5-second animation, and
+the **animation price depends on resolution** (PixVerse V6, quoted Sep 30, 2026):
 
-- Pip's character sheet: about 15 credits.
-- **Test batch** (shots 1, 2, 3 and 5): about 260 credits.
-- One take of all 22 shots: about 1,430 credits (22 keyframes at 15 + 22 animations at 50).
+| Animation resolution | Per clip | One take of all 22 shots (with keyframes) |
+|---|---|---|
+| 540p (testing only) | 50 | about 1,430 |
+| 720p | 70 | about 1,870 |
+| 1080p (publishing size) | 150 | about 3,630 |
 
-Your OpenArt balance was 5,851 credits on Sep 30, 2026.
+Save credits by testing at 540p, then re-rendering only the approved shots at the final size.
+Your OpenArt balance was 5,776 credits after the test keyframes (Sep 30, 2026).
 
 ---
 

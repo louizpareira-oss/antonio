@@ -65,8 +65,10 @@ mask. Gold is also the selective-colour accent in every story shot.
 ## Supporting cast
 
 - **Pip**, a small hedgehog in a mustard scarf, is the volunteer from the audience. He stands in for
-  the viewer and gets fooled first. Pip is optional and has **not** been designed yet: he needs his own
-  reference sheet in the same art style (see the prompt pack) before he is used.
+  the viewer and gets fooled first. His reference sheet is made (same modern 2D cartoon style):
+  - History id: `RNdwLLJdQcdzAHOQGnvB`, image id: `Mm8GpKsalaeVhyk5PWQA`
+  - URL: https://cdn.openart.ai/openart-ai/production/2026-09/create-image/zSMFTe3Of5oqrKDWBPOD/021790774435004f2dfc9d17a425ad03ee233374d2636611c1283_0_1790774442130_ec6910f7.jpeg
+  - Not yet checked by you. Download and keep a copy, like Sleeve's.
 
 ## Consistency rules (so he looks the same in every video)
 
@@ -96,4 +98,6 @@ proportions, clean readable silhouette, no text, no letters, no numbers, no wate
 - [x] Step 3: look
 - [x] Step 4: generate test sets (gouache x3, then three styles)
 - [x] Step 5: lock the style, the reference sheet, and the name
-- [ ] Next: design Pip in the same style, then run the test batch of `prompts/02-why-prices-end-in-99.txt`
+- [x] Pip's reference sheet generated
+- [x] Test keyframes for shots 1, 2, 3 and 5 generated (9:16, Sleeve and Pip as references)
+- [ ] You check the sheets and the four keyframes, then approve animating them (about 200 credits at 540p)

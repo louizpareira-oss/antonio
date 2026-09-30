@@ -8,7 +8,8 @@ Script: scripts/02-why-prices-end-in-99.md (shot numbers match)
 WORKFLOW (image first, then animate)
 1. SLEEVE is already designed: use the locked reference sheet from
    docs/11-character-brief.md as the image reference.
-2. Make PIP's character sheet below (he has not been designed yet).
+2. PIP's character sheet is made too (docs/11-character-brief.md has
+   its link). The PIP prompt below is how it was made.
 3. For every STAGE shot, use image-to-image with the matching
    character sheet(s) as reference, so the faces stay the same.
    LEDGER shots do not need a reference.
@@ -18,13 +19,18 @@ WORKFLOW (image first, then animate)
    16:9, change tools. Do not crop a wide clip to fit.
 6. Turn ON TikTok's AI-generated content label when you upload.
 
-CREDIT ESTIMATE (your OpenArt balance was about 5,850 on Sep 30, 2026)
-- Pip's character sheet: about 15 credits.
-- Keyframes: 15 credits each (Seedream 4.5) or 20 (Nano Banana 2)
-- Animation: 50 credits per clip (PixVerse V6) or 100 (Wan 3.0)
-- TEST BATCH first: shots 1, 2, 3 and 5 = about 260 credits.
-- One take of all 30 shots = about 1,950 credits.
-- Three keyframe takes per shot, one animation each = about 2,850.
+CREDIT ESTIMATE (quoted from OpenArt on Sep 30, 2026; prices change with settings)
+- Keyframes: 15 credits each (Seedream 4.5, 9:16, 2K)
+- Animation, PixVerse V6, one 5-second clip. THE RESOLUTION SETS THE PRICE:
+    540p  =  50 credits   (fine for testing; too soft to publish)
+    720p  =  70 credits
+    1080p = 150 credits   (the publishing size)
+- One take of all 30 shots (keyframe + clip each):
+    540p = about 1,950   720p = about 2,550   1080p = about 4,950
+- The 22-shot short cut (scripts/03): 540p = about 1,430,
+  720p = about 1,870, 1080p = about 3,630.
+- Workflow that saves credits: test and pick keyframes and motion at
+  540p, then re-render ONLY the approved shots at the final size.
 
 NO TEXT IN THE PICTURES. Every tag, page and sign is generated BLANK.
 You type the real prices ($3.99, $4.00) in your editor. AI models

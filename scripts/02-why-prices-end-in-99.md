@@ -128,7 +128,7 @@ The eighteen-hundreds date belongs to the story, not to the proof. Keep the phra
 ## Shot list
 
 Recurring characters (stage shots only): **Sleeve** (raccoon magician, locked reference sheet) and
-**Pip** (small hedgehog, mustard scarf, wicker basket; **not designed yet**, see the prompt pack).
+**Pip** (small hedgehog, mustard scarf, wicker basket; reference sheet made, see `docs/11-character-brief.md`).
 
 Two worlds:
 - **Stage (colour):** modern 2D cartoon. Warm amber spotlight against a deep teal velvet curtain, plum
