@@ -16,6 +16,8 @@ Plan to make the account eligible for the TikTok Creator Rewards Program after t
 9. [`docs/10-four-video-teardown.md`](docs/10-four-video-teardown.md) — measured comparison of the original @mass.influencee video and three @quietwolff copies: shared skeleton, pacing, screen use, and what the copy does better.
 10. [`docs/11-character-brief.md`](docs/11-character-brief.md) — **Sleeve**, the niche character, built step by step and locked: hidden truths, playful trickster, raccoon magician, modern 2D cartoon.
 
+11. [`docs/12-test-batch-log.md`](docs/12-test-batch-log.md) — the four test keyframes and clips (shots 1, 2, 3, 5): ids, cost, and your checklist.
+
 ## Scripts and prompts
 
 - [`scripts/01-forgive-the-past.md`](scripts/01-forgive-the-past.md) — 70s, 20 beats, full shot list and generation prompts.
