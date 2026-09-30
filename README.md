@@ -21,6 +21,7 @@ Plan to make the account eligible for the TikTok Creator Rewards Program after t
 - [`scripts/01-forgive-the-past.md`](scripts/01-forgive-the-past.md) — 70s, 20 beats, full shot list and generation prompts.
 - [`prompts/01-forgive-the-past-anime.txt`](prompts/01-forgive-the-past-anime.txt) — **copy-paste pack: all 22 clip prompts, anime style, ready for an AI video generator.**
 - [`scripts/02-why-prices-end-in-99.md`](scripts/02-why-prices-end-in-99.md) — 104s "hidden story" script hosted by Sleeve the raccoon magician, with a fact-check table and 30-shot list (first draft).
+- [`scripts/03-why-prices-end-in-99-short.md`](scripts/03-why-prices-end-in-99-short.md) — the shorter cut of Script 02: about 68s (over the 1-minute Rewards line), 22 shots that reuse the Script 02 prompts. Use it instead of Script 02, not as well.
 - [`prompts/02-why-prices-end-in-99.txt`](prompts/02-why-prices-end-in-99.txt) — copy-paste pack: Pip's character sheet and 30 shot prompts with motion lines, blank tags so you add the prices as real text.
 
 ## Account snapshot (Sep 2026)
