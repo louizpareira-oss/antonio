@@ -13,6 +13,7 @@ Plan to make the account eligible for the TikTok Creator Rewards Program after t
 6. [`docs/06-reference-video-teardown.md`](docs/06-reference-video-teardown.md) — frame-by-frame measurement of the course’s own example video, and how to rebuild it legitimately.
 7. [`docs/07-matching-visuals-to-dialogue.md`](docs/07-matching-visuals-to-dialogue.md) — the skill the course skipped: how to decide which picture goes on which line.
 8. [`docs/09-anime-visuals-legitimately.md`](docs/09-anime-visuals-legitimately.md) — how to get the anime look without downloading anyone’s frames, plus the anime version of Script 01.
+9. [`docs/10-four-video-teardown.md`](docs/10-four-video-teardown.md) — measured comparison of the original @mass.influencee video and three @quietwolff copies: shared skeleton, pacing, screen use, and what the copy does better.
 
 ## Scripts and prompts
 
