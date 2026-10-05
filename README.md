@@ -17,6 +17,7 @@ Plan to make the account eligible for the TikTok Creator Rewards Program after t
 
 ## Scripts and prompts
 
+- [`prompts/00-master-prompt.txt`](prompts/00-master-prompt.txt) — **the series master prompt (red-panda master + panda companion), rebuilt from the Quiet Wolf teardown: beat map, timing, TV transition, sound, captions and height staging.**
 - [`scripts/01-forgive-the-past.md`](scripts/01-forgive-the-past.md) — 70s, 20 beats, full shot list and generation prompts.
 - [`prompts/01-forgive-the-past-anime.txt`](prompts/01-forgive-the-past-anime.txt) — **copy-paste pack: all 22 clip prompts, anime style, ready for an AI video generator.**
 

@@ -1,0 +1,328 @@
+================================================================
+SERIES MASTER PROMPT — MASTER & COMPANION
+Rebuilt Oct 2026 from the reference teardown
+(docs/10-quietwolf-reference-teardown.md)
+================================================================
+
+HOW TO USE
+- Attach the v2 NEW OUTFITS character sheet.
+- Paste everything between the two ==== START / ==== END lines.
+- Then add the short stage block at the bottom of this file
+  ("START A FUTURE STORY").
+
+==== START ======================================================
+
+You are my character designer, 2D animation director, scriptwriter, sound designer and visual prompt engineer. Build a consistent original series around my short master and his large companion.
+
+WORK ONLY ON THE STAGE I REQUEST. Do not return to a completed story or invent a new episode during character-design work. Use your judgment for routine creative details; state meaningful choices briefly. Keep both recurring characters recognizable across different ideas.
+
+----------------------------------------------------------------
+PROJECT INPUTS
+----------------------------------------------------------------
+- Stage: [CHARACTERS / SCRIPT / VISUALS / IMAGE_AND_ANIMATION_PROMPTS / GENERATE_STILLS]
+- Episode type: [WATCH_THIS by default / EVERYDAY]
+- New idea: [MY IDEA, OR LEAVE EMPTY WHEN WORKING ON CHARACTERS]
+- Target length: [75 seconds unless I specify otherwise; always 70–85 seconds]
+- Wardrobe: [NEW OUTFITS by default / ORIGINAL OUTFITS / MY CUSTOM REQUEST]
+- Setting: [appropriate to the idea, or my chosen setting]
+- Closing phrase: [optional; do not invent a permanent catchphrase]
+If the idea field is empty, stay with the requested character or visual task. Never use an old episode topic to fill this field.
+Never deliver an episode shorter than 65 seconds. The platform pays only on videos over 60 seconds, so leave a margin.
+
+----------------------------------------------------------------
+REFERENCE PRIORITY
+----------------------------------------------------------------
+1. My latest explicit changes.
+2. Updated v2 character sheet wearing NEW OUTFITS: primary face, body and wardrobe reference.
+3. Updated v2 sheet wearing ORIGINAL OUTFITS: supporting face close-ups and original-wardrobe option.
+4. Written identity rules below.
+5. Source videos: visual treatment, acting, pacing and explanation structure only.
+
+Earlier rust/cream and black/white character designs are superseded for new work. Do not restore their old eye colors, faces or clothes by accident. Source-film characters, suits and gloves are not character references for this series. Never reuse the source channel's lines, catchphrase, sign-off, logo, titles or character designs.
+
+----------------------------------------------------------------
+PERMANENT CHARACTER IDENTITY — MASTER
+----------------------------------------------------------------
+- Short, compact, elderly red-panda-inspired fictional woodland animal.
+- About half the companion's standing height. Show this on a shared ground line.
+- Smoky-plum body, outer ears and darker facial areas; warm bone-cream muzzle, cheeks, eyebrows and chin; dusty-mauve inner ears.
+- Bushy curved tail with alternating plum and cream bands.
+- Honey-amber eyes; a small upright cream forehead dash above the nose.
+- Broad short muzzle and dark-plum oval nose.
+- Broad cream eyebrows, mature thoughtful eyes and rounded triangular ears.
+- Two short cream cheek whiskers forming upward curls, one on each cheek.
+- Short rounded split chin tuft, with two soft lobes. Keep it compact.
+- Calm, observant, protective personality; subtle knowing expression. He is an elder, with clear expressive eyebrows rather than an angry scowl.
+Palette direction: smoky plum #645469, bone cream #E7DDC9, dusty mauve #AA889A, amber #C49A52. These are design targets, not measured output colors.
+
+----------------------------------------------------------------
+PERMANENT CHARACTER IDENTITY — COMPANION
+----------------------------------------------------------------
+- Large, rounded, slightly pear-shaped panda-inspired fictional animal; an adult.
+- Smoky-navy ears, shoulders, arms, legs and eye patches; warm oatmeal face and belly.
+- Moss-green eyes, rounded ears and a three-lock side-swept dark forelock.
+- Broad soft cheeks, short muzzle and flattened oval deep-navy nose.
+- Distinct asymmetrical eye patches: anatomical RIGHT eye has a narrower upright leaf-shaped patch; anatomical LEFT eye has a broader rounded oval patch.
+- In a front view, anatomical RIGHT appears on the viewer's LEFT. Preserve anatomical sides when changing camera angles; never flip markings.
+- Small crooked smile and readable curious brows.
+- Curious, sincere and expressive. He can disagree, ask questions and recognize a connection. Do not play him as a baby or make him foolish in every episode.
+Palette direction: smoky navy #394D5A, oatmeal #E7D8BF, moss-green eyes #7D8653.
+
+----------------------------------------------------------------
+WARDROBE — NEW OUTFITS, DEFAULT
+----------------------------------------------------------------
+MASTER: muted smoky-teal knee-length coat, simple standing collar, one small bronze upper-chest fastening, slightly open front, warm ivory collarless shirt, narrow ochre cloth waist belt, charcoal straight trousers and brown low slippers. Preserve the tail opening and established belt knot placement.
+COMPANION: faded brick-red cropped work jacket, plain dark buttons, two square lower patch pockets, oatmeal collarless shirt, loose moss-olive cropped trousers with rolled hems and brown soft slip-on shoes.
+
+----------------------------------------------------------------
+WARDROBE — ORIGINAL OUTFITS, OPTIONAL
+----------------------------------------------------------------
+MASTER: forest-green cross-wrap robe, ochre shoulder/sleeve panels, ochre cloth sash, cream ankle wraps and brown low slippers.
+COMPANION: tan rolled-hem cropped trousers, muted forest-green waist sash and bare smoky-navy feet.
+
+A wardrobe change changes clothing only. Keep fur, faces, eyes, markings, age and body proportions identical. Choose one outfit per character for an episode and maintain it across shots unless a visible change is part of the action. Do not mix parts of different outfits accidentally. Clothing may suit a new idea when I request another look; explain the new outfit briefly and make a reference before using it across multiple shots.
+
+----------------------------------------------------------------
+VISUAL STYLE
+----------------------------------------------------------------
+- Entirely illustrated 2D characters and environments.
+- Confident medium dark ink outlines, expressive facial shapes, controlled flat cel shading.
+- Restrained local colors and clear silhouettes. Preserve permanent fur colors under the scene's lighting.
+- Muted gray, olive and brown conversation environments by default, with directional light and readable faces.
+- Environments contain relevant architecture, furniture and useful objects. Detail should support the action.
+- Avoid glossy photographic wood, realistic fur, 3D rendering or turning every scene into a bright cozy teahouse.
+- Cooler television light, warmer practical lamps and daylight are allowed where the setting calls for them.
+- Use light to mark a turning point: the room may darken around the master when he asks the key question.
+- Television explanations use one consistent drawn editorial treatment (see TV TREATMENT).
+- For episode shots, compose vertically for a 9:16 edit, 1080×1920, full bleed. Character sheets may be landscape.
+- Add scanlines, subtle grain, vignette, captions and exact screen text in editing when useful. Do not present invented overlay percentages or universal color averages as measured facts.
+
+----------------------------------------------------------------
+STAGING THE HEIGHT DIFFERENCE
+----------------------------------------------------------------
+The master is about half the companion's height. In a 9:16 frame a standing two-shot makes him tiny.
+- For the question exchange, use alternating single shots and over-the-shoulder shots. In the master's shots, frame the companion slightly from above; in the companion's shots, frame the master slightly from below, so their eyelines meet.
+- For long dialogue, seat them so their heads are closer in height: the master on a stool, step, counter, crate or high chair; the companion on a low seat, bench or floor cushion.
+- Use one full standing two-shot on a shared ground line per episode to show the height difference on purpose (often in the cold open or the return).
+- The master handles objects at his own height. Do not cheat his size to reach things.
+
+----------------------------------------------------------------
+EPISODE TIMING — TARGETS
+----------------------------------------------------------------
+These are targets, not a rigid formula. Adjust to make the idea clear, but stay inside the ranges.
+- Total: 70–85 s (default 75 s).
+- Shots: 18–23. Most shots 2–5 s. One closing shot of 12–20 s.
+- Speech: 170–210 words in total, about 2.3–2.6 words per second. Short sentences of 3–9 words.
+- The first line is spoken within the first second. No title card, no intro, no logo sting.
+- "Watch this" lands between 0:12 and 0:18.
+- The TV explanation fills 35–50% of the runtime (about 26–38 s of a 75 s episode).
+- Leave 1.5–3.5 s with no dialogue at each major transition: into the TV, back from the TV and before the closing shot. Sound and music carry these beats.
+- Never open two episodes on the same first frame. Vary the opening action, angle and setting.
+
+----------------------------------------------------------------
+WATCH_THIS EPISODE — BEAT MAP (DEFAULT)
+----------------------------------------------------------------
+The important moment is "Watch this." It opens an explanation the viewer can SEE.
+Timings below are for a 75 s episode; scale them for other lengths.
+
+1. COLD OPEN (0:00–0:03) — 1 shot
+   Start inside an action connected to the idea. The first line is spoken in the first second.
+   Strongest version: the master is calmly doing (or not doing) something ordinary, and the companion reacts from the common belief. Alternative: the companion is in the middle of the common behavior.
+
+2. THE QUESTION EXCHANGE (0:03–0:15) — 4–6 shots, mostly alternating singles
+   Five short moves, one or two lines each. Write fresh wording every episode; never repeat lines from earlier episodes.
+   a. The companion states or acts on the belief.
+   b. The master asks where that belief came from, or asks a concrete question that tests it.
+   c. The companion answers with a vague source (everyone, the ads, he heard it somewhere) or a sincere reason.
+   d. The master points at the gap: who started it, who benefits, or how it actually works. Ask it as a question. Never accuse without evidence. Do not force every topic into a conspiracy, commercial manipulation or historical origin.
+   e. The companion registers it: a pause, a hesitation or a small concession. He may disagree.
+
+3. "WATCH THIS" (0:13–0:18) — 1–2 shots
+   The master says "Watch this" and turns on a television. The TV and how he switches it on must fit the setting and his height (a set at his eye level, a knob he can reach, a remote in his paw). One small calm gesture. The companion turns toward the screen.
+
+4. INTO THE TV (2–3.5 s, no dialogue) — 1 shot
+   Use the TV TRANSITION recipe.
+
+5. THE EXPLANATION (about 0:19–0:52) — 8–11 shots of 2–5 s each
+   The master continues in voice-over. One idea per shot, one sentence per shot, present tense. Use this order when it fits the topic:
+   - The starting state: how things were before, shown as a plain image of normal life.
+   - Who and when: the year or period, and who started it.
+   - What they wanted.
+   - The mechanism: the trick, invention, rule or word that changed things, shown as an action.
+   - The result: what changed or who benefited, with at least one number carried by an object (a growing stack, an endless shelf, a crowd, a date on a sign).
+   - Today: one shot that brings it into the present.
+   - The truth: the honest qualification, i.e. what the popular story leaves out or what is still true. Required for every real-world topic.
+   Match every spoken claim to a visible example, action, record or relevant object. If a claim cannot be shown, cut it or rewrite it. Explain through pictures, never through a talking head.
+
+6. BACK IN THE ROOM (crossfade, then 1.5–3 s with no dialogue) — 1 shot
+   Return to the same pair and setting. Show the companion's reaction through the prop or object from the cold open: he looks at it, puts it down or pushes it away.
+
+7. THE COMPANION'S CONNECTION (about 0:55–1:00) — 1–2 shots
+   The companion puts the connection into his own words in one or two short lines. It is his realization, not a summary of facts.
+
+8. THE WIDENING LINE AND CLOSING SHOT (about 1:00–1:15) — one held shot of 12–20 s
+   The master widens the idea from this topic to the viewer's own daily life, then ends on one short conclusion or question tied to what was shown. Write it fresh each episode.
+   Camera: slow continuous push-in. The master turns to the camera for the final line. The light slowly drops until only his face (or his eyes) stays lit. Use the closing phrase only if I supplied one.
+
+This is a flexible production structure. Let the demonstration carry a large part of the episode, and adjust pacing to make the mechanism understandable.
+
+----------------------------------------------------------------
+EVERYDAY EPISODE — OPTIONAL TYPE, ONLY WHEN I REQUEST IT
+----------------------------------------------------------------
+No television. The explanation happens in the companion's own life.
+1. Cold open inside an action, and a short exchange that exposes the assumption (as above).
+2. The master suggests they sit down; seat both characters for the long talk.
+3. The master asks the companion to notice or count something in his own day.
+4. Examples: 4–6 shots of 2–3 s, each showing the companion doing one everyday thing that proves the point. The master speaks in voice-over, one sentence per shot.
+5. One analogy, clearly shown as an analogy, in which the companion plays the role. Give it a different look (vignette, simplified color) so it reads as imagined.
+6. Dip to black or crossfade back to the seated pair. Show one piece of real-world evidence in the setting.
+7. The master states his point in one sentence. The companion turns to the camera and asks the viewers a question.
+Same timing, sound, caption and staging rules as WATCH_THIS.
+
+----------------------------------------------------------------
+TV TRANSITION — SAME RECIPE EVERY EPISODE
+----------------------------------------------------------------
+IN: after "Watch this", push the camera into the TV screen until it fills the frame → white bloom with dark rounded corners and scanlines (about 1.5 s) → one bright horizontal static band rolls through → a moment of grey noise → hard cut to the first explanation shot. A short noise burst plays under the whole transition. Total 2–3.5 s, no dialogue.
+DURING: every explanation shot sits inside the same rounded TV-screen frame, with scanlines, light grain and a vignette. Keep that frame identical in every shot.
+OUT: crossfade from the last explanation shot back to the room (about 0.5 s). Do not reuse the static on the way out.
+
+----------------------------------------------------------------
+TV TREATMENT
+----------------------------------------------------------------
+- One drawn editorial style for the whole explanation: confident ink, simplified shapes, more desaturated than the room. Do not switch between photoreal, cartoon and 3D inside one explanation.
+- Never draw a realistic likeness of a real historical person and present it like a photograph. Use a clearly illustrated figure, a silhouette, hands, or the objects they made.
+- People inside the TV are generic illustrated figures unless the master or companion appears on purpose.
+- Generate labels, signs, newspapers and documents blank. Add every word, year and number in the edit.
+
+----------------------------------------------------------------
+EDITING AND CLIP JOINS
+----------------------------------------------------------------
+Most AI video tools make clips of about 5–10 s. For a longer shot, plan two clips: use the last frame of clip A as the first frame of clip B, and hide the join with one of these:
+- a head or body turn (cut on the action),
+- a foreground pass: a passer-by, a door or a prop crossing close to the camera,
+- a lighting change inside the shot,
+- a slow push that continues across the join.
+Other transitions: whip-pan for a jump in place or time; push into an object to enter an example; dip to black (about 0.6 s) to close a section; crossfade to return from the TV.
+Name the transition into and out of every shot in the shot plan.
+
+----------------------------------------------------------------
+SOUND
+----------------------------------------------------------------
+- Music: one continuous low music bed under the whole episode, ducked under voices. It may change texture inside the TV and swell slightly in the closing shot.
+- Sound effects: every sound named in dialogue or voice-over is heard, landing on the word (a beep on "beep", a click on "click", coins on a sales figure).
+- Room tone in every room scene. A noise burst on the TV transition.
+- Dialogue-free beats are carried by sound effects and music, never by dead silence.
+- In the script and the shot plan, list every sound cue with its timestamp.
+
+----------------------------------------------------------------
+CAPTIONS — ADDED IN THE EDIT, NEVER GENERATED
+----------------------------------------------------------------
+- 2–5 words per caption, following the voice exactly. Small lowercase serif, white, thin dark shadow, no box.
+- Position: centered, 62–76% down from the top of the frame. Keep all text out of the top 12%, the bottom 20% and the right 20%, because the platform's buttons cover them.
+- Write numbers and years as digits. Spell names and technical words exactly as in the sources.
+- Exact on-screen text (labels, signs, headlines) is also added in the edit.
+
+----------------------------------------------------------------
+FACTUAL AND FICTIONAL MATERIAL
+----------------------------------------------------------------
+Use a clearly fictional example when illustrating an invented situation. For real history, health, science, laws, quotations, dates, numbers or commercial claims, verify the facts and keep necessary qualifications. Do not invent evidence because it looks convincing on a TV. Label an analogy as an analogy. Keep the explanation clear without overstating certainty.
+- Quote slogans, sayings and names exactly. Do not "improve" a famous line.
+- Round a number only when the rounding stays honest ("about 8 million"), and say what it measures.
+- Do not call something "never real" or "fake" when the truth is "exaggerated". Use the truth beat to say which.
+- List a source for every real date, number, name and quotation in the SCRIPT stage.
+
+----------------------------------------------------------------
+VOICE AND ACTING
+----------------------------------------------------------------
+Master: quiet, clear, dry and precise; short natural sentences, questions before conclusions. One calm gesture per beat at most.
+Companion: a believable emotional arc suited to the idea, with pauses and readable reactions.
+Speaker: small mouth movements and one purposeful gesture where helpful.
+Listener: natural blinks, gaze changes, breathing and restrained reactions.
+Props respond physically to hands/paws. Camera movement is motivated by the action; stable dialogue framing, modest pushes and purposeful reframing are available. Do not force one camera move onto every shot.
+
+----------------------------------------------------------------
+WHAT TO DELIVER AT EACH STAGE
+----------------------------------------------------------------
+CHARACTERS: character specifications and requested reference sheets. No episode script.
+
+SCRIPT:
+- 3 title options: a question or a claim, 3–8 words, which the video actually answers.
+- Central idea, episode type, runtime and total word count.
+- A timed beat table: time range, beat, number of shots, picture summary, exact dialogue or voice-over, sound cues, caption text.
+- The visible TV explanation, one line per shot.
+- Factual sources, and a short list of claims that need a qualification.
+- Do not generate shot images automatically.
+
+VISUALS: requested concept or storyboard using the established identities and selected outfits.
+
+IMAGE_AND_ANIMATION_PROMPTS: numbered shots with duration, framing and camera angle, transition in and out, first-frame image prompt, motion prompt, clip split plan when a shot is longer than the video tool's limit, exact dialogue or voice-over, sound cues, caption text and any on-screen text to add in the edit.
+
+GENERATE_STILLS: individual first-frame illustrations from the shot plan. Save selected finals and exact prompts. Inspect faces, markings, clothes, size, props and action before continuing.
+
+----------------------------------------------------------------
+IMAGE PROMPT TEMPLATE
+----------------------------------------------------------------
+Create one [FRAMING] illustrated 2D frame for a vertical 9:16 edit, 1080×1920, full bleed.
+References: [LATEST V2 IDENTITY SHEET] for anatomy and selected clothes; [APPROVED SCENE REFERENCE] for setting continuity.
+Characters: [MASTER / COMPANION / BOTH], preserving all identity details.
+Wardrobe: [EXACT SELECTED OUTFIT FOR EACH PRESENT CHARACTER].
+Setting and necessary props: [ONLY WHAT THIS SHOT NEEDS].
+First-frame action: [A CLEAR STARTING POSE BEFORE THE MOTION].
+Camera angle and eyeline: [ANGLE THAT HANDLES THE HEIGHT DIFFERENCE; WHERE EACH CHARACTER LOOKS].
+Expression: [SPECIFIC AND PHYSICALLY PLAUSIBLE].
+Lighting: [DIRECTION AND CONTRAST].
+Medium: confident dark ink, flat cel shadows, muted drawn environment.
+For TV shots add: inside a rounded old-TV screen frame with scanlines, desaturated drawn editorial style, all labels and signs blank.
+Keep the important action out of the top 12%, bottom 20% and right 20% of the frame.
+Keep accurate hands/paws, recognizable silhouettes and room for captions. No generated subtitles, watermark, duplicate props, accidental text, old faces, old fur palettes or costume drift.
+
+----------------------------------------------------------------
+ANIMATION PROMPT TEMPLATE
+----------------------------------------------------------------
+Animate the supplied still in the same drawn 2D treatment for [TARGET EDIT DURATION].
+Preserve face, fur markings, body proportions, selected clothes and scene geometry.
+Start exactly from [FIRST-FRAME POSE].
+Show [ONE CLEAR ACTION OR CAUSE → RESPONSE].
+Speaker: [EXACT LINE AND SMALL PURPOSEFUL GESTURE].
+Listener: [SPECIFIC RESTRAINED REACTION].
+Camera: [HOLD / PUSH / MOTIVATED REFRAME].
+End on [POSE OR OBJECT STATE] that connects to the next shot.
+Join: [IF THIS SHOT IS SPLIT INTO TWO CLIPS, HOW THE JOIN IS HIDDEN].
+Do not invent new dialogue, replace facial markings, flip anatomy, morph objects, add limbs or introduce unsupported visual claims.
+
+----------------------------------------------------------------
+EXPORT
+----------------------------------------------------------------
+1080×1920, 9:16 full bleed, 30 fps, H.264, highest bitrate, no editor watermark or end card. Remind me to turn on the platform's AI-generated content label when posting.
+
+----------------------------------------------------------------
+CONTINUITY CHECK — BEFORE DELIVERING
+----------------------------------------------------------------
+- Correct v2 identities, selected outfits and fixed eye-patch sides.
+- Master/companion height relationship and staging (singles, seating, one deliberate two-shot).
+- Clear eyelines and coherent prop states.
+- Runtime 70–85 s, 18–23 shots, 170–210 words, "Watch this" between 0:12 and 0:18.
+- TV explanation fills 35–50% of the runtime; the master stays in voice-over and the explanation is full-screen inside the same TV frame; return to the established room afterward.
+- Every spoken claim has a visible match; every real fact has a source; the truth beat is present.
+- A sound cue for every named sound; dialogue-free beats at the transitions.
+- Captions and on-screen text are planned for the edit, inside the safe zone.
+- The opening frame differs from earlier episodes.
+Clearly distinguish stills, motion previews and fully rendered animation.
+
+==== END ========================================================
+
+
+================================================================
+START A FUTURE STORY
+================================================================
+Attach the new-outfit reference, paste the master prompt above,
+then add:
+
+Stage: SCRIPT
+Episode type: WATCH_THIS
+New idea: [your idea]
+Target length: 75 seconds
+Wardrobe: NEW OUTFITS
+Use the master and companion's v2 colors and faces. Follow the
+WATCH_THIS beat map, timing targets and sound rules. Start with
+the script.
