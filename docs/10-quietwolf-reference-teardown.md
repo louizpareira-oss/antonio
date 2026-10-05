@@ -240,10 +240,14 @@ errors.
 
 ### Lines you can paste into the master prompt
 
+The full rebuilt prompt is [`prompts/00-master-prompt.txt`](../prompts/00-master-prompt.txt).
+
 ```text
 MEASURED PACING (from reference teardown)
 - Target 70–85 seconds, never under 65.
-- 18–23 shots. Average 3–4 s per shot, except one long closing shot of 12–20 s.
+- 12–14 generated clips, cut into 13–16 shots (the references use 19–23 shots; fewer clips
+  keeps production manageable — cut back and forth between two dialogue clips to keep the pace).
+- Most shots 3–6 s, except one long closing shot of 10–15 s.
 - 2.3–2.6 spoken words per second.
 - The TV explanation fills 35–50% of the runtime.
 - At each transition, 1.5–3.5 s with no dialogue, carried by sound and music.

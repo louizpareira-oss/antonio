@@ -111,7 +111,8 @@ EPISODE TIMING — TARGETS
 ----------------------------------------------------------------
 These are targets, not a rigid formula. Adjust to make the idea clear, but stay inside the ranges.
 - Total: 70–85 s (default 75 s).
-- Shots: 18–23. Most shots 2–5 s. One closing shot of 12–20 s.
+- Clip budget: 12–14 generated clips per episode, cut into 13–16 shots in the edit (see CLIP BUDGET).
+- Most shots 3–6 s. One closing shot of 10–15 s.
 - Speech: 170–210 words in total, about 2.3–2.6 words per second. Short sentences of 3–9 words.
 - The first line is spoken within the first second. No title card, no intro, no logo sting.
 - "Watch this" lands between 0:12 and 0:18.
@@ -120,16 +121,35 @@ These are targets, not a rigid formula. Adjust to make the idea clear, but stay 
 - Never open two episodes on the same first frame. Vary the opening action, angle and setting.
 
 ----------------------------------------------------------------
+CLIP BUDGET — FEWER CLIPS, SAME PACE
+----------------------------------------------------------------
+Count generated clips, not cuts. A cut can return to a clip already made.
+Budget for a 75 s episode:
+- Cold open: 1 clip (3–5 s)
+- Question exchange: 2 clips, one single of each character (about 6–8 s each). Put each character's lines in his own clip and cut back and forth between the two: 3–5 shots from 2 clips.
+- "Watch this" and turning on the TV: 1 clip (3–4 s)
+- Into the TV: no clip; made in the edit
+- Explanation: 6–7 clips (4–5 s each)
+- Back in the room and the companion's line: 1 clip (6–7 s)
+- Closing shot: 1 clip, or 2 joined (10–15 s)
+Total: 12–14 clips, 13–16 shots in the edit.
+Keep it moving with fewer clips:
+- Every clip has some motion: a push, a pan, a gesture, a prop moving. Never a frozen frame.
+- Cut on each new line in the question exchange, even when returning to a clip already used.
+- Spend clips on the explanation. It is where the pictures prove the point.
+- Below 12 clips, shots average more than 6 s and the episode feels slow. Do not go lower without a reason.
+
+----------------------------------------------------------------
 WATCH_THIS EPISODE — BEAT MAP (DEFAULT)
 ----------------------------------------------------------------
 The important moment is "Watch this." It opens an explanation the viewer can SEE.
 Timings below are for a 75 s episode; scale them for other lengths.
 
-1. COLD OPEN (0:00–0:03) — 1 shot
+1. COLD OPEN (0:00–0:04) — 1 clip
    Start inside an action connected to the idea. The first line is spoken in the first second.
    Strongest version: the master is calmly doing (or not doing) something ordinary, and the companion reacts from the common belief. Alternative: the companion is in the middle of the common behavior.
 
-2. THE QUESTION EXCHANGE (0:03–0:15) — 4–6 shots, mostly alternating singles
+2. THE QUESTION EXCHANGE (0:04–0:15) — 2 clips (one single of each character), cut between them into 3–5 shots
    Five short moves, one or two lines each. Write fresh wording every episode; never repeat lines from earlier episodes.
    a. The companion states or acts on the belief.
    b. The master asks where that belief came from, or asks a concrete question that tests it.
@@ -137,13 +157,13 @@ Timings below are for a 75 s episode; scale them for other lengths.
    d. The master points at the gap: who started it, who benefits, or how it actually works. Ask it as a question. Never accuse without evidence. Do not force every topic into a conspiracy, commercial manipulation or historical origin.
    e. The companion registers it: a pause, a hesitation or a small concession. He may disagree.
 
-3. "WATCH THIS" (0:13–0:18) — 1–2 shots
+3. "WATCH THIS" (0:13–0:18) — 1 clip
    The master says "Watch this" and turns on a television. The TV and how he switches it on must fit the setting and his height (a set at his eye level, a knob he can reach, a remote in his paw). One small calm gesture. The companion turns toward the screen.
 
-4. INTO THE TV (2–3.5 s, no dialogue) — 1 shot
+4. INTO THE TV (2–3.5 s, no dialogue) — no clip; made in the edit
    Use the TV TRANSITION recipe.
 
-5. THE EXPLANATION (about 0:19–0:52) — 8–11 shots of 2–5 s each
+5. THE EXPLANATION (about 0:19–0:50) — 6–7 clips of 4–5 s each
    The master continues in voice-over. One idea per shot, one sentence per shot, present tense. Use this order when it fits the topic:
    - The starting state: how things were before, shown as a plain image of normal life.
    - Who and when: the year or period, and who started it.
@@ -154,13 +174,13 @@ Timings below are for a 75 s episode; scale them for other lengths.
    - The truth: the honest qualification, i.e. what the popular story leaves out or what is still true. Required for every real-world topic.
    Match every spoken claim to a visible example, action, record or relevant object. If a claim cannot be shown, cut it or rewrite it. Explain through pictures, never through a talking head.
 
-6. BACK IN THE ROOM (crossfade, then 1.5–3 s with no dialogue) — 1 shot
+6. BACK IN THE ROOM (crossfade, then 1.5–3 s with no dialogue) — 1 clip, shared with beat 7
    Return to the same pair and setting. Show the companion's reaction through the prop or object from the cold open: he looks at it, puts it down or pushes it away.
 
-7. THE COMPANION'S CONNECTION (about 0:55–1:00) — 1–2 shots
+7. THE COMPANION'S CONNECTION (about 0:53–1:00) — same clip as beat 6
    The companion puts the connection into his own words in one or two short lines. It is his realization, not a summary of facts.
 
-8. THE WIDENING LINE AND CLOSING SHOT (about 1:00–1:15) — one held shot of 12–20 s
+8. THE WIDENING LINE AND CLOSING SHOT (about 1:00–1:15) — one held shot of 10–15 s (1 clip, or 2 clips joined)
    The master widens the idea from this topic to the viewer's own daily life, then ends on one short conclusion or question tied to what was shown. Write it fresh each episode.
    Camera: slow continuous push-in. The master turns to the camera for the final line. The light slowly drops until only his face (or his eyes) stays lit. Use the closing phrase only if I supplied one.
 
@@ -173,7 +193,7 @@ No television. The explanation happens in the companion's own life.
 1. Cold open inside an action, and a short exchange that exposes the assumption (as above).
 2. The master suggests they sit down; seat both characters for the long talk.
 3. The master asks the companion to notice or count something in his own day.
-4. Examples: 4–6 shots of 2–3 s, each showing the companion doing one everyday thing that proves the point. The master speaks in voice-over, one sentence per shot.
+4. Examples: 3–4 clips of 3–4 s, each showing the companion doing one everyday thing that proves the point. The master speaks in voice-over, one sentence per shot.
 5. One analogy, clearly shown as an analogy, in which the companion plays the role. Give it a different look (vignette, simplified color) so it reads as imagined.
 6. Dip to black or crossfade back to the seated pair. Show one piece of real-world evidence in the setting.
 7. The master states his point in one sentence. The companion turns to the camera and asks the viewers a question.
@@ -255,7 +275,7 @@ SCRIPT:
 
 VISUALS: requested concept or storyboard using the established identities and selected outfits.
 
-IMAGE_AND_ANIMATION_PROMPTS: numbered shots with duration, framing and camera angle, transition in and out, first-frame image prompt, motion prompt, clip split plan when a shot is longer than the video tool's limit, exact dialogue or voice-over, sound cues, caption text and any on-screen text to add in the edit.
+IMAGE_AND_ANIMATION_PROMPTS: numbered shots with duration, framing and camera angle, transition in and out, first-frame image prompt, motion prompt, the clip each shot is cut from (several shots may share one clip), clip split plan when a shot is longer than the video tool's limit, exact dialogue or voice-over, sound cues, caption text and any on-screen text to add in the edit.
 
 GENERATE_STILLS: individual first-frame illustrations from the shot plan. Save selected finals and exact prompts. Inspect faces, markings, clothes, size, props and action before continuing.
 
@@ -301,7 +321,7 @@ CONTINUITY CHECK — BEFORE DELIVERING
 - Correct v2 identities, selected outfits and fixed eye-patch sides.
 - Master/companion height relationship and staging (singles, seating, one deliberate two-shot).
 - Clear eyelines and coherent prop states.
-- Runtime 70–85 s, 18–23 shots, 170–210 words, "Watch this" between 0:12 and 0:18.
+- Runtime 70–85 s, 12–14 generated clips, 13–16 shots in the edit, 170–210 words, "Watch this" between 0:12 and 0:18.
 - TV explanation fills 35–50% of the runtime; the master stays in voice-over and the explanation is full-screen inside the same TV frame; return to the established room afterward.
 - Every spoken claim has a visible match; every real fact has a source; the truth beat is present.
 - A sound cue for every named sound; dialogue-free beats at the transitions.
