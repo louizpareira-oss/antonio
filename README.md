@@ -20,6 +20,7 @@ Plan to make the account eligible for the TikTok Creator Rewards Program after t
 - [`prompts/00-master-prompt.txt`](prompts/00-master-prompt.txt) — **the series master prompt (red-panda master + panda companion), rebuilt from the Quiet Wolf teardown: beat map, timing, TV transition, sound, captions and height staging.**
 - [`scripts/02-best-before.md`](scripts/02-best-before.md) — master & companion episode 1, "Best Before Doesn't Mean Bad": 75 s, 14 clips, timed beats, sound cues, captions and sources.
 - [`prompts/02-best-before-shots.txt`](prompts/02-best-before-shots.txt) — first-frame and motion prompts for all 14 clips of "Best Before", with OpenArt reference ids, settings and budget.
+- [`references/best-before-stills.md`](references/best-before-stills.md) — the 14 first-frame stills for "Best Before" (OpenArt ids and links) plus the check-before-animating list.
 - [`scripts/01-forgive-the-past.md`](scripts/01-forgive-the-past.md) — 70s, 20 beats, full shot list and generation prompts.
 - [`prompts/01-forgive-the-past-anime.txt`](prompts/01-forgive-the-past-anime.txt) — **copy-paste pack: all 22 clip prompts, anime style, ready for an AI video generator.**
 
