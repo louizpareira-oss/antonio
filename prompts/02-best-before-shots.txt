@@ -1,0 +1,495 @@
+================================================================
+"BEST BEFORE" — IMAGE AND ANIMATION PROMPTS
+Stage: IMAGE_AND_ANIMATION_PROMPTS · Episode type: WATCH_THIS
+14 clips · 9:16 vertical · 75 s edit · NEW OUTFITS
+Script: scripts/02-best-before.md · Rules: prompts/00-master-prompt.txt
+================================================================
+
+HOW TO USE
+1. Make each FIRST FRAME as a still image first (image model with
+   the references attached). Check face, eye patches, paws, outfit,
+   size and props before animating.
+2. Animate each still with the MOTION prompt (image-to-video, the
+   still as start frame). Generate with sound OFF: voices, sound
+   effects and music are added in the edit.
+3. Captions, the "BEST BEFORE" / "USE BY" sticker text, the TV frame
+   and the scanlines are all added in the edit, never generated.
+
+REFERENCES TO ATTACH (OpenArt asset ids, 5 Oct 2026)
+- CHARACTER SHEET: v2 NEW OUTFITS sheet, labels removed.
+  id Ao4F69drmfOR8afQDmmB
+  https://cdn.openart.ai/openart-uploads/production/2026-10/create-image/zSMFTe3Of5oqrKDWBPOD/v2_new_outfits_clean_1791212564022_9db76f06.png
+- KITCHEN PLATE: empty kitchen set (history DrNbEn03VwNnG9oa2MN7).
+  id fJRJ3qNBrZU0CRi9PcFR
+  https://cdn.openart.ai/openart-ai/production/2026-10/create-image/zSMFTe3Of5oqrKDWBPOD/image_1791213641388_07ee693f_1791213643443_e98f461e.png
+- TV STYLE FRAME: badger test kitchen (history guEOpcCT9cUvYCjPIH4W).
+  Also the first frame of clip C5.
+  id ea3Bze8A9Oa4RU8cZNeN
+  https://cdn.openart.ai/openart-ai/production/2026-10/create-image/zSMFTe3Of5oqrKDWBPOD/image_1791213649084_7a07479a_1791213649395_1a2a791c.png
+- Seated style test (sitting room, history jvqpaPWA0Vb19maqjKQW).
+  id yEd863UuQB2bLhHmpUHE
+  https://cdn.openart.ai/openart-ai/production/2026-10/create-image/zSMFTe3Of5oqrKDWBPOD/image_1791212684480_38571b3a_1791212685380_0ce76d44.png
+
+RECOMMENDED OPENART SETTINGS
+- Stills: Nano Banana Pro, image2image, 9:16, 2K (40 credits each).
+- Video: PixVerse V6, image2video, sound off.
+  720p ≈ 14 credits per second; 1080p ≈ 30 credits per second
+  (prices quoted 5 Oct 2026).
+- Budget for this episode (83 s generated):
+    stills 13 × 40 = 520
+    video at 720p ≈ 1,160   →  total ≈ 1,700 (leaves room for retakes)
+    video at 1080p ≈ 2,490  →  total ≈ 3,000 (more than the balance)
+  Recommended: 720p for every clip, upscaled to 1080×1920 in the
+  edit. Generate C1 first as a test before committing the rest.
+
+KEY IDENTITY LINE (already inside every prompt below)
+Master: short elderly red-panda-inspired elder, smoky-plum fur,
+bone-cream muzzle and brows, honey-amber eyes, cream cheek-whisker
+curls, small split chin tuft, banded plum-and-cream tail; smoky-teal
+knee coat with bronze toggle, ivory shirt, ochre belt, charcoal
+trousers, brown slippers.
+Companion: large rounded panda-inspired adult, smoky-navy limbs and
+ears, oatmeal face, moss-green eyes, three-lock side-swept forelock;
+narrow upright leaf patch around his anatomical RIGHT eye, broad
+rounded oval patch around his anatomical LEFT eye (never swapped);
+brick-red cropped work jacket, oatmeal shirt, moss-olive rolled
+trousers, brown slip-ons.
+
+NEGATIVE (paste into every negative field)
+text, letters, numbers, captions, subtitles, watermark, logo,
+signature, extra limbs, extra fingers, deformed paws, distorted face,
+swapped eye patches, mirrored markings, realistic fur, photorealistic,
+3d render, cgi, glossy, horizontal, letterbox, black bars, split
+screen, collage, duplicate props, extra characters
+
+================================================================
+ROOM CLIPS — KITCHEN, FULL COLOUR, MUTED
+================================================================
+
+----------------------------------------------------------------
+[C1] COLD OPEN — edit 0:00.0–0:04.0 · generate 5 s
+Framing: wide, camera at standing eye height · In: hard open
+(no fade) · Out: hard cut to C2
+----------------------------------------------------------------
+FIRST FRAME:
+Create one wide illustrated 2D frame for a vertical 9:16 edit,
+1080×1920, full bleed. References: the character sheet for both
+characters' anatomy and clothes; the kitchen plate for the room.
+Evening kitchen exactly as in the kitchen plate. On the right, the
+large panda-inspired companion stands at the pedal bin, one foot on
+the pedal, lid open, holding a brown paper bag of red apples over
+the bin, about to drop it; his body faces the bin, his head is turned
+toward the table in surprise, brows up, mouth just opening. On the
+left, the short elderly red-panda-inspired master sits on the tall
+wooden stool at the table, calmly biting a red apple taken from an
+identical paper bag on the table; eyes half-closed, content. The
+small old portable TV sits dark on the table. Both bags carry a
+plain blank white sticker.
+[KEY IDENTITY LINE for both characters]
+Lighting: warm pendant lamp over the table, cool blue dusk from the
+window on the right. Medium: confident dark ink, flat cel shadows,
+muted drawn environment. Keep the faces out of the top 12% and the
+bottom 20%. No text.
+
+MOTION:
+Animate the supplied still in the same drawn 2D treatment for 5 s.
+Preserve faces, fur markings, proportions, clothes and room layout.
+Start exactly from the first frame. The master crunches his apple
+once and chews calmly. The companion freezes over the bin, then
+turns his upper body toward the master and points at the apple with
+his free paw while speaking, small mouth movements. The bin lid
+stays open. Camera: hold, very slight push. End on the companion
+pointing, the master mid-chew looking up at him.
+
+DIALOGUE: COMPANION: "Wait — you're eating that? The date on the
+bag was yesterday!"
+SOUND: bin lid clank 0:00.3 · apple crunch 0:00.8 · room tone,
+fridge hum, low music bed
+CAPTIONS: wait — you're eating that? / the date on the bag /
+was yesterday!
+
+----------------------------------------------------------------
+[C2] MASTER SINGLE — edit 0:04.0–0:06.5 and 0:09.0–0:10.0
+generate 6 s · Framing: medium single; camera slightly ABOVE the
+master, looking down from the companion's eye height ·
+In/Out: hard cuts with C3
+----------------------------------------------------------------
+FIRST FRAME:
+Create one medium illustrated 2D frame for a vertical 9:16 edit.
+References: the character sheet; the kitchen plate for the
+background. The short elderly red-panda-inspired master sits on the
+tall stool at the kitchen table, seen from slightly above, three-
+quarter view, looking up and to the right toward someone standing
+off-screen. He holds a bitten red apple in one paw resting on his
+knee; the other paw rests on the table. Calm, dry, knowing
+expression, one cream eyebrow slightly raised. Both paws visible
+and well drawn. Background: the warm-lit table edge and the dark
+small TV, softly out of focus.
+[KEY IDENTITY LINE for the master]
+Lighting: warm lamp from above-left. Medium: confident dark ink,
+flat cel shadows. No text.
+
+MOTION:
+Animate for 6 s in the same drawn 2D style. Start from the first
+frame. 0–2.5 s: the master speaks one line with small mouth
+movements and a slight tilt of the head. 2.5–4 s: he listens, blinks
+once, takes no bite. 4–5 s: he speaks a short line, lifting the
+apple a little toward the off-screen bag. 5–6 s: he waits, calm.
+Camera: hold. End on him waiting with the apple raised slightly.
+
+DIALOGUE: MASTER: "And who decided yesterday was the day?" (0–2.5 s)
+· MASTER: "Read it to me." (4–5 s)
+SOUND: room tone
+CAPTIONS: and who decided / yesterday was the day? / read it to me.
+
+----------------------------------------------------------------
+[C3] COMPANION SINGLE — edit 0:06.5–0:09.0 and 0:10.0–0:15.0
+generate 9 s · Framing: medium single; camera slightly BELOW the
+companion, looking up from the master's eye height ·
+In/Out: hard cuts with C2; out to C4
+----------------------------------------------------------------
+FIRST FRAME:
+Create one medium illustrated 2D frame for a vertical 9:16 edit.
+References: the character sheet; the kitchen plate for the
+background. The large panda-inspired companion stands by the pedal
+bin, seen from slightly below, three-quarter view, looking down and
+to the left toward someone seated off-screen. He holds the brown
+paper apple bag up at chest height in one paw, the plain blank white
+sticker facing the camera, and is about to tap it with a finger of
+the other paw. Confident, slightly defensive expression, brows up.
+Background: the fridge and the window with blue dusk, softly out of
+focus.
+[KEY IDENTITY LINE for the companion — check the eye patches]
+Lighting: warm lamp from the left, cool window light rim on the
+right. Medium: confident dark ink, flat cel shadows. No text.
+
+MOTION:
+Animate for 9 s in the same drawn 2D style. Start from the first
+frame. 0–2.5 s: he taps the sticker twice and speaks, small mouth
+movements. 2.5–3.5 s: he waits. 3.5–5 s: he brings the bag closer
+to his face, squints at the sticker and reads slowly. 5–6 s: he
+stops, listening to an off-screen question, eyes still on the
+sticker. 6–9 s: his face changes slowly from confident to
+realising; he lowers the bag and speaks quietly. Camera: hold, very
+slow push in during 5–9 s. End on him holding the lowered bag,
+looking at it.
+
+DIALOGUE: COMPANION: "The date did. It's printed right here."
+(0–2.5 s) · COMPANION: "Best… before." (3.5–5 s) · MASTER
+(off-screen): "Before what?" (5–6 s) · COMPANION: "…I always read it
+as 'bad after.'" (6–9 s)
+SOUND: paper bag crinkle at 0:06.8 · room tone
+CAPTIONS: the date did. / it's printed right here. / best… before. /
+before what? / i always read it / as "bad after."
+ON-SCREEN TEXT (edit): sticker reads "BEST BEFORE 14 OCT" when
+visible.
+
+----------------------------------------------------------------
+[C4] "WATCH THIS" — edit 0:15.0–0:18.5 · generate 5 s
+Framing: medium, master with the TV in frame, companion soft in the
+background · Out: push into the TV screen (start of the TV
+transition)
+----------------------------------------------------------------
+FIRST FRAME:
+Create one medium illustrated 2D frame for a vertical 9:16 edit.
+References: the character sheet; the kitchen plate. The short
+elderly red-panda-inspired master sits on the tall stool at the
+table, three-quarter view facing right, setting the bitten apple
+down on the small plate with one paw while the other paw reaches
+toward the round turn-knob on the side of the small old portable
+TV on the table; the TV screen is dark, its rounded glass catching
+the lamp light. In the background on the right, softly out of
+focus, the large panda-inspired companion stands holding the paper
+bag, starting to turn his head toward the TV.
+[KEY IDENTITY LINE for both characters]
+Lighting: warm lamp from above; the TV screen is the darkest shape
+in the frame. Medium: confident dark ink, flat cel shadows. No text.
+
+MOTION:
+Animate for 5 s in the same drawn 2D style. Start from the first
+frame. 0–2.3 s: the master puts the apple down and speaks, small
+mouth movements, with a slight sideways glance at the companion.
+2.3–3 s: he turns the knob; a soft grey glow begins to fill the TV
+screen. The companion turns fully toward the TV. Camera: from 2.5 s
+a slow push toward the TV screen. End with the glowing screen
+filling the centre of the frame.
+
+DIALOGUE: MASTER: "Most people do. Watch this."
+SOUND: knob click at 0:17.6, rising old-TV whine
+CAPTIONS: most people do. / watch this.
+
+----------------------------------------------------------------
+[EDIT ONLY] INTO THE TV — edit 0:18.5–0:21.0 · no clip
+----------------------------------------------------------------
+Continue the push into the end of C4 until the screen fills the
+frame → white bloom with dark rounded corners and scanlines (about
+1.5 s) → one bright horizontal static band rolls through → a moment
+of grey noise → hard cut to C5. Noise burst under the whole
+transition. From C5 to C11, place every clip under ONE identical
+rounded-TV-frame overlay with scanlines, light grain and a vignette.
+
+================================================================
+TV CLIPS — INSIDE THE TV, DESATURATED EDITORIAL STYLE
+(master in voice-over; no master or companion on screen)
+================================================================
+Style for every TV still: match the TV STYLE FRAME. Strongly
+desaturated warm greys with faint ochre and olive accents,
+simplified shapes, confident dark ink, flat shading, like an old
+educational film. Generic anthropomorphic animal townsfolk only.
+Full bleed: no TV frame, border or rounded corners (added in the
+edit). All labels and stickers blank. No text.
+
+----------------------------------------------------------------
+[C5] WHO SETS THE DATE — edit 0:21.0–0:25.0 · generate 5 s
+----------------------------------------------------------------
+FIRST FRAME: use the approved TV STYLE FRAME (the badger food worker
+holding an apple at the test bench, blank wall calendar behind).
+MOTION:
+Animate for 5 s in the same desaturated drawn style. The badger
+turns the apple once, sets it down at the end of the row of apples,
+picks up the hand-held date stamp and presses it onto a blank label
+on a paper bag on the bench. Camera: slow push toward the bag. End
+on the stamp lifting off the blank label.
+VO: "The date is chosen by the people who make the food."
+SOUND: stamp thunk at 0:24.2
+CAPTIONS: the date is chosen / by the people / who make the food.
+
+----------------------------------------------------------------
+[C6] QUALITY, NOT SAFETY — edit 0:25.0–0:29.0 · generate 5 s
+----------------------------------------------------------------
+FIRST FRAME:
+Create one close-up illustrated frame for a vertical 9:16 edit in
+the TV style. A brown paper bag of apples fills most of the frame;
+a plain blank white rectangular sticker on the bag in the centre. A
+large round magnifying glass, held by a generic furry paw coming
+from the right edge, hovers just beside the sticker. Soft top light.
+MOTION:
+Animate for 5 s. The magnifying glass slides slowly across and stops
+over the blank sticker, enlarging it; a gentle settle. Camera: hold.
+End with the sticker large inside the glass.
+VO: "'Best before' is about quality, not safety."
+SOUND: soft paper rustle
+CAPTIONS: "best before" / is about quality, / not safety.
+ON-SCREEN TEXT (edit): the sticker reads "BEST BEFORE".
+
+----------------------------------------------------------------
+[C7] STILL SAFE — edit 0:29.0–0:33.5 · generate 5 s
+----------------------------------------------------------------
+FIRST FRAME:
+Create one close-up illustrated frame for a vertical 9:16 edit in
+the TV style. Two red apples side by side on a plain round plate on
+a wooden table: the left one shiny and fresh, the right one slightly
+duller with a few tiny wrinkles near the stem. A small kitchen knife
+lies on the plate. A generic furry paw rests gently on the duller
+apple. Soft top light.
+MOTION:
+Animate for 5 s. The paw gently squeezes the duller apple (a tiny
+give), then picks up the knife and slices it in half: the inside is
+clean, pale and fresh. Camera: hold, slight push toward the cut
+halves. End on the two clean halves.
+VO: "After that, food may be less perfect. Stored right, it's still
+safe."
+SOUND: knife slicing at 0:31.5
+CAPTIONS: after that, / food may be less perfect. / stored right, /
+it's still safe.
+
+----------------------------------------------------------------
+[C8] "BAD AFTER" — edit 0:33.5–0:37.5 · generate 5 s
+----------------------------------------------------------------
+FIRST FRAME:
+Create one wide illustrated frame for a vertical 9:16 edit in the
+TV style. A row of five kitchen pedal bins standing along a plain
+wall, viewed from slightly above, lids closed. Above each bin, a
+different generic animal paw holds good food ready to drop: a loaf
+of bread, two apples, a sealed packet of biscuits, a bunch of
+bananas, a block of cheese in its wrapper.
+MOTION:
+Animate for 5 s. One after another, from left to right in a steady
+rhythm, each lid flips open and the food drops in, lid clanks shut.
+Camera: hold. End with all lids closed and the paws gone.
+VO: "But many of us read it as 'bad after' — and in it goes."
+SOUND: bin lids clank in rhythm 0:34.0–0:37.0
+CAPTIONS: but many of us / read it as "bad after" / — and in it goes.
+
+----------------------------------------------------------------
+[C9] 4.4 MILLION TONNES — edit 0:37.5–0:42.5 · generate 5 s
+----------------------------------------------------------------
+FIRST FRAME:
+Create one wide illustrated frame for a vertical 9:16 edit in the
+TV style. A huge pile of full wire shopping baskets, each overflowing
+with good food (bread, apples, vegetables, packets), rises into a
+pale grey sky; a tiny generic animal figure stands at the foot of
+the pile for scale, looking up. The pile is already tall and keeps
+going out of the top of the frame.
+MOTION:
+Animate for 5 s. More baskets drop from above onto the pile, which
+grows taller; the camera tilts slowly upward with the growing pile.
+End on the pile reaching well above the frame, the small figure now
+tiny at the bottom.
+VO: "UK homes throw away about 4.4 million tonnes of good food a
+year."
+SOUND: baskets thudding onto the pile 0:38.0–0:42.0
+CAPTIONS: uk homes throw away / about 4.4 million tonnes /
+of good food a year.
+ON-SCREEN TEXT (edit): small source caption "WRAP, 2022".
+
+----------------------------------------------------------------
+[C10] 2022: LABELS COME OFF — edit 0:42.5–0:47.5 · generate 5 s
+----------------------------------------------------------------
+FIRST FRAME:
+Create one medium illustrated frame for a vertical 9:16 edit in the
+TV style. A shop's fresh-produce display of loose apples and
+potatoes in wooden crates. A generic anthropomorphic rabbit shop
+worker in a plain apron is peeling a small blank sticker off an
+apple; a little heap of peeled blank stickers lies on the edge of
+the crate.
+MOTION:
+Animate for 5 s. The rabbit peels the sticker off, drops it on the
+heap, picks up the next apple and peels again; then sweeps a paw
+along the crate. Camera: slow sideways track along the display. End
+on the clean, label-free produce.
+VO: "In 2022, big UK supermarkets took 'best before' off hundreds of
+fruit and veg."
+SOUND: stickers peeling 0:43.0–0:47.0
+CAPTIONS: in 2022, / big uk supermarkets / took "best before" off /
+hundreds of fruit and veg.
+ON-SCREEN TEXT (edit): small source caption "e.g. Waitrose, M&S".
+
+----------------------------------------------------------------
+[C11] THE TRUTH: USE BY — edit 0:47.5–0:52.5 · generate 5 s
+Out: crossfade (0.5 s) to C12; do not reuse the static
+----------------------------------------------------------------
+FIRST FRAME:
+Create one medium illustrated frame for a vertical 9:16 edit in the
+TV style. The inside of an open refrigerator seen from the front: on
+the middle shelf, a wrapped tray of raw meat, a wrapped fish fillet
+and a boxed sandwich, each with a blank label with a red border. A
+generic furry paw reaches in from the bottom of the frame toward the
+meat. Cold, slightly brighter fridge light.
+MOTION:
+Animate for 5 s. The paw reaches toward the meat, stops just short,
+hesitates, and pulls back out of frame. The fridge light hums.
+Camera: hold. End on the three packs, untouched.
+VO: "But 'use by' is different. That one is about safety. Never eat
+past it."
+SOUND: fridge door opens at 0:47.6, low warning tone
+CAPTIONS: but "use by" is different. / that one is about safety. /
+never eat past it.
+ON-SCREEN TEXT (edit): each red-bordered label reads "USE BY".
+
+================================================================
+BACK IN THE ROOM — KITCHEN, FULL COLOUR
+================================================================
+
+----------------------------------------------------------------
+[C12] RETURN — edit 0:52.5–1:00.5 · generate 8 s
+Framing: wide standing two-shot on a shared ground line (the
+episode's one deliberate height shot) · In: crossfade from C11 ·
+Out: hard cut to C13a
+----------------------------------------------------------------
+FIRST FRAME:
+Create one wide illustrated 2D frame for a vertical 9:16 edit.
+References: the character sheet; the kitchen plate. Both characters
+stand side by side on the floor in front of the pedal bin, feet on
+the same ground line, clearly showing the height difference: the
+short elderly red-panda-inspired master reaches about to the large
+panda-inspired companion's waist-to-chest height. The bin lid is
+open. The companion is bending slightly, reaching into the bin with
+one paw to lift the brown paper apple bag back out. The master
+stands calmly with his paws clasped in front of him, both paws
+visible. The small TV on the table behind them is dark.
+[KEY IDENTITY LINE for both characters]
+Lighting: warm lamp, cool dusk window light. Medium: confident dark
+ink, flat cel shadows. No text.
+
+MOTION:
+Animate for 8 s in the same drawn 2D style. Start from the first
+frame. 0–3 s: the companion lifts the bag out of the bin, straightens
+up and looks at it; the lid closes. 3–3.5 s: he sets the bag gently
+on the table. 3.5–7.5 s: he looks down at the master and speaks
+quietly, small mouth movements, a little embarrassed. The master
+looks up at him, gives one slow nod. Camera: hold. End with both
+looking at each other.
+
+DIALOGUE: COMPANION: "So I've been binning good food… because I
+misread one word." (3.3–7.3 s)
+SOUND: TV click off at 0:52.5 · bag rustle 0:53.0–0:55.5 · bin lid
+closes · room tone returns
+CAPTIONS: so i've been binning / good food… / because i misread /
+one word.
+
+----------------------------------------------------------------
+[C13a] CLOSING, PART 1 — edit 1:00.5–1:08.0 · generate 8 s
+Framing: master single, standing, medium three-quarter → slow push
+· Join: ends on the TURN FRAME, which is the start of C13b
+----------------------------------------------------------------
+FIRST FRAME:
+Create one medium illustrated 2D frame for a vertical 9:16 edit.
+References: the character sheet; the kitchen plate for the
+background. The short elderly red-panda-inspired master stands on
+the kitchen floor, three-quarter view facing left, looking up at
+the companion (only the edge of the companion's brick-red jacket
+sleeve visible at the left frame edge). Paws loosely clasped in
+front, both visible. Calm, warm, dry expression. Background: the
+warm-lit table and the dark small TV, soft.
+[KEY IDENTITY LINE for the master]
+Lighting: warm lamp from above-left, slightly dimmer than before.
+Medium: confident dark ink, flat cel shadows. No text.
+
+TURN FRAME (make as a second still; end frame of C13a, start frame
+of C13b):
+Same master, same clothes, same background and lighting, now a
+closer medium close-up: his head has turned to face the camera
+directly, eyes meeting the viewer, calm half-smile, one eyebrow
+slightly raised. The room light is a little dimmer around him.
+
+MOTION (C13a, start frame = FIRST FRAME, end frame = TURN FRAME):
+Animate for 8 s in the same drawn 2D style. Slow continuous push-in
+from medium to medium close-up. 0.5–7 s: the master speaks to the
+companion, small mouth movements, one small open-paw gesture on
+"Use by: respect it. Best before: check it." 7–8 s: he begins to
+turn his head toward the camera. End exactly on the TURN FRAME.
+
+DIALOGUE: MASTER: "Most of what we bin isn't spoiled. Just misread.
+Use by: respect it. Best before: check it."
+SOUND: music bed slightly up
+CAPTIONS: most of what we bin / isn't spoiled. / just misread. /
+use by: respect it. / best before: check it.
+
+----------------------------------------------------------------
+[C13b] CLOSING, PART 2 — edit 1:08.0–1:15.0 · generate 7 s
+Framing: master close-up, direct to camera · Out: fade to black
+----------------------------------------------------------------
+MOTION (start frame = TURN FRAME):
+Animate for 7 s in the same drawn 2D style. Start exactly from the
+turn frame. Continue the slow push-in to a close-up. 0.5–4.5 s: the
+master speaks directly to the viewer, small mouth movements, calm.
+4.5–7 s: he holds the look; the room light slowly dims until only
+his face is lit, then his eyes. End on his face in a small pool of
+light.
+
+DIALOGUE: MASTER (to camera): "So — open your fridge tonight. Which
+date have you been misreading?"
+SOUND: music swells slightly; room tone fades under it
+CAPTIONS: so — open your fridge tonight. / which date /
+have you been misreading?
+EDIT: fade to black 1:14.0–1:15.0.
+
+================================================================
+CONTINUITY CHECK BEFORE ANIMATING
+================================================================
+[ ] Both faces match the character sheet; companion eye patches on
+    the correct anatomical sides in C1, C3, C4, C12.
+[ ] Master's paws visible and drawn correctly in C1, C2, C4, C12,
+    C13a.
+[ ] NEW OUTFITS only; the ochre belt knot on the same side in every
+    master shot.
+[ ] Height: the master reaches the companion's waist-to-chest in C12.
+[ ] Props: the bitten apple goes from the master's paw (C1–C2) to the
+    plate (C4). The bag goes from the companion's paw (C1, C3) into
+    the bin, then out and onto the table (C12).
+[ ] TV: dark in C1–C3 and C12; switched on only in C4.
+[ ] TV clips C5–C11 share one style, with no text in the images.
+[ ] Nothing important in the top 12%, bottom 20% or right 20%.
+These are prompts and still plans only. Nothing in this file is
+rendered animation.

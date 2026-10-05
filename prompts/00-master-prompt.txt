@@ -203,7 +203,7 @@ Same timing, sound, caption and staging rules as WATCH_THIS.
 TV TRANSITION — SAME RECIPE EVERY EPISODE
 ----------------------------------------------------------------
 IN: after "Watch this", push the camera into the TV screen until it fills the frame → white bloom with dark rounded corners and scanlines (about 1.5 s) → one bright horizontal static band rolls through → a moment of grey noise → hard cut to the first explanation shot. A short noise burst plays under the whole transition. Total 2–3.5 s, no dialogue.
-DURING: every explanation shot sits inside the same rounded TV-screen frame, with scanlines, light grain and a vignette. Keep that frame identical in every shot.
+DURING: every explanation shot sits inside the same rounded TV-screen frame, with scanlines, light grain and a vignette. Add it in the edit as one overlay so it is identical in every shot.
 OUT: crossfade from the last explanation shot back to the room (about 0.5 s). Do not reuse the static on the way out.
 
 ----------------------------------------------------------------
@@ -292,7 +292,7 @@ Camera angle and eyeline: [ANGLE THAT HANDLES THE HEIGHT DIFFERENCE; WHERE EACH 
 Expression: [SPECIFIC AND PHYSICALLY PLAUSIBLE].
 Lighting: [DIRECTION AND CONTRAST].
 Medium: confident dark ink, flat cel shadows, muted drawn environment.
-For TV shots add: inside a rounded old-TV screen frame with scanlines, desaturated drawn editorial style, all labels and signs blank.
+For TV shots add: desaturated drawn editorial style, full bleed, all labels and signs blank. The rounded TV frame and scanlines are added in the edit as one identical overlay, never generated.
 Keep the important action out of the top 12%, bottom 20% and right 20% of the frame.
 Keep accurate hands/paws, recognizable silhouettes and room for captions. No generated subtitles, watermark, duplicate props, accidental text, old faces, old fur palettes or costume drift.
 
