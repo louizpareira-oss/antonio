@@ -101,7 +101,7 @@ VISUAL STYLE
 STAGING THE HEIGHT DIFFERENCE
 ----------------------------------------------------------------
 The master is about half the companion's height. In a 9:16 frame a standing two-shot makes him tiny.
-- For the question exchange, use alternating single shots and over-the-shoulder shots. In the master's shots, frame the companion slightly from above; in the companion's shots, frame the master slightly from below, so their eyelines meet.
+- For the question exchange, use alternating single shots and over-the-shoulder shots. In the master's single, the camera looks slightly down at him, from the companion's eye height. In the companion's single, the camera looks slightly up at him, from the master's eye height. Their eyelines then meet across the cut.
 - For long dialogue, seat them so their heads are closer in height: the master on a stool, step, counter, crate or high chair; the companion on a low seat, bench or floor cushion.
 - Use one full standing two-shot on a shared ground line per episode to show the height difference on purpose (often in the cold open or the return).
 - The master handles objects at his own height. Do not cheat his size to reach things.
