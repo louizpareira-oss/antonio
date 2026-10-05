@@ -22,6 +22,7 @@ Plan to make the account eligible for the TikTok Creator Rewards Program after t
 - [`prompts/02-best-before-shots.txt`](prompts/02-best-before-shots.txt) — first-frame and motion prompts for all 14 clips of "Best Before", with OpenArt reference ids, settings and budget.
 - [`references/best-before-stills.md`](references/best-before-stills.md) — the 14 first-frame stills for "Best Before" (OpenArt ids and links) plus the check-before-animating list.
 - [`references/best-before-clips.md`](references/best-before-clips.md) — the 14 animated clips for "Best Before" (PixVerse V6, 720p) with links, edit times and what to check.
+- [`references/best-before-edit.md`](references/best-before-edit.md) — **the edit plan for "Best Before" (85 s), locked to the generated voices: clip timings and speeds, voice track, word-timed captions (SRT), sound cues and on-screen text.**
 - [`scripts/01-forgive-the-past.md`](scripts/01-forgive-the-past.md) — 70s, 20 beats, full shot list and generation prompts.
 - [`prompts/01-forgive-the-past-anime.txt`](prompts/01-forgive-the-past-anime.txt) — **copy-paste pack: all 22 clip prompts, anime style, ready for an AI video generator.**
 

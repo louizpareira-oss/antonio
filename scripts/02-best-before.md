@@ -3,6 +3,9 @@
 **Stage:** SCRIPT · **Episode type:** WATCH_THIS · **Wardrobe:** NEW OUTFITS
 Written to [`prompts/00-master-prompt.txt`](../prompts/00-master-prompt.txt).
 
+> **Edit update:** the final cut runs **85.0 s**, timed to the generated voices. The current
+> timings are in [`references/best-before-edit.md`](../references/best-before-edit.md).
+
 ## Title options
 
 1. **Best Before Doesn't Mean Bad**

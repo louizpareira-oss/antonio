@@ -9,8 +9,8 @@ prompts are in [`prompts/02-best-before-shots.txt`](../prompts/02-best-before-sh
 
 **In the edit:** scale every clip to 1080×1920 (CapCut: canvas 9:16, 1080p, fit) and
 export at 1080×1920, 30 fps. Add voices, sound effects, music, captions, sticker/label
-text, the TV frame overlay and the TV transition as described in
-[`scripts/02-best-before.md`](../scripts/02-best-before.md).
+text, the TV frame overlay and the TV transition. Exact timings and speeds are in
+[`best-before-edit.md`](best-before-edit.md).
 
 | Clip | Edit time | Length | What it shows | History id | Video |
 |---|---|---|---|---|---|
