@@ -111,3 +111,30 @@ CapCut's commercial-use library or another licensed source, never a copyrighted 
 - [ ] Each voice line is over the right character's mouth movement; nudge a line a few frames if needed.
 - [ ] The TV frame overlay is identical on C5–C11.
 - [ ] AI-generated content label switched on when posting.
+
+## Final render (6 Oct 2026)
+
+The episode has been assembled. The two videos are delivered in the chat (not stored in
+git because of their size, about 67 MB each):
+
+- `best-before-final.mp4`: 1080×1920, 30 fps, 85.0 s, voices and captions burned in.
+- `best-before-final-no-captions.mp4`: the same without captions, for styling your own in CapCut.
+
+What the render did, beyond the table above:
+
+- **Order:** C1 → C2 → C3 → C2 → C3 → C4 → TV transition → C5 … C11 → crossfade → C12 → C13a → C13b.
+- **C4:** plays normally under "Most people do. Watch this.", then runs the push into the
+  glowing screen at 3.25× so the white flash starts from that frame.
+- **C11:** the original clip has a glitch at 3.1–3.5 s (extra meat packs float in). Only its
+  first 3 s are used: forward at 80%, then **reversed**, so the paw pulls back out.
+- **TV section (C5–C11):** one rounded-TV-frame overlay with scanlines and vignette, plus the
+  generated white bloom → static band → grey noise transition.
+- **Audio:** dialogue track, a knob click at 0:19.25, a static burst on the transition, and a
+  very low room tone in the kitchen scenes. Mixed to −14 LUFS. **No music yet.**
+- **Captions:** the SRT, set in DejaVu Serif, white with a thin outline, inside the safe zone;
+  plus the source notes "source: WRAP, 2022" and "e.g. Waitrose, M&S".
+- **Not added:** the "BEST BEFORE" / "USE BY" sticker text (it needs motion tracking on the
+  moving bag and labels; add it in CapCut if you want it) and the other sound effects.
+
+Known soft spot: C4 has a brief ghosting moment (about 0:17.8–0:18.3) where the companion
+fades through the master during the camera push. Redo that clip if it bothers you.
