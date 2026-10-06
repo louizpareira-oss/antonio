@@ -114,11 +114,11 @@ CapCut's commercial-use library or another licensed source, never a copyrighted 
 
 ## Final render (6 Oct 2026)
 
-The episode has been assembled. The two videos are delivered in the chat (not stored in
-git because of their size, about 67 MB each):
+The episode has been assembled. The two full-quality videos (about 67 MB each, too big for git)
+are stored in your OpenArt uploads:
 
-- `best-before-final.mp4`: 1080×1920, 30 fps, 85.0 s, voices and captions burned in.
-- `best-before-final-no-captions.mp4`: the same without captions, for styling your own in CapCut.
+- **[best-before-final.mp4](https://cdn.openart.ai/openart-uploads/production/2026-10/create-video/zSMFTe3Of5oqrKDWBPOD/best-before-final_1791289606042_22080397.mp4)**: 1080×1920, 30 fps, 85.0 s, voices and captions burned in (full quality, stored in OpenArt uploads).
+- **[best-before-final-no-captions.mp4](https://cdn.openart.ai/openart-uploads/production/2026-10/create-video/zSMFTe3Of5oqrKDWBPOD/best-before-final-no-captions_1791289606950_ff42b40e.mp4)**: the same without captions, for styling your own in CapCut.
 
 What the render did, beyond the table above:
 
