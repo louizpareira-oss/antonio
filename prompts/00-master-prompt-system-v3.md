@@ -145,7 +145,7 @@ D. MOTION
 - ONE PRIMARY ACTION per scene, completed in about 1 second, then a calm hold with
   subtle idle motion (breathing, blinking, a slight sway).
 - 2–3 GENTLE CONTINUOUS BACKGROUND LOOPS in every scene, such as drifting dust particles,
-  twinkling stars, a slow glow pulse, leaves swaying, slow-moving clouds, a soft light flicker.
+  twinkling stars, a slow glow pulse, leaves swaying, slow-moving clouds, a soft light shimmer.
   Loops are slow and even. They never speed up.
 - MOTION FEEL: calm, smooth, natural, even pace. No sudden bursts, no speed ramps, no fast
   action, no shaking.
@@ -403,7 +403,7 @@ Subject large in the frame. Nothing written anywhere in the image.
 MOTION PROMPT: Animate this exact frame. Locked static camera, no zoom, no pan. Kiro raises
 one hand to shield his eyes from the star's light, completing in about 1 second, then holds
 with subtle breathing. Background loops: the star's corona pulsing slowly, floating rocks
-bobbing gently, warm light flickering softly, slow and even. Calm, smooth, natural motion.
+bobbing gently, warm light shimmering softly, slow and even. Calm, smooth, natural motion.
 Same character design, colors and flat 2D vector style for the whole clip. One continuous
 scene, no transition, no morphing. 4 seconds.
 NEGATIVE: [image negative] / [motion negative]
