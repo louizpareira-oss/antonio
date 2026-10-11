@@ -1,0 +1,188 @@
+================================================================
+"COMFORT IS EXPENSIVE" — BLUEPRINT v2.3 (Vibrant Explainer Shorts Director)
+18 scenes · ~4.5s each · 9:16 · 1080x1920 · 01:20.3
+Built with prompts/00-master-prompt-v2-3.txt. NOT GENERATED.
+Fresh slate: nothing reused from "Lock In" (no Leo, bedroom, desk, couch,
+hourglass, padlock, clocks, calendars, chains, gears).
+================================================================
+
+PROTAGONIST: Maya — long black box braids / deep brown skin / teal bomber jacket / white high-top sneakers with gold laces
+Secondary characters: bank teller (04), pigeon (08), cat vendor (09), friend (11),
+robot clerk (15), mountain goat (18). Scene 18 "future Maya" wears the identical outfit.
+
+CLICHÉ METAPHORS {clock, hourglass, padlock, chain, gear}: 0 used.
+BRIGHT BACKGROUNDS (max 1 in 4): 05 yellow · 09 orange · 13 yellow · 17 mint.
+FRAMING CYCLE: wide → medium → close-up → over-the-shoulder, repeating.
+DOMINANT ACCENT: never the same in consecutive scenes.
+VOICEOVER: 139 words, ~145 wpm with pauses, voice ends 01:18.3, 2s hold.
+
+---
+[SCENE 01] — 00:00.0 / 00:04.2 (~4.5s)
+Spoken: "Comfort is the most expensive thing you own."
+Visual: Maya + a glossy luxury boutique + velvet display stand, fluffy pillow, giant blank price tag, mannequin, shopping bag
+Keyframe: Vibrant 2D flat vector cartoon explainer, 9:16 vertical, wide shot. Maya — long black box braids, deep brown skin, teal bomber jacket, white high-top sneakers with gold laces — with an expressive face, gasping with wide eyes at a giant blank price tag dangling from a fluffy pillow on a velvet display stand, in a glossy luxury boutique — a new unique location never used before — with 4–5 distinct props: velvet display stand, fluffy pillow, giant blank price tag, mannequin and shopping bag. Deep indigo-navy #18193F background with golden yellow #E0B828 and hot pink #C028C8. Soft gradient glow lighting. Character in lower third of frame only, head below midline, upper 45% completely empty calm negative space reserved for text. Clean geometric shapes, flat colors. No texture, no realism, no 3D. No text, no letters.
+Animate: 2D flat vector cartoon animation, 9:16 vertical, static camera. Maya (long black box braids, deep brown skin, teal bomber jacket, white high-top sneakers with gold laces) leans in to read the giant price tag, then jumps back in shock, shopping bag swinging. The price tag swings, sparkles pop off the pillow. Consistent face & outfit. No zoom, no text, no 3D, no realism.
+Text/SFX: "COMFORT" rainbow knockout at 00:00.1; "EXPENSIVE" rainbow knockout at 00:01.8; SFX whoosh on each word, sparkle at 00:00.3 (visual shift), -18dB bed.
+USED: a glossy luxury boutique; velvet display stand, fluffy pillow, giant blank price tag, mannequin, shopping bag; comfort as a luxury item
+
+---
+[SCENE 02] — 00:04.2 / 00:11.4 (~4.5s)
+Spoken: "It costs you nothing today. And it charges you for the rest of your life."
+Visual: Maya + a supermarket checkout lane + cash register, endless receipt roll, conveyor belt, cereal box, shopping cart
+Keyframe: Vibrant 2D flat vector cartoon explainer, 9:16 vertical, medium shot. Maya — long black box braids, deep brown skin, teal bomber jacket, white high-top sneakers with gold laces — with an expressive face, smiling as the cash register prints her a free receipt that keeps printing and curling endlessly around her sneakers, in a supermarket checkout lane — a new unique location never used before — with 4–5 distinct props: cash register, endless receipt roll, conveyor belt, cereal box and shopping cart. Deep indigo-navy #18193F background with cyan #49C3D4 and coral red #C6405B. Soft gradient glow lighting. Character in lower third of frame only, head below midline, upper 45% completely empty calm negative space reserved for text. Clean geometric shapes, flat colors. No texture, no realism, no 3D. No text, no letters.
+Animate: 2D flat vector cartoon animation, 9:16 vertical, static camera. Maya (long black box braids, deep brown skin, teal bomber jacket, white high-top sneakers with gold laces) smiles, then stares down in alarm as the receipt piles up around her feet. The receipt spools out faster and loops across the floor, the conveyor belt rolls. Consistent face & outfit. No zoom, no text, no 3D, no realism.
+Text/SFX: "NOTHING" rainbow knockout at 00:05.6; "CHARGES" rainbow knockout at 00:07.3; SFX whoosh on each word, sparkle at 00:04.5 (visual shift), -18dB bed.
+USED: a supermarket checkout lane; cash register, endless receipt roll, conveyor belt, cereal box, shopping cart; a receipt that never ends
+
+---
+[SCENE 03] — 00:11.4 / 00:14.8 (~4.5s)
+Spoken: "Every snooze button is a loan."
+Visual: Maya + a campsite tent at dawn + sleeping bag, phone, battery lantern, hiking boots, tent flap
+Keyframe: Vibrant 2D flat vector cartoon explainer, 9:16 vertical, close-up framing. Maya — long black box braids, deep brown skin, teal bomber jacket, white high-top sneakers with gold laces — with an expressive face, half-asleep in a sleeping bag, slapping the snooze button on her glowing phone with a groggy face, in a campsite tent at dawn — a new unique location never used before — with 4–5 distinct props: sleeping bag, phone, battery lantern, hiking boots and tent flap. Deep indigo-navy #18193F background with electric purple #5419C8 and cream #E8DCC8. Soft gradient glow lighting. Character in lower third of frame only, head below midline, upper 45% completely empty calm negative space reserved for text. Clean geometric shapes, flat colors. No texture, no realism, no 3D. No text, no letters.
+Animate: 2D flat vector cartoon animation, 9:16 vertical, static camera. Maya (long black box braids, deep brown skin, teal bomber jacket, white high-top sneakers with gold laces) slaps the snooze button and burrows back into the sleeping bag. The lantern flickers, the tent flap ripples, small Z-shaped sparkles drift up. Consistent face & outfit. No zoom, no text, no 3D, no realism.
+Text/SFX: "SNOOZE" rainbow knockout at 00:11.9; "LOAN" rainbow knockout at 00:13.6; SFX whoosh on each word, sparkle at 00:11.7 (visual shift), -18dB bed.
+USED: a campsite tent at dawn; sleeping bag, phone, battery lantern, hiking boots, tent flap; snooze as borrowing
+
+---
+[SCENE 04] — 00:14.8 / 00:18.6 (~4.5s)
+Spoken: "Every "I'll do it later" is interest."
+Visual: Maya + a bright bank lobby + teller counter, piggy bank, stack of gold coins, velvet rope, security camera
+Keyframe: Vibrant 2D flat vector cartoon explainer, 9:16 vertical, over-the-shoulder shot. Maya — long black box braids, deep brown skin, teal bomber jacket, white high-top sneakers with gold laces — with an expressive face, seen from over her shoulder at a teller counter, waving casually while a smiling cartoon teller stacks gold coins higher and higher beside a piggy bank, in a bright bank lobby — a new unique location never used before — with 4–5 distinct props: teller counter, piggy bank, stack of gold coins, velvet rope and security camera. Deep indigo-navy #18193F background with golden yellow #E0B828 and cyan #49C3D4. Soft gradient glow lighting. Character in lower third of frame only, head below midline, upper 45% completely empty calm negative space reserved for text. Clean geometric shapes, flat colors. No texture, no realism, no 3D. No text, no letters.
+Animate: 2D flat vector cartoon animation, 9:16 vertical, static camera. Maya (long black box braids, deep brown skin, teal bomber jacket, white high-top sneakers with gold laces) waves it off with a carefree shrug as the coin stack grows. Gold coins pop onto the stack one after another, the velvet rope sways. Consistent face & outfit. No zoom, no text, no 3D, no realism.
+Text/SFX: "LATER" rainbow knockout at 00:16.6; "INTEREST" rainbow knockout at 00:17.4; SFX whoosh on each word, sparkle at 00:15.1 (visual shift), -18dB bed.
+USED: a bright bank lobby; teller counter, piggy bank, stack of gold coins, velvet rope, security camera; debt interest
+
+---
+[SCENE 05] — 00:18.6 / 00:22.4 (~4.5s)
+Spoken: "And one day, the bill shows up."
+Visual: Maya + a suburban front yard + mailbox, giant envelope, picket fence, garden gnome, lawn sprinkler
+Keyframe: Vibrant 2D flat vector cartoon explainer, 9:16 vertical, wide shot. Maya — long black box braids, deep brown skin, teal bomber jacket, white high-top sneakers with gold laces — with an expressive face, jaw dropped as a giant envelope bursts out of her small mailbox, in a suburban front yard — a new unique location never used before — with 4–5 distinct props: mailbox, giant envelope, picket fence, garden gnome and lawn sprinkler. Bright warm yellow #F5D547 background with coral red #C6405B and electric purple #5419C8. Soft gradient glow lighting. Character in lower third of frame only, head below midline, upper 45% completely empty calm negative space reserved for text. Clean geometric shapes, flat colors. No texture, no realism, no 3D. No text, no letters.
+Animate: 2D flat vector cartoon animation, 9:16 vertical, static camera. Maya (long black box braids, deep brown skin, teal bomber jacket, white high-top sneakers with gold laces) stumbles back as the giant envelope bursts out of the mailbox. The mailbox flap bangs open, the sprinkler sprays sparkly droplets, the gnome wobbles. Consistent face & outfit. No zoom, no text, no 3D, no realism.
+Text/SFX: "BILL" rainbow knockout at 00:20.4; SFX whoosh on each word, sparkle at 00:18.9 (visual shift), -18dB bed.
+USED: a suburban front yard; mailbox, giant envelope, picket fence, garden gnome, lawn sprinkler; the bill arriving
+
+---
+[SCENE 06] — 00:22.4 / 00:26.7 (~4.5s)
+Spoken: "It looks like the body you never trained."
+Visual: Maya + a sunny beach volleyball court + volleyball net, volleyball, beach umbrella, cooler, sandcastle
+Keyframe: Vibrant 2D flat vector cartoon explainer, 9:16 vertical, medium shot. Maya — long black box braids, deep brown skin, teal bomber jacket, white high-top sneakers with gold laces — with an expressive face, out of breath and flopping into the sand after a weak jump at the volleyball net, in a sunny beach volleyball court — a new unique location never used before — with 4–5 distinct props: volleyball net, volleyball, beach umbrella, cooler and sandcastle. Deep indigo-navy #18193F background with cyan #49C3D4 and golden yellow #E0B828. Soft gradient glow lighting. Character in lower third of frame only, head below midline, upper 45% completely empty calm negative space reserved for text. Clean geometric shapes, flat colors. No texture, no realism, no 3D. No text, no letters.
+Animate: 2D flat vector cartoon animation, 9:16 vertical, static camera. Maya (long black box braids, deep brown skin, teal bomber jacket, white high-top sneakers with gold laces) jumps for the ball, misses badly and flops into the sand panting. The volleyball bounces over her head, sand puffs up as sparkles, the umbrella flaps. Consistent face & outfit. No zoom, no text, no 3D, no realism.
+Text/SFX: "BODY" rainbow knockout at 00:24.2; SFX whoosh on each word, sparkle at 00:22.7 (visual shift), -18dB bed.
+USED: a sunny beach volleyball court; volleyball net, volleyball, beach umbrella, cooler, sandcastle; untrained body
+
+---
+[SCENE 07] — 00:26.7 / 00:30.1 (~4.5s)
+Spoken: "The skill you never learned."
+Visual: Maya + a cozy music shop + acoustic guitar, amplifier, drum, music stand, keyboard
+Keyframe: Vibrant 2D flat vector cartoon explainer, 9:16 vertical, close-up framing. Maya — long black box braids, deep brown skin, teal bomber jacket, white high-top sneakers with gold laces — with an expressive face, fumbling an acoustic guitar with a confused wince as a string snaps, in a cozy music shop — a new unique location never used before — with 4–5 distinct props: acoustic guitar, amplifier, drum, music stand and keyboard. Deep indigo-navy #18193F background with hot pink #C028C8 and cyan #49C3D4. Soft gradient glow lighting. Character in lower third of frame only, head below midline, upper 45% completely empty calm negative space reserved for text. Clean geometric shapes, flat colors. No texture, no realism, no 3D. No text, no letters.
+Animate: 2D flat vector cartoon animation, 9:16 vertical, static camera. Maya (long black box braids, deep brown skin, teal bomber jacket, white high-top sneakers with gold laces) strums once, a string snaps with a boing and she winces. Musical-note sparkles fizzle and drop, the amplifier glows. Consistent face & outfit. No zoom, no text, no 3D, no realism.
+Text/SFX: "SKILL" rainbow knockout at 00:27.2; SFX whoosh on each word, sparkle at 00:27.0 (visual shift), -18dB bed.
+USED: a cozy music shop; acoustic guitar, amplifier, drum, music stand, keyboard; unlearned skill
+
+---
+[SCENE 08] — 00:30.1 / 00:33.5 (~4.5s)
+Spoken: "The message you never sent."
+Visual: Maya + a city rooftop at night + folded paper airplane note, string lights, folding chair, satellite dish, pigeon
+Keyframe: Vibrant 2D flat vector cartoon explainer, 9:16 vertical, over-the-shoulder shot. Maya — long black box braids, deep brown skin, teal bomber jacket, white high-top sneakers with gold laces — with an expressive face, seen from over her shoulder, about to throw a folded paper airplane note, then hesitating and lowering it, in a city rooftop at night — a new unique location never used before — with 4–5 distinct props: folded paper airplane note, string lights, folding chair, satellite dish and pigeon. Deep indigo-navy #18193F background with electric purple #5419C8 and golden yellow #E0B828. Soft gradient glow lighting. Character in lower third of frame only, head below midline, upper 45% completely empty calm negative space reserved for text. Clean geometric shapes, flat colors. No texture, no realism, no 3D. No text, no letters.
+Animate: 2D flat vector cartoon animation, 9:16 vertical, static camera. Maya (long black box braids, deep brown skin, teal bomber jacket, white high-top sneakers with gold laces) raises the paper airplane to throw it, hesitates and slowly lowers it. The string lights twinkle, the pigeon tilts its head and flutters off. Consistent face & outfit. No zoom, no text, no 3D, no realism.
+Text/SFX: "MESSAGE" rainbow knockout at 00:30.6; SFX whoosh on each word, sparkle at 00:30.4 (visual shift), -18dB bed.
+USED: a city rooftop at night; folded paper airplane note, string lights, folding chair, satellite dish, pigeon; unsent message
+
+---
+[SCENE 09] — 00:33.5 / 00:38.1 (~4.5s)
+Spoken: "Here's the truth nobody tells you. Discomfort is cheap."
+Visual: Maya + a street market stall + striped awning, jump rope, paperback book, coin purse, cartoon cat vendor
+Keyframe: Vibrant 2D flat vector cartoon explainer, 9:16 vertical, wide shot. Maya — long black box braids, deep brown skin, teal bomber jacket, white high-top sneakers with gold laces — with an expressive face, surprised and delighted as a single button falls from her coin purse and the cartoon cat vendor nods and hands her a jump rope and a paperback book, in a street market stall — a new unique location never used before — with 4–5 distinct props: striped awning, jump rope, paperback book, coin purse and cartoon cat vendor. Bright orange #F08C3A background with hot pink #C028C8 and cyan #49C3D4. Soft gradient glow lighting. Character in lower third of frame only, head below midline, upper 45% completely empty calm negative space reserved for text. Clean geometric shapes, flat colors. No texture, no realism, no 3D. No text, no letters.
+Animate: 2D flat vector cartoon animation, 9:16 vertical, static camera. Maya (long black box braids, deep brown skin, teal bomber jacket, white high-top sneakers with gold laces) shakes out her coin purse, a single button drops, she blinks then grins. The cat vendor nods, the awning flutters, sparkles pop over the jump rope. Consistent face & outfit. No zoom, no text, no 3D, no realism.
+Text/SFX: "TRUTH" rainbow knockout at 00:34.4; "CHEAP" rainbow knockout at 00:36.9; SFX whoosh on each word, sparkle at 00:33.8 (visual shift), -18dB bed.
+USED: a street market stall; striped awning, jump rope, paperback book, coin purse, cartoon cat vendor; discomfort is cheap
+
+---
+[SCENE 10] — 00:38.1 / 00:41.5 (~4.5s)
+Spoken: "Ten minutes of cold water."
+Visual: Maya + a lake dock in the morning + wooden dock, towel, buoy, life ring, rubber duck
+Keyframe: Vibrant 2D flat vector cartoon explainer, 9:16 vertical, medium shot. Maya — long black box braids, deep brown skin, teal bomber jacket, white high-top sneakers with gold laces — with an expressive face, jumping off a wooden dock into icy lake water, teeth chattering, then grinning, in a lake dock in the morning — a new unique location never used before — with 4–5 distinct props: wooden dock, towel, buoy, life ring and rubber duck. Deep indigo-navy #18193F background with cyan #49C3D4 and cream #E8DCC8. Soft gradient glow lighting. Character in lower third of frame only, head below midline, upper 45% completely empty calm negative space reserved for text. Clean geometric shapes, flat colors. No texture, no realism, no 3D. No text, no letters.
+Animate: 2D flat vector cartoon animation, 9:16 vertical, static camera. Maya (long black box braids, deep brown skin, teal bomber jacket, white high-top sneakers with gold laces) jumps into the water, pops up shivering and then breaks into a big grin. Water droplets spray as sparkles, the rubber duck bobs, the buoy rocks. Consistent face & outfit. No zoom, no text, no 3D, no realism.
+Text/SFX: "COLD" rainbow knockout at 00:39.5; SFX whoosh on each word, sparkle at 00:38.4 (visual shift), -18dB bed.
+USED: a lake dock in the morning; wooden dock, towel, buoy, life ring, rubber duck; cold plunge
+
+---
+[SCENE 11] — 00:41.5 / 00:44.9 (~4.5s)
+Spoken: "One awkward conversation."
+Visual: Maya + a small corner café + café table, two coffee cups, croissant, sugar jar, friend
+Keyframe: Vibrant 2D flat vector cartoon explainer, 9:16 vertical, close-up framing. Maya — long black box braids, deep brown skin, teal bomber jacket, white high-top sneakers with gold laces — with an expressive face, rubbing the back of her neck awkwardly across a café table from a cartoon friend, then both burst out laughing, in a small corner café — a new unique location never used before — with 4–5 distinct props: café table, two coffee cups, croissant, sugar jar and friend. Deep indigo-navy #18193F background with coral red #C6405B and golden yellow #E0B828. Soft gradient glow lighting. Character in lower third of frame only, head below midline, upper 45% completely empty calm negative space reserved for text. Clean geometric shapes, flat colors. No texture, no realism, no 3D. No text, no letters.
+Animate: 2D flat vector cartoon animation, 9:16 vertical, static camera. Maya (long black box braids, deep brown skin, teal bomber jacket, white high-top sneakers with gold laces) rubs her neck awkwardly, then laughs as her friend laughs too. Steam curls from the cups, a few heart sparkles pop between them. Consistent face & outfit. No zoom, no text, no 3D, no realism.
+Text/SFX: "AWKWARD" rainbow knockout at 00:42.1; SFX whoosh on each word, sparkle at 00:41.8 (visual shift), -18dB bed.
+USED: a small corner café; café table, two coffee cups, croissant, sugar jar, friend; the hard talk
+
+---
+[SCENE 12] — 00:44.9 / 00:49.5 (~4.5s)
+Spoken: "One page, written badly, at six in the morning."
+Visual: Maya + a backyard garden at dawn + picnic table, notebook, pencil, thermos, bird feeder
+Keyframe: Vibrant 2D flat vector cartoon explainer, 9:16 vertical, over-the-shoulder shot. Maya — long black box braids, deep brown skin, teal bomber jacket, white high-top sneakers with gold laces — with an expressive face, seen from over her shoulder at a picnic table, scribbling in a notebook, crossing out a line and writing again with determination, in a backyard garden at dawn — a new unique location never used before — with 4–5 distinct props: picnic table, notebook, pencil, thermos and bird feeder. Deep indigo-navy #18193F background with golden yellow #E0B828 and electric purple #5419C8. Soft gradient glow lighting. Character in lower third of frame only, head below midline, upper 45% completely empty calm negative space reserved for text. Clean geometric shapes, flat colors. No texture, no realism, no 3D. No text, no letters.
+Animate: 2D flat vector cartoon animation, 9:16 vertical, static camera. Maya (long black box braids, deep brown skin, teal bomber jacket, white high-top sneakers with gold laces) scribbles, crosses out a line, nods and keeps writing. A small bird lands on the feeder, steam rises from the thermos, dawn sparkles drift. Consistent face & outfit. No zoom, no text, no 3D, no realism.
+Text/SFX: "PAGE" rainbow knockout at 00:45.5; "SIX" rainbow knockout at 00:47.1; SFX whoosh on each word, sparkle at 00:45.2 (visual shift), -18dB bed.
+USED: a backyard garden at dawn; picnic table, notebook, pencil, thermos, bird feeder; the messy first draft
+
+---
+[SCENE 13] — 00:49.5 / 00:52.9 (~4.5s)
+Spoken: "That's it. That's the whole price."
+Visual: Maya + a road toll booth + toll booth, barrier arm, ticket stub, kick scooter, traffic cone
+Keyframe: Vibrant 2D flat vector cartoon explainer, 9:16 vertical, wide shot. Maya — long black box braids, deep brown skin, teal bomber jacket, white high-top sneakers with gold laces — with an expressive face, standing on a kick scooter handing a tiny ticket stub into a toll booth as the barrier arm lifts, in a road toll booth — a new unique location never used before — with 4–5 distinct props: toll booth, barrier arm, ticket stub, kick scooter and traffic cone. Bright warm yellow #F5D547 background with electric purple #5419C8 and hot pink #C028C8. Soft gradient glow lighting. Character in lower third of frame only, head below midline, upper 45% completely empty calm negative space reserved for text. Clean geometric shapes, flat colors. No texture, no realism, no 3D. No text, no letters.
+Animate: 2D flat vector cartoon animation, 9:16 vertical, static camera. Maya (long black box braids, deep brown skin, teal bomber jacket, white high-top sneakers with gold laces) hands over the ticket stub and grins as the barrier arm swings up. The barrier lifts, speed lines streak, she kicks forward past the traffic cone. Consistent face & outfit. No zoom, no text, no 3D, no realism.
+Text/SFX: "PRICE" rainbow knockout at 00:51.8; SFX whoosh on each word, sparkle at 00:49.8 (visual shift), -18dB bed.
+USED: a road toll booth; toll booth, barrier arm, ticket stub, kick scooter, traffic cone; a tiny toll
+
+---
+[SCENE 14] — 00:52.9 / 00:57.2 (~4.5s)
+Spoken: "Pay a little now, or pay everything later."
+Visual: Maya + an old red barn + giant balance scale, small pebble, heavy grain sacks, hay bale, pitchfork
+Keyframe: Vibrant 2D flat vector cartoon explainer, 9:16 vertical, medium shot. Maya — long black box braids, deep brown skin, teal bomber jacket, white high-top sneakers with gold laces — with an expressive face, placing one small pebble on one side of a giant balance scale while the other side, piled with heavy grain sacks, slams down, in an old red barn — a new unique location never used before — with 4–5 distinct props: giant balance scale, small pebble, heavy grain sacks, hay bale and pitchfork. Deep indigo-navy #18193F background with cream #E8DCC8 and coral red #C6405B. Soft gradient glow lighting. Character in lower third of frame only, head below midline, upper 45% completely empty calm negative space reserved for text. Clean geometric shapes, flat colors. No texture, no realism, no 3D. No text, no letters.
+Animate: 2D flat vector cartoon animation, 9:16 vertical, static camera. Maya (long black box braids, deep brown skin, teal bomber jacket, white high-top sneakers with gold laces) drops the pebble on the scale and steps back as the heavy side slams down. Hay flies up as sparkles, the sacks thud, the pitchfork rattles. Consistent face & outfit. No zoom, no text, no 3D, no realism.
+Text/SFX: "LITTLE" rainbow knockout at 00:53.9; "EVERYTHING" rainbow knockout at 00:55.6; SFX whoosh on each word, sparkle at 00:53.2 (visual shift), -18dB bed.
+USED: an old red barn; giant balance scale, small pebble, heavy grain sacks, hay bale, pitchfork; the scale of cost
+
+---
+[SCENE 15] — 00:57.2 / 01:03.5 (~4.5s)
+Spoken: "The bill is coming either way. You just get to choose the currency."
+Visual: Maya + an airport currency exchange counter + exchange counter, friendly robot clerk, glowing gold sweat-drop token, dull grey token, rolling suitcase
+Keyframe: Vibrant 2D flat vector cartoon explainer, 9:16 vertical, close-up framing. Maya — long black box braids, deep brown skin, teal bomber jacket, white high-top sneakers with gold laces — with an expressive face, deciding between a glowing gold sweat-drop token and a dull grey token held out by a friendly robot clerk, rolling suitcase beside her, in an airport currency exchange counter — a new unique location never used before — with 4–5 distinct props: exchange counter, friendly robot clerk, glowing gold sweat-drop token, dull grey token and rolling suitcase. Deep indigo-navy #18193F background with golden yellow #E0B828 and cyan #49C3D4. Soft gradient glow lighting. Character in lower third of frame only, head below midline, upper 45% completely empty calm negative space reserved for text. Clean geometric shapes, flat colors. No texture, no realism, no 3D. No text, no letters.
+Animate: 2D flat vector cartoon animation, 9:16 vertical, static camera. Maya (long black box braids, deep brown skin, teal bomber jacket, white high-top sneakers with gold laces) looks at the grey token, then the gold one, and confidently picks the gold one. The gold token sparkles brighter, the robot clerk gives a thumbs-up. Consistent face & outfit. No zoom, no text, no 3D, no realism.
+Text/SFX: "COMING" rainbow knockout at 00:58.6; "CURRENCY" rainbow knockout at 01:02.3; SFX whoosh on each word, sparkle at 00:57.5 (visual shift), -18dB bed.
+USED: an airport currency exchange counter; exchange counter, friendly robot clerk, glowing gold sweat-drop token, dull grey token, rolling suitcase; choosing the currency
+
+---
+[SCENE 16] — 01:03.5 / 01:06.9 (~4.5s)
+Spoken: "So stop buying comfort."
+Visual: Maya + a furniture showroom + plush recliner, footstool, bunch of sale balloons, showroom spotlight, floor rug
+Keyframe: Vibrant 2D flat vector cartoon explainer, 9:16 vertical, over-the-shoulder shot. Maya — long black box braids, deep brown skin, teal bomber jacket, white high-top sneakers with gold laces — with an expressive face, seen from over her shoulder, turning her back on a plush recliner under a showroom spotlight and walking away, in a furniture showroom — a new unique location never used before — with 4–5 distinct props: plush recliner, footstool, bunch of sale balloons, showroom spotlight and floor rug. Deep indigo-navy #18193F background with hot pink #C028C8 and cream #E8DCC8. Soft gradient glow lighting. Character in lower third of frame only, head below midline, upper 45% completely empty calm negative space reserved for text. Clean geometric shapes, flat colors. No texture, no realism, no 3D. No text, no letters.
+Animate: 2D flat vector cartoon animation, 9:16 vertical, static camera. Maya (long black box braids, deep brown skin, teal bomber jacket, white high-top sneakers with gold laces) turns away from the recliner and walks off with a determined stride. The sale balloons bob and drift away, the spotlight dims on the recliner. Consistent face & outfit. No zoom, no text, no 3D, no realism.
+Text/SFX: "STOP" rainbow knockout at 01:04.1; "COMFORT" rainbow knockout at 01:04.9; SFX whoosh on each word, sparkle at 01:03.8 (visual shift), -18dB bed.
+USED: a furniture showroom; plush recliner, footstool, bunch of sale balloons, showroom spotlight, floor rug; walking away from comfort
+
+---
+[SCENE 17] — 01:06.9 / 01:10.3 (~4.5s)
+Spoken: "Start paying in effort."
+Visual: Maya + an outdoor rock cliff + rock cliff, climbing rope, chalk bag, helmet, carabiner
+Keyframe: Vibrant 2D flat vector cartoon explainer, 9:16 vertical, wide shot. Maya — long black box braids, deep brown skin, teal bomber jacket, white high-top sneakers with gold laces — with an expressive face, starting to climb a rounded cartoon rock cliff with gritted teeth, chalk on her hands, helmet on, in an outdoor rock cliff — a new unique location never used before — with 4–5 distinct props: rock cliff, climbing rope, chalk bag, helmet and carabiner. Bright mint #7ED4A8 background with electric purple #5419C8 and coral red #C6405B. Soft gradient glow lighting. Character in lower third of frame only, head below midline, upper 45% completely empty calm negative space reserved for text. Clean geometric shapes, flat colors. No texture, no realism, no 3D. No text, no letters.
+Animate: 2D flat vector cartoon animation, 9:16 vertical, static camera. Maya (long black box braids, deep brown skin, teal bomber jacket, white high-top sneakers with gold laces) claps chalk off her hands and pulls herself up the first hold. Chalk puffs burst into sparkles, the rope sways, the carabiner glints. Consistent face & outfit. No zoom, no text, no 3D, no realism.
+Text/SFX: "EFFORT" rainbow knockout at 01:08.3; SFX whoosh on each word, sparkle at 01:07.2 (visual shift), -18dB bed.
+USED: an outdoor rock cliff; rock cliff, climbing rope, chalk bag, helmet, carabiner; climbing as effort
+
+---
+[SCENE 18] — 01:10.3 / 01:18.3 (~4.5s)
+Spoken: "Because the person you want to become is waiting on the other side of the hard thing."
+Visual: Maya + a canyon rope bridge at sunrise + rope bridge, wooden signpost, backpack, mountain goat, future Maya
+Keyframe: Vibrant 2D flat vector cartoon explainer, 9:16 vertical, medium shot. Maya — long black box braids, deep brown skin, teal bomber jacket, white high-top sneakers with gold laces — with an expressive face, stepping onto a swaying rope bridge across a canyon toward a confident, glowing future version of herself in the same outfit waving from the far side, in a canyon rope bridge at sunrise — a new unique location never used before — with 4–5 distinct props: rope bridge, wooden signpost, backpack, mountain goat and future Maya. Deep indigo-navy #18193F background with golden yellow #E0B828 and hot pink #C028C8. Soft gradient glow lighting. Character in lower third of frame only, head below midline, upper 45% completely empty calm negative space reserved for text. Clean geometric shapes, flat colors. No texture, no realism, no 3D. No text, no letters.
+Animate: 2D flat vector cartoon animation, 9:16 vertical, static camera. Maya (long black box braids, deep brown skin, teal bomber jacket, white high-top sneakers with gold laces) grips the ropes and takes brave steps across the swaying bridge, smiling at her future self. The future Maya waves, the bridge sways, the mountain goat hops, sunrise sparkles drift. Hold the last 2 seconds. Consistent face & outfit. No zoom, no text, no 3D, no realism.
+Text/SFX: "BECOME" rainbow knockout at 01:13.0; "HARD" rainbow knockout at 01:16.7; SFX whoosh on each word, sparkle at 01:10.6 (visual shift), -18dB bed.
+USED: a canyon rope bridge at sunrise; rope bridge, wooden signpost, backpack, mountain goat, future Maya; future self across the gap
+
+---
+[HOLD] — 01:18.3 / 01:20.3
+Hold the last frame of scene 18. No text. Bed fades out.
+================================================================
+POST: Voiceover first (~145 wpm); nudge words to stressed syllables. Hard cuts.
+Rainbow-knockout words + SFX in edit. Export 1080x1920, over 60s.
+TikTok AI-generated content label ON.
+================================================================
