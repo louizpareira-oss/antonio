@@ -18,6 +18,8 @@ Plan to make the account eligible for the TikTok Creator Rewards Program after t
 
 - [`scripts/01-forgive-the-past.md`](scripts/01-forgive-the-past.md) — 70s, 20 beats, full shot list and generation prompts.
 - [`prompts/01-forgive-the-past-anime.txt`](prompts/01-forgive-the-past-anime.txt) — **copy-paste pack: all 22 clip prompts, anime style, ready for an AI video generator.**
+- [`prompts/00-vector-shorts-director.md`](prompts/00-vector-shorts-director.md) — master prompt: turns any voiceover script into a 2D flat-vector scene blueprint.
+- [`prompts/01-forgive-the-past-vector.txt`](prompts/01-forgive-the-past-vector.txt) — **Script 01 run through that master prompt: 21 scenes, motion prompts, kinetic words and SFX cues.**
 
 ## Account snapshot (Sep 2026)
 

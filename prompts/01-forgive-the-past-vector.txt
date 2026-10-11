@@ -1,0 +1,380 @@
+================================================================
+"FORGIVE THE PAST" — 2D FLAT-VECTOR PRODUCTION BLUEPRINT
+21 scenes · 9:16 vertical · 1080x1920 · 70.0s
+Built with prompts/00-vector-shorts-director.md
+================================================================
+
+HOW TO USE
+- Paste each "Motion Prompt" into your AI video tool at 9:16
+  VERTICAL, 1080x1920. Never accept a horizontal or letterboxed
+  result. Do not crop a wide video to fit.
+- Paste the NEGATIVE PROMPT below into the negative field for
+  every scene.
+- Generate 4-5s per scene, then trim to the timestamps in CapCut.
+  The action happens in the first ~1s; the rest is idle hold, so
+  trimming the tail never cuts the action.
+- Kinetic words and SFX are added in the edit, NOT generated. Keep
+  the generated clips text-free.
+- Lock the SEED where your tool has one. Scenes 3 and 20 are a
+  MATCHED PAIR: same seed, same framing, generated back to back.
+- Turn ON TikTok's AI-generated content label when you upload.
+
+RECURRING CAST (keep identical in every scene they appear)
+- YOU:  faceless rounded geometric humanoid, solid dusk-violet
+        #3A2A5C body, thin neon outline in the scene's accent
+        color, soft glow. No eyes, no mouth.
+- THEM: same shape, slightly taller, solid slate #2B3550 body,
+        thin neon outline. Appears in scenes 3, 9, 14.
+
+COLOR MEANING (one dominant accent per scene, never more than two)
+  coral red #FF3366     anger, the case, the sentence (1-2, 9, 11, 13, 18)
+  electric cyan #00FFFF cold memory, the courtroom    (3-5, 8, 10, 12, 15, 19)
+  soft teal #4D8B7A     numbness, boundaries         (7, 16; secondary)
+  neon yellow #FFD700   warmth: the false win (6), their peace (14),
+                        release (17), and dawn (20)
+  Yellow fills the whole frame only once: scene 20.
+
+COMPOSITION RULE
+Kinetic words sit dead center. Anchor every subject in the lower
+two-thirds or around the center, so each word lands over a glow
+halo and never covers the subject's one action.
+
+NEGATIVE PROMPT (paste into the negative field for every scene)
+3D rendering, photorealism, realistic textures, complex shadows,
+camera movement, zoom, pan, dolly, rotation, fast cuts, explosions,
+shattering, warping, morphing, liquid transitions, facial features,
+eyes, mouth, busy detail, white background, bright background,
+text, watermark, logo, subtitles, more than two accent colors,
+horizontal, letterbox, black bars
+
+================================================================
+
+[SCENE 1] — 00:00.0 / 00:02.5
+Spoken: "You're not still angry about what happened."
+Visual: YOU, standing alone mid-frame, one rounded fist clenched at
+the side. A coral-red glow halo surrounds the body.
+Motion Prompt (9:16): 9:16 vertical, 2D flat vector, minimalist.
+Locked camera. A faceless rounded dusk-violet humanoid with a thin
+coral-red neon outline slowly clenches one rounded fist while its
+glow halo tightens inward over ~1s, then holds with a slow
+breathing pulse. Background: deep plum #1A0B2E with slow-floating
+particles and pulsing coral red #FF3366 glow. CRT scanline overlay.
+Soft crossfade out.
+Text/SFX: Kinetic word "ANGRY" in coral red #FF3366 at 00:01.2;
+SFX soft whoosh at 00:01.2; glow hum under scene 00:00.0-00:02.5.
+
+[SCENE 2] — 00:02.5 / 00:05.5
+Spoken: "You're angry that it didn't happen differently."
+Visual: YOU at the bottom of a fork in a thin glowing path. The
+left branch is solid coral (what happened). The right branch is a
+faint dotted cyan line (what didn't). YOU faces the dotted branch.
+Motion Prompt (9:16): 9:16 vertical, 2D flat vector, minimalist.
+Locked camera. A faceless dusk-violet humanoid stands at the base
+of a forked path; a faint dotted cyan branch slowly draws itself
+upward beside a solid coral branch over ~1s, then the dotted
+branch gently flickers like a memory. Background: deep plum
+#1A0B2E with slow-floating particles and pulsing coral red #FF3366
+glow. CRT scanline overlay. Soft crossfade out.
+Text/SFX: Kinetic word "DIFFERENTLY" in electric cyan #00FFFF at
+00:04.4; SFX soft whoosh at 00:04.4; glow hum under scene.
+
+[SCENE 3] — 00:05.5 / 00:08.5          *** PAIR WITH SCENE 20 ***
+Spoken: "I was nineteen the last time I spoke to him."
+Visual: THE DOORWAY. A tall rounded-rectangle doorway outlined in
+cyan, center frame, door panel swung open. Dim warm light inside
+the frame. THEM, back to camera, steps through and is gone.
+Motion Prompt (9:16): 9:16 vertical, 2D flat vector, minimalist.
+Locked camera, centered symmetrical framing. A faceless slate-blue
+humanoid with a thin cyan outline takes one slow step through a
+tall open doorway outlined in electric cyan and dissolves into
+drifting particles over ~1s; the empty doorway holds, a dim
+neon-yellow glow inside the frame. Background: deep navy #0B1021
+with slow-floating particles and pulsing electric cyan #00FFFF
+glow. CRT scanline overlay. Soft crossfade out.
+Text/SFX: Kinetic word "NINETEEN" in electric cyan #00FFFF at
+00:06.3; SFX soft whoosh at 00:06.3; faint particle shimmer at
+00:06.0 (figure dissolve); glow hum under scene.
+
+[SCENE 4] — 00:08.5 / 00:12.0
+Spoken: "I've had that conversation four hundred times since."
+Visual: YOU lying flat on a simple rectangular bed shape. Above,
+a thin orbit ring with one small glowing speech-bubble orb
+travelling around it, looping forever.
+Motion Prompt (9:16): 9:16 vertical, 2D flat vector, minimalist.
+Locked camera. A faceless dusk-violet humanoid lies on a flat bed
+shape while a small glowing cyan speech-bubble orb completes one
+slow loop of a thin orbit ring above it over ~1s, then keeps
+circling slowly. Background: deep navy #0B1021 with slow-floating
+particles and pulsing electric cyan #00FFFF glow. CRT scanline
+overlay. Soft crossfade out.
+Text/SFX: Kinetic word "400" in electric cyan #00FFFF at 00:10.0;
+SFX soft whoosh at 00:10.0; glow hum under scene.
+
+[SCENE 5] — 00:12.0 / 00:16.0
+Spoken: "In the shower. On the bus. At three in the morning."
+Visual: YOU seated center. Three small flat icons ride one slow
+orbit ring around the figure: a water droplet, a rounded bus
+window, a crescent moon with a tiny clock at 3:00.
+(One scene, not three cuts. The words carry the rhythm.)
+Motion Prompt (9:16): 9:16 vertical, 2D flat vector, minimalist.
+Locked camera. Around a seated faceless dusk-violet humanoid, a
+thin orbit ring carrying three small flat icons (a water droplet,
+a rounded window, a crescent moon) fades in over ~1s, then drifts
+slowly around the figure. Background: deep navy #0B1021 with
+slow-floating particles and pulsing electric cyan #00FFFF glow,
+icons outlined in soft teal #4D8B7A. CRT scanline overlay. Soft
+crossfade out.
+Text/SFX: Kinetic word "SHOWER" in electric cyan #00FFFF at
+00:12.5; "BUS" at 00:13.8; "THREE" at 00:14.9 (each holds ~1s, one
+at a time); SFX soft whoosh on each word; glow hum under scene.
+
+[SCENE 6] — 00:16.0 / 00:20.5
+Spoken: "Every time, I win. Every time, I say the perfect thing."
+Visual: YOU standing left of center, facing an empty chair
+silhouette on the right. A small flat crown hovers above YOU's
+head. The chair is empty.
+Motion Prompt (9:16): 9:16 vertical, 2D flat vector, minimalist.
+Locked camera. A small flat neon-yellow crown fades in and settles
+above the head of a faceless dusk-violet humanoid over ~1s, while
+the humanoid faces an empty chair silhouette outlined in soft
+teal; then the crown hovers with a gentle bob. Background: dark
+violet #200A2B with slow-floating particles and pulsing neon
+yellow #FFD700 glow. CRT scanline overlay. Soft crossfade out.
+Text/SFX: Kinetic word "WIN" in neon yellow #FFD700 at 00:17.4;
+"PERFECT" at 00:19.3; SFX soft whoosh on each word; glow hum under
+scene.
+
+[SCENE 7] — 00:20.5 / 00:25.5
+Spoken: "And every time, I wake up, and it still went the way it went."
+Visual: YOU lying on the flat bed shape again. The crown from
+scene 6 floats above and dissolves. The glow turns dull teal:
+grey morning, no relief.
+Motion Prompt (9:16): 9:16 vertical, 2D flat vector, minimalist.
+Locked camera. Above a faceless dusk-violet humanoid lying on a
+flat bed shape, a small neon-yellow crown dissolves into drifting
+particles that fade out over ~1s; the scene settles into a dull
+teal glow and holds still. Background: dark violet #200A2B with
+slow-floating particles and pulsing soft teal #4D8B7A glow. CRT
+scanline overlay. Soft crossfade out.
+Text/SFX: Kinetic word "WAKE" in soft teal #4D8B7A at 00:21.8;
+SFX soft whoosh at 00:21.8; faint particle shimmer at 00:21.0
+(crown dissolve); glow hum under scene.
+
+[SCENE 8] — 00:25.5 / 00:29.0
+Spoken: "That's what people get wrong about forgiveness."
+Visual: The same doorway shape from scene 3, now CLOSED. A solid
+door panel outlined in cyan, nothing else in frame.
+Motion Prompt (9:16): 9:16 vertical, 2D flat vector, minimalist.
+Locked camera, centered symmetrical framing. A closed tall door
+outlined in electric cyan stands alone; a thin seam of neon-yellow
+light slowly appears along the gap beneath it over ~1s, then
+breathes softly. Background: deep navy #0B1021 with slow-floating
+particles and pulsing electric cyan #00FFFF glow. CRT scanline
+overlay. Soft crossfade out.
+Text/SFX: Kinetic word "FORGIVENESS" in electric cyan #00FFFF at
+00:27.6; SFX soft whoosh at 00:27.6; glow hum under scene.
+
+[SCENE 9] — 00:29.0 / 00:31.5
+Spoken: "It isn't saying it was okay."
+Visual: THEM on the left holds out a small glowing orb. YOU on the
+right raises one flat palm. The orb stops in the air between them.
+Motion Prompt (9:16): 9:16 vertical, 2D flat vector, minimalist.
+Locked camera. A faceless slate-blue humanoid extends a small
+glowing coral orb toward a faceless dusk-violet humanoid, who
+raises one flat palm; the orb drifts forward and halts in mid-air
+just before the palm over ~1s, then hovers. Background: deep plum
+#1A0B2E with slow-floating particles and pulsing coral red #FF3366
+glow, palm outlined in soft teal #4D8B7A. CRT scanline overlay.
+Soft crossfade out.
+Text/SFX: Kinetic word "OKAY" in coral red #FF3366 at 00:30.7;
+SFX soft whoosh at 00:30.7; glow hum under scene.
+
+[SCENE 10] — 00:31.5 / 00:34.0
+Spoken: "It isn't letting them back in."
+Visual: The closed door from inside. A flat chain stretches
+across it horizontally.
+Motion Prompt (9:16): 9:16 vertical, 2D flat vector, minimalist.
+Locked camera, centered framing. A flat soft-teal chain of rounded
+links slides slowly across a closed door outlined in electric cyan
+and settles into place with a gentle glow over ~1s, then rests.
+Background: deep navy #0B1021 with slow-floating particles and
+pulsing electric cyan #00FFFF glow. CRT scanline overlay. Soft
+crossfade out.
+Text/SFX: Kinetic word "BACK" in electric cyan #00FFFF at 00:33.0;
+SFX soft whoosh at 00:33.0; glow hum under scene.
+
+[SCENE 11] — 00:34.0 / 00:37.5
+Spoken: "It's putting down the case you've been building."
+Visual: YOU holding a thick flat folder with both arms, lowering
+it onto a simple horizontal table line, then letting go.
+Motion Prompt (9:16): 9:16 vertical, 2D flat vector, minimalist.
+Locked camera. A faceless dusk-violet humanoid slowly lowers a
+thick flat folder outlined in coral red onto a simple table line
+and draws its arms back over ~1s; its glow halo softens and holds.
+Background: deep plum #1A0B2E with slow-floating particles and
+pulsing coral red #FF3366 glow, table in soft teal #4D8B7A. CRT
+scanline overlay. Soft crossfade out.
+Text/SFX: Kinetic word "CASE" in coral red #FF3366 at 00:35.4;
+SFX soft whoosh at 00:35.4; glow hum under scene.
+
+[SCENE 12] — 00:37.5 / 00:40.5
+Spoken: "Because you've been a lawyer for years now —"
+Visual: A flat courtroom in three shapes: a long table bar, YOU
+seated behind it, a scales-of-justice silhouette floating above.
+Motion Prompt (9:16): 9:16 vertical, 2D flat vector, minimalist.
+Locked camera. Above a faceless dusk-violet humanoid seated behind
+a long flat table, a scales-of-justice silhouette outlined in
+electric cyan slowly tips to one side over ~1s, then sways gently.
+Background: deep navy #0B1021 with slow-floating particles and
+pulsing electric cyan #00FFFF glow. CRT scanline overlay. Soft
+crossfade out.
+Text/SFX: Kinetic word "LAWYER" in electric cyan #00FFFF at
+00:38.9; SFX soft whoosh at 00:38.9; glow hum under scene.
+
+[SCENE 13] — 00:40.5 / 00:45.0
+Spoken: "collecting evidence for a trial that is never going to happen."
+Visual: YOU, small, in front of a wall grid of nine flat cyan
+cards joined by thin coral string lines. Keep it to nine cards,
+no more.
+Motion Prompt (9:16): 9:16 vertical, 2D flat vector, minimalist.
+Locked camera. In front of a small faceless dusk-violet humanoid,
+a final flat card pins itself to a wall grid of nine cyan-outlined
+cards and thin coral string lines draw between them over ~1s, then
+the strings glow softly. Background: dark violet #200A2B with
+slow-floating particles and pulsing coral red #FF3366 glow. CRT
+scanline overlay. Soft crossfade out.
+Text/SFX: Kinetic word "EVIDENCE" in coral red #FF3366 at 00:41.2;
+"NEVER" at 00:43.4; SFX soft whoosh on each word; glow hum under
+scene.
+
+[SCENE 14] — 00:45.0 / 00:48.0
+Spoken: "They moved on. They sleep fine."
+Visual: THEM lying peacefully under a soft warm halo, a small
+crescent moon above. A different, calmer space.
+Motion Prompt (9:16): 9:16 vertical, 2D flat vector, minimalist.
+Locked camera. A faceless slate-blue humanoid lies peacefully
+while a soft neon-yellow glow halo slowly brightens around it over
+~1s, a small flat crescent moon hanging above, then the halo
+breathes in a slow sleep rhythm. Background: deep navy #0B1021
+with slow-floating particles and pulsing neon yellow #FFD700 glow.
+CRT scanline overlay. Soft crossfade out.
+Text/SFX: Kinetic word "FINE" in neon yellow #FFD700 at 00:47.0;
+SFX soft whoosh at 00:47.0; glow hum under scene.
+
+[SCENE 15] — 00:48.0 / 00:52.0
+Spoken: "You're the only one still sitting in that courtroom."
+Visual: Wide. Five rows of empty flat bench bars. YOU seated
+alone in the middle row. One vertical shaft of light with dust.
+Motion Prompt (9:16): 9:16 vertical, 2D flat vector, minimalist.
+Locked camera, wide. A single vertical shaft of soft cyan light
+fades in over one small faceless dusk-violet humanoid seated alone
+among five rows of empty flat benches over ~1s, dust particles
+drifting slowly inside the beam. Background: deep navy #0B1021
+with slow-floating particles and pulsing electric cyan #00FFFF
+glow. CRT scanline overlay. Soft crossfade out.
+Text/SFX: Kinetic word "ONLY" in electric cyan #00FFFF at 00:48.6;
+SFX soft whoosh at 00:48.6; glow hum under scene.
+
+[SCENE 16] — 00:52.0 / 00:55.5
+Spoken: "Forgiving the past is not a gift you give them."
+Visual: A tall empty judge's bench silhouette, nobody behind it.
+A small flat gift box sits on top and dissolves.
+Motion Prompt (9:16): 9:16 vertical, 2D flat vector, minimalist.
+Locked camera, centered framing. On top of a tall empty judge's
+bench silhouette outlined in soft teal, a small flat gift box
+outlined in neon yellow dissolves into drifting particles that
+fade out over ~1s; the empty bench holds. Background: dark violet
+#200A2B with slow-floating particles and pulsing soft teal
+#4D8B7A glow. CRT scanline overlay. Soft crossfade out.
+Text/SFX: Kinetic word "GIFT" in neon yellow #FFD700 at 00:54.1;
+SFX soft whoosh at 00:54.1; faint particle shimmer at 00:53.0
+(box dissolve); glow hum under scene.
+
+[SCENE 17] — 00:55.5 / 00:59.0
+Spoken: "It's you deciding you've served enough time —"
+Visual: Five rounded vertical cell bars in teal. In front of them,
+a flat hourglass. The last grain of sand falls.
+Motion Prompt (9:16): 9:16 vertical, 2D flat vector, minimalist.
+Locked camera. In front of five rounded soft-teal cell bars, the
+last grains of glowing neon-yellow sand fall through a flat
+hourglass and come to rest over ~1s; the hourglass glow softens
+and holds still. Background: dark violet #200A2B with
+slow-floating particles and pulsing neon yellow #FFD700 glow. CRT
+scanline overlay. Soft crossfade out.
+Text/SFX: Kinetic word "ENOUGH" in neon yellow #FFD700 at 00:57.6;
+SFX soft whoosh at 00:57.6; glow hum under scene.
+
+[SCENE 18] — 00:59.0 / 01:02.0
+Spoken: "for something you didn't even do."
+Visual: A dark wall of tally marks in groups of five, coral, faint.
+One last stroke is added.
+Motion Prompt (9:16): 9:16 vertical, 2D flat vector, minimalist.
+Locked camera. On a dark wall covered in faint coral tally marks
+grouped in fives, one final tally stroke slowly draws itself over
+~1s, then all marks glow dimly and hold. Background: dark violet
+#200A2B with slow-floating particles and pulsing coral red #FF3366
+glow. CRT scanline overlay. Soft crossfade out.
+Text/SFX: Kinetic word "DIDN'T" in coral red #FF3366 at 01:00.2;
+SFX soft whoosh at 01:00.2; glow hum under scene.
+
+[SCENE 19] — 01:02.0 / 01:04.5
+Spoken: "You were never the judge."
+Visual: YOU standing small at the bottom, looking up at the tall
+empty bench. A gavel silhouette floats above the bench and
+dissolves.
+Motion Prompt (9:16): 9:16 vertical, 2D flat vector, minimalist.
+Locked camera. A small faceless dusk-violet humanoid stands at the
+bottom of frame facing a tall empty bench; a flat gavel silhouette
+outlined in electric cyan floating above the bench dissolves into
+drifting particles over ~1s, and a faint neon-yellow glow begins
+behind the bench. Background: deep navy #0B1021 with slow-floating
+particles and pulsing electric cyan #00FFFF glow. CRT scanline
+overlay. Soft crossfade out.
+Text/SFX: Kinetic word "JUDGE" in electric cyan #00FFFF at
+01:03.6; SFX soft whoosh at 01:03.6; faint particle shimmer at
+01:02.6 (gavel dissolve); glow hum under scene.
+
+[SCENE 20] — 01:04.5 / 01:07.5          *** PAIR WITH SCENE 3 ***
+Spoken: "You were the one in the cell."
+Visual: THE DOORWAY AGAIN. Identical frame to scene 3. Empty. Door
+open. Dawn light pours through and spreads across the floor.
+Motion Prompt (9:16): 9:16 vertical, 2D flat vector, minimalist.
+Locked camera, identical centered framing to the night doorway. A
+tall empty open doorway outlined in neon yellow; a flat
+trapezoid of warm neon-yellow dawn light spreads slowly across the
+floor from the doorway over ~1s, then glows with a calm breathing
+pulse. Background: deep navy #0B1021 with slow-floating particles
+and pulsing neon yellow #FFD700 glow. CRT scanline overlay. Soft
+crossfade out.
+Text/SFX: Kinetic word "CELL" in neon yellow #FFD700 at 01:06.6
+(hold 1.5s, the screenshot line); SFX soft whoosh at 01:06.6; glow
+hum under scene.
+
+[SCENE 21] — 01:07.5 / 01:10.0          (silent hold)
+Spoken: (silence)
+Visual: Hold scene 20. Let the light finish filling the frame.
+Motion Prompt (9:16): Extend scene 20 — no new generation needed.
+If your tool needs a separate clip: 9:16 vertical, 2D flat vector,
+minimalist. Locked camera, identical framing. The empty open
+doorway glows neon yellow while the dawn light on the floor
+breathes slowly and particles drift upward. Background: deep navy
+#0B1021 with slow-floating particles and pulsing neon yellow
+#FFD700 glow. CRT scanline overlay. Slow fade to background.
+Text/SFX: No text. Glow hum fades out 01:08.5-01:10.0.
+
+================================================================
+AFTER YOU GENERATE
+1. Lay the voiceover into CapCut FIRST. Nudge every kinetic word
+   onto the actual stressed syllable in YOUR recording; the
+   timestamps above assume ~120 wpm and will drift by a few tenths.
+2. Trim each clip to its scene window. Soft crossfades only
+   (0.3-0.5s). No hard cuts, no zoom, no slide transitions.
+3. Words: bold uppercase, solid accent fill, thick dark outline,
+   heavy drop shadow, dead center. One word at a time, ~1s hold,
+   fade out. Never two words on screen together.
+4. Audio bed: one continuous low glow hum under everything, a
+   whoosh per word, a shimmer per dissolve. Keep SFX ~-18dB under
+   the voice.
+5. Project must be 1080x1920 from the start. No bars, no frame.
+6. Final length must be OVER 60 seconds. Target 70.
+================================================================
