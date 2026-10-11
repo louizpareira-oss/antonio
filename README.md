@@ -21,8 +21,10 @@ Plan to make the account eligible for the TikTok Creator Rewards Program after t
 - [`prompts/00-vector-shorts-director.md`](prompts/00-vector-shorts-director.md) — master prompt: turns any voiceover script into a 2D flat-vector scene blueprint.
 - [`prompts/01-forgive-the-past-vector.txt`](prompts/01-forgive-the-past-vector.txt) — **Script 01 run through that master prompt: 21 scenes, motion prompts, kinetic words and SFX cues.**
 - [`prompts/02-lock-in-vector.txt`](prompts/02-lock-in-vector.txt) — **"Lock In" (next video): voiceover plus 33-scene flat-vector blueprint, ~1:58.**
-- [`prompts/00-master-prompt-v2.txt`](prompts/00-master-prompt-v2.txt) — **master prompt v2.0 (locked): Vibrant Explainer Shorts Director.**
-- [`prompts/02-lock-in-v2.txt`](prompts/02-lock-in-v2.txt) — **"Lock In" built with v2.0: 17 scenes, keyframe + animate prompts, word cards and SFX.**
+- [`prompts/00-master-prompt-v2-1.txt`](prompts/00-master-prompt-v2-1.txt) — **master prompt v2.1 (LOCKED, current): ~4.5s shots, R1-R7 hard rules.**
+- [`prompts/02-lock-in-v2-1.txt`](prompts/02-lock-in-v2-1.txt) — **"Lock In" built with v2.1 (current): 26 scenes, keyframe + animate prompts, word cards and SFX.**
+- [`prompts/00-master-prompt-v2.txt`](prompts/00-master-prompt-v2.txt) — master prompt v2.0 (superseded by v2.1).
+- [`prompts/02-lock-in-v2.txt`](prompts/02-lock-in-v2.txt) — "Lock In" built with v2.0 (superseded by v2.1).
 
 ## Account snapshot (Sep 2026)
 
