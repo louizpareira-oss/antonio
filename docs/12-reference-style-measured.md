@@ -1,23 +1,24 @@
 # Reference style, measured
 
-Five reference videos supplied by the owner, analysed frame by frame with ffmpeg and OpenCV
+Six reference videos supplied by the owner, analysed frame by frame with ffmpeg and OpenCV
 (30 fps, every frame read). Every number below was measured. The one thing I could not
 measure, the exact font, is marked **estimate**.
 
-| # | Source account (watermark) | Size | Length (content + TikTok end card) |
-|---|---|---|---|
-| V1 | @iddietothissong | 1024×576 (16:9) | 69.0s + 4.0s |
-| V2 | @theseusreaction | 768×576 (4:3) | 50.0s + 19.4s |
-| V3 | @iddietothissong | 1024×576 (16:9) | 70.7s + 4.0s |
-| V4 | @iddietothissong | 1024×576 (16:9) | 69.0s + 4.0s |
-| V5 | @iddietothissong | 1024×576 (16:9) | 73.0s |
+| # | Size | Length (content + platform end card) |
+|---|---|---|
+| V1 | 1024×576 (16:9) | 69.0s + 4.0s |
+| V2 | 768×576 (4:3) | 50.0s + 19.4s |
+| V3 | 1024×576 (16:9) | 70.7s + 4.0s |
+| V4 | 1024×576 (16:9) | 69.0s + 4.0s |
+| V5 | 1024×576 (16:9) | 73.0s |
+| V6 ("Lock In") | 1024×576 (16:9) | 69.0s |
 
-**V1, V3, V4, V5 are one consistent style. V2 is a different channel and a different style**
-(see the last section). The spec below is the V1/V3/V4/V5 style.
+**V1, V3, V4, V5, V6 are one consistent style. V2 is a different style**
+(see the last section). The spec below is the V1/V3/V4/V5/V6 style. V6 matches the others on every measure (169 word cards, 147/min, 0.33s median hold, 18 shots of 3.8s mean).
 
-> The footage in these references is existing studio animation (much of it recognisably
-> Kurzgesagt-style explainer art) re-cut under a voiceover. Reusing that footage is exactly what
-> the "low quality / unoriginal" rejection is about. Match the *style*. Generate every frame new.
+> The footage in these references is existing studio explainer animation re-cut under a
+> voiceover. Reusing that footage is exactly what the "low quality / unoriginal" rejection is
+> about. Match the *style*. Generate every frame new.
 
 ---
 
@@ -36,9 +37,9 @@ measure, the exact font, is marked **estimate**.
 | Font | **Estimate:** heavy geometric sans with slightly softened corners. Closest free matches: **Rubik Black**, then Montserrat Black. |
 
 Occasional extra overlays (all edit layers):
-- Small **red rounded pill**, top center, white sentence-case text ("2 days later", "85 Years Old").
+- Small **coral-red #E35561 rounded pill** (sampled), top center, white sentence-case text ("2 days later", "85 Years Old").
 - **Counter pill** at bottom center (a "💀 1,000,000,000" style tally).
-- **LED dot-matrix panel**: a navy panel of round dots with a yellow-dot top band. The word sits on it in peach or lavender (V1 "ALMOST", "MINUTE"; V4 "HEAVY", "TODAY", "IS", "OUT", "TINY", "YOUR").
+- **LED dot-matrix panel** (sampled): navy #0F3D76 dots with a golden #E0CD6E dot band on top. The word sits on it in lavender #CBC0E0 or peach (V1 "ALMOST", "MINUTE"; V4 "HEAVY", "TODAY", "IS", "OUT", "TINY", "YOUR").
 
 ## 2. Shots and cuts
 
@@ -101,7 +102,8 @@ What this means:
 ## 7. Illustration style (from the frames)
 
 - Flat vector, solid fills, **soft gradient lighting and glows**, rim light on edges. No outlines.
-  No texture in V1/V3/V4/V5.
+- **Grain: none.** High-pass noise in flat areas is 0.00–0.05 (V2: 1.64, visible grain and scanlines).
+- **Vignette: soft.** Frame edges average 0.65–0.73× the center brightness (V2: 0.46).
 - Characters: rounded, chunky cartoon people with **simple faces** (dot or round eyes, small
   mouth, big expressive brows). Lots of animals (birds, monkeys, platypus, rabbit, sabre-tooth cat).
   Often seen from behind or in tight close-up.
@@ -111,18 +113,21 @@ What this means:
 ## 8. Audio
 
 - **Continuous music bed under the voice.** Zero silences longer than 0.4s below −45 dB.
+- **Cuts land on audio beats.** Sound onset strength at cuts is 1.4–1.7× the strength at random moments (V1, V3, V4, V5).
+- **No whoosh on every cut.** The high-frequency (>4 kHz) band at cuts is about the same as at random
+  moments (1.0–1.4×), so SFX are subtle and sparse.
+- Voice pitch varies by video (median 127–212 Hz), so it isn't one fixed voice.
 - Integrated loudness **−15 to −18 LUFS**, loudness range **3–5 LU**, so heavily compressed and
   steady. Speech is ~140–146 wpm.
 
 ## 9. Format
 
-The references are **16:9 horizontal**. This repo's own docs say horizontal or letterboxed
-uploads contributed to the account's rejection. Matching the reference 100% means 16:9. Keeping
-the account safe means 9:16 with the same style and text spec. That choice belongs to the owner.
+The references are **16:9 horizontal**, and the owner confirmed 16:9 horizontal is the
+production format. Master prompt system v3.0 is built on 16:9.
 
 ---
 
-## V2 (@theseusreaction): a different style
+## V2: a different style
 
 - Text: **small white bold italic, Title Case**, one keyword per ~2.5s (13 cards in 50s). Normal
   blend, not Difference.
@@ -131,4 +136,4 @@ the account safe means 9:16 with the same style and text spec. That choice belon
 - Camera: frequent slow push-ins (1–3%/s), one fast 41%/s push.
 - 4:3 frame.
 
-It doesn't match the other four. Don't blend the two styles.
+It doesn't match the other five. Don't blend the two styles.
