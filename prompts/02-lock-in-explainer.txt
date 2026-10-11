@@ -1,0 +1,199 @@
+================================================================
+"LOCK IN" — KEYFRAME PROMPT PACK (VIBRANT EXPLAINER STYLE)
+24 shots · 9:16 vertical · Nano Banana 2 · ~1:58
+Replaces the dark flat-vector look in 02-lock-in-vector.txt.
+Voiceover and word timing are unchanged from that file.
+================================================================
+
+HOW THIS PACK WORKS
+- Model: Nano Banana 2, 1K, 9:16 (768x1376). 20 credits per image.
+- Shots marked [REF] use image2image with SHOT 01 as the character
+  reference, so Leo looks the same everywhere. Other shots are text-only.
+- Kinetic text is added in the edit: EVERY spoken word, one at a time,
+  huge bold rounded sans, dead center, rotating colors (lime, cream,
+  yellow, coral, blue). Never generated into the image.
+- Animate only on the owner's go, one shot at a time.
+
+CHARACTER — LEO (from SHOT 01)
+Young man, curly dark hair, big expressive cartoon eyes, thick
+eyebrows. Same outfit and proportions as SHOT 01 in every [REF] shot.
+
+STYLE SUFFIX (appended to every prompt below)
+Vibrant 2D flat vector cartoon illustration, polished premium
+animated-explainer YouTube style, 9:16 vertical portrait, bold and
+full of energy. Highly saturated colors, clean geometric shapes,
+smooth flat fills with soft gradient shading and rim light, crisp
+shapes, high contrast, dynamic composition, rich background detail.
+Main subject in the lower two thirds, upper middle area slightly
+calmer for a big caption. No text, no letters, no numbers, no logos,
+no watermark, no photorealism, no 3D render.
+
+REF PREFIX (prepended to every [REF] prompt)
+The same cartoon character as the reference image: the young man
+with curly dark hair, big expressive eyes and thick eyebrows, same
+outfit, same art style and colors.
+
+================================================================
+
+[01] 00:00.0-00:01.8 · "Lock in."
+DONE — chosen frame C (Nano Banana 2), history x0R7cx2MSXP0eVI1zcAW.
+Leo snaps headphones on at his desk in a purple bedroom at night.
+
+[02] 00:01.8-00:07.4 · "I don't know how many times I need to tell you this." [REF]
+Leo slumped deep in a beanbag chair, covering his ears with both
+hands and squeezing his eyes shut, while dozens of identical glowing
+reminder notification bubbles and ringing alarm clocks swirl around
+his head in a spiral. Electric purple and royal blue room, hot pink
+and yellow bubbles, motion lines.
+
+[03] 00:07.4-00:11.9 · "Lock in. You're running out of time." [REF]
+A gigantic glowing hourglass towers over a tiny Leo standing at its
+base and looking up in shock, golden sand pouring fast through the
+neck. Deep purple void, dramatic diagonal light beams, sparkles,
+falling sand particles.
+
+[04] 00:11.9-00:16.2 · "All you have done is scroll, scroll, and scroll." [REF]
+Leo lying upside down on a bright blue sofa at night, head hanging
+off the cushion, glazed half-closed eyes lit by his phone, thumb
+scrolling. Messy living room: pizza box, empty cans, a glowing TV,
+a dusty exercise bike used as a coat rack. Purple and cyan glow.
+
+[05] 00:16.2-00:22.2 · "The year's almost over, and you have wasted every single minute of it."
+A giant wall calendar in a sunset-lit room, its pages tearing off
+one after another and flying away out an open window into an orange
+and purple sky, most of the remaining pages crossed out with big red
+X marks. Swirling wind lines, scattered pages mid-air.
+
+[06] 00:22.2-00:29.5 · "Do you think some magical fairy is going to turn up and fix your life?" [REF]
+Leo asleep on the sofa with a hopeful dreamy smile while a tiny
+glowing cartoon fairy with a star wand hovers above him, sprinkling
+golden sparkles that swirl in magical pink and yellow ribbons
+around him. Warm magical glow against a purple room.
+
+[07] 00:29.5-00:32.6 · "Genuinely? Because that's how you're acting." [REF]
+Leo sitting on the sofa with arms crossed and a bored, impatient
+face, staring up at an empty ceiling, cobwebs stretching from his
+elbow to the armrest and a thin layer of dust on his shoulders, a
+small clock on the wall. Muted purple room with a cool teal tint,
+comedic.
+
+[08] 00:32.6-00:37.1 · "Lock in. You're starting today, right now." [REF]
+Leo leaping up off the sofa mid-air with a fierce determined face,
+his phone flying out of his hand behind him, golden sunrise light
+bursting through the window in dramatic rays, cushions tumbling,
+sparkle bursts. Purple room exploding with yellow and orange light.
+
+[09] 00:37.1-00:40.2 · "Start taking steps towards the goal." [REF]
+Leo climbing a giant staircase of colorful floating blocks that
+winds up a mountain toward a glowing golden flag at the summit,
+mid-step, determined. Night sky gradient from royal blue to violet,
+stars, a big moon, glowing steps.
+
+[10] 00:40.2-00:47.2 · "It doesn't matter if they are big or they are small — just start moving." [REF]
+Leo jogging along a winding path through a city at dawn, behind him
+a trail of glowing footprints: some tiny, some huge, all lit up the
+same. Teal and pink sky, skyline silhouettes, birds, speed lines.
+
+[11] 00:47.2-00:50.7 · "Slow motion is better than no motion."
+A cute cartoon snail with a determined face racing along a track,
+leaving a long glowing lime-green trail, passing a sloth fast asleep
+on a starting block that has not moved at all. Bright stadium lights,
+purple night, confetti-like sparkles. Funny and charming.
+
+[12] 00:50.7-00:53.8 · "We are running out of time."
+A huge clock tower against a stormy purple and coral sky, its clock
+hands spinning fast in a blur, lightning flashes, swirling clouds,
+pieces of calendar pages swept up into the wind. Dramatic low angle.
+
+[13] 00:53.8-00:58.6 · "You weren't put on this earth to just sit there." [REF]
+Planet Earth floating in deep space, and a tiny Leo sitting on a
+comfy armchair on top of the globe, remote in hand, doing nothing,
+while comets, satellites and rockets zoom past him. Deep navy space,
+purple nebula, bright stars.
+
+[14] 00:58.6-01:04.2 · "You keep telling yourself, 'Oh yeah, I'll start tomorrow… or next week'" [REF]
+Leo at his desk leaning back with a lazy smile, playing a handheld
+game console, while a towering wobbling stack of unfinished papers
+and to-do boxes sways dangerously above him, almost touching the
+ceiling. Blue and purple room, warm lamp, comedic tension.
+
+[15] 01:04.2-01:09.9 · "acting like your youth is a permanent setting. It's not." [REF]
+Leo brushing his teeth in a bathroom mirror, freezing in shock,
+eyes wide, because his reflection is him as an old man with grey
+curly hair, wrinkles and glasses looking back at him. Teal bathroom
+tiles, pink light, steam swirls.
+
+[16] 01:09.9-01:14.7 · "You are actively burning the best years of your life."
+A row of colorful birthday candles on a dark table burning down fast,
+wax melting in drips, the flames bright orange and coral, embers and
+small calendar page scraps curling into ash above them. Deep purple
+background, warm glow.
+
+[17] 01:14.7-01:20.3 · "Now, don't get me wrong. If you're young, just enjoy your childhood."
+Happy cartoon kids playing in a sunny park: one flying a kite, one
+on a bicycle, two laughing on a swing, a dog chasing a ball, big
+fluffy clouds, bright yellow sun. Teal grass, lime trees, warm
+yellow and sky blue. Joyful, carefree.
+
+[18] 01:20.3-01:25.5 · "But for the rest of you… you're running out of time." [REF]
+Leo sprinting along a train platform after a train that is already
+pulling away, briefcase papers flying out behind him, a big station
+clock above, panicked face. Purple and coral evening sky, motion
+blur lines, platform lights.
+
+[19] 01:25.5-01:30.9 · "But look at me. The year isn't fully gone yet." [REF]
+Close-up of Leo looking straight at the viewer with a calm, serious,
+encouraging face, one hand pointing at the viewer. Behind him a few
+last fireworks of the year bloom in a deep blue night sky. Strong
+rim light, warm yellow and cyan accents.
+
+[20] 01:30.9-01:37.9 · "There are still minutes left on the clock. You can still turn this around." [REF]
+Leo gripping and turning a big wooden ship steering wheel with all
+his strength, determined, while behind him a gigantic glowing clock
+face shows five minutes to midnight. Swirling purple and gold sky,
+light rays, sparkles.
+
+[21] 01:37.9-01:43.9 · "Or you can choose to let the rest of this year bleed out."
+The last few pages of a wall calendar melting and dripping down the
+wall like candle wax, pooling on the floor, in a dim room lit by a
+dark coral and deep red glow, a dead houseplant beside it. Ominous
+but still cartoon.
+
+[22] 01:43.9-01:47.0 · "So what's it going to be?" [REF]
+Leo standing at a fork in the road, seen from behind. The left path
+leads into a dark gloomy room with a sofa and a glowing phone. The
+right path climbs toward a bright mountain with a golden sunrise.
+Split lighting: cold purple left, warm gold right.
+
+[23] 01:47.0-01:51.5 · "Break the loop today. Close the apps today." [REF]
+Leo bursting free from a giant glowing chain made of rounded app-icon
+shaped links wrapped around him, the links snapping apart and flying
+outward, fierce triumphant face, shockwave rings of light. Electric
+purple background with lime and yellow bursts.
+
+[24] 01:51.5-01:58.5 · "You have to take control. This is your life." [REF]
+Leo standing tall on a mountain summit at sunrise, arms raised wide,
+a golden flag planted beside him, the whole world below glowing in
+morning light, epic sky in gold, pink and violet, birds flying.
+Triumphant final frame. Hold 2s after the voice ends.
+
+================================================================
+ANIMATION (only on the owner's go)
+PixVerse V6 image2video, 720p (70 credits / 5s). Shots longer than
+5s (06, 10, 20, 24): ask for 7-8s or trim. Template:
+"2D flat vector cartoon animation, 9:16 vertical, static framing.
+[ACTION over 3-5s]. [secondary motion]. Smooth, lively, polished
+motion-graphics animation, flat colors preserved, character's face
+and design stay consistent. No camera zoom, no text, no 3D, no
+photorealism, no morphing."
+================================================================
+
+OPENART HISTORY IDS (project "Lock In", FSYBvyY0EqxvctdHfoCn)
+01 x0R7cx2MSXP0eVI1zcAW   02 Bi4Ufjc1leoO4e4ru9x7   03 mcOuTmTtuW5gpZBwkJH6
+04 kSkUWBHE1aSovvourkmU   05 iwpy5D8fiadQYoVyXids   06 mGuExrcUWdeX6LbCZMvL
+07 QooGuvzDB0pGKvYf4YCk   08 wHlwFhhilcquK57ch7uc   09 djz4BrA3RhQa53k3XMGB
+10 zvCRSJ7ho7EuEN31F9bY   11 myRZnc5i9RUc6SKrvhXD   12 iKdUcZFou1CKs1iQXEmJ
+13 oPQ53VZ0hrY4BYkK2Kwm   14 T42JOOeYGFxIzcfG3u2J   15 gP9YVbY8ymS6Xzh3D8eQ
+16 wb4BccKxd4hsJLRar6z3   17 9BaIgvFj1N5suTlWwvIO   18 PZTFx6IlGlkH50IuGydY
+19 sxZh3ORDGLuzanrleYOP   20 voJf6Y732UiB9ryy8vOi   21 HoMSzpObjCOsVYGlHX66
+22 28MB97zdOzV45Q8fk3EJ   23 xjht6ErQWmykFvtxE6eq   24 tIHFgr89NpRsts7yDFBd
