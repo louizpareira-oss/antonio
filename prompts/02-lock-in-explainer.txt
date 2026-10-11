@@ -223,3 +223,114 @@ KEYFRAME IMAGES (resource id · url) — use as startFrame when animating
 22 PL6qYqcQBfu2Jn75WhQV https://cdn.openart.ai/openart-ai/production/2026-10/create-image/zSMFTe3Of5oqrKDWBPOD/image_1791695224750_ca878255_1791695224810_b65d5333.png
 23 djA0lN74xXenrntHtr9x https://cdn.openart.ai/openart-ai/production/2026-10/create-image/zSMFTe3Of5oqrKDWBPOD/image_1791695224228_ca3b2cf4_1791695224285_83fe0e24.png
 24 fdEwX0CPEshvHF2kMdO1 https://cdn.openart.ai/openart-ai/production/2026-10/create-image/zSMFTe3Of5oqrKDWBPOD/image_1791695225144_29911fec_1791695225400_16594129.png
+
+================================================================
+ANIMATION PROMPTS — PixVerse V6 image2video, 720p, startFrame = the
+shot's keyframe above. NOT GENERATED. Run one only on the owner's go.
+Every prompt ends with the ENDING line below.
+
+ENDING: Smooth, lively, polished motion-graphics animation, flat colors
+preserved, character's face and design stay consistent. Static framing,
+no camera zoom, no camera pan, no text, no 3D, no photorealism, no
+morphing.
+
+[01] 5s (use 1.8s) · Leo pulls the headphones down over his ears with
+both hands, his eyes narrow into fierce focus, he leans toward the
+laptop and starts typing fast. Sparkles pop around his head, the lamp
+beam glows, stars twinkle in the window.
+
+[02] 6s · Leo squeezes his eyes shut and presses his hands over his ears
+harder while the notification bubbles and ringing alarm clocks keep
+spiraling around his head, bouncing and multiplying. The beanbag
+squishes as he sinks deeper.
+
+[03] 5s · Golden sand pours fast through the giant hourglass, the
+falling grains sparkling. Tiny Leo stares up, takes one step back in
+shock. Light beams sweep slowly across the purple void.
+
+[04] 6s · Upside down on the sofa, Leo keeps flicking his thumb up the
+phone screen again and again, blinking slowly with glazed eyes. The
+phone light flickers on his face, the TV glow pulses in the background.
+
+[05] 6s · Calendar pages tear off one after another and flutter out the
+open window into the sunset sky, spinning in the wind. Wind lines swirl
+through the room.
+
+[06] 8s · The tiny fairy circles above sleeping Leo, waving her star
+wand, golden sparkles and pink ribbons swirling down around him. Leo
+smiles dreamily in his sleep and snuggles into the cushion.
+
+[07] 5s · Leo sits with arms crossed, taps his foot, sighs and rolls his
+eyes up at the empty ceiling. A cobweb stretches a little wider from his
+elbow, dust drifts down, the wall clock ticks.
+
+[08] 6s · Leo springs up off the sofa into the air with a determined
+face, the phone flying out of his hand behind him, cushions tumbling,
+golden sunrise rays bursting stronger through the window, sparkle bursts.
+
+[09] 5s · Leo steps up onto the next glowing block of the floating
+staircase, then the next, climbing toward the golden flag at the summit.
+Stars twinkle, the flag waves, each step lights up as he lands on it.
+
+[10] 7s · Leo jogs steadily along the winding path toward the dawn city,
+glowing footprints, both tiny and huge, lighting up behind him one by
+one. Birds fly across the teal and pink sky.
+
+[11] 5s · The determined snail slides forward along the track, its
+glowing lime trail stretching longer behind it, as it overtakes the
+sleeping sloth, who snores and doesn't move. Stadium lights flicker,
+sparkles drift.
+
+[12] 5s · The clock tower's hands spin in a fast blur, lightning flashes
+across the stormy purple and coral sky, clouds swirl, calendar pages
+whirl up into the wind.
+
+[13] 5s · Tiny Leo lounges in the armchair on top of the slowly
+rotating Earth, flicking the remote lazily, while comets, rockets and
+satellites zoom past him. Stars twinkle, the nebula drifts.
+
+[14] 6s · Leo leans back further, mashing buttons on the game console
+with a lazy grin, while the towering stack of papers and to-do boxes
+above him wobbles more and more, swaying left and right, papers slipping.
+
+[15] 6s · Leo stops brushing mid-stroke and freezes, eyes going wide,
+while in the mirror his old-man reflection slowly blinks and adjusts his
+glasses. Steam curls up, the toothbrush falls from Leo's hand.
+
+[16] 5s · The birthday candle flames flicker and burn down quickly, wax
+dripping and pooling, embers and burning calendar scraps curling upward
+into ash.
+
+[17] 6s · The kite dips and soars, the kid on the bicycle rides past,
+the two kids swing back and forth laughing, the dog leaps after the
+ball. Clouds drift, the sun glows.
+
+[18] 6s · Leo sprints flat out along the platform reaching for the
+train as it pulls away faster, papers flying out behind him, the station
+clock's minute hand jumping forward. Motion lines streak past.
+
+[19] 6s · Leo looks straight at the viewer, raises his hand and points
+right at them with a calm, serious, encouraging nod. Fireworks bloom and
+fade in the night sky behind him, rim light shimmering.
+
+[20] 7s · Leo heaves the big ship wheel around with all his strength,
+leaning into it, while behind him the giant clock's minute hand trembles
+just before midnight. Gold light rays sweep, sparkles swirl.
+
+[21] 6s · The last calendar pages keep melting and dripping slowly down
+the wall, wax pooling wider on the floor, the coral glow pulsing dimly,
+a dry leaf falling from the dead plant.
+
+[22] 5s · Leo stands still at the fork, looking left toward the dark
+room, then turns his head right toward the golden sunrise. The sunrise
+light grows brighter and spreads toward him, the dark side dims.
+
+[23] 5s · Leo flexes and bursts outward, the glowing app-icon chain
+links snapping apart and flying away in every direction, shockwave rings
+of light pulsing out, lime and yellow bursts exploding behind him.
+
+[24] 7s · Leo plants his feet on the summit and raises both arms wide in
+triumph, the golden flag waving hard in the wind, sunrise light
+spreading across the world below, birds flying past. Hold the last
+second.
+================================================================
