@@ -1,0 +1,579 @@
+================================================================
+"LOCK IN" — 2D FLAT-VECTOR PRODUCTION BLUEPRINT
+33 scenes · 9:16 vertical · 1080x1920 · ~1:58
+Built with prompts/00-vector-shorts-director.md
+================================================================
+
+VOICEOVER (230 words · read at ~145 wpm, firm, not shouted)
+
+Lock in. I don't know how many times I need to tell you this. Lock in.
+You're running out of time.
+All you have done is scroll, scroll, and scroll. The year's almost
+over, and you have wasted every single minute of it.
+What — do you think some magical fairy is going to turn up and fix
+your life? Genuinely? Because that's how you're acting.
+Lock in. You're starting today, right now. Start taking steps towards
+the goal. It doesn't matter if they are big or they are small — just
+start moving. Slow motion is better than no motion.
+We are running out of time. You weren't put on this earth to just sit
+there.
+You keep telling yourself, "Oh yeah, I'll start tomorrow… or next
+week" — acting like your youth is a permanent setting. It's not. You
+are actively burning the best years of your life.
+Now, don't get me wrong. If you're young, just enjoy your childhood.
+But for the rest of you… you're running out of time.
+But look at me. The year isn't fully gone yet. There are still
+minutes left on the clock. You can still turn this around.
+Or you can choose to let the rest of this year bleed out.
+So what's it going to be? Break the loop today. Close the apps today.
+You have to take control. This is your life.
+
+LENGTH NOTE: about 1:58 total. Well over the 60s Creator Rewards
+minimum. If retention drops off in testing, the safest cut is
+scenes 20-22 (burning / childhood / rest of you), about 15.6s.
+
+HOW TO USE
+- Paste each "Motion Prompt" into your AI video tool at 9:16
+  VERTICAL, 1080x1920. Never accept a horizontal or letterboxed
+  result. Do not crop a wide video to fit.
+- Paste the NEGATIVE PROMPT below into the negative field for
+  every scene.
+- Generate 4-5s per scene, then trim to the timestamps in CapCut.
+  The action happens in the first ~1s; the rest is idle hold.
+  Scenes under 2s (1, 3, 9, 19) need a trim to the first ~2s.
+- Kinetic words and SFX are added in the edit, NOT generated. Keep
+  the generated clips text-free.
+- Lock the SEED where your tool has one, so recurring objects
+  (padlock, hourglass, year ring, phone) look the same every time.
+- Turn ON TikTok's AI-generated content label when you upload.
+
+THE VOICE IS URGENT, THE PICTURES STAY CALM
+The script pushes hard. The visuals do not speed up to match it.
+Locked camera, one slow action per scene, soft crossfades. The
+contrast is the point: a loud voice over still, deliberate images
+reads as conviction, not noise.
+
+RECURRING CAST & MOTIFS (keep identical every time they appear)
+- YOU:       faceless rounded geometric humanoid, solid dusk-violet
+             #3A2A5C body, thin neon outline in the scene's accent,
+             soft glow. No eyes, no mouth.
+- PADLOCK:   flat rounded padlock, center frame. The shackle comes
+             down a little more each time "Lock in" is said
+             (1 -> 3 -> 9) and clicks shut only in the last scene
+             (32). The video ends where it started, finished, so it
+             loops cleanly on rewatch.
+- HOURGLASS: flat hourglass. Less sand each time "running out of
+             time" is said: half (4), a quarter (15), almost
+             empty (22).
+- YEAR RING: twelve small orbs in a circle, one per month. Ten dim,
+             two still lit. Appears in 6, 24, 27.
+- PHONE:     flat rounded-rectangle phone, glowing cyan screen.
+             Appears in 5, 29, 30.
+
+COLOR MEANING (one dominant accent per scene, never more than two)
+  coral red #FF3366     urgency, time running out, waste
+  electric cyan #00FFFF the phone, the scroll, the excuses
+  soft teal #4D8B7A     stillness, waiting, sitting there
+  neon yellow #FFD700   action, the goal, what's still left
+  Yellow fills the whole frame only once: scene 32.
+
+COMPOSITION RULE
+Kinetic words sit dead center. Anchor every subject in the lower
+two-thirds or around the center, so each word lands over a glow
+halo and never covers the subject's one action.
+
+NEGATIVE PROMPT (paste into the negative field for every scene)
+3D rendering, photorealism, realistic textures, complex shadows,
+camera movement, zoom, pan, dolly, rotation, fast cuts, explosions,
+shattering, warping, morphing, liquid transitions, facial features,
+eyes, mouth, busy detail, white background, bright background,
+text, watermark, logo, subtitles, more than two accent colors,
+horizontal, letterbox, black bars
+
+================================================================
+
+[SCENE 1] — 00:00.0 / 00:01.8                 *** PADLOCK 1/4 ***
+Spoken: "Lock in."
+Visual: A flat rounded padlock, center frame, shackle raised high
+and open.
+Motion Prompt (9:16): 9:16 vertical, 2D flat vector, minimalist.
+Locked camera, centered framing. A flat rounded padlock outlined in
+coral red, shackle raised high and open, slowly lowers its shackle
+one third of the way over ~1s, then holds with a slow breathing
+glow. Background: deep plum #1A0B2E with slow-floating particles
+and pulsing coral red #FF3366 glow. CRT scanline overlay. Soft
+crossfade out.
+Text/SFX: Kinetic word "LOCK" in coral red #FF3366 at 00:00.1;
+SFX soft whoosh at 00:00.1; glow hum under scene.
+
+[SCENE 2] — 00:01.8 / 00:07.4
+Spoken: "I don't know how many times I need to tell you this."
+Visual: YOU, seated, small, while the same small speech-bubble
+orb drifts past again and again on a slow orbit around the head.
+Motion Prompt (9:16): 9:16 vertical, 2D flat vector, minimalist.
+Locked camera. Around the head of a seated faceless dusk-violet
+humanoid, a small glowing coral speech-bubble orb completes one
+slow loop of a thin orbit ring over ~1s, then keeps circling,
+ignored. Background: deep plum #1A0B2E with slow-floating
+particles and pulsing coral red #FF3366 glow. CRT scanline
+overlay. Soft crossfade out.
+Text/SFX: Kinetic word "TIMES" in coral red #FF3366 at 00:04.0;
+SFX soft whoosh at 00:04.0; glow hum under scene.
+
+[SCENE 3] — 00:07.4 / 00:09.2                 *** PADLOCK 2/4 ***
+Spoken: "Lock in."
+Visual: The padlock from scene 1, identical framing. The shackle
+comes down further.
+Motion Prompt (9:16): 9:16 vertical, 2D flat vector, minimalist.
+Locked camera, identical centered framing to scene 1. A flat
+rounded padlock outlined in coral red slowly lowers its open
+shackle to two thirds of the way down over ~1s, then holds, glow
+brighter than before. Background: deep plum #1A0B2E with
+slow-floating particles and pulsing coral red #FF3366 glow. CRT
+scanline overlay. Soft crossfade out.
+Text/SFX: Kinetic word "LOCK" in coral red #FF3366 at 00:07.5,
+then "IN" at 00:08.0 (replaces LOCK, never both on screen); SFX
+soft whoosh on each word; glow hum under scene.
+
+[SCENE 4] — 00:09.2 / 00:11.9               *** HOURGLASS 1/3 ***
+Spoken: "You're running out of time."
+Visual: A flat hourglass, center, half full. Sand falling.
+Motion Prompt (9:16): 9:16 vertical, 2D flat vector, minimalist.
+Locked camera. A flat hourglass outlined in coral red, top chamber
+half full, lets a thin stream of glowing sand fall into the lower
+chamber over ~1s, the stream continuing steadily. Background:
+dark violet #200A2B with slow-floating particles and pulsing coral
+red #FF3366 glow. CRT scanline overlay. Soft crossfade out.
+Text/SFX: Kinetic word "TIME" in coral red #FF3366 at 00:11.0;
+SFX soft whoosh at 00:11.0; glow hum under scene.
+
+[SCENE 5] — 00:11.9 / 00:16.2                   *** PHONE 1/3 ***
+Spoken: "All you have done is scroll, scroll, and scroll."
+Visual: YOU hunched over a glowing phone. On its screen, three
+flat rounded content cards slide upward one slot.
+Motion Prompt (9:16): 9:16 vertical, 2D flat vector, minimalist.
+Locked camera. A hunched faceless dusk-violet humanoid holds a
+flat rounded phone with a glowing cyan screen; three flat content
+cards on the screen slide slowly upward one slot over ~1s, then
+the screen light pulses on the humanoid's body. Background: deep
+navy #0B1021 with slow-floating particles and pulsing electric
+cyan #00FFFF glow. CRT scanline overlay. Soft crossfade out.
+Text/SFX: Kinetic word "SCROLL" in electric cyan #00FFFF at
+00:14.1 (one appearance, holds ~1.5s over all three); SFX soft
+whoosh at 00:14.1; glow hum under scene.
+
+[SCENE 6] — 00:16.2 / 00:22.2               *** YEAR RING 1/3 ***
+Spoken: "The year's almost over, and you have wasted every single minute of it."
+Visual: Twelve small orbs in a circle, one per month. Ten are
+already dim. The tenth was lit a moment ago.
+Motion Prompt (9:16): 9:16 vertical, 2D flat vector, minimalist.
+Locked camera, centered framing. A ring of twelve small flat orbs;
+the tenth orb's cyan glow slowly fades to a dull outline over
+~1s, leaving ten dim orbs and two still glowing, while the ring
+drifts slowly. Background: deep navy #0B1021 with slow-floating
+particles and pulsing electric cyan #00FFFF glow, dim orbs
+outlined in coral red #FF3366. CRT scanline overlay. Soft
+crossfade out.
+Text/SFX: Kinetic word "WASTED" in coral red #FF3366 at 00:19.3;
+SFX soft whoosh at 00:19.3; glow hum under scene.
+
+[SCENE 7] — 00:22.2 / 00:29.5
+Spoken: "What — do you think some magical fairy is going to turn up and fix your life?"
+Visual: YOU seated, looking up. A tiny winged star-orb drifts down
+from above and dissolves before it gets there.
+Motion Prompt (9:16): 9:16 vertical, 2D flat vector, minimalist.
+Locked camera. A tiny glowing neon-yellow star-orb with two small
+flat wings drifts down toward a seated faceless dusk-violet
+humanoid and dissolves into drifting particles over ~1s before it
+reaches it; the humanoid stays seated, glow outlined in soft teal.
+Background: dark violet #200A2B with slow-floating particles and
+pulsing neon yellow #FFD700 glow. CRT scanline overlay. Soft
+crossfade out.
+Text/SFX: Kinetic word "FAIRY" in neon yellow #FFD700 at 00:24.9;
+SFX soft whoosh at 00:24.9; faint particle shimmer at 00:23.4
+(fairy dissolve); glow hum under scene.
+
+[SCENE 8] — 00:29.5 / 00:32.6
+Spoken: "Genuinely? Because that's how you're acting."
+Visual: YOU, alone on a flat block seat, head tilted up at the
+empty space where the fairy was. Waiting.
+Motion Prompt (9:16): 9:16 vertical, 2D flat vector, minimalist.
+Locked camera. A faceless dusk-violet humanoid with a thin soft
+teal outline, seated on a flat block, slowly tilts its head upward
+toward empty space over ~1s, then stays motionless, waiting.
+Background: dark violet #200A2B with slow-floating particles and
+pulsing soft teal #4D8B7A glow. CRT scanline overlay. Soft
+crossfade out.
+Text/SFX: Kinetic word "GENUINELY" in soft teal #4D8B7A at
+00:29.7; SFX soft whoosh at 00:29.7; glow hum under scene.
+
+[SCENE 9] — 00:32.6 / 00:34.4                 *** PADLOCK 3/4 ***
+Spoken: "Lock in."
+Visual: The padlock again, identical framing. The shackle hangs
+just above the lock. Almost.
+Motion Prompt (9:16): 9:16 vertical, 2D flat vector, minimalist.
+Locked camera, identical centered framing to scene 1. A flat
+rounded padlock outlined in coral red slowly lowers its shackle
+until it hovers just above the lock body over ~1s, then holds, not
+yet closed, glow at its brightest so far. Background: deep plum
+#1A0B2E with slow-floating particles and pulsing coral red
+#FF3366 glow. CRT scanline overlay. Soft crossfade out.
+Text/SFX: Kinetic word "LOCK" in coral red #FF3366 at 00:32.8;
+SFX soft whoosh at 00:32.8; glow hum under scene.
+
+[SCENE 10] — 00:34.4 / 00:37.1
+Spoken: "You're starting today, right now."
+Visual: YOU rises from the block seat to standing. The glow turns
+from teal to yellow.
+Motion Prompt (9:16): 9:16 vertical, 2D flat vector, minimalist.
+Locked camera. A faceless dusk-violet humanoid slowly rises from a
+flat block seat to standing over ~1s as its outline shifts from
+soft teal to neon yellow, then holds upright with a steady glow.
+Background: dark violet #200A2B with slow-floating particles and
+pulsing neon yellow #FFD700 glow. CRT scanline overlay. Soft
+crossfade out.
+Text/SFX: Kinetic word "TODAY" in neon yellow #FFD700 at 00:35.4,
+then "NOW" at 00:36.2; SFX soft whoosh on each word; glow hum
+under scene.
+
+[SCENE 11] — 00:37.1 / 00:40.2
+Spoken: "Start taking steps towards the goal."
+Visual: YOU at the bottom of a staircase of flat blocks. At the
+top, a glowing goal orb. YOU steps onto the first block.
+Motion Prompt (9:16): 9:16 vertical, 2D flat vector, minimalist.
+Locked camera. A faceless dusk-violet humanoid at the bottom of a
+staircase of flat blocks steps up onto the first block over ~1s,
+a glowing neon-yellow goal orb waiting at the top of the stairs,
+then holds. Background: deep navy #0B1021 with slow-floating
+particles and pulsing neon yellow #FFD700 glow. CRT scanline
+overlay. Soft crossfade out.
+Text/SFX: Kinetic word "STEPS" in neon yellow #FFD700 at 00:38.1;
+SFX soft whoosh at 00:38.1; glow hum under scene.
+
+[SCENE 12] — 00:40.2 / 00:45.4
+Spoken: "It doesn't matter if they are big or they are small —"
+Visual: Two flat step blocks side by side, one tall, one short.
+Both light up the same.
+Motion Prompt (9:16): 9:16 vertical, 2D flat vector, minimalist.
+Locked camera. Two flat step blocks side by side, one tall and one
+short, both outlined in neon yellow, light up together with the
+same equal glow over ~1s, then breathe softly in sync. Background:
+deep navy #0B1021 with slow-floating particles and pulsing neon
+yellow #FFD700 glow. CRT scanline overlay. Soft crossfade out.
+Text/SFX: Kinetic word "BIG" in neon yellow #FFD700 at 00:42.8,
+then "SMALL" at 00:44.5; SFX soft whoosh on each word; glow hum
+under scene.
+
+[SCENE 13] — 00:45.4 / 00:47.2
+Spoken: "just start moving."
+Visual: YOU takes one step forward along a horizontal line. A
+footprint glows where the foot lands.
+Motion Prompt (9:16): 9:16 vertical, 2D flat vector, minimalist.
+Locked camera. A faceless dusk-violet humanoid takes one slow step
+forward along a thin horizontal line over ~1s, a small neon-yellow
+footprint glowing where its foot lands, then holds mid-stride.
+Background: deep navy #0B1021 with slow-floating particles and
+pulsing neon yellow #FFD700 glow. CRT scanline overlay. Soft
+crossfade out.
+Text/SFX: Kinetic word "MOVING" in neon yellow #FFD700 at 00:46.4;
+SFX soft whoosh at 00:46.4; glow hum under scene.
+
+[SCENE 14] — 00:47.2 / 00:50.7
+Spoken: "Slow motion is better than no motion."
+Visual: Two orbs on a shared orbit. The yellow one starts drifting
+slowly, leaving a faint trail. The teal one stays dead still.
+Motion Prompt (9:16): 9:16 vertical, 2D flat vector, minimalist.
+Locked camera. On a thin orbit ring, a neon-yellow orb begins a
+slow drift along the ring leaving a faint glowing trail over ~1s,
+while a dim soft-teal orb on the opposite side stays completely
+still. Background: deep plum #1A0B2E with slow-floating particles
+and pulsing neon yellow #FFD700 glow. CRT scanline overlay. Soft
+crossfade out.
+Text/SFX: Kinetic word "SLOW" in neon yellow #FFD700 at 00:47.4,
+then "NO" in soft teal #4D8B7A at 00:49.5; SFX soft whoosh on
+each word; glow hum under scene.
+
+[SCENE 15] — 00:50.7 / 00:53.8              *** HOURGLASS 2/3 ***
+Spoken: "We are running out of time."
+Visual: The hourglass from scene 4, identical framing. Only a
+quarter of the sand is left on top.
+Motion Prompt (9:16): 9:16 vertical, 2D flat vector, minimalist.
+Locked camera, identical framing to scene 4. A flat hourglass
+outlined in coral red, top chamber only a quarter full, lets a
+thin stream of glowing sand fall over ~1s, the lower chamber
+nearly full, the stream continuing. Background: dark violet
+#200A2B with slow-floating particles and pulsing coral red
+#FF3366 glow. CRT scanline overlay. Soft crossfade out.
+Text/SFX: Kinetic word "TIME" in coral red #FF3366 at 00:53.0;
+SFX soft whoosh at 00:53.0; glow hum under scene.
+
+[SCENE 16] — 00:53.8 / 00:58.6
+Spoken: "You weren't put on this earth to just sit there."
+Visual: A small flat planet. YOU sits on top of it, motionless,
+while the planet turns underneath.
+Motion Prompt (9:16): 9:16 vertical, 2D flat vector, minimalist.
+Locked camera. A small flat planet outlined in soft teal begins a
+slow spin over ~1s while a tiny faceless dusk-violet humanoid sits
+motionless on top of it, a thin cyan orbit ring drifting around
+the planet. Background: deep navy #0B1021 with slow-floating
+particles and pulsing soft teal #4D8B7A glow. CRT scanline
+overlay. Soft crossfade out.
+Text/SFX: Kinetic word "EARTH" in soft teal #4D8B7A at 00:56.1;
+SFX soft whoosh at 00:56.1; glow hum under scene.
+
+[SCENE 17] — 00:58.6 / 01:04.2
+Spoken: "You keep telling yourself, "Oh yeah, I'll start tomorrow… or next week" —"
+Visual: YOU nudges a glowing task orb along a track to the right,
+where it joins a row of other postponed orbs drifting away.
+Motion Prompt (9:16): 9:16 vertical, 2D flat vector, minimalist.
+Locked camera. A faceless dusk-violet humanoid gently nudges a
+glowing cyan orb along a thin horizontal track over ~1s, the orb
+rolling slowly to join a row of dimmer orbs drifting toward the
+right edge. Background: deep navy #0B1021 with slow-floating
+particles and pulsing electric cyan #00FFFF glow. CRT scanline
+overlay. Soft crossfade out.
+Text/SFX: Kinetic word "TOMORROW" in electric cyan #00FFFF at
+01:02.1; SFX soft whoosh at 01:02.1; glow hum under scene.
+
+[SCENE 18] — 01:04.2 / 01:08.1
+Spoken: "acting like your youth is a permanent setting."
+Visual: A flat settings slider, knob at the far left. The knob
+slides on its own, slowly, toward the right.
+Motion Prompt (9:16): 9:16 vertical, 2D flat vector, minimalist.
+Locked camera, centered framing. A flat horizontal settings slider
+outlined in electric cyan; its round knob slides slowly on its own
+from the far left toward the center over ~1s, then keeps creeping
+right. Background: deep navy #0B1021 with slow-floating particles
+and pulsing electric cyan #00FFFF glow. CRT scanline overlay. Soft
+crossfade out.
+Text/SFX: Kinetic word "PERMANENT" in electric cyan #00FFFF at
+01:06.9; SFX soft whoosh at 01:06.9; glow hum under scene.
+
+[SCENE 19] — 01:08.1 / 01:09.9
+Spoken: "It's not."
+Visual: The slider from scene 18 dissolves away. Empty frame.
+Motion Prompt (9:16): 9:16 vertical, 2D flat vector, minimalist.
+Locked camera, identical framing to scene 18. The flat settings
+slider outlined in electric cyan dissolves into drifting particles
+that fade out over ~1s, leaving an empty frame with a faint coral
+glow. Background: deep navy #0B1021 with slow-floating particles
+and pulsing coral red #FF3366 glow. CRT scanline overlay. Soft
+crossfade out.
+Text/SFX: Kinetic word "NOT" in coral red #FF3366 at 01:08.7;
+SFX soft whoosh at 01:08.7; faint particle shimmer at 01:08.2
+(slider dissolve); glow hum under scene.
+
+[SCENE 20] — 01:09.9 / 01:14.7
+Spoken: "You are actively burning the best years of your life."
+Visual: A flat candle, center, with a simple flame-shaped glow.
+It shrinks a little.
+Motion Prompt (9:16): 9:16 vertical, 2D flat vector, minimalist.
+Locked camera. A flat candle with a simple coral flame-shaped glow
+slowly shrinks a little shorter over ~1s, one flat drip sliding
+down its side, the flame flickering gently. Background: deep plum
+#1A0B2E with slow-floating particles and pulsing coral red
+#FF3366 glow. CRT scanline overlay. Soft crossfade out.
+Text/SFX: Kinetic word "BURNING" in coral red #FF3366 at 01:11.3;
+SFX soft whoosh at 01:11.3; glow hum under scene.
+
+[SCENE 21] — 01:14.7 / 01:20.3
+Spoken: "Now, don't get me wrong. If you're young, just enjoy your childhood."
+Visual: A small child-sized humanoid tosses a glowing orb up and
+catches it. Light, soft, unhurried.
+Motion Prompt (9:16): 9:16 vertical, 2D flat vector, minimalist.
+Locked camera. A small child-sized faceless rounded humanoid
+outlined in soft teal gently tosses a glowing neon-yellow orb
+upward and catches it over ~1s, then holds it, the orb glowing
+softly. Background: dark violet #200A2B with slow-floating
+particles and pulsing soft teal #4D8B7A glow. CRT scanline
+overlay. Soft crossfade out.
+Text/SFX: Kinetic word "ENJOY" in neon yellow #FFD700 at 01:18.6;
+SFX soft whoosh at 01:18.6; glow hum under scene.
+
+[SCENE 22] — 01:20.3 / 01:25.5             *** HOURGLASS 3/3 ***
+Spoken: "But for the rest of you… you're running out of time."
+Visual: The hourglass again, identical framing. Almost empty on
+top. The last grains fall.
+Motion Prompt (9:16): 9:16 vertical, 2D flat vector, minimalist.
+Locked camera, identical framing to scene 4. A flat hourglass
+outlined in coral red, top chamber almost empty, lets its last
+thin trickle of glowing sand fall over ~1s, then only a few grains
+remain. Background: dark violet #200A2B with slow-floating
+particles and pulsing coral red #FF3366 glow. CRT scanline
+overlay. Soft crossfade out.
+Text/SFX: Kinetic word "TIME" in coral red #FF3366 at 01:24.6;
+SFX soft whoosh at 01:24.6; glow hum under scene.
+
+[SCENE 23] — 01:25.5 / 01:27.8
+Spoken: "But look at me."
+Visual: YOU, large and centered, turns to face the viewer square
+on. Faceless, but direct.
+Motion Prompt (9:16): 9:16 vertical, 2D flat vector, minimalist.
+Locked camera, centered framing. A large faceless dusk-violet
+humanoid in side profile slowly turns to face the viewer straight
+on over ~1s as its neon-yellow outline brightens, then holds
+still, facing forward. Background: deep plum #1A0B2E with
+slow-floating particles and pulsing neon yellow #FFD700 glow. CRT
+scanline overlay. Soft crossfade out.
+Text/SFX: Kinetic word "LOOK" in neon yellow #FFD700 at 01:26.1;
+SFX soft whoosh at 01:26.1; glow hum under scene.
+
+[SCENE 24] — 01:27.8 / 01:30.9              *** YEAR RING 2/3 ***
+Spoken: "The year isn't fully gone yet."
+Visual: The year ring from scene 6, identical framing. Ten dim
+orbs. The last two glow brighter, yellow now.
+Motion Prompt (9:16): 9:16 vertical, 2D flat vector, minimalist.
+Locked camera, identical framing to scene 6. A ring of twelve small
+flat orbs, ten dim with soft teal outlines; the last two orbs
+brighten to a warm neon-yellow glow over ~1s, then pulse gently as
+the ring drifts. Background: deep navy #0B1021 with slow-floating
+particles and pulsing neon yellow #FFD700 glow. CRT scanline
+overlay. Soft crossfade out.
+Text/SFX: Kinetic word "YET" in neon yellow #FFD700 at 01:30.0;
+SFX soft whoosh at 01:30.0; glow hum under scene.
+
+[SCENE 25] — 01:30.9 / 01:34.8
+Spoken: "There are still minutes left on the clock."
+Visual: A flat clock face reading about 11:55. The minute hand
+moves one tick. Not midnight yet.
+Motion Prompt (9:16): 9:16 vertical, 2D flat vector, minimalist.
+Locked camera, centered framing. A flat round clock face outlined
+in neon yellow showing five minutes to twelve; its minute hand
+moves forward one gentle tick over ~1s, still short of twelve,
+then holds. Background: dark violet #200A2B with slow-floating
+particles and pulsing neon yellow #FFD700 glow. CRT scanline
+overlay. Soft crossfade out.
+Text/SFX: Kinetic word "MINUTES" in neon yellow #FFD700 at
+01:32.3; SFX soft whoosh at 01:32.3; glow hum under scene.
+
+[SCENE 26] — 01:34.8 / 01:37.9
+Spoken: "You can still turn this around."
+Visual: A flat compass. The needle swings from pointing down to
+pointing up at a small yellow star.
+Motion Prompt (9:16): 9:16 vertical, 2D flat vector, minimalist.
+Locked camera, centered framing. A flat compass outlined in soft
+teal; its needle slowly swings from pointing down to pointing up
+toward a small glowing neon-yellow star above it over ~1s, then
+settles with a gentle wobble. Background: deep navy #0B1021 with
+slow-floating particles and pulsing neon yellow #FFD700 glow. CRT
+scanline overlay. Soft crossfade out.
+Text/SFX: Kinetic word "TURN" in neon yellow #FFD700 at 01:36.2;
+SFX soft whoosh at 01:36.2; glow hum under scene.
+
+[SCENE 27] — 01:37.9 / 01:43.9              *** YEAR RING 3/3 ***
+Spoken: "Or you can choose to let the rest of this year bleed out."
+Visual: The year ring again. The last lit orb starts shedding
+coral particles. Fading, not gone.
+Motion Prompt (9:16): 9:16 vertical, 2D flat vector, minimalist.
+Locked camera, identical framing to scene 6. A ring of twelve small
+flat orbs; the last glowing orb slowly dims and begins shedding
+tiny coral particles that drift downward and fade over ~1s, still
+faintly lit. Background: dark violet #200A2B with slow-floating
+particles and pulsing coral red #FF3366 glow. CRT scanline
+overlay. Soft crossfade out.
+Text/SFX: Kinetic word "BLEED" in coral red #FF3366 at 01:42.6;
+SFX soft whoosh at 01:42.6; faint particle shimmer at 01:38.9;
+glow hum under scene.
+
+[SCENE 28] — 01:43.9 / 01:47.0
+Spoken: "So what's it going to be?"
+Visual: YOU at a fork. Left path dim coral. Right path glowing
+yellow. Both draw in at once. YOU hasn't moved yet.
+Motion Prompt (9:16): 9:16 vertical, 2D flat vector, minimalist.
+Locked camera. A faceless dusk-violet humanoid stands at the base
+of a fork; a dim coral path to the left and a glowing neon-yellow
+path to the right slowly draw themselves upward over ~1s, then
+hold while the humanoid stands still between them. Background:
+deep plum #1A0B2E with slow-floating particles and pulsing neon
+yellow #FFD700 glow. CRT scanline overlay. Soft crossfade out.
+Text/SFX: Kinetic word "WHAT" in neon yellow #FFD700 at 01:44.5;
+SFX soft whoosh at 01:44.5; glow hum under scene.
+
+[SCENE 29] — 01:47.0 / 01:49.3                  *** PHONE 2/3 ***
+Spoken: "Break the loop today."
+Visual: The phone from scene 5, wrapped in a glowing chain loop.
+The chain dissolves away.
+Motion Prompt (9:16): 9:16 vertical, 2D flat vector, minimalist.
+Locked camera, centered framing. A flat rounded phone with a cyan
+screen is wrapped in a glowing neon-yellow chain loop; the chain
+dissolves into drifting particles that fade out over ~1s, leaving
+the phone free. Background: deep navy #0B1021 with slow-floating
+particles and pulsing neon yellow #FFD700 glow. CRT scanline
+overlay. Soft crossfade out.
+Text/SFX: Kinetic word "LOOP" in neon yellow #FFD700 at 01:48.0;
+SFX soft whoosh at 01:48.0; faint particle shimmer at 01:47.3
+(chain dissolve); glow hum under scene.
+
+[SCENE 30] — 01:49.3 / 01:51.5                  *** PHONE 3/3 ***
+Spoken: "Close the apps today."
+Visual: The same phone. Its grid of six small app squares
+dissolves and the screen goes dark.
+Motion Prompt (9:16): 9:16 vertical, 2D flat vector, minimalist.
+Locked camera, identical framing to scene 29. A grid of six small
+rounded cyan app squares on a flat phone screen dissolves into
+drifting particles over ~1s and the screen goes dark, the phone's
+outline softening to soft teal. Background: deep navy #0B1021 with
+slow-floating particles and pulsing electric cyan #00FFFF glow.
+CRT scanline overlay. Soft crossfade out.
+Text/SFX: Kinetic word "CLOSE" in electric cyan #00FFFF at
+01:49.4; SFX soft whoosh at 01:49.4; faint particle shimmer at
+01:49.5 (apps dissolve); glow hum under scene.
+
+[SCENE 31] — 01:51.5 / 01:54.2
+Spoken: "You have to take control."
+Visual: YOU places a hand on a large flat gear. The gear starts
+turning.
+Motion Prompt (9:16): 9:16 vertical, 2D flat vector, minimalist.
+Locked camera. A faceless dusk-violet humanoid places one rounded
+hand on a large flat gear outlined in neon yellow, and the gear
+begins to turn slowly under its hand over ~1s, then keeps turning
+steadily. Background: dark violet #200A2B with slow-floating
+particles and pulsing neon yellow #FFD700 glow. CRT scanline
+overlay. Soft crossfade out.
+Text/SFX: Kinetic word "CONTROL" in neon yellow #FFD700 at
+01:53.4; SFX soft whoosh at 01:53.4; glow hum under scene.
+
+[SCENE 32] — 01:54.2 / 01:56.5                *** PADLOCK 4/4 ***
+Spoken: "This is your life."
+Visual: THE PADLOCK, identical framing to scene 1. The shackle
+finally clicks shut. Now it glows yellow.
+Motion Prompt (9:16): 9:16 vertical, 2D flat vector, minimalist.
+Locked camera, identical centered framing to scene 1. A flat
+rounded padlock, now outlined in neon yellow, lowers its shackle
+the last short distance and closes shut with a soft glow over
+~1s, then holds, glowing steadily. Background: deep plum #1A0B2E
+with slow-floating particles and pulsing neon yellow #FFD700
+glow. CRT scanline overlay. Soft crossfade out.
+Text/SFX: Kinetic word "LIFE" in neon yellow #FFD700 at 01:55.6
+(hold 1.5s, the screenshot line); SFX soft whoosh at 01:55.6; one
+soft low "click" hum at 01:54.9 as the shackle closes (calm, not
+a snap); glow hum under scene.
+
+[SCENE 33] — 01:56.5 / 01:58.5                     (silent hold)
+Spoken: (silence)
+Visual: Hold scene 32. The closed padlock glowing yellow.
+Motion Prompt (9:16): Extend scene 32. No new generation needed.
+Text/SFX: No text. Glow hum fades out 01:57.0-01:58.5. The last
+frame matches the look of scene 1, so the loop back to "Lock in."
+reads as the same lock.
+
+================================================================
+AFTER YOU GENERATE
+1. Lay the voiceover into CapCut FIRST. Nudge every kinetic word
+   onto the actual stressed syllable in YOUR recording; the
+   timestamps above assume ~145 wpm and will drift a few tenths.
+2. Trim each clip to its scene window. Soft crossfades only
+   (0.3-0.5s; 0.2s for the sub-2s scenes 1, 3, 9, 19). No hard
+   cuts, no zoom, no slide transitions.
+3. Words: bold uppercase, solid accent fill, thick dark outline,
+   heavy drop shadow, dead center. One word at a time, ~1s hold,
+   fade out. Never two words on screen together.
+4. Audio bed: one continuous low glow hum under everything, a
+   whoosh per word, a shimmer per dissolve. Keep SFX ~-18dB under
+   the voice.
+5. Project must be 1080x1920 from the start. No bars, no frame.
+6. Final length must be OVER 60 seconds. This one runs ~1:58.
+
+ON-POST CAPTION: "there are still minutes left on the clock."
+HASHTAGS: #lockin #discipline #motivation #selfimprovement
+================================================================

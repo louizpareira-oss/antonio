@@ -20,6 +20,7 @@ Plan to make the account eligible for the TikTok Creator Rewards Program after t
 - [`prompts/01-forgive-the-past-anime.txt`](prompts/01-forgive-the-past-anime.txt) — **copy-paste pack: all 22 clip prompts, anime style, ready for an AI video generator.**
 - [`prompts/00-vector-shorts-director.md`](prompts/00-vector-shorts-director.md) — master prompt: turns any voiceover script into a 2D flat-vector scene blueprint.
 - [`prompts/01-forgive-the-past-vector.txt`](prompts/01-forgive-the-past-vector.txt) — **Script 01 run through that master prompt: 21 scenes, motion prompts, kinetic words and SFX cues.**
+- [`prompts/02-lock-in-vector.txt`](prompts/02-lock-in-vector.txt) — **"Lock In" (next video): voiceover plus 33-scene flat-vector blueprint, ~1:58.**
 
 ## Account snapshot (Sep 2026)
 
