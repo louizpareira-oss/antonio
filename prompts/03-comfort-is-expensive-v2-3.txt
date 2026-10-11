@@ -186,3 +186,25 @@ POST: Voiceover first (~145 wpm); nudge words to stressed syllables. Hard cuts.
 Rainbow-knockout words + SFX in edit. Export 1080x1920, over 60s.
 TikTok AI-generated content label ON.
 ================================================================
+
+KEYFRAMES GENERATED — Nano Banana 2, 1K 9:16, OpenArt project "Comfort Is Expensive"
+(fNl1eaKPmvxTii5yAhEY). Scene 01 = text2image; 02-18 = image2image with 01 as
+Maya's reference. Use as startFrame when animating. Animation NOT generated.
+01 G3oGdPNgpyi9hL3WEsXm https://cdn.openart.ai/openart-ai/production/2026-10/create-image/zSMFTe3Of5oqrKDWBPOD/image_1791703669609_e1433fb5_1791703669647_f63c04a3.png
+02 ok056Itjszp1fi0ElVOZ https://cdn.openart.ai/openart-ai/production/2026-10/create-image/zSMFTe3Of5oqrKDWBPOD/image_1791703768170_e2bc89c7_1791703768255_15a723cb.png
+03 YnW3NhPhxc4utYtv1aWV https://cdn.openart.ai/openart-ai/production/2026-10/create-image/zSMFTe3Of5oqrKDWBPOD/image_1791703770296_db7e8713_1791703770365_06e16929.png
+04 3W68mmChwIjP0XW0y05m https://cdn.openart.ai/openart-ai/production/2026-10/create-image/zSMFTe3Of5oqrKDWBPOD/image_1791703772799_cbf5dea7_1791703772847_67ce04fa.png
+05 E0eCIjXENMDwAzLc4L4u https://cdn.openart.ai/openart-ai/production/2026-10/create-image/zSMFTe3Of5oqrKDWBPOD/image_1791703772894_1e14aef6_1791703772969_e719e559.png
+06 iXeU4pIFtoyOjufdHLrk https://cdn.openart.ai/openart-ai/production/2026-10/create-image/zSMFTe3Of5oqrKDWBPOD/image_1791703779191_c1c5f54c_1791703779242_8eef4ec4.png
+07 qTbaoYLgeG0Tzg3ad70J https://cdn.openart.ai/openart-ai/production/2026-10/create-image/zSMFTe3Of5oqrKDWBPOD/image_1791703778265_5d4f5afe_1791703778382_fc8ee952.png
+08 YakIh9yLlduh9YKEWq5P https://cdn.openart.ai/openart-ai/production/2026-10/create-image/zSMFTe3Of5oqrKDWBPOD/image_1791703781650_35f46233_1791703781705_db4d0ada.png
+09 pWwoWMxOtVfomyIl3Q4l https://cdn.openart.ai/openart-ai/production/2026-10/create-image/zSMFTe3Of5oqrKDWBPOD/image_1791703780692_6b4a885f_1791703780967_924f7c19.png
+10 rfa7eWYPXmYSE0YXuG5y https://cdn.openart.ai/openart-ai/production/2026-10/create-image/zSMFTe3Of5oqrKDWBPOD/image_1791703784078_f7f1baf8_1791703784127_9a9052a7.png
+11 rBD55wCyxwXMC8iEVNil https://cdn.openart.ai/openart-ai/production/2026-10/create-image/zSMFTe3Of5oqrKDWBPOD/image_1791703828593_6931c70f_1791703828638_e28fe5b7.png
+12 OY0JVInVwRZJkf9Tq4nl https://cdn.openart.ai/openart-ai/production/2026-10/create-image/zSMFTe3Of5oqrKDWBPOD/image_1791703830050_6e687fc9_1791703830258_fc9c4174.png
+13 jJJaKV9JqJtc5p7ruCQY https://cdn.openart.ai/openart-ai/production/2026-10/create-image/zSMFTe3Of5oqrKDWBPOD/image_1791703832110_fc5f1a40_1791703832154_7637f8e9.png
+14 0iFy40JNhwmdiy8th8Zr https://cdn.openart.ai/openart-ai/production/2026-10/create-image/zSMFTe3Of5oqrKDWBPOD/image_1791703833314_1aadf9e8_1791703833490_300e608b.png
+15 TNAfvl6lN06iY3ypAIl2 https://cdn.openart.ai/openart-ai/production/2026-10/create-image/zSMFTe3Of5oqrKDWBPOD/image_1791703836226_04d34123_1791703836267_8aa5f59f.png
+16 cVB7V3oTJR04QVJOXs28 https://cdn.openart.ai/openart-ai/production/2026-10/create-image/zSMFTe3Of5oqrKDWBPOD/image_1791703838574_38dcb1ff_1791703838621_a007de06.png
+17 AzIQr0KRoyTHZk7VgkKV https://cdn.openart.ai/openart-ai/production/2026-10/create-image/zSMFTe3Of5oqrKDWBPOD/image_1791703840086_c70495c6_1791703840232_3ac60270.png
+18 AZirUKcEaRYpN1fcLx9j https://cdn.openart.ai/openart-ai/production/2026-10/create-image/zSMFTe3Of5oqrKDWBPOD/image_1791703842984_4fe5c2f6_1791703843053_8b8f3343.png
