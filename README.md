@@ -14,6 +14,8 @@ Plan to make the account eligible for the TikTok Creator Rewards Program after t
 7. [`docs/07-matching-visuals-to-dialogue.md`](docs/07-matching-visuals-to-dialogue.md) — the skill the course skipped: how to decide which picture goes on which line.
 8. [`docs/09-anime-visuals-legitimately.md`](docs/09-anime-visuals-legitimately.md) — how to get the anime look without downloading anyone’s frames, plus the anime version of Script 01.
 
+9. [`docs/12-reference-style-measured.md`](docs/12-reference-style-measured.md) — **the reference style, measured frame by frame: text, cuts, camera, motion, color, audio.**
+
 ## Scripts and prompts
 
 - [`scripts/01-forgive-the-past.md`](scripts/01-forgive-the-past.md) — 70s, 20 beats, full shot list and generation prompts.
