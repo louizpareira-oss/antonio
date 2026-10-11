@@ -1,0 +1,162 @@
+================================================================
+"LOCK IN" — BLUEPRINT v2.0 (Vibrant Explainer Shorts Director)
+17 scenes · 9:16 · 1080x1920 · ~1:58 · avg ~7s
+Built with prompts/00-master-prompt-v2.txt. NOT GENERATED.
+================================================================
+
+PROTAGONIST LOCK
+Leo — curly dark hair, warm brown skin, mustard-yellow hoodie, red sneakers.
+Same look in every scene. Secondary characters: fairy, snail, sloth, kids.
+
+BRIGHT-BACKGROUND SCENES (max 1 in 4): 07 mint, 11 sky blue, 17 warm yellow.
+All others: deep indigo-navy #18193F.
+
+RETURN: scene 17 is the same desk as scene 01 — night becomes morning.
+
+NOTE: the 24 keyframes generated earlier predate v2.0 (character not in the
+lower third, banned elements such as fire, lightning and an upside-down pose).
+Regenerate keyframes from the prompts below.
+
+----------------------------------------------------------------
+[SCENE 01] — 00:00.0 / 00:07.4
+Spoken: "Lock in. I don't know how many times I need to tell you this."
+Visual: Leo at his desk in his bedroom at night. Props: laptop, desk lamp, phone, sticky notes, plant.
+Keyframe: Vibrant 2D flat vector cartoon explainer illustration, 9:16 vertical. Leo — curly dark hair, warm brown skin, mustard-yellow hoodie, red sneakers — with an expressive cartoon face, sitting at his desk, snapping big over-ear headphones onto his head with a fierce focused face, inside a cozy bedroom at night with a laptop, a glowing desk lamp, a face-down phone, a few sticky notes on the desk and a small plant. Deep indigo-navy #18193F background with electric purple #5419C8 and golden yellow #E0B828 accents. Soft gradient lighting, subtle glow. PROTAGONIST IN LOWER THIRD OF FRAME ONLY; upper 45% calm empty negative space reserved for caption. Clean geometric shapes, flat color fills, no painterly texture, no realistic clouds, no ornate detail. No text, no letters, no logos, no 3D, no photorealism.
+Animate: 2D flat vector cartoon animation, 9:16 vertical, static camera. Leo snaps the headphones over his ears with both hands, narrows his eyes and leans in to type fast on the laptop. Sticky notes flutter on the desk, sparkles pop around his head, the lamp glow pulses. Smooth lively motion-graphics, flat colors preserved, protagonist face and outfit stay consistent. No zoom, no text, no 3D.
+Text/SFX: Word "LOCK" — multi-color rainbow knockout at 00:00.1; Word "TIMES" — multi-color rainbow knockout at 00:04.0; SFX whoosh on each word; sparkle pop at 00:00.4 (headphones on); low bed under voice (-18dB).
+
+----------------------------------------------------------------
+[SCENE 02] — 00:07.4 / 00:16.2
+Spoken: "Lock in. You're running out of time. All you have done is scroll, scroll, and scroll."
+Visual: Leo slouched on a sofa scrolling. Props: sofa, coffee table with hourglass, phone, pizza box, TV.
+Keyframe: Vibrant 2D flat vector cartoon explainer illustration, 9:16 vertical. Leo — curly dark hair, warm brown skin, mustard-yellow hoodie, red sneakers — with an expressive cartoon face, slouched sideways on a blue sofa with glazed half-closed eyes, scrolling his glowing phone with his thumb, inside a living room at night with a coffee table holding a glowing hourglass running low, an open pizza box and a TV. Deep indigo-navy #18193F background with cyan #49C3D4 and hot pink #C028C8 accents. Soft gradient lighting, subtle glow. PROTAGONIST IN LOWER THIRD OF FRAME ONLY; upper 45% calm empty negative space reserved for caption. Clean geometric shapes, flat color fills, no painterly texture, no realistic clouds, no ornate detail. No text, no letters, no logos, no 3D, no photorealism.
+Animate: 2D flat vector cartoon animation, 9:16 vertical, static camera. Leo keeps flicking his thumb up the phone screen again and again, blinking slowly with a bored face. Sand pours through the hourglass on the table, phone light flickers on his face, the TV glow pulses. Smooth lively motion-graphics, flat colors preserved, protagonist face and outfit stay consistent. No zoom, no text, no 3D.
+Text/SFX: Word "LOCK" — multi-color rainbow knockout at 00:07.5; Word "IN" — multi-color rainbow knockout at 00:08.0; Word "TIME" — multi-color rainbow knockout at 00:11.0; Word "SCROLL" — multi-color rainbow knockout at 00:14.1; SFX whoosh on each word; sparkle pop at 00:11.9 (cut to scrolling); low bed under voice (-18dB).
+
+----------------------------------------------------------------
+[SCENE 03] — 00:16.2 / 00:22.2
+Spoken: "The year's almost over, and you have wasted every single minute of it."
+Visual: Leo at his desk watching a desk calendar shed its pages. Props: desk calendar, bin, crumpled papers, mug, game controller.
+Keyframe: Vibrant 2D flat vector cartoon explainer illustration, 9:16 vertical. Leo — curly dark hair, warm brown skin, mustard-yellow hoodie, red sneakers — with an expressive cartoon face, sitting at a desk staring wide-eyed in shock as a desk calendar in front of him sheds its pages, inside a bedroom with a wastebasket full of crumpled papers, a coffee mug and a game controller. Deep indigo-navy #18193F background with coral red #C6405B and cream #E8DCC8 accents. Soft gradient lighting, subtle glow. PROTAGONIST IN LOWER THIRD OF FRAME ONLY; upper 45% calm empty negative space reserved for caption. Clean geometric shapes, flat color fills, no painterly texture, no realistic clouds, no ornate detail. No text, no letters, no logos, no 3D, no photorealism.
+Animate: 2D flat vector cartoon animation, 9:16 vertical, static camera. Leo flinches and grabs his head with both hands as the calendar pages rip off one after another. Calendar pages fly off and swipe out of frame to the right, crumpled papers bounce in the bin. Smooth lively motion-graphics, flat colors preserved, protagonist face and outfit stay consistent. No zoom, no text, no 3D.
+Text/SFX: Word "WASTED" — multi-color rainbow knockout at 00:19.3; SFX whoosh on each word; paper flutter at 00:16.6; low bed under voice (-18dB).
+
+----------------------------------------------------------------
+[SCENE 04] — 00:22.2 / 00:29.5
+Spoken: "What — do you think some magical fairy is going to turn up and fix your life?"
+Visual: Leo asleep on the sofa while a tiny fairy sprinkles sparkles. Props: sofa, cushion, blanket, phone, wand.
+Keyframe: Vibrant 2D flat vector cartoon explainer illustration, 9:16 vertical. Leo — curly dark hair, warm brown skin, mustard-yellow hoodie, red sneakers — with an expressive cartoon face, asleep on a sofa with a hopeful dreamy smile under a blanket, while a tiny cartoon fairy with a star wand hovers just above him, inside a living room with a cushion, a dropped phone on the rug and a floor lamp. Deep indigo-navy #18193F background with golden yellow #E0B828 and hot pink #C028C8 accents. Soft gradient lighting, subtle glow. PROTAGONIST IN LOWER THIRD OF FRAME ONLY; upper 45% calm empty negative space reserved for caption. Clean geometric shapes, flat color fills, no painterly texture, no realistic clouds, no ornate detail. No text, no letters, no logos, no 3D, no photorealism.
+Animate: 2D flat vector cartoon animation, 9:16 vertical, static camera. Leo smiles in his sleep and snuggles deeper into the cushion as the fairy circles above him. The fairy waves her wand, golden sparkles swirl down around him and drift away. Smooth lively motion-graphics, flat colors preserved, protagonist face and outfit stay consistent. No zoom, no text, no 3D.
+Text/SFX: Word "FAIRY" — multi-color rainbow knockout at 00:24.9; SFX whoosh on each word; magic shimmer at 00:23.0; low bed under voice (-18dB).
+
+----------------------------------------------------------------
+[SCENE 05] — 00:29.5 / 00:37.1
+Spoken: "Genuinely? Because that's how you're acting. Lock in. You're starting today, right now."
+Visual: Leo covered in cobwebs on the sofa, then springing up. Props: sofa, cobwebs, cushions, phone, wall clock.
+Keyframe: Vibrant 2D flat vector cartoon explainer illustration, 9:16 vertical. Leo — curly dark hair, warm brown skin, mustard-yellow hoodie, red sneakers — with an expressive cartoon face, sitting on a sofa with arms crossed and a bored impatient face, cobwebs stretching from his elbow to the armrest, inside a living room with tumbling cushions, a phone on the armrest and a small clock low beside the sofa. Deep indigo-navy #18193F background with cyan #49C3D4 and golden yellow #E0B828 accents. Soft gradient lighting, subtle glow. PROTAGONIST IN LOWER THIRD OF FRAME ONLY; upper 45% calm empty negative space reserved for caption. Clean geometric shapes, flat color fills, no painterly texture, no realistic clouds, no ornate detail. No text, no letters, no logos, no 3D, no photorealism.
+Animate: 2D flat vector cartoon animation, 9:16 vertical, static camera. Leo rolls his eyes, then suddenly springs up off the sofa with a determined face, snapping the cobwebs. Cobweb strands snap and fly off, cushions tumble, the phone flips off the armrest, sparkles burst. Smooth lively motion-graphics, flat colors preserved, protagonist face and outfit stay consistent. No zoom, no text, no 3D.
+Text/SFX: Word "GENUINELY" — multi-color rainbow knockout at 00:29.7; Word "LOCK" — multi-color rainbow knockout at 00:32.8; Word "TODAY" — multi-color rainbow knockout at 00:35.4; Word "NOW" — multi-color rainbow knockout at 00:36.2; SFX whoosh on each word; pop at 00:32.6 (springs up); low bed under voice (-18dB).
+
+----------------------------------------------------------------
+[SCENE 06] — 00:37.1 / 00:45.4
+Spoken: "Start taking steps towards the goal. It doesn't matter if they are big or they are small —"
+Visual: Leo climbing a staircase of big and small blocks toward a flag. Props: blocks, flag, backpack, rocks, small tree.
+Keyframe: Vibrant 2D flat vector cartoon explainer illustration, 9:16 vertical. Leo — curly dark hair, warm brown skin, mustard-yellow hoodie, red sneakers — with an expressive cartoon face, climbing a staircase of big and small colorful flat blocks on a hillside toward a small golden flag, with a backpack on his shoulders, a few round rocks and a small tree beside the path. Deep indigo-navy #18193F background with golden yellow #E0B828 and electric purple #5419C8 accents. Soft gradient lighting, subtle glow. PROTAGONIST IN LOWER THIRD OF FRAME ONLY; upper 45% calm empty negative space reserved for caption. Clean geometric shapes, flat color fills, no painterly texture, no realistic clouds, no ornate detail. No text, no letters, no logos, no 3D, no photorealism.
+Animate: 2D flat vector cartoon animation, 9:16 vertical, static camera. Leo steps up from a small block onto a big block, then onto another small one, determined. Each block lights up as he lands, the little flag waves, sparkles rise off the steps. Smooth lively motion-graphics, flat colors preserved, protagonist face and outfit stay consistent. No zoom, no text, no 3D.
+Text/SFX: Word "STEPS" — multi-color rainbow knockout at 00:38.1; Word "BIG" — multi-color rainbow knockout at 00:42.8; Word "SMALL" — multi-color rainbow knockout at 00:44.5; SFX whoosh on each word; step chime on each landing; low bed under voice (-18dB).
+
+----------------------------------------------------------------
+[SCENE 07] — 00:45.4 / 00:50.7
+Spoken: "just start moving. Slow motion is better than no motion."
+Visual: Leo jogging slowly through a park past a snail and a sleeping sloth. Props: path, bench, snail, sloth, trees.
+Keyframe: Vibrant 2D flat vector cartoon explainer illustration, 9:16 vertical. Leo — curly dark hair, warm brown skin, mustard-yellow hoodie, red sneakers — with an expressive cartoon face, jogging slowly but steadily along a park path, smiling, next to a cute cartoon snail with a determined face, passing a sloth asleep on a park bench, with two round trees. Bright mint #7ED4A8 background with cyan #49C3D4 and golden yellow #E0B828 accents. Soft gradient lighting, subtle glow. PROTAGONIST IN LOWER THIRD OF FRAME ONLY; upper 45% calm empty negative space reserved for caption. Clean geometric shapes, flat color fills, no painterly texture, no realistic clouds, no ornate detail. No text, no letters, no logos, no 3D, no photorealism.
+Animate: 2D flat vector cartoon animation, 9:16 vertical, static camera. Leo jogs forward at an easy pace, giving the snail a thumbs-up as they pass the bench. The snail leaves a glowing trail, the sloth snores, small leaves drift across the path. Smooth lively motion-graphics, flat colors preserved, protagonist face and outfit stay consistent. No zoom, no text, no 3D.
+Text/SFX: Word "MOVING" — multi-color rainbow knockout at 00:46.4; Word "SLOW" — multi-color rainbow knockout at 00:47.4; Word "NO" — multi-color rainbow knockout at 00:49.5; SFX whoosh on each word; pop at 00:45.6; low bed under voice (-18dB).
+
+----------------------------------------------------------------
+[SCENE 08] — 00:50.7 / 00:58.6
+Spoken: "We are running out of time. You weren't put on this earth to just sit there."
+Visual: Leo sinking into an armchair while a globe spins and a clock races. Props: armchair, globe, side table, alarm clock, remote.
+Keyframe: Vibrant 2D flat vector cartoon explainer illustration, 9:16 vertical. Leo — curly dark hair, warm brown skin, mustard-yellow hoodie, red sneakers — with an expressive cartoon face, sinking into a big armchair with a blank face, holding a TV remote, inside a living room with a spinning desk globe and a ticking alarm clock on a low side table beside him. Deep indigo-navy #18193F background with coral red #C6405B and cyan #49C3D4 accents. Soft gradient lighting, subtle glow. PROTAGONIST IN LOWER THIRD OF FRAME ONLY; upper 45% calm empty negative space reserved for caption. Clean geometric shapes, flat color fills, no painterly texture, no realistic clouds, no ornate detail. No text, no letters, no logos, no 3D, no photorealism.
+Animate: 2D flat vector cartoon animation, 9:16 vertical, static camera. Leo sinks lower into the armchair and lazily clicks the remote, not moving otherwise. The globe spins fast, the alarm clock hands race around, small speed lines whip past. Smooth lively motion-graphics, flat colors preserved, protagonist face and outfit stay consistent. No zoom, no text, no 3D.
+Text/SFX: Word "TIME" — multi-color rainbow knockout at 00:53.0; Word "EARTH" — multi-color rainbow knockout at 00:56.1; SFX whoosh on each word; fast tick bed under 00:50.7-00:53.8; low bed under voice (-18dB).
+
+----------------------------------------------------------------
+[SCENE 09] — 00:58.6 / 01:04.2
+Spoken: "You keep telling yourself, "Oh yeah, I'll start tomorrow… or next week" —"
+Visual: Leo playing a console while a to-do stack wobbles beside him. Props: desk, console, paper stack, boxes, lamp.
+Keyframe: Vibrant 2D flat vector cartoon explainer illustration, 9:16 vertical. Leo — curly dark hair, warm brown skin, mustard-yellow hoodie, red sneakers — with an expressive cartoon face, leaning back lazily in a desk chair with a carefree grin, playing a handheld game console, while beside him on the floor a tall wobbly stack of unfinished papers and to-do boxes sways, with a desk and a lamp. Deep indigo-navy #18193F background with hot pink #C028C8 and golden yellow #E0B828 accents. Soft gradient lighting, subtle glow. PROTAGONIST IN LOWER THIRD OF FRAME ONLY; upper 45% calm empty negative space reserved for caption. Clean geometric shapes, flat color fills, no painterly texture, no realistic clouds, no ornate detail. No text, no letters, no logos, no 3D, no photorealism.
+Animate: 2D flat vector cartoon animation, 9:16 vertical, static camera. Leo waves one hand dismissively at the stack while mashing buttons with the other. The paper stack wobbles left and right, a few sheets slide off and drift down. Smooth lively motion-graphics, flat colors preserved, protagonist face and outfit stay consistent. No zoom, no text, no 3D.
+Text/SFX: Word "TOMORROW" — multi-color rainbow knockout at 01:02.1; SFX whoosh on each word; wobble creak at 00:59.5; low bed under voice (-18dB).
+
+----------------------------------------------------------------
+[SCENE 10] — 01:04.2 / 01:09.9
+Spoken: "acting like your youth is a permanent setting. It's not."
+Visual: Leo in a bathroom mirror seeing an old reflection. Props: sink, mirror, toothbrush, towel, cup.
+Keyframe: Vibrant 2D flat vector cartoon explainer illustration, 9:16 vertical. Leo — curly dark hair, warm brown skin, mustard-yellow hoodie, red sneakers — with an expressive cartoon face, standing at a bathroom sink holding a toothbrush, freezing in shock with wide eyes as his reflection in a low wall mirror shows him as an old man with grey curly hair and glasses, with a towel and a toothbrush cup. Deep indigo-navy #18193F background with cyan #49C3D4 and cream #E8DCC8 accents. Soft gradient lighting, subtle glow. PROTAGONIST IN LOWER THIRD OF FRAME ONLY; upper 45% calm empty negative space reserved for caption. Clean geometric shapes, flat color fills, no painterly texture, no realistic clouds, no ornate detail. No text, no letters, no logos, no 3D, no photorealism.
+Animate: 2D flat vector cartoon animation, 9:16 vertical, static camera. Leo freezes mid-brush, eyes go wide, the toothbrush drops from his hand. In the mirror the old reflection slowly blinks and adjusts its glasses, steam curls drift off. Smooth lively motion-graphics, flat colors preserved, protagonist face and outfit stay consistent. No zoom, no text, no 3D.
+Text/SFX: Word "PERMANENT" — multi-color rainbow knockout at 01:06.9; Word "NOT" — multi-color rainbow knockout at 01:08.7; SFX whoosh on each word; pop at 01:08.1 (toothbrush drops); low bed under voice (-18dB).
+
+----------------------------------------------------------------
+[SCENE 11] — 01:09.9 / 01:20.3
+Spoken: "You are actively burning the best years of your life. Now, don't get me wrong. If you're young, just enjoy your childhood."
+Visual: Leo on a park bench glued to his phone while kids play behind him. Props: bench, phone, kite, bicycle, ball.
+Keyframe: Vibrant 2D flat vector cartoon explainer illustration, 9:16 vertical. Leo — curly dark hair, warm brown skin, mustard-yellow hoodie, red sneakers — with an expressive cartoon face, sitting hunched on a park bench staring down at his phone, while behind him happy cartoon kids play: one flies a kite low over the grass, one rides a bicycle, a ball rolls by. Bright sky blue #6FC3E8 background with golden yellow #E0B828 and hot pink #C028C8 accents. Soft gradient lighting, subtle glow. PROTAGONIST IN LOWER THIRD OF FRAME ONLY; upper 45% calm empty negative space reserved for caption. Clean geometric shapes, flat color fills, no painterly texture, no realistic clouds, no ornate detail. No text, no letters, no logos, no 3D, no photorealism.
+Animate: 2D flat vector cartoon animation, 9:16 vertical, static camera. Leo keeps staring at his phone and never looks up while the kids laugh and play around him. The kite swoops, the bicycle rides past, the ball bounces across the grass and out of frame. Smooth lively motion-graphics, flat colors preserved, protagonist face and outfit stay consistent. No zoom, no text, no 3D.
+Text/SFX: Word "BURNING" — multi-color rainbow knockout at 01:11.3; Word "ENJOY" — multi-color rainbow knockout at 01:18.6; SFX whoosh on each word; laughter-pop at 01:14.7 (kids); low bed under voice (-18dB).
+
+----------------------------------------------------------------
+[SCENE 12] — 01:20.3 / 01:25.5
+Spoken: "But for the rest of you… you're running out of time."
+Visual: Leo sprinting after a departing train. Props: platform, train, briefcase, papers, platform clock.
+Keyframe: Vibrant 2D flat vector cartoon explainer illustration, 9:16 vertical. Leo — curly dark hair, warm brown skin, mustard-yellow hoodie, red sneakers — with an expressive cartoon face, sprinting along a flat cartoon train platform with a panicked face, briefcase in hand, chasing a train pulling away, papers flying from his briefcase, a simple round platform clock on a low post. Deep indigo-navy #18193F background with coral red #C6405B and electric purple #5419C8 accents. Soft gradient lighting, subtle glow. PROTAGONIST IN LOWER THIRD OF FRAME ONLY; upper 45% calm empty negative space reserved for caption. Clean geometric shapes, flat color fills, no painterly texture, no realistic clouds, no ornate detail. No text, no letters, no logos, no 3D, no photorealism.
+Animate: 2D flat vector cartoon animation, 9:16 vertical, static camera. Leo sprints flat out, reaching one hand toward the train as it pulls away. Papers fly out behind him and swipe off frame, speed lines streak, the clock hand jumps forward. Smooth lively motion-graphics, flat colors preserved, protagonist face and outfit stay consistent. No zoom, no text, no 3D.
+Text/SFX: Word "TIME" — multi-color rainbow knockout at 01:24.6; SFX whoosh on each word; whoosh of train at 01:21.0; low bed under voice (-18dB).
+
+----------------------------------------------------------------
+[SCENE 13] — 01:25.5 / 01:30.9
+Spoken: "But look at me. The year isn't fully gone yet."
+Visual: Leo in his bedroom turning to face the viewer and pointing. Props: bed, bedside table, alarm clock, window, poster.
+Keyframe: Vibrant 2D flat vector cartoon explainer illustration, 9:16 vertical. Leo — curly dark hair, warm brown skin, mustard-yellow hoodie, red sneakers — with an expressive cartoon face, standing in his bedroom at night, turning to face the viewer directly with a calm serious encouraging face and pointing at the viewer, with a bed, a bedside table, a glowing alarm clock, a low window and a poster. Deep indigo-navy #18193F background with golden yellow #E0B828 and cyan #49C3D4 accents. Soft gradient lighting, subtle glow. PROTAGONIST IN LOWER THIRD OF FRAME ONLY; upper 45% calm empty negative space reserved for caption. Clean geometric shapes, flat color fills, no painterly texture, no realistic clouds, no ornate detail. No text, no letters, no logos, no 3D, no photorealism.
+Animate: 2D flat vector cartoon animation, 9:16 vertical, static camera. Leo turns to face the viewer, raises his hand and points straight at them with a firm nod. The alarm clock glow pulses, small sparkles drift up from the bedside table. Smooth lively motion-graphics, flat colors preserved, protagonist face and outfit stay consistent. No zoom, no text, no 3D.
+Text/SFX: Word "LOOK" — multi-color rainbow knockout at 01:26.1; Word "YET" — multi-color rainbow knockout at 01:30.0; SFX whoosh on each word; pop at 01:25.6 (turn); low bed under voice (-18dB).
+
+----------------------------------------------------------------
+[SCENE 14] — 01:30.9 / 01:37.9
+Spoken: "There are still minutes left on the clock. You can still turn this around."
+Visual: Leo flipping a big hourglass on his desk. Props: desk, hourglass, laptop, notebook, pen cup.
+Keyframe: Vibrant 2D flat vector cartoon explainer illustration, 9:16 vertical. Leo — curly dark hair, warm brown skin, mustard-yellow hoodie, red sneakers — with an expressive cartoon face, standing at his desk gripping a big glowing hourglass with only a little sand left in the top, about to flip it, with a laptop, an open notebook and a pen cup on the desk. Deep indigo-navy #18193F background with golden yellow #E0B828 and electric purple #5419C8 accents. Soft gradient lighting, subtle glow. PROTAGONIST IN LOWER THIRD OF FRAME ONLY; upper 45% calm empty negative space reserved for caption. Clean geometric shapes, flat color fills, no painterly texture, no realistic clouds, no ornate detail. No text, no letters, no logos, no 3D, no photorealism.
+Animate: 2D flat vector cartoon animation, 9:16 vertical, static camera. Leo grabs the hourglass with both hands and flips it upside down onto the desk with a determined grin. Sand starts pouring fresh, a sparkle burst flashes, the notebook pages flutter. Smooth lively motion-graphics, flat colors preserved, protagonist face and outfit stay consistent. No zoom, no text, no 3D.
+Text/SFX: Word "MINUTES" — multi-color rainbow knockout at 01:32.3; Word "TURN" — multi-color rainbow knockout at 01:36.2; SFX whoosh on each word; sparkle burst at 01:35.9 (flip); low bed under voice (-18dB).
+
+----------------------------------------------------------------
+[SCENE 15] — 01:37.9 / 01:43.9
+Spoken: "Or you can choose to let the rest of this year bleed out."
+Visual: Leo slumped on the sofa as the last calendar pages drift away. Props: sofa, phone, coffee table, desk calendar, cans.
+Keyframe: Vibrant 2D flat vector cartoon explainer illustration, 9:16 vertical. Leo — curly dark hair, warm brown skin, mustard-yellow hoodie, red sneakers — with an expressive cartoon face, slumped back on the sofa with a blank tired face, phone glowing in his hand, while the last two pages of a small desk calendar on the coffee table peel off and drift away, with a few empty cans. Deep indigo-navy #18193F background with coral red #C6405B and cream #E8DCC8 accents. Soft gradient lighting, subtle glow. PROTAGONIST IN LOWER THIRD OF FRAME ONLY; upper 45% calm empty negative space reserved for caption. Clean geometric shapes, flat color fills, no painterly texture, no realistic clouds, no ornate detail. No text, no letters, no logos, no 3D, no photorealism.
+Animate: 2D flat vector cartoon animation, 9:16 vertical, static camera. Leo slowly slumps lower, eyelids drooping, ignoring the calendar. The last calendar pages peel off, fade to coral and drift out of frame, the phone glow flickers on his face. Smooth lively motion-graphics, flat colors preserved, protagonist face and outfit stay consistent. No zoom, no text, no 3D.
+Text/SFX: Word "BLEED" — multi-color rainbow knockout at 01:42.6; SFX whoosh on each word; low fade tone at 01:42.0; low bed under voice (-18dB).
+
+----------------------------------------------------------------
+[SCENE 16] — 01:43.9 / 01:51.5
+Spoken: "So what's it going to be? Break the loop today. Close the apps today."
+Visual: Leo slamming his phone into a drawer. Props: dresser drawer, phone, app-icon chain, lamp, plant.
+Keyframe: Vibrant 2D flat vector cartoon explainer illustration, 9:16 vertical. Leo — curly dark hair, warm brown skin, mustard-yellow hoodie, red sneakers — with an expressive cartoon face, standing in his bedroom holding his glowing phone over an open dresser drawer, a loose chain of glowing rounded app-icon links draped around his wrist, with a lamp and a plant on the dresser. Deep indigo-navy #18193F background with hot pink #C028C8 and cyan #49C3D4 accents. Soft gradient lighting, subtle glow. PROTAGONIST IN LOWER THIRD OF FRAME ONLY; upper 45% calm empty negative space reserved for caption. Clean geometric shapes, flat color fills, no painterly texture, no realistic clouds, no ornate detail. No text, no letters, no logos, no 3D, no photorealism.
+Animate: 2D flat vector cartoon animation, 9:16 vertical, static camera. Leo drops the phone into the drawer and slams it shut with a fierce triumphant face. The app-icon chain links snap apart and burst into drifting sparkles, the drawer rattles. Smooth lively motion-graphics, flat colors preserved, protagonist face and outfit stay consistent. No zoom, no text, no 3D.
+Text/SFX: Word "WHAT" — multi-color rainbow knockout at 01:44.5; Word "LOOP" — multi-color rainbow knockout at 01:48.0; Word "CLOSE" — multi-color rainbow knockout at 01:49.4; SFX whoosh on each word; slam pop at 01:48.2; low bed under voice (-18dB).
+
+----------------------------------------------------------------
+[SCENE 17] — 01:51.5 / 01:58.5
+Spoken: "You have to take control. This is your life."
+Visual: Leo back at the scene-1 desk at sunrise, headphones on, working. Props: laptop, headphones, desk lamp, mug, plant.
+Keyframe: Vibrant 2D flat vector cartoon explainer illustration, 9:16 vertical. Leo — curly dark hair, warm brown skin, mustard-yellow hoodie, red sneakers — with an expressive cartoon face, sitting tall at the same desk as the opening scene, headphones on, typing with a confident smile in bright morning light, with a laptop, a desk lamp, a steaming mug and a small plant. Warm yellow #F5D547 background with golden yellow #E0B828 and electric purple #5419C8 accents. Soft gradient lighting, subtle glow. PROTAGONIST IN LOWER THIRD OF FRAME ONLY; upper 45% calm empty negative space reserved for caption. Clean geometric shapes, flat color fills, no painterly texture, no realistic clouds, no ornate detail. No text, no letters, no logos, no 3D, no photorealism.
+Animate: 2D flat vector cartoon animation, 9:16 vertical, static camera. Leo types with confidence, then pumps one fist and nods. Steam rises from the mug, sunbeam sparkles drift across the desk. Hold the last 2 seconds. Smooth lively motion-graphics, flat colors preserved, protagonist face and outfit stay consistent. No zoom, no text, no 3D.
+Text/SFX: Word "CONTROL" — multi-color rainbow knockout at 01:53.4; Word "LIFE" — multi-color rainbow knockout at 01:55.6; SFX whoosh on each word; sparkle pop at 01:54.0 (fist pump); bed fades 01:57.0-01:58.5; low bed under voice (-18dB).
+
+================================================================
+POST-PRODUCTION
+1. Voiceover first (~145 wpm). Nudge each word card to its stressed syllable.
+2. Trim clips to scene windows; hard cuts are fine.
+3. Rainbow-knockout word cards + SFX in the edit. Never two words on screen.
+4. Export 1080x1920. Length ~1:58 (over 60s). TikTok AI label ON.
+================================================================
