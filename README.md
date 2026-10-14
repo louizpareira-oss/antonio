@@ -20,6 +20,7 @@ Plan to make the account eligible for the TikTok Creator Rewards Program after t
 
 - [`scripts/01-forgive-the-past.md`](scripts/01-forgive-the-past.md) — 70s, 20 beats, full shot list and generation prompts.
 - [`prompts/master-prompt-v5.md`](prompts/master-prompt-v5.md) — **master prompt v5: the 3-prompt system rebuilt from the reference measurements (Cartoon Rush and Neon HUD presets).**
+- [`prompts/02-your-brain-isnt-the-enemy-v5-handoff.md`](prompts/02-your-brain-isnt-the-enemy-v5-handoff.md) — v5 remake of video 1: CARTOON RUSH preset, Prompt 3 sections A–F, script, fact check, PHASE MAP and NOUN LIST in one paste.
 - [`prompts/01-forgive-the-past-anime.txt`](prompts/01-forgive-the-past-anime.txt) — **copy-paste pack: all 22 clip prompts, anime style, ready for an AI video generator.**
 
 ## Account snapshot (Sep 2026)

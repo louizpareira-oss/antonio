@@ -18,7 +18,7 @@ full numbers and method are in [`docs/11-reference-speed-teardown.md`](../docs/1
 |---|---|---|---|
 | Speaking speed | 135 wpm | **186–210 wpm** | 185–200 wpm |
 | Words in ~65 s | 149 | **192–242** | 195–215 |
-| Shots | 14 | **19–33** | ≥ 20 (Cartoon) / ≥ 30 (HUD) |
+| Shots | 14 | **19–33** | words ÷ 11 ≈ 19 (Cartoon) / words ÷ 6 ≈ 33 (HUD) |
 | Average shot | 4.7 s | **1.9–3.6 s** | ≤ 3.3 s / ≤ 2.1 s |
 | Shots longer than 5 s | 43% | **0–21%** | ≤ 15% / 0% |
 | Frames where the camera is moving | 7% | **45–98%** | ≥ 50% / ≥ 90% |
@@ -147,7 +147,7 @@ STRUCTURE (measured from the reference timelines; seconds are for a 65 s video):
    RUNNING METAPHOR. Every line carries at least one drawable noun or action. Each new noun
    becomes a new shot.
 6. PAYOFF (5–6 s): connect the mechanism back to the symptom from line 2.
-7. LANDING (6–8 s, 1–2 lines): the identity flip plus a callback to the running metaphor.
+7. LANDING (6–8 s, 18–25 words): the identity flip plus a callback to the running metaphor.
    Speak the title phrase here or in the hook. Do not reuse any earlier line.
 
 VOICE: second person (or first person for a CONFESSION hook). Plain words, short sentences,
