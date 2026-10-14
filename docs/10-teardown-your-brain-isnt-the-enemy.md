@@ -72,6 +72,11 @@ the format. The video is 16:9, and every other doc in this repo commits to 9:16.
 
 ### 1. The format works against your own plan, if this video is for TikTok
 
+> **Update after measuring the references ([doc 11](11-reference-speed-teardown.md)):** all four
+> reference videos are 16:9 on TikTok, so 16:9 matches the style you're modelling and master
+> prompt v5 keeps it. The one conflict left is the sentence in your docs/05 appeal that promises
+> 1080 × 1920. Change that sentence if you post 16:9. Patch A below is now optional.
+
 v4.1 locks 16:9. Docs 01–06 and your re-application text in docs/05 commit to **1080 × 1920, full
 screen, no black bars**. In the TikTok feed, a 16:9 file plays as a band across the middle of the
 phone, with empty space above and below. That is the "black screens" item from your rejection,
