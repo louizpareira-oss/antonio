@@ -26,6 +26,8 @@ Plan to make the account eligible for the TikTok Creator Rewards Program after t
 - [`scripts/02-you-cant-slip-what-you-see.md`](scripts/02-you-cant-slip-what-you-see.md) — first run, "how to slip punches": 10 ideas, 156-word script, fact check, ElevenLabs settings, 20-scene plan with word-card timings.
 - [`prompts/02-you-cant-slip-what-you-see.txt`](prompts/02-you-cant-slip-what-you-see.txt) — **copy-paste pack: 20 image + motion + negative prompts, 9:16, flat vector.**
 - [`scripts/03-five-boxing-scripts.md`](scripts/03-five-boxing-scripts.md) — five more ready-to-record scripts (breathing, heavy bag, body shots, feints, hands home), fact-flagged.
+- [`scripts/04-your-punch-isnt-over.md`](scripts/04-your-punch-isnt-over.md) — script #5 built out: 68.6s, 20 scenes, word-card timings, fact check.
+- [`prompts/04-your-punch-isnt-over.txt`](prompts/04-your-punch-isnt-over.txt) — **copy-paste pack: 20 image + motion + negative prompts for "Your Punch Isn't Over".**
 
 ## Account snapshot (Sep 2026)
 
