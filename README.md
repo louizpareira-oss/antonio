@@ -25,6 +25,7 @@ Plan to make the account eligible for the TikTok Creator Rewards Program after t
 - [`docs/10-jabmax-reference-teardown.md`](docs/10-jabmax-reference-teardown.md) — what the @jabmaxapp reference videos actually do, measured, and what to take or leave.
 - [`scripts/02-you-cant-slip-what-you-see.md`](scripts/02-you-cant-slip-what-you-see.md) — first run, "how to slip punches": 10 ideas, 156-word script, fact check, ElevenLabs settings, 20-scene plan with word-card timings.
 - [`prompts/02-you-cant-slip-what-you-see.txt`](prompts/02-you-cant-slip-what-you-see.txt) — **copy-paste pack: 20 image + motion + negative prompts, 9:16, flat vector.**
+- [`scripts/03-five-boxing-scripts.md`](scripts/03-five-boxing-scripts.md) — five more ready-to-record scripts (breathing, heavy bag, body shots, feints, hands home), fact-flagged.
 
 ## Account snapshot (Sep 2026)
 
