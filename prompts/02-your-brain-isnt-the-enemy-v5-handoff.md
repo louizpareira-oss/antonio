@@ -1,40 +1,57 @@
-# Hand-off: "Your Brain Isn't the Enemy" (master prompt v5.1, CARTOON RUSH)
+# Hand-off: "Your Brain Isn't the Enemy" (master prompt v5.2, CARTOON RUSH · DENSE CUT)
 
 This is everything Prompt 3 needs that you didn't have yet: the preset, Prompt 3 sections A–F
 (copied word for word from [`master-prompt-v5.md`](master-prompt-v5.md)) and the Prompt 2 output
 (script, fact check, PHASE MAP, NOUN LIST). You already have G–J (edit/sound, generation tips,
 negative prompts, output format). Paste the block below, then paste G–J under it.
 
-**Preset: CARTOON RUSH.** It matches your flat-vector look, and the merchant/market metaphor is a
-cartoon world (stalls, coins, characters). A brain topic in NEON HUD would look like a copy of
-@thecognitionswitch.
+**Preset: CARTOON RUSH · DENSE CUT** (preset 3): the cartoon look at HUD pace. Cartoon suits
+the merchant/market metaphor (stalls, coins, characters). A brain topic in NEON HUD would look
+like a copy of @thecognitionswitch. This script checks out at DENSE CUT pace: 31 shots, all
+1.26–3.0 s (see SHOT PLAN at the bottom).
 
 ```
-PRESET 1 — CARTOON RUSH   (measured from @iddietothissong, 2 videos)
-LOOK: saturated flat-vector cartoon. Candy purple, electric lime, hot orange, cyan, magenta.
-  Measured mean saturation 0.76–0.78 (your v4.1 video: 0.58). Never pastel, never muted.
-PACE: 19 shots per 69 s. Average shot 3.6 s, median 2.7–3.5 s. At most 1 shot in 5 is longer
-  than 5 s, and at most 2 longer than 6 s (measured 2–3; longest 8.3 s), only on emotional
-  or scale beats and never the final shot. About 12 spoken words per shot.
-CAST: people, objects with faces, and ANIMALS with faces (a bird flexing in a gym, a sick bird
-  on a couch, a chick driving through speed lines). Multi-figure scenes with 3–4 characters,
-  all moving at once (a gym where everyone is working out).
-ANGLES: top-down (a bedroom seen from above), isometric (a money tower), low-angle, and wide
-  landscapes crossed by a slow pan.
-CAMERA: moving in 45–55% of all frames. Pans ≈ 12% of frame width per second (a slow but
-  clearly visible slide), push-ins ≈ 4–6% per second, tracking alongside a moving character.
-ACTION: characters act the whole clip: push-ups, running, slamming a desk, flying, fighting,
-  a money tower building itself. Never "move once, then hold".
-JUMP-CUT SETS: the same setting re-posed 3–4 times and cut every 1–2 s (reference: 4 shots of
-  one bedroom in the first 6.8 s, each with a new pose and angle).
-PUNCTUATION: 1–2 single white flash frames per video, on the hardest-hitting word. Comic
-  impact stars on hits.
-TEXT: cap height 14–15% of frame height, centred at 50%. White + DIFFERENCE blend.
-VOICE: 190–210 wpm. Punchy and conversational: a first-person confession ("I don't want to…")
-  or tough love ("Lock in.").
+PRESET 3 — CARTOON RUSH · DENSE CUT  (cartoon look at HUD pace)
+LOOK (identical to CARTOON RUSH — do NOT borrow HUD visuals):
+  Saturated flat-vector cartoon. Candy purple, electric lime, hot orange, cyan,
+  magenta. Mean saturation ≥0.75. Never pastel, never muted, never black bg.
+  People, objects with faces, and ANIMALS with faces. Multi-figure scenes (2–4
+  characters all moving). Top-down, low-angle, isometric, wide-with-pan.
+PACE (borrowed from HUD — the only thing borrowed):
+  SHOT COUNT = script words ÷ 7, round UP. (199 words → 29 shots. Max-density
+    option: ÷6 → 34 shots. Never below ÷8.)
+  SHOT LENGTH: 1.2–3.0 s. At most ONE shot may reach 4–5 s, only on the single
+    emotional peak line [HOLD]. No shot ever >5 s. No long landing hold.
+  FIRST CUT within 1.5 s, OR a character in full motion from frame 1.
+  FINAL SHOT 2.5–4 s. Video ends ≤0.5 s after the last word.
+  JUMP-CUT SETS: at least 2 per video. One setting, 3–4 re-posed variants
+    (new pose + new angle + new framing), cut every 1–1.5 s on phrase boundaries.
+COHERENCE (the "every frame makes sense" rule — from HUD's noun list):
+  Every shot maps to exactly one drawable noun/action in the NOUN LIST.
+  If a shot cannot be named by a noun from the script, delete it. One shot =
+  one idea. Multi-action nouns ("weighs price against coins") split into two
+  shots. No generic b-roll, no atmosphere filler.
+CAMERA: moving in ≥70% of shots. Slow pan ≈12% frame-width/s, push-in ≈5%/s,
+  tracking beside a moving character, slow orbit. Named per shot with speed.
+ACTION: runs the WHOLE clip. Strong verb + speed word ("sprints", "slams",
+  "fills up quickly", "launches"). Plus 1–2 background loops. No frozen
+  moment >0.5 s. Allowed: impact stars, speed lines, smoke bursts, coin bursts.
+PUNCTUATION: 1–2 single white flash frames on the hardest-hitting word.
+  Comic impact stars on physical hits. All cuts = hard cuts. No glitches/whips.
+TEXT: white #FFFFFF, blend mode DIFFERENCE, cap height 14–15% of frame,
+  centered. Min hold 6 frames (0.2 s). Fast words share a card ("GIVE YOURSELF").
+  Middle 30% of every image must be clearly dark or clearly bright (text band).
+VOICE: 190–210 wpm. Punchy, conversational. Any hook type from Prompt 1;
+  first-person confession or tough love fit best. In the editor, delete every
+  gap >0.3 s except marked ⏸ beats.
+CAST ROTATION: person / object-or-ANIMAL with face / multi-figure crowd /
+  abstract. No two adjacent shots share a type, except inside a jump-cut set.
+MOTIF: one recurring object/shape returns at 2–3 beats. Flag those shots.
+ANTI-COPY: never reuse a hook, metaphor, prop or composition from the reference
+  channels or from examples in this prompt system.
 
 ============================================================
-PROMPT 3 — SECTIONS A–F (verbatim from master-prompt-v5.md, v5.1)
+PROMPT 3 — SECTIONS A–F (verbatim from master-prompt-v5.md, v5.2)
 ============================================================
 ROLE: You are the Visual Director and Prompt Engineer. You turn a finished script into a
 FAST, shot-by-shot production plan for a 16:9 animated video. Images and motion clips are
@@ -49,20 +66,27 @@ A. FORMAT
 ============================================================
 B. PRESET
 ============================================================
-Paste ONE preset block (CARTOON RUSH or NEON HUD). Every number in it is a hard rule.
+Paste ONE preset block (CARTOON RUSH, CARTOON RUSH · DENSE CUT or NEON HUD). Every number in it
+is a hard rule.
 
 ============================================================
 C. PACING (the main change from v4.1)
 ============================================================
-- SHOT COUNT = script words ÷ 11 (CARTOON RUSH) or ÷ 6 (NEON HUD). Round UP.
-- A NEW SHOT starts on every new drawable noun in the NOUN LIST (HUD) or every new sentence
-  (CARTOON). One shot = one idea.
+- SHOT COUNT = script words ÷ 11 (CARTOON RUSH), ÷ 7 (DENSE CUT) or ÷ 6 (NEON HUD). Round UP.
+- A NEW SHOT starts on every new drawable noun in the NOUN LIST (HUD, DENSE CUT) or every new
+  sentence (CARTOON RUSH). One shot = one idea.
+- DENSE CUT COHERENCE: every shot maps to exactly one noun in the NOUN LIST. A noun whose lines
+  run past 3.0 s splits into two shots. No b-roll, no filler shots.
 - SHOT LENGTH: CARTOON 1.5–5 s; at most 2 shots longer than 6 s (max 8 s), only on [HOLD]
-  lines, never the final shot. HUD 1.2–3 s, never longer.
-- FIRST CUT within the first 2.0 s, or (CARTOON only) a character in full motion from frame 1.
-- FINAL SHOT 3–5 s. The video ends no more than 0.5 s after the last word. NO long landing hold.
-- JUMP-CUT SETS (CARTOON): at least 2 per video. One setting, 3–4 re-posed variants
-  (new pose, new angle, new framing), cut every 1–2 s on phrase boundaries.
+  lines, never the final shot. DENSE CUT 1.2–3 s; at most one shot of 4–5 s, on the [HOLD]
+  line; never over 5 s. HUD 1.2–3 s, never longer.
+- FIRST CUT within the first 2.0 s (DENSE CUT: 1.5 s), or (cartoon presets only) a character in
+  full motion from frame 1.
+- FINAL SHOT 3–5 s (DENSE CUT: 2.5–4 s). The video ends no more than 0.5 s after the last word.
+  NO long landing hold.
+- JUMP-CUT SETS (both cartoon presets): at least 2 per video. One setting, 3–4 re-posed
+  variants (new pose, new angle, new framing), cut every 1–2 s (DENSE CUT: 1–1.5 s) on phrase
+  boundaries.
 
 ============================================================
 D. MOTION (replaces v4.1 "locked camera / calm motion")
@@ -70,7 +94,8 @@ D. MOTION (replaces v4.1 "locked camera / calm motion")
 Every shot has BOTH:
 1. A CAMERA MOVE, named with a speed:
    CARTOON: slow pan left/right (≈ 12% of frame width per second), push-in (≈ 5%/s),
-     tracking shot beside a moving character, slow orbit. Camera moving in ≥ 50% of shots.
+     tracking shot beside a moving character, slow orbit. Camera moving in ≥ 50% of shots
+     (DENSE CUT: ≥ 70%).
    HUD: fast push-in (subject doubles in size over the shot), fly-through, dolly through
      a tunnel of data, orbit around the object. Camera moving in ≥ 90% of shots.
 2. A SUBJECT ACTION that runs the WHOLE clip, with a strong verb and a speed word: "sprints",
@@ -108,7 +133,7 @@ F. ON-SCREEN TEXT (editor only, never in AI generation)
 ============================================================
 - Make the cards from the recorded VO with auto-captions, set to one word per caption.
 - Font: heavy rounded or geometric sans, ALL CAPS, white #FFFFFF, blend mode DIFFERENCE.
-- Size: CARTOON cap height 14–15% of frame height. HUD cap height 6.5%. Centred, middle of
+- Size: cap height 14–15% of frame height for both cartoon presets. HUD cap height 6.5%. Centred, middle of
   frame.
 - Every card cuts in on its word's first syllable and out when the next word starts.
 - MINIMUM HOLD 6 frames (0.2 s). A faster word shares one card with the next word
@@ -185,7 +210,7 @@ Line-by-line starts: 0.0 · 2.5 · 4.4 · 6.6 · 8.5 · 10.7 · 12.0 · 13.9 · 
 52.4 · 54.0 · ⏸ · 56.8 · 58.7 · 60.3 · 61.8 → end ≈ 64.0
 MOTIF: a gold coin — the payment (line 13), the phone's coins (line 21), the checkmark that
 turns into a coin (line 28). Flag those shots.
-MARKERS: [FLASH] on lines 17 and 29. [HOLD]: none (no shot needs to run past 6 s).
+MARKERS: [FLASH] on lines 17 and 29. [HOLD]: none.
 RUNNING METAPHOR: the brain as a merchant at a market stall (price = effort, payment = reward).
 IDENTITY FLIP: "enemy" → "merchant you can make a deal with".
 MECHANISM RULE: two sides (price, payment) → the landing acts on both (cut the price, pay
@@ -221,7 +246,13 @@ with a checkmark).
 26. a checkmark turning into a gold coin that drops into the merchant's palm [28]
 27. the brain pulling off a villain mask [29]
 28. the merchant and the viewer shaking hands over the stall [30]
-Shot count for CARTOON RUSH: 199 ÷ 11 = 18.1 → at least 19 shots. 28 nouns, so group
-neighbouring nouns into shots. Jump-cut set candidates: nouns 3–5 (the couch room, re-posed
-3 times) and nouns 10–16 (the market stall, re-posed).
+SHOT PLAN FOR DENSE CUT: 199 ÷ 7 = 28.4 → at least 29 shots. One shot per noun (28), and the
+three nouns whose lines run past 3.0 s split into two shots each:
+  noun 10 (3.2 s) → a: the head opens like a door onto a market · b: the merchant behind the stall
+  noun 15 (3.8 s) → a: a finger frozen above a task · b: the merchant weighs tag vs coins on a scale
+  noun 23 (3.5 s) → a: the laptop sinks the seesaw · b: the phone floats up
+= 31 shots, each 1.26–3.0 s at 190 wpm. No [HOLD] needed.
+Jump-cut set candidates: nouns 3–5 (the couch room, re-posed 3 times, cut every 1–1.5 s) and
+nouns 10–16 (the market stall, re-posed).
+(For plain CARTOON RUSH instead: paste PRESET 1 from master-prompt-v5.md; 199 ÷ 11 → 19 shots.)
 ```

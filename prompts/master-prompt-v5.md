@@ -1,4 +1,4 @@
-# MASTER PROMPT SYSTEM v5.1: Fast Explainer Shorts (16:9 horizontal)
+# MASTER PROMPT SYSTEM v5.2: Fast Explainer Shorts (16:9 horizontal)
 
 There are three prompts, run in order:
 
@@ -18,7 +18,7 @@ full numbers and method are in [`docs/11-reference-speed-teardown.md`](../docs/1
 |---|---|---|---|
 | Speaking speed | 135 wpm | **186–210 wpm** | 185–200 wpm |
 | Words in ~65 s | 149 | **192–242** | 195–215 |
-| Shots | 14 | **19–33** | words ÷ 11 ≈ 19 (Cartoon) / words ÷ 6 ≈ 33 (HUD) |
+| Shots | 14 | **19–33** | words ÷ 11 ≈ 19 (Cartoon) / ÷ 7 ≈ 29 (Dense Cut) / ÷ 6 ≈ 33 (HUD) |
 | Average shot | 4.7 s | **1.9–3.6 s** | ≤ 3.3 s / ≤ 2.1 s |
 | Shots longer than 5 s | 43% | **0–21%** | ≤ 15% / 0% |
 | Frames where the camera is moving | 7% | **45–98%** | ≥ 50% / ≥ 90% |
@@ -31,6 +31,10 @@ full numbers and method are in [`docs/11-reference-speed-teardown.md`](../docs/1
 by theme, a recurring motif, animal and multi-figure casts, top-down/low-angle/isometric views,
 up to 2 holds over 6 s in the cartoon style (measured 2–3), and planning flashes and black
 beats in the script.
+
+**v5.2** adds PRESET 3, CARTOON RUSH · DENSE CUT: the cartoon look at HUD pace. Presets 1 and 2
+are each measured from one channel. Preset 3 combines the two sets of measurements, so it stays
+untested until you post a video made with it and measure it.
 
 What did **not** need to change: 16:9 (all four references are 16:9 on TikTok), 30 fps, word-by-word
 cards in white with DIFFERENCE blend (all four use it), card size for the cartoon style (≈ 14% cap
@@ -91,6 +95,47 @@ MOTIF: one graphic bookends the video. The ring loader appears near the start an
 VOICE: 185–195 wpm, calm and certain, second person, built around a "Why do you…?" question.
 ```
 
+```
+PRESET 3 — CARTOON RUSH · DENSE CUT  (cartoon look at HUD pace)
+LOOK (identical to CARTOON RUSH — do NOT borrow HUD visuals):
+  Saturated flat-vector cartoon. Candy purple, electric lime, hot orange, cyan,
+  magenta. Mean saturation ≥0.75. Never pastel, never muted, never black bg.
+  People, objects with faces, and ANIMALS with faces. Multi-figure scenes (2–4
+  characters all moving). Top-down, low-angle, isometric, wide-with-pan.
+PACE (borrowed from HUD — the only thing borrowed):
+  SHOT COUNT = script words ÷ 7, round UP. (199 words → 29 shots. Max-density
+    option: ÷6 → 34 shots. Never below ÷8.)
+  SHOT LENGTH: 1.2–3.0 s. At most ONE shot may reach 4–5 s, only on the single
+    emotional peak line [HOLD]. No shot ever >5 s. No long landing hold.
+  FIRST CUT within 1.5 s, OR a character in full motion from frame 1.
+  FINAL SHOT 2.5–4 s. Video ends ≤0.5 s after the last word.
+  JUMP-CUT SETS: at least 2 per video. One setting, 3–4 re-posed variants
+    (new pose + new angle + new framing), cut every 1–1.5 s on phrase boundaries.
+COHERENCE (the "every frame makes sense" rule — from HUD's noun list):
+  Every shot maps to exactly one drawable noun/action in the NOUN LIST.
+  If a shot cannot be named by a noun from the script, delete it. One shot =
+  one idea. Multi-action nouns ("weighs price against coins") split into two
+  shots. No generic b-roll, no atmosphere filler.
+CAMERA: moving in ≥70% of shots. Slow pan ≈12% frame-width/s, push-in ≈5%/s,
+  tracking beside a moving character, slow orbit. Named per shot with speed.
+ACTION: runs the WHOLE clip. Strong verb + speed word ("sprints", "slams",
+  "fills up quickly", "launches"). Plus 1–2 background loops. No frozen
+  moment >0.5 s. Allowed: impact stars, speed lines, smoke bursts, coin bursts.
+PUNCTUATION: 1–2 single white flash frames on the hardest-hitting word.
+  Comic impact stars on physical hits. All cuts = hard cuts. No glitches/whips.
+TEXT: white #FFFFFF, blend mode DIFFERENCE, cap height 14–15% of frame,
+  centered. Min hold 6 frames (0.2 s). Fast words share a card ("GIVE YOURSELF").
+  Middle 30% of every image must be clearly dark or clearly bright (text band).
+VOICE: 190–210 wpm. Punchy, conversational. Any hook type from Prompt 1;
+  first-person confession or tough love fit best. In the editor, delete every
+  gap >0.3 s except marked ⏸ beats.
+CAST ROTATION: person / object-or-ANIMAL with face / multi-figure crowd /
+  abstract. No two adjacent shots share a type, except inside a jump-cut set.
+MOTIF: one recurring object/shape returns at 2–3 beats. Flag those shots.
+ANTI-COPY: never reuse a hook, metaphor, prop or composition from the reference
+  channels or from examples in this prompt system.
+```
+
 ---
 
 ## PROMPT 1: CONTENT IDEAS
@@ -102,7 +147,7 @@ time. The videos are FAST: 185–210 words per minute, a new picture every 2–4
 camera that is almost always moving.
 
 TASK: Generate 10 video ideas on the theme I give you, for the PRESET I name
-(CARTOON RUSH or NEON HUD). If I don't name one, pick it per idea.
+(CARTOON RUSH, CARTOON RUSH · DENSE CUT or NEON HUD). If I don't name one, pick it per idea.
 
 EVERY IDEA MUST HAVE:
 1. TITLE: 3–6 words. The title phrase must be speakable as a line in the script.
@@ -121,8 +166,9 @@ EVERY IDEA MUST HAVE:
    is a hidden strength ("You aren't lazy, you're …").
 7. FACT TO VERIFY: every number, study or named term the idea depends on, or "none".
 8. EMOTION ARC: start emotion → end emotion, with a colour mood for each phase.
-9. PRESET PICK: CARTOON RUSH or NEON HUD, with a one-line reason. NEON HUD suits brain / body /
-   science-of-you ideas; CARTOON RUSH suits motivation / time / discipline / perspective.
+9. PRESET PICK: CARTOON RUSH, DENSE CUT or NEON HUD, with a one-line reason. NEON HUD suits
+   brain / body / science-of-you ideas; CARTOON RUSH suits motivation / time / discipline /
+   perspective; DENSE CUT suits the same themes when the mechanism has many drawable nouns.
 10. MOTIF: one simple shape or object that returns at 2–3 beats (opening, mechanism peak,
    landing), e.g. a ring, a waveform, a coin, a doorway.
 
@@ -134,7 +180,7 @@ RULES:
 - No two ideas share a hook type AND a running metaphor.
 - Do not reuse hooks, metaphors or props from any example in this prompt system.
 OUTPUT: a numbered list, one block per idea, no commentary.
-PRESET: [CARTOON RUSH / NEON HUD]
+PRESET: [CARTOON RUSH / DENSE CUT / NEON HUD]
 THEME: [paste theme here]
 ```
 
@@ -156,6 +202,8 @@ LENGTH AND PACE (measured from the reference channels):
 - PUNCTUATION MARKERS (write them at the end of the line):
   CARTOON RUSH: [FLASH] on the 1–2 hardest-hitting lines; [HOLD] on at most 2 lines whose
   shot may run longer than 6 s.
+  DENSE CUT: [FLASH] on the 1–2 hardest-hitting lines; [HOLD] on at most 1 line (its shot
+  may run 4–5 s).
   NEON HUD: [BLACK] on 3–4 pivot words ("But…"); [FLASH] on the 1 reveal line. No [HOLD].
 
 STRUCTURE (measured from the reference timelines; seconds are for a 65 s video):
@@ -223,20 +271,27 @@ A. FORMAT
 ============================================================
 B. PRESET
 ============================================================
-Paste ONE preset block (CARTOON RUSH or NEON HUD). Every number in it is a hard rule.
+Paste ONE preset block (CARTOON RUSH, CARTOON RUSH · DENSE CUT or NEON HUD). Every number in it
+is a hard rule.
 
 ============================================================
 C. PACING (the main change from v4.1)
 ============================================================
-- SHOT COUNT = script words ÷ 11 (CARTOON RUSH) or ÷ 6 (NEON HUD). Round UP.
-- A NEW SHOT starts on every new drawable noun in the NOUN LIST (HUD) or every new sentence
-  (CARTOON). One shot = one idea.
+- SHOT COUNT = script words ÷ 11 (CARTOON RUSH), ÷ 7 (DENSE CUT) or ÷ 6 (NEON HUD). Round UP.
+- A NEW SHOT starts on every new drawable noun in the NOUN LIST (HUD, DENSE CUT) or every new
+  sentence (CARTOON RUSH). One shot = one idea.
+- DENSE CUT COHERENCE: every shot maps to exactly one noun in the NOUN LIST. A noun whose lines
+  run past 3.0 s splits into two shots. No b-roll, no filler shots.
 - SHOT LENGTH: CARTOON 1.5–5 s; at most 2 shots longer than 6 s (max 8 s), only on [HOLD]
-  lines, never the final shot. HUD 1.2–3 s, never longer.
-- FIRST CUT within the first 2.0 s, or (CARTOON only) a character in full motion from frame 1.
-- FINAL SHOT 3–5 s. The video ends no more than 0.5 s after the last word. NO long landing hold.
-- JUMP-CUT SETS (CARTOON): at least 2 per video. One setting, 3–4 re-posed variants
-  (new pose, new angle, new framing), cut every 1–2 s on phrase boundaries.
+  lines, never the final shot. DENSE CUT 1.2–3 s; at most one shot of 4–5 s, on the [HOLD]
+  line; never over 5 s. HUD 1.2–3 s, never longer.
+- FIRST CUT within the first 2.0 s (DENSE CUT: 1.5 s), or (cartoon presets only) a character in
+  full motion from frame 1.
+- FINAL SHOT 3–5 s (DENSE CUT: 2.5–4 s). The video ends no more than 0.5 s after the last word.
+  NO long landing hold.
+- JUMP-CUT SETS (both cartoon presets): at least 2 per video. One setting, 3–4 re-posed
+  variants (new pose, new angle, new framing), cut every 1–2 s (DENSE CUT: 1–1.5 s) on phrase
+  boundaries.
 
 ============================================================
 D. MOTION (replaces v4.1 "locked camera / calm motion")
@@ -244,7 +299,8 @@ D. MOTION (replaces v4.1 "locked camera / calm motion")
 Every shot has BOTH:
 1. A CAMERA MOVE, named with a speed:
    CARTOON: slow pan left/right (≈ 12% of frame width per second), push-in (≈ 5%/s),
-     tracking shot beside a moving character, slow orbit. Camera moving in ≥ 50% of shots.
+     tracking shot beside a moving character, slow orbit. Camera moving in ≥ 50% of shots
+     (DENSE CUT: ≥ 70%).
    HUD: fast push-in (subject doubles in size over the shot), fly-through, dolly through
      a tunnel of data, orbit around the object. Camera moving in ≥ 90% of shots.
 2. A SUBJECT ACTION that runs the WHOLE clip, with a strong verb and a speed word: "sprints",
@@ -282,7 +338,7 @@ F. ON-SCREEN TEXT (editor only, never in AI generation)
 ============================================================
 - Make the cards from the recorded VO with auto-captions, set to one word per caption.
 - Font: heavy rounded or geometric sans, ALL CAPS, white #FFFFFF, blend mode DIFFERENCE.
-- Size: CARTOON cap height 14–15% of frame height. HUD cap height 6.5%. Centred, middle of
+- Size: cap height 14–15% of frame height for both cartoon presets. HUD cap height 6.5%. Centred, middle of
   frame.
 - Every card cuts in on its word's first syllable and out when the next word starts.
 - MINIMUM HOLD 6 frames (0.2 s). A faster word shares one card with the next word
@@ -328,7 +384,7 @@ watermark, photorealism, flicker
 ============================================================
 J. OUTPUT FORMAT
 ============================================================
-PRESET: [CARTOON RUSH / NEON HUD] · MOTIF: [shape → shot numbers]
+PRESET: [CARTOON RUSH / DENSE CUT / NEON HUD] · MOTIF: [shape → shot numbers]
 TOTAL: [n] shots · [mm:ss] at [wpm] wpm
 FACT CHECK: [each claim → kept / rewritten as …]
 PACE CHECK: shots = [n] (target ≥ words ÷ 11 or ÷ 6) · longest shot [x] s · shots > 5 s:
@@ -356,14 +412,14 @@ SCRIPT: [paste the script, NOUN LIST and PHASE MAP from Prompt 2]
 | Check | How | Pass |
 |---|---|---|
 | Speaking speed | words ÷ seconds of speech × 60 | 185–210 wpm |
-| Shot count | count cuts + 1 | ≥ words ÷ 11 (Cartoon) / ÷ 6 (HUD) |
-| Longest shot | timeline | ≤ 8 s Cartoon (only one over 5 s) / ≤ 3 s HUD |
-| First cut | timeline | ≤ 2.0 s, or a character in full motion from frame 1 |
+| Shot count | count cuts + 1 | ≥ words ÷ 11 (Cartoon) / ÷ 7 (Dense Cut) / ÷ 6 (HUD) |
+| Longest shot | timeline | ≤ 8 s Cartoon (at most 2 over 6 s) / ≤ 5 s Dense Cut (only one over 3 s) / ≤ 3 s HUD |
+| First cut | timeline | ≤ 2.0 s (Dense Cut ≤ 1.5 s), or a character in full motion from frame 1 |
 | Frozen frames | scrub every shot | nothing holds still longer than 0.5 s |
 | Gaps in the voice | waveform | none over 0.3 s except the two ⏸ beats |
 | Word cards | captions track | every card ≥ 6 frames; no old word over a new shot |
 | Cuts on audio hits | listen at every cut | ≥ 70% |
-| Final shot | timeline | 3–5 s, ends ≤ 0.5 s after the last word |
+| Final shot | timeline | 3–5 s (Dense Cut 2.5–4 s), ends ≤ 0.5 s after the last word |
 | Loudness | export meter | −14 to −16 LUFS, peak ≤ −1 dBTP |
 | Text legibility | watch at phone size | every word readable; fall back to solid white if not |
 | AI label | upload screen | AI-generated content label ON |
