@@ -152,6 +152,29 @@ brain-as-supercomputer metaphor is their signature, so v5 forbids it.
 
 ---
 
+## Two more checks: transitions and text colour
+
+**Transitions.** All 36 cuts in A and B were checked frame by frame (2 frames before to 2 frames
+after each one). Every one is a **hard cut**. There is no glitch and no whip. The only special
+transitions are B's white flash frames (4.75 s and 56.8 s), and in the HUD videos the black
+beats and white starbursts. At most cuts the new word card starts on the same frame as the
+new shot.
+
+**Text is white + difference blend, not solid colour.** With solid coloured text, a word keeps
+its colour wherever it sits. In all four references the colour follows the background instead,
+and a single word can be two colours at once:
+
+![one word, two colours: the colour comes from the background](img/reference-text-difference-blend.jpg)
+
+"WHY" is cyan where it crosses the red figure and white over black. In "EMBARRASSING", only
+"BAR" turns cyan, because only that part sits on the red battery. That only happens with
+white text in DIFFERENCE mode.
+
+| Long holds (shots over 6 s) | M | A | B | C | D |
+|---|---|---|---|---|---|
+| Count | 4 | 3 | 2 | 0 | 0 |
+| Final shot is the longest | yes (9.5 s) | no | no | tie at 2.75 s | no |
+
 ## What changed in the master prompt
 
 The full v5 prompt is at [`prompts/master-prompt-v5.md`](../prompts/master-prompt-v5.md).

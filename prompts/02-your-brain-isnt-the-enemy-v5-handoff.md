@@ -1,4 +1,4 @@
-# Hand-off: "Your Brain Isn't the Enemy" (master prompt v5, CARTOON RUSH)
+# Hand-off: "Your Brain Isn't the Enemy" (master prompt v5.1, CARTOON RUSH)
 
 This is everything Prompt 3 needs that you didn't have yet: the preset, Prompt 3 sections A–F
 (copied word for word from [`master-prompt-v5.md`](master-prompt-v5.md)) and the Prompt 2 output
@@ -14,7 +14,13 @@ PRESET 1 — CARTOON RUSH   (measured from @iddietothissong, 2 videos)
 LOOK: saturated flat-vector cartoon. Candy purple, electric lime, hot orange, cyan, magenta.
   Measured mean saturation 0.76–0.78 (your v4.1 video: 0.58). Never pastel, never muted.
 PACE: 19 shots per 69 s. Average shot 3.6 s, median 2.7–3.5 s. At most 1 shot in 5 is longer
-  than 5 s; longest 8 s. About 12 spoken words per shot.
+  than 5 s, and at most 2 longer than 6 s (measured 2–3; longest 8.3 s), only on emotional
+  or scale beats and never the final shot. About 12 spoken words per shot.
+CAST: people, objects with faces, and ANIMALS with faces (a bird flexing in a gym, a sick bird
+  on a couch, a chick driving through speed lines). Multi-figure scenes with 3–4 characters,
+  all moving at once (a gym where everyone is working out).
+ANGLES: top-down (a bedroom seen from above), isometric (a money tower), low-angle, and wide
+  landscapes crossed by a slow pan.
 CAMERA: moving in 45–55% of all frames. Pans ≈ 12% of frame width per second (a slow but
   clearly visible slide), push-ins ≈ 4–6% per second, tracking alongside a moving character.
 ACTION: characters act the whole clip: push-ups, running, slamming a desk, flying, fighting,
@@ -28,7 +34,7 @@ VOICE: 190–210 wpm. Punchy and conversational: a first-person confession ("I d
   or tough love ("Lock in.").
 
 ============================================================
-PROMPT 3 — SECTIONS A–F (verbatim from master-prompt-v5.md)
+PROMPT 3 — SECTIONS A–F (verbatim from master-prompt-v5.md, v5.1)
 ============================================================
 ROLE: You are the Visual Director and Prompt Engineer. You turn a finished script into a
 FAST, shot-by-shot production plan for a 16:9 animated video. Images and motion clips are
@@ -51,7 +57,8 @@ C. PACING (the main change from v4.1)
 - SHOT COUNT = script words ÷ 11 (CARTOON RUSH) or ÷ 6 (NEON HUD). Round UP.
 - A NEW SHOT starts on every new drawable noun in the NOUN LIST (HUD) or every new sentence
   (CARTOON). One shot = one idea.
-- SHOT LENGTH: CARTOON 1.5–5 s (max one shot per video up to 8 s). HUD 1.2–3 s, never longer.
+- SHOT LENGTH: CARTOON 1.5–5 s; at most 2 shots longer than 6 s (max 8 s), only on [HOLD]
+  lines, never the final shot. HUD 1.2–3 s, never longer.
 - FIRST CUT within the first 2.0 s, or (CARTOON only) a character in full motion from frame 1.
 - FINAL SHOT 3–5 s. The video ends no more than 0.5 s after the last word. NO long landing hold.
 - JUMP-CUT SETS (CARTOON): at least 2 per video. One setting, 3–4 re-posed variants
@@ -81,17 +88,20 @@ E. CRAFT RULES (kept from v4.1/v4.2)
 1. ONE SURPRISE per shot: one thing the viewer doesn't expect.
 2. SPECIFIC PROPS: 3–5 props that belong only to this shot (CARTOON). HUD shots use one
    icon plus 1–2 HUD elements instead.
-3. SCALE CONTRAST: no three consecutive shots at the same shot scale.
+3. SCALE AND ANGLE CONTRAST: no three consecutive shots at the same shot scale or angle. Use
+   top-down, low-angle and isometric views as well as close-up / medium / wide.
 4. COLOUR FOLLOWS THE ARC: SYMPTOM/BELIEF = darker and tighter; MECHANISM = brightest and most
    saturated; LANDING = vast (sky, space, horizon). No more than 3 consecutive shots in the
    same hue family. (HUD: alternate red-dominant and cyan/white-dominant shots.)
 5. LIGHTING HAS A SOURCE: state it (CARTOON).
-6. CAST ROTATION (CARTOON): person / object with a face / crowd / abstract. No two adjacent
-   shots share a type, except inside a jump-cut set.
+6. CAST ROTATION (CARTOON): person / object or ANIMAL with a face / crowd or multi-figure
+   scene (2–5 characters, all moving) / abstract. No two adjacent shots share a type, except
+   inside a jump-cut set.
 7. TEXT BAND: the middle 30% of every image (where the word sits) must be clearly dark or
    clearly bright. Never a face or a mid-grey/beige surface there.
 8. ANTI-COPY: never reuse a hook, metaphor, prop or composition from any example in this
    prompt system or from the reference channels' videos.
+9. MOTIF: the idea's motif returns at 2–3 beats. Flag those shots in the output.
 
 ============================================================
 F. ON-SCREEN TEXT (editor only, never in AI generation)
@@ -128,7 +138,7 @@ The payment is the reward you expect to get.
 Relief, pride, or a finished thing.
 Before you move a finger,
 the merchant weighs both on a scale. [FACT]
-Big price, small payment? Deal rejected.
+Big price, small payment? Deal rejected. [FLASH]
 And payments that arrive later look smaller. [FACT]
 A report due in three weeks pays in fog.
 That's like working for free.
@@ -142,7 +152,7 @@ One only costs. The other only pays.
 ⏸
 Cut the price to one sentence.
 Pay it with a checkmark.
-Your brain isn't the enemy.
+Your brain isn't the enemy. [FLASH]
 It's a merchant. Give it a deal.
 
 3. WORD COUNT: 199 words. ESTIMATED LENGTH: ~64.0 s at 190 wpm (incl. two 0.6 s beats).
@@ -173,6 +183,9 @@ It's a merchant. Give it a deal.
 Line-by-line starts: 0.0 · 2.5 · 4.4 · 6.6 · 8.5 · 10.7 · 12.0 · 13.9 · 16.1 · 18.6 · 21.8 ·
 24.3 · 26.5 · 29.4 · 31.3 · 32.8 · 35.1 · 36.9 · 39.2 · 42.0 · 43.6 · 46.1 · 48.3 · ⏸ · 50.5 ·
 52.4 · 54.0 · ⏸ · 56.8 · 58.7 · 60.3 · 61.8 → end ≈ 64.0
+MOTIF: a gold coin — the payment (line 13), the phone's coins (line 21), the checkmark that
+turns into a coin (line 28). Flag those shots.
+MARKERS: [FLASH] on lines 17 and 29. [HOLD]: none (no shot needs to run past 6 s).
 RUNNING METAPHOR: the brain as a merchant at a market stall (price = effort, payment = reward).
 IDENTITY FLIP: "enemy" → "merchant you can make a deal with".
 MECHANISM RULE: two sides (price, payment) → the landing acts on both (cut the price, pay

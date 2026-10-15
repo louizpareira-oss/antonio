@@ -1,4 +1,4 @@
-# MASTER PROMPT SYSTEM v5.0: Fast Explainer Shorts (16:9 horizontal)
+# MASTER PROMPT SYSTEM v5.1: Fast Explainer Shorts (16:9 horizontal)
 
 There are three prompts, run in order:
 
@@ -27,6 +27,11 @@ full numbers and method are in [`docs/11-reference-speed-teardown.md`](../docs/1
 | Final shot | 9.5 s | **2.8–4.9 s** | 3–5 s |
 | Word cards held 0.8 s or longer | 23 | **7–10** | ≤ 8 |
 
+**v5.1** adds six ideas from your own v5 draft that the measurements back up: choose the preset
+by theme, a recurring motif, animal and multi-figure casts, top-down/low-angle/isometric views,
+up to 2 holds over 6 s in the cartoon style (measured 2–3), and planning flashes and black
+beats in the script.
+
 What did **not** need to change: 16:9 (all four references are 16:9 on TikTok), 30 fps, word-by-word
 cards in white with DIFFERENCE blend (all four use it), card size for the cartoon style (≈ 14% cap
 height, same as yours), loudness around −16 LUFS, and your fact-check rules.
@@ -40,7 +45,13 @@ PRESET 1 — CARTOON RUSH   (measured from @iddietothissong, 2 videos)
 LOOK: saturated flat-vector cartoon. Candy purple, electric lime, hot orange, cyan, magenta.
   Measured mean saturation 0.76–0.78 (your v4.1 video: 0.58). Never pastel, never muted.
 PACE: 19 shots per 69 s. Average shot 3.6 s, median 2.7–3.5 s. At most 1 shot in 5 is longer
-  than 5 s; longest 8 s. About 12 spoken words per shot.
+  than 5 s, and at most 2 longer than 6 s (measured 2–3; longest 8.3 s), only on emotional
+  or scale beats and never the final shot. About 12 spoken words per shot.
+CAST: people, objects with faces, and ANIMALS with faces (a bird flexing in a gym, a sick bird
+  on a couch, a chick driving through speed lines). Multi-figure scenes with 3–4 characters,
+  all moving at once (a gym where everyone is working out).
+ANGLES: top-down (a bedroom seen from above), isometric (a money tower), low-angle, and wide
+  landscapes crossed by a slow pan.
 CAMERA: moving in 45–55% of all frames. Pans ≈ 12% of frame width per second (a slow but
   clearly visible slide), push-ins ≈ 4–6% per second, tracking alongside a moving character.
 ACTION: characters act the whole clip: push-ups, running, slamming a desk, flying, fighting,
@@ -74,6 +85,9 @@ PUNCTUATION: 3–4 "black beats" per video (0.25–0.6 s of pure black with only
   on pivot words like "BUT"), plus 1 white starburst flash on the reveal word.
 TEXT: cap height ≈ 6.5% of frame height (small), centred at 49%. White + DIFFERENCE blend
   (it turns cyan over red and gold over blue).
+MOTIF: one graphic bookends the video. The ring loader appears near the start and again near
+  the end of both videos (C at 2.0 s and 50.0 s; D at 2.0 s and 58.3 s); D's red waveform
+  rings return at 45.5 s.
 VOICE: 185–195 wpm, calm and certain, second person, built around a "Why do you…?" question.
 ```
 
@@ -88,7 +102,7 @@ time. The videos are FAST: 185–210 words per minute, a new picture every 2–4
 camera that is almost always moving.
 
 TASK: Generate 10 video ideas on the theme I give you, for the PRESET I name
-(CARTOON RUSH or NEON HUD).
+(CARTOON RUSH or NEON HUD). If I don't name one, pick it per idea.
 
 EVERY IDEA MUST HAVE:
 1. TITLE: 3–6 words. The title phrase must be speakable as a line in the script.
@@ -107,6 +121,10 @@ EVERY IDEA MUST HAVE:
    is a hidden strength ("You aren't lazy, you're …").
 7. FACT TO VERIFY: every number, study or named term the idea depends on, or "none".
 8. EMOTION ARC: start emotion → end emotion, with a colour mood for each phase.
+9. PRESET PICK: CARTOON RUSH or NEON HUD, with a one-line reason. NEON HUD suits brain / body /
+   science-of-you ideas; CARTOON RUSH suits motivation / time / discipline / perspective.
+10. MOTIF: one simple shape or object that returns at 2–3 beats (opening, mechanism peak,
+   landing), e.g. a ring, a waveform, a coin, a doorway.
 
 RULES:
 - Themes: motivation, perspective, time, discipline, mortality, science-of-you.
@@ -135,6 +153,10 @@ LENGTH AND PACE (measured from the reference channels):
 - Lines of 3–10 words. One line = one picture-able thought.
 - NO breathing rows. There are no pauses except at most TWO marked beats (write ⏸), one
   before the PAYOFF and one before the LANDING, each 0.6 s max.
+- PUNCTUATION MARKERS (write them at the end of the line):
+  CARTOON RUSH: [FLASH] on the 1–2 hardest-hitting lines; [HOLD] on at most 2 lines whose
+  shot may run longer than 6 s.
+  NEON HUD: [BLACK] on 3–4 pivot words ("But…"); [FLASH] on the 1 reveal line. No [HOLD].
 
 STRUCTURE (measured from the reference timelines; seconds are for a 65 s video):
 1. HOOK (0–5 s, 12–18 words): the idea's hook. No greeting, no "in this video".
@@ -209,7 +231,8 @@ C. PACING (the main change from v4.1)
 - SHOT COUNT = script words ÷ 11 (CARTOON RUSH) or ÷ 6 (NEON HUD). Round UP.
 - A NEW SHOT starts on every new drawable noun in the NOUN LIST (HUD) or every new sentence
   (CARTOON). One shot = one idea.
-- SHOT LENGTH: CARTOON 1.5–5 s (max one shot per video up to 8 s). HUD 1.2–3 s, never longer.
+- SHOT LENGTH: CARTOON 1.5–5 s; at most 2 shots longer than 6 s (max 8 s), only on [HOLD]
+  lines, never the final shot. HUD 1.2–3 s, never longer.
 - FIRST CUT within the first 2.0 s, or (CARTOON only) a character in full motion from frame 1.
 - FINAL SHOT 3–5 s. The video ends no more than 0.5 s after the last word. NO long landing hold.
 - JUMP-CUT SETS (CARTOON): at least 2 per video. One setting, 3–4 re-posed variants
@@ -239,17 +262,20 @@ E. CRAFT RULES (kept from v4.1/v4.2)
 1. ONE SURPRISE per shot: one thing the viewer doesn't expect.
 2. SPECIFIC PROPS: 3–5 props that belong only to this shot (CARTOON). HUD shots use one
    icon plus 1–2 HUD elements instead.
-3. SCALE CONTRAST: no three consecutive shots at the same shot scale.
+3. SCALE AND ANGLE CONTRAST: no three consecutive shots at the same shot scale or angle. Use
+   top-down, low-angle and isometric views as well as close-up / medium / wide.
 4. COLOUR FOLLOWS THE ARC: SYMPTOM/BELIEF = darker and tighter; MECHANISM = brightest and most
    saturated; LANDING = vast (sky, space, horizon). No more than 3 consecutive shots in the
    same hue family. (HUD: alternate red-dominant and cyan/white-dominant shots.)
 5. LIGHTING HAS A SOURCE: state it (CARTOON).
-6. CAST ROTATION (CARTOON): person / object with a face / crowd / abstract. No two adjacent
-   shots share a type, except inside a jump-cut set.
+6. CAST ROTATION (CARTOON): person / object or ANIMAL with a face / crowd or multi-figure
+   scene (2–5 characters, all moving) / abstract. No two adjacent shots share a type, except
+   inside a jump-cut set.
 7. TEXT BAND: the middle 30% of every image (where the word sits) must be clearly dark or
    clearly bright. Never a face or a mid-grey/beige surface there.
 8. ANTI-COPY: never reuse a hook, metaphor, prop or composition from any example in this
    prompt system or from the reference channels' videos.
+9. MOTIF: the idea's motif returns at 2–3 beats. Flag those shots in the output.
 
 ============================================================
 F. ON-SCREEN TEXT (editor only, never in AI generation)
@@ -293,6 +319,7 @@ text, letters, words, numbers, captions, subtitles, labels, signs with writing, 
 watermark, signature, photorealism, realistic photo, film grain, noise, sketch, painterly
 brushwork, blur, muted colours, pastel, washed-out, distorted anatomy, extra limbs, extra
 fingers, deformed face, letterbox, black bars, split screen, collage, border
+NEON HUD only, also add: daylight, sky, nature, landscape, skin texture
 MOTION NEGATIVE:
 static camera, frozen frame, slow motion, still image, morphing, face distortion, warping
 anatomy, extra limbs, scene change, cut, transition, text, letters, subtitles, logo,
@@ -301,7 +328,7 @@ watermark, photorealism, flicker
 ============================================================
 J. OUTPUT FORMAT
 ============================================================
-PRESET: [CARTOON RUSH / NEON HUD]
+PRESET: [CARTOON RUSH / NEON HUD] · MOTIF: [shape → shot numbers]
 TOTAL: [n] shots · [mm:ss] at [wpm] wpm
 FACT CHECK: [each claim → kept / rewritten as …]
 PACE CHECK: shots = [n] (target ≥ words ÷ 11 or ÷ 6) · longest shot [x] s · shots > 5 s:
