@@ -1,0 +1,6 @@
+{ "title": "thumbnails", "duration": 3,
+  "shots": [
+   { "id": "thumbA", "start": 0, "end": 1, "line": "", "scene": "hero face + ghost truck + Mia on the crosswalk", "bars": "none", "in": { "type": "cut" } },
+   { "id": "thumbB", "start": 1, "end": 2, "line": "", "scene": "two worlds split: real vs +10 s", "bars": "none", "in": { "type": "cut" } },
+   { "id": "thumbC", "start": 2, "end": 3, "line": "", "scene": "glowing eyes with the truck reflected", "bars": "none", "in": { "type": "cut" } }
+  ] }
