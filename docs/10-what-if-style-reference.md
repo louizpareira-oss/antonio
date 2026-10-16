@@ -11,8 +11,9 @@ values. Use this to pick character colours and features for the next 2D studio v
 | 4 | [What IF You Were 10x Faster?](https://youtu.be/y300HjYnHPw) | IFOLOGY | 10:19 | 172K |
 | 5 | [What If Your Body Was 10x Faster?](https://youtu.be/EdXZr09nsdI) | Space Drift | 6:05 | 46K |
 | 6 | [What If You Shrank by Half Every Hour?](https://youtu.be/UDd4izw1oy4) | One Small If | 5:06 | 10K |
+| 7 | [What If Your Heart Beat 10x Faster?](https://www.youtube.com/watch?v=rvyd0ylInfY) | Jeremy Bearimy | 6:16 | — (from the user's 16 screenshots) |
 
-All six are 16:9 long-form (5–10 min). None is vertical.
+All seven are 16:9 long-form (5–10 min). None is vertical.
 
 ## Characters and colours
 
@@ -52,6 +53,22 @@ All six are 16:9 long-form (5–10 min). None is vertical.
 - **Hero:** neon lime hoodie `#76D02A`, white headphones around the neck, navy pants with an orange side stripe, white sneakers with lavender soles; **glowing white outline around the head**.
 - **Maya (friend):** big curly afro, coral zip jacket `#E2684A` with navy trim, slate pants.
 - **Black cat:** amber slit eyes, pink nose, red collar with gold bell; lavender rim.
+
+### 7 · Jeremy Bearimy — Heart Beat 10x Faster (a different figure style)
+- **Figures are WHITE, not black:** off-white lavender heads and limbs (≈ `#ECEAF2`) with a thick dark-navy outline
+  (≈ `#1E2238`), big round heads, short neck stick, round mitten hands and rounded white feet. Faces are drawn in black:
+  oval dot eyes, simple line mouths, closed `^ ^` eyes for happy, half-lid lines for sleepy. Warm gold rim on one edge
+  at dusk, blue-white rim at night.
+- **Hero:** light sky-blue hoodie (≈ `#8FB6E8`, darker blue outline) with a V collar; red smartwatch (≈ `#E8433A`).
+- **Doctor:** white lab coat, blue collar, stethoscope. **Mountain rescuer:** coral-red jacket (≈ `#D9534F`) and a red
+  brimmed helmet with a gold diamond badge, walkie-talkie.
+- **Sets:** dusk mauve/purple town with blurred warm windows; lavender hospital corridor in one-point perspective;
+  hospital room with a red "ERROR · HR TOO HIGH" monitor; low-poly snow-capped mountains at sunset; snowy night with
+  falling snow; log cabin with warm windows; blue bedroom with a frosted window; night skyline.
+- **Graphics:** "♥ HEART RATE / 75 / BPM" (small spaced caps + big cream number); yellow square sticker badges with black
+  numbers (10, 19); big cream "FLOOR 18" / "30 m" labels; red error screen; rocket emblem.
+- **Story:** second-person; chase hook → smartwatch reveal → benefits → costs (eating, nightly torpor) → rescue where
+  benefit and cost collide → the weakness becomes the solution (space travel).
 
 ## Sets and palettes
 - Dusk/twilight dominates (1, 4, 5): purple-to-peach skies, dark facades with warm windows, lamp cones with dust.
