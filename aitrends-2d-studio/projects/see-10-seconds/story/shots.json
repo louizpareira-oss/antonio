@@ -1,0 +1,2992 @@
+{
+ "title": "What If You Could See 10 Seconds Into the Future?",
+ "duration": 278.0,
+ "shots": [
+  {
+   "id": "s001",
+   "start": 0.0,
+   "end": 1.75,
+   "line": "You step back from the curb.",
+   "scene": "Medium side: HERO (blue hoodie) at the curb edge next to MIA on her phone; a cyan ghost bike streaks through his spot; he calmly steps back",
+   "set": "street",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "shimmer",
+     "gain": -16
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "city",
+    "gain": -24
+   }
+  },
+  {
+   "id": "s002",
+   "start": 1.75,
+   "end": 2.85,
+   "line": "One second later,",
+   "scene": "Insert, low: HERO's sneakers step back from the curb edge; a real front wheel enters frame",
+   "set": "street",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.6,
+     "name": "swish",
+     "gain": -14
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "city",
+    "gain": -24
+   }
+  },
+  {
+   "id": "s003",
+   "start": 2.85,
+   "end": 4.3,
+   "line": "a bike flies past,",
+   "scene": "Wide side: grey CYCLIST whips past along the curb between camera and HERO, speed lines",
+   "set": "street",
+   "bars": "scope",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "whoosh",
+     "gain": -6
+    },
+    {
+     "at": 0.3,
+     "name": "carpass",
+     "gain": -14
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "city",
+    "gain": -24
+   }
+  },
+  {
+   "id": "s004",
+   "start": 4.3,
+   "end": 6.3,
+   "line": "exactly where you were standing.",
+   "scene": "FREEZE: bike frozen mid-pass over a dotted outline of where HERO was standing; label 'YOU WERE HERE'",
+   "set": "street",
+   "bars": "scope",
+   "in": {
+    "type": "flash",
+    "dur": 0.35
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "freeze",
+     "gain": -8
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "city",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s005",
+   "start": 6.3,
+   "end": 8.45,
+   "line": "The rider shouts sorry.",
+   "scene": "Medium: CYCLIST rides away looking back over his shoulder, one hand raised, shout rings",
+   "set": "street",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.5,
+     "name": "pop",
+     "gain": -16
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "city",
+    "gain": -24
+   }
+  },
+  {
+   "id": "s006",
+   "start": 8.45,
+   "end": 10.85,
+   "line": "Your best friend, Mia, stares at you.",
+   "scene": "Two-shot: MIA (coral jacket, ponytail) lowers her phone and stares at HERO, shocked; name label MIA",
+   "set": "street",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.95,
+     "name": "blip",
+     "gain": -14
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "city",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s007",
+   "start": 10.85,
+   "end": 12.7,
+   "line": "\"How did you know?\"",
+   "scene": "bigFace MIA: 'How did you know?' (talk synced), surprised",
+   "set": "street",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "city",
+    "gain": -28
+   }
+  },
+  {
+   "id": "s008",
+   "start": 12.7,
+   "end": 14.05,
+   "line": "You didn't hear it.",
+   "scene": "Close-up HERO profile, ear icon with a slash: no sound",
+   "set": "street",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "blip",
+     "gain": -16
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "city",
+    "gain": -28
+   }
+  },
+  {
+   "id": "s009",
+   "start": 14.05,
+   "end": 15.65,
+   "line": "You didn't see it coming.",
+   "scene": "OTS from behind HERO: the bike came from behind him; eye icon with a slash",
+   "set": "street",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "blip",
+     "gain": -16
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "city",
+    "gain": -28
+   }
+  },
+  {
+   "id": "s010",
+   "start": 15.65,
+   "end": 18.6,
+   "line": "You saw it ten seconds ago.",
+   "scene": "bigFace HERO: eyes turn to cyan rings, the ghost bike reflected; HUD 'T-10' appears",
+   "set": "street",
+   "bars": "scope",
+   "in": {
+    "type": "flash",
+    "dur": 0.35
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "shimmer",
+     "gain": -8
+    },
+    {
+     "at": 0.6,
+     "name": "powerup",
+     "gain": -12
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "city",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s011",
+   "start": 18.6,
+   "end": 22.4,
+   "line": "What if you could see ten seconds into the future?",
+   "scene": "TITLE over a dusk street with a cyan double-exposure copy drifting ahead: WHAT IF YOU COULD SEE / 10 SECONDS INTO THE FUTURE?",
+   "set": "street",
+   "bars": "scope",
+   "in": {
+    "type": "fade",
+    "dur": 0.6
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "riser",
+     "gain": -10
+    },
+    {
+     "at": 0.4,
+     "name": "stinger",
+     "gain": -8
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "city",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s012",
+   "start": 22.4,
+   "end": 24.15,
+   "line": "It starts on a Tuesday.",
+   "scene": "Establishing: morning kitchen, HERO at the table with cereal, calendar shows TUESDAY",
+   "set": "kitchen",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.7
+   },
+   "sfx": [
+    {
+     "at": 1.0,
+     "name": "blip",
+     "gain": -16
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s013",
+   "start": 24.15,
+   "end": 24.95,
+   "line": "You blink,",
+   "scene": "Extreme close-up on HERO's eyes: a slow blink, cyan flicker",
+   "set": "kitchen",
+   "bars": "scope",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "glitch",
+     "gain": -16
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s014",
+   "start": 24.95,
+   "end": 28.55,
+   "line": "and for a moment there are two worlds on top of each other.",
+   "scene": "The kitchen doubles: a cyan translucent copy slides ahead of the real one; HERO looks around, confused",
+   "set": "kitchen",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "shimmer",
+     "gain": -10
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s015",
+   "start": 28.55,
+   "end": 29.75,
+   "line": "The real one...",
+   "scene": "Split screen begins: only the warm REAL kitchen, label REAL",
+   "set": "kitchen",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s016",
+   "start": 29.75,
+   "end": 33.55,
+   "line": "and a faint blue copy, running ten seconds ahead.",
+   "scene": "Split screen: the cyan copy wipes in on the right, label +10 s; HUD pill 'BLUE WORLD +10 s'",
+   "set": "kitchen",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "swish",
+     "gain": -12
+    },
+    {
+     "at": 1.0,
+     "name": "blip",
+     "gain": -14
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s017",
+   "start": 33.55,
+   "end": 36.8,
+   "line": "In the blue world, your phone slides off the table.",
+   "scene": "Medium on the table: the cyan ghost phone slides off the edge and falls; the real phone sits still; HERO's eyes follow",
+   "set": "kitchen",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 1.6,
+     "name": "hit",
+     "gain": -16
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s018",
+   "start": 36.8,
+   "end": 39.5,
+   "line": "In the real world, it hasn't moved yet.",
+   "scene": "Insert: real phone resting at the table edge, its cyan ghost already on the floor; countdown HUD",
+   "set": "kitchen",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "tick",
+     "gain": -14
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s019",
+   "start": 39.5,
+   "end": 40.43,
+   "line": "You wait.",
+   "scene": "bigFace HERO, calm, eyes on the phone",
+   "set": "kitchen",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "tick",
+     "gain": -14
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s020",
+   "start": 40.43,
+   "end": 43.21,
+   "line": "Seven. Eight. Nine.",
+   "scene": "Insert push-in on the phone; big numbers 7, 8, 9 pop on the words",
+   "set": "kitchen",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "tick",
+     "gain": -10
+    },
+    {
+     "at": 1.11,
+     "name": "tick",
+     "gain": -10
+    },
+    {
+     "at": 1.92,
+     "name": "tick",
+     "gain": -10
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s021",
+   "start": 43.21,
+   "end": 44.37,
+   "line": "It slides.",
+   "scene": "The real phone slides off the edge, matching the ghost",
+   "set": "kitchen",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "swish",
+     "gain": -10
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s022",
+   "start": 44.37,
+   "end": 46.24,
+   "line": "You catch it without looking.",
+   "scene": "Medium: HERO catches the phone one-handed while looking away, sipping coffee; smirk",
+   "set": "kitchen",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.35,
+     "name": "hit",
+     "gain": -10
+    },
+    {
+     "at": 0.5,
+     "name": "ding",
+     "gain": -14
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s023",
+   "start": 46.24,
+   "end": 47.75,
+   "line": "The rules are simple.",
+   "scene": "Blueprint card: THE RULES",
+   "set": "rules",
+   "bars": "none",
+   "in": {
+    "type": "zoom",
+    "dur": 0.45
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "pop",
+     "gain": -12
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "id": "s024",
+   "start": 47.75,
+   "end": 50.91,
+   "line": "You only see what your own eyes are going to see.",
+   "scene": "Blueprint rule 1: line-figure with a cyan eye cone, only what's inside the cone glows. ONLY YOUR EYES",
+   "set": "rules",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "blip",
+     "gain": -12
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "id": "s025",
+   "start": 50.91,
+   "end": 53.34,
+   "line": "Never more than ten seconds ahead.",
+   "scene": "Blueprint rule 2: timeline NOW to +10 s window, beyond it crossed out. MAX +10 s",
+   "set": "rules",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "blip",
+     "gain": -12
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "id": "s026",
+   "start": 53.34,
+   "end": 55.89,
+   "line": "And it never switches off.",
+   "scene": "Blueprint rule 3: a switch flicked OFF snaps back ON. ALWAYS ON",
+   "set": "rules",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.5,
+     "name": "tick",
+     "gain": -10
+    },
+    {
+     "at": 0.9,
+     "name": "glitch",
+     "gain": -14
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "id": "s027",
+   "start": 55.89,
+   "end": 59.49,
+   "line": "At first, it's the best thing that has ever happened to you.",
+   "scene": "Golden street: HERO walks confidently, grinning, his cyan ghost walking a few steps ahead",
+   "set": "street",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.7
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "shimmer",
+     "gain": -14
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "city",
+    "gain": -24
+   }
+  },
+  {
+   "id": "s028",
+   "start": 59.49,
+   "end": 61.51,
+   "line": "You never step in a puddle again.",
+   "scene": "Puddle: his ghost foot splashes in cyan; the real HERO steps over the puddle",
+   "set": "street",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.6,
+     "name": "pop",
+     "gain": -12
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "city",
+    "gain": -24
+   }
+  },
+  {
+   "id": "s029",
+   "start": 61.51,
+   "end": 63.89,
+   "line": "You never walk into a glass door.",
+   "scene": "Glass door: the cyan ghost HERO bonks into the glass; the real HERO stops and pulls the handle",
+   "set": "street",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.9,
+     "name": "hit",
+     "gain": -10
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "city",
+    "gain": -24
+   }
+  },
+  {
+   "id": "s030",
+   "start": 63.89,
+   "end": 65.81,
+   "line": "Rock, paper, scissors?",
+   "scene": "Insert: two fists shake rock-paper-scissors; cyan ghost shows the opponent's scissors early; HERO throws rock",
+   "set": "classroom",
+   "bars": null,
+   "in": {
+    "type": "whip",
+    "dur": 0.35
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "swish",
+     "gain": -10
+    },
+    {
+     "at": 0.5,
+     "name": "pop",
+     "gain": -14
+    },
+    {
+     "at": 1.0,
+     "name": "pop",
+     "gain": -14
+    },
+    {
+     "at": 1.45,
+     "name": "hit",
+     "gain": -10
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "murmur",
+    "gain": -28
+   }
+  },
+  {
+   "id": "s031",
+   "start": 65.81,
+   "end": 68.27,
+   "line": "You've won four hundred games in a row.",
+   "scene": "Montage: opponents lose one after another; big gold counter rolls to 400 WINS IN A ROW",
+   "set": "classroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "counter",
+     "gain": -10
+    },
+    {
+     "at": 1.8,
+     "name": "ding",
+     "gain": -12
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "murmur",
+    "gain": -28
+   }
+  },
+  {
+   "id": "s032",
+   "start": 68.27,
+   "end": 70.3,
+   "line": "Nobody plays with you anymore.",
+   "scene": "HERO alone holding out a fist; classmates walk away",
+   "set": "classroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "murmur",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s033",
+   "start": 70.3,
+   "end": 74.02,
+   "line": "In class, you know the answer before the teacher finishes the question,",
+   "scene": "Classroom: teacher at the chalkboard '7 x 8 = ?'; HERO's hand shoots up before she finishes",
+   "set": "classroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 1.2,
+     "name": "swish",
+     "gain": -12
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "murmur",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s034",
+   "start": 74.02,
+   "end": 75.66,
+   "line": "because you already heard it...",
+   "scene": "Close-up HERO with a cyan ghost speech bubble '56' near his ear",
+   "set": "classroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "shimmer",
+     "gain": -14
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "murmur",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s035",
+   "start": 75.66,
+   "end": 78.19,
+   "line": "from the kid who's about to get it wrong.",
+   "scene": "A kid raises his hand '54?'; a cyan cross flickers over him; HERO smirks",
+   "set": "classroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.5,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "murmur",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s036",
+   "start": 78.19,
+   "end": 80.45,
+   "line": "And then there are penalty kicks.",
+   "scene": "3D: night stadium under floodlights, slow orbit to the goal and penalty spot",
+   "set": "pitch3d",
+   "bars": "scope",
+   "in": {
+    "type": "whip",
+    "dur": 0.35
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "whoosh",
+     "gain": -10
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "murmur",
+    "gain": -22
+   }
+  },
+  {
+   "id": "s037",
+   "start": 80.45,
+   "end": 81.96,
+   "line": "The striker runs up.",
+   "scene": "Wide: grey STRIKER runs up to the ball; HERO in goal (gold gloves) in ready stance",
+   "set": "pitch",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "footstep",
+     "gain": -14
+    },
+    {
+     "at": 0.8,
+     "name": "footstep",
+     "gain": -14
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "murmur",
+    "gain": -22
+   }
+  },
+  {
+   "id": "s038",
+   "start": 81.96,
+   "end": 84.02,
+   "line": "To everyone else, it's a guess.",
+   "scene": "Goal diagram from behind the striker: question marks over both corners",
+   "set": "pitch",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "pop",
+     "gain": -14
+    },
+    {
+     "at": 0.6,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "murmur",
+    "gain": -22
+   }
+  },
+  {
+   "id": "s039",
+   "start": 84.02,
+   "end": 85.99,
+   "line": "To you, it's a rerun.",
+   "scene": "HERO's view: the cyan ghost striker already shooting; REPLAY badge",
+   "set": "pitch",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "glitch",
+     "gain": -14
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "murmur",
+    "gain": -22
+   }
+  },
+  {
+   "id": "s040",
+   "start": 85.99,
+   "end": 88.6,
+   "line": "You already watched the ball go bottom left.",
+   "scene": "Ghost ball curves into the bottom-left corner, dotted path, callout BOTTOM LEFT",
+   "set": "pitch",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.9,
+     "name": "kick",
+     "gain": -12
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "murmur",
+    "gain": -22
+   }
+  },
+  {
+   "id": "s041",
+   "start": 88.6,
+   "end": 90.46,
+   "line": "You dive bottom left.",
+   "scene": "FREEZE: HERO mid-dive bottom left, gloves on the real ball, frozen grass bits",
+   "set": "pitch",
+   "bars": "scope",
+   "in": {
+    "type": "flash",
+    "dur": 0.35
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "freeze",
+     "gain": -8
+    },
+    {
+     "at": 0.1,
+     "name": "hit",
+     "gain": -8
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "murmur",
+    "gain": -22
+   }
+  },
+  {
+   "id": "s042",
+   "start": 90.46,
+   "end": 91.08,
+   "line": "Every.",
+   "scene": "Another save, other angle, stamp check",
+   "set": "pitch",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "hit",
+     "gain": -8
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "cheer",
+    "gain": -20
+   }
+  },
+  {
+   "id": "s043",
+   "start": 91.08,
+   "end": 91.85,
+   "line": "Single.",
+   "scene": "Another save, top angle",
+   "set": "pitch",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "hit",
+     "gain": -8
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "cheer",
+    "gain": -20
+   }
+  },
+  {
+   "id": "s044",
+   "start": 91.85,
+   "end": 93.59,
+   "line": "Time.",
+   "scene": "HERO stands in goal with the ball under his arm, STRIKER on his knees",
+   "set": "pitch",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "cheer",
+     "gain": -14
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "cheer",
+    "gain": -22
+   }
+  },
+  {
+   "id": "s045",
+   "start": 93.59,
+   "end": 96.9,
+   "line": "But living ten seconds ahead has a price.",
+   "scene": "Dusk park bench: HERO alone, pensive, cyan shimmer flickers around him",
+   "set": "street",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.7
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s046",
+   "start": 96.9,
+   "end": 99.02,
+   "line": "Every joke reaches you twice.",
+   "scene": "Lunch table: a friend (grey, cap) tells a joke; the line arrives twice: cyan bubble then real bubble",
+   "set": "cafe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "pop",
+     "gain": -14
+    },
+    {
+     "at": 1.2,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "murmur",
+    "gain": -28
+   }
+  },
+  {
+   "id": "s047",
+   "start": 99.02,
+   "end": 101.68,
+   "line": "First the punchline, then the setup.",
+   "scene": "Two cards in the wrong order: 1 PUNCHLINE, 2 SETUP",
+   "set": "cafe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 1.5,
+     "name": "pop",
+     "gain": -12
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "murmur",
+    "gain": -28
+   }
+  },
+  {
+   "id": "s048",
+   "start": 101.68,
+   "end": 103.27,
+   "line": "You laugh at the wrong moment,",
+   "scene": "HERO bursts out laughing while everyone else is silent",
+   "set": "cafe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "murmur",
+    "gain": -28
+   }
+  },
+  {
+   "id": "s049",
+   "start": 103.27,
+   "end": 105.5,
+   "line": "and people stop telling you jokes.",
+   "scene": "The friends turn away; the joker zips his lips; HERO's laugh fades",
+   "set": "cafe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "murmur",
+    "gain": -28
+   }
+  },
+  {
+   "id": "s050",
+   "start": 105.5,
+   "end": 107.98,
+   "line": "Conversations feel like reruns.",
+   "scene": "Conversation: friend's mouth moves while his cyan ghost already finished; REPLAY icon; HERO bored",
+   "set": "cafe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "glitch",
+     "gain": -16
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "murmur",
+    "gain": -28
+   }
+  },
+  {
+   "id": "s051",
+   "start": 107.98,
+   "end": 110.48,
+   "line": "You answer questions nobody has asked yet,",
+   "scene": "HERO answers ('Friday!') before the friend has asked; friend frozen mid-word, confused",
+   "set": "cafe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "murmur",
+    "gain": -28
+   }
+  },
+  {
+   "id": "s052",
+   "start": 110.48,
+   "end": 112.89,
+   "line": "and your friends start to find it creepy.",
+   "scene": "Two friends whisper and side-eye HERO; cooler light",
+   "set": "cafe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "murmur",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s053",
+   "start": 112.89,
+   "end": 115.43,
+   "line": "Surprise parties don't exist for you anymore.",
+   "scene": "Dark living room: lights snap on, friends jump 'SURPRISE!' with confetti; HERO already facing them, deadpan",
+   "set": "kitchen",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "flash",
+     "gain": -10
+    },
+    {
+     "at": 0.3,
+     "name": "cheer",
+     "gain": -12
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -28
+   }
+  },
+  {
+   "id": "s054",
+   "start": 115.43,
+   "end": 118.85,
+   "line": "And your brain is running two movies at the same time.",
+   "scene": "Diagram: head silhouette with two film strips feeding the brain, warm REAL and cyan +10 s; overload sparks",
+   "set": "brain",
+   "bars": "none",
+   "in": {
+    "type": "zoom",
+    "dur": 0.45
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "hum",
+     "gain": -14
+    },
+    {
+     "at": 2.4,
+     "name": "glitch",
+     "gain": -12
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "id": "s055",
+   "start": 118.85,
+   "end": 122.52,
+   "line": "By evening, the headaches are so bad that you sit in a dark room",
+   "scene": "Dark bedroom with blinds at evening: HERO on the bed edge, holding his head, cyan flickers pulse",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.7
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "heartbeat",
+     "gain": -12
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "hum",
+    "gain": -28
+   }
+  },
+  {
+   "id": "s056",
+   "start": 122.52,
+   "end": 124.0,
+   "line": "with your eyes closed,",
+   "scene": "bigFace HERO, eyes shut, in pain, almost dark",
+   "set": "bedroom",
+   "bars": "scope",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "heartbeat",
+     "gain": -12
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "hum",
+    "gain": -28
+   }
+  },
+  {
+   "id": "s057",
+   "start": 124.0,
+   "end": 127.43,
+   "line": "just to make one of the worlds go away.",
+   "scene": "The cyan copy of the room fades away; HERO exhales",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "shimmer",
+     "gain": -16
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "hum",
+    "gain": -28
+   }
+  },
+  {
+   "id": "s058",
+   "start": 127.43,
+   "end": 130.56,
+   "line": "Then comes the part nobody warns you about.",
+   "scene": "Restaurant establishing: warm pendant lamps, HERO and MIA at a table",
+   "set": "restaurant",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.7
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "murmur",
+    "gain": -24
+   }
+  },
+  {
+   "id": "s059",
+   "start": 130.56,
+   "end": 133.82,
+   "line": "At a restaurant, you see a waiter across the room trip,",
+   "scene": "Across the room: the cyan ghost WAITER trips with his tray; the real one walks normally; HERO's eyes widen",
+   "set": "restaurant",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 1.6,
+     "name": "glitch",
+     "gain": -14
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "murmur",
+    "gain": -24
+   }
+  },
+  {
+   "id": "s060",
+   "start": 133.82,
+   "end": 135.98,
+   "line": "and a tray of glasses shatter.",
+   "scene": "Insert: cyan ghost glasses shatter on the floor; the real tray still intact",
+   "set": "restaurant",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.5,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "murmur",
+    "gain": -24
+   }
+  },
+  {
+   "id": "s061",
+   "start": 135.98,
+   "end": 137.09,
+   "line": "You stand up.",
+   "scene": "HERO stands up fast, the chair skids back",
+   "set": "restaurant",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "swish",
+     "gain": -10
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "murmur",
+    "gain": -24
+   }
+  },
+  {
+   "id": "s062",
+   "start": 137.09,
+   "end": 138.56,
+   "line": "You start to move.",
+   "scene": "HERO starts to run between tables toward the waiter",
+   "set": "restaurant",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "whoosh",
+     "gain": -10
+    },
+    {
+     "at": 0.4,
+     "name": "footstep",
+     "gain": -12
+    },
+    {
+     "at": 0.8,
+     "name": "footstep",
+     "gain": -12
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "murmur",
+    "gain": -24
+   }
+  },
+  {
+   "id": "s063",
+   "start": 138.56,
+   "end": 140.96,
+   "line": "Ten seconds is long enough to see it.",
+   "scene": "FREEZE (cool tint): HERO mid-stride, waiter far away; timeline graphic 10 s: SEE IT check",
+   "set": "restaurant",
+   "bars": "scope",
+   "in": {
+    "type": "flash",
+    "dur": 0.35
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "freeze",
+     "gain": -8
+    },
+    {
+     "at": 1.4,
+     "name": "ding",
+     "gain": -12
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "murmur",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s064",
+   "start": 140.96,
+   "end": 143.45,
+   "line": "It isn't always long enough to stop it.",
+   "scene": "Same freeze: STOP IT gets a red cross; the distance is too big",
+   "set": "restaurant",
+   "bars": "scope",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 1.5,
+     "name": "stinger",
+     "gain": -12
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "murmur",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s065",
+   "start": 143.45,
+   "end": 144.88,
+   "line": "The glasses break.",
+   "scene": "Real: waiter trips, tray flips, glasses shatter; HERO reaches out too late; shake",
+   "set": "restaurant",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "impact",
+     "gain": -6
+    },
+    {
+     "at": 0.25,
+     "name": "hit",
+     "gain": -8
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "murmur",
+    "gain": -24
+   }
+  },
+  {
+   "id": "s066",
+   "start": 144.88,
+   "end": 147.39,
+   "line": "Exactly the way you saw them break.",
+   "scene": "Insert: real shards on the floor land exactly on the cyan ghost shards",
+   "set": "restaurant",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.6,
+     "name": "shimmer",
+     "gain": -14
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "murmur",
+    "gain": -28
+   }
+  },
+  {
+   "id": "s067",
+   "start": 147.39,
+   "end": 148.85,
+   "line": "And from that day on,",
+   "scene": "Night city: HERO at a window/rooftop edge looking down at the street",
+   "set": "street",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.7
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "city",
+    "gain": -24
+   }
+  },
+  {
+   "id": "s068",
+   "start": 148.85,
+   "end": 152.99,
+   "line": "every accident you see in the blue world feels like a question.",
+   "scene": "Night street: cyan ghost accidents around HERO (a swerving car, a falling flowerpot, a scooter tumble) with question marks",
+   "set": "street",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.6,
+     "name": "glitch",
+     "gain": -14
+    },
+    {
+     "at": 2.0,
+     "name": "glitch",
+     "gain": -14
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "city",
+    "gain": -24
+   }
+  },
+  {
+   "id": "s069",
+   "start": 152.99,
+   "end": 155.98,
+   "line": "Are you fast enough?",
+   "scene": "bigFace HERO, worried and determined; cyan reflections; heartbeat",
+   "set": "street",
+   "bars": "scope",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "heartbeat",
+     "gain": -10
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "city",
+    "gain": -28
+   }
+  },
+  {
+   "id": "s070",
+   "start": 155.98,
+   "end": 158.55,
+   "line": "Friday, four twelve p.m.",
+   "scene": "3D: the intersection at golden afternoon, traffic light, slow crane down; HUD clock FRIDAY 4:12 PM",
+   "set": "street3d",
+   "bars": "scope",
+   "in": {
+    "type": "dip",
+    "dur": 0.7
+   },
+   "sfx": [
+    {
+     "at": 0.6,
+     "name": "blip",
+     "gain": -12
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "city",
+    "gain": -22
+   }
+  },
+  {
+   "id": "s071",
+   "start": 158.55,
+   "end": 160.41,
+   "line": "You and Mia are walking home.",
+   "scene": "Medium tracking: HERO and MIA walk home side by side",
+   "set": "street",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "footstep",
+     "gain": -16
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "city",
+    "gain": -22
+   }
+  },
+  {
+   "id": "s072",
+   "start": 160.41,
+   "end": 161.89,
+   "line": "She has her earbuds in.",
+   "scene": "Insert: MIA's head with white earbuds, music notes",
+   "set": "street",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "city",
+    "gain": -22
+   }
+  },
+  {
+   "id": "s073",
+   "start": 161.89,
+   "end": 163.25,
+   "line": "She's looking at her phone.",
+   "scene": "MIA walks ahead, eyes on her phone",
+   "set": "street",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "city",
+    "gain": -22
+   }
+  },
+  {
+   "id": "s074",
+   "start": 163.25,
+   "end": 165.12,
+   "line": "She steps toward the crosswalk.",
+   "scene": "Low angle: MIA's feet step off the curb onto the crosswalk stripes; walk signal green",
+   "set": "street",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "footstep",
+     "gain": -14
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "city",
+    "gain": -22
+   }
+  },
+  {
+   "id": "s075",
+   "start": 165.12,
+   "end": 167.66,
+   "line": "And in the blue world, ten seconds ahead,",
+   "scene": "bigFace HERO lit cyan, eyes widen; HUD +10 s",
+   "set": "street",
+   "bars": "scope",
+   "in": {
+    "type": "flash",
+    "dur": 0.35
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "shimmer",
+     "gain": -8
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "city",
+    "gain": -24
+   }
+  },
+  {
+   "id": "s076",
+   "start": 167.66,
+   "end": 169.64,
+   "line": "you see a truck run the red light.",
+   "scene": "Blue world: cyan ghost TRUCK runs the red light into the crosswalk",
+   "set": "street",
+   "bars": "scope",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "carpass",
+     "gain": -8
+    },
+    {
+     "at": 0.5,
+     "name": "glitch",
+     "gain": -12
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "city",
+    "gain": -24
+   }
+  },
+  {
+   "id": "s077",
+   "start": 169.64,
+   "end": 170.47,
+   "line": "Ten.",
+   "scene": "Wide: MIA on the crosswalk, HERO far behind; count 10",
+   "set": "street",
+   "bars": "scope",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "tick",
+     "gain": -8
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "city",
+    "gain": -24
+   }
+  },
+  {
+   "id": "s078",
+   "start": 170.47,
+   "end": 171.71,
+   "line": "You shout her name.",
+   "scene": "bigFace HERO shouting, rings",
+   "set": "street",
+   "bars": "scope",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "whoosh",
+     "gain": -14
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "city",
+    "gain": -24
+   }
+  },
+  {
+   "id": "s079",
+   "start": 171.71,
+   "end": 173.0,
+   "line": "She can't hear you.",
+   "scene": "MIA with earbuds, oblivious; the shout rings bounce off",
+   "set": "street",
+   "bars": "scope",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "city",
+    "gain": -24
+   }
+  },
+  {
+   "id": "s080",
+   "start": 173.0,
+   "end": 174.64,
+   "line": "Nine. Eight.",
+   "scene": "Ghost truck closer in cyan, the real road still empty; counts 9, 8",
+   "set": "street",
+   "bars": "scope",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "tick",
+     "gain": -8
+    },
+    {
+     "at": 1.04,
+     "name": "tick",
+     "gain": -8
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "city",
+    "gain": -24
+   }
+  },
+  {
+   "id": "s081",
+   "start": 174.64,
+   "end": 176.34,
+   "line": "You're thirty meters behind her.",
+   "scene": "Wide side: dimension line 30 m between HERO and MIA",
+   "set": "street",
+   "bars": "scope",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "pop",
+     "gain": -12
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "city",
+    "gain": -24
+   }
+  },
+  {
+   "id": "s082",
+   "start": 176.34,
+   "end": 177.27,
+   "line": "You run.",
+   "scene": "HERO sprints, speed lines",
+   "set": "street",
+   "bars": "scope",
+   "in": {
+    "type": "whip",
+    "dur": 0.35
+   },
+   "sfx": [
+    {
+     "at": 0.05,
+     "name": "whoosh",
+     "gain": -6
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "city",
+    "gain": -24
+   }
+  },
+  {
+   "id": "s083",
+   "start": 177.27,
+   "end": 178.16,
+   "line": "Seven.",
+   "scene": "Low angle running feet; count 7",
+   "set": "street",
+   "bars": "scope",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "tick",
+     "gain": -8
+    },
+    {
+     "at": 0.3,
+     "name": "footstep",
+     "gain": -10
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "city",
+    "gain": -24
+   }
+  },
+  {
+   "id": "s084",
+   "start": 178.16,
+   "end": 180.04,
+   "line": "And the blue world changes.",
+   "scene": "The blue world glitches and re-renders; HUD RECALCULATING",
+   "set": "street",
+   "bars": "scope",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "glitch",
+     "gain": -6
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "city",
+    "gain": -24
+   }
+  },
+  {
+   "id": "s085",
+   "start": 180.04,
+   "end": 182.89,
+   "line": "Because you moved, the future moved too.",
+   "scene": "Top-down street map: HERO dot moves, the predicted truck path and impact zone shift",
+   "set": "street",
+   "bars": "scope",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.5,
+     "name": "blip",
+     "gain": -12
+    },
+    {
+     "at": 1.5,
+     "name": "blip",
+     "gain": -12
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "city",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s086",
+   "start": 182.89,
+   "end": 185.11,
+   "line": "Now the truck isn't just heading for Mia.",
+   "scene": "Cyan ghost truck heading at ghost MIA",
+   "set": "street",
+   "bars": "scope",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "carpass",
+     "gain": -12
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "city",
+    "gain": -24
+   }
+  },
+  {
+   "id": "s087",
+   "start": 185.11,
+   "end": 186.67,
+   "line": "It's heading for both of you.",
+   "scene": "Cyan ghost: both HERO and MIA inside the red impact circle",
+   "set": "street",
+   "bars": "scope",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "stinger",
+     "gain": -10
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "city",
+    "gain": -24
+   }
+  },
+  {
+   "id": "s088",
+   "start": 186.67,
+   "end": 188.45,
+   "line": "Six. Five.",
+   "scene": "Real truck appears at the far end, headlights, red light; counts 6, 5",
+   "set": "street",
+   "bars": "scope",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "tick",
+     "gain": -8
+    },
+    {
+     "at": 1.04,
+     "name": "tick",
+     "gain": -8
+    },
+    {
+     "at": 0.4,
+     "name": "carpass",
+     "gain": -12
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "city",
+    "gain": -24
+   }
+  },
+  {
+   "id": "s089",
+   "start": 188.45,
+   "end": 192.07,
+   "line": "For the first time, your power isn't telling you what will happen.",
+   "scene": "bigFace HERO running, intense; cyan flicker",
+   "set": "street",
+   "bars": "scope",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "heartbeat",
+     "gain": -10
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "city",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s090",
+   "start": 192.07,
+   "end": 194.46,
+   "line": "It's asking you what you're willing to do.",
+   "scene": "Slow motion: HERO mid-stride toward MIA, background blurred, heartbeat",
+   "set": "street",
+   "bars": "scope",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "slowmo",
+     "gain": -8
+    },
+    {
+     "at": 0.8,
+     "name": "heartbeat",
+     "gain": -8
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "city",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s091",
+   "start": 194.46,
+   "end": 196.14,
+   "line": "Four. Three.",
+   "scene": "Real truck big, horn, headlights; MIA still on her phone; counts 4, 3",
+   "set": "street",
+   "bars": "scope",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "tick",
+     "gain": -8
+    },
+    {
+     "at": 0.97,
+     "name": "tick",
+     "gain": -8
+    },
+    {
+     "at": 0.3,
+     "name": "carpass",
+     "gain": -6
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "city",
+    "gain": -24
+   }
+  },
+  {
+   "id": "s092",
+   "start": 196.14,
+   "end": 197.33,
+   "line": "You don't stop.",
+   "scene": "HERO's determined face, running",
+   "set": "street",
+   "bars": "scope",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "footstep",
+     "gain": -8
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "city",
+    "gain": -24
+   }
+  },
+  {
+   "id": "s093",
+   "start": 197.33,
+   "end": 198.13,
+   "line": "Two.",
+   "scene": "Low angle: the truck grille closing in; count 2",
+   "set": "street",
+   "bars": "scope",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "tick",
+     "gain": -8
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "city",
+    "gain": -24
+   }
+  },
+  {
+   "id": "s094",
+   "start": 198.13,
+   "end": 200.16,
+   "line": "You grab her backpack and pull.",
+   "scene": "Insert: HERO's hand grabs MIA's backpack strap and yanks",
+   "set": "street",
+   "bars": "scope",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "swish",
+     "gain": -6
+    },
+    {
+     "at": 0.4,
+     "name": "hit",
+     "gain": -10
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "city",
+    "gain": -24
+   }
+  },
+  {
+   "id": "s095",
+   "start": 200.16,
+   "end": 202.56,
+   "line": "You both fall hard onto the sidewalk.",
+   "scene": "Both fall backward hard onto the sidewalk; impact shake",
+   "set": "street",
+   "bars": "scope",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.7,
+     "name": "impact",
+     "gain": -6
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "city",
+    "gain": -24
+   }
+  },
+  {
+   "id": "s096",
+   "start": 202.56,
+   "end": 203.33,
+   "line": "One.",
+   "scene": "Ground level at the crosswalk: the truck's shadow sweeps in; count 1",
+   "set": "street",
+   "bars": "scope",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "tick",
+     "gain": -8
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "city",
+    "gain": -24
+   }
+  },
+  {
+   "id": "s097",
+   "start": 203.33,
+   "end": 206.25,
+   "line": "The truck roars through the space where she was standing.",
+   "scene": "The truck roars through the dotted outline where MIA was standing",
+   "set": "street",
+   "bars": "scope",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "carpass",
+     "gain": -3
+    },
+    {
+     "at": 0.3,
+     "name": "whoosh",
+     "gain": -6
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "city",
+    "gain": -24
+   }
+  },
+  {
+   "id": "s098",
+   "start": 206.25,
+   "end": 209.06,
+   "line": "Zero.",
+   "scene": "Silence: HUD T-0, dust settles; the cyan and real worlds line up; HERO and MIA on the sidewalk",
+   "set": "street",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "ding",
+     "gain": -10
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "city",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s099",
+   "start": 209.06,
+   "end": 211.46,
+   "line": "Mia stares at you, shaking.",
+   "scene": "MIA sitting on the sidewalk, trembling, staring at HERO",
+   "set": "street",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "city",
+    "gain": -28
+   }
+  },
+  {
+   "id": "s100",
+   "start": 211.46,
+   "end": 214.07,
+   "line": "\"How did you know?\"",
+   "scene": "bigFace MIA: 'How did you know?' scared",
+   "set": "street",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "city",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s101",
+   "start": 214.07,
+   "end": 217.11,
+   "line": "And for once, you tell her the truth.",
+   "scene": "Two-shot: HERO beside her, turns to her, warm light",
+   "set": "street",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "city",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s102",
+   "start": 217.11,
+   "end": 218.39,
+   "line": "\"I didn't know.",
+   "scene": "bigFace HERO: 'I didn't know.'",
+   "set": "street",
+   "bars": "scope",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "city",
+    "gain": -32
+   }
+  },
+  {
+   "id": "s103",
+   "start": 218.39,
+   "end": 220.85,
+   "line": "I saw.\"",
+   "scene": "bigFace HERO: 'I saw.' eyes glow cyan softly",
+   "set": "street",
+   "bars": "scope",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "city",
+    "gain": -32
+   }
+  },
+  {
+   "id": "s104",
+   "start": 220.85,
+   "end": 223.38,
+   "line": "So, is any of this real?",
+   "scene": "Blueprint: IS ANY OF THIS REAL?",
+   "set": "science",
+   "bars": "none",
+   "in": {
+    "type": "zoom",
+    "dur": 0.45
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "whoosh",
+     "gain": -10
+    },
+    {
+     "at": 0.3,
+     "name": "pop",
+     "gain": -12
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "id": "s105",
+   "start": 223.38,
+   "end": 224.74,
+   "line": "Not the blue world.",
+   "scene": "Blueprint: cyan ghost figure gets a red cross: NOT THE BLUE WORLD",
+   "set": "science",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "pop",
+     "gain": -12
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "id": "s106",
+   "start": 224.74,
+   "end": 227.82,
+   "line": "But part of it is happening inside your head right now.",
+   "scene": "Blueprint: head profile, the brain pulses",
+   "set": "science",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.6,
+     "name": "blip",
+     "gain": -14
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "id": "s107",
+   "start": 227.82,
+   "end": 231.43,
+   "line": "Your brain is always about a tenth of a second behind reality.",
+   "scene": "Blueprint: two timelines REALITY and YOUR BRAIN offset by 0.1 s",
+   "set": "science",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 1.4,
+     "name": "pop",
+     "gain": -12
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "id": "s108",
+   "start": 231.43,
+   "end": 234.6,
+   "line": "That's how long it takes to process what your eyes see.",
+   "scene": "Blueprint: eye to brain signal travelling: PROCESSING",
+   "set": "science",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "blip",
+     "gain": -14
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "id": "s109",
+   "start": 234.6,
+   "end": 235.88,
+   "line": "To hide that delay,",
+   "scene": "Blueprint: moving ball, the real ball lags",
+   "set": "science",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": ""
+  },
+  {
+   "id": "s110",
+   "start": 235.88,
+   "end": 239.66,
+   "line": "your brain quietly predicts where moving things are about to be.",
+   "scene": "Blueprint: the brain draws a predicted ball ahead of the real one",
+   "set": "science",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 1.2,
+     "name": "blip",
+     "gain": -14
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "id": "s111",
+   "start": 239.66,
+   "end": 243.24,
+   "line": "A fastball reaches the batter in about four tenths of a second.",
+   "scene": "Night ballpark: grey pitcher throws to HERO at bat; 0.4 s readout",
+   "set": "baseball",
+   "bars": null,
+   "in": {
+    "type": "whip",
+    "dur": 0.35
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "swish",
+     "gain": -10
+    },
+    {
+     "at": 0.7,
+     "name": "whoosh",
+     "gain": -12
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "murmur",
+    "gain": -24
+   }
+  },
+  {
+   "id": "s112",
+   "start": 243.24,
+   "end": 245.49,
+   "line": "Batters don't swing at where the ball is.",
+   "scene": "Blueprint side view: the ball's real position vs where the bat goes",
+   "set": "science",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": ""
+  },
+  {
+   "id": "s113",
+   "start": 245.49,
+   "end": 248.29,
+   "line": "They swing at where their brain predicts it will be.",
+   "scene": "Blueprint: the bat meets the predicted ball",
+   "set": "science",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 1.4,
+     "name": "hit",
+     "gain": -8
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "id": "s114",
+   "start": 248.29,
+   "end": 252.53,
+   "line": "So in a tiny way, you already live a little bit in the future.",
+   "scene": "Blueprint: line figure with a tiny cyan ghost 0.1 s ahead",
+   "set": "science",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 1.6,
+     "name": "blip",
+     "gain": -14
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "id": "s115",
+   "start": 252.53,
+   "end": 256.9,
+   "line": "You'd just be living there a hundred times further ahead.",
+   "scene": "Blueprint: the ghost slides to +10 s; x100",
+   "set": "science",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 1.1,
+     "name": "swish",
+     "gain": -10
+    },
+    {
+     "at": 1.3,
+     "name": "ding",
+     "gain": -12
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "id": "s116",
+   "start": 256.9,
+   "end": 260.78,
+   "line": "That night, you lie in bed and close your eyes.",
+   "scene": "Night bedroom, moonlight through blinds: HERO lies in bed and closes his eyes",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.7
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "hum",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s117",
+   "start": 260.78,
+   "end": 264.95,
+   "line": "And for the first time in your life, the blue world shows you...",
+   "scene": "bigFace HERO eyes closed; the cyan glow around him dims; HUD flickers",
+   "set": "bedroom",
+   "bars": "scope",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.6,
+     "name": "shimmer",
+     "gain": -16
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "hum",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s118",
+   "start": 264.95,
+   "end": 266.38,
+   "line": "nothing.",
+   "scene": "The cyan copy vanishes; HUD +10 s: blank",
+   "set": "bedroom",
+   "bars": "scope",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "glitch",
+     "gain": -16
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "hum",
+    "gain": -32
+   }
+  },
+  {
+   "id": "s119",
+   "start": 266.38,
+   "end": 270.44,
+   "line": "The next ten seconds are completely black.",
+   "scene": "Everything fades to black; only the HUD T-10 dimly, then gone",
+   "set": "bedroom",
+   "bars": "scope",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": ""
+  },
+  {
+   "id": "s120",
+   "start": 270.44,
+   "end": 278.0,
+   "line": "What would YOU do with ten seconds of the future? Tell us in the comments.",
+   "scene": "End screen: What would YOU do? + subscribe + cast line-up",
+   "set": "end",
+   "bars": null,
+   "in": {
+    "type": "fade",
+    "dur": 0.6
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 0.9,
+     "name": "ding",
+     "gain": -14
+    }
+   ],
+   "notes": ""
+  }
+ ],
+ "music": [
+  {
+   "start": 0,
+   "end": 18.6,
+   "mood": "mystery",
+   "intensity": 0.45
+  },
+  {
+   "start": 18.6,
+   "end": 55.9,
+   "mood": "wonder",
+   "intensity": 0.45
+  },
+  {
+   "start": 55.9,
+   "end": 78.2,
+   "mood": "playful",
+   "intensity": 0.55
+  },
+  {
+   "start": 78.2,
+   "end": 93.6,
+   "mood": "action",
+   "intensity": 0.6
+  },
+  {
+   "start": 93.6,
+   "end": 127.4,
+   "mood": "sad",
+   "intensity": 0.35
+  },
+  {
+   "start": 127.4,
+   "end": 156.0,
+   "mood": "tension",
+   "intensity": 0.5
+  },
+  {
+   "start": 156.0,
+   "end": 169.6,
+   "mood": "tension",
+   "intensity": 0.65
+  },
+  {
+   "start": 169.6,
+   "end": 206.3,
+   "mood": "action",
+   "intensity": 0.9
+  },
+  {
+   "start": 206.3,
+   "end": 220.9,
+   "mood": "hopeful",
+   "intensity": 0.3
+  },
+  {
+   "start": 220.9,
+   "end": 256.9,
+   "mood": "mystery",
+   "intensity": 0.4
+  },
+  {
+   "start": 256.9,
+   "end": 270.4,
+   "mood": "calm",
+   "intensity": 0.2
+  },
+  {
+   "start": 270.4,
+   "end": 278.0,
+   "mood": "hopeful",
+   "intensity": 0.5
+  }
+ ],
+ "sfx": []
+}

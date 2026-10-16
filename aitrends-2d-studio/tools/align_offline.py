@@ -37,10 +37,13 @@ def decode(dec, pcm):
 
 def fix_stranded_openers(words, gap=0.3):
     """The aligner sometimes parks a sentence's first word at the end of the previous sentence,
-    before the pause. Move such a word to just after the pause, in front of the word it belongs to."""
+    before the pause. Move such a word to just after the pause, in front of the word it belongs to.
+    A word with its own trailing punctuation ("Five.", "nothing.", "So,") ends a phrase, so a pause after it
+    is real and it stays put."""
+    end = r"[.?!…]['\"”’)]*$"
     for i in range(1, len(words) - 1):
         w, nxt = words[i], words[i + 1]
-        if re.search(r"[.?!…]['\"”’)]*$", words[i - 1]["word"]) and nxt["start"] - w["end"] > gap:
+        if re.search(end, words[i - 1]["word"]) and not re.search(r"[.?!…,;:—–]['\"”’)]*$", w["word"]) and nxt["start"] - w["end"] > gap:
             dur = min(max(w["end"] - w["start"], 0.12), 0.3)
             w["start"], w["end"] = nxt["start"], round(nxt["start"] + dur, 3)
             nxt["start"] = min(w["end"], round(nxt["end"] - 0.05, 3))
