@@ -79,13 +79,25 @@ export function endScreen(g, t, o = {}) {
   const n = cast.length, gap = Math.min(V(150, 120), (E.W * 0.85) / Math.max(1, n)), y0 = E.H - V(170, 420);
   cast.forEach((of, i) => { const k = ease.out(prog(t, 0.3 + i * 0.08, 0.7 + i * 0.08)); drawFigure(g, { x: E.W / 2 + (i - (n - 1) / 2) * gap, y: y0 + (1 - k) * 40, s: V(0.9, 1.05), facing: 1, outfit: of, pose: POSES.relaxed, expr: 'smile', alpha: k, rim: { color: rim, dir: [0, 1] } }); });
 }
-// Word-level captions (great for 9:16). Shows a 3–4 word phrase, current word highlighted.
+// phrase groups for captions: at most `max` words, never running across a sentence end, comma or dash
+let _cg = null;
+function captionGroups(words, max) {
+  if (_cg && _cg.words === words && _cg.max === max) return _cg.groups;
+  const groups = []; let a = 0;
+  for (let k = 0; k < words.length; k++) {
+    const n = k + 1 - a, brk = /[.?!,;:—–…]['"”’)]*$/.test(words[k].word.trim()) || /^[—–]$/.test(words[k + 1]?.word?.trim() || '');
+    if (brk || n >= max || k === words.length - 1) { groups.push([a, k + 1]); a = k + 1; }
+  }
+  _cg = { words, max, groups }; return groups;
+}
+// Word-level captions (great for 9:16). Shows a 3–4 word phrase (split at punctuation), current word highlighted.
 export function captions(g, globalT, o = {}) {
   const words = E.words; if (!words.length) return; const { y = V(E.H - 150, E.H * 0.79), size = V(58, 74), max = 4, color = '#ffffff', hi = S().ui.gold } = o;
   let i = -1; for (let k = words.length - 1; k >= 0; k--) if (globalT >= words[k].start - 0.05) { if (globalT <= words[k].end + 0.35) i = k; break; } if (i < 0) return;
-  const st = Math.floor(i / max) * max, group = words.slice(st, st + max); const strs = group.map(w => w.word.trim().toUpperCase());
+  const groups = captionGroups(words, max), gi = groups.findIndex(([a, b]) => i >= a && i < b), st = groups[gi][0];
+  const group = words.slice(st, groups[gi][1]).filter(w => /\w/.test(w.word)); const strs = group.map(w => w.word.trim().toUpperCase());
   const w0 = strs.map(s => measure(g, s, size)).reduce((a, b) => a + b, 0) + size * 0.3 * (strs.length - 1);
   const sz = size * Math.min(1, (E.W * 0.88) / w0);   // shrink long phrases to fit the frame
-  const gap = sz * 0.3, widths = strs.map(s => measure(g, s, sz)), total = widths.reduce((a, b) => a + b, 0) + gap * (strs.length - 1);
-  let x = E.W / 2 - total / 2; strs.forEach((s, k) => { const cur = st + k === i; const pop = cur ? 1 + 0.08 * ease.out(prog(globalT, group[k].start, group[k].start + 0.12)) : 1; g.save(); g.translate(x + widths[k] / 2, y); g.scale(pop, pop); text(g, s, 0, 0, { size: sz, color: cur ? hi : color, stroke: sz * 0.16, strokeColor: 'rgba(0,0,0,.85)' }); g.restore(); x += widths[k] + gap; });
+  const gap = sz * 0.34, widths = strs.map(s => measure(g, s, sz)), total = widths.reduce((a, b) => a + b, 0) + gap * (strs.length - 1);
+  let x = E.W / 2 - total / 2; strs.forEach((s, k) => { const cur = group[k] === words[i]; const pop = cur ? 1 + 0.08 * ease.out(prog(globalT, group[k].start, group[k].start + 0.12)) : 1; g.save(); g.translate(x + widths[k] / 2, y); g.scale(pop, pop); text(g, s, 0, 0, { size: sz, color: cur ? hi : color, stroke: sz * 0.16, strokeColor: 'rgba(0,0,0,.85)' }); g.restore(); x += widths[k] + gap; });
 }

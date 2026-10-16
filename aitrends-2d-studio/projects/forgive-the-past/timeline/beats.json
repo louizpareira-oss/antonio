@@ -1,0 +1,162 @@
+[
+ {
+  "i": 0,
+  "start": 0.0,
+  "speechStart": 0.12,
+  "speechEnd": 2.07,
+  "text": "You're not still angry about what happened.",
+  "end": 3.63
+ },
+ {
+  "i": 1,
+  "start": 3.63,
+  "speechStart": 3.78,
+  "speechEnd": 5.83,
+  "text": "You're angry that it didn't happen differently.",
+  "end": 8.2
+ },
+ {
+  "i": 2,
+  "start": 8.2,
+  "speechStart": 8.35,
+  "speechEnd": 10.47,
+  "text": "I was nineteen the last time I spoke to him.",
+  "end": 12.12
+ },
+ {
+  "i": 3,
+  "start": 12.12,
+  "speechStart": 12.27,
+  "speechEnd": 18.04,
+  "text": "I've had that conversation four hundred times since. In the shower. On the bus.",
+  "end": 18.18
+ },
+ {
+  "i": 4,
+  "start": 18.18,
+  "speechStart": 18.33,
+  "speechEnd": 19.27,
+  "text": "At three in the morning.",
+  "end": 20.52
+ },
+ {
+  "i": 5,
+  "start": 20.52,
+  "speechStart": 20.67,
+  "speechEnd": 22.04,
+  "text": "Every time, I win.",
+  "end": 22.85
+ },
+ {
+  "i": 6,
+  "start": 22.85,
+  "speechStart": 23.0,
+  "speechEnd": 24.96,
+  "text": "Every time, I say the perfect thing.",
+  "end": 26.46
+ },
+ {
+  "i": 7,
+  "start": 26.46,
+  "speechStart": 26.61,
+  "speechEnd": 28.03,
+  "text": "And every time, I wake up,",
+  "end": 28.63
+ },
+ {
+  "i": 8,
+  "start": 28.63,
+  "speechStart": 28.78,
+  "speechEnd": 30.37,
+  "text": "and it still went the way it went.",
+  "end": 31.93
+ },
+ {
+  "i": 9,
+  "start": 31.93,
+  "speechStart": 32.08,
+  "speechEnd": 34.27,
+  "text": "That's what people get wrong about forgiveness.",
+  "end": 35.19
+ },
+ {
+  "i": 10,
+  "start": 35.19,
+  "speechStart": 35.34,
+  "speechEnd": 36.8,
+  "text": "It isn't saying it was okay.",
+  "end": 37.97
+ },
+ {
+  "i": 11,
+  "start": 37.97,
+  "speechStart": 38.12,
+  "speechEnd": 39.5,
+  "text": "It isn't letting them back in.",
+  "end": 40.87
+ },
+ {
+  "i": 12,
+  "start": 40.87,
+  "speechStart": 41.02,
+  "speechEnd": 42.94,
+  "text": "It's putting down the case you've been building.",
+  "end": 44.04
+ },
+ {
+  "i": 13,
+  "start": 44.04,
+  "speechStart": 44.19,
+  "speechEnd": 51.42,
+  "text": "Because you've been a lawyer for years now — collecting evidence for a trial that is never going to happen. They moved on.",
+  "end": 51.46
+ },
+ {
+  "i": 14,
+  "start": 51.46,
+  "speechStart": 51.61,
+  "speechEnd": 52.5,
+  "text": "They sleep fine.",
+  "end": 53.69
+ },
+ {
+  "i": 15,
+  "start": 53.69,
+  "speechStart": 53.84,
+  "speechEnd": 56.01,
+  "text": "You're the only one still sitting in that courtroom.",
+  "end": 58.19
+ },
+ {
+  "i": 16,
+  "start": 58.19,
+  "speechStart": 58.34,
+  "speechEnd": 60.66,
+  "text": "Forgiving the past is not a gift you give them.",
+  "end": 61.71
+ },
+ {
+  "i": 17,
+  "start": 61.71,
+  "speechStart": 61.86,
+  "speechEnd": 65.58,
+  "text": "It's you deciding you've served enough time — for something you didn't even do.",
+  "end": 67.28
+ },
+ {
+  "i": 18,
+  "start": 67.28,
+  "speechStart": 67.43,
+  "speechEnd": 68.64,
+  "text": "You were never the judge.",
+  "end": 69.96
+ },
+ {
+  "i": 19,
+  "start": 69.96,
+  "speechStart": 70.11,
+  "speechEnd": 71.35,
+  "text": "You were the one in the cell.",
+  "end": 72.85
+ }
+]

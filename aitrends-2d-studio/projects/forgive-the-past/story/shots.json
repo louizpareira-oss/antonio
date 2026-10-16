@@ -1,0 +1,726 @@
+{
+ "title": "Forgive the Past",
+ "duration": 74.2,
+ "shots": [
+  {
+   "id": "s01",
+   "start": 0.0,
+   "end": 3.63,
+   "line": "You're not still angry about what happened.",
+   "scene": "Extreme close-up bigFace HERO, jaw tight, half in shadow, cold window rim on one side, slow push",
+   "set": "apartment",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "heartbeat",
+     "gain": -14
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s02",
+   "start": 3.63,
+   "end": 8.2,
+   "line": "You're angry that it didn't happen differently.",
+   "scene": "Pull back from the face to reveal HERO alone on a chair in the dark apartment, window blinds stripe him, warm doorway far behind",
+   "set": "apartment",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s03",
+   "start": 8.2,
+   "end": 12.12,
+   "line": "I was nineteen the last time I spoke to him.",
+   "scene": "THE DOORWAY at night: HIM walks out, back to us, into the warm hallway; door stays open. AGE 19 tag on 'nineteen'",
+   "set": "apartment",
+   "bars": "scope",
+   "in": {
+    "type": "dip",
+    "dur": 0.6
+   },
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "footstep",
+     "gain": -16
+    },
+    {
+     "at": 0.95,
+     "name": "footstep",
+     "gain": -17
+    },
+    {
+     "at": 1.5,
+     "name": "footstep",
+     "gain": -18
+    },
+    {
+     "at": 0.42,
+     "name": "pop",
+     "gain": -18
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "hum",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s04",
+   "start": 12.12,
+   "end": 16.15,
+   "line": "I've had that conversation four hundred times since.",
+   "scene": "Top-down: HERO lying awake in bed, streetlight bars sweep across him; ghost speech bubbles pop; counter x1 -> x400 on 'four hundred'",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 1.35,
+     "name": "counter",
+     "gain": -16,
+     "dur": 1.1
+    },
+    {
+     "at": 2.55,
+     "name": "ding",
+     "gain": -16
+    },
+    {
+     "at": 0.6,
+     "name": "carpass",
+     "gain": -24
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s05",
+   "start": 16.15,
+   "end": 17.05,
+   "line": "In the shower.",
+   "scene": "Insert: water streams down blue tiles, HERO silhouette behind frosted glass, mouth moving",
+   "set": "shower",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "swish",
+     "gain": -18
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "rain",
+    "gain": -20
+   }
+  },
+  {
+   "id": "s06",
+   "start": 17.05,
+   "end": 18.18,
+   "line": "On the bus.",
+   "scene": "Night bus window: rain on glass, city bokeh sliding past, HERO's head against the glass",
+   "set": "bus",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "carpass",
+     "gain": -18
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "rain",
+    "gain": -24
+   }
+  },
+  {
+   "id": "s07",
+   "start": 18.18,
+   "end": 20.52,
+   "line": "At three in the morning.",
+   "scene": "Dark bedroom, phone lights HERO's face as he sits up; bedside clock reads 3:00 AM",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "phonebuzz",
+     "gain": -16
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s08",
+   "start": 20.52,
+   "end": 22.85,
+   "line": "Every time, I win.",
+   "scene": "Apartment wide: HERO stands and points, confident, at the empty chair; a translucent ghost of HIM in the chair bows his head",
+   "set": "apartment",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 1.2,
+     "name": "shimmer",
+     "gain": -16
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s09",
+   "start": 22.85,
+   "end": 26.46,
+   "line": "Every time, I say the perfect thing.",
+   "scene": "bigFace HERO smirking, a glowing gold speech bubble blooms beside him on 'perfect'",
+   "set": "apartment",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 1.45,
+     "name": "ding",
+     "gain": -12
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s10",
+   "start": 26.46,
+   "end": 28.63,
+   "line": "And every time, I wake up,",
+   "scene": "Grey morning: HERO's face sideways on the pillow, eyes snap open on 'wake'",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.4
+   },
+   "sfx": [
+    {
+     "at": 0.9,
+     "name": "hit",
+     "gain": -20,
+     "pitch": 0.6
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -24
+   }
+  },
+  {
+   "id": "s11",
+   "start": 28.63,
+   "end": 31.93,
+   "line": "and it still went the way it went.",
+   "scene": "Grey replay of THE DOORWAY: HIM rewinds back in, then walks out again exactly the same; scan-line glitch",
+   "set": "apartment",
+   "bars": "scope",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "glitch",
+     "gain": -12
+    },
+    {
+     "at": 1.3,
+     "name": "glitch",
+     "gain": -16
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "hum",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s12",
+   "start": 31.93,
+   "end": 35.19,
+   "line": "That's what people get wrong about forgiveness.",
+   "scene": "Slow push toward a closed apartment door, thin warm light under it. Nothing else",
+   "set": "apartment",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.7
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -24
+   }
+  },
+  {
+   "id": "s13",
+   "start": 35.19,
+   "end": 37.97,
+   "line": "It isn't saying it was okay.",
+   "scene": "Insert, just hands: HIM's hand offered from the right, HERO's hand stays back and turns away",
+   "set": "hands",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.9,
+     "name": "swish",
+     "gain": -18
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s14",
+   "start": 37.97,
+   "end": 40.87,
+   "line": "It isn't letting them back in.",
+   "scene": "Inside the door: HERO's hand slides the chain lock into place; warm hallway light and a shadow at the gap",
+   "set": "apartment",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.75,
+     "name": "hit",
+     "gain": -12,
+     "pitch": 1.8
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s15",
+   "start": 40.87,
+   "end": 44.04,
+   "line": "It's putting down the case you've been building.",
+   "scene": "Insert: a thick CASE FILE folder set down on a table, hands let go, dust puffs up",
+   "set": "apartment",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 1.05,
+     "name": "impact",
+     "gain": -14
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s16",
+   "start": 44.04,
+   "end": 46.0,
+   "line": "Because you've been a lawyer for years now —",
+   "scene": "Courtroom establishing (tall stack): empty courtroom, light shafts, HERO alone at the prosecution table shuffling papers",
+   "set": "courtroom",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.6
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "hum",
+    "gain": -28
+   }
+  },
+  {
+   "id": "s17",
+   "start": 46.0,
+   "end": 47.6,
+   "line": "collecting evidence for a trial",
+   "scene": "Evidence wall: pinned photos, papers, red string; HERO pins one more; camera tilts up the wall",
+   "set": "courtroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.55,
+     "name": "pop",
+     "gain": -16
+    },
+    {
+     "at": 1.1,
+     "name": "pop",
+     "gain": -18
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "hum",
+    "gain": -28
+   }
+  },
+  {
+   "id": "s18",
+   "start": 47.6,
+   "end": 50.45,
+   "line": "that is never going to happen.",
+   "scene": "Insert: the gavel lies on a dusty block, a cobweb strung from it; dust in the light, slow push",
+   "set": "courtroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "clock",
+     "gain": -20,
+     "dur": 2.4
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "hum",
+    "gain": -28
+   }
+  },
+  {
+   "id": "s19",
+   "start": 50.45,
+   "end": 51.48,
+   "line": "They moved on.",
+   "scene": "Bright golden street: HIM walks away down the sidewalk, easy stride, back to us",
+   "set": "street",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "footstep",
+     "gain": -18
+    },
+    {
+     "at": 0.55,
+     "name": "footstep",
+     "gain": -19
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "city",
+    "gain": -24
+   }
+  },
+  {
+   "id": "s20",
+   "start": 51.48,
+   "end": 53.69,
+   "line": "They sleep fine.",
+   "scene": "Another city, warm lamp: HIM asleep, peaceful, blanket rising and falling",
+   "set": "otherBedroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s21",
+   "start": 53.69,
+   "end": 58.19,
+   "line": "You're the only one still sitting in that courtroom.",
+   "scene": "3D: empty courtroom, rows of benches, HERO the only figure seated, dust in a light shaft, slow dolly",
+   "set": "courtroom",
+   "bars": "scope",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "whoosh",
+     "gain": -20
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s22",
+   "start": 58.19,
+   "end": 61.71,
+   "line": "Forgiving the past is not a gift you give them.",
+   "scene": "Low angle: the empty judge's bench looms; a small wrapped gift sits before it, ribbon slipping loose",
+   "set": "courtroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "notes": "",
+   "amb": {
+    "name": "hum",
+    "gain": -28
+   }
+  },
+  {
+   "id": "s23",
+   "start": 61.71,
+   "end": 64.0,
+   "line": "It's you deciding you've served enough time —",
+   "scene": "Cell: HERO's hands on the bars, fingers slowly loosening and letting go",
+   "set": "cell",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "heartbeat",
+     "gain": -16
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -28
+   }
+  },
+  {
+   "id": "s24",
+   "start": 64.0,
+   "end": 66.95,
+   "line": "for something you didn't even do.",
+   "scene": "Cell wall of tally marks, years of them; camera drifts along, more marks appear",
+   "set": "cell",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "tick",
+     "gain": -18
+    },
+    {
+     "at": 0.9,
+     "name": "tick",
+     "gain": -18
+    },
+    {
+     "at": 1.4,
+     "name": "tick",
+     "gain": -18
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -28
+   }
+  },
+  {
+   "id": "s25",
+   "start": 66.95,
+   "end": 69.95,
+   "line": "You were never the judge.",
+   "scene": "From behind: HERO small at the bottom, looking up at the huge empty judge's chair",
+   "set": "courtroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 1.2,
+     "name": "riser",
+     "gain": -14,
+     "dur": 1.8
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "hum",
+    "gain": -28
+   }
+  },
+  {
+   "id": "s26",
+   "start": 69.95,
+   "end": 71.8,
+   "line": "You were the one in the cell.",
+   "scene": "REVEAL freeze: pull back through bars, HERO is inside the dock-cell in the courtroom; dust frozen, cool tint",
+   "set": "cell",
+   "bars": "scope",
+   "in": {
+    "type": "flash",
+    "dur": 0.4
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "freeze",
+     "gain": -8
+    },
+    {
+     "at": 0.0,
+     "name": "impact",
+     "gain": -10
+    }
+   ],
+   "notes": ""
+  },
+  {
+   "id": "s27",
+   "start": 71.8,
+   "end": 74.2,
+   "line": "",
+   "scene": "THE DOORWAY again, same frame as s03: empty, door open, dawn light pours in and fills the room",
+   "set": "apartment",
+   "bars": null,
+   "in": {
+    "type": "fade",
+    "dur": 0.9
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "shimmer",
+     "gain": -14
+    }
+   ],
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -30
+   }
+  }
+ ],
+ "music": [
+  {
+   "start": 0,
+   "end": 20.52,
+   "mood": "sad",
+   "intensity": 0.3
+  },
+  {
+   "start": 20.52,
+   "end": 31.93,
+   "mood": "tension",
+   "intensity": 0.4
+  },
+  {
+   "start": 31.93,
+   "end": 44.04,
+   "mood": "calm",
+   "intensity": 0.3
+  },
+  {
+   "start": 44.04,
+   "end": 58.19,
+   "mood": "dark",
+   "intensity": 0.45
+  },
+  {
+   "start": 58.19,
+   "end": 69.95,
+   "mood": "tension",
+   "intensity": 0.5
+  },
+  {
+   "start": 69.95,
+   "end": 74.2,
+   "mood": "hopeful",
+   "intensity": 0.4
+  }
+ ]
+}

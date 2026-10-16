@@ -35,6 +35,19 @@ def decode(dec, pcm):
     return segments(dec)
 
 
+def fix_stranded_openers(words, gap=0.3):
+    """The aligner sometimes parks a sentence's first word at the end of the previous sentence,
+    before the pause. Move such a word to just after the pause, in front of the word it belongs to."""
+    for i in range(1, len(words) - 1):
+        w, nxt = words[i], words[i + 1]
+        if re.search(r"[.?!…]['\"”’)]*$", words[i - 1]["word"]) and nxt["start"] - w["end"] > gap:
+            dur = min(max(w["end"] - w["start"], 0.12), 0.3)
+            w["start"], w["end"] = nxt["start"], round(nxt["start"] + dur, 3)
+            nxt["start"] = min(w["end"], round(nxt["end"] - 0.05, 3))
+            print(f"moved stranded '{w['word']}' to {w['start']:.2f}s")
+    return words
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--project", required=True)
@@ -74,7 +87,7 @@ def main():
     aligned = decode(dec, pcm)
     if len(aligned) < 0.9 * len(known):
         sys.exit(f"alignment failed ({len(aligned)}/{len(known)} words placed); check the script matches the audio")
-    words = align_script(txt, aligned)
+    words = fix_stranded_openers(align_script(txt, aligned))
     write_timeline(os.path.join(a.project, "timeline"), words, sentences_from_words(words), "pocketsphinx-align+script")
 
 
