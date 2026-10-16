@@ -43,11 +43,11 @@ The real science: your brain sees the world about 0.1 seconds late, so it quietl
 An animated What If story about precognition, superpowers, reaction time and how the human brain predicts the future. This is a work of fiction.
 
 -----
-[CHANNEL NAME]: every what if, lived by you.
-Subscribe for new What If films, and you'll see the next one before everyone else: [@YOURHANDLE]
-Business inquiries: [YOUR BUSINESS EMAIL]
+Parallel You: every what if, lived by you.
+Subscribe for new What If films, and you'll see the next one before everyone else: @ParallelYou
+Business inquiries: parallelyou.business@gmail.com
 
-#whatif #animation #superpower #seethefuture #precognition #brain #[yourchannel]
+#whatif #animation #superpower #seethefuture #precognition #brain #parallelyou
 ---
 
 ## Pinned comment

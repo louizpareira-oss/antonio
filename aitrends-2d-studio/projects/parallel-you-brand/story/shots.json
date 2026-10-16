@@ -1,0 +1,5 @@
+{ "title": "Parallel You channel art", "duration": 2,
+  "shots": [
+   { "id": "banner", "start": 0, "end": 1, "line": "", "scene": "2560x1440 banner: real street left, blue world right, PARALLEL YOU logo in the safe area", "bars": "none", "in": { "type": "cut" } },
+   { "id": "avatar", "start": 1, "end": 2, "line": "", "scene": "profile picture: your head and its cyan copy, cropped to a square", "bars": "none", "in": { "type": "cut" } }
+  ] }
