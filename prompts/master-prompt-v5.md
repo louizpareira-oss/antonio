@@ -1,4 +1,4 @@
-# MASTER PROMPT SYSTEM v5.2: Fast Explainer Shorts (16:9 horizontal)
+# MASTER PROMPT SYSTEM v5.3: Fast Explainer Shorts (16:9 horizontal)
 
 There are three prompts, run in order:
 
@@ -35,6 +35,14 @@ beats in the script.
 **v5.2** adds PRESET 3, CARTOON RUSH · DENSE CUT: the cartoon look at HUD pace. Presets 1 and 2
 are each measured from one channel. Preset 3 combines the two sets of measurements, so it stays
 untested until you post a video made with it and measure it.
+
+**v5.3** adds your EMOTIONAL TRUTH section, edited after a review (four lenses and two
+skeptics; see docs/12). It also adds D2 STRUGGLE MOTION (how to make effort and weight read as
+physically real), a MICRO-MOMENT LIBRARY, and new J fields (THE FEELING, BODY TELL, LOCK,
+POST HIT). One measured fact to keep in mind: the references show a body state in 0–42% of
+shots, mostly in the opening seconds. They never show sweat, tremor, breath or grip. These
+rules are a new direction for the channel, not a copy of the references, so test them on one
+video first.
 
 What did **not** need to change: 16:9 (all four references are 16:9 on TikTok), 30 fps, word-by-word
 cards in white with DIFFERENCE blend (all four use it), card size for the cartoon style (≈ 14% cap
@@ -138,6 +146,138 @@ ANTI-COPY: never reuse a hook, metaphor, prop or composition from the reference
 
 ---
 
+## EMOTIONAL TRUTH: paste under the preset block in Prompt 3
+
+Your Emotional Truth section, edited after a review: four review lenses, two skeptics, and a
+frame-by-frame check of the four reference videos. The reasons for each edit are in
+[`docs/12-emotional-truth-review.md`](../docs/12-emotional-truth-review.md). Rule 7 and the
+script-level rules also appear inside Prompts 1 and 2 below.
+
+```
+EMOTIONAL TRUTH  (paste directly under the preset block in Prompt 3)
+PRIORITY: EMOTIONAL TRUTH decides WHAT each shot shows. The preset's numbers decide HOW
+  FAST, HOW LONG and HOW BRIGHT. When they disagree, the numbers win: find a truer moment
+  that fits the pace. Never make a shot slower or darker to get there.
+SCOPE: rules 1–4 and 8–11 apply to every video. Rules 5–7 apply to motivation, discipline,
+  time and perspective themes. In NEON HUD the body tell is shown by how the icon or
+  silhouette behaves: breath = a waveform that catches; tremor = a jittering gauge needle;
+  weight = the silhouette's shoulders sinking, or a battery draining. Rules 5–6 apply to
+  the cartoon presets only.
+
+1. BODILY TRUTH: MIRROR SHOTS
+   HOOK, SYMPTOM, BELIEF, PAYOFF and LANDING shots are MIRROR SHOTS: the viewer's own life.
+   Each shows its line as a feeling in a body (a person, an animal, or an object with a
+   face), never as a prop alone. For "you're tired", not a bed but a head that nods and
+   jerks awake, arms that hang, shoulders that drop under invisible weight. The noun stays
+   the subject and a body reacts to it. Silhouette test: cover the face. If the feeling
+   still reads, the pose works.
+   PIVOT and MECHANISM shots carry the running metaphor. At least every third one puts the
+   metaphor's cost on a body (knees buckle under the load). Object and icon shots show the
+   cost as force: sagging, bowing, cracking, a face-object sweating.
+   BUDGET: 8–14 mirror shots per video. Never more than 2 strain shots in a row.
+2. THE FEELING (a planning field, never pasted into a generator)
+   Write it FIRST: the moment in the viewer's day this shot matches (time, place, body
+   part). Then carry it: its body cue appears word for word in IMAGE (the start pose) and
+   MOTION (the verb).
+   TEST: if this FEELING could caption 3 other shots in the video, rewrite the shot.
+3. BODY TELL (every mirror shot): one cue, drawn as a cartoon tell. It sits big on the main
+   subject, outside the middle 30% band, at least ~5% of frame height.
+   EXERTION:
+     sweat = 2–3 big cartoon sweat drops flying off the head, or a dark sweat patch on the back
+     tremor = limbs shaking hard, with short shake lines beside them
+     ache = spine curved like a question mark, hand on the lower back, small pain stars
+     breath = shoulders heaving, mouth open panting, breath puffs, a long sigh cloud
+     grip = both fists clamped on a handle, knees braced (a whole-body grip, not knuckle colour)
+     weight = knees buckling, feet sinking, the surface bending under the load
+   AVOIDANCE: eyes or hand veer away from the task.
+   HESITATION: reach, stop short, pull back (see rule 8).
+   INERTIA: sinking into the couch, pinned, melting.
+   RESTLESSNESS: leg bounce, flipping over in bed.
+   SCREEN GLOW: face lit cyan from below in a dark room.
+   FATIGUE: eyelids drop and snap open; head nods, then jerks awake.
+   RELIEF: shoulders drop, exhale cloud.
+   SCALE: close-up = grip, sweat, mouth (face in the top third only). Medium = breath,
+     tremor. Wide / top-down / isometric = posture and weight.
+   NEVER (unreadable at this size and length): dry lips, a taste, a trembling voice, eyes
+     that won't focus, knuckle colour.
+   FREQUENCY TEST: most viewers did this exact thing in the last 7 days. If not, pick a
+     smaller, more common moment from the MICRO-MOMENT LIBRARY
+     (prompts/micro-moment-library.md).
+4. WORD-MOTION LOCK (editor only, never in a generator prompt)
+   Each shot names ONE lock word. The action's PEAK frame (impact, slip, buckle,
+   push-through, jerk awake) lands 0–3 frames BEFORE that word's onset, and never more than
+   1 frame after it. The brace and strain may come before the word; the peak may not come
+   after it. Lock the body's reaction, not a picture of the word: on "HEAVY", the shoulders
+   buckle. Method: Prompt 3 D2.6.
+5. QUIET BIAS (motivation / discipline themes)
+   Real sacrifice is mostly boring, ugly and private. Prefer:
+   - the dark early hour over golden hour
+   - the third hour of effort over the first minute
+   - defeat in the posture, persistence in the motion
+   - a messy room over a perfect desk
+   - no one watching over a cheering crowd
+   AVOID: sunsets, golden hour, summit arms-raised triumph, perfect teeth and bodies,
+   stock-illustration poses.
+   HOW TO DRAW IT IN THE PRESET LOOK:
+   - DARK MEANS SATURATED NIGHT, NOT GREY: deep indigo or violet at full saturation, lit by
+     ONE hot practical light (phone cyan, lamp orange, fridge white). MECHANISM stays the
+     brightest phase. Rotate the dark hue (indigo → violet-magenta → night teal).
+   - SHOW THE HOUR WITH LIGHT, NOT NUMBERS: a pre-dawn blue window, the phone as the only
+     light at 1 a.m., fridge light in a dark kitchen, slanted 3 p.m. sun, streetlight
+     stripes. The number lives only in the voice and the caption.
+   - SHOW DURATION WITH LEFTOVERS: mug rings, a window gone from dark to light, crumbs on
+     the keyboard, crumpled lists, a posture that gets worse across a jump-cut set.
+   - Mess sits at the frame edges and on the floor. The middle 30% stays clearly dark or
+     clearly bright.
+   - LANDING = ORDINARY VAST: first light flooding a messy room, one lit window in a dark
+     apartment block, an open street at dawn, a night sky. Never a sunset or a summit. The
+     character stays small and still working.
+   - CROWDS = CONTRAST: everyone else rushing past the still YOU, or party lights passing
+     the window while YOU pull the curtain.
+6. ANTI-HEROIC: the YOU character (the figure that stands for the viewer)
+   Tired, not fierce. Resigned, not fiery. Ordinary, not exceptional. Strained, not stoic.
+   Tired, not broken. Stuck, not hopeless. They keep a sense of humour.
+   LOOK, written into every IMAGE prompt for this character: oversized hoodie, unstyled
+   hair with a cowlick, dark half-moons under half-closed eyes, a coffee-stain dot, rounded
+   shoulders, and worn clothes still in the preset's candy colours.
+   ONE design for the whole video: make a character sheet first, and if your image tool
+   takes a reference image, reuse it for every YOU shot. Show YOU from behind, over the
+   shoulder, or with the face in the upper third. Animal and object characters in
+   MECHANISM may stay playful.
+7. PHYSICAL COST METAPHOR (enforced in Prompt 1, item 5)
+   The running metaphor is a system in which a body does physical work that costs, and
+   hurts if it goes on too long: carrying, hauling, digging, rowing, pushing, forging,
+   holding something heavy. The work is the metaphor's COST side; the reward side can be
+   anything.
+   FORBIDDEN: metaphors with no physical labour in them (a library, a computer, a puzzle, a
+   story being written), and brain-as-computer.
+8. HESITATION IS A LOOP, NEVER A FREEZE
+   Reach, stop a finger-width short, pull back, reach again: 2–3 cycles inside the clip.
+   Restless avoidance is a JUMP-CUT SET: same bed or couch, 3–4 poses, cut every 1–1.5 s.
+9. TRUE AND FUNNY BEATS TRUE AND GRIM
+   At least 2 mirror shots per video play the tell as comedy through exaggeration: the phone
+   drops on your face and you keep scrolling; the body melts into the couch until only the
+   phone arm sticks out; the gym bag by the door has a sad face. The viewer laughs because
+   it is exactly them.
+10. RELEASE
+   The landing contains one RELEASE shot. YOU does one tiny, doable action and the body gets
+   lighter: the phone goes face-down and the glow leaves the face, or one box gets ticked
+   and the shoulders drop. Small and earned, never triumphant.
+11. SHOWN, NEVER PRESCRIBED
+   Show the struggle honestly. No line or picture tells the viewer to skip sleep or meals,
+   train through pain, or treat exhaustion as a virtue.
+   DO NOT DRAW (a precaution): blood, wounds, bitten or bleeding lips, pills or medicine
+   bottles; ledges, rooftops, bridges or platforms behind a lone figure; water over the head
+   or sinking under water; ropes or cords around anything; crying alone in the dark for
+   more than one shot.
+LISTS IN THIS BLOCK ARE CATEGORIES: use the category, but change the room, prop and angle,
+  and never reuse an example's exact wording or composition. Anti-copy still applies to the
+  examples themselves.
+```
+
+
+---
+
 ## PROMPT 1: CONTENT IDEAS
 
 ```
@@ -155,22 +295,32 @@ EVERY IDEA MUST HAVE:
    a. SYMPTOM QUESTION: "Why do you [relatable thing] even after/before [expected fix]?"
    b. COMMAND: a 2-word order, then why ("Lock in. …").
    c. CONFESSION: first person, "I don't want to [thing everyone secretly feels]…"
-3. WRONG BELIEF: what the viewer currently blames (laziness, bad hearing, weak willpower).
+3. WRONG BELIEF: the sentence the viewer says in their own head, in their own words, plus the
+   evidence they hold against themselves ("I'm so lazy. Two hours of scrolling proves it.").
+   A common label like "lazy" is fine if the next line names the fear under it. A straw man
+   is a belief almost nobody holds.
 4. MECHANISM: the real explanation in one sentence, with 4–8 DRAWABLE NOUNS (things that can be
    literally drawn or shown as an icon). List those nouns.
-5. RUNNING METAPHOR: one system the whole video compares the viewer to (a machine, a network,
-   an animal, a city, a body organ…). It is set up in the mechanism and paid off in the last
-   line. FORBIDDEN: the brain-as-computer/supercomputer/processor metaphor. That one belongs
-   to @thecognitionswitch.
-6. IDENTITY FLIP: the last line turns the viewer's "flaw" into something that makes sense or
-   is a hidden strength ("You aren't lazy, you're …").
+5. RUNNING METAPHOR: one system the whole video compares the viewer to, in which a body does
+   PHYSICAL WORK that costs, and hurts if it goes on too long (a porter, a digger, a rower,
+   a smith, someone holding something heavy). It is set up in the mechanism and paid off in
+   the last line. FORBIDDEN: metaphors with no physical labour in them (a library, a
+   computer, a puzzle, a story being written), and the brain-as-computer / supercomputer /
+   processor metaphor, which belongs to @thecognitionswitch.
+6. IDENTITY FLIP: the last line reframes the struggle as INFORMATION, not toxic positivity
+   ("You aren't lazy, you're carrying something heavy"). Forbidden: "you're amazing and
+   perfect".
 7. FACT TO VERIFY: every number, study or named term the idea depends on, or "none".
-8. EMOTION ARC: start emotion → end emotion, with a colour mood for each phase.
+8. EMOTION ARC: start → LOW POINT → end, with a colour mood for each. The LOW POINT sits on
+   the WRONG BELIEF beat (4 s or less, before 20 s). It is self-blame or shame, never despair,
+   and it gets the darkest (still saturated) shot. No second low point after the PIVOT.
 9. PRESET PICK: CARTOON RUSH, DENSE CUT or NEON HUD, with a one-line reason. NEON HUD suits
    brain / body / science-of-you ideas; CARTOON RUSH suits motivation / time / discipline /
    perspective; DENSE CUT suits the same themes when the mechanism has many drawable nouns.
 10. MOTIF: one simple shape or object that returns at 2–3 beats (opening, mechanism peak,
    landing), e.g. a ring, a waveform, a coin, a doorway.
+11. MIRROR MOMENTS: 3–5 specific, unglamorous moments the viewer lived this week, in the
+   categories of the MICRO-MOMENT LIBRARY (prompts/micro-moment-library.md).
 
 RULES:
 - Themes: motivation, perspective, time, discipline, mortality, science-of-you.
@@ -210,7 +360,8 @@ STRUCTURE (measured from the reference timelines; seconds are for a 65 s video):
 1. HOOK (0–5 s, 12–18 words): the idea's hook. No greeting, no "in this video".
 2. SYMPTOM (5–11 s): 2–3 physical, visceral images of the problem ("your limbs feel like
    concrete"). Second person.
-3. WRONG BELIEF (3–4 s): "You think it's [wrong belief]."
+3. WRONG BELIEF (3–4 s): the viewer's own words plus their evidence. This is the LOW POINT:
+   self-blame, never despair or hopelessness.
 4. PIVOT (4–5 s): starts with "But". Introduce the real explanation. Use a real named term
    or "research suggests". NEVER invent a university or a study.
 5. MECHANISM (40–50% of the runtime, 26–32 s; measured 41% and 49%): explain it through the
@@ -223,6 +374,16 @@ STRUCTURE (measured from the reference timelines; seconds are for a 65 s video):
 VOICE: second person (or first person for a CONFESSION hook). Plain words, short sentences,
 certain tone. No profanity. No "follow for more". No list longer than 3 items. No more than 3
 consecutive lines making the same point.
+HONEST, NOT HYPE: the words name the real cost. No "you can do anything", no "become
+unstoppable". Test: if a line would sound natural shouted at a motivational seminar, rewrite
+it. Would a tired friend say it to you quietly at 1 a.m.? The honesty is in the words, not the
+tempo: delivery stays 190–210 wpm.
+SPECIFIC, BORING DETAIL: at least one SYMPTOM or PAYOFF line names a specific, unglamorous
+detail ("it's eleven forty", "the same tab since Monday", "your bed still looks warm from
+across the room"). Write numbers the way they are said. They live in the voice and the
+caption, never in the picture.
+SHOWN, NEVER PRESCRIBED: no line tells the viewer to skip sleep or meals, train through pain,
+or treat exhaustion as a virtue.
 
 MECHANISM RULE: if the mechanism has two sides (cost vs reward, threat vs safety), the
 landing or payoff acts on BOTH.
@@ -250,6 +411,7 @@ OUTPUT:
    total is under 195 words.
 6. NOUN LIST: every drawable noun or action in order of appearance (Prompt 3 turns these into
    shots).
+7. EMOTION ARC: start → low point (line number) → end, with a colour mood for each.
 IDEA: [paste one idea from Prompt 1]
 ```
 
@@ -271,8 +433,9 @@ A. FORMAT
 ============================================================
 B. PRESET
 ============================================================
-Paste ONE preset block (CARTOON RUSH, CARTOON RUSH · DENSE CUT or NEON HUD). Every number in it
-is a hard rule.
+Paste ONE preset block (CARTOON RUSH, CARTOON RUSH · DENSE CUT or NEON HUD), then the EMOTIONAL
+TRUTH block under it. Every number in the preset is a hard rule. EMOTIONAL TRUTH decides what
+each shot shows.
 
 ============================================================
 C. PACING (the main change from v4.1)
@@ -306,11 +469,89 @@ Every shot has BOTH:
 2. A SUBJECT ACTION that runs the WHOLE clip, with a strong verb and a speed word: "sprints",
    "slams", "spins fast", "fills up quickly", "crashes", "launches", "flips upside down".
    Plus 1–2 background motions (rain, sparks, speed lines, rising particles, flickering
-   lights).
+   lights). EFFORT shots and the YOU character use the effort verbs and beats in D2.
 - No shot may contain a frozen moment longer than 0.5 s.
 - Allowed and encouraged: explosions, lightning, speed lines, impact stars, white flashes,
   fast zooms, smoke bursts. (v4.1 banned these. The references use them in every video.)
 - Still forbidden inside a clip: scene changes, morphing one scene into another, warped faces.
+
+============================================================
+D2. STRUGGLE MOTION (shots whose line is about effort, weight, fatigue or resisting)
+============================================================
+Tag these shots EFFORT: LIFT / PUSH-PULL / CARRY / HOLD / SINK / TRUDGE / NOD-OFF. Usually 5–8
+shots per video. Every other shot follows D unchanged.
+1. THE FIVE BEATS (frames at 30 fps, after the edit speed)
+   BRACE    4–8 f   body dips, feet plant, hands clamp, shoulders rise
+   STRAIN   8–20 f  little or no progress; limbs and the object shake; sweat drops fly;
+                    teeth clenched. A moving hold, never frozen.
+   GIVE     3–6 f   the load wins for a moment: it drops a notch, a foot slides back, a knee
+                    buckles
+   RESOLVE  4–10 f  PUSH-THROUGH (one sudden fast move past the sticking point) or STALL
+                    (collapse, slump)
+   SETTLE   6–12 f  overshoot and settle; shoulders heave; breath puff, dust puff
+   By shot length: 1.2–1.5 s = STRAIN + GIVE · 1.6–2.2 s = BRACE + STRAIN + GIVE + RESOLVE ·
+   2.3–3.0 s = all five. The PEAK is the GIVE or RESOLVE frame; only the peak lands on the
+   lock word.
+2. IMAGE = the loaded start frame. The subject is already in BRACE or STRAIN, never standing
+   neutral, with the effort signs drawn in so it reads even if the clip barely moves: bent
+   knees, spine curved under the load, head below the shoulder line, 2–3 big sweat drops,
+   short shake lines, a dark sweat patch, the surface already dented.
+3. MOTION wording: "Camera: [move + speed]. Action: [subject] [effort verb] [object] with
+   [body part]; [limbs] shake hard; big sweat drops fly off; the [object] slips back a little
+   and [subject] [shoves/heaves] again, harder; repeating for the whole clip. Contact:
+   [surface] squashes / bends, dust puffs on every slip. Background: [1–2 motions].
+   Real-time speed, sudden jolts. 2D flat cartoon animation, same flat colours and bold
+   outlines. One continuous shot. 5 s."
+   EFFORT VERBS: heaves, hauls, drags, shoves, braces, clamps, buckles, staggers, stumbles,
+     lurches, slips, slumps, sags, collapses, flops, trudges, plods, pants, gasps, jerks awake.
+   BODY CUES: knees bend and shake, back curves, shoulders hunch up to the ears, arms lock
+     straight, head drops, chest heaves fast, mouth open panting, teeth clenched, eyes
+     squeezed shut, eyelids droop and snap open.
+   WORLD CUES: cushion squashes flat, floor bends, ground cracks, rope pulls taut, shelf
+     bows, dust bursts out, the object rattles.
+   WEIGHT = TIMING CONTRAST, NOT SLOWNESS. Heavy things are slow to start and fast to drop:
+     write "barely rises, then drops suddenly", never "moves slowly".
+   NEVER WRITE in MOTION: slowly, slow movements, gently, smoothly, gracefully, floating,
+     drifting, hovering, dreamy, ethereal, serene, cinematic, epic, majestic, slow motion,
+     time-lapse, subtle, slightly, realistic sweat/skin, blood; a bare "heavy", "exhausted"
+     or "struggling" without a body verb; feeling words; any script word in quotes.
+4. FATIGUE VARIANTS (no object)
+   TRUDGE: drags each foot, head hanging, shoulders heaving; stumbles once, catches himself,
+     keeps going. PEAK = the stumble.
+   NOD-OFF: head sinks, chin hits chest, jerks awake, sinks again. PEAK = the jerk.
+   SINK: sinks into the [cushion/floor] like quicksand, which bulges up around the hips;
+     arms flop. PEAK = the deepest drop.
+   HOLD: holds [thing] up, arms shaking hard; it sinks a notch; shoves it back up.
+     PEAK = the sink.
+5. CAMERA FOR WEIGHT: low angle under a looming load; top-down or high angle for being
+   pressed flat; slow push-in (≈ 5%/s) through STRAIN; tracking beside a trudge at walking
+   pace. The body moves more than the camera. No orbit, fly-through or crane on an EFFORT
+   shot. The impact jolt is added in the editor (POST HIT).
+6. USE WINDOW AND LOCK (editor):
+   a. Find the PEAK in the 5 s clip first.
+      in-point = peak − (lock offset × speed); out-point = in-point + (shot length × speed).
+   b. Line up the PEAK 1 frame before the lock word's card. Acceptable range: 3 frames early
+      to 1 frame late.
+   c. Slip the clip; never move the cut.
+   d. Too few frames before the peak? Try, in order: the next cycle's peak; 1.5× before the
+      peak; another take; start mid-STRAIN; or re-split the shot so the lock word opens it.
+   e. Keep at least 4 frames before and 6 after the peak. Speed 1.2–1.5× through BRACE /
+      STRAIN / SETTLE, 1.0× for 3 frames each side of the peak, never below 1.0×.
+   f. Reject a take if hands melt, fingers multiply or the object passes through the body
+      within 6 frames of the peak.
+   POST HIT (impact locks only, at most 1 shot in 3): on the lock frame, punch the video
+   layer in to 104% over 2 frames, then a 4–6-frame decaying mostly-vertical shake
+   (≈ 15 px at 1080p, halving each frame), plus a low thud under the voice. Word cards stay
+   on top and do not shake.
+TEST BEFORE ADOPTING (6 generations): take one EFFORT shot and generate 3 MOTION variants,
+   2 takes each: (A) plain D wording, (B) D2 wording, (C) D2 plus "slowly, heavy,
+   cinematic". Score each take:
+   - is there a peak, and at what clip second
+   - are the hands intact at the peak
+   - can you see the tell on your phone at arm's length
+   - does the clip stay flat 2D
+   Adopt the variant with the most usable takes. Drop any never-write word that turns out not
+   to hurt in your tool.
 
 ============================================================
 E. CRAFT RULES (kept from v4.1/v4.2)
@@ -321,7 +562,8 @@ E. CRAFT RULES (kept from v4.1/v4.2)
 3. SCALE AND ANGLE CONTRAST: no three consecutive shots at the same shot scale or angle. Use
    top-down, low-angle and isometric views as well as close-up / medium / wide.
 4. COLOUR FOLLOWS THE ARC: SYMPTOM/BELIEF = darker and tighter; MECHANISM = brightest and most
-   saturated; LANDING = vast (sky, space, horizon). No more than 3 consecutive shots in the
+   saturated; LANDING = ordinary vast (Emotional Truth 5: first light, one lit window in a dark
+   block, a night sky; never a sunset). No more than 3 consecutive shots in the
    same hue family. (HUD: alternate red-dominant and cyan/white-dominant shots.)
 5. LIGHTING HAS A SOURCE: state it (CARTOON).
 6. CAST ROTATION (CARTOON): person / object or ANIMAL with a face / crowd or multi-figure
@@ -330,7 +572,9 @@ E. CRAFT RULES (kept from v4.1/v4.2)
 7. TEXT BAND: the middle 30% of every image (where the word sits) must be clearly dark or
    clearly bright. Never a face or a mid-grey/beige surface there.
 8. ANTI-COPY: never reuse a hook, metaphor, prop or composition from any example in this
-   prompt system or from the reference channels' videos.
+   prompt system or from the reference channels' videos. Exception: the lists in EMOTIONAL
+   TRUTH, D2 and the MICRO-MOMENT LIBRARY are categories to choose from. Change the room,
+   prop and angle, and never use the same micro-moment in two videos in a row.
 9. MOTIF: the idea's motif returns at 2–3 beats. Flag those shots in the output.
 
 ============================================================
@@ -366,6 +610,10 @@ H. GENERATION TIPS
 - If a clip still moves too slowly, speed it to 1.2–1.5× in the editor (this is a production
   tip, not a measured value).
 - Jump-cut sets: same image prompt + "same setting, different pose: [pose]".
+- EFFORT shots: prompt a repeating cycle so the 5 s clip holds 2–3 peaks, then pick the
+  cleanest peak (hands intact). See D2.6.
+- The YOU character: one character sheet, reused as the reference image wherever your tool
+  allows it.
 
 ============================================================
 I. NEGATIVE PROMPTS (paste on every generation)
@@ -377,9 +625,10 @@ brushwork, blur, muted colours, pastel, washed-out, distorted anatomy, extra lim
 fingers, deformed face, letterbox, black bars, split screen, collage, border
 NEON HUD only, also add: daylight, sky, nature, landscape, skin texture
 MOTION NEGATIVE:
-static camera, frozen frame, slow motion, still image, morphing, face distortion, warping
-anatomy, extra limbs, scene change, cut, transition, text, letters, subtitles, logo,
-watermark, photorealism, flicker
+static camera, frozen frame, slow motion, still image, floating, weightless drifting,
+morphing, face distortion, warping anatomy, extra limbs, scene change, cut, transition, text,
+letters, subtitles, logo, watermark, photorealism, flicker
+CONTENT (all presets): add the DO NOT DRAW list from EMOTIONAL TRUTH 11.
 
 ============================================================
 J. OUTPUT FORMAT
@@ -387,22 +636,37 @@ J. OUTPUT FORMAT
 PRESET: [CARTOON RUSH / DENSE CUT / NEON HUD] · MOTIF: [shape → shot numbers]
 TOTAL: [n] shots · [mm:ss] at [wpm] wpm
 FACT CHECK: [each claim → kept / rewritten as …]
-PACE CHECK: shots = [n] (target ≥ words ÷ 11 or ÷ 6) · longest shot [x] s · shots > 5 s:
-  [n] · camera move in [x]% of shots · first cut at [x] s · final shot [x] s
-CRAFT CHECK: list any shot that breaks a rule in C, D or E and fix it before output.
+PACE CHECK: shots = [n] (target ≥ words ÷ 11 CARTOON RUSH / ÷ 7 DENSE CUT / ÷ 6 NEON HUD) ·
+  longest shot [x] s · shots > 3 s: [n] (DENSE CUT: max 1) · shots > 5 s: [n] · jump-cut
+  sets: [n] · camera move in [x]% of shots · first cut at [x] s · final shot [x] s
+TRUTH CHECK: mirror shots [n] (8–14) · strain shots in a row ≤ 2 · comic mirror shots ≥ 2 ·
+  low point: shot [n] · release shot: shot [n] · every tell appears in both IMAGE and MOTION ·
+  no D2 never-write word in MOTION · no quoted word in IMAGE or MOTION
+CRAFT CHECK: list any shot that breaks a rule in C, D, D2, E or EMOTIONAL TRUTH and fix it
+  before output.
 
 Then one block per shot:
-[SHOT 07] ~00:14.2 → 00:16.0 (1.8 s) · MECHANISM · cast: icon · scale: close-up · set: —
+[SHOT 07] ~00:14.2 → 00:16.0 (1.8 s) · MECHANISM · cast: [type] · scale: [type] · set: [A1 / —]
+  · MIRROR: [yes / no] · EFFORT: [none / LIFT / PUSH-PULL / CARRY / HOLD / SINK / TRUDGE / NOD-OFF]
 WORDS: "exact words this shot covers"
-SURPRISE: [one unexpected thing]
-IMAGE: [preset look statement]. [Subject + pose at the START of the action] in [setting with
-  specific props / HUD elements]. [Light source]. [Colours for this phase]. Centre of frame
-  [dark / bright]. Nothing written.
-MOTION: Camera: [move + speed]. Action: [subject verb + speed, lasting the whole clip].
-  Background: [1–2 motions]. Energetic, fast, continuous. One continuous shot. 5 s.
-USE: seconds [a–b] of the clip · speed [1.0–1.5×]
+THE FEELING (planning only): [the viewer's moment: time, place, body part]
+  → carried by: [the one body cue]
+BODY TELL: [one cartoon tell from Emotional Truth 3, on the main subject]
+  (non-mirror shots: OBJECT FORCE: [sag / bow / crack / sweat on a face-object] or none)
+SURPRISE: [one unexpected thing; may be the tell]
+IMAGE: [preset look statement]. [Subject already in the start pose of the action (EFFORT shots:
+  the BRACE/STRAIN pose), with the tell drawn on] in [setting with specific props / HUD
+  elements]. [Light source]. [Colours for this phase]. Centre of frame [dark / bright].
+  Nothing written.
+MOTION: Camera: [move + speed]. Action: [subject verb + speed, done WITH the tell, lasting the
+  whole clip; EFFORT shots: D2 wording with one clear peak]. Background: [1–2 motions].
+  [EFFORT: Real-time speed, sudden jolts. | other shots: Energetic, fast, continuous.]
+  2D flat cartoon animation. One continuous shot. 5 s.
+LOCK (editor only): lock word at +[s.ss] s into the shot · PEAK = [the one frame]
+USE: peak at clip [x.x] s · in [a] → out [b] · speed [1.0–1.5×, 1.0× at the peak]
 CUT IN: hard cut on "[word]" + [whoosh / impact / riser / glitch] | white flash | black beat
-SCRIPT: [paste the script, NOUN LIST and PHASE MAP from Prompt 2]
+POST HIT: [none | punch-in 104% + 5-frame shake + low thud on the lock frame]
+SCRIPT: [paste the script, NOUN LIST, PHASE MAP and EMOTION ARC from Prompt 2]
 ```
 
 ---
@@ -422,4 +686,7 @@ SCRIPT: [paste the script, NOUN LIST and PHASE MAP from Prompt 2]
 | Final shot | timeline | 3–5 s (Dense Cut 2.5–4 s), ends ≤ 0.5 s after the last word |
 | Loudness | export meter | −14 to −16 LUFS, peak ≤ −1 dBTP |
 | Text legibility | watch at phone size | every word readable; fall back to solid white if not |
+| Word lock | step through each EFFORT shot | the peak frame lands 3 frames early to 1 frame late on its lock word |
+| Body tells | watch at phone size, arm's length | every mirror shot's tell is visible; 8–14 mirror shots; a release shot in the landing |
+| POST HIT | timeline | impact locks only, at most 1 shot in 3 |
 | AI label | upload screen | AI-generated content label ON |
