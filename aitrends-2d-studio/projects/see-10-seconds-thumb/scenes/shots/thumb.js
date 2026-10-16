@@ -103,3 +103,52 @@ registerShot('thumbB', { draw(g, t, info) {
 
 // A2 — same picture, stakes in the text
 registerShot('thumbC', { draw(g, t, info) { thumbA(g, 'TO SAVE HER', '#ff4a3a', '#ff2a2a'); } });
+
+// ---------- round 2: the moment before impact ----------
+// red countdown timer: dark disc, red ring almost empty, huge white number
+function countdownTimer(g, x, y, r, n, frac) {
+  glow(g, x, y, r * 2.2, '#ff2a2a', 0.55);
+  circle(g, x, y, r * 1.1, '#05060a'); circle(g, x, y, r, '#2a0606');
+  ring(g, x, y, r * 0.84, r * 0.17, alpha('#ff2a2a', 0.22));
+  g.strokeStyle = '#ff3a2a'; g.lineWidth = r * 0.17; g.lineCap = 'round'; g.beginPath(); g.arc(x, y, r * 0.84, -Math.PI / 2, -Math.PI / 2 + Math.PI * 2 * frac); g.stroke();
+  text(g, String(n), x, y + r * 0.06, { size: r * 1.3, color: '#ffffff', font: FONTS.ui, weight: 900, glow: r * 0.35, glowColor: 'rgba(255,40,40,.95)' });
+}
+// cyan glow on the eyes of a 3/4-view rig figure
+function figEyes(g, o, k = 1) {
+  const p = o.pose, s = o.s, hx = o.x + p.head[0] * s, hy = o.y + p.head[1] * s, r = 26 * s;
+  const fx = hx + r * 0.34, ey = hy - r * 0.16;
+  for (const ex of [fx - r * 0.26, fx + r * 0.32]) { glow(g, ex, ey, r * 0.7, BLUE, 0.8 * k); ring(g, ex, ey, r * 0.2, r * 0.07, alpha(BLUE, 0.95 * k)); }
+}
+const lunge = { head: [50, -196], sh: [30, -166], hip: [0, -100], eF: [70, -180], hF: [110, -190], eB: [-8, -138], hB: [-42, -122], kF: [40, -58], fF: [62, -4], kB: [-28, -52], fB: [-72, -22] };
+
+function thumbD(g, words) {
+  const M = mood('golden');
+  g.save(); g.translate(E.W / 2, E.H / 2); g.rotate(-0.035); g.scale(1.06, 1.06); g.translate(-E.W / 2, -E.H / 2);       // dutch angle
+  blurLayer(g, 4, (g) => street(g, 1.5, { z: 1.15, x: 160, y: 250 }, { mood: 'golden', seed: 77, cross: E.W / 2 + 330 }));
+  veil(g, '#0a0410', 0.1);
+  // the real truck looming over her, dark and solid, headlights blazing; a thin cyan outline of its future position
+  const tx = E.W * 0.69, ty = E.H * 0.63, tz = 0.66;
+  glow(g, tx, ty - 180, 900, '#ffd59a', 0.3);
+  for (let i = 3; i >= 1; i--) { g.save(); g.globalAlpha = 0.1; truckFront(g, tx + i * 46, ty, tz); g.restore(); }
+  truckFront(g, tx, ty, tz, '#1c1e28');
+  g.save(); g.translate(tx - 70, ty + 14); g.scale(tz * 1.07, tz * 1.07); g.strokeStyle = alpha(BLUE, 0.85); g.lineWidth = 7; g.shadowColor = BLUE; g.shadowBlur = 24; rr(g, -560, -520, 1120, 620, 40); g.stroke(); rr(g, -440, -480, 880, 250, 26); g.stroke(); g.restore();
+  for (const sx of [-1, 1]) { glow(g, tx + sx * 450 * tz, ty - 125 * tz, 300, '#fff6d8', 0.95); glow(g, tx + sx * 450 * tz, ty - 125 * tz, 90, '#ffffff', 1.0); FX.lensStreak(g, tx + sx * 450 * tz, ty - 125 * tz, 1000, '#fff1c8', 0.5, 4); }
+  FX.speedLines(g, 0.4, { cx: tx, cy: ty - 60, count: 70, color: '#fff1dc', a: 0.2, inner: 470, seed: 4 });
+  // Mia, oblivious on her phone, right in its path
+  miaOnPhone(g, E.W * 0.575, E.H * 0.985, 2.3, { ...M, rim: '#ffffff' });
+  glow(g, E.W * 0.575 + 50, E.H * 0.985 - 450, 110, '#9fd8ff', 0.4);
+  // you, lunging in from the foreground with a cyan speed trail
+  const o = { x: E.W * 0.17, y: E.H * 1.22, s: 3.6, facing: 1, outfit: YOU, pose: lunge, expr: 'shocked', face: { mouth: 'oBig' }, rim: { color: '#fff1d6', dir: [0.9, -0.3], w: 8 }, shadow: false };
+  ghost(g, (x) => { drawFigure(x, { ...o, x: o.x - 190, rim: false }); }, { t: 0.2, a: 0.22, glowA: 0.8 });
+  ghost(g, (x) => { drawFigure(x, { ...o, x: o.x - 95, rim: false }); }, { t: 0.4, a: 0.38, glowA: 1.0 });
+  drawFigure(g, o); figEyes(g, o, 1);
+  g.restore();
+  // big words + the countdown
+  bigText(g, words[0], E.W * 0.3, E.H * 0.13, words[0].length > 8 ? 168 : 200, { color: words[2] || '#ffffff', glowColor: words[3] || BLUE });
+  if (words[1]) bigText(g, words[1], E.W * 0.3, E.H * 0.3, 120, { color: '#ffd23a', glowColor: '#ff8a2a', rot: -0.03 });
+  countdownTimer(g, E.W * 0.885, E.H * 0.2, 140, 1, 0.1);
+  g.fillStyle = radGrad(g, E.W / 2, E.H / 2, E.H * 0.45, E.W * 0.62, ['rgba(0,0,0,0)', 'rgba(0,0,0,.35)']); g.fillRect(0, 0, E.W, E.H);
+}
+registerShot('thumbD', { draw(g, t, info) { thumbD(g, ['10 SECONDS', 'TO SAVE HER']); } });
+registerShot('thumbE', { draw(g, t, info) { thumbD(g, ['TOO LATE?', null, '#ffd23a', '#ff6a2a']); } });
+registerShot('thumbF', { draw(g, t, info) { thumbD(g, ['10 SECONDS', null]); } });
