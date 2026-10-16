@@ -7,53 +7,51 @@ Alternative titles to test: "I Could See 10 Seconds Into the Future… Then Frid
 "What If You Lived 10 Seconds in the Future?"
 
 ## Description (paste everything between the lines)
+Style: learned from the viral What If channels the user shared (Ifverse, Bradikinin): hashtags first, short "you" lines,
+a turn and a cliffhanger, teasing chapter names, one comment question, a separator, tagline + subscribe + business email.
 
 ---
-What if you could see 10 seconds into the future? You'd never lose a game, never miss a catch, never step in a puddle again… until the day 10 seconds isn't enough. 👀⏳
+#whatif #seethefuture #animation
+What if you could see 10 seconds into the future? Not a guess. Not a feeling. A faint blue copy of the world, running ten seconds ahead of you.
 
-Watch until the end: your brain is ALREADY living in the future right now, and that part is real science.
+You'd never lose at rock, paper, scissors. You'd save every penalty. You'd catch your phone before it even starts to fall.
+It's the best power in the world. Until it isn't.
 
-You step back from the curb. One second later, a bike flies past, exactly where you were standing. You didn't hear it. You didn't see it coming. You saw it ten seconds ago.
+Because on Friday at 4:12 p.m., the blue world shows you a truck running a red light. It's heading for your best friend. And she can't hear you.
 
-In this animated What If story, you wake up with a faint blue copy of the world running 10 seconds ahead of the real one. At first it's the best power ever: 400 rock-paper-scissors wins in a row, every penalty saved, every answer known before the question ends. Then the price arrives. Every joke reaches you twice, conversations feel like reruns, surprise parties stop existing, and your brain starts running two movies at once. And on a Friday at 4:12 p.m., the blue world shows you a truck running a red light, heading straight for your best friend.
+You have ten seconds.
 
-10 seconds. Can you save her? 🚚🔴
+Could your brain really see the future? It already does, a little. Stay until the end.
+What would YOU do with 10 seconds of the future? Tell us in the comments.
 
-⏱️ CHAPTERS
-0:00 The bike that almost hit you
+0:00 The bike
 0:18 What if you could see 10 seconds ahead?
-0:22 Two worlds on top of each other
-0:46 The 3 rules of the blue world
-0:56 The best power ever
-1:18 Every penalty, saved
-1:33 The price of living 10 seconds ahead
-2:07 Seeing it isn't stopping it
+0:22 Two worlds
+0:46 Three rules
+0:56 Four hundred wins
+1:18 Bottom left
+1:33 The price
+2:07 The waiter
 2:36 Friday, 4:12 p.m.
 3:29 "How did you know?"
 3:41 Is any of this real?
-4:17 Ten seconds of black
-4:30 What would YOU do?
+4:17 Nothing
+4:30 What would you do?
 
-🧠 THE REAL SCIENCE
-• Your brain sees the world about 0.1 seconds late: that's how long it takes to process what your eyes see.
-• To hide that delay, your brain predicts where moving things are about to be (scientists can see this in the "flash-lag effect").
-• A 95 mph fastball reaches home plate in about 0.4 seconds, so batters swing at where their brain predicts the ball will be, not where it is.
-• Seeing 10 seconds ahead would put you 100 times further into the future than your brain already lives.
+The real science: your brain sees the world about 0.1 seconds late, so it quietly predicts where moving things are about to be (the flash-lag effect). It's why batters can hit a fastball that reaches the plate in about 0.4 seconds.
 
-💬 What would YOU do with 10 seconds of the future? Tell us in the comments. The best answers might inspire a future video!
+An animated What If story about precognition, superpowers, reaction time and how the human brain predicts the future. This is a work of fiction.
 
-🔔 SUBSCRIBE for more What If videos and turn on notifications so you never miss a new one.
-👍 Like the video if you'd want this power, and share it with the friend who always "knew it was going to happen."
+-----
+[CHANNEL NAME]: every what if, lived by you.
+Subscribe for new What If films, and you'll see the next one before everyone else: [@YOURHANDLE]
+Business inquiries: [YOUR BUSINESS EMAIL]
 
-📩 Business inquiries: [YOUR BUSINESS EMAIL]
-
-This video is an animated work of fiction for entertainment. The science section is based on real research on visual perception.
-
-#WhatIf #Animation #StickmanAnimation #SeeTheFuture #10Seconds #Superpower #WhatIfVideo #AnimatedStory #Science #Brain #Future #Precognition
+#whatif #animation #superpower #seethefuture #precognition #brain #[yourchannel]
 ---
 
 ## Pinned comment
-What would YOU do with 10 seconds of the future? ⏳ Win the lottery? Save someone? Or switch it off? 👇
+What would YOU do with 10 seconds of the future? Win the lottery? Save someone? Or switch it off?
 
 ## Tags (for the Tags box, under 500 characters)
 what if, what if video, what if you could see the future, see 10 seconds into the future, 10 seconds into the future,
