@@ -2,7 +2,8 @@
 
 **Format:** 16:9 YouTube, 1920 × 1080, about 6–7 minutes
 **Style:** black stick figures with rim light (references 1–6 in `docs/10-what-if-style-reference.md`)
-**Status:** draft for approval — the voice is not generated yet
+**Status:** approved and voiced (new ElevenLabs voices: "What-If Narrator (relaxed)" in one take, "Mia (What-If friend)"
+for her two lines). The video is `aitrends-2d-studio/projects/see-10-seconds/` (4:38, 120 shots).
 
 ## Cast
 | Character | Look | Notes |
