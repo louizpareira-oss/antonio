@@ -2,3 +2,4 @@ node_modules/
 projects/*/build/
 examples/*/build/
 __pycache__/
+projects/*/out/
