@@ -121,9 +121,42 @@ written to every rule, then re-counted:
 | 2 | Digging for a buried prize | 200 | 64.4 s | 49% | Has the single best image ("standing at the edge, gripping the shovel, not digging"). But a person beside a deep hole, plus "bury", reads close to a grave. |
 | 3 | Swimming against a current | 200 | 64.4 s | 49% | The low point lands late (47 s), and it leans on water and drowning imagery. |
 
-The porter script, a fact check, a 30-noun list with a FEELING line per noun, and a computed
-33-shot DENSE CUT plan (every shot 1.26–2.84 s, final shot 3.34 s, 14 mirror shots, 8 effort
-shots) are in [`prompts/02-your-brain-isnt-the-enemy-v5-handoff.md`](../prompts/02-your-brain-isnt-the-enemy-v5-handoff.md).
-The merchant version stays in git history.
+The porter script, fact check, carry-over looks and a rule-checked 34-shot DENSE CUT plan are
+in [`prompts/02-your-brain-isnt-the-enemy-v5-handoff.md`](../prompts/02-your-brain-isnt-the-enemy-v5-handoff.md).
+The plan's numbers:
+- every shot 1.26–2.84 s, final shot 3.34 s
+- 2 jump-cut sets
+- 13 mirror shots, 3 of them comic
+- 9 effort shots, with lock words
+- a release shot in the landing
+
+The final script is 200 words: 3 words were cut to fit the jump-cut sets. The merchant version
+stays in git history.
+
+---
+
+## 5. Second verification pass (v5.3.1)
+
+Three more agents checked the result: a consistency hunter, an independent recount of the
+hand-off, and a dry run in which an agent played your other chat and wrote shots from the paste.
+They found 84 issues, 16 of them high. All the high and medium ones were fixed:
+
+- **HUD style.** The HUD preset was being told to render "2D flat cartoon".
+- **D2 camera.** D2's weight camera fought the HUD camera.
+- **Micro-moment library.** It was referenced but never pasted. It is now pasted with the
+  preset for discipline themes, and the categories are written into Prompt 1.
+- **Undefined terms.** "Strain shot" is now "EFFORT-tagged shot". The lock offset now has a
+  formula. "Full motion from frame 1" is defined.
+- **Final shot vs the 3 s check.** The final shot is exempt from the DENSE CUT 3 s check.
+- **Cast rotation.** Mirror shots of the YOU character are exempt.
+- **Text band.** Now defined as 35–65% of frame height, luma under 25% or over 75%.
+- **New fields.** FLASH and INPUT lines, an angle field, and the porter, YOU and motif looks
+  carried from Prompt 1 to Prompt 3.
+- **The hand-off plan itself.** It broke its own rules: no valid jump-cut set, only 1 comic
+  mirror shot, untold mirror shots, a clock showing the hour, and a landing that wasn't
+  ordinary vast. It was rebuilt and checked by script against every rule.
+
+Still open, by design, until tested in your tool: the D2 never-write list and the claim that
+small details melt while big shapes hold (run the 6-generation test).
 
 → Back to [README](../README.md)

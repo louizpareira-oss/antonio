@@ -20,8 +20,8 @@ Plan to make the account eligible for the TikTok Creator Rewards Program after t
 ## Scripts and prompts
 
 - [`scripts/01-forgive-the-past.md`](scripts/01-forgive-the-past.md) — 70s, 20 beats, full shot list and generation prompts.
-- [`prompts/master-prompt-v5.md`](prompts/master-prompt-v5.md) — **master prompt v5.3: the 3-prompt system rebuilt from the reference measurements (Cartoon Rush, Cartoon Rush · Dense Cut and Neon HUD presets), plus Emotional Truth and D2 Struggle Motion.**
-- [`prompts/02-your-brain-isnt-the-enemy-v5-handoff.md`](prompts/02-your-brain-isnt-the-enemy-v5-handoff.md) — v5.3 remake of video 1 with the porter script: DENSE CUT preset, Emotional Truth block, Prompt 3 A–F with D2, fact check, noun list with feelings, and a computed 33-shot plan, in one paste.
+- [`prompts/master-prompt-v5.md`](prompts/master-prompt-v5.md) — **master prompt v5.3.1: the 3-prompt system rebuilt from the reference measurements (Cartoon Rush, Cartoon Rush · Dense Cut and Neon HUD presets), plus Emotional Truth and D2 Struggle Motion.**
+- [`prompts/02-your-brain-isnt-the-enemy-v5-handoff.md`](prompts/02-your-brain-isnt-the-enemy-v5-handoff.md) — v5.3.1 remake of video 1 with the porter script: DENSE CUT preset, Emotional Truth block, Prompt 3 A–F with D2, fact check, carry-over looks, and a rule-checked 34-shot plan, in one paste.
 - [`prompts/micro-moment-library.md`](prompts/micro-moment-library.md) — 40 specific, unglamorous moments (avoidance, hesitation, the ugly start, the boring middle, quiet trade-offs, release) for mirror shots.
 - [`prompts/01-forgive-the-past-anime.txt`](prompts/01-forgive-the-past-anime.txt) — **copy-paste pack: all 22 clip prompts, anime style, ready for an AI video generator.**
 

@@ -8,7 +8,7 @@ and loops are used. The content limits are in Emotional Truth rule 11 (DO NOT DR
 
 ```
 HOW TO USE
-- One moment per mirror shot. At most 2 from any one group per video. At least 1 from group F in the landing.
+- One moment per mirror shot (a jump-cut set, or a callback to an earlier shot, counts as one moment). At most 2 from any one group per video. At least 1 from group F in the landing.
 - Each row gives: MOMENT, then BODY TELL (the cartoon cue that sells it), then LOOP (the motion that runs the whole clip; hesitation is a loop, never a freeze), then LIGHT/PLACE (the hour is shown by light, never by numbers).
 - Nothing written. Screens, apps, clocks, lists and calendars are plain shapes, bars and glows, with no letters or numerals.
 - The centre band stays clearly dark or clearly bright: faces in the upper third, hands in the lower third.
@@ -18,7 +18,7 @@ HOW TO USE
 A. AVOIDANCE (the scroll, the dodge)
 1. Snooze slap: an arm snakes out from under the duvet, slaps the phone silent and retreats. Tell: eyes squeezed shut, only one arm awake. Loop: out, slap, back in, twice. Light: pre-dawn blue window, top-down on the bed.
 2. Phone on the face: lying on your back with the phone held over your face; it slips and smacks your nose, and you keep scrolling. Tell: arm wobble lines, wince stars. Loop: wobble, drop, lift. Light: 1 a.m., phone cyan the only light.
-3. Thumb hover: your thumb hangs over a plain grey task tile, drifts sideways and taps the bright glowing one. Tell: thumb twitch, face lit from below. Loop: hover, drift, tap, scroll. Framing: POV, your hand in the foreground.
+3. Thumb hang: your thumb hangs over a plain grey task tile, slides sideways and taps the bright glowing one. Tell: thumb twitch, face lit from below. Loop: hang, slide, tap, scroll. Framing: POV, your hand in the foreground.
 4. Doc-phone ping-pong: head flicks from laptop to phone to laptop; the phone is picked up, put down, picked up again. Tell: neck snapping side to side. Loop: three flicks. Light: desk, slanted afternoon sun.
 5. Productive procrastination: scrubbing the stovetop at top speed while the closed laptop glows on the table behind. Tell: busy hands, eyes never land on the laptop. Loop: furious scrubbing circles. Light: kitchen, evening lamp.
 6. Fridge stare: door open, cold light on the face, nothing taken; door closes, then opens again. Tell: blank stare, hand hanging on the handle. Loop: open, close, open. Light: dark kitchen, fridge light only.
@@ -26,7 +26,7 @@ A. AVOIDANCE (the scroll, the dodge)
 8. Notification tower: glowing bubbles stack up on a face-down phone; a hand pushes it away without looking, and the tower keeps growing. Tell: the hand pushing, the head turned away. Loop: bubbles stacking.
 9. Rewriting the list: a fresh page of neat empty boxes, the same list again, crumpled earlier versions piling around the chair. Tell: tongue poking out in concentration. Loop: scribble, crumple, toss. Scribble lines only, no letters.
 10. Waiting for the round hour: eyes locked on a wall clock with no numerals while the minute hand creeps past the top, and you slide lower in the chair. Tell: chin sliding down the propping hand. Loop: the hand ticks, the body slides.
-11. Floor starfish: lying flat on the bedroom floor beside the empty desk chair, staring up. Tell: limbs spread, a long sigh cloud rising. Loop: the sigh cloud puffs and drifts while a top-down camera slowly rotates.
+11. Floor starfish: lying flat on the bedroom floor beside the empty desk chair, staring up. Tell: limbs spread, a long sigh cloud rising. Loop: the sigh cloud puffs up and pops while a top-down camera rotates.
 
 B. HESITATION (the threshold: always a loop)
 12. Lid lift: fingertips raise the laptop lid an inch and it drops back; again. Tell: elbows locked, lips pressed flat. Loop: lift and drop, 3 times.
@@ -35,7 +35,7 @@ B. HESITATION (the threshold: always a loop)
 15. Door-handle half-press: a hand pushes the handle halfway down and lets it spring back. Tell: forehead resting on the door. Loop: press and release, 3 times. Place: hallway, coats on hooks.
 16. Gym bag by the door: a packed bag slumped by the front door with a droopy face (object with a face) as your feet step over it on the way to the couch. Tell: the bag sags lower. Loop: the bag sighs and slumps while the feet pass.
 17. Parking-lot pause: engine off, both hands on the wheel, the gym's lit windows waiting ahead. Tell: a long exhale fogging the windshield. Loop: the fog spreads and fades, the fingers drum. Light: dusk, dashboard glow.
-18. Keyboard hover: both hands hover over the keys, fingers wiggling like a pianist warming up, then retreat to the lap. Tell: wiggling fingers. Loop: hover, wiggle, retreat.
+18. Keyboard hang: both hands hang over the keys, fingers wiggling like a pianist warming up, then retreat to the lap. Tell: wiggling fingers. Loop: hang, wiggle, retreat.
 19. Half-laced shoe: a lace in each hand, staring out at grey drizzle on the window. Tell: a sigh cloud fogging the glass. Loop: pull the lace tight, loosen it, pull it tight.
 20. Ringing phone: a phone buzzing with a call bubble (no name), the thumb circling over the green button. Tell: chest rising and falling fast. Loop: the thumb circles, the phone buzzes.
 
@@ -63,7 +63,7 @@ E. QUIET TRADE-OFFS (private sacrifice)
 F. RELEASE (small, earned, never triumphant; use in the landing)
 36. Face-down phone: the phone flips face-down, the cyan glow leaves your face, and the shoulders drop an inch. Tell: exhale cloud. Loop: flip, glow fades, exhale.
 37. One tick: a pen ticks a single box and the whole body sinks back into the chair with a small smile. Tell: shoulders melting. Loop: tick, sink.
-38. Easy lid: the hundred-pound laptop lid from the hook flips open with one finger. Tell: eyebrows up, surprised. Loop: the lid flips and light spills out. (A callback, docs/07 'The return'.)
+38. Easy lid: a laptop lid that was a struggle earlier in the video flips open with one finger. Tell: eyebrows up, surprised. Loop: the lid flips and light spills out. (A callback to the hook.)
 39. Hallway after: shoes kicked off, sitting against the front door with damp hair and a tired grin, lamp on and warm. Tell: head tipped back, grinning. Loop: a shoe tumbles, the chest rises and falls.
 40. Morning window: curtains yanked open on a messy room, light flooding the floor, and you squint into a big yawning stretch (a yawn, not a victory pose). Tell: the stretch. Loop: light sweeps across the floor. (An 'ordinary vast' landing.)
 ```
