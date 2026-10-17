@@ -14,15 +14,19 @@
 | `banner_safe_areas_preview.png` | just a check | red = phones (always visible), yellow = desktop strip, full image = TVs |
 
 ## Channel description (Customization → Profile → Description)
+Covers the whole What If niche, not one video. Under YouTube's 1,000-character limit.
+
 Every what if, lived by you.
 
-Parallel You makes animated What If films where YOU are the main character. One impossible change to your life, followed all the way: the wins, the price, the moment everything goes wrong, and the real science behind it.
+What if you never needed sleep? What if you could pause time for everyone but you? What if you could see 10 seconds into the future, or woke up as the last person on Earth?
 
-What if you could see 10 seconds into the future? Start there.
+Parallel You turns the biggest "what if" questions into animated films where YOU are the main character. Every story follows one impossible change all the way: the amazing first days, the hidden price, the moment everything goes wrong, and the real science that shows how close it is to reality.
 
-Subscribe for new What If films, and you'll see the next one before everyone else.
+Superpowers, the human body, the brain, space, survival, time and the choices that change everything. If you love What If videos, animated stories and science that feels like a movie, you're in the right timeline.
 
-Got a what if you want to live through? Leave it in the comments of any video. The best ones become films.
+New What If films are always on the way. Subscribe so you see the next one before everyone else.
+
+Got a what if you want to live through? Drop it in the comments. The best ones become films.
 
 Business inquiries: parallelyou.business@gmail.com
 
