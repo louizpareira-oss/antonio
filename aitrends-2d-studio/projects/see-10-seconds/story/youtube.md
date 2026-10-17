@@ -9,6 +9,7 @@ Alternative titles to test: "I Could See 10 Seconds Into the Future… Then Frid
 ## Description (paste everything between the lines)
 Style: learned from the viral What If channels the user shared (Ifverse, Bradikinin): hashtags first, short "you" lines,
 a turn and a cliffhanger, teasing chapter names, one comment question, a separator, tagline + subscribe + business email.
+Chapters: YouTube shows none if any chapter is shorter than 10 seconds, so every chapter here is at least 10 s (video is 4:38).
 
 ---
 #whatif #seethefuture #animation
@@ -25,7 +26,6 @@ Could your brain really see the future? It already does, a little. Stay until th
 What would YOU do with 10 seconds of the future? Tell us in the comments.
 
 0:00 The bike
-0:18 What if you could see 10 seconds ahead?
 0:22 Two worlds
 0:46 Three rules
 0:56 Four hundred wins
@@ -36,7 +36,6 @@ What would YOU do with 10 seconds of the future? Tell us in the comments.
 3:29 "How did you know?"
 3:41 Is any of this real?
 4:17 Nothing
-4:30 What would you do?
 
 The real science: your brain sees the world about 0.1 seconds late, so it quietly predicts where moving things are about to be (the flash-lag effect). It's why batters can hit a fastball that reaches the plate in about 0.4 seconds.
 
