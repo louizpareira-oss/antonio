@@ -72,3 +72,55 @@ registerShot('avatar', { draw(g, t, info) {
   heroFace(g, hx, hy, r, { outfit: YOU, expr: 'smirk', look: [0.35, -0.1], rimColor: '#ffc68a', rimSide: -1 });
   eyeGlow(g, hx, hy, r, 0.55);
 } });
+
+// ---------- original logo marks (not from any video) — drawn in the centre 1080x1080 square ----------
+const WARM = ['#ffc15a', '#ff7a3a', '#e8453a'], COOL = ['#bff6ff', '#58d6ff', '#2e7dff'];
+function logoBg(g) {
+  const cx = E.W / 2;
+  g.fillStyle = radGrad(g, cx, E.H / 2, 40, 760, ['#18224a', '#0b1030', '#05070f']); g.fillRect(0, 0, E.W, E.H);
+  glow(g, cx - 300, E.H * 0.62, 520, '#ff7a3a', 0.22); glow(g, cx + 300, E.H * 0.38, 520, '#58d6ff', 0.25);
+}
+const vgrad = (g, y0, y1, cols) => linGrad(g, 0, y0, 0, y1, cols);
+function scan(g, x, y, w, h, a = 0.18) { g.fillStyle = `rgba(4,10,30,${a})`; for (let yy = y; yy < y + h; yy += 14) g.fillRect(x, yy, w, 5); }
+// head + shoulders silhouette path (centre cx, neck at cy)
+function bustPath(g, cx, cy, s) {
+  g.beginPath(); g.arc(cx, cy - 175 * s, 165 * s, 0, Math.PI * 2);
+  g.moveTo(cx - 340 * s, cy + 330 * s); g.bezierCurveTo(cx - 340 * s, cy + 70 * s, cx - 190 * s, cy + 20 * s, cx, cy + 20 * s);
+  g.bezierCurveTo(cx + 190 * s, cy + 20 * s, cx + 340 * s, cy + 70 * s, cx + 340 * s, cy + 330 * s); g.closePath();
+}
+
+// A — "Split Self": a person split in two; the right half has already slipped into another world
+registerShot('avatarA', { draw(g) {
+  logoBg(g); const cx = E.W / 2, cy = E.H * 0.6, s = 1.0, sh = 44;
+  g.save(); g.beginPath(); g.rect(0, 0, cx - 8, E.H); g.clip(); bustPath(g, cx, cy, s); g.fillStyle = vgrad(g, cy - 360, cy + 340, WARM); g.shadowColor = '#ff7a3a'; g.shadowBlur = 46; g.fill(); g.restore();
+  g.save(); g.beginPath(); g.rect(cx + 8 + sh, 0, E.W, E.H); g.clip(); g.translate(sh, -sh); bustPath(g, cx, cy, s); g.fillStyle = vgrad(g, cy - 360, cy + 340, COOL); g.shadowColor = '#58d6ff'; g.shadowBlur = 56; g.fill();
+  bustPath(g, cx, cy, s); g.clip(); scan(g, cx, 0, 600, E.H, 0.16); g.restore();
+  // the seam between the two worlds
+  g.save(); g.globalCompositeOperation = 'lighter'; g.fillStyle = linGrad(g, 0, cy - 420, 0, cy + 360, ['rgba(255,255,255,0)', 'rgba(230,250,255,.95)', 'rgba(255,255,255,0)']); g.fillRect(cx + sh / 2 - 3, cy - 430, 6, 800); g.restore();
+  glow(g, cx + sh / 2, cy - 180, 260, '#e8fdff', 0.35);
+  // a few specks drifting from the warm world into the cool one
+  for (const [dx, dy, r, c] of [[70, -330, 9, '#bff6ff'], [130, -250, 6, '#bff6ff'], [95, -120, 7, '#bff6ff'], [-60, -300, 7, '#ffc15a'], [-110, -200, 5, '#ffc15a']]) { circle(g, cx + dx + (dx > 0 ? sh : 0), cy + dy, r, c); glow(g, cx + dx + (dx > 0 ? sh : 0), cy + dy, r * 5, c, 0.5); }
+} });
+
+// B — "Parallel": two slanted figures like the ∥ symbol, warm and cool, one a step ahead, inside a portal ring
+function capsuleFigure(g, x, y, h, w, r, fill, slant) {
+  g.save(); g.translate(x, y); g.transform(1, 0, -slant, 1, 0, 0);
+  rr(g, -w / 2, -h, w, h, w / 2); g.fillStyle = fill; g.fill(); g.beginPath(); g.arc(0, -h - r * 1.45, r, 0, Math.PI * 2); g.fill(); g.restore();
+}
+registerShot('avatarB', { draw(g) {
+  logoBg(g); const cx = E.W / 2, cy = E.H / 2;
+  g.save(); g.lineWidth = 34; g.strokeStyle = linGrad(g, cx - 430, 0, cx + 430, 0, ['#ff7a3a', '#ffc15a', '#bff6ff', '#58d6ff']); g.shadowColor = '#7fe8ff'; g.shadowBlur = 30; g.beginPath(); g.arc(cx, cy, 430, 0, Math.PI * 2); g.stroke(); g.restore();
+  g.save(); g.shadowColor = '#ff7a3a'; g.shadowBlur = 50; capsuleFigure(g, cx - 120, cy + 290, 400, 140, 82, vgrad(g, cy - 330, cy + 290, WARM), 0.2); g.restore();
+  g.save(); g.shadowColor = '#58d6ff'; g.shadowBlur = 60; capsuleFigure(g, cx + 150, cy + 220, 400, 140, 82, vgrad(g, cy - 400, cy + 220, COOL), 0.2); g.restore();
+  g.save(); g.beginPath(); g.rect(cx + 20, 0, 600, E.H); g.clip(); g.globalCompositeOperation = 'source-atop'; scan(g, cx + 20, 0, 600, E.H, 0.16); g.restore();
+} });
+
+// C — "PY" monogram: P in the warm world, Y in the cool one, overlapping like two versions of the same thing
+registerShot('avatarC', { draw(g) {
+  logoBg(g); const cx = E.W / 2, cy = E.H / 2 + 40, size = 600;
+  g.save(); g.lineWidth = 26; g.strokeStyle = alpha('#ffffff', 0.12); g.beginPath(); g.arc(cx, cy - 40, 440, 0, Math.PI * 2); g.stroke(); g.restore();
+  const letter = (ch, x, y, cols, glowC) => { g.save(); g.font = `700 ${size}px "${FONTS.title}"`; g.textAlign = 'center'; g.textBaseline = 'middle'; g.shadowColor = glowC; g.shadowBlur = 50; g.fillStyle = vgrad(g, y - size * 0.45, y + size * 0.45, cols); g.fillText(ch, x, y); g.restore(); };
+  letter('P', cx - 125, cy, WARM, '#ff7a3a');
+  g.save(); g.globalAlpha = 0.95; letter('Y', cx + 140, cy - 60, COOL, '#58d6ff'); g.restore();
+  g.save(); g.beginPath(); g.rect(cx + 10, 0, 700, E.H); g.clip(); scan(g, cx + 10, cy - 360, 400, 600, 0.12); g.restore();
+} });
