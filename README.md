@@ -22,7 +22,8 @@ Plan to make the account eligible for the TikTok Creator Rewards Program after t
 ## Engineering-breakdown channel (3D cutaways)
 
 - [`docs/10-engineering-channel-format-bible.md`](docs/10-engineering-channel-format-bible.md) — **the rulebook**: Action → Failure → Fix loop, cutaway art direction, camera, captions, sound, measured against the @youbuiltit road video.
-- [`scripts/eng-01-hydroelectric-dam.md`](scripts/eng-01-hydroelectric-dam.md) — 49s, 130 words, full frame-by-frame blueprint.
+- [`scripts/eng-01-hydroelectric-dam.md`](scripts/eng-01-hydroelectric-dam.md) — 44.5s, 130 words, full frame-by-frame blueprint timed to the recorded voiceover.
+- [`voiceovers/`](voiceovers/) — final voiceover MP3, word-by-word caption SRT and word timings per video.
 - New topic: run `/build-script <topic>` (add `extended` for a 62–70s TikTok cut).
 
 ## Account snapshot (Sep 2026)

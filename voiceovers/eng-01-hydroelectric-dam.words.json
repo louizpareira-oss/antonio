@@ -1,0 +1,786 @@
+{
+ "source": "ElevenLabs flow BPBuVw9OOzpXuc7OdHJ2, take 2 (generation 4zTW1gsTCBurXATtjY4I), voice Patrick, eleven_v4; timings from eleven_scribe_v1",
+ "duration_secs": 43.44,
+ "words": [
+  {
+   "text": "If",
+   "caption": "If",
+   "start": 0.24,
+   "end": 0.32
+  },
+  {
+   "text": "you",
+   "caption": "You",
+   "start": 0.4,
+   "end": 0.48
+  },
+  {
+   "text": "pile",
+   "caption": "Pile",
+   "start": 0.56,
+   "end": 0.8
+  },
+  {
+   "text": "rocks",
+   "caption": "Rocks",
+   "start": 0.88,
+   "end": 1.2
+  },
+  {
+   "text": "across",
+   "caption": "Across",
+   "start": 1.28,
+   "end": 1.6
+  },
+  {
+   "text": "a",
+   "caption": "A",
+   "start": 1.64,
+   "end": 1.68
+  },
+  {
+   "text": "stream,",
+   "caption": "Stream",
+   "start": 1.76,
+   "end": 2.36
+  },
+  {
+   "text": "you",
+   "caption": "You",
+   "start": 2.56,
+   "end": 2.6
+  },
+  {
+   "text": "have",
+   "caption": "Have",
+   "start": 2.64,
+   "end": 2.72
+  },
+  {
+   "text": "a",
+   "caption": "A",
+   "start": 2.8,
+   "end": 2.84
+  },
+  {
+   "text": "dam.",
+   "caption": "Dam",
+   "start": 2.88,
+   "end": 3.52
+  },
+  {
+   "text": "But",
+   "caption": "But",
+   "start": 3.84,
+   "end": 3.92
+  },
+  {
+   "text": "the",
+   "caption": "The",
+   "start": 4.0,
+   "end": 4.08
+  },
+  {
+   "text": "water",
+   "caption": "Water",
+   "start": 4.24,
+   "end": 4.4
+  },
+  {
+   "text": "slips",
+   "caption": "Slips",
+   "start": 4.48,
+   "end": 4.72
+  },
+  {
+   "text": "through",
+   "caption": "Through",
+   "start": 4.8,
+   "end": 4.88
+  },
+  {
+   "text": "the",
+   "caption": "The",
+   "start": 4.92,
+   "end": 4.96
+  },
+  {
+   "text": "gaps",
+   "caption": "Gaps",
+   "start": 5.04,
+   "end": 5.36
+  },
+  {
+   "text": "and",
+   "caption": "And",
+   "start": 5.44,
+   "end": 5.52
+  },
+  {
+   "text": "washes",
+   "caption": "Washes",
+   "start": 5.6,
+   "end": 5.92
+  },
+  {
+   "text": "it",
+   "caption": "It",
+   "start": 5.96,
+   "end": 6.0
+  },
+  {
+   "text": "away.",
+   "caption": "Away",
+   "start": 6.08,
+   "end": 6.8
+  },
+  {
+   "text": "So",
+   "caption": "So",
+   "start": 7.2,
+   "end": 7.28
+  },
+  {
+   "text": "you",
+   "caption": "You",
+   "start": 7.36,
+   "end": 7.44
+  },
+  {
+   "text": "pour",
+   "caption": "Pour",
+   "start": 7.52,
+   "end": 7.68
+  },
+  {
+   "text": "a",
+   "caption": "A",
+   "start": 7.72,
+   "end": 7.76
+  },
+  {
+   "text": "concrete",
+   "caption": "Concrete",
+   "start": 7.84,
+   "end": 8.32
+  },
+  {
+   "text": "wall,",
+   "caption": "Wall",
+   "start": 8.4,
+   "end": 8.88
+  },
+  {
+   "text": "thick",
+   "caption": "Thick",
+   "start": 9.12,
+   "end": 9.28
+  },
+  {
+   "text": "at",
+   "caption": "At",
+   "start": 9.32,
+   "end": 9.36
+  },
+  {
+   "text": "the",
+   "caption": "The",
+   "start": 9.4,
+   "end": 9.44
+  },
+  {
+   "text": "bottom,",
+   "caption": "Bottom",
+   "start": 9.52,
+   "end": 9.96
+  },
+  {
+   "text": "where",
+   "caption": "Where",
+   "start": 10.08,
+   "end": 10.16
+  },
+  {
+   "text": "water",
+   "caption": "Water",
+   "start": 10.24,
+   "end": 10.48
+  },
+  {
+   "text": "pushes",
+   "caption": "Pushes",
+   "start": 10.56,
+   "end": 10.88
+  },
+  {
+   "text": "hardest.",
+   "caption": "Hardest",
+   "start": 10.96,
+   "end": 11.72
+  },
+  {
+   "text": "This",
+   "caption": "This",
+   "start": 12.08,
+   "end": 12.16
+  },
+  {
+   "text": "is",
+   "caption": "Is",
+   "start": 12.24,
+   "end": 12.32
+  },
+  {
+   "text": "a",
+   "caption": "A",
+   "start": 12.4,
+   "end": 12.44
+  },
+  {
+   "text": "gravity",
+   "caption": "Gravity",
+   "start": 12.48,
+   "end": 12.88
+  },
+  {
+   "text": "dam.",
+   "caption": "Dam",
+   "start": 13.04,
+   "end": 13.68
+  },
+  {
+   "text": "But",
+   "caption": "But",
+   "start": 14.16,
+   "end": 14.24
+  },
+  {
+   "text": "water",
+   "caption": "Water",
+   "start": 14.32,
+   "end": 14.64
+  },
+  {
+   "text": "seeps",
+   "caption": "Seeps",
+   "start": 14.72,
+   "end": 15.04
+  },
+  {
+   "text": "underneath",
+   "caption": "Underneath",
+   "start": 15.12,
+   "end": 15.68
+  },
+  {
+   "text": "and",
+   "caption": "And",
+   "start": 15.72,
+   "end": 15.76
+  },
+  {
+   "text": "lifts",
+   "caption": "Lifts",
+   "start": 15.84,
+   "end": 16.08
+  },
+  {
+   "text": "it",
+   "caption": "It",
+   "start": 16.12,
+   "end": 16.16
+  },
+  {
+   "text": "from",
+   "caption": "From",
+   "start": 16.24,
+   "end": 16.4
+  },
+  {
+   "text": "below.",
+   "caption": "Below",
+   "start": 16.6,
+   "end": 17.08
+  },
+  {
+   "text": "So",
+   "caption": "So",
+   "start": 17.36,
+   "end": 17.44
+  },
+  {
+   "text": "you",
+   "caption": "You",
+   "start": 17.52,
+   "end": 17.6
+  },
+  {
+   "text": "pump",
+   "caption": "Pump",
+   "start": 17.68,
+   "end": 17.92
+  },
+  {
+   "text": "grout",
+   "caption": "Grout",
+   "start": 18.0,
+   "end": 18.32
+  },
+  {
+   "text": "into",
+   "caption": "Into",
+   "start": 18.44,
+   "end": 18.56
+  },
+  {
+   "text": "the",
+   "caption": "The",
+   "start": 18.6,
+   "end": 18.64
+  },
+  {
+   "text": "rock",
+   "caption": "Rock",
+   "start": 18.72,
+   "end": 19.04
+  },
+  {
+   "text": "and",
+   "caption": "And",
+   "start": 19.12,
+   "end": 19.2
+  },
+  {
+   "text": "drill",
+   "caption": "Drill",
+   "start": 19.28,
+   "end": 19.44
+  },
+  {
+   "text": "drains",
+   "caption": "Drains",
+   "start": 19.52,
+   "end": 19.92
+  },
+  {
+   "text": "to",
+   "caption": "To",
+   "start": 19.96,
+   "end": 20.0
+  },
+  {
+   "text": "bleed",
+   "caption": "Bleed",
+   "start": 20.08,
+   "end": 20.24
+  },
+  {
+   "text": "the",
+   "caption": "The",
+   "start": 20.28,
+   "end": 20.32
+  },
+  {
+   "text": "pressure.",
+   "caption": "Pressure",
+   "start": 20.4,
+   "end": 21.12
+  },
+  {
+   "text": "But",
+   "caption": "But",
+   "start": 21.44,
+   "end": 21.52
+  },
+  {
+   "text": "in",
+   "caption": "In",
+   "start": 21.6,
+   "end": 21.68
+  },
+  {
+   "text": "a",
+   "caption": "A",
+   "start": 21.72,
+   "end": 21.76
+  },
+  {
+   "text": "storm,",
+   "caption": "Storm",
+   "start": 21.84,
+   "end": 22.4
+  },
+  {
+   "text": "water",
+   "caption": "Water",
+   "start": 22.56,
+   "end": 22.8
+  },
+  {
+   "text": "pours",
+   "caption": "Pours",
+   "start": 22.88,
+   "end": 23.12
+  },
+  {
+   "text": "over",
+   "caption": "Over",
+   "start": 23.2,
+   "end": 23.28
+  },
+  {
+   "text": "the",
+   "caption": "The",
+   "start": 23.32,
+   "end": 23.36
+  },
+  {
+   "text": "top",
+   "caption": "Top",
+   "start": 23.44,
+   "end": 23.76
+  },
+  {
+   "text": "and",
+   "caption": "And",
+   "start": 23.84,
+   "end": 23.92
+  },
+  {
+   "text": "digs",
+   "caption": "Digs",
+   "start": 24.0,
+   "end": 24.16
+  },
+  {
+   "text": "out",
+   "caption": "Out",
+   "start": 24.24,
+   "end": 24.32
+  },
+  {
+   "text": "the",
+   "caption": "The",
+   "start": 24.36,
+   "end": 24.4
+  },
+  {
+   "text": "base.",
+   "caption": "Base",
+   "start": 24.48,
+   "end": 25.04
+  },
+  {
+   "text": "So",
+   "caption": "So",
+   "start": 25.28,
+   "end": 25.36
+  },
+  {
+   "text": "you",
+   "caption": "You",
+   "start": 25.44,
+   "end": 25.52
+  },
+  {
+   "text": "add",
+   "caption": "Add",
+   "start": 25.6,
+   "end": 25.68
+  },
+  {
+   "text": "a",
+   "caption": "A",
+   "start": 25.76,
+   "end": 25.84
+  },
+  {
+   "text": "stepped",
+   "caption": "Stepped",
+   "start": 25.92,
+   "end": 26.24
+  },
+  {
+   "text": "spillway",
+   "caption": "Spillway",
+   "start": 26.32,
+   "end": 26.72
+  },
+  {
+   "text": "to",
+   "caption": "To",
+   "start": 26.8,
+   "end": 26.88
+  },
+  {
+   "text": "break",
+   "caption": "Break",
+   "start": 27.0,
+   "end": 27.12
+  },
+  {
+   "text": "the",
+   "caption": "The",
+   "start": 27.16,
+   "end": 27.2
+  },
+  {
+   "text": "fall.",
+   "caption": "Fall",
+   "start": 27.28,
+   "end": 27.96
+  },
+  {
+   "text": "And",
+   "caption": "And",
+   "start": 28.32,
+   "end": 28.4
+  },
+  {
+   "text": "the",
+   "caption": "The",
+   "start": 28.48,
+   "end": 28.56
+  },
+  {
+   "text": "wall",
+   "caption": "Wall",
+   "start": 28.72,
+   "end": 28.88
+  },
+  {
+   "text": "feels",
+   "caption": "Feels",
+   "start": 28.96,
+   "end": 29.2
+  },
+  {
+   "text": "the",
+   "caption": "The",
+   "start": 29.28,
+   "end": 29.36
+  },
+  {
+   "text": "lake's",
+   "caption": "Lake's",
+   "start": 29.48,
+   "end": 29.68
+  },
+  {
+   "text": "depth,",
+   "caption": "Depth",
+   "start": 29.76,
+   "end": 30.2
+  },
+  {
+   "text": "not",
+   "caption": "Not",
+   "start": 30.32,
+   "end": 30.48
+  },
+  {
+   "text": "its",
+   "caption": "Its",
+   "start": 30.56,
+   "end": 30.64
+  },
+  {
+   "text": "size.",
+   "caption": "Size",
+   "start": 30.72,
+   "end": 31.44
+  },
+  {
+   "text": "A",
+   "caption": "A",
+   "start": 31.68,
+   "end": 31.76
+  },
+  {
+   "text": "mile-long",
+   "caption": "Mile-Long",
+   "start": 31.84,
+   "end": 32.32
+  },
+  {
+   "text": "lake",
+   "caption": "Lake",
+   "start": 32.4,
+   "end": 32.72
+  },
+  {
+   "text": "pushes",
+   "caption": "Pushes",
+   "start": 32.8,
+   "end": 33.04
+  },
+  {
+   "text": "as",
+   "caption": "As",
+   "start": 33.12,
+   "end": 33.2
+  },
+  {
+   "text": "hard",
+   "caption": "Hard",
+   "start": 33.28,
+   "end": 33.6
+  },
+  {
+   "text": "as",
+   "caption": "As",
+   "start": 33.68,
+   "end": 33.72
+  },
+  {
+   "text": "a",
+   "caption": "A",
+   "start": 33.76,
+   "end": 33.84
+  },
+  {
+   "text": "foot-long",
+   "caption": "Foot-Long",
+   "start": 33.92,
+   "end": 34.24
+  },
+  {
+   "text": "one.",
+   "caption": "One",
+   "start": 34.32,
+   "end": 35.12
+  },
+  {
+   "text": "Pipe",
+   "caption": "Pipe",
+   "start": 35.76,
+   "end": 36.0
+  },
+  {
+   "text": "the",
+   "caption": "The",
+   "start": 36.04,
+   "end": 36.08
+  },
+  {
+   "text": "water",
+   "caption": "Water",
+   "start": 36.16,
+   "end": 36.4
+  },
+  {
+   "text": "through",
+   "caption": "Through",
+   "start": 36.48,
+   "end": 36.56
+  },
+  {
+   "text": "a",
+   "caption": "A",
+   "start": 36.64,
+   "end": 36.68
+  },
+  {
+   "text": "turbine",
+   "caption": "Turbine",
+   "start": 36.72,
+   "end": 37.2
+  },
+  {
+   "text": "and",
+   "caption": "And",
+   "start": 37.28,
+   "end": 37.36
+  },
+  {
+   "text": "run",
+   "caption": "Run",
+   "start": 37.44,
+   "end": 37.6
+  },
+  {
+   "text": "the",
+   "caption": "The",
+   "start": 37.64,
+   "end": 37.68
+  },
+  {
+   "text": "wires",
+   "caption": "Wires",
+   "start": 37.76,
+   "end": 38.08
+  },
+  {
+   "text": "home.",
+   "caption": "Home",
+   "start": 38.24,
+   "end": 38.64
+  },
+  {
+   "text": "Add",
+   "caption": "Add",
+   "start": 38.88,
+   "end": 39.04
+  },
+  {
+   "text": "railings",
+   "caption": "Railings",
+   "start": 39.16,
+   "end": 39.44
+  },
+  {
+   "text": "and",
+   "caption": "And",
+   "start": 39.48,
+   "end": 39.52
+  },
+  {
+   "text": "lamps.",
+   "caption": "Lamps",
+   "start": 39.6,
+   "end": 40.16
+  },
+  {
+   "text": "Congratulations,",
+   "caption": "Congratulations",
+   "start": 40.4,
+   "end": 41.44
+  },
+  {
+   "text": "you",
+   "caption": "You",
+   "start": 41.6,
+   "end": 41.64
+  },
+  {
+   "text": "have",
+   "caption": "Have",
+   "start": 41.68,
+   "end": 41.76
+  },
+  {
+   "text": "built",
+   "caption": "Built",
+   "start": 41.84,
+   "end": 42.08
+  },
+  {
+   "text": "a",
+   "caption": "A",
+   "start": 42.16,
+   "end": 42.24
+  },
+  {
+   "text": "hydroelectric",
+   "caption": "Hydroelectric",
+   "start": 42.44,
+   "end": 42.96
+  },
+  {
+   "text": "dam.",
+   "caption": "Dam",
+   "start": 43.04,
+   "end": 43.44
+  }
+ ]
+}
