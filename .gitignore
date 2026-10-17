@@ -1,0 +1,4 @@
+# Blender
+__pycache__/
+*.blend1
+blender/renders/
