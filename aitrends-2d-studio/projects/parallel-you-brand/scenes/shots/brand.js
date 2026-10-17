@@ -124,3 +124,157 @@ registerShot('avatarC', { draw(g) {
   g.save(); g.globalAlpha = 0.95; letter('Y', cx + 140, cy - 60, COOL, '#58d6ff'); g.restore();
   g.save(); g.beginPath(); g.rect(cx + 10, 0, 700, E.H); g.clip(); scan(g, cx + 10, cy - 360, 400, 600, 0.12); g.restore();
 } });
+
+// ---------- round 3: flat illustrated marks in the style of the examples (Ifverse / FunNotSoFun / Body Settings) ----------
+const INK = '#0e0b12';
+function stars(g, n, seed, area) { let s = seed; const r = () => ((s = (s * 9301 + 49297) % 233280) / 233280); for (let i = 0; i < n; i++) { const x = area[0] + r() * area[2], y = area[1] + r() * area[3], rad = 1.5 + r() * 3.5; circle(g, x, y, rad, alpha('#ffffff', 0.4 + r() * 0.6)); } }
+function stickFig(g, x, y, s, pose, col, rim, facing = 1) {
+  const draw = (dx, dy, c) => { g.save(); g.translate(x + dx, y + dy); g.scale(s * facing, s); g.strokeStyle = c; g.lineCap = 'round'; g.lineJoin = 'round';
+    const L = (pts, w) => { g.lineWidth = w; g.beginPath(); g.moveTo(...pts[0]); pts.slice(1).forEach(q => g.lineTo(...q)); g.stroke(); };
+    L([pose.hip, pose.kB, pose.fB], 13); L([pose.sh, pose.eB, pose.hB], 12); L([pose.sh, pose.hip], 16); L([pose.hip, pose.kF, pose.fF], 13); L([pose.sh, pose.eF, pose.hF], 12);
+    g.fillStyle = c; g.beginPath(); g.arc(pose.head[0], pose.head[1], 27, 0, Math.PI * 2); g.fill(); g.restore(); };
+  if (rim) draw(rim[0], rim[1], rim[2]); draw(0, 0, col);
+}
+
+// D — "The Mirror": you look into a mirror, and your reflection is living a different life (it waves, glowing cyan)
+registerShot('avatarD', { draw(g) {
+  const cx = E.W / 2, cy = E.H / 2;
+  g.fillStyle = linGrad(g, 0, 0, 0, E.H, ['#1a1236', '#2c1f52', '#3d2a5c']); g.fillRect(0, 0, E.W, E.H);
+  stars(g, 70, 7, [cx - 540, 0, 1080, 520]);
+  const fy = cy + 250; g.fillStyle = linGrad(g, 0, fy, 0, E.H, ['#3a2436', '#1c1220']); g.fillRect(0, fy, E.W, E.H);
+  // mirror
+  const mx = cx + 120, mw = 360, mh = 600, my = fy - mh - 10;
+  g.save(); g.globalCompositeOperation = 'lighter'; poly(g, [[mx - mw / 2, fy], [mx + mw / 2, fy], [mx + mw / 2 + 160, fy + 260], [mx - mw / 2 - 160, fy + 260]], linGrad(g, 0, fy, 0, fy + 260, [alpha('#58d6ff', 0.32), alpha('#58d6ff', 0)])); g.restore();
+  glow(g, mx, my + mh / 2, 520, '#58d6ff', 0.35);
+  rr(g, mx - mw / 2 - 26, my - 26, mw + 52, mh + 52, mw / 2 + 26); g.fillStyle = linGrad(g, 0, my, 0, my + mh, ['#ffd27a', '#c8873a']); g.fill();
+  g.save(); rr(g, mx - mw / 2, my, mw, mh, mw / 2); g.clip();
+  g.fillStyle = linGrad(g, 0, my, 0, my + mh, ['#062a44', '#0a4a6e', '#0e6f94']); g.fillRect(mx - mw, my, mw * 2, mh);
+  stars(g, 25, 3, [mx - mw / 2, my, mw, mh * 0.5]);
+  g.fillStyle = alpha('#7fe8ff', 0.55); for (let i = 0; i < 7; i++) { const bw = 40 + (i * 37) % 50, bh = 90 + (i * 53) % 160; g.fillRect(mx - mw / 2 + i * 56, my + mh - 120 - bh, bw, bh + 120); }
+  g.fillStyle = 'rgba(0,20,40,.25)'; for (let y = my; y < my + mh; y += 10) g.fillRect(mx - mw / 2, y, mw, 3);
+  g.shadowColor = '#bff6ff'; g.shadowBlur = 30; stickFig(g, mx - 10, my + mh - 40, 1.25, POSES.wave, '#bff6ff', null, -1); g.shadowBlur = 0;
+  g.restore();
+  // you, in front of the mirror (warm rim from the room)
+  stickFig(g, cx - 210, fy + 30, 1.45, { ...POSES.stand, head: [6, -208] }, INK, [-5, -3, '#ffb070'], 1);
+  g.fillStyle = 'rgba(0,0,0,.35)'; g.beginPath(); g.ellipse(cx - 210, fy + 34, 60, 10, 0, 0, Math.PI * 2); g.fill();
+} });
+
+// E — "Split Face": one face, two worlds — warm on the left, glowing cyan on the right
+registerShot('avatarE', { draw(g) {
+  const cx = E.W / 2, cy = E.H / 2, R = 540;
+  const split = (side) => { g.beginPath(); if (side < 0) { g.moveTo(cx + 90, cy - R); g.lineTo(cx - 90, cy + R); g.lineTo(cx - R - 50, cy + R); g.lineTo(cx - R - 50, cy - R); } else { g.moveTo(cx + 90, cy - R); g.lineTo(cx + R + 50, cy - R); g.lineTo(cx + R + 50, cy + R); g.lineTo(cx - 90, cy + R); } g.closePath(); };
+  g.save(); split(-1); g.clip(); g.fillStyle = linGrad(g, cx - R, cy - R, cx, cy + R, ['#ffd25a', '#ff9a3a', '#ff6a3a']); g.fillRect(0, 0, E.W, E.H); g.restore();
+  g.save(); split(1); g.clip(); g.fillStyle = linGrad(g, cx, cy - R, cx + R, cy + R, ['#0a1838', '#0c2a5a', '#071226']); g.fillRect(0, 0, E.W, E.H); g.fillStyle = 'rgba(127,232,255,.07)'; for (let y = 0; y < E.H; y += 14) g.fillRect(0, y, E.W, 5); glow(g, cx + 200, cy - 60, 420, '#58d6ff', 0.35); g.restore();
+  const hr = 330, hy = cy + 30;
+  // rims: warm on the left, cyan on the right
+  g.save(); split(-1); g.clip(); circle(g, cx - 14, hy, hr + 14, '#fff3d6'); g.restore();
+  g.save(); split(1); g.clip(); g.shadowColor = '#7fe8ff'; g.shadowBlur = 40; circle(g, cx + 14, hy, hr + 14, '#7fe8ff'); g.restore();
+  circle(g, cx, hy, hr, INK);
+  // face: left eye a plain white dot, right eye a glowing cyan ring; the smile crosses the split and changes colour
+  circle(g, cx - 120, hy - 50, 46, '#ffffff');
+  glow(g, cx + 120, hy - 50, 150, '#7fe8ff', 0.8); ring(g, cx + 120, hy - 50, 58, 22, '#7fe8ff'); circle(g, cx + 120, hy - 50, 22, '#e8fdff');
+  g.save(); g.lineCap = 'round'; g.lineWidth = 30;
+  g.save(); split(-1); g.clip(); g.strokeStyle = '#ffffff'; g.beginPath(); g.arc(cx, hy + 40, 150, 0.35, Math.PI - 0.35); g.stroke(); g.restore();
+  g.save(); split(1); g.clip(); g.strokeStyle = '#7fe8ff'; g.shadowColor = '#7fe8ff'; g.shadowBlur = 24; g.beginPath(); g.arc(cx, hy + 40, 150, 0.35, Math.PI - 0.35); g.stroke(); g.restore();
+  g.restore();
+  g.save(); g.strokeStyle = '#ffffff'; g.lineWidth = 8; g.shadowColor = '#ffffff'; g.shadowBlur = 20; g.beginPath(); g.moveTo(cx + 90, cy - R); g.lineTo(cx - 90, cy + R); g.stroke(); g.restore();
+} });
+
+// F — "The Mascot": the channel's own character — hood up in warm orange, one normal eye, one glowing cyan eye
+registerShot('avatarF', { draw(g) {
+  const cx = E.W / 2, cy = E.H / 2;
+  g.fillStyle = radGrad(g, cx + 120, cy - 80, 40, 760, ['#123a66', '#0b1d3c', '#060b18']); g.fillRect(0, 0, E.W, E.H);
+  glow(g, cx + 220, cy - 120, 480, '#58d6ff', 0.3);
+  const hr = 250, hy = cy - 20;
+  g.fillStyle = linGrad(g, 0, cy + 200, 0, E.H, ['#ff8a3a', '#e8562e']); g.beginPath(); g.ellipse(cx, cy + 540, 470, 360, 0, Math.PI, Math.PI * 2); g.fill();          // hoodie body
+  for (const sx of [-1, 1]) { g.strokeStyle = '#fff3e6'; g.lineWidth = 14; g.lineCap = 'round'; g.beginPath(); g.moveTo(cx + sx * 70, cy + 250); g.lineTo(cx + sx * 80, cy + 400); g.stroke(); circle(g, cx + sx * 80, cy + 410, 14, '#fff3e6'); }
+  g.fillStyle = linGrad(g, cx - 340, 0, cx + 340, 0, ['#ffa04a', '#ff7a3a', '#e8562e']); g.beginPath(); g.ellipse(cx, hy + 20, hr + 95, hr + 110, 0, 0, Math.PI * 2); g.fill();  // hood
+  g.fillStyle = '#c8452a'; g.beginPath(); g.ellipse(cx, hy + 30, hr + 40, hr + 50, 0, 0, Math.PI * 2); g.fill();                                                      // hood opening shadow
+  g.save(); g.beginPath(); g.ellipse(cx, hy + 20, hr + 95, hr + 110, 0, 0, Math.PI * 2); g.clip(); g.strokeStyle = alpha('#7fe8ff', 0.9); g.lineWidth = 10; g.shadowColor = '#7fe8ff'; g.shadowBlur = 20;
+  g.beginPath(); g.moveTo(cx + 40, hy - hr - 120); g.lineTo(cx + 10, hy - hr - 40); g.lineTo(cx + 46, hy - hr - 10); g.lineTo(cx + 18, hy - hr + 40); g.stroke(); g.restore();                // glowing seam on the hood
+  circle(g, cx + 10, hy, hr + 10, '#7fe8ff'); circle(g, cx, hy, hr, INK);                                                                                                // head + cyan rim
+  circle(g, cx - 85, hy - 25, 34, '#ffffff');                                                                                                                             // normal eye
+  glow(g, cx + 90, hy - 25, 120, '#7fe8ff', 0.85); ring(g, cx + 90, hy - 25, 44, 16, '#7fe8ff'); circle(g, cx + 90, hy - 25, 16, '#e8fdff');                               // future eye
+  g.strokeStyle = '#ffffff'; g.lineWidth = 20; g.lineCap = 'round'; g.beginPath(); g.moveTo(cx - 70, hy + 95); g.quadraticCurveTo(cx + 10, hy + 135, cx + 90, hy + 75); g.stroke();  // smirk
+} });
+
+// ---------- final brand: the Split Face mark + matching banner ----------
+// the face mark on its own (no background): head radius hr at (cx, cy); split line tilted like the avatar
+function faceMark(g, cx, cy, hr) {
+  const k = hr / 330, tilt = 90 / 540;            // same split angle as the avatar
+  const half = (side) => { g.beginPath(); const T = hr * 1.6; if (side < 0) { g.moveTo(cx + T * tilt, cy - T); g.lineTo(cx - T * tilt, cy + T); g.lineTo(cx - T * 2, cy + T); g.lineTo(cx - T * 2, cy - T); } else { g.moveTo(cx + T * tilt, cy - T); g.lineTo(cx + T * 2, cy - T); g.lineTo(cx + T * 2, cy + T); g.lineTo(cx - T * tilt, cy + T); } g.closePath(); };
+  g.save(); half(-1); g.clip(); circle(g, cx - 14 * k, cy, hr + 14 * k, '#fff3d6'); g.restore();
+  g.save(); half(1); g.clip(); g.shadowColor = '#7fe8ff'; g.shadowBlur = 40 * k; circle(g, cx + 14 * k, cy, hr + 14 * k, '#7fe8ff'); g.restore();
+  circle(g, cx, cy, hr, INK);
+  circle(g, cx - 120 * k, cy - 80 * k, 46 * k, '#ffffff');
+  glow(g, cx + 120 * k, cy - 80 * k, 150 * k, '#7fe8ff', 0.8); ring(g, cx + 120 * k, cy - 80 * k, 58 * k, 22 * k, '#7fe8ff'); circle(g, cx + 120 * k, cy - 80 * k, 22 * k, '#e8fdff');
+  g.save(); g.lineCap = 'round'; g.lineWidth = 30 * k;
+  g.save(); half(-1); g.clip(); g.strokeStyle = '#ffffff'; g.beginPath(); g.arc(cx, cy + 10 * k, 150 * k, 0.35, Math.PI - 0.35); g.stroke(); g.restore();
+  g.save(); half(1); g.clip(); g.strokeStyle = '#7fe8ff'; g.shadowColor = '#7fe8ff'; g.shadowBlur = 24 * k; g.beginPath(); g.arc(cx, cy + 10 * k, 150 * k, 0.35, Math.PI - 0.35); g.stroke(); g.restore();
+  g.restore();
+}
+registerShot('banner2', { draw(g) {
+  const cx = E.W / 2, cy = E.H / 2, tilt = 90 / 540, T = 700;
+  const side = (s) => { g.beginPath(); if (s < 0) { g.moveTo(cx + T * tilt, cy - T); g.lineTo(cx - T * tilt, cy + T); g.lineTo(-10, cy + T); g.lineTo(-10, cy - T); } else { g.moveTo(cx + T * tilt, cy - T); g.lineTo(E.W + 10, cy - T); g.lineTo(E.W + 10, cy + T); g.lineTo(cx - T * tilt, cy + T); } g.closePath(); };
+  // warm world (left)
+  g.save(); side(-1); g.clip(); g.fillStyle = linGrad(g, 0, 0, cx, E.H, ['#ffd25a', '#ffa03a', '#ff6a3a']); g.fillRect(0, 0, E.W, E.H);
+  glow(g, cx * 0.35, cy * 0.6, 700, '#fff3c0', 0.35);
+  for (let i = 0; i < 26; i++) { const x = (i * 211) % cx, y = (i * 137) % E.H, r = 6 + (i * 7) % 14; circle(g, x, y, r, alpha('#ffffff', 0.18)); }
+  g.restore();
+  // cyan world (right)
+  g.save(); side(1); g.clip(); g.fillStyle = linGrad(g, cx, 0, E.W, E.H, ['#0a1838', '#0c2a5a', '#071226']); g.fillRect(0, 0, E.W, E.H);
+  stars(g, 120, 11, [cx - 200, 0, E.W, E.H]); glow(g, cx + 420, cy, 800, '#58d6ff', 0.3);
+  g.strokeStyle = 'rgba(127,232,255,.07)'; g.lineWidth = 2; for (let x = cx - 300; x < E.W; x += 80) { g.beginPath(); g.moveTo(x, 0); g.lineTo(x, E.H); g.stroke(); } for (let y = 0; y < E.H; y += 80) { g.beginPath(); g.moveTo(cx - 300, y); g.lineTo(E.W, y); g.stroke(); }
+  g.fillStyle = 'rgba(127,232,255,.06)'; for (let y = 0; y < E.H; y += 14) g.fillRect(0, y, E.W, 5);
+  g.restore();
+  g.save(); g.strokeStyle = '#ffffff'; g.lineWidth = 8; g.shadowColor = '#ffffff'; g.shadowBlur = 20; g.beginPath(); g.moveTo(cx + T * tilt, cy - T); g.lineTo(cx - T * tilt, cy + T); g.stroke(); g.restore();
+  // logo: PARALLEL [face] YOU  — all inside the 1160x317 safe area
+  const fy = cy - 25, hr = 112;
+  faceMark(g, cx, fy, hr);
+  const size = 118;
+  text(g, 'PARALLEL', cx - hr - 46, fy + 8, { size, color: INK, font: FONTS.title, weight: 700, align: 'right', spacing: 3, stroke: 10, strokeColor: '#fff3d6' });
+  text(g, 'PARALLEL', cx - hr - 46, fy + 8, { size, color: INK, font: FONTS.title, weight: 700, align: 'right', spacing: 3 });
+  text(g, 'YOU', cx + hr + 46, fy + 8, { size, color: '#bff6ff', font: FONTS.title, weight: 700, align: 'left', spacing: 3, glow: 40, glowColor: 'rgba(88,214,255,.95)' });
+  text(g, 'EVERY WHAT IF, LIVED BY YOU', cx, fy + hr + 62, { size: 34, color: '#ffffff', font: FONTS.ui, weight: 900, spacing: 8, stroke: 9, strokeColor: 'rgba(8,10,24,.85)' });
+} });
+
+// ---------- final brand: "The Mirror" banner, matching the Mirror profile picture ----------
+// the gold mirror with the glowing cyan world inside; bottom centre at (mx, fy), inner size mw x mh
+function mirror(g, mx, fy, mw, mh) {
+  const k = mw / 360, my = fy - mh - 10 * k, fr = 26 * k;
+  glow(g, mx, my + mh / 2, 520 * k, '#58d6ff', 0.4);
+  rr(g, mx - mw / 2 - fr, my - fr, mw + fr * 2, mh + fr * 2, mw / 2 + fr); g.fillStyle = linGrad(g, 0, my, 0, my + mh, ['#ffd27a', '#c8873a']); g.fill();
+  g.save(); rr(g, mx - mw / 2, my, mw, mh, mw / 2); g.clip();
+  g.fillStyle = linGrad(g, 0, my, 0, my + mh, ['#062a44', '#0a4a6e', '#0e6f94']); g.fillRect(mx - mw, my, mw * 2, mh);
+  stars(g, 18, 3, [mx - mw / 2, my, mw, mh * 0.5]);
+  g.fillStyle = alpha('#7fe8ff', 0.55); for (let i = 0; i < 7; i++) { const bw = (40 + (i * 37) % 50) * k, bh = (90 + (i * 53) % 160) * k; g.fillRect(mx - mw / 2 + i * 56 * k, my + mh - 120 * k - bh, bw, bh + 120 * k); }
+  g.fillStyle = 'rgba(0,20,40,.25)'; for (let y = my; y < my + mh; y += 10 * k) g.fillRect(mx - mw / 2, y, mw, 3 * k);
+  g.shadowColor = '#bff6ff'; g.shadowBlur = 30 * k; stickFig(g, mx - 10 * k, my + mh - 40 * k, 1.25 * k, POSES.wave, '#bff6ff', null, -1); g.shadowBlur = 0;
+  g.restore();
+}
+registerShot('banner3', { draw(g) {
+  const fy = 668;                                           // floor line, inside the safe area
+  g.fillStyle = linGrad(g, 0, 0, 0, fy, ['#140e2c', '#2c1f52', '#3d2a5c']); g.fillRect(0, 0, E.W, fy);
+  stars(g, 260, 7, [0, 0, E.W, fy - 40]);
+  // a warm moon far left (seen on desktop and TV, not on phones)
+  glow(g, 186, 478, 260, '#ffe2a8', 0.3);
+  g.save(); g.beginPath(); g.arc(200, 470, 58, 0, Math.PI * 2); g.clip(); g.beginPath(); g.rect(0, 0, E.W, E.H); g.arc(226, 452, 52, 0, Math.PI * 2); g.fillStyle = '#fff1cf'; g.fill('evenodd'); g.restore();
+  g.fillStyle = linGrad(g, 0, fy, 0, E.H, ['#3a2436', '#1c1220']); g.fillRect(0, fy, E.W, E.H - fy);
+  // the mirror stands on the right; its cyan light spills across the floor towards you
+  const mx = 1420, mw = 150, mh = 250;
+  g.save(); g.globalCompositeOperation = 'lighter';
+  poly(g, [[mx - mw / 2, fy], [mx + mw / 2, fy], [mx + 240, E.H], [mx - 560, E.H]], linGrad(g, 0, fy, 0, E.H, [alpha('#58d6ff', 0.24), alpha('#58d6ff', 0)]));
+  g.restore();
+  mirror(g, mx, fy, mw, mh);
+  // you, on the left, looking at your reflection: warm rim from behind, cyan light on the front
+  const yx = 520, s = 0.92, P = { ...POSES.stand, head: [6, -208] };
+  g.fillStyle = 'rgba(0,0,0,.35)'; g.beginPath(); g.ellipse(yx, fy + 3, 42, 7, 0, 0, Math.PI * 2); g.fill();
+  stickFig(g, yx + 4, fy - 2, s, P, '#7fe8ff', null, 1);
+  stickFig(g, yx, fy, s, P, INK, [-4, -2, '#ffb070'], 1);
+  // the name in the middle: PARALLEL in mirror-gold, YOU glowing like the reflection
+  const cx = 965;
+  text(g, 'PARALLEL', cx, 470, { size: 112, color: '#ffd27a', font: FONTS.title, weight: 700, spacing: 4, stroke: 10, strokeColor: '#140e2c' });
+  text(g, 'PARALLEL', cx, 470, { size: 112, color: '#ffd27a', font: FONTS.title, weight: 700, spacing: 4 });
+  text(g, 'YOU', cx, 578, { size: 138, color: '#bff6ff', font: FONTS.title, weight: 700, spacing: 8, glow: 44, glowColor: 'rgba(88,214,255,.95)' });
+  text(g, 'EVERY WHAT IF, LIVED BY YOU', cx, 662, { size: 30, color: '#ffffff', font: FONTS.ui, weight: 900, spacing: 8, stroke: 8, strokeColor: 'rgba(14,10,30,.9)' });
+} });

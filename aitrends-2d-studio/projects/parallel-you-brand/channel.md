@@ -9,8 +9,8 @@
 ## Images (in `assets/`)
 | file | where | size |
 |---|---|---|
-| `parallel_you_profile_800.png` | Customization → Branding → Picture | 800×800, shown as a circle. Original "Split Self" mark: a person split between the warm real world and the cyan other world |
-| `parallel_you_banner_2560x1440.png` | Customization → Branding → Banner image | 2560×1440; logo + tagline inside the 1546×423 area every device shows |
+| `parallel_you_profile_800.png` | Customization → Branding → Picture | 800×800, shown as a circle. "The Mirror": you look into a gold mirror and your reflection waves back from a glowing cyan world |
+| `parallel_you_banner_2560x1440.png` | Customization → Branding → Banner image | 2560×1440, matches the Mirror picture: you on the left, the mirror on the right, PARALLEL (gold) YOU (cyan) + tagline in the middle, all inside the 1546×423 area every device shows. A moon sits in the desktop strip |
 | `banner_safe_areas_preview.png` | just a check | red = phones (always visible), yellow = desktop strip, full image = TVs |
 
 ## Channel description (Customization → Profile → Description)

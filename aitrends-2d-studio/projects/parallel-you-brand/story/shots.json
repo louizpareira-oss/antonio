@@ -1,6 +1,6 @@
 {
  "title": "Parallel You channel art",
- "duration": 5,
+ "duration": 10,
  "shots": [
   {
    "id": "banner",
@@ -52,6 +52,61 @@
    "end": 5,
    "line": "",
    "scene": "PY monogram",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   }
+  },
+  {
+   "id": "avatarD",
+   "start": 5,
+   "end": 6,
+   "line": "",
+   "scene": "The Mirror",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   }
+  },
+  {
+   "id": "avatarE",
+   "start": 6,
+   "end": 7,
+   "line": "",
+   "scene": "Split Face",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   }
+  },
+  {
+   "id": "avatarF",
+   "start": 7,
+   "end": 8,
+   "line": "",
+   "scene": "The Mascot",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   }
+  },
+  {
+   "id": "banner2",
+   "start": 8,
+   "end": 9,
+   "line": "",
+   "scene": "banner matching the Split Face mark",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   }
+  },
+  {
+   "id": "banner3",
+   "start": 9,
+   "end": 10,
+   "line": "",
+   "scene": "banner matching the Mirror mark",
    "bars": "none",
    "in": {
     "type": "cut"
