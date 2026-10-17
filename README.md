@@ -19,6 +19,12 @@ Plan to make the account eligible for the TikTok Creator Rewards Program after t
 - [`scripts/01-forgive-the-past.md`](scripts/01-forgive-the-past.md) — 70s, 20 beats, full shot list and generation prompts.
 - [`prompts/01-forgive-the-past-anime.txt`](prompts/01-forgive-the-past-anime.txt) — **copy-paste pack: all 22 clip prompts, anime style, ready for an AI video generator.**
 
+## Engineering-breakdown channel (3D cutaways)
+
+- [`docs/10-engineering-channel-format-bible.md`](docs/10-engineering-channel-format-bible.md) — **the rulebook**: Action → Failure → Fix loop, cutaway art direction, camera, captions, sound, measured against the @youbuiltit road video.
+- [`scripts/eng-01-hydroelectric-dam.md`](scripts/eng-01-hydroelectric-dam.md) — 49s, 130 words, full frame-by-frame blueprint.
+- New topic: run `/build-script <topic>` (add `extended` for a 62–70s TikTok cut).
+
 ## Account snapshot (Sep 2026)
 
 | Metric | Value |
