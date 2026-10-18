@@ -1,0 +1,1941 @@
+{
+ "title": "If Your Car Ever Beeps For The Empty Passenger Seat... DON'T LOOK",
+ "duration": 226.32,
+ "shots": [
+  {
+   "id": "s001",
+   "start": 0.0,
+   "end": 4.7,
+   "line": "If your car ever beeps for the empty passenger seat, do not look at the seat.",
+   "scene": "cockpit",
+   "params": {
+    "tpl": "cockpit",
+    "beep": true,
+    "beepFrom": 0.3,
+    "glance": 3.68,
+    "status": [
+     "PASSENGER SEAT: EMPTY",
+     "#39d98a"
+    ],
+    "push": 0.06
+   },
+   "in": {
+    "type": "fade",
+    "dur": 0.6
+   },
+   "sfx": [
+    {
+     "at": 0.8,
+     "name": "chime",
+     "gain": -9
+    },
+    {
+     "at": 1.6,
+     "name": "chime",
+     "gain": -9
+    },
+    {
+     "at": 2.4,
+     "name": "chime",
+     "gain": -9
+    },
+    {
+     "at": 3.2,
+     "name": "chime",
+     "gain": -9
+    },
+    {
+     "at": 4.0,
+     "name": "chime",
+     "gain": -9
+    }
+   ],
+   "amb": {
+    "name": "car_interior",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s002",
+   "start": 4.7,
+   "end": 6.3,
+   "line": "Do not reach across.",
+   "scene": "carTop",
+   "params": {
+    "tpl": "carTop",
+    "moving": true,
+    "passenger": "empty",
+    "say": [
+     {
+      "str": "DO NOT REACH ACROSS",
+      "at": 0.05,
+      "col": "#ff3b3b",
+      "size": 64
+     }
+    ],
+    "sayOpts": {
+     "y": 150
+    }
+   },
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "car_interior",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s003",
+   "start": 6.3,
+   "end": 9.9,
+   "line": "And do not, under any circumstances, buckle it in.",
+   "scene": "text",
+   "params": {
+    "tpl": "text",
+    "say": [
+     {
+      "str": "AND DO NOT,",
+      "at": 0
+     },
+     {
+      "str": "UNDER ANY CIRCUMSTANCES,",
+      "at": 0.9
+     },
+     {
+      "str": "BUCKLE IT IN.",
+      "at": 2.42,
+      "col": "#ff3b3b",
+      "size": 140
+     }
+    ]
+   },
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s004",
+   "start": 9.9,
+   "end": 13.5,
+   "line": "You have heard this before. You put your bag on the seat.",
+   "scene": "carTop",
+   "params": {
+    "tpl": "carTop",
+    "passenger": "bag",
+    "status": [
+     "PASSENGER: 3.1 KG",
+     "#ffb547"
+    ]
+   },
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "car_interior",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s005",
+   "start": 13.5,
+   "end": 14.54,
+   "line": "Your groceries.",
+   "scene": "carTop",
+   "params": {
+    "tpl": "carTop",
+    "passenger": "groceries",
+    "status": [
+     "PASSENGER: 9.8 KG",
+     "#ffb547"
+    ]
+   },
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "car_interior",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s006",
+   "start": 14.54,
+   "end": 15.9,
+   "line": "A pizza.",
+   "scene": "carTop",
+   "params": {
+    "tpl": "carTop",
+    "passenger": "pizza",
+    "status": [
+     "PASSENGER: 1.9 KG",
+     "#ffb547"
+    ]
+   },
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "car_interior",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s007",
+   "start": 15.9,
+   "end": 21.74,
+   "line": "The little seatbelt light came on and the car started beeping, like your pizza had a death wish.",
+   "scene": "carTop",
+   "params": {
+    "tpl": "carTop",
+    "passenger": "pizza",
+    "belt": true,
+    "beepFrom": 3.14,
+    "status": [
+     "BUCKLE UP",
+     "#ff3b3b"
+    ],
+    "say": [
+     {
+      "str": "OCCUPANT: PIZZA",
+      "at": 3.14,
+      "col": "#ff3b3b",
+      "size": 56,
+      "mono": true
+     }
+    ],
+    "sayOpts": {
+     "y": 150
+    }
+   },
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 3.2,
+     "name": "chime",
+     "gain": -9
+    },
+    {
+     "at": 4.0,
+     "name": "chime",
+     "gain": -9
+    },
+    {
+     "at": 4.8,
+     "name": "chime",
+     "gain": -9
+    },
+    {
+     "at": 5.6,
+     "name": "chime",
+     "gain": -9
+    }
+   ],
+   "amb": {
+    "name": "car_interior",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s008",
+   "start": 21.74,
+   "end": 24.54,
+   "line": "You moved it, and the beeping stopped.",
+   "scene": "carTop",
+   "params": {
+    "tpl": "carTop",
+    "passenger": "pizza",
+    "vanish": 0.34,
+    "status": [
+     "PASSENGER SEAT: EMPTY",
+     "#39d98a"
+    ]
+   },
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "car_interior",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s009",
+   "start": 24.54,
+   "end": 27.26,
+   "line": "Tonight, there is nothing on the seat.",
+   "scene": "cockpit",
+   "params": {
+    "tpl": "cockpit",
+    "status": [
+     "PASSENGER SEAT: EMPTY",
+     "#39d98a"
+    ],
+    "push": 0.06
+   },
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "car_interior",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s010",
+   "start": 27.26,
+   "end": 28.94,
+   "line": "It is still beeping.",
+   "scene": "cockpit",
+   "params": {
+    "tpl": "cockpit",
+    "beep": true,
+    "beepFrom": 0,
+    "heat": true,
+    "heatAmt": 0.7,
+    "status": [
+     "PASSENGER SEAT: OCCUPIED",
+     "#ff3b3b"
+    ],
+    "glitch": [
+     [
+      0,
+      0.35,
+      0.9
+     ]
+    ],
+    "push": 0.08
+   },
+   "in": {
+    "type": "glitch",
+    "dur": 0.35
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "chime",
+     "gain": -9
+    },
+    {
+     "at": 0.8,
+     "name": "chime",
+     "gain": -9
+    },
+    {
+     "at": 1.6,
+     "name": "chime",
+     "gain": -9
+    },
+    {
+     "at": 0,
+     "name": "glitch",
+     "gain": -12
+    }
+   ],
+   "amb": {
+    "name": "car_interior",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s011",
+   "start": 28.94,
+   "end": 35.18,
+   "line": "There are seven rules. Six get you home. The seventh is about who drove.",
+   "scene": "rules7",
+   "params": {
+    "tpl": "rules7",
+    "homeAt": 2.02,
+    "whoAt": 3.54,
+    "push": 0.02
+   },
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s012",
+   "start": 35.18,
+   "end": 39.34,
+   "line": "Under the passenger seat is a sensor. It measures weight.",
+   "scene": "sensor",
+   "params": {
+    "tpl": "sensor",
+    "padAt": 0.4
+   },
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "car_interior",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s013",
+   "start": 39.34,
+   "end": 44.54,
+   "line": "If something on that seat weighs as much as a person, the car asks it to buckle up.",
+   "scene": "sensor",
+   "params": {
+    "tpl": "sensor",
+    "padAt": 0,
+    "weight": 68.4,
+    "weighAt": 1.22,
+    "beepFrom": 4.18
+   },
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 4.8,
+     "name": "chime",
+     "gain": -9
+    }
+   ],
+   "amb": {
+    "name": "car_interior",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s014",
+   "start": 44.54,
+   "end": 49.5,
+   "line": "The car does not know what a person is. It only knows what one weighs.",
+   "scene": "text",
+   "params": {
+    "tpl": "text",
+    "say": [
+     {
+      "str": "THE CAR DOES NOT KNOW",
+      "at": 0
+     },
+     {
+      "str": "WHAT A PERSON IS.",
+      "at": 1.38
+     },
+     {
+      "str": "IT ONLY KNOWS WHAT ONE WEIGHS.",
+      "at": 2.5,
+      "col": "#8fe3ff",
+      "size": 72,
+      "mono": true
+     }
+    ]
+   },
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s015",
+   "start": 49.5,
+   "end": 53.18,
+   "line": "Tonight, something weighs exactly that much.",
+   "scene": "sensor",
+   "params": {
+    "tpl": "sensor",
+    "padAt": 0,
+    "weight": 68.4,
+    "weighAt": 0.1,
+    "cls": "UNKNOWN",
+    "outline": 1.14,
+    "outlineCol": "#ff3b3b",
+    "beepFrom": 0.3,
+    "glitch": [
+     [
+      1.9,
+      2.4,
+      0.8
+     ]
+    ]
+   },
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.8,
+     "name": "chime",
+     "gain": -9
+    },
+    {
+     "at": 1.6,
+     "name": "chime",
+     "gain": -9
+    },
+    {
+     "at": 2.4,
+     "name": "chime",
+     "gain": -9
+    },
+    {
+     "at": 3.2,
+     "name": "chime",
+     "gain": -9
+    },
+    {
+     "at": 1.14,
+     "name": "stinger",
+     "gain": -10
+    },
+    {
+     "at": 1.9,
+     "name": "glitch",
+     "gain": -12
+    }
+   ],
+   "amb": {
+    "name": "car_interior",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s016",
+   "start": 53.18,
+   "end": 56.14,
+   "line": "Rule one. Do not look at the seat.",
+   "scene": "rule",
+   "params": {
+    "tpl": "rule",
+    "n": 1,
+    "title": "DO NOT LOOK AT THE SEAT",
+    "noCaptions": true,
+    "push": 0.02
+   },
+   "in": {
+    "type": "glitch",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "glitch",
+     "gain": -14
+    },
+    {
+     "at": 0.35,
+     "name": "blip",
+     "gain": -12
+    }
+   ]
+  },
+  {
+   "id": "s017",
+   "start": 56.14,
+   "end": 58.94,
+   "line": "Eyes on the road. Hands on the wheel.",
+   "scene": "cockpit",
+   "params": {
+    "tpl": "cockpit",
+    "beep": true,
+    "checks": [
+     [
+      "EYES: ROAD",
+      0.38
+     ],
+     [
+      "HANDS: WHEEL",
+      1.66
+     ]
+    ]
+   },
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "chime",
+     "gain": -9
+    },
+    {
+     "at": 0.8,
+     "name": "chime",
+     "gain": -9
+    },
+    {
+     "at": 1.6,
+     "name": "chime",
+     "gain": -9
+    },
+    {
+     "at": 2.4,
+     "name": "chime",
+     "gain": -9
+    }
+   ],
+   "amb": {
+    "name": "car_interior",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s018",
+   "start": 58.94,
+   "end": 62.86,
+   "line": "You will feel the urge to glance over. Everybody does.",
+   "scene": "cockpit",
+   "params": {
+    "tpl": "cockpit",
+    "beep": true,
+    "glance": 1.46,
+    "status": [
+     "EVERYBODY DOES",
+     "#ffb547"
+    ]
+   },
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "chime",
+     "gain": -9
+    },
+    {
+     "at": 0.8,
+     "name": "chime",
+     "gain": -9
+    },
+    {
+     "at": 1.6,
+     "name": "chime",
+     "gain": -9
+    },
+    {
+     "at": 2.4,
+     "name": "chime",
+     "gain": -9
+    },
+    {
+     "at": 3.2,
+     "name": "chime",
+     "gain": -9
+    }
+   ],
+   "amb": {
+    "name": "car_interior",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s019",
+   "start": 62.86,
+   "end": 68.62,
+   "line": "Do not tilt the mirror either. The mirror was set for the road. Keep it that way.",
+   "scene": "cockpit",
+   "params": {
+    "tpl": "cockpit",
+    "beep": true,
+    "mirror": "tilt",
+    "mirrorAt": 0.66,
+    "status": [
+     "MIRROR: SET FOR THE ROAD",
+     "#39d98a"
+    ]
+   },
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "chime",
+     "gain": -9
+    },
+    {
+     "at": 0.8,
+     "name": "chime",
+     "gain": -9
+    },
+    {
+     "at": 1.6,
+     "name": "chime",
+     "gain": -9
+    },
+    {
+     "at": 2.4,
+     "name": "chime",
+     "gain": -9
+    },
+    {
+     "at": 3.2,
+     "name": "chime",
+     "gain": -9
+    },
+    {
+     "at": 4.0,
+     "name": "chime",
+     "gain": -9
+    },
+    {
+     "at": 4.8,
+     "name": "chime",
+     "gain": -9
+    },
+    {
+     "at": 5.6,
+     "name": "chime",
+     "gain": -9
+    }
+   ],
+   "amb": {
+    "name": "car_interior",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s020",
+   "start": 68.62,
+   "end": 72.06,
+   "line": "Rule two. Do not put anything on the seat.",
+   "scene": "rule",
+   "params": {
+    "tpl": "rule",
+    "n": 2,
+    "title": "DO NOT PUT ANYTHING ON THE SEAT",
+    "noCaptions": true,
+    "push": 0.02
+   },
+   "in": {
+    "type": "glitch",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "glitch",
+     "gain": -14
+    },
+    {
+     "at": 0.35,
+     "name": "blip",
+     "gain": -12
+    }
+   ]
+  },
+  {
+   "id": "s021",
+   "start": 72.06,
+   "end": 76.38,
+   "line": "You will want to toss your bag over, so the beeping has a reason.",
+   "scene": "carTop",
+   "params": {
+    "tpl": "carTop",
+    "moving": true,
+    "passenger": "empty",
+    "toss": 0.9
+   },
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 1.5,
+     "name": "thud",
+     "gain": -12
+    }
+   ],
+   "amb": {
+    "name": "car_interior",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s022",
+   "start": 76.38,
+   "end": 79.98,
+   "line": "Do not give it a reason. Do not give it anything.",
+   "scene": "text",
+   "params": {
+    "tpl": "text",
+    "say": [
+     {
+      "str": "DO NOT GIVE IT A REASON.",
+      "at": 0
+     },
+     {
+      "str": "DO NOT GIVE IT ANYTHING.",
+      "at": 1.86,
+      "col": "#ff3b3b"
+     }
+    ]
+   },
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s023",
+   "start": 79.98,
+   "end": 83.42,
+   "line": "Things put on that seat tonight do not come back.",
+   "scene": "carTop",
+   "params": {
+    "tpl": "carTop",
+    "moving": true,
+    "passenger": "bag",
+    "vanish": 1.9800000000000002,
+    "status": [
+     "ITEMS RETURNED: 0",
+     "#ff3b3b"
+    ],
+    "glitch": [
+     [
+      1.9800000000000002,
+      2.48,
+      0.7
+     ]
+    ]
+   },
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 1.9800000000000002,
+     "name": "static",
+     "gain": -14
+    },
+    {
+     "at": 1.9800000000000002,
+     "name": "glitch",
+     "gain": -12
+    }
+   ],
+   "amb": {
+    "name": "car_interior",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s024",
+   "start": 83.42,
+   "end": 86.38,
+   "line": "Rule three. Take the lit roads.",
+   "scene": "rule",
+   "params": {
+    "tpl": "rule",
+    "n": 3,
+    "title": "TAKE THE LIT ROADS",
+    "noCaptions": true,
+    "push": 0.02
+   },
+   "in": {
+    "type": "glitch",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "glitch",
+     "gain": -14
+    },
+    {
+     "at": 0.35,
+     "name": "blip",
+     "gain": -12
+    }
+   ]
+  },
+  {
+   "id": "s025",
+   "start": 86.38,
+   "end": 91.5,
+   "line": "Stay under the streetlights. Every time you pass under one, the beeping will stop.",
+   "scene": "road",
+   "params": {
+    "tpl": "road",
+    "lights": true,
+    "period": 2.4,
+    "push": 0.03
+   },
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.8,
+     "name": "chime",
+     "gain": -9
+    },
+    {
+     "at": 1.6,
+     "name": "chime",
+     "gain": -9
+    },
+    {
+     "at": 3.2,
+     "name": "chime",
+     "gain": -9
+    },
+    {
+     "at": 4.0,
+     "name": "chime",
+     "gain": -9
+    }
+   ],
+   "amb": {
+    "name": "car_interior",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s026",
+   "start": 91.5,
+   "end": 95.26,
+   "line": "Just for a second. Count the seconds between lights.",
+   "scene": "road",
+   "params": {
+    "tpl": "road",
+    "lights": true,
+    "period": 2.4,
+    "meter": true,
+    "push": 0.02
+   },
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.8,
+     "name": "chime",
+     "gain": -9
+    },
+    {
+     "at": 1.6,
+     "name": "chime",
+     "gain": -9
+    },
+    {
+     "at": 3.2,
+     "name": "chime",
+     "gain": -9
+    }
+   ],
+   "amb": {
+    "name": "car_interior",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s027",
+   "start": 95.26,
+   "end": 101.98,
+   "line": "If the beeping stops in the dark too... it has gotten used to you. That is not good news.",
+   "scene": "road",
+   "params": {
+    "tpl": "road",
+    "lights": true,
+    "period": 2.4,
+    "meter": true,
+    "beepMode": "none",
+    "noneAt": 0.78,
+    "status": [
+     "IT HAS GOTTEN USED TO YOU",
+     "#ff3b3b"
+    ],
+    "glitch": [
+     [
+      2.74,
+      3.14,
+      0.8
+     ]
+    ],
+    "push": 0.05
+   },
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 2.74,
+     "name": "glitch",
+     "gain": -12
+    }
+   ],
+   "amb": {
+    "name": "car_interior",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s028",
+   "start": 101.98,
+   "end": 105.1,
+   "line": "Rule four. Let it choose the music.",
+   "scene": "rule",
+   "params": {
+    "tpl": "rule",
+    "n": 4,
+    "title": "LET IT CHOOSE THE MUSIC",
+    "noCaptions": true,
+    "push": 0.02
+   },
+   "in": {
+    "type": "glitch",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "glitch",
+     "gain": -14
+    },
+    {
+     "at": 0.35,
+     "name": "blip",
+     "gain": -12
+    }
+   ]
+  },
+  {
+   "id": "s029",
+   "start": 105.1,
+   "end": 108.86,
+   "line": "If the radio changes station by itself, leave it.",
+   "scene": "radio",
+   "params": {
+    "tpl": "radio",
+    "mode": "change",
+    "at": 0.9
+   },
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.9,
+     "name": "static",
+     "gain": -18,
+     "dur": 0.3
+    },
+    {
+     "at": 1.6,
+     "name": "static",
+     "gain": -18,
+     "dur": 0.3
+    },
+    {
+     "at": 2.3,
+     "name": "static",
+     "gain": -18,
+     "dur": 0.3
+    },
+    {
+     "at": 2.9999999999999996,
+     "name": "static",
+     "gain": -18,
+     "dur": 0.3
+    }
+   ],
+   "amb": {
+    "name": "car_interior",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s030",
+   "start": 108.86,
+   "end": 112.38,
+   "line": "Passengers pick the music. Everybody knows that.",
+   "scene": "text",
+   "params": {
+    "tpl": "text",
+    "say": [
+     {
+      "str": "PASSENGERS PICK THE MUSIC.",
+      "at": 0
+     },
+     {
+      "str": "EVERYBODY KNOWS THAT.",
+      "at": 2.1,
+      "col": "#8fe3ff",
+      "size": 64,
+      "mono": true
+     }
+    ]
+   },
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s031",
+   "start": 112.38,
+   "end": 115.66,
+   "line": "It has terrible taste. Do not say so.",
+   "scene": "radio",
+   "params": {
+    "tpl": "radio",
+    "mode": "taste",
+    "xAt": 2.1
+   },
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "car_interior",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s032",
+   "start": 115.66,
+   "end": 122.7,
+   "line": "And do not turn it down. It turned it up for a reason. There is something it does not want you to hear.",
+   "scene": "radio",
+   "params": {
+    "tpl": "radio",
+    "mode": "volume",
+    "at": 0.3,
+    "hideAt": 4.18
+   },
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 4.18,
+     "name": "whisper",
+     "gain": -18
+    }
+   ],
+   "amb": {
+    "name": "car_interior",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s033",
+   "start": 122.7,
+   "end": 126.3,
+   "line": "Rule five. Do not stop until you are home.",
+   "scene": "rule",
+   "params": {
+    "tpl": "rule",
+    "n": 5,
+    "title": "DO NOT STOP UNTIL YOU ARE HOME",
+    "noCaptions": true,
+    "push": 0.02
+   },
+   "in": {
+    "type": "glitch",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "glitch",
+     "gain": -14
+    },
+    {
+     "at": 0.35,
+     "name": "blip",
+     "gain": -12
+    }
+   ]
+  },
+  {
+   "id": "s034",
+   "start": 126.3,
+   "end": 130.62,
+   "line": "Not for gas. Not for food. Not to check the tires.",
+   "scene": "cross",
+   "params": {
+    "tpl": "cross",
+    "items": [
+     [
+      "GAS",
+      0.18
+     ],
+     [
+      "FOOD",
+      1.38
+     ],
+     [
+      "TIRES",
+      2.66
+     ]
+    ]
+   },
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.43,
+     "name": "hit",
+     "gain": -16
+    },
+    {
+     "at": 1.63,
+     "name": "hit",
+     "gain": -16
+    },
+    {
+     "at": 2.91,
+     "name": "hit",
+     "gain": -16
+    }
+   ]
+  },
+  {
+   "id": "s035",
+   "start": 130.62,
+   "end": 135.66,
+   "line": "If a red light makes you stop, keep both hands on the wheel and look straight ahead.",
+   "scene": "redLight",
+   "params": {
+    "tpl": "redLight",
+    "zoom": 1.0,
+    "push": 0.05
+   },
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "car_interior",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s036",
+   "start": 135.66,
+   "end": 141.1,
+   "line": "Something will tap on the window. Not the passenger window. Yours.",
+   "scene": "redLight",
+   "params": {
+    "tpl": "redLight",
+    "zoom": 1.7,
+    "panX": -90,
+    "taps": [
+     0.74,
+     1.0899999999999999,
+     1.44
+    ],
+    "say": [
+     {
+      "str": "NOT THE PASSENGER WINDOW.",
+      "at": 2.26,
+      "size": 60
+     },
+     {
+      "str": "YOURS.",
+      "at": 4.1,
+      "col": "#ff3b3b",
+      "size": 130
+     }
+    ],
+    "sayOpts": {
+     "y": 210
+    },
+    "glitch": [
+     [
+      4.1,
+      4.6,
+      0.9
+     ]
+    ],
+    "push": 0.04
+   },
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.74,
+     "name": "tap",
+     "gain": -2
+    },
+    {
+     "at": 1.0899999999999999,
+     "name": "tap",
+     "gain": -2
+    },
+    {
+     "at": 1.44,
+     "name": "tap",
+     "gain": -2
+    },
+    {
+     "at": 4.1,
+     "name": "glitch",
+     "gain": -12
+    }
+   ],
+   "amb": {
+    "name": "car_interior",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s037",
+   "start": 141.1,
+   "end": 145.66,
+   "line": "Rule six. When you park, do not look in the back seat.",
+   "scene": "rule",
+   "params": {
+    "tpl": "rule",
+    "n": 6,
+    "title": "WHEN YOU PARK, DO NOT LOOK IN THE BACK SEAT",
+    "noCaptions": true,
+    "push": 0.02
+   },
+   "in": {
+    "type": "glitch",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "glitch",
+     "gain": -14
+    },
+    {
+     "at": 0.35,
+     "name": "blip",
+     "gain": -12
+    }
+   ]
+  },
+  {
+   "id": "s038",
+   "start": 145.66,
+   "end": 151.26,
+   "line": "Some cars can now tell when something moves in the back seat. Hyundai offers one.",
+   "scene": "carTop",
+   "params": {
+    "tpl": "carTop",
+    "passenger": "empty",
+    "motion": 0.5,
+    "status": [
+     "REAR OCCUPANT ALERT: ON",
+     "#8fe3ff"
+    ],
+    "say": [
+     {
+      "str": "ULTRASONIC REAR-SEAT SENSOR",
+      "at": 0.6,
+      "col": "#8fe3ff",
+      "size": 40,
+      "mono": true
+     }
+    ],
+    "sayOpts": {
+     "y": 150
+    }
+   },
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "car_interior",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s039",
+   "start": 151.26,
+   "end": 155.18,
+   "line": "After you park and lock, a sensor watches the rear seats.",
+   "scene": "carTop",
+   "params": {
+    "tpl": "carTop",
+    "passenger": "empty",
+    "motion": 0.1,
+    "lock": 1.14
+   },
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "car_interior",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s040",
+   "start": 155.18,
+   "end": 160.7,
+   "line": "If something moves, the car honks the horn, flashes the lights, and texts your phone.",
+   "scene": "carTop",
+   "params": {
+    "tpl": "carTop",
+    "passenger": "empty",
+    "motion": 0,
+    "lock": 0,
+    "alarm": 1.86,
+    "status": [
+     "MOVEMENT DETECTED",
+     "#ff3b3b"
+    ]
+   },
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 1.86,
+     "name": "horn",
+     "gain": -10
+    },
+    {
+     "at": 3.46,
+     "name": "phonebuzz",
+     "gain": -12
+    }
+   ],
+   "amb": {
+    "name": "car_interior",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s041",
+   "start": 160.7,
+   "end": 167.02,
+   "line": "It was built so nobody forgets a child or a dog in a hot car. It was not built for this.",
+   "scene": "checklist",
+   "params": {
+    "tpl": "checklist",
+    "rows": [
+     [
+      "A CHILD",
+      true,
+      1.94
+     ],
+     [
+      "A DOG",
+      true,
+      2.58
+     ],
+     [
+      "THIS",
+      false,
+      5.12
+     ]
+    ]
+   },
+   "in": {
+    "type": "cut"
+   },
+   "sfx": []
+  },
+  {
+   "id": "s042",
+   "start": 167.02,
+   "end": 169.82,
+   "line": "Lock the car. Walk inside.",
+   "scene": "park",
+   "params": {
+    "tpl": "park",
+    "lockAt": 0.2,
+    "walkAt": 1.46
+   },
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "roomtone_low",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s043",
+   "start": 169.82,
+   "end": 175.18,
+   "line": "If your phone buzzes, movement detected in rear seat\"... do not go back.",
+   "scene": "phone",
+   "params": {
+    "tpl": "phone",
+    "at": 0.4,
+    "noAt": 3.86
+   },
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "phonebuzz",
+     "gain": -10
+    }
+   ],
+   "amb": {
+    "name": "roomtone_low",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s044",
+   "start": 175.18,
+   "end": 178.7,
+   "line": "You did not forget anything. It just has not gotten out yet.",
+   "scene": "carTop",
+   "params": {
+    "tpl": "carTop",
+    "passenger": "empty",
+    "motion": 0,
+    "lock": 0,
+    "shape": 2.1,
+    "status": [
+     "REAR SEAT: OCCUPIED",
+     "#ff3b3b"
+    ],
+    "glitch": [
+     [
+      3.1,
+      3.6,
+      0.9
+     ]
+    ]
+   },
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 2.1,
+     "name": "stinger",
+     "gain": -9
+    },
+    {
+     "at": 3.1,
+     "name": "glitch",
+     "gain": -12
+    }
+   ],
+   "amb": {
+    "name": "car_interior",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s045",
+   "start": 178.7,
+   "end": 182.22,
+   "line": "Rule seven. Do not try to remember the drive.",
+   "scene": "rule",
+   "params": {
+    "tpl": "rule",
+    "n": 7,
+    "title": "DO NOT TRY TO REMEMBER THE DRIVE",
+    "noCaptions": true,
+    "push": 0.02
+   },
+   "in": {
+    "type": "glitch",
+    "dur": 0.3
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "glitch",
+     "gain": -14
+    },
+    {
+     "at": 0.35,
+     "name": "blip",
+     "gain": -12
+    }
+   ]
+  },
+  {
+   "id": "s046",
+   "start": 182.22,
+   "end": 187.02,
+   "line": "Here is something true. You have driven home before and not remembered the drive.",
+   "scene": "route",
+   "params": {
+    "tpl": "route",
+    "drawDur": 3.9000000000000004
+   },
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "hum_evil",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s047",
+   "start": 187.02,
+   "end": 192.38,
+   "line": "Not one turn. Not one light. You just arrived. Everybody has done it.",
+   "scene": "route",
+   "params": {
+    "tpl": "route",
+    "drawDur": 0.4,
+    "marks": [
+     [
+      "TURN ?",
+      0.18
+     ],
+     [
+      "LIGHT ?",
+      1.38
+     ]
+    ],
+    "gapAt": 2.66
+   },
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "hum_evil",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s048",
+   "start": 192.38,
+   "end": 199.42,
+   "line": "It is called highway hypnosis. Experts say your brain drives on autopilot while your mind wanders.",
+   "scene": "autopilot",
+   "params": {
+    "tpl": "autopilot",
+    "badgeAt": 0.4,
+    "mindAt": 5.66
+   },
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "hum_evil",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s049",
+   "start": 199.42,
+   "end": 203.98,
+   "line": "Your mind was not wandering. It was moved. One seat to the right.",
+   "scene": "cockpit",
+   "params": {
+    "tpl": "cockpit",
+    "beep": true,
+    "driver": "mind",
+    "mindAt": 1.86,
+    "status": [
+     "MIND: MOVED ONE SEAT RIGHT",
+     "#ff3b3b"
+    ]
+   },
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "chime",
+     "gain": -9
+    },
+    {
+     "at": 0.8,
+     "name": "chime",
+     "gain": -9
+    },
+    {
+     "at": 1.6,
+     "name": "chime",
+     "gain": -9
+    },
+    {
+     "at": 2.4,
+     "name": "chime",
+     "gain": -9
+    },
+    {
+     "at": 3.2,
+     "name": "chime",
+     "gain": -9
+    },
+    {
+     "at": 4.0,
+     "name": "chime",
+     "gain": -9
+    },
+    {
+     "at": 1.86,
+     "name": "whoosh",
+     "gain": -12
+    },
+    {
+     "at": 0,
+     "name": "heartbeat",
+     "gain": -16,
+     "dur": 4.56
+    }
+   ],
+   "amb": {
+    "name": "car_interior",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s050",
+   "start": 203.98,
+   "end": 208.7,
+   "line": "That is why the passenger seat weighed exactly as much as a person tonight.",
+   "scene": "sensor",
+   "params": {
+    "tpl": "sensor",
+    "padAt": 0,
+    "weight": 68.4,
+    "weighAt": 0.2,
+    "cls": "YOU",
+    "outline": 0.6,
+    "outlineCol": "#e9f6ff"
+   },
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "amb": {
+    "name": "silence_thick",
+    "gain": -22
+   }
+  },
+  {
+   "id": "s051",
+   "start": 208.7,
+   "end": 212.86,
+   "line": "It was you. For the first time, you were awake for the ride.",
+   "scene": "cockpit",
+   "params": {
+    "tpl": "cockpit",
+    "driver": "void",
+    "passenger": "you",
+    "status": [
+     "DRIVER: UNKNOWN",
+     "#ff3b3b"
+    ],
+    "glitch": [
+     [
+      0,
+      0.5,
+      1.0
+     ]
+    ],
+    "push": 0.06
+   },
+   "in": {
+    "type": "flash",
+    "dur": 0.4
+   },
+   "sfx": [
+    {
+     "at": 0,
+     "name": "glitch",
+     "gain": -12
+    }
+   ],
+   "amb": {
+    "name": "silence_thick",
+    "gain": -22
+   }
+  },
+  {
+   "id": "s052",
+   "start": 212.86,
+   "end": 217.58,
+   "line": "So if your car ever beeps for the empty passenger seat, don't look.",
+   "scene": "cockpit",
+   "params": {
+    "tpl": "cockpit",
+    "driver": "void",
+    "passenger": "you",
+    "beep": true,
+    "beepFrom": 0,
+    "push": 0.05
+   },
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "chime",
+     "gain": -9
+    },
+    {
+     "at": 0.8,
+     "name": "chime",
+     "gain": -9
+    },
+    {
+     "at": 1.6,
+     "name": "chime",
+     "gain": -9
+    },
+    {
+     "at": 2.4,
+     "name": "chime",
+     "gain": -9
+    },
+    {
+     "at": 3.2,
+     "name": "chime",
+     "gain": -9
+    },
+    {
+     "at": 4.0,
+     "name": "chime",
+     "gain": -9
+    }
+   ],
+   "amb": {
+    "name": "silence_thick",
+    "gain": -22
+   }
+  },
+  {
+   "id": "s053",
+   "start": 217.58,
+   "end": 220.06,
+   "line": "You might see who has been driving.",
+   "scene": "cockpit",
+   "params": {
+    "tpl": "cockpit",
+    "driver": "void",
+    "passenger": "you",
+    "push": 0.16,
+    "glitch": [
+     [
+      1.9,
+      2.5,
+      1.0
+     ]
+    ]
+   },
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 1.9,
+     "name": "glitch",
+     "gain": -12
+    }
+   ],
+   "amb": {
+    "name": "silence_thick",
+    "gain": -22
+   }
+  },
+  {
+   "id": "s054",
+   "start": 220.06,
+   "end": 226.32,
+   "line": "Thank you for calling Night Support. Please drive safely. Someone has to.",
+   "scene": "end",
+   "params": {
+    "tpl": "end",
+    "noCaptions": true,
+    "push": 0.02,
+    "lines": [
+     [
+      "THANK YOU FOR CALLING NIGHT SUPPORT.",
+      0.2
+     ],
+     [
+      "PLEASE DRIVE SAFELY.",
+      2.02
+     ],
+     [
+      "SOMEONE HAS TO.",
+      3.7,
+      "#ff3b3b"
+     ]
+    ]
+   },
+   "in": {
+    "type": "dip",
+    "dur": 0.8
+   },
+   "sfx": [],
+   "amb": {
+    "name": "silence_thick",
+    "gain": -22
+   }
+  }
+ ],
+ "music": [
+  {
+   "start": 0,
+   "end": 29.0,
+   "mood": "unease",
+   "intensity": 0.35
+  },
+  {
+   "start": 29.0,
+   "end": 53.2,
+   "mood": "tension",
+   "intensity": 0.45
+  },
+  {
+   "start": 53.2,
+   "end": 102.0,
+   "mood": "tension",
+   "intensity": 0.55
+  },
+  {
+   "start": 102.0,
+   "end": 141.1,
+   "mood": "dread",
+   "intensity": 0.6
+  },
+  {
+   "start": 141.1,
+   "end": 178.7,
+   "mood": "dread",
+   "intensity": 0.72
+  },
+  {
+   "start": 178.7,
+   "end": 204.0,
+   "mood": "void",
+   "intensity": 0.5
+  },
+  {
+   "start": 204.0,
+   "end": 217.6,
+   "mood": "terror",
+   "intensity": 0.8
+  },
+  {
+   "start": 217.6,
+   "end": 226.32,
+   "mood": "void",
+   "intensity": 0.3
+  }
+ ]
+}

@@ -385,6 +385,34 @@ def silence_thick(dur=6.0, seed=48, **_):
     return normalize(stereo(x, 0, 1.0), -26)
 
 
+
+# ---------- car (night support) ----------
+@sfx("single seatbelt-reminder chime (dashboard ding)", 0.6)
+def chime(dur=0.6, seed=49, pitch=1.0, **_):
+    n = secs(dur); x = sum(sine(f * pitch, n) * a * expdec(n, d) for f, a, d in [(1175, 1.0, 0.18), (2350, 0.35, 0.09), (3520, 0.12, 0.05)])
+    return normalize(fade(stereo(x, 0.05), 0.002, 0.05), -6)
+
+
+@sfx("knuckle tap on a car window (glass, close)", 0.35)
+def tap(dur=0.35, seed=50, pitch=1.0, **_):
+    n = secs(dur); x = bp(noise(n, seed), 1800 * pitch, 5200 * pitch) * expdec(n, 0.012) + sine(2900 * pitch, n) * expdec(n, 0.03) * 0.25 + _thump(n, 220 * pitch, 120 * pitch, 0.04, 0.1, seed) * 0.6
+    return normalize(stereo(x, -0.3), -4)
+
+
+@sfx("car horn honk (alarm, two short blasts)", 1.2)
+def horn(dur=1.2, seed=51, **_):
+    n = secs(dur); t = t_axis(n); env = ((t % 0.5) < 0.32).astype(np.float32)
+    x = (osc("square", 415, n) + osc("square", 520, n) * 0.8) * env
+    return normalize(fade(stereo(lp(x, 2400), 0, 0.3), 0.005, 0.05), -6)
+
+
+@sfx("car interior at night: low road rumble and tyre hiss (loopable)", 6.0)
+def car_interior(dur=6.0, seed=52, **_):
+    n = secs(dur); t = t_axis(n)
+    x = lp(noise(n, seed, "brown"), 140) * (0.9 + 0.1 * np.sin(2 * np.pi * 0.25 * t)) + bp(noise(n, seed + 1, "pink"), 500, 2200) * 0.08
+    return normalize(stereo(x, 0, 1.0), -14)
+
+
 def make(name, **kw):
     if name not in LIB: raise KeyError(f"unknown sfx '{name}'. Available: {', '.join(LIB)}")
     k = {"dur": LIB[name]["dur"], **{a: b for a, b in kw.items() if b is not None}}

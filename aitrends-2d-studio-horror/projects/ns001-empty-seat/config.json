@@ -1,0 +1,23 @@
+{
+ "title": "If Your Car Ever Beeps For The Empty Passenger Seat... DON'T LOOK",
+ "aspect": "16:9",
+ "resolution": "1080p",
+ "fps": 24,
+ "style": "nightsupport",
+ "voiceover": "input/voiceover.mp3",
+ "script": "input/script.txt",
+ "duration": 226.32,
+ "captions": false,
+ "bars": null,
+ "fadeIn": 0.6,
+ "fadeOut": 1.0,
+ "music": {
+  "enabled": true,
+  "gainDb": -21
+ },
+ "sfx": {
+  "enabled": true,
+  "gainDb": -6
+ },
+ "loudness": -14
+}

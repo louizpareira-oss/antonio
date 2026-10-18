@@ -1,0 +1,98 @@
+[00:00.08 -> 00:04.60] If your car ever beeps for the empty passenger seat, do not look at the seat.
+[00:04.88 -> 00:06.24] Do not reach across.
+[00:06.48 -> 00:09.68] And do not, under any circumstances, buckle it in.
+[00:10.08 -> 00:11.52] You have heard this before.
+[00:11.84 -> 00:13.36] You put your bag on the seat.
+[00:13.68 -> 00:14.60] Your groceries.
+[00:14.72 -> 00:15.72] A pizza.
+[00:16.08 -> 00:21.56] The little seatbelt light came on and the car started beeping, like your pizza had a death wish.
+[00:21.92 -> 00:24.36] You moved it, and the beeping stopped.
+[00:24.72 -> 00:27.08] Tonight, there is nothing on the seat.
+[00:27.44 -> 00:28.76] It is still beeping.
+[00:29.12 -> 00:30.60] There are seven rules.
+[00:30.96 -> 00:32.16] Six get you home.
+[00:32.48 -> 00:34.92] The seventh is about who drove.
+[00:35.36 -> 00:37.56] Under the passenger seat is a sensor.
+[00:37.84 -> 00:39.12] It measures weight.
+[00:39.52 -> 00:44.36] If something on that seat weighs as much as a person, the car asks it to buckle up.
+[00:44.72 -> 00:46.84] The car does not know what a person is.
+[00:47.04 -> 00:49.44] It only knows what one weighs.
+[00:49.68 -> 00:52.88] Tonight, something weighs exactly that much.
+[00:53.36 -> 00:54.20] Rule one.
+[00:54.56 -> 00:55.96] Do not look at the seat.
+[00:56.32 -> 00:57.36] Eyes on the road.
+[00:57.60 -> 00:58.76] Hands on the wheel.
+[00:59.12 -> 01:01.32] You will feel the urge to glance over.
+[01:01.52 -> 01:02.72] Everybody does.
+[01:03.04 -> 01:04.88] Do not tilt the mirror either.
+[01:05.20 -> 01:06.92] The mirror was set for the road.
+[01:07.12 -> 01:08.32] Keep it that way.
+[01:08.80 -> 01:09.56] Rule two.
+[01:09.92 -> 01:11.88] Do not put anything on the seat.
+[01:12.24 -> 01:16.24] You will want to toss your bag over, so the beeping has a reason.
+[01:16.56 -> 01:18.00] Do not give it a reason.
+[01:18.24 -> 01:19.80] Do not give it anything.
+[01:20.16 -> 01:23.12] Things put on that seat tonight do not come back.
+[01:23.60 -> 01:24.44] Rule three.
+[01:24.80 -> 01:26.24] Take the lit roads.
+[01:26.56 -> 01:28.24] Stay under the streetlights.
+[01:28.56 -> 01:31.36] Every time you pass under one, the beeping will stop.
+[01:31.68 -> 01:32.92] Just for a second.
+[01:33.28 -> 01:35.16] Count the seconds between lights.
+[01:35.44 -> 01:37.68] If the beeping stops in the dark too...
+[01:38.00 -> 01:39.56] it has gotten used to you.
+[01:39.92 -> 01:41.64] That is not good news.
+[01:42.16 -> 01:43.08] Rule four.
+[01:43.44 -> 01:44.96] Let it choose the music.
+[01:45.28 -> 01:48.64] If the radio changes station by itself, leave it.
+[01:49.04 -> 01:50.72] Passengers pick the music.
+[01:50.96 -> 01:52.28] Everybody knows that.
+[01:52.56 -> 01:54.16] It has terrible taste.
+[01:54.48 -> 01:55.60] Do not say so.
+[01:55.84 -> 01:57.44] And do not turn it down.
+[01:57.76 -> 01:59.52] It turned it up for a reason.
+[01:59.84 -> 02:02.36] There is something it does not want you to hear.
+[02:02.88 -> 02:03.88] Rule five.
+[02:04.16 -> 02:06.16] Do not stop until you are home.
+[02:06.48 -> 02:07.52] Not for gas.
+[02:07.68 -> 02:08.72] Not for food.
+[02:08.96 -> 02:10.48] Not to check the tires.
+[02:10.80 -> 02:15.48] If a red light makes you stop, keep both hands on the wheel and look straight ahead.
+[02:15.84 -> 02:17.60] Something will tap on the window.
+[02:17.92 -> 02:19.44] Not the passenger window.
+[02:19.76 -> 02:20.76] Yours.
+[02:21.28 -> 02:22.32] Rule six.
+[02:22.64 -> 02:25.40] When you park, do not look in the back seat.
+[02:25.84 -> 02:29.20] Some cars can now tell when something moves in the back seat.
+[02:29.60 -> 02:31.08] Hyundai offers one.
+[02:31.44 -> 02:35.04] After you park and lock, a sensor watches the rear seats.
+[02:35.36 -> 02:40.52] If something moves, the car honks the horn, flashes the lights, and texts your phone.
+[02:40.88 -> 02:44.76] It was built so nobody forgets a child or a dog in a hot car.
+[02:45.12 -> 02:46.80] It was not built for this.
+[02:47.20 -> 02:48.20] Lock the car.
+[02:48.48 -> 02:49.64] Walk inside.
+[02:50.00 -> 02:53.40] If your phone buzzes, movement detected in rear seat"...
+[02:53.68 -> 02:55.00] do not go back.
+[02:55.36 -> 02:56.96] You did not forget anything.
+[02:57.28 -> 02:58.84] It just has not gotten out yet.
+[02:58.88 -> 02:59.84] Rule seven.
+[03:00.08 -> 03:02.12] Do not try to remember the drive.
+[03:02.40 -> 03:03.64] Here is something true.
+[03:03.92 -> 03:06.96] You have driven home before and not remembered the drive.
+[03:07.20 -> 03:08.24] Not one turn.
+[03:08.40 -> 03:09.44] Not one light.
+[03:09.68 -> 03:10.80] You just arrived.
+[03:11.04 -> 03:12.32] Everybody has done it.
+[03:12.56 -> 03:14.44] It is called highway hypnosis.
+[03:14.72 -> 03:19.36] Experts say your brain drives on autopilot while your mind wanders.
+[03:19.60 -> 03:21.12] Your mind was not wandering.
+[03:21.28 -> 03:22.36] It was moved.
+[03:22.64 -> 03:23.92] One seat to the right.
+[03:24.16 -> 03:28.60] That is why the passenger seat weighed exactly as much as a person tonight.
+[03:28.88 -> 03:29.68] It was you.
+[03:29.92 -> 03:32.76] For the first time, you were awake for the ride.
+[03:33.04 -> 03:37.14] So if your car ever beeps for the empty passenger seat, don't look.
+[03:37.76 -> 03:39.92] You might see who has been driving.
+[03:40.24 -> 03:41.84] Thank you for calling Night Support.
+[03:42.08 -> 03:43.21] Please drive safely.
+[03:43.76 -> 03:44.72] Someone has to.
