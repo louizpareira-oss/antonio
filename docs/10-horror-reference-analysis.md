@@ -96,3 +96,61 @@ Voice: calm, deadpan, official ("We are a trusted government agency"). Short sen
 - `scripts/02-leash-at-3am.md`: "If Your Dog Ever Brings You Its Leash At 3 AM... DO NOT GO OUTSIDE". Draft 1, on hold.
 - `scripts/03-robot-vacuum-3am.md`: "If Your Robot Vacuum Ever Starts Cleaning At 3 AM... DO NOT GET OUT OF BED".
   Draft 2, written after all six references; uses the lessons above.
+
+## Description tactics (from 5 viral descriptions, Oct 2026)
+
+Bradikinin cat (1.11M), Bradikinin phone (1.12M), Final Sight dog (232K), Final Sight doorbell, and an
+"if your dog ever hides under your bed" video (9+ min). What they all do, in order:
+
+1. **Line 1 = the video's first sentence**: the title as a full scenario plus 2–3 "do not" commands. It is the
+   text YouTube shows in search and under the video, and it carries the search phrase ("if your phone ever…").
+2. **"There are 7 rules." + one tease about a specific rule**: "Most people break the third." / "You already
+   follow six of them." / "Six will get you to morning." / "Nobody has ever needed the seventh."
+3. **"This is an analog horror survival guide for [the night X]:"** then 5–6 teaser fragments, one per rule,
+   never explained. Doubles as genre keywords.
+4. **A series/file line** ("FILE 045 … Please follow all instructions."): makes each video feel like one entry
+   in an archive, which pushes binge-watching.
+5. **Chapters for every rule**, plus one story chapter ("The man at the bottom of the stairs") and a curiosity
+   chapter at the end ("Rule 7: [classified]", "One Last Detail", "The Reply Nobody Talks About").
+6. **"About these files"**: one positioning sentence and a themed subscribe joke
+   ("Subscribe … before your cat does", "while you still have battery").
+7. **Fiction disclaimer + the real facts with exact sources** (Bradikinin only, both of its 1M+ videos).
+   Builds trust, invites "wait, is this real?" comments, and keeps the video clear of misinformation flags.
+8. **Exactly 3 hashtags**: #analoghorror + a topic tag people browse (#cats, #catbehavior, #phone, #dogs)
+   + #horrorstories / #scarystories. The first three show above the title.
+9. **A direct question to the viewer** ("What time did YOUR dog hide? Tell us in the comments.") for comments.
+
+What separates the 1M videos from the rest: real facts with citations, the themed subscribe line, a
+`[classified]` last chapter, search-driven topics, 4–7 min length and clean text. Final Sight's descriptions
+have typos ("explnaations", "RUle", "analong") and no facts, CTA or question. The under-the-bed video uses
+crowd framing ("Thousands of dog owners described the same night"), a "4 signs" list and runs past 8 minutes,
+which lets YouTube place mid-roll ads once a channel is monetized.
+
+### NIGHT SUPPORT description template
+
+```
+[First sentence of the narration, word for word: the scenario + 2–3 "do not" commands.] There are 7 rules. [One tease about a specific rule.]
+
+This is an analog horror survival guide for [the moment]: [5–6 teaser fragments, one per rule, not explained].
+
+NIGHT SUPPORT // CALL 0XX: [THE THING]. Please stay on the line.
+
+CHAPTERS
+0:00 [title line]
+…one line per rule, plus the story chapter…
+x:xx Rule 7: [a bracketed tease]
+
+THE TRUE PARTS
+• [real fact in plain words]
+• [real fact]
+Sources: [named sources]. The rest is ours.
+
+[A question about the viewer's own experience.] Tell us in the comments.
+
+ABOUT NIGHT SUPPORT
+One call. One situation. Seven rules that get you home. Subscribe [themed joke].
+
+This is a work of fiction. The animation, script, music and sound effects are original; the narrator's voice is AI-generated. [One dry line.]
+
+#analoghorror #[topic] #horrorstories
+```
