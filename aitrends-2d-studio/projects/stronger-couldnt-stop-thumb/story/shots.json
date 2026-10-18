@@ -1,0 +1,28 @@
+{
+ "title": "thumbnails",
+ "duration": 2,
+ "shots": [
+  {
+   "id": "thumbA",
+   "start": 0,
+   "end": 1,
+   "line": "",
+   "scene": "I CAN'T HOLD HER: crying hero face, cracked glowing hands, mom holding Lily",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   }
+  },
+  {
+   "id": "thumbB",
+   "start": 1,
+   "end": 2,
+   "line": "",
+   "scene": "SHE'S STRONGER: shocked hero face, baby Lily with gold eyes holding a bent crib bar",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   }
+  }
+ ]
+}
