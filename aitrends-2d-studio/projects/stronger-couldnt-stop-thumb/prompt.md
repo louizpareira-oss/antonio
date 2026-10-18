@@ -3,7 +3,9 @@
 Plan (from `CLAUDE.md`): an OpenArt image in a 3D look like the "ONLY ME." reference. The OpenArt CDN is blocked here,
 so the image is downloaded by the user and sent back; the text and finishing (1280×720) are added here.
 
-**Model:** Nano Banana 2, text-to-image, 16:9 — 20 credits (balance 59). Not generated yet: waiting for the user's OK.
+**Model:** Nano Banana 2, text-to-image, 16:9, 1K — 20 credits. Generated Oct 18 with the user's OK (balance now 39).
+**Image (1376×768):** https://cdn.openart.ai/openart-ai/production/2026-10/create-image/zSMFTe3Of5oqrKDWBPOD/image_1792357138891_cdf535b8_1792357138944_4aa1ab1c.png
+Waiting for the user to download it and send it here; then the text goes on and it is saved as `out/thumbnail.jpg`.
 
 ## Text added afterwards (not in the image)
 **I CAN'T HOLD HER.** — big white letters with a dark outline, top right. It adds the twist (he can't hold his baby
