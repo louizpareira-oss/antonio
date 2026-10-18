@@ -2,7 +2,7 @@
 
 **Format:** 16:9 YouTube, 1920 × 1080, about 8–8½ minutes (~1,100 words at ~138 words/min)
 **Style:** 2D studio. Follow the style rules in `CLAUDE.md` and `docs/11-reference-analysis-500iq-and-zero-pain.md`.
-**Status:** draft, waiting for the user's approval.
+**Status:** approved by the user (Oct 18). Next: voices.
 
 ## Why this idea
 - **Two patterns doing well right now (YouTube, October 2026):**
