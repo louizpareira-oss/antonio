@@ -1,6 +1,6 @@
 # If Your Robot Vacuum Ever Starts Cleaning At 3 AM... DO NOT GET OUT OF BED
 
-Original script, NIGHT SUPPORT call 001. 16:9 YouTube, ~4:30. Written after studying six viral
+Original script, NIGHT SUPPORT call 001. 16:9 YouTube, ~5:15 (792 words). Written after studying six viral
 analog-horror rule videos (`docs/10-horror-reference-analysis.md`); premise, rules, twist, narrator
 and wording are our own.
 
