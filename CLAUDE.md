@@ -12,6 +12,10 @@
 - **Tools (decided with the user, Oct 18):** the video is always built in the 2D studio (no AI video clips). Thumbnails
   use OpenArt *images* in a 3D look like the "ONLY ME." reference (15–40 credits each; confirm before spending). The
   OpenArt CDN is blocked here, so the user downloads the image and sends it; text and finishing are added here.
+- **Thumbnail update (Oct 18, from the viral examples the user shared: IFOLOGY "100x Stronger", "500 IQ", "Teleport"…):**
+  use the video's own stick-figure hero (black round head, white eyes, coloured hoodie), never a 3D/realistic human.
+  One big face or one big action, one strong prop, 2–3 heavy words in white + yellow with a thick black outline.
+  Draw it in the studio (`projects/<slug>-thumb/`, text added by `finish.py`); OpenArt only for that same 2D style.
 - **Style rules from the measured references** (`docs/11-reference-analysis-500iq-and-zero-pain.md`):
   - Picture: brighter (aim for centre brightness ~85–100, ours was 60), big faces and close-ups, no stretch over
     ~15 s without a picture change.
