@@ -63,3 +63,19 @@ Files: `aitrends-2d-studio-horror/projects/skotoma-brand/avatar_{A_passenger,B_p
 - **C, Don't Look:** a nervous character covering its eyes, with one eye peeking between two fingers (rule 1).
 
 Kept away from the reference avatars on purpose: no eye band, no sunglasses, no crosshair, no suit-and-tie character.
+
+## After posting: numbers to bring back
+
+Check in YouTube Studio → Analytics after **48 hours** and again after **7 days**. A brand-new channel often starts
+slowly, so don't judge it on day one. Each number points at a different fix:
+
+| Number (Studio → Analytics) | If it's low | What we fix next video |
+|---|---|---|
+| **Impressions** (Reach tab) | YouTube barely showed it | Topic, title, more Shorts pointing at it |
+| **Impressions click-through rate** (Reach) | Under ~4%: people saw it but didn't click | Thumbnail and title |
+| **Retention at 0:30** (Engagement → the video's retention graph) | Under ~60%: people clicked but left | The opening hook |
+| **Where the retention graph drops** | A steep drop at one moment | That part of the script or pacing |
+| **Shorts: viewed vs swiped away** | Under ~60% viewed | The first second of the Short |
+| **Traffic sources** | Almost nothing from Browse or Suggested | Packaging (title and thumbnail) plus consistency |
+
+Screenshots of the Reach tab, the retention graph, and the Short's "viewed vs swiped away" are enough to diagnose it.
