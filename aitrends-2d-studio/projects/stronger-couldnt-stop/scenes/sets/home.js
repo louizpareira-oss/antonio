@@ -167,3 +167,28 @@ export function crib(g, x, GY, s = 1, o = {}) {
   return mat;
 }
 const clamp01 = (v) => Math.max(0, Math.min(1, v));
+// classroom: green chalkboard on the back wall, tall bright windows right
+export function classroom(g, t, cam, o = {}) {
+  const R = room(g, t, cam, { ...o, wall: '#e6d6b4', floor: '#9a7a5a', window: { x: E.W / 2 + 560, w: 520, h: 600, y: 820, cols: 2, rows: 2 } }), { GY, CX } = R;
+  layer(g, cam, 0.62, (g) => { rr(g, CX - 760, GY - 760, 1100, 420, 10); g.fillStyle = '#7a5a3a'; g.fill(); rr(g, CX - 740, GY - 740, 1060, 380, 6); g.fillStyle = '#2f5a48'; g.fill();
+    text(g, o.board || 'HISTORY TEST', CX - 210, GY - 640, { size: 60, color: 'rgba(240,240,230,.85)', font: FONTS.ui, weight: 900, spacing: 4 }); seg(g, [[CX - 560, GY - 590], [CX + 140, GY - 590]], 4, 'rgba(240,240,230,.5)');
+    text(g, '1492 · 1776 · 1969', CX - 210, GY - 520, { size: 40, color: 'rgba(240,240,230,.6)', font: FONTS.ui, weight: 900 }); });
+  return R;
+}
+// school desk (side view); returns top y
+export function desk(g, x, GY, s = 1) { rr(g, x - 150 * s, GY - 200 * s, 300 * s, 22 * s, 6 * s); g.fillStyle = '#c8a070'; g.fill(); seg(g, [[x - 130 * s, GY - 180 * s], [x - 130 * s, GY]], 10 * s, '#5a5a62'); seg(g, [[x + 130 * s, GY - 180 * s], [x + 130 * s, GY]], 10 * s, '#5a5a62'); return GY - 200 * s; }
+// CUTAWAY of the apartment building: two floors, your room on top, Mr. Patel's below. Returns { GY (lower floor), MID (upper floor y), CX }
+export function cutaway(g, t, cam, o = {}) {
+  const GY = GYH() + 120, MID = GY - 440, CX = E.W / 2, night = o.night ?? true;
+  layer(g, cam, 0.15, (g) => { g.fillStyle = linGrad(g, 0, -E.H, 0, E.H, night ? ['#141a3a', '#2a2c5a', '#4a3a6a'] : ['#8fb0d8', '#cfdcea']); g.fillRect(-E.W, -E.H * 2, E.W * 3, E.H * 4); if (night) FX.stars(g, t, { count: 80, area: [-E.W, -E.H, E.W * 3, E.H * 1.2] }); });
+  layer(g, cam, 1, (g) => {
+    g.fillStyle = '#6a5a6a'; g.fillRect(CX - 760, MID - 520, 1520, GY - MID + 560);                                  // building shell
+    rr(g, CX - 720, MID - 470, 1440, 420, 6); g.fillStyle = night ? '#3e4072' : '#a9c4d8'; g.fill();                   // upper room (yours)
+    rr(g, CX - 720, MID + 30, 1440, 400, 6); g.fillStyle = night ? '#7a5a52' : '#d9c3a4'; g.fill();                   // lower room (Patel's), lamp-lit
+    glow(g, CX + 380, MID + 180, 420, '#ffd28a', 0.5);
+    g.fillStyle = '#4a3a3e'; g.fillRect(CX - 760, MID - 50, 1520, 80);                                                // the floor between
+    if (o.hole) { const k = o.hole; g.fillStyle = night ? '#3e4072' : '#a9c4d8'; poly(g, [[CX - 340 * k, MID - 50], [CX + 300 * k, MID - 50], [CX + 260 * k, MID + 30], [CX - 300 * k, MID + 30]], '#7a5a52'); }
+    text(g, 'YOU', CX - 620, MID - 420, { size: 34, color: alpha('#ffffff', 0.6), font: FONTS.ui, weight: 900, spacing: 4 }); text(g, 'MR. PATEL', CX - 560, MID + 80, { size: 34, color: alpha('#ffffff', 0.6), font: FONTS.ui, weight: 900, spacing: 4 });
+  });
+  return { GY, MID, CX };
+}

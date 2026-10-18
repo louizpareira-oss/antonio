@@ -221,7 +221,8 @@ export function bodyOutline(g, x, y, s = 1, hl = {}, o = {}) {
 export function stamp(g, str, x, y, age, o = {}) {
   const { size = 64, color = GOLD(), rot = -0.12 } = o; if (age < 0) return; const k = clamp(age / 0.18), sc = lerp(2.2, 1, ease.out(k));
   g.save(); g.translate(x, y); g.rotate(rot); g.scale(sc, sc); g.globalAlpha *= k;
-  rr(g, -size * 1.0, -size * 0.7, size * 2.0, size * 1.4, 12); g.strokeStyle = color; g.lineWidth = 6; g.stroke();
+  const bw = Math.max(size * 2.0, str.length * size * 0.72 + size * 0.6);
+  rr(g, -bw / 2, -size * 0.7, bw, size * 1.4, 12); g.fillStyle = alpha('#14101c', 0.78); g.fill(); g.strokeStyle = color; g.lineWidth = 6; g.stroke();
   text(g, str, 0, 3, { size, color, font: FONTS.ui, weight: 900, glow: 16, glowColor: alpha(color, 0.6) });
   g.restore();
 }
