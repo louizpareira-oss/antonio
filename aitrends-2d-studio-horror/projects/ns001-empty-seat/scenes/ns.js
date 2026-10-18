@@ -341,7 +341,7 @@ export function redLight(g, t, p = {}) {
 export function phone(g, t, p = {}) {
   const x = E.W / 2, y = E.H / 2 + 10, w = 420, h = 820; const buzz = t > (p.at ?? 0.6) && t < (p.at ?? 0.6) + 1.2 ? Math.sin(t * 90) * 6 : 0;
   g.save(); g.translate(buzz, 0); box(g, x - w / 2, y - h / 2, w, h, 56, C.line, '#05090d', 5); box(g, x - 60, y - h / 2 + 22, 120, 26, 13, null, '#000');
-  T(g, '3:41', x, y - 230, { size: 120, color: C.white }); T(g, 'Sunday', x, y - 150, { mono: true, size: 22, color: C.grey });
+  T(g, '3:33', x, y - 230, { size: 120, color: C.white }); T(g, 'Sunday', x, y - 150, { mono: true, size: 22, color: C.grey });
   const k = ease.outBack(prog(t, p.at ?? 0.6, (p.at ?? 0.6) + 0.5));
   if (k > 0) { const ny = lerp(y - h / 2, y - 40, k); box(g, x - w / 2 + 20, ny - 70, w - 40, 150, 22, C.dim, 'rgba(20,30,40,0.97)', 2);
     box(g, x - w / 2 + 40, ny - 50, 46, 46, 10, null, C.red); T(g, '!', x - w / 2 + 63, ny - 26, { size: 36, color: C.white });
@@ -350,7 +350,7 @@ export function phone(g, t, p = {}) {
     T(g, 'in rear seat.', x - w / 2 + 40, ny + 52, { mono: true, size: 22, align: 'left', color: C.white }); }
   if (buzz) for (const sd of [-1, 1]) for (let i = 0; i < 2; i++) line(g, [[x + sd * (w / 2 + 30 + i * 22), y - 60], [x + sd * (w / 2 + 30 + i * 22), y + 60]], 4, C.line);
   g.restore();
-  if (p.noAt != null && t > p.noAt) { T(g, 'DO NOT GO BACK', x, E.H / 2 + 470, { size: 70, color: C.red, glow: 20, glowColor: alpha(C.red, 0.6), alpha: ease.out(prog(t, p.noAt, p.noAt + 0.3)) }); }
+  if (p.noAt != null && t > p.noAt) { const a = ease.out(prog(t, p.noAt, p.noAt + 0.3)); T(g, 'DO NOT', 1500, 470, { size: 96, color: C.red, glow: 20, glowColor: alpha(C.red, 0.6), alpha: a }); T(g, 'GO BACK.', 1500, 580, { size: 96, color: C.red, glow: 20, glowColor: alpha(C.red, 0.6), alpha: a }); }
 }
 
 // ---------- 11. park & walk ----------
