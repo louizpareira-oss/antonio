@@ -1,0 +1,2315 @@
+{
+ "title": "What If You Got Stronger and Couldn't Stop?",
+ "duration": 476.0,
+ "shots": [
+  {
+   "id": "s001",
+   "start": 0.0,
+   "end": 1.48,
+   "line": "Day six.",
+   "scene": "INSERT, first frame: a hand grips a phone; DAY 6 ×64 badge pops; the phone already bends",
+   "set": "insert",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/01_hook.js"
+  },
+  {
+   "id": "s002",
+   "start": 1.48,
+   "end": 2.86,
+   "line": "You pick up your phone,",
+   "scene": "MEDIUM: bright morning kitchen, you lift the phone off the table, careful face",
+   "set": "kitchen",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/01_hook.js"
+  },
+  {
+   "id": "s003",
+   "start": 2.86,
+   "end": 5.07,
+   "line": "and it folds in half.",
+   "scene": "INSERT: the phone folds like paper, glass sparks and shards; your shocked face blurred behind",
+   "set": "insert",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/01_hook.js"
+  },
+  {
+   "id": "s004",
+   "start": 5.07,
+   "end": 6.5,
+   "line": "Day seven.",
+   "scene": "WIDE: sunny street, best friend jogs up with his hand raised for a high five; DAY 7 ×128",
+   "set": "street",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/01_hook.js"
+  },
+  {
+   "id": "s005",
+   "start": 6.5,
+   "end": 8.37,
+   "line": "You high-five your best friend,",
+   "scene": "MEDIUM: palms meet, gold impact rings, a shock wave ripples the air",
+   "set": "street",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/01_hook.js"
+  },
+  {
+   "id": "s006",
+   "start": 8.37,
+   "end": 10.59,
+   "line": "and he lands in a hedge.",
+   "scene": "WIDE: the friend arcs through the air into a hedge, leaves burst; you cringe",
+   "set": "street",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/01_hook.js"
+  },
+  {
+   "id": "s007",
+   "start": 10.59,
+   "end": 11.89,
+   "line": "Day eight.",
+   "scene": "BIG FACE: your nose twitches, eyes squeeze, about to sneeze; DAY 8 ×256",
+   "set": "face",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/01_hook.js"
+  },
+  {
+   "id": "s008",
+   "start": 11.89,
+   "end": 13.0,
+   "line": "You sneeze,",
+   "scene": "WIDE kitchen: ACHOO shock wave rings blast out from your head",
+   "set": "kitchen",
+   "bars": "wide",
+   "in": {
+    "type": "flash",
+    "dur": 0.35
+   },
+   "notes": "shots/01_hook.js"
+  },
+  {
+   "id": "s009",
+   "start": 13.0,
+   "end": 15.87,
+   "line": "and every window in the kitchen cracks.",
+   "scene": "CLOSE: the kitchen windows crack into spiderwebs one after another",
+   "set": "kitchen",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/01_hook.js"
+  },
+  {
+   "id": "s010",
+   "start": 15.87,
+   "end": 16.94,
+   "line": "And tomorrow,",
+   "scene": "NIGHT bedroom: you lie awake staring at your hands, clock 11:59",
+   "set": "bedroom",
+   "bars": "wide",
+   "in": {
+    "type": "dip",
+    "dur": 0.35
+   },
+   "notes": "shots/01_hook.js"
+  },
+  {
+   "id": "s011",
+   "start": 16.94,
+   "end": 20.67,
+   "line": "you'll be twice as strong as you are today.",
+   "scene": "BIG FACE, gold light: a giant ×2 burns behind you, the badge flips ×256 → ×512",
+   "set": "face",
+   "bars": "scope",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/01_hook.js"
+  },
+  {
+   "id": "s012",
+   "start": 20.67,
+   "end": 25.62,
+   "line": "What if you got stronger... and couldn't stop?",
+   "scene": "TITLE: you stand on a rooftop at golden hour, cracks spreading from your feet; WHAT IF YOU GOT STRONGER… AND COULDN'T STOP?",
+   "set": "title",
+   "bars": "scope",
+   "in": {
+    "type": "fade",
+    "dur": 0.35
+   },
+   "notes": "shots/01_hook.js"
+  },
+  {
+   "id": "s013",
+   "start": 25.62,
+   "end": 27.55,
+   "line": "It starts on a Monday.",
+   "scene": "ESTABLISH: sunny bedroom morning, alarm clock rings, calendar MON, you sit up",
+   "set": "bedroom",
+   "bars": "wide",
+   "in": {
+    "type": "dip",
+    "dur": 0.35
+   },
+   "notes": "shots/02_math.js"
+  },
+  {
+   "id": "s014",
+   "start": 27.55,
+   "end": 30.88,
+   "line": "You wake up twice as strong as you were yesterday.",
+   "scene": "MEDIUM: you stretch and the headboard snaps; DAY 1 ×2",
+   "set": "bedroom",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/02_math.js"
+  },
+  {
+   "id": "s015",
+   "start": 30.88,
+   "end": 34.08,
+   "line": "On Tuesday, twice that again.",
+   "scene": "MEDIUM: bathroom mirror, you squeeze the toothpaste and it explodes; DAY 2 ×4",
+   "set": "bathroom",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/02_math.js"
+  },
+  {
+   "id": "s016",
+   "start": 34.08,
+   "end": 37.56,
+   "line": "Every single morning, your strength doubles.",
+   "scene": "DATA: sunrises flick past, a row of bars doubles ×2 ×4 ×8 ×16 ×32",
+   "set": "data",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/02_math.js"
+  },
+  {
+   "id": "s017",
+   "start": 37.56,
+   "end": 40.92,
+   "line": "That doesn't sound scary until you do the math.",
+   "scene": "MEDIUM: you at your desk with a notebook, 2×2×2… the number runs off the page",
+   "set": "bedroom",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/02_math.js"
+  },
+  {
+   "id": "s018",
+   "start": 40.92,
+   "end": 42.56,
+   "line": "Fold a sheet of paper in half",
+   "scene": "INSERT: hands fold a sheet of paper, fold counter 1 2 3…",
+   "set": "insert",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/02_math.js"
+  },
+  {
+   "id": "s019",
+   "start": 42.56,
+   "end": 45.92,
+   "line": "forty-two times, and it would reach the Moon.",
+   "scene": "SPACE: a paper tower rises from Earth to the Moon, 42 FOLDS ≈ 440,000 km",
+   "set": "space",
+   "bars": "none",
+   "in": {
+    "type": "zoom",
+    "dur": 0.35
+   },
+   "notes": "shots/02_math.js"
+  },
+  {
+   "id": "s020",
+   "start": 45.92,
+   "end": 48.1,
+   "line": "That's what doubling does.",
+   "scene": "DATA: the doubling curve draws on and shoots straight up",
+   "set": "data",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/02_math.js"
+  },
+  {
+   "id": "s021",
+   "start": 48.1,
+   "end": 51.91,
+   "line": "Day five, you're thirty-two times stronger.",
+   "scene": "MEDIUM: you lift the fridge with one arm; ×32",
+   "set": "kitchen",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/02_math.js"
+  },
+  {
+   "id": "s022",
+   "start": 51.91,
+   "end": 54.61,
+   "line": "Day ten, a thousand.",
+   "scene": "WIDE: you hold a car over your head; ×1,024",
+   "set": "street",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/02_math.js"
+  },
+  {
+   "id": "s023",
+   "start": 54.61,
+   "end": 57.38,
+   "line": "Day twenty, a million.",
+   "scene": "WIDE: tiny you holds up a giant ship in a harbour; ×1,048,576",
+   "set": "harbor",
+   "bars": "scope",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/02_math.js"
+  },
+  {
+   "id": "s024",
+   "start": 57.38,
+   "end": 59.35,
+   "line": "And it's not just your muscles.",
+   "scene": "BLUEPRINT: your body outline, muscles light up gold",
+   "set": "blueprint",
+   "bars": "none",
+   "in": {
+    "type": "zoom",
+    "dur": 0.35
+   },
+   "notes": "shots/02_math.js"
+  },
+  {
+   "id": "s025",
+   "start": 59.35,
+   "end": 62.58,
+   "line": "Your bones, your tendons, your skin,",
+   "scene": "BLUEPRINT: bones, tendons, skin light up one by one with labels",
+   "set": "blueprint",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/02_math.js"
+  },
+  {
+   "id": "s026",
+   "start": 62.58,
+   "end": 64.52,
+   "line": "they all double too.",
+   "scene": "BLUEPRINT: ×2 stamps land on bones, tendons and skin",
+   "set": "blueprint",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/02_math.js"
+  },
+  {
+   "id": "s027",
+   "start": 64.52,
+   "end": 66.96,
+   "line": "Everything about you gets stronger.",
+   "scene": "BIG FACE: determined, gold rim light",
+   "set": "face",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/02_math.js"
+  },
+  {
+   "id": "s028",
+   "start": 66.96,
+   "end": 70.15,
+   "line": "Everything around you stays the same.",
+   "scene": "WIDE: the street turns glassy — every object shows thin crack lines, only you are solid",
+   "set": "street",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/02_math.js"
+  },
+  {
+   "id": "s029",
+   "start": 70.15,
+   "end": 73.38,
+   "line": "At first, it's the best week of your life.",
+   "scene": "WIDE: sunny street, you walk with a big grin, gold + icon",
+   "set": "street",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/03_bestweek.js"
+  },
+  {
+   "id": "s030",
+   "start": 73.38,
+   "end": 77.73,
+   "line": "Day one, you carry every grocery bag in one trip.",
+   "scene": "MEDIUM: you carry a mountain of grocery bags in one trip, mom amazed; DAY 1",
+   "set": "street",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/03_bestweek.js"
+  },
+  {
+   "id": "s031",
+   "start": 77.73,
+   "end": 80.0,
+   "line": "Day two, you open the pickle jar",
+   "scene": "INSERT: the pickle jar lid pops off with one finger flick; DAY 2",
+   "set": "insert",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/03_bestweek.js"
+  },
+  {
+   "id": "s032",
+   "start": 80.0,
+   "end": 81.84,
+   "line": "your dad gave up on.",
+   "scene": "BIG FACE: dad (yellow cap), red-faced, jaw dropped",
+   "set": "face",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/03_bestweek.js"
+  },
+  {
+   "id": "s033",
+   "start": 81.84,
+   "end": 85.02,
+   "line": "Day three, you move the couch with one hand,",
+   "scene": "WIDE living room: you hold the couch over your head with one hand; DAY 3",
+   "set": "living",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/03_bestweek.js"
+  },
+  {
+   "id": "s034",
+   "start": 85.02,
+   "end": 88.58,
+   "line": "and your mom finds the remote she lost two years ago.",
+   "scene": "MEDIUM: mom pulls a dusty remote from under the couch spot, joy; LOST: 2 YEARS",
+   "set": "living",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/03_bestweek.js"
+  },
+  {
+   "id": "s035",
+   "start": 88.58,
+   "end": 91.68,
+   "line": "Day four, you do one push-up...",
+   "scene": "SIDE: you in push-up position on the rug; DAY 4",
+   "set": "living",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/03_bestweek.js"
+  },
+  {
+   "id": "s036",
+   "start": 91.68,
+   "end": 93.93,
+   "line": "and you hit the ceiling.",
+   "scene": "WIDE: you launch up and slam into the ceiling, plaster rains down",
+   "set": "living",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/03_bestweek.js"
+  },
+  {
+   "id": "s037",
+   "start": 93.93,
+   "end": 96.2,
+   "line": "Then it stops being fun.",
+   "scene": "MEDIUM: you lie in plaster dust under the hole, grey − icon, cooler light",
+   "set": "living",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/04_notfun.js"
+  },
+  {
+   "id": "s038",
+   "start": 96.2,
+   "end": 99.86,
+   "line": "Day five, pencils snap in your fingers.",
+   "scene": "INSERT: a pencil snaps in your fingers, a pile of broken pencils; DAY 5",
+   "set": "insert",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/04_notfun.js"
+  },
+  {
+   "id": "s039",
+   "start": 99.86,
+   "end": 102.59,
+   "line": "You write your history test with a crayon.",
+   "scene": "MEDIUM classroom: you write a HISTORY TEST with a fat crayon, teacher frowns",
+   "set": "classroom",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/04_notfun.js"
+  },
+  {
+   "id": "s040",
+   "start": 102.59,
+   "end": 105.92,
+   "line": "Day six, your phone folds in half.",
+   "scene": "INSERT: the phone folds again (callback); DAY 6",
+   "set": "insert",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/04_notfun.js"
+  },
+  {
+   "id": "s041",
+   "start": 105.92,
+   "end": 107.39,
+   "line": "You buy a new one.",
+   "scene": "MEDIUM phone shop: a clerk hands you a new phone box",
+   "set": "store",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/04_notfun.js"
+  },
+  {
+   "id": "s042",
+   "start": 107.39,
+   "end": 109.13,
+   "line": "It folds too.",
+   "scene": "INSERT: the new phone folds; your deadpan face behind",
+   "set": "insert",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/04_notfun.js"
+  },
+  {
+   "id": "s043",
+   "start": 109.13,
+   "end": 112.74,
+   "line": "Day seven, door handles come off in your hand.",
+   "scene": "INSERT: a door handle rips off with its screws; a box full of handles; DAY 7",
+   "set": "hall",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/04_notfun.js"
+  },
+  {
+   "id": "s044",
+   "start": 112.74,
+   "end": 115.5,
+   "line": "Your mom stops locking the bathroom.",
+   "scene": "MEDIUM hallway: bathroom door with a hole and a KNOCK FIRST sign, mom shrugs",
+   "set": "hall",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/04_notfun.js"
+  },
+  {
+   "id": "s045",
+   "start": 115.5,
+   "end": 118.54,
+   "line": "Here's what nobody tells you about super strength.",
+   "scene": "BIG FACE: you look straight at us, serious, darker light",
+   "set": "face",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/04_notfun.js"
+  },
+  {
+   "id": "s046",
+   "start": 118.54,
+   "end": 120.97,
+   "line": "Strength isn't how hard you push.",
+   "scene": "BLUEPRINT: an arm pushes a box, small force arrow",
+   "set": "blueprint",
+   "bars": "none",
+   "in": {
+    "type": "zoom",
+    "dur": 0.35
+   },
+   "notes": "shots/04_notfun.js"
+  },
+  {
+   "id": "s047",
+   "start": 120.97,
+   "end": 123.23,
+   "line": "It's how hard you could push.",
+   "scene": "BLUEPRINT: a giant ghost arrow of possible force, ×128, red warning",
+   "set": "blueprint",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/04_notfun.js"
+  },
+  {
+   "id": "s048",
+   "start": 123.23,
+   "end": 126.07,
+   "line": "And your body doesn't always ask permission.",
+   "scene": "BIG FACE: nervous, reflex twitch lines",
+   "set": "face",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/04_notfun.js"
+  },
+  {
+   "id": "s049",
+   "start": 126.07,
+   "end": 127.06,
+   "line": "A sneeze.",
+   "scene": "QUICK: a sneeze blasts papers off every desk",
+   "set": "classroom",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/04_notfun.js"
+  },
+  {
+   "id": "s050",
+   "start": 127.06,
+   "end": 128.01,
+   "line": "A flinch.",
+   "scene": "QUICK: a spider drops, you flinch and your fist goes through the wall",
+   "set": "hall",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/04_notfun.js"
+  },
+  {
+   "id": "s051",
+   "start": 128.01,
+   "end": 129.79,
+   "line": "A bad dream.",
+   "scene": "QUICK: asleep, twitching, the bed cracks under you",
+   "set": "bedroom",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/04_notfun.js"
+  },
+  {
+   "id": "s052",
+   "start": 129.79,
+   "end": 132.5,
+   "line": "Day eight, you have a nightmare...",
+   "scene": "NIGHT bedroom: you thrash in your sleep; DAY 8",
+   "set": "bedroom",
+   "bars": "wide",
+   "in": {
+    "type": "dip",
+    "dur": 0.35
+   },
+   "notes": "shots/04_notfun.js"
+  },
+  {
+   "id": "s053",
+   "start": 132.5,
+   "end": 135.36,
+   "line": "and you wake up in the apartment below yours.",
+   "scene": "CUTAWAY of the building: your bed crashes through the floor into the flat below",
+   "set": "cutaway",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/04_notfun.js"
+  },
+  {
+   "id": "s054",
+   "start": 135.36,
+   "end": 137.95,
+   "line": "Mr. Patel is very calm about it.",
+   "scene": "MEDIUM: Mr. Patel in his armchair, calm, in the dust, TV on",
+   "set": "patel",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/04_notfun.js"
+  },
+  {
+   "id": "s055",
+   "start": 137.95,
+   "end": 139.93,
+   "line": "He hands you a cup of tea.",
+   "scene": "TWO-SHOT: Patel hands you a teacup as you sit in the rubble in your bed",
+   "set": "patel",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/04_notfun.js"
+  },
+  {
+   "id": "s056",
+   "start": 139.93,
+   "end": 142.05,
+   "line": "It explodes.",
+   "scene": "FREEZE insert: the cup bursts in your hand, tea droplets hang in the air",
+   "set": "patel",
+   "bars": "scope",
+   "in": {
+    "type": "flash",
+    "dur": 0.35
+   },
+   "notes": "shots/04_notfun.js"
+  },
+  {
+   "id": "s057",
+   "start": 142.05,
+   "end": 145.64,
+   "line": "By day nine, a video of you lifting a car off a cyclist",
+   "scene": "PHONE UI: a video of you lifting a car off a cyclist plays",
+   "set": "phoneui",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/05_famous.js"
+  },
+  {
+   "id": "s058",
+   "start": 145.64,
+   "end": 148.3,
+   "line": "has two hundred million views.",
+   "scene": "PHONE UI: the view counter rolls up to 200,000,000",
+   "set": "phoneui",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/05_famous.js"
+  },
+  {
+   "id": "s059",
+   "start": 148.3,
+   "end": 150.54,
+   "line": "Every football league bans you.",
+   "scene": "STADIUM: your kick blasts the ball through the net; BANNED stamp",
+   "set": "pitch",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/05_famous.js"
+  },
+  {
+   "id": "s060",
+   "start": 150.54,
+   "end": 152.3,
+   "line": "Every gym, too.",
+   "scene": "GYM: a barbell bent into a U; BANNED sign on the door",
+   "set": "gym",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/05_famous.js"
+  },
+  {
+   "id": "s061",
+   "start": 152.3,
+   "end": 155.96,
+   "line": "A construction company offers you a million dollars a day.",
+   "scene": "OFFICE: a boss in a hard hat holds a contract $1,000,000 / DAY",
+   "set": "office",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/05_famous.js"
+  },
+  {
+   "id": "s062",
+   "start": 155.96,
+   "end": 158.75,
+   "line": "An army general offers you a lot more.",
+   "scene": "OFFICE: a general slides over a blank check, $ ? ? ?",
+   "set": "office",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/05_famous.js"
+  },
+  {
+   "id": "s063",
+   "start": 158.75,
+   "end": 161.15,
+   "line": "You could build a house in an afternoon.",
+   "scene": "TIMELAPSE: a house frame shoots up as you carry beams; the sun races across the sky",
+   "set": "build",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/05_famous.js"
+  },
+  {
+   "id": "s064",
+   "start": 161.15,
+   "end": 162.68,
+   "line": "Pull a ship into port.",
+   "scene": "HARBOUR: you haul a giant ship to the dock with a rope",
+   "set": "harbor",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/05_famous.js"
+  },
+  {
+   "id": "s065",
+   "start": 162.68,
+   "end": 165.09,
+   "line": "Stop a train with one hand.",
+   "scene": "RAIL: one hand out, the train's nose crumples to a stop, sparks",
+   "set": "rail",
+   "bars": "scope",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/05_famous.js"
+  },
+  {
+   "id": "s066",
+   "start": 165.09,
+   "end": 167.32,
+   "line": "But you can't hold a pencil.",
+   "scene": "INSERT: a pencil snaps again",
+   "set": "insert",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/05_famous.js"
+  },
+  {
+   "id": "s067",
+   "start": 167.32,
+   "end": 171.18,
+   "line": "And there's one thing you want more than all of it.",
+   "scene": "DOORWAY: you look into a new nursery, an empty crib in soft light",
+   "set": "nursery",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/05_famous.js"
+  },
+  {
+   "id": "s068",
+   "start": 171.18,
+   "end": 172.89,
+   "line": "Your baby sister, Lily,",
+   "scene": "ESTABLISH: hospital at night, lit windows",
+   "set": "hospital",
+   "bars": "wide",
+   "in": {
+    "type": "dip",
+    "dur": 0.35
+   },
+   "notes": "shots/06_lily.js"
+  },
+  {
+   "id": "s069",
+   "start": 172.89,
+   "end": 174.98,
+   "line": "is born on day nine.",
+   "scene": "INSERT: newborn in a pink blanket, name card LILY; DAY 9",
+   "set": "hospital",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/06_lily.js"
+  },
+  {
+   "id": "s070",
+   "start": 174.98,
+   "end": 177.75,
+   "line": "Your dad drives everyone to the hospital.",
+   "scene": "NIGHT road: the family car drives past, dad at the wheel",
+   "set": "road",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/06_lily.js"
+  },
+  {
+   "id": "s071",
+   "start": 177.75,
+   "end": 178.91,
+   "line": "You follow on foot,",
+   "scene": "NIGHT road: you jog behind the car on the sidewalk",
+   "set": "road",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/06_lily.js"
+  },
+  {
+   "id": "s072",
+   "start": 178.91,
+   "end": 182.86,
+   "line": "because the last time you closed a car door, it came off.",
+   "scene": "FLASHBACK: you shut a car door and it comes off in your hand, dad's face",
+   "set": "street",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/06_lily.js"
+  },
+  {
+   "id": "s073",
+   "start": 182.86,
+   "end": 184.72,
+   "line": "Your dad is a mechanic.",
+   "scene": "GARAGE: dad (yellow cap) working on an engine, warm work lamp",
+   "set": "garage",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/06_lily.js"
+  },
+  {
+   "id": "s074",
+   "start": 184.72,
+   "end": 185.91,
+   "line": "Big hands.",
+   "scene": "INSERT: dad's big hands around a wrench",
+   "set": "insert",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/06_lily.js"
+  },
+  {
+   "id": "s075",
+   "start": 185.91,
+   "end": 187.72,
+   "line": "Oil on everything.",
+   "scene": "INSERT: an oily rag wipes his hands, oil drips",
+   "set": "garage",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/06_lily.js"
+  },
+  {
+   "id": "s076",
+   "start": 187.72,
+   "end": 193.11,
+   "line": "When you were six, you tried to beat him at arm wrestling every single night.",
+   "scene": "FLASHBACK warm night kitchen: little you arm-wrestles dad; AGE 6",
+   "set": "kitchen",
+   "bars": "wide",
+   "in": {
+    "type": "dip",
+    "dur": 0.35
+   },
+   "notes": "shots/06_lily.js"
+  },
+  {
+   "id": "s077",
+   "start": 193.11,
+   "end": 194.83,
+   "line": "You never won.",
+   "scene": "CLOSE: dad gently lays your little hand down, grinning",
+   "set": "kitchen",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/06_lily.js"
+  },
+  {
+   "id": "s078",
+   "start": 194.83,
+   "end": 196.5,
+   "line": "Not once.",
+   "scene": "INSERT: tally chalkboard DAD |||| … YOU 0",
+   "set": "kitchen",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/06_lily.js"
+  },
+  {
+   "id": "s079",
+   "start": 196.5,
+   "end": 199.71,
+   "line": "And every night, he said the same thing.",
+   "scene": "MEDIUM: dad leans in over the table, warm",
+   "set": "kitchen",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/06_lily.js"
+  },
+  {
+   "id": "s080",
+   "start": 199.71,
+   "end": 204.42,
+   "line": "\"Strong is easy, kiddo. Gentle is hard.\"",
+   "scene": "BIG FACE: dad speaks, warm lamp light",
+   "set": "face",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/06_lily.js"
+  },
+  {
+   "id": "s081",
+   "start": 204.42,
+   "end": 208.94,
+   "line": "At the hospital, everyone takes turns holding Lily.",
+   "scene": "HOSPITAL ROOM: family around the bed, baby passed around",
+   "set": "hospital",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/06_lily.js"
+  },
+  {
+   "id": "s082",
+   "start": 208.94,
+   "end": 210.2,
+   "line": "Your mom.",
+   "scene": "MEDIUM: mom holds Lily",
+   "set": "hospital",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/06_lily.js"
+  },
+  {
+   "id": "s083",
+   "start": 210.2,
+   "end": 211.55,
+   "line": "Your dad.",
+   "scene": "MEDIUM: dad holds Lily in his big hands",
+   "set": "hospital",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/06_lily.js"
+  },
+  {
+   "id": "s084",
+   "start": 211.55,
+   "end": 213.01,
+   "line": "Grandma.",
+   "scene": "MEDIUM: grandma holds Lily",
+   "set": "hospital",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/06_lily.js"
+  },
+  {
+   "id": "s085",
+   "start": 213.01,
+   "end": 215.89,
+   "line": "Even the nurse who's scared of you.",
+   "scene": "MEDIUM: the nurse holds Lily, glances nervously at you",
+   "set": "hospital",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/06_lily.js"
+  },
+  {
+   "id": "s086",
+   "start": 215.89,
+   "end": 219.28,
+   "line": "You stand in the doorway with your hands in your pockets.",
+   "scene": "WIDE: you in the doorway, hands in pockets, the warm room beyond",
+   "set": "hospital",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/06_lily.js"
+  },
+  {
+   "id": "s087",
+   "start": 219.28,
+   "end": 222.86,
+   "line": "Because today, you're five hundred times stronger",
+   "scene": "BIG FACE: sad, looking down at your hidden hands",
+   "set": "face",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/06_lily.js"
+  },
+  {
+   "id": "s088",
+   "start": 222.86,
+   "end": 224.97,
+   "line": "than you were last week.",
+   "scene": "DATA: compare bars LAST WEEK ×4 vs TODAY ×512",
+   "set": "data",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/06_lily.js"
+  },
+  {
+   "id": "s089",
+   "start": 224.97,
+   "end": 229.16,
+   "line": "One flinch, and you could crush her.",
+   "scene": "INSERT: your huge fist hovers near Lily's tiny hand, red danger glow",
+   "set": "insert",
+   "bars": "scope",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/06_lily.js"
+  },
+  {
+   "id": "s090",
+   "start": 229.16,
+   "end": 233.32,
+   "line": "That night, a black van parks outside your building.",
+   "scene": "NIGHT street: a black van rolls up outside your building, headlights",
+   "set": "street",
+   "bars": "wide",
+   "in": {
+    "type": "dip",
+    "dur": 0.35
+   },
+   "notes": "shots/07_atlas.js"
+  },
+  {
+   "id": "s091",
+   "start": 233.32,
+   "end": 236.42,
+   "line": "Inside is a woman in a white coat.",
+   "scene": "VAN DOOR: slides open, Dr. Voss in a white coat, cold light",
+   "set": "street",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/07_atlas.js"
+  },
+  {
+   "id": "s092",
+   "start": 236.42,
+   "end": 239.76,
+   "line": "Her badge says Project Atlas.",
+   "scene": "INSERT: badge PROJECT ATLAS with logo",
+   "set": "insert",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/07_atlas.js"
+  },
+  {
+   "id": "s093",
+   "start": 239.76,
+   "end": 243.05,
+   "line": "\"We can't stop the doubling. Nobody can.",
+   "scene": "BIG FACE: Dr. Voss speaks, cool blue light",
+   "set": "face",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/07_atlas.js"
+  },
+  {
+   "id": "s094",
+   "start": 243.05,
+   "end": 245.71,
+   "line": "But we can teach you control.\"",
+   "scene": "TWO-SHOT: Voss offers her hand at the van door, you on the steps",
+   "set": "street",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/07_atlas.js"
+  },
+  {
+   "id": "s095",
+   "start": 245.71,
+   "end": 247.52,
+   "line": "So you go with them.",
+   "scene": "WIDE: you climb into the van, door slides shut",
+   "set": "street",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/07_atlas.js"
+  },
+  {
+   "id": "s096",
+   "start": 247.52,
+   "end": 249.45,
+   "line": "Not because you want to.",
+   "scene": "BIG FACE: in the van window, looking back at home",
+   "set": "face",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/07_atlas.js"
+  },
+  {
+   "id": "s097",
+   "start": 249.45,
+   "end": 253.9,
+   "line": "Because Lily sleeps on the other side of your bedroom wall.",
+   "scene": "CUTAWAY: your bedroom and Lily's nursery, one thin wall between; crack near your bed",
+   "set": "cutaway",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/07_atlas.js"
+  },
+  {
+   "id": "s098",
+   "start": 253.9,
+   "end": 256.31,
+   "line": "Atlas puts you in a steel room,",
+   "scene": "ESTABLISH: a mountain at dusk, a lit tunnel entrance",
+   "set": "mountain",
+   "bars": "scope",
+   "in": {
+    "type": "dip",
+    "dur": 0.35
+   },
+   "notes": "shots/07_atlas.js"
+  },
+  {
+   "id": "s099",
+   "start": 256.31,
+   "end": 258.35,
+   "line": "deep inside a mountain.",
+   "scene": "STEEL ROOM: cold steel walls, a table under a spotlight",
+   "set": "steel",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/07_atlas.js"
+  },
+  {
+   "id": "s100",
+   "start": 258.35,
+   "end": 261.26,
+   "line": "On the table, there's a box of eggs.",
+   "scene": "MEDIUM: you sit at the table, an egg carton under the light",
+   "set": "steel",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/07_atlas.js"
+  },
+  {
+   "id": "s101",
+   "start": 261.26,
+   "end": 262.99,
+   "line": "The test is simple.",
+   "scene": "OTS: Dr. Voss behind the glass with a clipboard",
+   "set": "steel",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/07_atlas.js"
+  },
+  {
+   "id": "s102",
+   "start": 262.99,
+   "end": 264.36,
+   "line": "Pick one up.",
+   "scene": "INSERT: your hand reaches for an egg",
+   "set": "insert",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/07_atlas.js"
+  },
+  {
+   "id": "s103",
+   "start": 264.36,
+   "end": 266.13,
+   "line": "Don't break it.",
+   "scene": "INSERT: fingers close around the egg; DON'T BREAK IT",
+   "set": "insert",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/07_atlas.js"
+  },
+  {
+   "id": "s104",
+   "start": 266.13,
+   "end": 268.0,
+   "line": "You break the first one.",
+   "scene": "INSERT: SPLAT, the egg explodes",
+   "set": "insert",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/07_atlas.js"
+  },
+  {
+   "id": "s105",
+   "start": 268.0,
+   "end": 269.7,
+   "line": "And the second.",
+   "scene": "INSERT: SPLAT again",
+   "set": "insert",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/07_atlas.js"
+  },
+  {
+   "id": "s106",
+   "start": 269.7,
+   "end": 274.27,
+   "line": "By the end of day ten, you've broken four hundred and twelve eggs.",
+   "scene": "WIDE: shells everywhere; EGGS BROKEN counter rolls to 412",
+   "set": "steel",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/07_atlas.js"
+  },
+  {
+   "id": "s107",
+   "start": 274.27,
+   "end": 275.86,
+   "line": "Here's the problem.",
+   "scene": "BIG FACE: yolk on your face, frustrated",
+   "set": "face",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/07_atlas.js"
+  },
+  {
+   "id": "s108",
+   "start": 275.86,
+   "end": 278.79,
+   "line": "Every morning, you're twice as strong.",
+   "scene": "DATA: sunrise, badge flips ×1,024 → ×2,048",
+   "set": "data",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/07_atlas.js"
+  },
+  {
+   "id": "s109",
+   "start": 278.79,
+   "end": 282.35,
+   "line": "So every morning, you have to be twice as careful.",
+   "scene": "DATA: two meters — STRENGTH ×2 and CAREFUL ×2",
+   "set": "data",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/07_atlas.js"
+  },
+  {
+   "id": "s110",
+   "start": 282.35,
+   "end": 284.1,
+   "line": "Twice as slow.",
+   "scene": "INSERT: your hand creeps toward the egg in slow motion",
+   "set": "insert",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/07_atlas.js"
+  },
+  {
+   "id": "s111",
+   "start": 284.1,
+   "end": 285.95,
+   "line": "Twice as gentle.",
+   "scene": "INSERT: a feather balanced on your fingertip",
+   "set": "insert",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/07_atlas.js"
+  },
+  {
+   "id": "s112",
+   "start": 285.95,
+   "end": 288.33,
+   "line": "Just to stay where you are.",
+   "scene": "METAPHOR: you run on a speeding treadmill labelled ×2 / DAY and stay in place",
+   "set": "steel",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/07_atlas.js"
+  },
+  {
+   "id": "s113",
+   "start": 288.33,
+   "end": 291.48,
+   "line": "Day eleven, you break ninety eggs.",
+   "scene": "MEDIUM: a smaller pile of shells; DAY 11 · 90",
+   "set": "steel",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/07_atlas.js"
+  },
+  {
+   "id": "s114",
+   "start": 291.48,
+   "end": 294.41,
+   "line": "Day twelve, nine.",
+   "scene": "MEDIUM: only a few shells; DAY 12 · 9",
+   "set": "steel",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/07_atlas.js"
+  },
+  {
+   "id": "s115",
+   "start": 294.41,
+   "end": 297.54,
+   "line": "Day thirteen, you pick one up...",
+   "scene": "CLOSE: your hand lifts an egg, slow, tense; DAY 13",
+   "set": "insert",
+   "bars": "scope",
+   "in": {
+    "type": "dip",
+    "dur": 0.35
+   },
+   "notes": "shots/07_atlas.js"
+  },
+  {
+   "id": "s116",
+   "start": 297.54,
+   "end": 299.08,
+   "line": "and you hold it.",
+   "scene": "INSERT: the egg rests whole in your palm",
+   "set": "insert",
+   "bars": "scope",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/07_atlas.js"
+  },
+  {
+   "id": "s117",
+   "start": 299.08,
+   "end": 301.32,
+   "line": "For one whole minute.",
+   "scene": "CLOCK sweeps 0:00 → 1:00, Voss raises her eyebrows behind the glass",
+   "set": "steel",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/07_atlas.js"
+  },
+  {
+   "id": "s118",
+   "start": 301.32,
+   "end": 305.35,
+   "line": "It's the hardest thing you've ever done.",
+   "scene": "BIG FACE: sweat, a small relieved smile, the egg between your fingers",
+   "set": "face",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/07_atlas.js"
+  },
+  {
+   "id": "s119",
+   "start": 305.35,
+   "end": 307.2,
+   "line": "Then the phone rings.",
+   "scene": "STEEL ROOM: the wall phone flashes red and rings",
+   "set": "steel",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/08_quake.js"
+  },
+  {
+   "id": "s120",
+   "start": 307.2,
+   "end": 309.28,
+   "line": "An earthquake has hit your city.",
+   "scene": "CITY at night: buildings shake, dust clouds, EARTHQUAKE ticker",
+   "set": "city",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/08_quake.js"
+  },
+  {
+   "id": "s121",
+   "start": 309.28,
+   "end": 310.99,
+   "line": "Your building is down.",
+   "scene": "WIDE: your apartment building collapsed, firefighters' lights",
+   "set": "rubble",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/08_quake.js"
+  },
+  {
+   "id": "s122",
+   "start": 310.99,
+   "end": 312.88,
+   "line": "Your mom and dad got out.",
+   "scene": "MEDIUM: mom and dad in blankets by an ambulance, mom crying",
+   "set": "rubble",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/08_quake.js"
+  },
+  {
+   "id": "s123",
+   "start": 312.88,
+   "end": 314.36,
+   "line": "Lily didn't.",
+   "scene": "CLOSE: a crib mobile hangs in the rubble, dust falling",
+   "set": "rubble",
+   "bars": "scope",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/08_quake.js"
+  },
+  {
+   "id": "s124",
+   "start": 314.36,
+   "end": 316.37,
+   "line": "You're there in four minutes.",
+   "scene": "ACTION: you leap over cars in huge bounds, speed lines, 4:00 timer",
+   "set": "road",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/08_quake.js"
+  },
+  {
+   "id": "s125",
+   "start": 316.37,
+   "end": 318.13,
+   "line": "You didn't wait for the van.",
+   "scene": "MOUNTAIN gate: the van still parked, Voss shouting after you",
+   "set": "mountain",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/08_quake.js"
+  },
+  {
+   "id": "s126",
+   "start": 318.13,
+   "end": 319.58,
+   "line": "You ran.",
+   "scene": "IMPACT: you land, the asphalt cracks in a ring",
+   "set": "rubble",
+   "bars": "scope",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/08_quake.js"
+  },
+  {
+   "id": "s127",
+   "start": 319.58,
+   "end": 324.24,
+   "line": "The firefighters say the slab on top of her room weighs four hundred tonnes.",
+   "scene": "WIDE: a firefighter points at a huge concrete slab; 400 TONNES",
+   "set": "rubble",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/08_quake.js"
+  },
+  {
+   "id": "s128",
+   "start": 324.24,
+   "end": 325.78,
+   "line": "They need a crane.",
+   "scene": "MEDIUM: firefighter on the radio; CRANE NEEDED",
+   "set": "rubble",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/08_quake.js"
+  },
+  {
+   "id": "s129",
+   "start": 325.78,
+   "end": 328.11,
+   "line": "The crane is two hours away.",
+   "scene": "MAP: a crane icon far away, route line, 2 HOURS",
+   "set": "data",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/08_quake.js"
+  },
+  {
+   "id": "s130",
+   "start": 328.11,
+   "end": 329.9,
+   "line": "You don't need a crane.",
+   "scene": "BIG FACE: determined, gold eyes, dust in the air",
+   "set": "face",
+   "bars": "scope",
+   "in": {
+    "type": "flash",
+    "dur": 0.35
+   },
+   "notes": "shots/08_quake.js"
+  },
+  {
+   "id": "s131",
+   "start": 329.9,
+   "end": 333.78,
+   "line": "You lift four hundred tonnes of concrete with your left hand.",
+   "scene": "WIDE: you lift the slab with your left hand, ground cracking, firefighters in awe",
+   "set": "rubble",
+   "bars": "scope",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/08_quake.js"
+  },
+  {
+   "id": "s132",
+   "start": 333.78,
+   "end": 337.49,
+   "line": "And with your right hand, you reach into the dark...",
+   "scene": "DARK GAP: your right hand reaches into the dark, a torch beam finds the crib",
+   "set": "rubble",
+   "bars": "scope",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/08_quake.js"
+  },
+  {
+   "id": "s133",
+   "start": 337.49,
+   "end": 339.47,
+   "line": "and pick up your sister.",
+   "scene": "CLOSE: your hand lifts Lily in her pink blanket",
+   "set": "rubble",
+   "bars": "scope",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/08_quake.js"
+  },
+  {
+   "id": "s134",
+   "start": 339.47,
+   "end": 340.99,
+   "line": "Like an egg.",
+   "scene": "MATCH CUT: the egg in your palm becomes Lily in your palm",
+   "set": "insert",
+   "bars": "scope",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/08_quake.js"
+  },
+  {
+   "id": "s135",
+   "start": 340.99,
+   "end": 343.74,
+   "line": "She grabs your finger and squeezes.",
+   "scene": "INSERT: Lily's tiny hand wraps around your finger",
+   "set": "insert",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/08_quake.js"
+  },
+  {
+   "id": "s136",
+   "start": 343.74,
+   "end": 348.39,
+   "line": "For the first time in thirteen days, something squeezes back.",
+   "scene": "BIG FACE: tears, a smile, warm light",
+   "set": "face",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/08_quake.js"
+  },
+  {
+   "id": "s137",
+   "start": 348.39,
+   "end": 350.23,
+   "line": "Your dad is crying.",
+   "scene": "BIG FACE: dad crying",
+   "set": "face",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/08_quake.js"
+  },
+  {
+   "id": "s138",
+   "start": 350.23,
+   "end": 353.01,
+   "line": "He puts his big hand on your shoulder.",
+   "scene": "TWO-SHOT: dad's big hand on your shoulder, Lily in your arm",
+   "set": "rubble",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/08_quake.js"
+  },
+  {
+   "id": "s139",
+   "start": 353.01,
+   "end": 358.05,
+   "line": "\"Strong is easy, kiddo. Gentle is hard.\"",
+   "scene": "BIG FACE: dad speaks, crying and proud",
+   "set": "face",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/08_quake.js"
+  },
+  {
+   "id": "s140",
+   "start": 358.05,
+   "end": 362.73,
+   "line": "And for the first time in your life, you beat him.",
+   "scene": "MEDIUM: you and dad smile; the tally board flashes YOU 1",
+   "set": "rubble",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/08_quake.js"
+  },
+  {
+   "id": "s141",
+   "start": 362.73,
+   "end": 366.06,
+   "line": "But tomorrow, you'll be twice as strong.",
+   "scene": "DATA: badge ×8,192 → ×16,384, your hands",
+   "set": "data",
+   "bars": "none",
+   "in": {
+    "type": "dip",
+    "dur": 0.35
+   },
+   "notes": "shots/09_mountain.js"
+  },
+  {
+   "id": "s142",
+   "start": 366.06,
+   "end": 369.31,
+   "line": "And the day after that, twice again.",
+   "scene": "DATA: ×32,768 …",
+   "set": "data",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/09_mountain.js"
+  },
+  {
+   "id": "s143",
+   "start": 369.31,
+   "end": 371.71,
+   "line": "So you give Lily back to your mom.",
+   "scene": "MEDIUM dawn: you hand Lily to mom, gently",
+   "set": "rubble",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/09_mountain.js"
+  },
+  {
+   "id": "s144",
+   "start": 371.71,
+   "end": 373.94,
+   "line": "And you walk back to the mountain.",
+   "scene": "WIDE dawn: you walk alone down the road toward the mountain",
+   "set": "mountain",
+   "bars": "scope",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/09_mountain.js"
+  },
+  {
+   "id": "s145",
+   "start": 373.94,
+   "end": 376.87,
+   "line": "You live in a steel room you can't break.",
+   "scene": "STEEL ROOM: you sit on a steel bed",
+   "set": "steel",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/09_mountain.js"
+  },
+  {
+   "id": "s146",
+   "start": 376.87,
+   "end": 378.33,
+   "line": "Yet.",
+   "scene": "INSERT: a hairline crack creeps across the steel wall",
+   "set": "insert",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/09_mountain.js"
+  },
+  {
+   "id": "s147",
+   "start": 378.33,
+   "end": 380.87,
+   "line": "Your family visits every Sunday.",
+   "scene": "VISIT ROOM: mom, dad and Lily behind thick glass; SUN",
+   "set": "visit",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/09_mountain.js"
+  },
+  {
+   "id": "s148",
+   "start": 380.87,
+   "end": 383.62,
+   "line": "You wave through the glass.",
+   "scene": "CLOSE: your palm on the glass, Lily's tiny palm on the other side",
+   "set": "visit",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/09_mountain.js"
+  },
+  {
+   "id": "s149",
+   "start": 383.62,
+   "end": 386.31,
+   "line": "So, is any of this real?",
+   "scene": "BLUEPRINT: IS ANY OF THIS REAL?",
+   "set": "blueprint",
+   "bars": "none",
+   "in": {
+    "type": "zoom",
+    "dur": 0.35
+   },
+   "notes": "shots/10_science.js"
+  },
+  {
+   "id": "s150",
+   "start": 386.31,
+   "end": 387.73,
+   "line": "Not the doubling.",
+   "scene": "BLUEPRINT: the doubling curve gets crossed out",
+   "set": "blueprint",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/10_science.js"
+  },
+  {
+   "id": "s151",
+   "start": 387.73,
+   "end": 390.49,
+   "line": "But your body really does have brakes.",
+   "scene": "BLUEPRINT: body outline with brake icons at the muscles",
+   "set": "blueprint",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/10_science.js"
+  },
+  {
+   "id": "s152",
+   "start": 390.49,
+   "end": 393.51,
+   "line": "One of them is a protein called myostatin.",
+   "scene": "BLUEPRINT: a protein blob labelled MYOSTATIN",
+   "set": "blueprint",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/10_science.js"
+  },
+  {
+   "id": "s153",
+   "start": 393.51,
+   "end": 396.4,
+   "line": "It tells your muscles when to stop growing.",
+   "scene": "BLUEPRINT: a muscle fibre grows and hits a STOP sign",
+   "set": "blueprint",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/10_science.js"
+  },
+  {
+   "id": "s154",
+   "start": 396.4,
+   "end": 399.11,
+   "line": "Some animals are born without that brake.",
+   "scene": "BLUEPRINT: animal outlines, the brake missing",
+   "set": "blueprint",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/10_science.js"
+  },
+  {
+   "id": "s155",
+   "start": 399.11,
+   "end": 402.1,
+   "line": "Belgian Blue cattle look like bodybuilders.",
+   "scene": "BLUEPRINT: a bulky Belgian Blue bull; REAL",
+   "set": "blueprint",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/10_science.js"
+  },
+  {
+   "id": "s156",
+   "start": 402.1,
+   "end": 407.85,
+   "line": "And in two thousand four, doctors in Germany described a baby boy with the same mutation.",
+   "scene": "FACT CARD: 2004 · GERMANY, a baby outline; REAL",
+   "set": "blueprint",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/10_science.js"
+  },
+  {
+   "id": "s157",
+   "start": 407.85,
+   "end": 411.38,
+   "line": "He had about twice the muscle of other babies his age.",
+   "scene": "BLUEPRINT: compare bars 1× vs 2×",
+   "set": "blueprint",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/10_science.js"
+  },
+  {
+   "id": "s158",
+   "start": 411.38,
+   "end": 413.46,
+   "line": "Your tendons have a brake too:",
+   "scene": "BLUEPRINT: arm with the tendon highlighted",
+   "set": "blueprint",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/10_science.js"
+  },
+  {
+   "id": "s159",
+   "start": 413.46,
+   "end": 417.88,
+   "line": "tiny sensors that tell a muscle to ease off before it tears.",
+   "scene": "BLUEPRINT: sensor dots pulse a signal up to the muscle: EASE OFF",
+   "set": "blueprint",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/10_science.js"
+  },
+  {
+   "id": "s160",
+   "start": 417.88,
+   "end": 419.95,
+   "line": "And size is a brake.",
+   "scene": "BLUEPRINT: a small cube",
+   "set": "blueprint",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/10_science.js"
+  },
+  {
+   "id": "s161",
+   "start": 419.95,
+   "end": 422.06,
+   "line": "Make an animal twice as big,",
+   "scene": "BLUEPRINT: the cube doubles in size, 2×",
+   "set": "blueprint",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/10_science.js"
+  },
+  {
+   "id": "s162",
+   "start": 422.06,
+   "end": 425.03,
+   "line": "and its muscles get four times stronger,",
+   "scene": "BLUEPRINT: cross-section square lights up ×4 STRENGTH",
+   "set": "blueprint",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/10_science.js"
+  },
+  {
+   "id": "s163",
+   "start": 425.03,
+   "end": 428.27,
+   "line": "but its body gets eight times heavier.",
+   "scene": "BLUEPRINT: the volume fills, ×8 WEIGHT",
+   "set": "blueprint",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/10_science.js"
+  },
+  {
+   "id": "s164",
+   "start": 428.27,
+   "end": 431.83,
+   "line": "That's why an ant can carry many times its own weight,",
+   "scene": "BLUEPRINT: an ant carries a giant leaf",
+   "set": "blueprint",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/10_science.js"
+  },
+  {
+   "id": "s165",
+   "start": 431.83,
+   "end": 434.26,
+   "line": "and an elephant can't jump.",
+   "scene": "BLUEPRINT: an elephant tries to jump, stays on the ground",
+   "set": "blueprint",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/10_science.js"
+  },
+  {
+   "id": "s166",
+   "start": 434.26,
+   "end": 437.45,
+   "line": "So the real superpower isn't strength.",
+   "scene": "BIG FACE: thoughtful, the egg in your fingers",
+   "set": "face",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/10_science.js"
+  },
+  {
+   "id": "s167",
+   "start": 437.45,
+   "end": 439.89,
+   "line": "It's the brakes.",
+   "scene": "INSERT: the egg resting whole in your gentle palm, gold glow",
+   "set": "insert",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/10_science.js"
+  },
+  {
+   "id": "s168",
+   "start": 439.89,
+   "end": 441.68,
+   "line": "Day twenty.",
+   "scene": "STEEL ROOM night: DAY 20 badge, you sit very still",
+   "set": "steel",
+   "bars": "scope",
+   "in": {
+    "type": "dip",
+    "dur": 0.35
+   },
+   "notes": "shots/11_twist.js"
+  },
+  {
+   "id": "s169",
+   "start": 441.68,
+   "end": 445.8,
+   "line": "You're a million times stronger than the day it started.",
+   "scene": "WIDE: ×1,048,576 glowing; the walls covered in hairline cracks",
+   "set": "steel",
+   "bars": "scope",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/11_twist.js"
+  },
+  {
+   "id": "s170",
+   "start": 445.8,
+   "end": 447.53,
+   "line": "Your phone rings.",
+   "scene": "INSERT: a steel-armoured phone buzzes on the steel table",
+   "set": "insert",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/11_twist.js"
+  },
+  {
+   "id": "s171",
+   "start": 447.53,
+   "end": 449.11,
+   "line": "It's your mom.",
+   "scene": "INSERT: caller ID MOM",
+   "set": "insert",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/11_twist.js"
+  },
+  {
+   "id": "s172",
+   "start": 449.11,
+   "end": 451.22,
+   "line": "Her voice is shaking.",
+   "scene": "BIG FACE: you listen, worried",
+   "set": "face",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/11_twist.js"
+  },
+  {
+   "id": "s173",
+   "start": 451.22,
+   "end": 455.47,
+   "line": "\"It's Lily. She pulled the bars off her crib.\"",
+   "scene": "NURSERY night: crib bars bent off, mom on the phone in the doorway, scared",
+   "set": "nursery",
+   "bars": "scope",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/11_twist.js"
+  },
+  {
+   "id": "s174",
+   "start": 455.47,
+   "end": 458.06,
+   "line": "Lily is eleven days old.",
+   "scene": "CLOSE: Lily in her crib holding a bent bar; 11 DAYS OLD",
+   "set": "nursery",
+   "bars": "scope",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/11_twist.js"
+  },
+  {
+   "id": "s175",
+   "start": 458.06,
+   "end": 463.33,
+   "line": "And this morning, she was twice as strong as yesterday.",
+   "scene": "CLOSE: Lily giggles, gold glint; badge LILY ×2",
+   "set": "nursery",
+   "bars": "scope",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/11_twist.js"
+  },
+  {
+   "id": "s176",
+   "start": 463.33,
+   "end": 476.0,
+   "line": "What would YOU do if your strength doubled every day? Tell us in the comments. And subscribe, because Part 2 is coming.",
+   "scene": "END SCREEN: WHAT WOULD YOU DO IF YOUR STRENGTH DOUBLED EVERY DAY? comment bubble, subscribe, cast lineup, PART 2",
+   "set": "end",
+   "bars": "none",
+   "in": {
+    "type": "fade",
+    "dur": 0.35
+   },
+   "notes": "shots/11_twist.js"
+  }
+ ],
+ "music": [],
+ "sfx": []
+}
