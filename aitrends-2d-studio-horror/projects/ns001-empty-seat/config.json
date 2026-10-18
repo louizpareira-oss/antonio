@@ -2,7 +2,7 @@
  "title": "If Your Car Ever Beeps For The Empty Passenger Seat... DON'T LOOK",
  "aspect": "16:9",
  "resolution": "1080p",
- "fps": 24,
+ "fps": 30,
  "style": "nightsupport",
  "voiceover": "input/voiceover.mp3",
  "script": "input/script.txt",

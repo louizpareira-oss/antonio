@@ -13,7 +13,7 @@ PROJ = os.path.dirname(HERE)
 S = json.load(open(os.path.join(PROJ, "timeline", "sentences.json")))
 W = json.load(open(os.path.join(PROJ, "timeline", "words.json")))["words"]
 END = round(W[-1]["end"] + 1.6, 2)
-RED, GREEN, AMBER, CYAN, WHITE = "#ff3b3b", "#39d98a", "#ffb547", "#8fe3ff", "#e9f6ff"
+RED, GREEN, AMBER, CYAN, WHITE = "#ff3b30", "#34c759", "#ffc04d", "#ffc04d", "#f2f2f2"
 norm = lambda s: re.sub(r"[^\w']", "", s.lower())
 
 
@@ -31,8 +31,13 @@ class Ctx:
         return round(hits[nth]["start"] - self.t0, 2)
 
 
+RULE_BG = {1: ("cockpit", {"beep": True}, [0, 150, 1]), 2: ("carTop", {"moving": True, "passenger": "empty"}, [300, 40, 0.92]),
+           3: ("road", {"lights": True}, [0, 60, 1]), 4: ("radio", {}, [230, 150, 0.78]), 5: ("redLight", {}, [80, 60, 0.9]),
+           6: ("carTop", {"motion": 0}, [300, 40, 0.92]), 7: ("route", {"drawDur": 2.0}, [160, 110, 0.82])}
+
+
 def rule(n, title):
-    return lambda c: dict(tpl="rule", n=n, title=title, noCaptions=True, push=0.02)
+    return lambda c: dict(tpl="rule", n=n, title=title, bgTpl=RULE_BG[n][0], bgParams=RULE_BG[n][1], bgShift=RULE_BG[n][2], push=0.04)
 
 
 # (first sentence, last sentence, params(ctx), extra shot fields)

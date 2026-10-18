@@ -15,7 +15,7 @@
     "glance": 3.68,
     "status": [
      "PASSENGER SEAT: EMPTY",
-     "#39d98a"
+     "#34c759"
     ],
     "push": 0.06
    },
@@ -69,7 +69,7 @@
      {
       "str": "DO NOT REACH ACROSS",
       "at": 0.05,
-      "col": "#ff3b3b",
+      "col": "#ff3b30",
       "size": 64
      }
     ],
@@ -106,7 +106,7 @@
      {
       "str": "BUCKLE IT IN.",
       "at": 2.42,
-      "col": "#ff3b3b",
+      "col": "#ff3b30",
       "size": 140
      }
     ]
@@ -127,7 +127,7 @@
     "passenger": "bag",
     "status": [
      "PASSENGER: 3.1 KG",
-     "#ffb547"
+     "#ffc04d"
     ]
    },
    "in": {
@@ -150,7 +150,7 @@
     "passenger": "groceries",
     "status": [
      "PASSENGER: 9.8 KG",
-     "#ffb547"
+     "#ffc04d"
     ]
    },
    "in": {
@@ -173,7 +173,7 @@
     "passenger": "pizza",
     "status": [
      "PASSENGER: 1.9 KG",
-     "#ffb547"
+     "#ffc04d"
     ]
    },
    "in": {
@@ -198,13 +198,13 @@
     "beepFrom": 3.14,
     "status": [
      "BUCKLE UP",
-     "#ff3b3b"
+     "#ff3b30"
     ],
     "say": [
      {
       "str": "OCCUPANT: PIZZA",
       "at": 3.14,
-      "col": "#ff3b3b",
+      "col": "#ff3b30",
       "size": 56,
       "mono": true
      }
@@ -255,7 +255,7 @@
     "vanish": 0.34,
     "status": [
      "PASSENGER SEAT: EMPTY",
-     "#39d98a"
+     "#34c759"
     ]
    },
    "in": {
@@ -277,7 +277,7 @@
     "tpl": "cockpit",
     "status": [
      "PASSENGER SEAT: EMPTY",
-     "#39d98a"
+     "#34c759"
     ],
     "push": 0.06
    },
@@ -304,7 +304,7 @@
     "heatAmt": 0.7,
     "status": [
      "PASSENGER SEAT: OCCUPIED",
-     "#ff3b3b"
+     "#ff3b30"
     ],
     "glitch": [
      [
@@ -430,7 +430,7 @@
      {
       "str": "IT ONLY KNOWS WHAT ONE WEIGHS.",
       "at": 2.5,
-      "col": "#8fe3ff",
+      "col": "#ffc04d",
       "size": 72,
       "mono": true
      }
@@ -454,7 +454,7 @@
     "weighAt": 0.1,
     "cls": "UNKNOWN",
     "outline": 1.14,
-    "outlineCol": "#ff3b3b",
+    "outlineCol": "#ff3b30",
     "beepFrom": 0.3,
     "glitch": [
      [
@@ -514,8 +514,16 @@
     "tpl": "rule",
     "n": 1,
     "title": "DO NOT LOOK AT THE SEAT",
-    "noCaptions": true,
-    "push": 0.02
+    "bgTpl": "cockpit",
+    "bgParams": {
+     "beep": true
+    },
+    "bgShift": [
+     0,
+     150,
+     1
+    ],
+    "push": 0.04
    },
    "in": {
     "type": "glitch",
@@ -596,7 +604,7 @@
     "glance": 1.46,
     "status": [
      "EVERYBODY DOES",
-     "#ffb547"
+     "#ffc04d"
     ]
    },
    "in": {
@@ -647,7 +655,7 @@
     "mirrorAt": 0.66,
     "status": [
      "MIRROR: SET FOR THE ROAD",
-     "#39d98a"
+     "#34c759"
     ]
    },
    "in": {
@@ -710,8 +718,17 @@
     "tpl": "rule",
     "n": 2,
     "title": "DO NOT PUT ANYTHING ON THE SEAT",
-    "noCaptions": true,
-    "push": 0.02
+    "bgTpl": "carTop",
+    "bgParams": {
+     "moving": true,
+     "passenger": "empty"
+    },
+    "bgShift": [
+     300,
+     40,
+     0.92
+    ],
+    "push": 0.04
    },
    "in": {
     "type": "glitch",
@@ -773,7 +790,7 @@
      {
       "str": "DO NOT GIVE IT ANYTHING.",
       "at": 1.86,
-      "col": "#ff3b3b"
+      "col": "#ff3b30"
      }
     ]
    },
@@ -795,7 +812,7 @@
     "vanish": 1.9800000000000002,
     "status": [
      "ITEMS RETURNED: 0",
-     "#ff3b3b"
+     "#ff3b30"
     ],
     "glitch": [
      [
@@ -835,8 +852,16 @@
     "tpl": "rule",
     "n": 3,
     "title": "TAKE THE LIT ROADS",
-    "noCaptions": true,
-    "push": 0.02
+    "bgTpl": "road",
+    "bgParams": {
+     "lights": true
+    },
+    "bgShift": [
+     0,
+     60,
+     1
+    ],
+    "push": 0.04
    },
    "in": {
     "type": "glitch",
@@ -950,7 +975,7 @@
     "noneAt": 0.78,
     "status": [
      "IT HAS GOTTEN USED TO YOU",
-     "#ff3b3b"
+     "#ff3b30"
     ],
     "glitch": [
      [
@@ -986,8 +1011,14 @@
     "tpl": "rule",
     "n": 4,
     "title": "LET IT CHOOSE THE MUSIC",
-    "noCaptions": true,
-    "push": 0.02
+    "bgTpl": "radio",
+    "bgParams": {},
+    "bgShift": [
+     230,
+     150,
+     0.78
+    ],
+    "push": 0.04
    },
    "in": {
     "type": "glitch",
@@ -1067,7 +1098,7 @@
      {
       "str": "EVERYBODY KNOWS THAT.",
       "at": 2.1,
-      "col": "#8fe3ff",
+      "col": "#ffc04d",
       "size": 64,
       "mono": true
      }
@@ -1135,8 +1166,14 @@
     "tpl": "rule",
     "n": 5,
     "title": "DO NOT STOP UNTIL YOU ARE HOME",
-    "noCaptions": true,
-    "push": 0.02
+    "bgTpl": "redLight",
+    "bgParams": {},
+    "bgShift": [
+     80,
+     60,
+     0.9
+    ],
+    "push": 0.04
    },
    "in": {
     "type": "glitch",
@@ -1243,7 +1280,7 @@
      {
       "str": "YOURS.",
       "at": 4.1,
-      "col": "#ff3b3b",
+      "col": "#ff3b30",
       "size": 130
      }
     ],
@@ -1299,8 +1336,16 @@
     "tpl": "rule",
     "n": 6,
     "title": "WHEN YOU PARK, DO NOT LOOK IN THE BACK SEAT",
-    "noCaptions": true,
-    "push": 0.02
+    "bgTpl": "carTop",
+    "bgParams": {
+     "motion": 0
+    },
+    "bgShift": [
+     300,
+     40,
+     0.92
+    ],
+    "push": 0.04
    },
    "in": {
     "type": "glitch",
@@ -1331,13 +1376,13 @@
     "motion": 0.5,
     "status": [
      "REAR OCCUPANT ALERT: ON",
-     "#8fe3ff"
+     "#ffc04d"
     ],
     "say": [
      {
       "str": "ULTRASONIC REAR-SEAT SENSOR",
       "at": 0.6,
-      "col": "#8fe3ff",
+      "col": "#ffc04d",
       "size": 40,
       "mono": true
      }
@@ -1390,7 +1435,7 @@
     "alarm": 1.86,
     "status": [
      "MOVEMENT DETECTED",
-     "#ff3b3b"
+     "#ff3b30"
     ]
    },
    "in": {
@@ -1504,7 +1549,7 @@
     "shape": 2.1,
     "status": [
      "REAR SEAT: OCCUPIED",
-     "#ff3b3b"
+     "#ff3b30"
     ],
     "glitch": [
      [
@@ -1544,8 +1589,16 @@
     "tpl": "rule",
     "n": 7,
     "title": "DO NOT TRY TO REMEMBER THE DRIVE",
-    "noCaptions": true,
-    "push": 0.02
+    "bgTpl": "route",
+    "bgParams": {
+     "drawDur": 2.0
+    },
+    "bgShift": [
+     160,
+     110,
+     0.82
+    ],
+    "push": 0.04
    },
    "in": {
     "type": "glitch",
@@ -1646,7 +1699,7 @@
     "mindAt": 1.86,
     "status": [
      "MIND: MOVED ONE SEAT RIGHT",
-     "#ff3b3b"
+     "#ff3b30"
     ]
    },
    "in": {
@@ -1713,7 +1766,7 @@
     "weighAt": 0.2,
     "cls": "YOU",
     "outline": 0.6,
-    "outlineCol": "#e9f6ff"
+    "outlineCol": "#f2f2f2"
    },
    "in": {
     "type": "cut"
@@ -1736,7 +1789,7 @@
     "passenger": "you",
     "status": [
      "DRIVER: UNKNOWN",
-     "#ff3b3b"
+     "#ff3b30"
     ],
     "glitch": [
      [
@@ -1873,7 +1926,7 @@
      [
       "SOMEONE HAS TO.",
       3.7,
-      "#ff3b3b"
+      "#ff3b30"
      ]
     ]
    },

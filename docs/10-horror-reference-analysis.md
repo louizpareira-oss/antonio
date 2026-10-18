@@ -71,12 +71,19 @@ Voice: calm, deadpan, official ("We are a trusted government agency"). Short sen
 - **Narrator:** a calm customer-support recording ("Thank you for calling Night Support"). Running gags:
   "Your privacy is important to us." "Please continue to hold." Sign-off: "This call may be recorded for
   quality and training purposes. It has been."
-- **Look:** not white pictograms on black. Our frames are the **device's own map and app**: pale-cyan
-  floor-plan line art on near-black (`#05070a`), the device's path drawn as a glowing trail, app-style
-  status chips (battery %, CLEANING / STUCK / DOCKED), red for danger, green for safe.
-- **Signature HUD:** a real night-time clock top-right that starts at **03:07 AM** and advances to sunrise
-  as the rules progress (instead of a video timecode); `NIGHT SUPPORT // CALL 001` top-left.
-- **Rule cards:** app-notification style ("Rule 3 of 7" as a push notification sliding in), not title slates.
+- **Look (v2, chosen Oct 2026 from the Bradikinin phone video the channel owner picked as the target):**
+  bold **solid-white pictograms on pure black** (no outlines; shapes separated by black gaps), warm **amber**
+  light glows (lamps, streetlights, screens), **red** only for danger, **green** checks, large centred objects
+  with lots of negative space, 30 fps. Code: `aitrends-2d-studio-horror/projects/ns001-empty-seat/scenes/ns.js`.
+- **Type:** Montserrat 900/800 (OFL, bundled per project in `assets/fonts/`). Captions = the whole current
+  sentence, bold white caps, bottom centre, over a dark fade.
+- **HUD:** small grey `NIGHT SUPPORT // CALL 001` top-left, slim progress bar top-centre, small clock top-right
+  that starts at **03:07 AM** and advances as the rules progress. Studio style id: `nightsupport`; set
+  `"bars": "none"` in config.json or the studio's default letterbox hides the HUD.
+- **Rule headers:** `RULE [n]` (number in a white box) + the rule in caps with a short red underline,
+  top-left over a dimmed scene that illustrates the rule.
+- v1 (cyan line-art "sensor display") was replaced by v2; don't copy Bradikinin's own assets
+  (the sunglasses agent, the Department crest).
 
 ## Scripts
 

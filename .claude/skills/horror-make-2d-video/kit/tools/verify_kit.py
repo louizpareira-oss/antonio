@@ -15,7 +15,7 @@ EXPECTED = {
     "engine/fx2d.js": "3495bbdaa1038e80",
     "engine/player.js": "22399fc8a0f99a4f",
     "engine/rig2d.js": "ec2a665e0aa8ffed",
-    "engine/styles.js": "83bee2e305e460ae",
+    "engine/styles.js": "121dfff88d2a63f4",
     "engine/three-kit.js": "02e249e302b95420",
     "engine/ui2d.js": "babd2978a5d2a6db",
     "examples/reaction-time/config.json": "9ee341c65b3cfe9a",

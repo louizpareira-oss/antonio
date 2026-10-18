@@ -82,7 +82,7 @@ export const STYLES = {
   nightsupport: {
     name: 'Night Support', desc: 'Car-sensor / device-UI look: cyan line art on near-black, red alerts, green checks, light grain and CRT scan lines. Scenes draw their own colours.',
     ink: '#05070a', inkFar: '#0d141c', feature: '#e9f6ff', rimWidth: 3, ui: { ...HORROR_UI, warning: '#ff3b3b', accent: '#ff3b3b', gold: '#8fe3ff', good: '#39d98a', text: '#e9f6ff' },
-    grade: { contrast: 1.06, sat: 1.0, lift: [0.0, 0.004, 0.012], gamma: [1, 1, 1], gain: [1, 1, 1], vignette: 0.7, grain: 0.05, scanlines: 0.12, bloom: 0.4 },
+    grade: { contrast: 1.06, sat: 1.0, lift: [0.0, 0.004, 0.012], gamma: [1, 1, 1], gain: [1, 1, 1], vignette: 0.7, grain: 0.05, scanlines: 0.05, bloom: 0.4 },
     moods: {},
   },
 };
