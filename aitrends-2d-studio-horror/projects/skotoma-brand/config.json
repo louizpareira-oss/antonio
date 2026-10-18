@@ -1,0 +1,12 @@
+{
+ "title": "SKOTOMA channel branding",
+ "aspect": "16:9",
+ "resolution": "1080p",
+ "fps": 24,
+ "style": "nightsupport",
+ "captions": false,
+ "bars": "none",
+ "fadeIn": 0,
+ "fadeOut": 0,
+ "duration": 3.0
+}

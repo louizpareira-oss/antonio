@@ -1,0 +1,30 @@
+{
+ "title": "SKOTOMA avatars (each drawn in the centre 1080x1080 square, cropped after render)",
+ "duration": 3.0,
+ "shots": [
+  {
+   "id": "avatarEye",
+   "start": 0,
+   "end": 1.0,
+   "line": "",
+   "scene": "A: white eye on red, black pupil with a figure for a catchlight",
+   "vignette": false
+  },
+  {
+   "id": "avatarEyeYellow",
+   "start": 1.0,
+   "end": 2.0,
+   "line": "",
+   "scene": "B: white eye on warning-sign yellow",
+   "vignette": false
+  },
+  {
+   "id": "avatarEyeBlack",
+   "start": 2.0,
+   "end": 3.0,
+   "line": "",
+   "scene": "C: eye on black with a red iris",
+   "vignette": false
+  }
+ ]
+}
