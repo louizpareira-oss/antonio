@@ -1,10 +1,12 @@
 {
- "title": "NIGHT SUPPORT 001 thumbnail",
+ "title": "NIGHT SUPPORT 001 thumbnails",
  "aspect": "16:9",
  "resolution": "1080p",
  "fps": 24,
  "style": "nightsupport",
  "captions": false,
  "bars": "none",
- "duration": 1.0
+ "fadeIn": 0,
+ "fadeOut": 0,
+ "duration": 2.0
 }

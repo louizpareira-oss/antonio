@@ -82,6 +82,12 @@ Voice: calm, deadpan, official ("We are a trusted government agency"). Short sen
   `"bars": "none"` in config.json or the studio's default letterbox hides the HUD.
 - **Rule headers:** `RULE [n]` (number in a white box) + the rule in caps with a short red underline,
   top-left over a dimmed scene that illustrates the rule.
+- **Thumbnails** (from the viral Bradikinin / Final Sight thumbnails the channel owner picked): left half solid red
+  (`#ff2b2b`) with a huge white 2-word command (Montserrat 900, black outline + drop shadow) and a smaller black
+  line under it, a thick white curved arrow (black outline) pointing right at a framed panel (window, doorbell cam,
+  cabin cam) that shows the uncanny thing as a **cartoon**: white fill, thick black outlines, glowing red eyes,
+  a thin grin. Make a black-background B version with the same panel for YouTube's thumbnail test.
+  Code: `aitrends-2d-studio-horror/projects/ns001-thumb/scenes/thumb.js`.
 - v1 (cyan line-art "sensor display") was replaced by v2; don't copy Bradikinin's own assets
   (the sunglasses agent, the Department crest).
 
