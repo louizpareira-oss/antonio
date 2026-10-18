@@ -88,7 +88,7 @@ export function steelRoom(g, t, cam, o = {}) {
   });
   let TY = GY - 190;
   layer(g, cam, 0.9, (g) => {
-    if (o.bed) { const bx = CX + (o.bedX ?? -560); rr(g, bx - 280, GY - 170, 560, 34, 6); g.fillStyle = '#9aa2b0'; g.fill(); seg(g, [[bx - 260, GY - 140], [bx - 260, GY]], 14, '#6a7080'); seg(g, [[bx + 260, GY - 140], [bx + 260, GY]], 14, '#6a7080'); rr(g, bx - 270, GY - 196, 540, 30, 10); g.fillStyle = '#c8ccd4'; g.fill(); }
+    if (o.bed) { const bx = CX + (o.bedX ?? -560); rr(g, bx - 300, GY - 100, 600, 30, 6); g.fillStyle = '#9aa2b0'; g.fill(); seg(g, [[bx - 280, GY - 74], [bx - 280, GY]], 14, '#6a7080'); seg(g, [[bx + 280, GY - 74], [bx + 280, GY]], 14, '#6a7080'); rr(g, bx - 290, GY - 124, 580, 28, 10); g.fillStyle = '#c8ccd4'; g.fill(); rr(g, bx + 160, GY - 150, 120, 30, 12); g.fillStyle = '#e8ecf2'; g.fill(); }
     if (o.table !== false) TY = table(g, CX + (o.tableX ?? -120), GY, { w: 600, h: 150, color: '#5a606e', top: '#a8b0bc' });
     FX.pool(g, CX + (o.tableX ?? -120), GY + 30, 520, 70, COLD, 0.28);
   });
@@ -104,8 +104,10 @@ export function visitRoom(g, t, cam, o = {}) {
   return { ...R, GL: CX + (o.glass ?? 0) };
 }
 export function glassWall(g, cam, x, GY) {
-  layer(g, cam, 0.92, (g) => { rr(g, x - 26, GY - 900, 52, 900, 4); g.fillStyle = alpha('#cfe8ff', 0.22); g.fill(); g.strokeStyle = alpha('#ffffff', 0.55); g.lineWidth = 3; g.stroke();
-    seg(g, [[x - 12, GY - 860], [x - 12, GY - 40]], 4, alpha('#ffffff', 0.35)); g.fillStyle = '#8a8e98'; g.fillRect(x - 300, GY - 330, 600, 24); g.fillStyle = '#6a6e78'; g.fillRect(x - 26, GY - 306, 52, 306); });
+  layer(g, cam, 0.92, (g) => { g.fillStyle = '#8a8e98'; g.fillRect(x - 320, GY - 300, 640, 22); g.fillStyle = '#6a6e78'; g.fillRect(x - 320, GY - 278, 640, 10);
+    rr(g, x - 40, GY - 920, 80, 920, 4); g.fillStyle = alpha('#cfe8ff', 0.38); g.fill(); g.strokeStyle = '#e8f4ff'; g.lineWidth = 6; g.stroke();
+    seg(g, [[x - 18, GY - 880], [x - 18, GY - 40]], 6, alpha('#ffffff', 0.6)); seg(g, [[x + 12, GY - 700], [x + 12, GY - 500]], 4, alpha('#ffffff', 0.45));
+    g.fillStyle = '#5a5e68'; g.fillRect(x - 60, GY - 940, 120, 30); });
 }
 // earthquake city at night: shaking skyline, tilting towers, dust clouds, sirens. o.q = shake amount 0..1
 export function cityQuake(g, t, cam, o = {}) {
@@ -131,7 +133,7 @@ export function slab(g, x, y, w, h, rot = 0) {
 // rubble site at night: emergency lights, broken building shell, debris pile; returns { GY, CX }
 export function rubble(g, t, cam, o = {}) {
   const GY = GYP(), CX = E.W / 2;
-  layer(g, cam, 0.08, (g) => { backdrop(g, ['#14122a', '#2e2244', '#6a3a4a']); FX.stars(g, t, { count: 60, area: [-E.W, -E.H, E.W * 3, E.H * 0.6] }); });
+  layer(g, cam, 0.08, (g) => { backdrop(g, o.dawn ? ['#4a5a8a', '#c88a8a', '#f2b08a', '#ffe2b0'] : ['#14122a', '#2e2244', '#6a3a4a']); if (o.dawn) FX.sun(g, CX + 600, GY - 260, 70, '#fff2d8', '#ffc890', 5); else FX.stars(g, t, { count: 60, area: [-E.W, -E.H, E.W * 3, E.H * 0.6] }); });
   layer(g, cam, 0.35, (g) => FX.skyline(g, { x: -E.W, y: GY - 40, w: E.W * 3, minH: 160, maxH: 380, color: '#1e1a30', windowColor: '#ffcf8a', lit: 0.12, seed: 77 }));
   layer(g, cam, 0.6, (g) => { poly(g, [[CX - 760, GY], [CX - 760, GY - 520], [CX - 560, GY - 600], [CX - 420, GY - 380], [CX - 200, GY - 460], [CX + 60, GY - 300], [CX + 300, GY - 420], [CX + 520, GY - 260], [CX + 760, GY - 340], [CX + 760, GY]], '#4a4250');
     const r = rng(17); for (let i = 0; i < 14; i++) { rr(g, CX - 700 + r() * 1400, GY - 420 + r() * 280, 50, 60, 3); g.fillStyle = r() < 0.3 ? '#ffcf8a' : '#241e2c'; g.fill(); }

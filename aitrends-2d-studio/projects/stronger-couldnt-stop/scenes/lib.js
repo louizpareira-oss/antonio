@@ -120,7 +120,7 @@ export function baby(g, x, y, s = 1, o = {}) {
   g.fillStyle = linGrad(g, -80, -60, 120, 60, [mix(blanket, '#ffffff', 0.3), blanket, shade(blanket, -0.25)]); g.beginPath(); g.ellipse(22, 0, 124, 62, 0, 0, Math.PI * 2); g.fill();
   g.strokeStyle = alpha(shade(blanket, -0.35), 0.6); g.lineWidth = 5; for (const dx of [10, 60]) { g.beginPath(); g.moveTo(dx - 40, -50); g.quadraticCurveTo(dx, 0, dx - 30, 52); g.stroke(); }
   circle(g, -92, -16, 58, ink);                                                    // head
-  g.fillStyle = mix(blanket, '#ffffff', 0.45); g.beginPath(); g.arc(-92, -16, 66, Math.PI * 0.5, Math.PI * 1.25); g.lineTo(-60, -10); g.closePath(); g.fill();  // hood fold
+  g.strokeStyle = mix(blanket, '#ffffff', 0.45); g.lineWidth = 14; g.lineCap = 'round'; g.beginPath(); g.arc(-92, -16, 66, Math.PI * 0.35, Math.PI * 1.55); g.stroke();  // hood rim
   const F = S().feature;
   if (expr === 'sleep') { for (const dx of [-112, -76]) { g.strokeStyle = F; g.lineWidth = 5; g.beginPath(); g.arc(dx, -28, 9, 0.2, Math.PI - 0.2); g.stroke(); } }
   else { for (const dx of [-112, -76]) circle(g, dx, -28, 8, F); if (glint > 0) for (const dx of [-112, -76]) glow(g, dx, -28, 26, GOLD(), glint); }
