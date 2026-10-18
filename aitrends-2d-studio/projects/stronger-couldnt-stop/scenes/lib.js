@@ -226,3 +226,16 @@ export function stamp(g, str, x, y, age, o = {}) {
   text(g, str, 0, 3, { size, color, font: FONTS.ui, weight: 900, glow: 16, glowColor: alpha(color, 0.6) });
   g.restore();
 }
+// open, cupped palm seen from the side (fingers curl up on the right, thumb on the left); px,py = palm centre
+export function palmUp(g, px, py, s = 1, o = {}) {
+  const { sleeve = '#2E72D2', rim = '#ffe2a8', ink = S().ink } = o;
+  g.save(); g.translate(px, py); g.scale(s, s); seg(g, [[60, 80], [260, 560]], 230, sleeve);
+  for (const [w, c] of [[12, alpha(rim, 0.9)], [0, ink]]) { g.fillStyle = c; g.beginPath(); g.ellipse(0, 30, 230 + w / 2, 110 + w / 2, 0, 0, Math.PI * 2); g.fill();
+    for (let i = 0; i < 4; i++) seg(g, [[120 + i * 18, 40 - i * 34], [210 - i * 8, -50 - i * 40]], 48 + w, c); seg(g, [[-150, 30], [-230, -60]], 56 + w, c); }
+  g.restore();
+}
+// dust / ash drifting down through the frame
+export function fallingDust(g, t, o = {}) {
+  const { count = 60, color = '#e8d8c8', a = 0.5, speed = 90, seed = 5 } = o, r = rng(seed);
+  for (let i = 0; i < count; i++) { const x = r() * E.W + Math.sin(t * 0.8 + i) * 20, sp = speed * (0.5 + r()), y = ((r() * E.H + t * sp) % (E.H + 40)) - 20, sz = 2 + r() * 4; circle(g, x, y, sz, alpha(color, a * (0.4 + r() * 0.6))); }
+}

@@ -7,7 +7,7 @@ import * as UI from '/engine/ui2d.js';
 import { aptNight, van, mountain, steelRoom } from '../sets/atlas.js';
 import { bed, crib } from '../sets/home.js';
 import { YOU, VOSS, ATLAS } from '../cast.js';
-import { heroFace, hand, chip, egg, carton, impact, dayBadge, wt, GOLD, CORAL, fmt, sunrise, atlasLogo, baby, cracks } from '../lib.js';
+import { heroFace, hand, chip, egg, carton, impact, dayBadge, wt, GOLD, CORAL, fmt, sunrise, atlasLogo, baby, cracks, palmUp } from '../lib.js';
 
 const COLD = '#d8ecff', VOSS_LINE = [239.78, 245.14];
 
@@ -314,9 +314,7 @@ registerShot('s115', { draw(g, t, info) {
 // s116 — "and you hold it."  INSERT: the egg resting whole on your open palm, gold glow
 registerShot('s116', { draw(g, t, info) {
   const k = t / info.dur; blurLayer(g, 16, (g) => steelRoom(g, t, { z: 1.5, x: -100, y: 120 })); glow(g, E.W * 0.5, E.H * 0.42, 560, GOLD(), 0.35 + 0.1 * Math.sin(t * 3));
-  const px = E.W * 0.5, py = E.H * 0.6, ink = S().ink; seg(g, [[px + 60, py + 80], [px + 260, E.H + 160]], 230, YOU.color);
-  for (const [w, c] of [[12, alpha('#ffe2a8', 0.9)], [0, ink]]) { g.fillStyle = c; g.beginPath(); g.ellipse(px, py + 30, 230 + w / 2, 110 + w / 2, 0, 0, Math.PI * 2); g.fill();
-    for (let i = 0; i < 4; i++) seg(g, [[px + 120 + i * 18, py + 40 - i * 34], [px + 210 - i * 8, py - 50 - i * 40]], 48 + w, c); seg(g, [[px - 150, py + 30], [px - 230, py - 60]], 56 + w, c); }
+  palmUp(g, E.W * 0.5, E.H * 0.6, 1, { sleeve: YOU.color });
   egg(g, E.W * 0.5, E.H * 0.45 + 4 * Math.sin(t * 2), 2.4, { rim: alpha('#ffe2a8', 0.9), glowC: GOLD() });
   for (let i = 0; i < 5; i++) FX.sparkle(g, E.W * 0.36 + i * 70, E.H * 0.28 + 30 * Math.sin(t * 2 + i), 14, '#ffe2a8', 0.6);
 } });

@@ -135,7 +135,10 @@ export function rubble(g, t, cam, o = {}) {
   layer(g, cam, 0.35, (g) => FX.skyline(g, { x: -E.W, y: GY - 40, w: E.W * 3, minH: 160, maxH: 380, color: '#1e1a30', windowColor: '#ffcf8a', lit: 0.12, seed: 77 }));
   layer(g, cam, 0.6, (g) => { poly(g, [[CX - 760, GY], [CX - 760, GY - 520], [CX - 560, GY - 600], [CX - 420, GY - 380], [CX - 200, GY - 460], [CX + 60, GY - 300], [CX + 300, GY - 420], [CX + 520, GY - 260], [CX + 760, GY - 340], [CX + 760, GY]], '#4a4250');
     const r = rng(17); for (let i = 0; i < 14; i++) { rr(g, CX - 700 + r() * 1400, GY - 420 + r() * 280, 50, 60, 3); g.fillStyle = r() < 0.3 ? '#ffcf8a' : '#241e2c'; g.fill(); }
-    for (let i = 0; i < 4; i++) { const ph = Math.sin(t * 7 + i * 1.9) > 0; glow(g, CX - 900 + i * 600, GY - 200, 500, ph ? '#ff3a3a' : '#3a6aff', 0.35); } });
+    for (let i = 0; i < 4; i++) { const ph = Math.sin(t * 7 + i * 1.9) > 0; glow(g, CX - 900 + i * 600, GY - 200, 500, ph ? '#ff3a3a' : '#3a6aff', 0.35); }
+    for (const sx of [-1, 1]) { const lx = CX + sx * 900, ly = GY - 640; seg(g, [[lx, GY], [lx, ly]], 12, '#2a2632'); rr(g, lx - 60, ly - 30, 120, 50, 8); g.fillStyle = '#fff6e0'; g.fill(); glow(g, lx, ly, 260, '#fff2d0', 0.8);
+      FX.lightCone(g, lx, ly + 20, { angle: Math.PI / 2 - sx * 0.55, spread: 0.5, len: 1300, color: '#fff2d0', a: 0.16 }); }
+    g.save(); g.globalCompositeOperation = 'lighter'; g.fillStyle = radGrad(g, CX, GY - 300, 60, 900, [alpha('#ffe7c0', 0.22), alpha('#ffe7c0', 0)]); g.fillRect(-E.W, -E.H, E.W * 4, E.H * 3); g.restore(); });
   layer(g, cam, 0.85, (g) => { const r = rng(23); for (let i = 0; i < 30; i++) { const x = CX - 900 + r() * 1800, w = 60 + r() * 160; g.save(); g.translate(x, GY - r() * 140); g.rotate((r() - 0.5) * 1.2); g.fillStyle = shade('#8a8488', -r() * 0.4); g.fillRect(-w / 2, -30, w, 60); g.restore(); }
     FX.fog(g, GY - 200, 300, '#c8b8b0', 0.18); });
   layer(g, cam, 1, (g) => { g.fillStyle = '#2a2430'; g.fillRect(-E.W * 2, GY, E.W * 5, E.H); });
