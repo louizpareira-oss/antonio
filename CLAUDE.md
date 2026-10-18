@@ -9,6 +9,18 @@
   Brand kit: `aitrends-2d-studio/projects/parallel-you-brand/channel.md`. Descriptions follow the style in
   `aitrends-2d-studio/projects/see-10-seconds/story/youtube.md` (hashtags first, short "you" lines, teasing chapters, then
   the Parallel You sign-off).
+- **Tools (decided with the user, Oct 18):** the video is always built in the 2D studio (no AI video clips). Thumbnails
+  use OpenArt *images* in a 3D look like the "ONLY ME." reference (15–40 credits each; confirm before spending). The
+  OpenArt CDN is blocked here, so the user downloads the image and sends it; text and finishing are added here.
+- **Style rules from the measured references** (`docs/11-reference-analysis-500iq-and-zero-pain.md`):
+  - Picture: brighter (aim for centre brightness ~85–100, ours was 60), big faces and close-ups, no stretch over
+    ~15 s without a picture change.
+  - Opening: a close-up of something impossible within the first second.
+  - Narration: ~130–145 words per minute.
+  - Story: a family member with a backstory, a lasting price for the hero, a villain or organization, world-scale
+    effects, a twist in the last 30 s that sets up a sequel, then the comment question.
+  - Thumbnail: one big face (40–55 % of the height) with one emotion, one contrasting element, 2–4 words ending in a
+    period that add the twist rather than repeat the title.
 
 # New video checklist (what a finished Parallel You video includes)
 
