@@ -1,0 +1,23 @@
+{
+ "title": "If Your Phone Ever Charges To 101%... DO NOT UNPLUG IT",
+ "aspect": "16:9",
+ "resolution": "720p",
+ "fps": 24,
+ "style": "abyss",
+ "voiceover": "input/voiceover.mp3",
+ "script": "input/script.txt",
+ "duration": 47.0,
+ "captions": false,
+ "bars": "wide",
+ "fadeIn": 0.5,
+ "fadeOut": 0.8,
+ "music": {
+  "enabled": true,
+  "gainDb": -22
+ },
+ "sfx": {
+  "enabled": true,
+  "gainDb": -6
+ },
+ "loudness": -14
+}

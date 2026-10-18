@@ -19,6 +19,20 @@ Plan to make the account eligible for the TikTok Creator Rewards Program after t
 - [`scripts/01-forgive-the-past.md`](scripts/01-forgive-the-past.md) — 70s, 20 beats, full shot list and generation prompts.
 - [`prompts/01-forgive-the-past-anime.txt`](prompts/01-forgive-the-past-anime.txt) — **copy-paste pack: all 22 clip prompts, anime style, ready for an AI video generator.**
 
+## Claude skills: horror video studio
+
+`.claude/skills/horror-*` is the **aiTrends 2D Studio — Horror Warning Edition**, installed as project skills so every Claude Code session in this repo has it. Hand Claude a voiceover and say "make a horror video from this voiceover", or run the stages one at a time:
+
+| Command | Stage |
+|---|---|
+| `/horror-make-2d-video` | whole pipeline, voiceover → final MP4 |
+| `/horror-new-video` | intake, Whisper timestamps, shot plan |
+| `/horror-video-styles` | compare the 5 horror looks (abyss, bloodmoon, midnight, neondread, vhsnightmare) |
+| `/horror-render-video` | build scenes, contact-sheet QC, preview, final render |
+| `/horror-video-sound` | horror music, SFX, ambience, final mix |
+
+On first use Claude installs the studio into `aitrends-2d-studio-horror/` (renders and `node_modules` are git-ignored). See [`.claude/skills/horror-make-2d-video/README.md`](.claude/skills/horror-make-2d-video/README.md).
+
 ## Account snapshot (Sep 2026)
 
 | Metric | Value |

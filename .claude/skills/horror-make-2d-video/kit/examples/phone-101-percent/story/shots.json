@@ -1,0 +1,21 @@
+{
+"title": "If Your Phone Ever Charges To 101%... DO NOT UNPLUG IT",
+"duration": 47.0,
+"shots": [
+ {"id": "s001", "start": 0, "end": 5.0, "line": "You walk into your kitchen at three in the morning.", "scene": "kitchen wide empty, clock runs backwards, window pure black", "bars": "wide", "in": {"type": "fade", "dur": 0.8}, "sfx": [{"at": 0.5, "name": "hum", "gain": -18}], "notes": "", "amb": {"name": "roomtone_low", "gain": -24}},
+ {"id": "s002", "start": 5.0, "end": 10.0, "line": "Your phone is on the counter. Charging. But the battery... reads one hundred and one percent.", "scene": "phone close-up: battery icon shows 101%, screen glows wrong colour", "bars": "scope", "in": {"type": "cut"}, "sfx": [{"at": 1.0, "name": "glitch", "gain": -8}, {"at": 2.5, "name": "buzz", "gain": -12}], "notes": "THE UNCANNY THING"},
+ {"id": "s003", "start": 10.0, "end": 14.5, "line": "If this ever happens to you... there is only one rule.", "scene": "bigFace YOU: confused, then realisation dawning. Eyes tiny white dots.", "bars": null, "in": {"type": "cut"}, "sfx": [{"at": 1.5, "name": "heartbeat", "gain": -10}], "notes": ""},
+ {"id": "s004", "start": 14.5, "end": 20.0, "line": "DO NOT UNPLUG IT.", "scene": "WARNING TEXT: blood red ALL CAPS fills screen, glitch effect, phone silhouette behind", "bars": "scope", "in": {"type": "flash", "dur": 0.3}, "sfx": [{"at": 0.0, "name": "stinger", "gain": -4}, {"at": 0.2, "name": "static", "gain": -10}], "notes": "THE RULE", "captions": false},
+ {"id": "s005", "start": 20.0, "end": 27.0, "line": "Subject A unplugged theirs at oh four hundred hours. The screaming started twelve seconds later and hasn't stopped.", "scene": "field report: navy void, SUBJECT figure faded, wrong, data overlay", "bars": null, "in": {"type": "dip", "dur": 0.6}, "sfx": [{"at": 2.0, "name": "distant_scream", "gain": -18}, {"at": 3.5, "name": "tone_low", "gain": -14}], "notes": "WHAT HAPPENS IF YOU BREAK IT", "amb": {"name": "silence_thick", "gain": -22}},
+ {"id": "s006", "start": 27.0, "end": 34.0, "line": "Step one. Remain calm. The thing in the phone feeds on your reaction. If you panic, it wins.", "scene": "medium: YOU in kitchen, phone glowing on counter. Protocol step ONE appears in red", "bars": null, "in": {"type": "cut"}, "sfx": [{"at": 0.5, "name": "tick", "gain": -14, "pitch": 0.8}], "notes": "PROTOCOL STEP", "amb": {"name": "hum_evil", "gain": -22}},
+ {"id": "s007", "start": 34.0, "end": 40.0, "line": "Step two. Do not make eye contact with the screen. Even when it's off. Especially when it's off.", "scene": "3D orbit: empty kitchen, phone on counter glowing, camera slowly circles it", "bars": null, "in": {"type": "whip", "dur": 0.3}, "sfx": [{"at": 0.0, "name": "whoosh", "gain": -12}, {"at": 2.0, "name": "whisper", "gain": -20}], "notes": "3D EMPTY SPACE"},
+ {"id": "s008", "start": 40.0, "end": 47.0, "line": "The screen will show you a message from someone you love. It will look real. It will sound real. It is not.", "scene": "phone close-up: screen flickers, shows distorted message, glitch frames, static burst", "bars": null, "in": {"type": "cut"}, "sfx": [{"at": 0.0, "name": "riser", "gain": -10}, {"at": 4.0, "name": "glitch", "gain": -6}, {"at": 5.5, "name": "impact", "gain": -4}], "notes": "THE TEST / TERROR PEAK"}
+],
+"music": [
+ {"start": 0, "end": 10.0, "mood": "unease", "intensity": 0.4},
+ {"start": 10.0, "end": 20.0, "mood": "tension", "intensity": 0.6},
+ {"start": 20.0, "end": 27.0, "mood": "dread", "intensity": 0.75},
+ {"start": 27.0, "end": 34.0, "mood": "void", "intensity": 0.4},
+ {"start": 34.0, "end": 47.0, "mood": "terror", "intensity": 0.8}
+]
+}
