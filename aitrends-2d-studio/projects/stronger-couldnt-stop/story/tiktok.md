@@ -17,7 +17,7 @@ What would YOU do if your strength doubled every day? 👇
 ---
 
 ## Settings
-- Cover: upload the YouTube thumbnail if the app offers it, otherwise pick the frame where you lift the slab.
+- Cover: upload the YouTube thumbnail (`thumbnail.jpg`, "I CAN'T HOLD HER.") if the app offers it, otherwise pick the frame where you lift the slab.
 - AI-generated content: on (the voices are AI, and TikTok's rule covers realistic AI audio).
 - Comments, Duet, Stitch: on.
 - Bio: "Every what if, lived by you." plus the business email.

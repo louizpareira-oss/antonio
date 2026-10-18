@@ -5,6 +5,9 @@ What If You Got Stronger and Couldn't Stop?
 
 vidIQ scored this title 98/100. A second title to test later: "What If Your Strength Doubled Every Day?" (scored 91).
 
+## Thumbnail
+`projects/stronger-couldnt-stop-thumb/out/thumbnail.jpg` — version A, "I CAN'T HOLD HER." (picked by the user, Oct 18).
+
 ## Description (paste everything between the lines)
 Style: the same as "See 10 Seconds": hashtags first, short "you" lines, a turn and a cliffhanger, teasing chapter
 names, one comment question, a separator, then the tagline, subscribe line and business email.

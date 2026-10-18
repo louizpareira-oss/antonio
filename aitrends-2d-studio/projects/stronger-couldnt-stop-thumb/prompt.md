@@ -1,3 +1,5 @@
+**Final: the studio-drawn stick-figure version A (`out/thumbnail.jpg`), picked by the user. The 3D OpenArt image below was not used.**
+
 # Thumbnail — What If You Got Stronger and Couldn't Stop?
 
 Plan (from `CLAUDE.md`): an OpenArt image in a 3D look like the "ONLY ME." reference. The OpenArt CDN is blocked here,
