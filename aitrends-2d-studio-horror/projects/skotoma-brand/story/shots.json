@@ -3,27 +3,27 @@
  "duration": 3.0,
  "shots": [
   {
-   "id": "avatarEye",
+   "id": "avatarPeeker",
    "start": 0,
    "end": 1.0,
    "line": "",
-   "scene": "A: white eye on red, black pupil with a figure for a catchlight",
+   "scene": "A: the passenger peeking over a seat back, black",
    "vignette": false
   },
   {
-   "id": "avatarEyeYellow",
+   "id": "avatarPeekerYellow",
    "start": 1.0,
    "end": 2.0,
    "line": "",
-   "scene": "B: white eye on warning-sign yellow",
+   "scene": "B: the passenger on warning-sign yellow",
    "vignette": false
   },
   {
-   "id": "avatarEyeBlack",
+   "id": "avatarDontLookYellow",
    "start": 2.0,
    "end": 3.0,
    "line": "",
-   "scene": "C: eye on black with a red iris",
+   "scene": "C: Don't Look character on yellow",
    "vignette": false
   }
  ]

@@ -49,15 +49,13 @@ horror animation, scary stories, creepy rules, creepypasta, 3am, if your ever, d
 
 ## Profile picture (800×800)
 
-Files: `aitrends-2d-studio-horror/projects/skotoma-brand/avatar_{A_eye,B_eye_yellow,C_eye_black}.png`
+Files: `aitrends-2d-studio-horror/projects/skotoma-brand/avatar_{A_passenger,B_passenger_yellow,C_dontlook}.png`
 (drawn in `projects/skotoma-brand/scenes/brand.js`; preview with YouTube's circle crop at 88/40 px in `build/avatar_preview.png`).
 
-The subject is a white eye whose pupil is a black blind spot. Its "catchlight" is a tiny standing figure: at 40 px it reads
-as a normal highlight, and at full size you notice someone is standing in your blind spot.
-
-- **B, yellow (recommended):** warning-sign yellow fits "survival rules", and none of the big rule channels use it.
+- **A, The Passenger (black):** a pale face with hollow eyes and pinpoint pupils, peeking over a car seat back.
+  Long fingers hook over the edge, and the dashboard's amber light hits one side. It's the thing from CALL 001.
+- **B, The Passenger (yellow):** the same character on warning-sign yellow. None of the big rule channels use yellow:
   Bradikinin and Final Sight are red, Pictofear is black.
-- **A, red:** matches the red thumbnails, but it's the same background colour as Bradikinin and Final Sight.
-- **C, black with a red iris:** pairs with thumbnail B.
+- **C, Don't Look:** a nervous character covering its eyes, with one eye peeking between two fingers (rule 1).
 
-Kept away from the reference avatars on purpose: no eye band, no sunglasses, no crosshair, no head-and-body character.
+Kept away from the reference avatars on purpose: no eye band, no sunglasses, no crosshair, no suit-and-tie character.
