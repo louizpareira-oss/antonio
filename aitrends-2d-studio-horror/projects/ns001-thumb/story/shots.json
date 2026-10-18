@@ -1,0 +1,1 @@
+{ "title": "thumbnail", "duration": 1.0, "shots": [ { "id": "thumb", "start": 0, "end": 1.0, "line": "", "scene": "thumbnail", "vignette": true } ] }
