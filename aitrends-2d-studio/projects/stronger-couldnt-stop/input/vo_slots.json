@@ -1,0 +1,26 @@
+{
+ "tempo": 0.93,
+ "extra_pause": 0.22,
+ "slots": [
+  {
+   "take": "takes/dad_warm_take3.mp3",
+   "start": 199.77,
+   "end": 203.85
+  },
+  {
+   "take": "takes/voss_take4.mp3",
+   "start": 239.78,
+   "end": 245.14
+  },
+  {
+   "take": "takes/dad_trembling_take3.mp3",
+   "start": 353.0,
+   "end": 357.48
+  },
+  {
+   "take": "takes/mom_take2.mp3",
+   "start": 451.06,
+   "end": 454.9
+  }
+ ]
+}

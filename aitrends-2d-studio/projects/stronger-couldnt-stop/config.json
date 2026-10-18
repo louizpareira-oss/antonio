@@ -1,0 +1,22 @@
+{
+ "title": "What If You Got Stronger and Couldn't Stop?",
+ "aspect": "16:9",
+ "resolution": "1080p",
+ "fps": 24,
+ "style": "golden",
+ "voiceover": "input/voiceover.mp3",
+ "script": "input/script.txt",
+ "captions": false,
+ "bars": null,
+ "fadeIn": 0.5,
+ "fadeOut": 0.8,
+ "music": {
+  "enabled": true,
+  "gainDb": -19
+ },
+ "sfx": {
+  "enabled": true,
+  "gainDb": -6
+ },
+ "loudness": -14
+}
