@@ -2,9 +2,10 @@
 
 **File:** `out/If_Your_Car_Ever_Beeps_For_The_Empty_Passenger_Seat_DONT_LOOK.mp4` (1920×1080, 30 fps, ~3:46)
 
-**Thumbnails:** `thumbnail.jpg` (A: red, "DON'T LOOK / AT THE SEAT" + arrow to the passenger's face, red eyes, seatbelt)
-and `thumbnail_B.jpg` (B: black, "DON'T LOOK." + one glowing white passenger seat, its belt buckled around someone
-you can't see, red eyes where the head would be). Upload A, then add B in YouTube Studio → Thumbnail → "Test & compare".
+**Thumbnail (chosen): `thumbnail_B.jpg`**. Black, "DON'T LOOK." + one glowing white passenger seat whose belt is
+buckled around someone you can't see, red eyes where the head would be. It matches the video's look, so viewers get
+what the thumbnail promised. Optional: add `thumbnail.jpg` (A: red, the passenger's face) in YouTube Studio →
+Thumbnail → "Test & compare" and let YouTube pick by watch time.
 
 ## Title
 

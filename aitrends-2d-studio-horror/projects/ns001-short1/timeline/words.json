@@ -1,0 +1,480 @@
+{
+ "source": "ns001-empty-seat words.json, 0..35.20s",
+ "words": [
+  {
+   "word": "If",
+   "start": 0.08,
+   "end": 0.16
+  },
+  {
+   "word": "your",
+   "start": 0.24,
+   "end": 0.4
+  },
+  {
+   "word": "car",
+   "start": 0.48,
+   "end": 0.64
+  },
+  {
+   "word": "ever",
+   "start": 0.72,
+   "end": 0.88
+  },
+  {
+   "word": "beeps",
+   "start": 0.96,
+   "end": 1.28
+  },
+  {
+   "word": "for",
+   "start": 1.32,
+   "end": 1.36
+  },
+  {
+   "word": "the",
+   "start": 1.44,
+   "end": 1.52
+  },
+  {
+   "word": "empty",
+   "start": 1.6,
+   "end": 1.84
+  },
+  {
+   "word": "passenger",
+   "start": 1.92,
+   "end": 2.4
+  },
+  {
+   "word": "seat,",
+   "start": 2.56,
+   "end": 3.0
+  },
+  {
+   "word": "do",
+   "start": 3.28,
+   "end": 3.36
+  },
+  {
+   "word": "not",
+   "start": 3.44,
+   "end": 3.6
+  },
+  {
+   "word": "look",
+   "start": 3.68,
+   "end": 3.76
+  },
+  {
+   "word": "at",
+   "start": 3.84,
+   "end": 3.92
+  },
+  {
+   "word": "the",
+   "start": 4.0,
+   "end": 4.08
+  },
+  {
+   "word": "seat.",
+   "start": 4.16,
+   "end": 4.6
+  },
+  {
+   "word": "Do",
+   "start": 4.88,
+   "end": 4.96
+  },
+  {
+   "word": "not",
+   "start": 5.04,
+   "end": 5.2
+  },
+  {
+   "word": "reach",
+   "start": 5.32,
+   "end": 5.44
+  },
+  {
+   "word": "across.",
+   "start": 5.52,
+   "end": 6.24
+  },
+  {
+   "word": "And",
+   "start": 6.48,
+   "end": 6.56
+  },
+  {
+   "word": "do",
+   "start": 6.64,
+   "end": 6.72
+  },
+  {
+   "word": "not,",
+   "start": 6.88,
+   "end": 7.12
+  },
+  {
+   "word": "under",
+   "start": 7.2,
+   "end": 7.52
+  },
+  {
+   "word": "any",
+   "start": 7.6,
+   "end": 7.76
+  },
+  {
+   "word": "circumstances,",
+   "start": 7.84,
+   "end": 8.64
+  },
+  {
+   "word": "buckle",
+   "start": 8.72,
+   "end": 8.96
+  },
+  {
+   "word": "it",
+   "start": 9.0,
+   "end": 9.04
+  },
+  {
+   "word": "in.",
+   "start": 9.12,
+   "end": 9.68
+  },
+  {
+   "word": "You",
+   "start": 10.08,
+   "end": 10.16
+  },
+  {
+   "word": "have",
+   "start": 10.24,
+   "end": 10.32
+  },
+  {
+   "word": "heard",
+   "start": 10.4,
+   "end": 10.48
+  },
+  {
+   "word": "this",
+   "start": 10.56,
+   "end": 10.72
+  },
+  {
+   "word": "before.",
+   "start": 10.96,
+   "end": 11.52
+  },
+  {
+   "word": "You",
+   "start": 11.84,
+   "end": 11.92
+  },
+  {
+   "word": "put",
+   "start": 12.0,
+   "end": 12.08
+  },
+  {
+   "word": "your",
+   "start": 12.16,
+   "end": 12.24
+  },
+  {
+   "word": "bag",
+   "start": 12.32,
+   "end": 12.56
+  },
+  {
+   "word": "on",
+   "start": 12.6,
+   "end": 12.64
+  },
+  {
+   "word": "the",
+   "start": 12.72,
+   "end": 12.8
+  },
+  {
+   "word": "seat.",
+   "start": 12.88,
+   "end": 13.36
+  },
+  {
+   "word": "Your",
+   "start": 13.68,
+   "end": 13.76
+  },
+  {
+   "word": "groceries.",
+   "start": 13.84,
+   "end": 14.6
+  },
+  {
+   "word": "A",
+   "start": 14.72,
+   "end": 14.8
+  },
+  {
+   "word": "pizza.",
+   "start": 14.88,
+   "end": 15.72
+  },
+  {
+   "word": "The",
+   "start": 16.08,
+   "end": 16.16
+  },
+  {
+   "word": "little",
+   "start": 16.28,
+   "end": 16.4
+  },
+  {
+   "word": "seatbelt",
+   "start": 16.48,
+   "end": 16.88
+  },
+  {
+   "word": "light",
+   "start": 16.96,
+   "end": 17.12
+  },
+  {
+   "word": "came",
+   "start": 17.2,
+   "end": 17.44
+  },
+  {
+   "word": "on",
+   "start": 17.52,
+   "end": 17.68
+  },
+  {
+   "word": "and",
+   "start": 18.16,
+   "end": 18.24
+  },
+  {
+   "word": "the",
+   "start": 18.28,
+   "end": 18.32
+  },
+  {
+   "word": "car",
+   "start": 18.4,
+   "end": 18.56
+  },
+  {
+   "word": "started",
+   "start": 18.64,
+   "end": 18.96
+  },
+  {
+   "word": "beeping,",
+   "start": 19.04,
+   "end": 19.56
+  },
+  {
+   "word": "like",
+   "start": 19.76,
+   "end": 19.84
+  },
+  {
+   "word": "your",
+   "start": 19.92,
+   "end": 20.0
+  },
+  {
+   "word": "pizza",
+   "start": 20.08,
+   "end": 20.4
+  },
+  {
+   "word": "had",
+   "start": 20.44,
+   "end": 20.48
+  },
+  {
+   "word": "a",
+   "start": 20.56,
+   "end": 20.64
+  },
+  {
+   "word": "death",
+   "start": 20.72,
+   "end": 20.88
+  },
+  {
+   "word": "wish.",
+   "start": 20.96,
+   "end": 21.56
+  },
+  {
+   "word": "You",
+   "start": 21.92,
+   "end": 22.0
+  },
+  {
+   "word": "moved",
+   "start": 22.08,
+   "end": 22.32
+  },
+  {
+   "word": "it,",
+   "start": 22.4,
+   "end": 22.72
+  },
+  {
+   "word": "and",
+   "start": 22.96,
+   "end": 23.04
+  },
+  {
+   "word": "the",
+   "start": 23.12,
+   "end": 23.2
+  },
+  {
+   "word": "beeping",
+   "start": 23.24,
+   "end": 23.52
+  },
+  {
+   "word": "stopped.",
+   "start": 23.68,
+   "end": 24.36
+  },
+  {
+   "word": "Tonight,",
+   "start": 24.72,
+   "end": 25.28
+  },
+  {
+   "word": "there",
+   "start": 25.44,
+   "end": 25.6
+  },
+  {
+   "word": "is",
+   "start": 25.68,
+   "end": 25.76
+  },
+  {
+   "word": "nothing",
+   "start": 25.84,
+   "end": 26.08
+  },
+  {
+   "word": "on",
+   "start": 26.16,
+   "end": 26.24
+  },
+  {
+   "word": "the",
+   "start": 26.32,
+   "end": 26.4
+  },
+  {
+   "word": "seat.",
+   "start": 26.48,
+   "end": 27.08
+  },
+  {
+   "word": "It",
+   "start": 27.44,
+   "end": 27.48
+  },
+  {
+   "word": "is",
+   "start": 27.52,
+   "end": 27.6
+  },
+  {
+   "word": "still",
+   "start": 27.68,
+   "end": 27.92
+  },
+  {
+   "word": "beeping.",
+   "start": 28.0,
+   "end": 28.76
+  },
+  {
+   "word": "There",
+   "start": 29.12,
+   "end": 29.2
+  },
+  {
+   "word": "are",
+   "start": 29.28,
+   "end": 29.36
+  },
+  {
+   "word": "seven",
+   "start": 29.44,
+   "end": 29.76
+  },
+  {
+   "word": "rules.",
+   "start": 29.84,
+   "end": 30.6
+  },
+  {
+   "word": "Six",
+   "start": 30.96,
+   "end": 31.2
+  },
+  {
+   "word": "get",
+   "start": 31.28,
+   "end": 31.36
+  },
+  {
+   "word": "you",
+   "start": 31.44,
+   "end": 31.52
+  },
+  {
+   "word": "home.",
+   "start": 31.6,
+   "end": 32.16
+  },
+  {
+   "word": "The",
+   "start": 32.48,
+   "end": 32.64
+  },
+  {
+   "word": "seventh",
+   "start": 32.72,
+   "end": 33.04
+  },
+  {
+   "word": "is",
+   "start": 33.36,
+   "end": 33.44
+  },
+  {
+   "word": "about",
+   "start": 33.52,
+   "end": 33.76
+  },
+  {
+   "word": "who",
+   "start": 33.84,
+   "end": 33.92
+  },
+  {
+   "word": "drove.",
+   "start": 34.0,
+   "end": 34.92
+  }
+ ]
+}

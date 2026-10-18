@@ -1,0 +1,14 @@
+{
+ "title": "Short 1",
+ "duration": 35.2,
+ "shots": [
+  {
+   "id": "short",
+   "start": 0,
+   "end": 35.2,
+   "line": "",
+   "scene": "frame around the long video: hook on top, big captions below",
+   "vignette": false
+  }
+ ]
+}
