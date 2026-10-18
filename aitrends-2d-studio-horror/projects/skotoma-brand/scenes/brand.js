@@ -3,7 +3,8 @@
 //   avatarPeeker / avatarPeekerYellow: the passenger: a pale face with hollow eyes peeking over a seat back, long fingers over the edge
 //   avatarDontLookYellow: a character covering its eyes, one eye peeking between two fingers (rule 1: do not look)
 import { E, registerShot, alpha, radGrad, linGrad, rr, circle } from '/engine/core.js';
-const INK = '#0a0a0a', YELLOW = '#ffc21a', CX = 960, CY = 540;
+export const INK = '#0a0a0a', YELLOW = '#ffc21a';
+const CX = 960, CY = 540;
 
 // logos stay clean: keep the style's contrast LUT but drop grain, scanlines, vignette and bloom
 E.style = { ...E.style, grade: { ...E.style.grade, grain: 0, scanlines: 0, vignette: 0, bloom: 0 } };
@@ -65,30 +66,33 @@ function dontLook(g, { bg, glowCol, body }) {
 registerShot('avatarDontLookYellow', { draw(g) { dontLook(g, { bg: YELLOW, glowCol: '#fff3c4', body: '#141414' }); } });
 
 // ---------- the passenger ----------
-function peeker(g, { bg, glowCol, outline }) {
-  g.fillStyle = bg; g.fillRect(0, 0, E.W, E.H);
-  g.fillStyle = radGrad(g, CX, CY - 120, 0, 650, [alpha(glowCol, 0.3), alpha(glowCol, 0)]); g.fillRect(0, 0, E.W, E.H);
-  const top = CY + 235, head = g => { g.beginPath(); g.ellipse(CX, top + 60, 300, 450, 0, 0, Math.PI * 2); };
+// the passenger's parts take the seat top as y = top and its centre as x = cx; the banner reuses them scaled
+export function passengerHead(g, cx, top, outline) {
+  const head = g => { g.beginPath(); g.ellipse(cx, top + 60, 300, 450, 0, 0, Math.PI * 2); };
   // pale head behind the seat back, lit by the dashboard from the right
   if (outline) { g.save(); head(g); g.lineWidth = 26; g.strokeStyle = INK; g.stroke(); g.restore(); }
-  head(g); g.fillStyle = radGrad(g, CX - 80, top - 300, 0, 560, [[0, '#f6f6f6'], [0.55, '#dedede'], [1, '#8a8a8a']]); g.fill();
-  g.save(); head(g); g.clip(); g.fillStyle = radGrad(g, CX + 330, top - 120, 60, 330, [alpha('#ffc04d', 0.28), alpha('#ffc04d', 0)]); g.fillRect(CX, top - 420, 340, 420); g.restore();
+  head(g); g.fillStyle = radGrad(g, cx - 80, top - 300, 0, 560, [[0, '#f6f6f6'], [0.55, '#dedede'], [1, '#8a8a8a']]); g.fill();
+  g.save(); head(g); g.clip(); g.fillStyle = radGrad(g, cx + 330, top - 120, 60, 330, [alpha('#ffc04d', 0.28), alpha('#ffc04d', 0)]); g.fillRect(cx, top - 420, 340, 420); g.restore();
   // hollow eyes, pinpoint pupils looking at you
   for (const sx of [-1, 1]) {
-    g.save(); g.translate(CX + sx * 108, top - 165); g.rotate(sx * 0.16);
+    g.save(); g.translate(cx + sx * 108, top - 165); g.rotate(sx * 0.16);
     g.fillStyle = radGrad(g, 0, 0, 30, 100, ['rgba(50,50,60,0.6)', 'rgba(50,50,60,0)']); g.beginPath(); g.ellipse(0, 0, 100, 80, 0, 0, Math.PI * 2); g.fill();
     g.fillStyle = INK; g.beginPath(); g.ellipse(0, 0, 68, 53, 0, 0, Math.PI * 2); g.fill(); g.restore();
-    circle(g, CX + sx * 108 - sx * 16, top - 160, 10, '#ffffff');
+    circle(g, cx + sx * 108 - sx * 16, top - 160, 10, '#ffffff');
   }
-  // seat back with stitching
-  if (outline) { rr(g, CX - 652, top - 12, 1304, 640, 100); g.fillStyle = INK; g.fill(); }
-  rr(g, CX - 640, top, 1280, 600, 90); g.fillStyle = linGrad(g, 0, top, 0, top + 320, ['#2c2d33', '#141518']); g.fill();
-  g.strokeStyle = 'rgba(255,255,255,0.16)'; g.lineWidth = 6; g.beginPath(); g.moveTo(CX - 560, top + 5); g.lineTo(CX + 560, top + 5); g.stroke();
+}
+// seat back with stitching
+export function seatBack(g, x0, x1, top, h, outline, seams = []) {
+  if (outline) { rr(g, x0 - 12, top - 12, x1 - x0 + 24, h + 40, 100); g.fillStyle = INK; g.fill(); }
+  rr(g, x0, top, x1 - x0, h, 90); g.fillStyle = linGrad(g, 0, top, 0, top + 320, ['#2c2d33', '#141518']); g.fill();
+  g.strokeStyle = 'rgba(255,255,255,0.16)'; g.lineWidth = 6; g.beginPath(); g.moveTo(x0 + 80, top + 5); g.lineTo(x1 - 80, top + 5); g.stroke();
   g.setLineDash([16, 14]); g.strokeStyle = 'rgba(255,255,255,0.12)'; g.lineWidth = 4;
-  for (const x of [-210, 210]) { g.beginPath(); g.moveTo(CX + x, top + 70); g.lineTo(CX + x, top + 600); g.stroke(); } g.setLineDash([]);
-  // long jointed fingers hooked over the edge
-  for (const sx of [-1, 1]) for (let i = 0; i < 4; i++) {
-    const x = CX + sx * (262 + i * 44), len = [165, 195, 185, 140][i], y0 = top - 34;
+  for (const x of seams) { g.beginPath(); g.moveTo(x, top + 70); g.lineTo(x, top + h); g.stroke(); } g.setLineDash([]);
+}
+// four long jointed fingers hooked over the edge, starting at x and spreading outward in direction sx
+export function hookHand(g, x0, top, sx) {
+  for (let i = 0; i < 4; i++) {
+    const x = x0 + sx * i * 44, len = [165, 195, 185, 140][i], y0 = top - 34;
     g.save(); g.translate(x, y0 + 20); g.rotate(sx * (i - 1.5) * 0.035); g.translate(-x, -y0 - 20);
     g.fillStyle = 'rgba(0,0,0,0.4)'; rr(g, x - 15, y0 + 22, 34, len + 10, 17); g.fill();
     rr(g, x - 17, y0, 34, len, 17); g.fillStyle = linGrad(g, 0, y0, 0, y0 + len, ['#f4f4f4', '#c4c4c4']); g.fill();
@@ -97,6 +101,14 @@ function peeker(g, { bg, glowCol, outline }) {
     rr(g, x - 10, y0 + len - 36, 20, 26, 9); g.fillStyle = '#9a9aa2'; g.fill(); g.strokeStyle = 'rgba(0,0,0,0.45)'; g.lineWidth = 3; g.stroke();
     g.restore();
   }
+}
+function peeker(g, { bg, glowCol, outline }) {
+  g.fillStyle = bg; g.fillRect(0, 0, E.W, E.H);
+  g.fillStyle = radGrad(g, CX, CY - 120, 0, 650, [alpha(glowCol, 0.3), alpha(glowCol, 0)]); g.fillRect(0, 0, E.W, E.H);
+  const top = CY + 235;
+  passengerHead(g, CX, top, outline);
+  seatBack(g, CX - 640, CX + 640, top, 600, outline, [CX - 210, CX + 210]);
+  hookHand(g, CX - 262, top, -1); hookHand(g, CX + 262, top, 1);
 }
 registerShot('avatarPeeker', { draw(g) { peeker(g, { bg: '#060607', glowCol: '#78829a' }); } });
 registerShot('avatarPeekerYellow', { draw(g) { peeker(g, { bg: YELLOW, glowCol: '#fff3c4', outline: true }); } });

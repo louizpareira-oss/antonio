@@ -41,11 +41,15 @@ The first line is what YouTube shows under the channel name in search, so it car
 skotoma, night support, analog horror, horror rules, survival guide, survival protocol, animated horror,
 horror animation, scary stories, creepy rules, creepypasta, 3am, if your ever, do not look
 
-## Banner text (2560×1440, keep text inside the centre 1546×423 safe area)
+## Banner (2560×1440)
 
-- Big: **SKOTOMA**
-- Under it: `NIGHT SUPPORT // NEW CALL EVERY WEEK`
-- Corner clock: `03:07 AM`
+Files: `aitrends-2d-studio-horror/projects/skotoma-banner/banner.png` (`banner.jpg` is a smaller copy). Drawn in
+`projects/skotoma-banner/scenes/banner.js`, which reuses the Passenger parts from `skotoma-brand/scenes/brand.js`.
+`build/banner_preview.png` shows the TV, desktop and phone crops.
+
+- Phone safe area (centre 1546×423): **SKOTOMA**, the tagline "Survival rules for the things you were never supposed to
+  see.", the Passenger peeking over a car seat back, and `● NIGHT SUPPORT // NEW CALL EVERY WEEK` on the seat.
+- Desktop and TV only: a lone hand gripping the seat on the far left, and a second Passenger half off the right edge.
 
 ## Profile picture (800×800)
 
@@ -54,7 +58,7 @@ Files: `aitrends-2d-studio-horror/projects/skotoma-brand/avatar_{A_passenger,B_p
 
 - **A, The Passenger (black):** a pale face with hollow eyes and pinpoint pupils, peeking over a car seat back.
   Long fingers hook over the edge, and the dashboard's amber light hits one side. It's the thing from CALL 001.
-- **B, The Passenger (yellow):** the same character on warning-sign yellow. None of the big rule channels use yellow:
+- **B, The Passenger (yellow), CHOSEN:** the same character on warning-sign yellow. None of the big rule channels use yellow:
   Bradikinin and Final Sight are red, Pictofear is black.
 - **C, Don't Look:** a nervous character covering its eyes, with one eye peeking between two fingers (rule 1).
 

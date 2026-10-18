@@ -1,0 +1,7 @@
+{
+ "title": "SKOTOMA banner",
+ "duration": 1.0,
+ "shots": [
+  { "id": "banner", "start": 0, "end": 1.0, "line": "", "scene": "yellow banner: SKOTOMA + tagline left, the passenger peeking over a seat back right", "vignette": false }
+ ]
+}

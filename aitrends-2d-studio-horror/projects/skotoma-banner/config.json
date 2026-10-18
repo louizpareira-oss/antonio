@@ -1,0 +1,12 @@
+{
+ "title": "SKOTOMA channel banner (2560x1440)",
+ "aspect": "16:9",
+ "resolution": "1440p",
+ "fps": 24,
+ "style": "nightsupport",
+ "captions": false,
+ "bars": "none",
+ "fadeIn": 0,
+ "fadeOut": 0,
+ "duration": 1.0
+}
