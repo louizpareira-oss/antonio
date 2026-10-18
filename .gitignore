@@ -1,5 +1,7 @@
-# aiTrends 2D Studio (Horror) workspace install: npm packages and renders stay local
-aitrends-2d-studio-horror/node_modules/
+# aiTrends 2D Studio (Horror) workspace install: the engine is a copy of
+# .claude/skills/horror-make-2d-video/kit, so only video projects are tracked
+aitrends-2d-studio-horror/*
+!aitrends-2d-studio-horror/projects/
 aitrends-2d-studio-horror/**/build/
 aitrends-2d-studio-horror/**/out/
 __pycache__/
