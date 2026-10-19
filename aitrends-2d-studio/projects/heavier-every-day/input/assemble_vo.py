@@ -25,7 +25,7 @@ PAD_BEFORE, PAD_AFTER = 0.45, 0.6
 SLOTS = [(("to", "float"), "takes/grandpa_float_take1.mp3"),
          (("same", "thing"), "takes/grandpa_kiddo_take1.mp3"),
          (("the", "planet"), "takes/voss_take1.mp3"),
-         (("were", "five"), "takes/grandpa_floats_take1.mp3")]
+         (("were", "five"), "takes/grandpa_floats_take2.mp3")]
 
 
 def load(path, af=None):

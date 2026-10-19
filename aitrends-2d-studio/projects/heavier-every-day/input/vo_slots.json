@@ -1,0 +1,26 @@
+{
+ "tempo": 0.93,
+ "extra_pause": 0.22,
+ "slots": [
+  {
+   "take": "takes/grandpa_float_take1.mp3",
+   "start": 112.08,
+   "end": 118.0
+  },
+  {
+   "take": "takes/grandpa_kiddo_take1.mp3",
+   "start": 219.47,
+   "end": 221.55
+  },
+  {
+   "take": "takes/voss_take1.mp3",
+   "start": 253.09,
+   "end": 258.13
+  },
+  {
+   "take": "takes/grandpa_floats_take2.mp3",
+   "start": 325.24,
+   "end": 333.16
+  }
+ ]
+}
