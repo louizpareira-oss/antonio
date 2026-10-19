@@ -4,7 +4,7 @@
 What If You Got 2x Heavier Every Single Day?
 
 ## Thumbnail
-`projects/heavier-every-day-thumb/out/thumbnail.jpg` (the version the user picks).
+`projects/heavier-every-day-thumb/out/thumbnail.jpg` — version B, "TOO HEAVY." (picked by the user, Oct 19).
 
 ## Description (paste everything between the lines)
 Pattern from the viral examples (`docs/12-viral-descriptions.md`): 3 hashtags on top, the title question as the hook,
