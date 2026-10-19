@@ -8,13 +8,13 @@ export { heroFace, hand, say, chip, bigNum, checkMark, crossMark, impact, debris
 import { GOLD, CORAL, fmt, stamp } from '/projects/stronger-couldnt-stop/scenes/lib.js';
 
 export const kg = (day) => 70 * 2 ** day;
-// "560 kg", "8,960 kg", "35,840 kg", then tonnes from day 10: "72 t", "143 t", "73,400 t"
-export const wStr = (day) => day < 10 ? fmt(kg(day)) + ' kg' : fmt(Math.round(kg(day) / 1000 / (day < 12 ? 1 : 100)) * (day < 12 ? 1 : 100)) + ' t';
+// "560 kg", "8,960 kg", "35,840 kg", then tonnes (3 significant figures) from day 10: "72 t", "143 t", "73,400 t"
+export const wStr = (day) => day < 10 ? fmt(kg(day)) + ' kg' : fmt(Number((kg(day) / 1000).toPrecision(3))) + ' t';
 
 // top-left badge: DAY n │ weight. flip 0..1 animates from day-1 to day (split-flap on the weight)
 export function weightBadge(g, o = {}) {
-  const { day = 1, k = 1, flip = 1, danger = false, x = V(70, 50), y = V(118, 210), label = null } = o; if (k <= 0.01) return;
-  const col = danger ? CORAL() : GOLD(), left = label ?? `DAY ${day}`, q = clamp(flip), right = q < 0.5 && day > 0 ? wStr(day - 1) : wStr(day);
+  const { day = 1, k = 1, flip = 1, danger = false, x = V(70, 50), y = V(118, 210), label = null, value = null } = o; if (k <= 0.01) return;
+  const col = danger ? CORAL() : GOLD(), left = label ?? `DAY ${day}`, q = clamp(flip), right = value ?? (q < 0.5 && day > 0 ? wStr(day - 1) : wStr(day));
   const ls = 30, rs = 40, lw = measure(g, left, ls, FONTS.ui, 900), rw = measure(g, right, rs, FONTS.ui, 900), w = lw + rw + 92, h = 66, sc = 0.8 + 0.2 * ease.outBack(clamp(k));
   g.save(); g.globalAlpha *= clamp(k * 2); g.translate(x, y); g.scale(sc, sc);
   rr(g, 0, -h / 2, w, h, h / 2); g.fillStyle = 'rgba(10,12,24,.82)'; g.fill(); g.strokeStyle = alpha(col, 0.7); g.lineWidth = 2.5; g.stroke();
@@ -73,6 +73,7 @@ export const LOADS = {
   elephant(g, s = 1) { const c = '#8a8a98'; g.save(); g.scale(s, s); rr(g, -170, -260, 300, 180, 80); g.fillStyle = c; g.fill(); for (const lx of [-140, -80, 50, 100]) { rr(g, lx - 24, -110, 48, 110, 14); g.fill(); } circle(g, 150, -220, 80, c); g.beginPath(); g.ellipse(110, -210, 50, 75, 0.2, 0, Math.PI * 2); g.fillStyle = shade(c, -0.12); g.fill(); seg(g, [[200, -190], [230, -120], [215, -60]], 30, c); circle(g, 165, -240, 7, '#fff'); poly(g, [[190, -175], [240, -160], [195, -160]], '#f4efe6'); g.restore(); },
   firetruck(g, s = 1) { g.save(); g.scale(s, s); rr(g, -260, -190, 520, 150, 16); g.fillStyle = '#c8241a'; g.fill(); rr(g, 120, -260, 140, 90, 12); g.fill(); rr(g, 150, -245, 90, 50, 8); g.fillStyle = '#bfe0f0'; g.fill(); seg(g, [[-240, -215], [90, -215]], 14, '#c8c8d0'); for (let i = 0; i < 9; i++) seg(g, [[-230 + i * 38, -225], [-230 + i * 38, -205]], 5, '#c8c8d0'); g.fillStyle = '#f2c21a'; g.fillRect(-260, -110, 520, 14); for (const wx of [-180, -90, 170]) { circle(g, wx, -40, 42, '#16141c'); circle(g, wx, -40, 16, '#9aa0aa'); } g.restore(); },
   semi(g, s = 1) { g.save(); g.scale(s, s); rr(g, -330, -300, 470, 240, 8); g.fillStyle = '#e8e4dc'; g.fill(); g.strokeStyle = '#9aa0aa'; g.lineWidth = 4; g.stroke(); rr(g, 150, -250, 150, 190, 16); g.fillStyle = '#2a6a8a'; g.fill(); rr(g, 190, -235, 90, 60, 8); g.fillStyle = '#bfe0f0'; g.fill(); for (const wx of [-280, -200, 120, 260]) { circle(g, wx, -40, 40, '#16141c'); circle(g, wx, -40, 15, '#9aa0aa'); } text(g, '36 t', -95, -180, { size: 70, color: '#9aa0aa', font: FONTS.ui, weight: 900 }); g.restore(); },
+  earth(g, s = 1) { g.save(); g.scale(s, s); glow(g, 0, -170, 260, '#6ac8ff', 0.4); circle(g, 0, -170, 170, '#2a6ad0'); g.fillStyle = '#4a9a4a'; for (const [x, y, rx, ry] of [[-60, -230, 70, 40], [50, -120, 60, 70], [-80, -100, 40, 30], [70, -250, 40, 20]]) { g.beginPath(); g.ellipse(x, y, rx, ry, 0.3, 0, Math.PI * 2); g.fill(); } g.fillStyle = alpha('#ffffff', 0.5); g.beginPath(); g.ellipse(-10, -300, 90, 14, 0, 0, Math.PI * 2); g.fill(); ring(g, 0, -170, 170, 4, alpha('#cfefff', 0.6)); g.restore(); },
   titanic(g, s = 1) { g.save(); g.scale(s, s); poly(g, [[-420, -140], [420, -140], [380, 0], [-380, 0]], '#1e1a22'); g.fillStyle = '#f4efe6'; g.fillRect(-400, -200, 760, 60); g.fillStyle = '#c8241a'; g.fillRect(-420, -40, 800, 30); for (const fx of [-220, -80, 60, 200]) { rr(g, fx - 28, -330, 56, 130, 4); g.fillStyle = '#e8a43a'; g.fill(); g.fillStyle = '#1e1a22'; g.fillRect(fx - 28, -330, 56, 30); } g.fillStyle = '#ffd890'; for (let i = 0; i < 26; i++) circle(g, -370 + i * 29, -110, 6); g.restore(); },
 };
 // round weight-limit road sign
@@ -87,6 +88,22 @@ export function footprint(g, x, y, s = 1, depth = 1, rot = 0) {
   g.strokeStyle = alpha('#c8b8a8', 0.6); g.lineWidth = 4; g.beginPath(); g.ellipse(0, 0, 36, 76, 0, Math.PI * 1.1, Math.PI * 1.9); g.stroke();
   for (let i = 0; i < 6; i++) { const a = i / 6 * Math.PI * 2; seg(g, [[Math.cos(a) * 40, Math.sin(a) * 80], [Math.cos(a) * 64, Math.sin(a) * 104]], 3, alpha('#14121a', 0.6 * depth)); }
   g.restore();
+}
+
+// ---------- blueprint pages (the "is any of this real?" look, brightened) ----------
+export const BP = () => S().ui.blueprint, CREAM = () => S().ui.cream;
+export function bp(g) { g.fillStyle = linGrad(g, 0, 0, 0, E.H, ['#22386a', '#1a2c58']); g.fillRect(-E.W, -E.H, E.W * 3, E.H * 3); glow(g, E.W * 0.5, E.H * 0.5, 1100, '#5a7ac0', 0.45);
+  g.strokeStyle = alpha(BP(), 0.1); g.lineWidth = 1; for (let x = 0; x <= E.W; x += 60) { g.beginPath(); g.moveTo(x, 0); g.lineTo(x, E.H); g.stroke(); } for (let y = 0; y <= E.H; y += 60) { g.beginPath(); g.moveTo(0, y); g.lineTo(E.W, y); g.stroke(); } }
+export function label(g, str, x, y, o = {}) { text(g, str, x, y, { size: o.size || 44, color: o.color || CREAM(), font: FONTS.ui, weight: 900, spacing: o.spacing ?? 3, align: o.align || 'center', alpha: o.a ?? 1, glow: o.glow ? 14 : 0, glowColor: alpha(o.color || CREAM(), 0.6) }); }
+// arrow from a to b (blueprint style)
+export function arrow(g, a, b, col, w = 6, k = 1) { if (k <= 0) return; const ex = lerp(a[0], b[0], clamp(k)), ey = lerp(a[1], b[1], clamp(k)), ang = Math.atan2(b[1] - a[1], b[0] - a[0]); seg(g, [a, [ex, ey]], w, col); poly(g, [[ex + Math.cos(ang) * w * 2, ey + Math.sin(ang) * w * 2], [ex + Math.cos(ang + 2.4) * w * 3, ey + Math.sin(ang + 2.4) * w * 3], [ex + Math.cos(ang - 2.4) * w * 3, ey + Math.sin(ang - 2.4) * w * 3]], col); }
+// brass diving helmet over a head at (hx, hy) radius r (draw after the figure); o.face = expr shown through the port
+export function helmet(g, hx, hy, r, o = {}) {
+  const R = r * 1.75; circle(g, hx, hy + r * 0.2, R, '#c8923a'); g.fillStyle = linGrad(g, hx - R, hy - R, hx + R, hy + R, ['#ffd890', '#c8923a', '#7a5020']); g.beginPath(); g.arc(hx, hy + r * 0.2, R, 0, Math.PI * 2); g.fill();
+  ring(g, hx, hy + r * 0.2, R, r * 0.12, '#7a5020'); rr(g, hx - R * 1.05, hy + R * 0.75, R * 2.1, r * 0.5, r * 0.2); g.fillStyle = '#9a6a2a'; g.fill();
+  circle(g, hx + (o.facing ?? 1) * r * 0.25, hy + r * 0.05, r * 1.0, '#5a3a14'); circle(g, hx + (o.facing ?? 1) * r * 0.25, hy + r * 0.05, r * 0.86, o.glass || '#9fd8e8');
+  g.save(); g.beginPath(); g.arc(hx + (o.facing ?? 1) * r * 0.25, hy + r * 0.05, r * 0.86, 0, Math.PI * 2); g.clip(); bigFace(g, hx + (o.facing ?? 1) * r * 0.3, hy + r * 0.15, r * 0.72, { outfit: o.outfit || {}, expr: o.expr || 'determined', look: o.look || [0, 0], rimColor: '#9fd8e8' }); g.fillStyle = alpha('#ffffff', 0.25); g.beginPath(); g.ellipse(hx - r * 0.2, hy - r * 0.4, r * 0.35, r * 0.15, -0.5, 0, Math.PI * 2); g.fill(); g.restore();
+  for (let i = 0; i < 8; i++) { const a = i / 8 * Math.PI * 2; circle(g, hx + (o.facing ?? 1) * r * 0.25 + Math.cos(a) * r * 0.93, hy + r * 0.05 + Math.sin(a) * r * 0.93, r * 0.07, '#e8c070'); }
 }
 
 // ---------- flat UI screens (all in screen space, centred at cx, cy) ----------

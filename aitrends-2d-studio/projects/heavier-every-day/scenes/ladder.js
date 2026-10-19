@@ -12,6 +12,6 @@ export function ladder(g, t, info, day, loadKey, o = {}) {
   layer(g, cam, 1, (g) => { seesaw(g, R.CX, R.GY - 150, o.L || 1500, tilt,
     (g) => drawFigure(g, { x: 0, y: 0, s: 1.3, facing: 1, outfit: YOU, pose: breathe(POSES.stand, t), expr: 'smirk', look: [1, -0.2], rim: { color: WARM, dir: [0.6, -0.6] } }),
     (g) => { LOADS[loadKey](g, o.s || 0.9); }); });
-  const lab = o.label || loadKey.toUpperCase(); text(g, `= ${lab}`, E.W * 0.74, E.H * 0.2, { size: 64, color: '#ffffff', font: FONTS.ui, weight: 900, stroke: 9, strokeColor: '#140c1e', alpha: ease.out(prog(t, 0.1, 0.4)) });
-  weightBadge(g, { day, k: 1, flip: prog(t, 0, 0.3) });
+  const lab = o.label || loadKey.toUpperCase(); text(g, `${o.win ? '>' : '='} ${lab}`, E.W * 0.74, E.H * 0.2, { size: 64, color: '#ffffff', font: FONTS.ui, weight: 900, stroke: 9, strokeColor: '#140c1e', alpha: ease.out(prog(t, 0.1, 0.4)) });
+  weightBadge(g, { day, k: 1, flip: prog(t, 0, 0.3), value: o.value ?? null });
 }
