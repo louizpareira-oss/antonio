@@ -40,8 +40,8 @@ Sources: Consumer Reports (Hyundai rear occupant alert); Virginia Tech Transport
 
 What has YOUR car beeped at? Tell us in the comments. Wrong answers only.
 
-ABOUT NIGHT SUPPORT
-One call. One situation. Seven rules that get you home. Subscribe while your passenger seat is still empty.
+ABOUT SKOTOMA
+Every video is a call to NIGHT SUPPORT. One situation. Seven rules that get you home. Subscribe while your passenger seat is still empty.
 
 This is a work of fiction. The animation, script, music and sound effects are original; the narrator's voice is AI-generated. Your car is probably just beeping at your groceries. Probably.
 
