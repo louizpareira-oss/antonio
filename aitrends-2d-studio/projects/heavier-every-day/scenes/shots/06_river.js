@@ -8,6 +8,7 @@ import * as UI from '/engine/ui2d.js';
 import { atlasLogo } from '/projects/stronger-couldnt-stop/scenes/lib.js';
 import { river, underwater, house, pad, capsule, orbit } from '../sets/world.js';
 import { YOU, KIDYOU, GRANDPA, ATLAS } from '../cast.js';
+import { floatShot } from '../space.js';
 import { heroFace, chip, bigNum, impact, wt, GOLD, CORAL, weightBadge, midnightClock, grandpa, grandpaFace, FLOORSIT, helmet, crossMark, checkMark, bp, label, arrow, BP, CREAM, limitSign } from '../lib.js';
 
 const DAWN = '#ffe2b8', SUN = '#ffd08a', COLD = '#9fe0ff', LAMP = '#ffcf8a';
@@ -191,15 +192,6 @@ registerShot('s124', { draw(g, t, info) {
   g.save(); g.translate(0, 40 + 120 * sep); g.rotate(0.6 * sep); rr(g, -30, 0, 60, 260, 12); g.fillStyle = '#c8ccd6'; g.fill(); g.fillStyle = '#1e2230'; g.fillRect(-30, 100, 60, 14); g.restore();
   if (sep > 0 && sep < 0.6) glow(g, 0, 30, 120, '#ffffff', 0.6 * (1 - sep / 0.6)); g.restore();
 } });
-// capsule interior with you; o.float 0..1 lifts you off the seat, o.lie rotates you flat, o.spread opens your arms
-function floatShot(g, t, info, o = {}) {
-  const k = t / info.dur, cam = { z: 1.3 + 0.05 * k, x: -120, y: 40 }, C = capsule(g, t, cam, { earth: o.earth ?? true, rise: 80 * k });
-  layer(g, cam, 0.9, (g) => { const f = o.float || 0, x = C.CX - 260 + 60 * f, y = C.CY + 160 + 72 * 1.5 - 220 * f + 12 * Math.sin(t * 1.5) * f, sp = o.spread || 0;
-    const pose = f > 0.3 ? { ...POSES.relaxed, hF: [lerp(20, 96, sp), lerp(-110, -200, sp)], eF: [lerp(16, 50, sp), lerp(-140, -190, sp)], hB: [lerp(-14, -96, sp), lerp(-110, -200, sp)], eB: [lerp(-10, -50, sp), lerp(-140, -190, sp)], fF: [lerp(10, 40, sp), 0], fB: [lerp(-10, -40, sp), 0] } : POSES.sit;
-    drawFigure(g, { x, y, s: 1.5, facing: 1, rot: -(o.lie || 0) * Math.PI / 2 + 0.12 * f * Math.sin(t * 0.9), outfit: YOU, pose, expr: o.expr || 'smile', look: o.look || [0.6, -0.2], rim: { color: '#cfe8ff', dir: [1, -0.4] }, shadow: false });
-    if (f < 0.5) for (const dy of [-60, -120]) seg(g, [[x - 40, y + dy * 1.5 + 220 * f], [x + 50, y + dy * 1.5 + 220 * f + 30]], 10, alpha('#2a3346', 1 - f * 2)); });
-  FX.dust(g, t, { count: 40, color: '#ffffff', a: 0.4, speed: 4 });
-}
 // s125 — "…the engines stop."  silence in the capsule
 registerShot('s125', { draw(g, t, info) { floatShot(g, t, info, { float: 0, expr: 'surprised', look: [0, -0.5] }); chip(g, 'ENGINES OFF', E.W / 2, E.H * 0.16, { size: 44, k: prog(t, 0.2, 0.5) }); } });
 // s126 — "And you float."  you lift off the seat

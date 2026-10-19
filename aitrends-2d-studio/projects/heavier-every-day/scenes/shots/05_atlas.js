@@ -81,7 +81,7 @@ registerShot('s083', { draw(g, t, info) {
 registerShot('s084', { draw(g, t, info) {
   const k = t / info.dur; blurLayer(g, 14, (g) => garageDoor(g, t, { z: 1.3, x: 0, y: 0 }, 1)); veil(g, '#0e1430', 0.25);
   const s = 1 + 0.04 * k, x = E.W * 0.17, y = E.H * 0.12, w = E.W * 0.66, h = E.H * 0.76; g.save(); g.translate(E.W / 2, E.H / 2); g.scale(s, s); g.translate(-E.W / 2, -E.H / 2);
-  rr(g, x - 26, y - 26, w + 52, h + 52, 44); g.fillStyle = '#14161e'; g.fill(); rr(g, x, y, w, h, 24); g.fillStyle = '#0f1a2a'; g.fill();
+  rr(g, x - 26, y - 26, w + 52, h + 52, 44); g.fillStyle = '#14161e'; g.fill(); rr(g, x, y, w, h, 24); g.fillStyle = linGrad(g, 0, y, 0, y + h, ['#1e3458', '#14243e']); g.fill(); glow(g, x + w / 2, y + h / 2, 700, ATLAS, 0.12);
   atlasLogo(g, x + 60, y + 58, 0.7, ATLAS); uiText(g, 'FORECAST · SUBJECT: YOU', x + 110, y + 58, 34, { color: '#ffffff', weight: 900, spacing: 2 }); uiText(g, 'WEIGHT BY DAY', x + w - 300, y + 58, 26, { color: ATLAS, weight: 900 });
   const cx0 = x + 120, cx1 = x + w - 60, cy0 = y + h - 90, cy1 = y + 140, X = (d) => lerp(cx0, cx1, d / 80), Y = (d) => lerp(cy0, cy1, (Math.log10(kg(d)) - 2) / 23.5);
   seg(g, [[cx0, cy1], [cx0, cy0], [cx1, cy0]], 3, alpha('#ffffff', 0.5)); for (const d of [0, 20, 40, 60, 80]) uiText(g, `${d}`, X(d) - 10, cy0 + 36, 22, { color: alpha('#ffffff', 0.6) }); uiText(g, 'DAY', cx1 - 50, cy0 + 70, 22, { color: alpha('#ffffff', 0.6) });
