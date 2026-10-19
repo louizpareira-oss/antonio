@@ -6,9 +6,11 @@
 - 16:9 defaults: cinematic letterbox bars, no burned-in captions, end screen with a "What would YOU do?" question + subscribe.
 - Voiceovers come from the ElevenLabs connector; word timings from `tools/align_offline.py` (huggingface.co is blocked here).
 - Channel: **Parallel You** (@ParallelYou), tagline "Every what if, lived by you.", business email parallelyou.business@gmail.com.
-  Brand kit: `aitrends-2d-studio/projects/parallel-you-brand/channel.md`. Descriptions follow the style in
-  `aitrends-2d-studio/projects/see-10-seconds/story/youtube.md` (hashtags first, short "you" lines, teasing chapters, then
-  the Parallel You sign-off).
+  Brand kit: `aitrends-2d-studio/projects/parallel-you-brand/channel.md`. Descriptions follow the template in
+  `docs/12-viral-descriptions.md` (measured from the viral examples the user shared, Oct 19): 3 hashtags on top, the
+  title question, short "you" lines with a "Sounds amazing. Until…" turn, "This is Part 1." when there's a sequel, one
+  specific "Be honest…" comment question, a 📺 link to our previous video, chapters, the Parallel You sign-off, 4
+  hashtags at the end. Example: `aitrends-2d-studio/projects/stronger-couldnt-stop/story/youtube.md`.
 - **Tools (decided with the user, Oct 18):** the video is always built in the 2D studio (no AI video clips). Thumbnails
   use OpenArt *images* in a 3D look like the "ONLY ME." reference (15–40 credits each; confirm before spending). The
   OpenArt CDN is blocked here, so the user downloads the image and sends it; text and finishing are added here.

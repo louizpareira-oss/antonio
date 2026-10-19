@@ -9,24 +9,25 @@ vidIQ scored this title 98/100. A second title to test later: "What If Your Stre
 `projects/stronger-couldnt-stop-thumb/out/thumbnail.jpg` — version A, "I CAN'T HOLD HER." (picked by the user, Oct 18).
 
 ## Description (paste everything between the lines)
-Style: the same as "See 10 Seconds": hashtags first, short "you" lines, a turn and a cliffhanger, teasing chapter
-names, one comment question, a separator, then the tagline, subscribe line and business email.
-Chapters: YouTube shows no chapters if any one is shorter than 10 seconds. The shortest here is 14 s (5:05–5:19).
-The video is 7:56.
+Pattern from the viral examples (`docs/12-viral-descriptions.md`): 3 hashtags on top, the title question as the hook,
+short "you" lines with a "Sounds amazing. Until…" turn, one specific comment question, a 📺 link to our previous video,
+chapters, then the sign-off. The shortest chapter is 14 s (5:05–5:19); the video is 7:56.
+**One step for you:** on the empty line under "📺 Watch next", paste the YouTube link of your "See 10 Seconds" video
+(YouTube turns it into a clickable video card). Delete that empty line if you don't add a link.
 
 ---
-#whatif #superstrength #animation
-What if you got twice as strong every morning? And it never stopped?
+#whatif #animation #superpower
+What if you got twice as strong every morning… and it never stopped?
 
-Day six, your phone folds in half. Day seven, your best friend lands in a hedge. Day eight, you sneeze and every window in the kitchen cracks.
-Day nine, you're the strongest person on Earth. And your baby sister, Lily, is born.
+Day 6, your phone folds in half. Day 8, you sneeze and every window cracks. Day 13, you lift 400 tonnes with one hand.
+Sounds amazing. Until your baby sister is born, and you're the only one who can't hold her.
 
-Everyone gets to hold her. Except you.
+This is Part 1.
 
-Then the black van shows up. Project Atlas. A steel room inside a mountain. And a box of eggs.
+Be honest: what's the first thing you'd break? Drop it in the comments.
 
-Is any of it real? More than you'd think. Your body has brakes. Stay until the end, because the last 20 seconds change everything.
-What would YOU do if your strength doubled every day? Tell us in the comments.
+📺 Watch next: What If You Could See 10 Seconds Into the Future?
+
 
 0:00 Day six
 0:25 Twice as strong, every morning
@@ -42,20 +43,17 @@ What would YOU do if your strength doubled every day? Tell us in the comments.
 6:23 Is any of this real?
 7:19 Day twenty
 
-The real science: a protein called myostatin tells your muscles when to stop growing. Belgian Blue cattle are born without that brake, and in 2004 doctors in Germany described a baby boy with the same mutation. Your tendons have sensors that tell a muscle to ease off before it tears. And size is a brake too: make an animal twice as big and its muscles get 4 times stronger, but its body gets 8 times heavier. That's why an ant can carry many times its own weight, and an elephant can't jump.
+Real science: a protein called myostatin is your muscles' brake. Some animals, and one baby boy in Germany, were born without it.
 
-An animated What If story about super strength, exponential growth, family and the science of how strong a body can get. This is a work of fiction.
-
------
 Parallel You: every what if, lived by you.
 Subscribe so you don't miss Part 2: @ParallelYou
 Business inquiries: parallelyou.business@gmail.com
 
-#whatif #animation #superpower #superstrength #strength #science #parallelyou
+#whatif #superpower #animation #parallelyou
 ---
 
 ## Pinned comment
-Part 2 is coming. Lily is eleven days old and already pulling the bars off her crib. What would YOU do if your strength doubled every day?
+Lily is 11 days old and already twice as strong as yesterday. Part 2: who wins, you or Lily? 👇
 
 ## Tags (for the Tags box, under 500 characters)
 what if, what if video, what if you got stronger, strength doubled every day, what if your strength doubled,

@@ -4,16 +4,16 @@ Same 16:9 video as YouTube. TikTok captions are searched like keywords, so the f
 No chapters (TikTok doesn't use them) and no email (it isn't clickable in a caption; it goes in the bio).
 
 ## Caption (paste everything between the lines)
+Same pattern as YouTube (`docs/12-viral-descriptions.md`): the title question, a "Sounds amazing. Until…" turn and one
+specific comment question. 7 hashtags.
 ---
-What if you got stronger every day and couldn't stop?
+What if you got twice as strong every morning… and couldn't stop?
 
-Day six, your phone folds in half. Day eight, you sneeze and every window cracks.
-Then your baby sister is born, and everyone gets to hold her. Except you.
+Sounds amazing. Until your baby sister is born, and you're the only one who can't hold her.
 
-Watch till the end: Lily is eleven days old, and she just pulled the bars off her crib.
-What would YOU do if your strength doubled every day? 👇
+Be honest: what's the first thing you'd break? 👇
 
-#whatif #superstrength #superpower #animation #storytime #science #parallelyou
+#whatif #superpower #animation #storytime #superstrength #science #parallelyou
 ---
 
 ## Settings
