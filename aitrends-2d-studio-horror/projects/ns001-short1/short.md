@@ -16,7 +16,7 @@ who drove.", which leaves a cliffhanger that only the full video answers.
    ```
 4. **Related video:** pick the long video. This puts a button on the Short that opens the full video, and it's the
    whole point of posting Shorts.
-5. "Altered or synthetic content": **Yes** (AI narrator voice), same as the long video.
+5. AI use: **No**, same as the long video (generic AI narrator voice over animation; none of YouTube's four cases apply).
 
 ## Next Shorts from the same video (same pipeline, a new time range and hook)
 

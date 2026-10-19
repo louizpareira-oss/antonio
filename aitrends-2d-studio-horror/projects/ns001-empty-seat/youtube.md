@@ -56,7 +56,32 @@ seatbelt alarm empty seat, car beeping for no reason, passenger seat sensor, sea
 
 What has your car beeped at? Wrong answers only. (Ours was a pizza.)
 
-## Before you post
+## YouTube Studio settings (Details page)
 
-- YouTube Studio → "Altered or synthetic content": mark **Yes** (the narration voice is AI-generated with ElevenLabs).
-- Visuals are code-drawn animation (no AI images), music and SFX are generated locally by the studio.
+| Field | Set to |
+|---|---|
+| Title | the title above |
+| Description | the block above |
+| Thumbnail | Upload `thumbnail_B.jpg`. Optional: Test & compare with `thumbnail.jpg` |
+| Playlists | New playlist **NIGHT SUPPORT** (public). Every call goes in it, so viewers binge the series |
+| Audience | **No, it's not made for kids**. Age restriction: **none** (no gore; restricting cuts reach) |
+| Paid promotion | No |
+| AI use | **No**. None of the four cases apply: the narrator is a generic ElevenLabs voice (not a real person), the visuals are clearly animation, and the music isn't AI. YouTube doesn't require a label for that. The description already says the voice is AI |
+| Automatic chapters | Leave on (the chapters in the description take priority) |
+| Featured places / Automatic concepts | Off (nothing to show; concepts could add off-topic links) |
+| Tags | paste the tag list above (374/500 characters) |
+| Video language / Title and description language | English (United States) / English |
+| Caption certification | None |
+| Subtitles | Subtitles → Add language English → Upload file → **With timing** → `subtitles_en.srt` |
+| License / embedding / subscriptions feed | Standard; allow embedding; publish to subscriptions feed: on |
+| Shorts remixing | Allow video and audio remixing (other people's Shorts link back to you) |
+| Category | **Film & Animation** (not People & Blogs) |
+| Comments | On, anyone, sort by Top; show like count: on |
+
+**Next page (Video elements):** add an **end screen** at 3:40 with a Subscribe element (and the NIGHT SUPPORT playlist
+once there's more than one call).
+
+**After publishing:** pin the comment above, then upload the Short (`../ns001-short1/short.md`) with this video as its
+related video.
+
+Visuals are code-drawn animation (no AI images); music and SFX are generated locally by the studio.
