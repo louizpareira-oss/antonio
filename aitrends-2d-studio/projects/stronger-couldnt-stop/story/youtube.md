@@ -62,7 +62,9 @@ myostatin, belgian blue, square cube law, what would you do
 
 ## Upload settings (same as last time)
 - Audience: No, it's not made for kids.
-- Altered or synthetic content: Yes (the voices are AI-generated).
+- AI use (YouTube asks for it on upload): disclose it. The voices are AI-generated (ElevenLabs, designed voices, not
+  clones of real people) and the script was written with AI help. Nothing shows a real person, real footage or a
+  realistic scene: the picture is stick-figure animation drawn by code, and the thumbnail was drawn in the studio.
 - Category: Film & Animation.
 - End screen: the last 12 s (7:43–7:56) show the question, a comment bubble and Subscribe; place the YouTube end-screen
   elements over the empty middle area.

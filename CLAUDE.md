@@ -4,6 +4,8 @@
   `docs/10-what-if-style-reference.md`. Do not make 9:16 unless the user asks for it for a specific video.
 - Videos are built with the 2D studio in `aitrends-2d-studio/` (one folder per video in `projects/<slug>/`).
 - 16:9 defaults: cinematic letterbox bars, no burned-in captions, end screen with a "What would YOU do?" question + subscribe.
+- **YouTube "AI use" on upload:** always disclose honestly: AI-generated voices (ElevenLabs) and AI-assisted script;
+  no real people, no real footage, no realistic scenes (stick-figure animation drawn by code). Same on TikTok (AI-generated content: on).
 - Voiceovers come from the ElevenLabs connector; word timings from `tools/align_offline.py` (huggingface.co is blocked here).
 - Channel: **Parallel You** (@ParallelYou), tagline "Every what if, lived by you.", business email parallelyou.business@gmail.com.
   Brand kit: `aitrends-2d-studio/projects/parallel-you-brand/channel.md`. Descriptions follow the template in
