@@ -38,6 +38,8 @@
 1. Script in `scripts/NN-<slug>.md` (next number after the last one), approved by the user before voicing.
 2. Voices: ask whether to reuse the narrator "What-If Narrator (relaxed)" and the side-character voices or design new ones.
 3. Video in `aitrends-2d-studio/projects/<slug>/`, final MP4 in its `out/`.
+   Long renders: render in 40-s pieces with `--from/--to --out build/segs/seg_NNN.mp4` and join them with ffmpeg concat;
+   the cloud container can restart while idle and kill a single 2-hour render (it happened on video 4).
 4. Thumbnail in `projects/<slug>-thumb/` (1280×720, big text + one danger moment).
 5. `story/youtube.md` (title, description, chapters each ≥ 10 s, pinned comment, tags) and `story/tiktok.md`
    (short caption, 7 hashtags, same 16:9 file).
