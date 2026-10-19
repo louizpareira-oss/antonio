@@ -2,7 +2,7 @@
 
 **Format:** 16:9 YouTube, 1920 × 1080, 24 fps, about 8½ minutes (1,169 words at ~138 words/min).
 **Style:** 2D studio, same stick-figure hero (blue hoodie). Follows the style rules in `CLAUDE.md`.
-**Status:** draft, waiting for the user's approval before voicing.
+**Status:** approved by the user (Oct 19). Next: voices.
 
 ## The rule of the story
 - At every midnight your weight doubles, from 70 kg on day 0.
