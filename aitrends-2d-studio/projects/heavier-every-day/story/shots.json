@@ -13,7 +13,14 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/01_hook.js"
+   "notes": "shots/01_hook.js",
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "crack",
+     "gain": -12
+    }
+   ]
   },
   {
    "id": "s002",
@@ -26,7 +33,18 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/01_hook.js"
+   "notes": "shots/01_hook.js",
+   "amb": {
+    "name": "city",
+    "gain": -24
+   },
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "footstep",
+     "gain": -14
+    }
+   ]
   },
   {
    "id": "s003",
@@ -39,7 +57,23 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/01_hook.js"
+   "notes": "shots/01_hook.js",
+   "amb": {
+    "name": "city",
+    "gain": -24
+   },
+   "sfx": [
+    {
+     "at": 0.83,
+     "name": "crack",
+     "gain": -8
+    },
+    {
+     "at": 0.93,
+     "name": "impact",
+     "gain": -14
+    }
+   ]
   },
   {
    "id": "s004",
@@ -52,7 +86,18 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/01_hook.js"
+   "notes": "shots/01_hook.js",
+   "amb": {
+    "name": "city",
+    "gain": -24
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "footstep",
+     "gain": -16
+    }
+   ]
   },
   {
    "id": "s005",
@@ -65,7 +110,18 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/01_hook.js"
+   "notes": "shots/01_hook.js",
+   "amb": {
+    "name": "city",
+    "gain": -24
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "pop",
+     "gain": -14
+    }
+   ]
   },
   {
    "id": "s006",
@@ -78,7 +134,18 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/01_hook.js"
+   "notes": "shots/01_hook.js",
+   "amb": {
+    "name": "city",
+    "gain": -24
+   },
+   "sfx": [
+    {
+     "at": 0.6,
+     "name": "hit",
+     "gain": -12
+    }
+   ]
   },
   {
    "id": "s007",
@@ -91,7 +158,23 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/01_hook.js"
+   "notes": "shots/01_hook.js",
+   "amb": {
+    "name": "city",
+    "gain": -24
+   },
+   "sfx": [
+    {
+     "at": 0.72,
+     "name": "impact",
+     "gain": -6
+    },
+    {
+     "at": 0.72,
+     "name": "crack",
+     "gain": -10
+    }
+   ]
   },
   {
    "id": "s008",
@@ -104,7 +187,18 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/01_hook.js"
+   "notes": "shots/01_hook.js",
+   "amb": {
+    "name": "water",
+    "gain": -26
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "swish",
+     "gain": -14
+    }
+   ]
   },
   {
    "id": "s009",
@@ -117,7 +211,11 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/01_hook.js"
+   "notes": "shots/01_hook.js",
+   "amb": {
+    "name": "water",
+    "gain": -26
+   }
   },
   {
    "id": "s010",
@@ -130,7 +228,18 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/01_hook.js"
+   "notes": "shots/01_hook.js",
+   "amb": {
+    "name": "water",
+    "gain": -26
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "hit",
+     "gain": -10
+    }
+   ]
   },
   {
    "id": "s011",
@@ -143,7 +252,18 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/01_hook.js"
+   "notes": "shots/01_hook.js",
+   "amb": {
+    "name": "water",
+    "gain": -26
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "heartbeat",
+     "gain": -14
+    }
+   ]
   },
   {
    "id": "s012",
@@ -156,7 +276,23 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/01_hook.js"
+   "notes": "shots/01_hook.js",
+   "amb": {
+    "name": "water",
+    "gain": -26
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "clock",
+     "gain": -14
+    },
+    {
+     "at": 2.89,
+     "name": "stinger",
+     "gain": -6
+    }
+   ]
   },
   {
    "id": "s013",
@@ -170,7 +306,19 @@
     "type": "fade",
     "dur": 0.35
    },
-   "notes": "shots/01_hook.js"
+   "notes": "shots/01_hook.js",
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "impact",
+     "gain": -6
+    },
+    {
+     "at": 0.4,
+     "name": "shimmer",
+     "gain": -14
+    }
+   ]
   },
   {
    "id": "s014",
@@ -184,7 +332,18 @@
     "type": "dip",
     "dur": 0.35
    },
-   "notes": "shots/02_rules.js"
+   "notes": "shots/02_rules.js",
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   },
+   "sfx": [
+    {
+     "at": 0.9,
+     "name": "footstep",
+     "gain": -14
+    }
+   ]
   },
   {
    "id": "s015",
@@ -197,7 +356,19 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/02_rules.js"
+   "notes": "shots/02_rules.js",
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "counter",
+     "gain": -16,
+     "dur": 2.4
+    }
+   ]
   },
   {
    "id": "s016",
@@ -210,7 +381,18 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/02_rules.js"
+   "notes": "shots/02_rules.js",
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   },
+   "sfx": [
+    {
+     "at": 0.6,
+     "name": "hit",
+     "gain": -12
+    }
+   ]
   },
   {
    "id": "s017",
@@ -223,7 +405,37 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/02_rules.js"
+   "notes": "shots/02_rules.js",
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "blip",
+     "gain": -16,
+     "pitch": 0.7
+    },
+    {
+     "at": 0.38,
+     "name": "blip",
+     "gain": -16,
+     "pitch": 0.7
+    },
+    {
+     "at": 0.56,
+     "name": "blip",
+     "gain": -16,
+     "pitch": 0.7
+    },
+    {
+     "at": 0.74,
+     "name": "blip",
+     "gain": -16,
+     "pitch": 0.7
+    }
+   ]
   },
   {
    "id": "s018",
@@ -236,7 +448,18 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/02_rules.js"
+   "notes": "shots/02_rules.js",
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "swish",
+     "gain": -14
+    }
+   ]
   },
   {
    "id": "s019",
@@ -249,7 +472,18 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/02_rules.js"
+   "notes": "shots/02_rules.js",
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "ding",
+     "gain": -12
+    }
+   ]
   },
   {
    "id": "s020",
@@ -262,7 +496,18 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/02_rules.js"
+   "notes": "shots/02_rules.js",
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "shimmer",
+     "gain": -18
+    }
+   ]
   },
   {
    "id": "s021",
@@ -275,7 +520,24 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/02_rules.js"
+   "notes": "shots/02_rules.js",
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "blip",
+     "gain": -16
+    },
+    {
+     "at": 0.45,
+     "name": "blip",
+     "gain": -16
+    },
+    {
+     "at": 0.7,
+     "name": "blip",
+     "gain": -16
+    }
+   ]
   },
   {
    "id": "s022",
@@ -288,7 +550,14 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/02_rules.js"
+   "notes": "shots/02_rules.js",
+   "sfx": [
+    {
+     "at": 0.8,
+     "name": "pop",
+     "gain": -10
+    }
+   ]
   },
   {
    "id": "s023",
@@ -301,7 +570,28 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/02_rules.js"
+   "notes": "shots/02_rules.js",
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   },
+   "sfx": [
+    {
+     "at": 0.6,
+     "name": "whoosh",
+     "gain": -12
+    },
+    {
+     "at": 1.9,
+     "name": "impact",
+     "gain": -6
+    },
+    {
+     "at": 1.9,
+     "name": "crack",
+     "gain": -10
+    }
+   ]
   },
   {
    "id": "s024",
@@ -314,7 +604,18 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/02_rules.js"
+   "notes": "shots/02_rules.js",
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "pop",
+     "gain": -14
+    }
+   ]
   },
   {
    "id": "s025",
@@ -327,7 +628,18 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/02_rules.js"
+   "notes": "shots/02_rules.js",
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   },
+   "sfx": [
+    {
+     "at": 0.45,
+     "name": "crack",
+     "gain": -6
+    }
+   ]
   },
   {
    "id": "s026",
@@ -340,7 +652,23 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/02_rules.js"
+   "notes": "shots/02_rules.js",
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "clock",
+     "gain": -12
+    },
+    {
+     "at": 4.38,
+     "name": "stinger",
+     "gain": -6
+    }
+   ]
   },
   {
    "id": "s027",
@@ -353,7 +681,23 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/02_rules.js"
+   "notes": "shots/02_rules.js",
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "swish",
+     "gain": -14
+    },
+    {
+     "at": 0.7,
+     "name": "pop",
+     "gain": -12
+    }
+   ]
   },
   {
    "id": "s028",
@@ -366,7 +710,23 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/02_rules.js"
+   "notes": "shots/02_rules.js",
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "swish",
+     "gain": -14
+    },
+    {
+     "at": 0.7,
+     "name": "pop",
+     "gain": -12
+    }
+   ]
   },
   {
    "id": "s029",
@@ -379,7 +739,23 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/02_rules.js"
+   "notes": "shots/02_rules.js",
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "swish",
+     "gain": -14
+    },
+    {
+     "at": 0.7,
+     "name": "pop",
+     "gain": -12
+    }
+   ]
   },
   {
    "id": "s030",
@@ -392,7 +768,23 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/02_rules.js"
+   "notes": "shots/02_rules.js",
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "swish",
+     "gain": -14
+    },
+    {
+     "at": 0.7,
+     "name": "pop",
+     "gain": -12
+    }
+   ]
   },
   {
    "id": "s031",
@@ -405,7 +797,23 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/02_rules.js"
+   "notes": "shots/02_rules.js",
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "swish",
+     "gain": -14
+    },
+    {
+     "at": 0.7,
+     "name": "pop",
+     "gain": -12
+    }
+   ]
   },
   {
    "id": "s032",
@@ -419,7 +827,23 @@
     "type": "zoom",
     "dur": 0.35
    },
-   "notes": "shots/02_rules.js"
+   "notes": "shots/02_rules.js",
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "swish",
+     "gain": -14
+    },
+    {
+     "at": 0.7,
+     "name": "impact",
+     "gain": -8
+    }
+   ]
   },
   {
    "id": "s033",
@@ -432,7 +856,18 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/03_lake.js"
+   "notes": "shots/03_lake.js",
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "pop",
+     "gain": -12
+    }
+   ]
   },
   {
    "id": "s034",
@@ -445,7 +880,18 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/03_lake.js"
+   "notes": "shots/03_lake.js",
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   },
+   "sfx": [
+    {
+     "at": 0.6,
+     "name": "hit",
+     "gain": -8
+    }
+   ]
   },
   {
    "id": "s035",
@@ -458,7 +904,18 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/03_lake.js"
+   "notes": "shots/03_lake.js",
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "cheer",
+     "gain": -18
+    }
+   ]
   },
   {
    "id": "s036",
@@ -471,7 +928,19 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/03_lake.js"
+   "notes": "shots/03_lake.js",
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   },
+   "sfx": [
+    {
+     "at": 1.14,
+     "name": "hit",
+     "gain": -14,
+     "pitch": 1.8
+    }
+   ]
   },
   {
    "id": "s037",
@@ -484,7 +953,18 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/03_lake.js"
+   "notes": "shots/03_lake.js",
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   },
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "swish",
+     "gain": -16
+    }
+   ]
   },
   {
    "id": "s038",
@@ -497,7 +977,18 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/03_lake.js"
+   "notes": "shots/03_lake.js",
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "shimmer",
+     "gain": -16
+    }
+   ]
   },
   {
    "id": "s039",
@@ -511,7 +1002,11 @@
     "type": "dip",
     "dur": 0.35
    },
-   "notes": "shots/03_lake.js"
+   "notes": "shots/03_lake.js",
+   "amb": {
+    "name": "water",
+    "gain": -24
+   }
   },
   {
    "id": "s040",
@@ -524,7 +1019,18 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/03_lake.js"
+   "notes": "shots/03_lake.js",
+   "amb": {
+    "name": "water",
+    "gain": -24
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "whistle",
+     "gain": -18
+    }
+   ]
   },
   {
    "id": "s041",
@@ -537,7 +1043,11 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/03_lake.js"
+   "notes": "shots/03_lake.js",
+   "amb": {
+    "name": "water",
+    "gain": -24
+   }
   },
   {
    "id": "s042",
@@ -550,7 +1060,11 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/03_lake.js"
+   "notes": "shots/03_lake.js",
+   "amb": {
+    "name": "water",
+    "gain": -24
+   }
   },
   {
    "id": "s043",
@@ -563,7 +1077,11 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/03_lake.js"
+   "notes": "shots/03_lake.js",
+   "amb": {
+    "name": "water",
+    "gain": -24
+   }
   },
   {
    "id": "s044",
@@ -577,7 +1095,68 @@
     "type": "dip",
     "dur": 0.35
    },
-   "notes": "shots/03_lake.js"
+   "notes": "shots/03_lake.js",
+   "amb": {
+    "name": "water",
+    "gain": -24
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "footstep",
+     "gain": -16
+    },
+    {
+     "at": 0.45,
+     "name": "footstep",
+     "gain": -16
+    },
+    {
+     "at": 0.7,
+     "name": "footstep",
+     "gain": -16
+    },
+    {
+     "at": 0.95,
+     "name": "footstep",
+     "gain": -16
+    },
+    {
+     "at": 1.2,
+     "name": "footstep",
+     "gain": -16
+    },
+    {
+     "at": 1.45,
+     "name": "footstep",
+     "gain": -16
+    },
+    {
+     "at": 1.7,
+     "name": "footstep",
+     "gain": -16
+    },
+    {
+     "at": 1.95,
+     "name": "footstep",
+     "gain": -16
+    },
+    {
+     "at": 2.2,
+     "name": "footstep",
+     "gain": -16
+    },
+    {
+     "at": 2.45,
+     "name": "footstep",
+     "gain": -16
+    },
+    {
+     "at": 2.7,
+     "name": "footstep",
+     "gain": -16
+    }
+   ]
   },
   {
    "id": "s045",
@@ -590,7 +1169,18 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/03_lake.js"
+   "notes": "shots/03_lake.js",
+   "amb": {
+    "name": "water",
+    "gain": -24
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "whoosh",
+     "gain": -10
+    }
+   ]
   },
   {
    "id": "s046",
@@ -603,7 +1193,23 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/03_lake.js"
+   "notes": "shots/03_lake.js",
+   "amb": {
+    "name": "underwater",
+    "gain": -18
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "splash",
+     "gain": -5
+    },
+    {
+     "at": 0.3,
+     "name": "bubbles",
+     "gain": -10
+    }
+   ]
   },
   {
    "id": "s047",
@@ -616,7 +1222,18 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/03_lake.js"
+   "notes": "shots/03_lake.js",
+   "amb": {
+    "name": "underwater",
+    "gain": -18
+   },
+   "sfx": [
+    {
+     "at": 0.45,
+     "name": "impact",
+     "gain": -6
+    }
+   ]
   },
   {
    "id": "s048",
@@ -629,7 +1246,18 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/03_lake.js"
+   "notes": "shots/03_lake.js",
+   "amb": {
+    "name": "underwater",
+    "gain": -18
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "bubbles",
+     "gain": -14
+    }
+   ]
   },
   {
    "id": "s049",
@@ -642,7 +1270,18 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/03_lake.js"
+   "notes": "shots/03_lake.js",
+   "amb": {
+    "name": "underwater",
+    "gain": -18
+   },
+   "sfx": [
+    {
+     "at": 0.6,
+     "name": "bubbles",
+     "gain": -18
+    }
+   ]
   },
   {
    "id": "s050",
@@ -655,7 +1294,11 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/03_lake.js"
+   "notes": "shots/03_lake.js",
+   "amb": {
+    "name": "water",
+    "gain": -24
+   }
   },
   {
    "id": "s051",
@@ -668,7 +1311,18 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/03_lake.js"
+   "notes": "shots/03_lake.js",
+   "amb": {
+    "name": "water",
+    "gain": -24
+   },
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "swish",
+     "gain": -16
+    }
+   ]
   },
   {
    "id": "s052",
@@ -681,7 +1335,11 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/03_lake.js"
+   "notes": "shots/03_lake.js",
+   "amb": {
+    "name": "water",
+    "gain": -24
+   }
   },
   {
    "id": "s053",
@@ -694,7 +1352,23 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/04_house.js"
+   "notes": "shots/04_house.js",
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   },
+   "sfx": [
+    {
+     "at": 1.3,
+     "name": "creak",
+     "gain": -10
+    },
+    {
+     "at": 2.07,
+     "name": "crack",
+     "gain": -5
+    }
+   ]
   },
   {
    "id": "s054",
@@ -708,7 +1382,23 @@
     "type": "dip",
     "dur": 0.35
    },
-   "notes": "shots/04_house.js"
+   "notes": "shots/04_house.js",
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "clock",
+     "gain": -16
+    },
+    {
+     "at": 0.8,
+     "name": "creak",
+     "gain": -10
+    }
+   ]
   },
   {
    "id": "s055",
@@ -721,7 +1411,23 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/04_house.js"
+   "notes": "shots/04_house.js",
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   },
+   "sfx": [
+    {
+     "at": 0.86,
+     "name": "crack",
+     "gain": -5
+    },
+    {
+     "at": 1.77,
+     "name": "impact",
+     "gain": -4
+    }
+   ]
   },
   {
    "id": "s056",
@@ -734,7 +1440,23 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/04_house.js"
+   "notes": "shots/04_house.js",
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "footstep",
+     "gain": -16
+    },
+    {
+     "at": 0.9,
+     "name": "footstep",
+     "gain": -16
+    }
+   ]
   },
   {
    "id": "s057",
@@ -747,7 +1469,18 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/04_house.js"
+   "notes": "shots/04_house.js",
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   },
+   "sfx": [
+    {
+     "at": 0.5,
+     "name": "pop",
+     "gain": -16
+    }
+   ]
   },
   {
    "id": "s058",
@@ -760,7 +1493,23 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/04_house.js"
+   "notes": "shots/04_house.js",
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "swish",
+     "gain": -14
+    },
+    {
+     "at": 0.7,
+     "name": "pop",
+     "gain": -12
+    }
+   ]
   },
   {
    "id": "s059",
@@ -773,7 +1522,11 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/04_house.js"
+   "notes": "shots/04_house.js",
+   "amb": {
+    "name": "city",
+    "gain": -24
+   }
   },
   {
    "id": "s060",
@@ -786,7 +1539,23 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/04_house.js"
+   "notes": "shots/04_house.js",
+   "amb": {
+    "name": "city",
+    "gain": -24
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "carpass",
+     "gain": -8
+    },
+    {
+     "at": 0.35,
+     "name": "hit",
+     "gain": -12
+    }
+   ]
   },
   {
    "id": "s061",
@@ -799,7 +1568,23 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/04_house.js"
+   "notes": "shots/04_house.js",
+   "amb": {
+    "name": "city",
+    "gain": -24
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "carpass",
+     "gain": -6
+    },
+    {
+     "at": 0.0,
+     "name": "riser",
+     "gain": -14
+    }
+   ]
   },
   {
    "id": "s062",
@@ -812,7 +1597,18 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/04_house.js"
+   "notes": "shots/04_house.js",
+   "amb": {
+    "name": "city",
+    "gain": -24
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "hum",
+     "gain": -14
+    }
+   ]
   },
   {
    "id": "s063",
@@ -825,7 +1621,19 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/04_house.js"
+   "notes": "shots/04_house.js",
+   "amb": {
+    "name": "city",
+    "gain": -24
+   },
+   "sfx": [
+    {
+     "at": 0.9,
+     "name": "pop",
+     "gain": -14,
+     "pitch": 1.4
+    }
+   ]
   },
   {
    "id": "s064",
@@ -838,7 +1646,20 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/04_house.js"
+   "notes": "shots/04_house.js",
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "counter",
+     "gain": -14,
+     "dur": 2.5
+    },
+    {
+     "at": 2.4,
+     "name": "ding",
+     "gain": -12
+    }
+   ]
   },
   {
    "id": "s065",
@@ -851,7 +1672,14 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/04_house.js"
+   "notes": "shots/04_house.js",
+   "sfx": [
+    {
+     "at": 1.22,
+     "name": "stinger",
+     "gain": -10
+    }
+   ]
   },
   {
    "id": "s066",
@@ -864,7 +1692,53 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/04_house.js"
+   "notes": "shots/04_house.js",
+   "amb": {
+    "name": "city",
+    "gain": -24
+   },
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "kick",
+     "gain": -12
+    },
+    {
+     "at": 0.75,
+     "name": "kick",
+     "gain": -12
+    },
+    {
+     "at": 1.25,
+     "name": "kick",
+     "gain": -12
+    },
+    {
+     "at": 1.75,
+     "name": "kick",
+     "gain": -12
+    },
+    {
+     "at": 2.25,
+     "name": "kick",
+     "gain": -12
+    },
+    {
+     "at": 2.75,
+     "name": "kick",
+     "gain": -12
+    },
+    {
+     "at": 3.25,
+     "name": "kick",
+     "gain": -12
+    },
+    {
+     "at": 3.75,
+     "name": "kick",
+     "gain": -12
+    }
+   ]
   },
   {
    "id": "s067",
@@ -877,7 +1751,23 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/04_house.js"
+   "notes": "shots/04_house.js",
+   "amb": {
+    "name": "city",
+    "gain": -24
+   },
+   "sfx": [
+    {
+     "at": 0.5,
+     "name": "crack",
+     "gain": -6
+    },
+    {
+     "at": 0.5,
+     "name": "impact",
+     "gain": -10
+    }
+   ]
   },
   {
    "id": "s068",
@@ -890,7 +1780,19 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/04_house.js"
+   "notes": "shots/04_house.js",
+   "amb": {
+    "name": "city",
+    "gain": -24
+   },
+   "sfx": [
+    {
+     "at": 0.5,
+     "name": "hit",
+     "gain": -10,
+     "pitch": 0.8
+    }
+   ]
   },
   {
    "id": "s069",
@@ -903,7 +1805,37 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/04_house.js"
+   "notes": "shots/04_house.js",
+   "amb": {
+    "name": "city",
+    "gain": -24
+   },
+   "sfx": [
+    {
+     "at": 0.6,
+     "name": "hit",
+     "gain": -14,
+     "pitch": 1.7
+    },
+    {
+     "at": 1.5,
+     "name": "hit",
+     "gain": -14,
+     "pitch": 1.7
+    },
+    {
+     "at": 2.4,
+     "name": "hit",
+     "gain": -14,
+     "pitch": 1.7
+    },
+    {
+     "at": 3.3,
+     "name": "hit",
+     "gain": -14,
+     "pitch": 1.7
+    }
+   ]
   },
   {
    "id": "s070",
@@ -916,7 +1848,23 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/04_house.js"
+   "notes": "shots/04_house.js",
+   "amb": {
+    "name": "city",
+    "gain": -24
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "swish",
+     "gain": -14
+    },
+    {
+     "at": 0.7,
+     "name": "pop",
+     "gain": -12
+    }
+   ]
   },
   {
    "id": "s071",
@@ -929,7 +1877,14 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/04_house.js"
+   "notes": "shots/04_house.js",
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "ding",
+     "gain": -10
+    }
+   ]
   },
   {
    "id": "s072",
@@ -942,7 +1897,11 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/04_house.js"
+   "notes": "shots/04_house.js",
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
   },
   {
    "id": "s073",
@@ -955,7 +1914,11 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/04_house.js"
+   "notes": "shots/04_house.js",
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
   },
   {
    "id": "s074",
@@ -969,7 +1932,18 @@
     "type": "dip",
     "dur": 0.35
    },
-   "notes": "shots/04_house.js"
+   "notes": "shots/04_house.js",
+   "amb": {
+    "name": "water",
+    "gain": -26
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "swish",
+     "gain": -16
+    }
+   ]
   },
   {
    "id": "s075",
@@ -982,7 +1956,11 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/04_house.js"
+   "notes": "shots/04_house.js",
+   "amb": {
+    "name": "water",
+    "gain": -26
+   }
   },
   {
    "id": "s076",
@@ -995,7 +1973,11 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/04_house.js"
+   "notes": "shots/04_house.js",
+   "amb": {
+    "name": "water",
+    "gain": -26
+   }
   },
   {
    "id": "s077",
@@ -1008,7 +1990,18 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/04_house.js"
+   "notes": "shots/04_house.js",
+   "amb": {
+    "name": "water",
+    "gain": -26
+   },
+   "sfx": [
+    {
+     "at": 1.12,
+     "name": "hit",
+     "gain": -8
+    }
+   ]
   },
   {
    "id": "s078",
@@ -1021,7 +2014,23 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/04_house.js"
+   "notes": "shots/04_house.js",
+   "amb": {
+    "name": "water",
+    "gain": -26
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "swish",
+     "gain": -14
+    },
+    {
+     "at": 0.7,
+     "name": "pop",
+     "gain": -12
+    }
+   ]
   },
   {
    "id": "s079",
@@ -1034,7 +2043,14 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/04_house.js"
+   "notes": "shots/04_house.js",
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "phonering",
+     "gain": -10
+    }
+   ]
   },
   {
    "id": "s080",
@@ -1047,7 +2063,18 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/04_house.js"
+   "notes": "shots/04_house.js",
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   },
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "phonebuzz",
+     "gain": -16
+    }
+   ]
   },
   {
    "id": "s081",
@@ -1060,7 +2087,11 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/04_house.js"
+   "notes": "shots/04_house.js",
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
   },
   {
    "id": "s082",
@@ -1073,7 +2104,23 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/05_atlas.js"
+   "notes": "shots/05_atlas.js",
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "hum",
+     "gain": -12
+    },
+    {
+     "at": 1.6,
+     "name": "whoosh",
+     "gain": -14
+    }
+   ]
   },
   {
    "id": "s083",
@@ -1086,7 +2133,18 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/05_atlas.js"
+   "notes": "shots/05_atlas.js",
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "shimmer",
+     "gain": -14
+    }
+   ]
   },
   {
    "id": "s084",
@@ -1099,7 +2157,29 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/05_atlas.js"
+   "notes": "shots/05_atlas.js",
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -14
+    },
+    {
+     "at": 0.8,
+     "name": "blip",
+     "gain": -14
+    },
+    {
+     "at": 1.3,
+     "name": "blip",
+     "gain": -14
+    },
+    {
+     "at": 1.8,
+     "name": "blip",
+     "gain": -14
+    }
+   ]
   },
   {
    "id": "s085",
@@ -1112,7 +2192,23 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/05_atlas.js"
+   "notes": "shots/05_atlas.js",
+   "amb": {
+    "name": "wind",
+    "gain": -26
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "crack",
+     "gain": -8
+    },
+    {
+     "at": 0.3,
+     "name": "impact",
+     "gain": -12
+    }
+   ]
   },
   {
    "id": "s086",
@@ -1125,7 +2221,38 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/05_atlas.js"
+   "notes": "shots/05_atlas.js",
+   "amb": {
+    "name": "city",
+    "gain": -24
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "kick",
+     "gain": -10
+    },
+    {
+     "at": 0.93,
+     "name": "kick",
+     "gain": -10
+    },
+    {
+     "at": 1.56,
+     "name": "kick",
+     "gain": -10
+    },
+    {
+     "at": 2.19,
+     "name": "kick",
+     "gain": -10
+    },
+    {
+     "at": 2.82,
+     "name": "kick",
+     "gain": -10
+    }
+   ]
   },
   {
    "id": "s087",
@@ -1138,7 +2265,14 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/05_atlas.js"
+   "notes": "shots/05_atlas.js",
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "powerup",
+     "gain": -12
+    }
+   ]
   },
   {
    "id": "s088",
@@ -1151,7 +2285,23 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/05_atlas.js"
+   "notes": "shots/05_atlas.js",
+   "amb": {
+    "name": "wind",
+    "gain": -24
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "crack",
+     "gain": -6
+    },
+    {
+     "at": 0.2,
+     "name": "thunder",
+     "gain": -12
+    }
+   ]
   },
   {
    "id": "s089",
@@ -1164,7 +2314,19 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/05_atlas.js"
+   "notes": "shots/05_atlas.js",
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "swish",
+     "gain": -14
+    },
+    {
+     "at": 0.8,
+     "name": "impact",
+     "gain": -6
+    }
+   ]
   },
   {
    "id": "s090",
@@ -1190,7 +2352,14 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/05_atlas.js"
+   "notes": "shots/05_atlas.js",
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "shimmer",
+     "gain": -14
+    }
+   ]
   },
   {
    "id": "s092",
@@ -1203,7 +2372,14 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/05_atlas.js"
+   "notes": "shots/05_atlas.js",
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -12
+    }
+   ]
   },
   {
    "id": "s093",
@@ -1216,7 +2392,20 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/05_atlas.js"
+   "notes": "shots/05_atlas.js",
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "counter",
+     "gain": -16,
+     "dur": 1.1
+    },
+    {
+     "at": 1.4,
+     "name": "ding",
+     "gain": -12
+    }
+   ]
   },
   {
    "id": "s094",
@@ -1229,7 +2418,25 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/05_atlas.js"
+   "notes": "shots/05_atlas.js",
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "counter",
+     "gain": -16,
+     "dur": 1.5
+    },
+    {
+     "at": 1.2,
+     "name": "glitch",
+     "gain": -10
+    },
+    {
+     "at": 1.6,
+     "name": "stinger",
+     "gain": -10
+    }
+   ]
   },
   {
    "id": "s095",
@@ -1242,7 +2449,24 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/05_atlas.js"
+   "notes": "shots/05_atlas.js",
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "tick",
+     "gain": -12
+    },
+    {
+     "at": 1.1,
+     "name": "tick",
+     "gain": -12
+    },
+    {
+     "at": 2.1,
+     "name": "tick",
+     "gain": -12
+    }
+   ]
   },
   {
    "id": "s096",
@@ -1255,7 +2479,14 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/05_atlas.js"
+   "notes": "shots/05_atlas.js",
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "clock",
+     "gain": -12
+    }
+   ]
   },
   {
    "id": "s097",
@@ -1268,7 +2499,14 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/05_atlas.js"
+   "notes": "shots/05_atlas.js",
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "heartbeat",
+     "gain": -14
+    }
+   ]
   },
   {
    "id": "s098",
@@ -1281,7 +2519,20 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/05_atlas.js"
+   "notes": "shots/05_atlas.js",
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "whoosh",
+     "gain": -6,
+     "dur": 4.0
+    },
+    {
+     "at": 4.45,
+     "name": "impact",
+     "gain": -4
+    }
+   ]
   },
   {
    "id": "s099",
@@ -1294,7 +2545,11 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/05_atlas.js"
+   "notes": "shots/05_atlas.js",
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
   },
   {
    "id": "s100",
@@ -1307,7 +2562,18 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/05_atlas.js"
+   "notes": "shots/05_atlas.js",
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "shimmer",
+     "gain": -18
+    }
+   ]
   },
   {
    "id": "s101",
@@ -1321,7 +2587,18 @@
     "type": "dip",
     "dur": 0.35
    },
-   "notes": "shots/06_river.js"
+   "notes": "shots/06_river.js",
+   "amb": {
+    "name": "water",
+    "gain": -26
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "swish",
+     "gain": -16
+    }
+   ]
   },
   {
    "id": "s102",
@@ -1334,7 +2611,18 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/06_river.js"
+   "notes": "shots/06_river.js",
+   "amb": {
+    "name": "water",
+    "gain": -26
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "hit",
+     "gain": -12
+    }
+   ]
   },
   {
    "id": "s103",
@@ -1347,7 +2635,18 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/06_river.js"
+   "notes": "shots/06_river.js",
+   "amb": {
+    "name": "water",
+    "gain": -26
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "hum",
+     "gain": -18
+    }
+   ]
   },
   {
    "id": "s104",
@@ -1360,7 +2659,18 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/06_river.js"
+   "notes": "shots/06_river.js",
+   "amb": {
+    "name": "water",
+    "gain": -26
+   },
+   "sfx": [
+    {
+     "at": 2.2,
+     "name": "splash",
+     "gain": -12
+    }
+   ]
   },
   {
    "id": "s105",
@@ -1373,7 +2683,18 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/06_river.js"
+   "notes": "shots/06_river.js",
+   "amb": {
+    "name": "underwater",
+    "gain": -18
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "bubbles",
+     "gain": -12
+    }
+   ]
   },
   {
    "id": "s106",
@@ -1386,7 +2707,18 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/06_river.js"
+   "notes": "shots/06_river.js",
+   "amb": {
+    "name": "underwater",
+    "gain": -18
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "bubbles",
+     "gain": -12
+    }
+   ]
   },
   {
    "id": "s107",
@@ -1399,7 +2731,18 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/06_river.js"
+   "notes": "shots/06_river.js",
+   "amb": {
+    "name": "underwater",
+    "gain": -18
+   },
+   "sfx": [
+    {
+     "at": 0.5,
+     "name": "bubbles",
+     "gain": -16
+    }
+   ]
   },
   {
    "id": "s108",
@@ -1412,7 +2755,11 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/06_river.js"
+   "notes": "shots/06_river.js",
+   "amb": {
+    "name": "water",
+    "gain": -26
+   }
   },
   {
    "id": "s109",
@@ -1425,7 +2772,11 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/06_river.js"
+   "notes": "shots/06_river.js",
+   "amb": {
+    "name": "water",
+    "gain": -26
+   }
   },
   {
    "id": "s110",
@@ -1438,7 +2789,18 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/06_river.js"
+   "notes": "shots/06_river.js",
+   "amb": {
+    "name": "water",
+    "gain": -26
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "splash",
+     "gain": -16
+    }
+   ]
   },
   {
    "id": "s111",
@@ -1451,7 +2813,28 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/06_river.js"
+   "notes": "shots/06_river.js",
+   "amb": {
+    "name": "water",
+    "gain": -26
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "whoosh",
+     "gain": -10
+    },
+    {
+     "at": 0.9,
+     "name": "impact",
+     "gain": -10
+    },
+    {
+     "at": 1.0,
+     "name": "stinger",
+     "gain": -10
+    }
+   ]
   },
   {
    "id": "s112",
@@ -1464,7 +2847,11 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/06_river.js"
+   "notes": "shots/06_river.js",
+   "amb": {
+    "name": "water",
+    "gain": -26
+   }
   },
   {
    "id": "s113",
@@ -1477,7 +2864,18 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/06_river.js"
+   "notes": "shots/06_river.js",
+   "amb": {
+    "name": "water",
+    "gain": -26
+   },
+   "sfx": [
+    {
+     "at": 2.25,
+     "name": "shimmer",
+     "gain": -16
+    }
+   ]
   },
   {
    "id": "s114",
@@ -1490,7 +2888,11 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/06_river.js"
+   "notes": "shots/06_river.js",
+   "amb": {
+    "name": "water",
+    "gain": -26
+   }
   },
   {
    "id": "s115",
@@ -1503,7 +2905,18 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/06_river.js"
+   "notes": "shots/06_river.js",
+   "amb": {
+    "name": "water",
+    "gain": -26
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "shimmer",
+     "gain": -16
+    }
+   ]
   },
   {
    "id": "s116",
@@ -1517,7 +2930,18 @@
     "type": "dip",
     "dur": 0.35
    },
-   "notes": "shots/06_river.js"
+   "notes": "shots/06_river.js",
+   "amb": {
+    "name": "wind",
+    "gain": -22
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "hum",
+     "gain": -16
+    }
+   ]
   },
   {
    "id": "s117",
@@ -1530,7 +2954,29 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/06_river.js"
+   "notes": "shots/06_river.js",
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "blip",
+     "gain": -14
+    },
+    {
+     "at": 0.4,
+     "name": "blip",
+     "gain": -14
+    },
+    {
+     "at": 0.6,
+     "name": "blip",
+     "gain": -14
+    },
+    {
+     "at": 0.8,
+     "name": "blip",
+     "gain": -14
+    }
+   ]
   },
   {
    "id": "s118",
@@ -1543,7 +2989,14 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/06_river.js"
+   "notes": "shots/06_river.js",
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "clock",
+     "gain": -14
+    }
+   ]
   },
   {
    "id": "s119",
@@ -1556,7 +3009,19 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/06_river.js"
+   "notes": "shots/06_river.js",
+   "amb": {
+    "name": "hum",
+    "gain": -32
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "blip",
+     "gain": -6,
+     "pitch": 0.8
+    }
+   ]
   },
   {
    "id": "s120",
@@ -1569,7 +3034,19 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/06_river.js"
+   "notes": "shots/06_river.js",
+   "amb": {
+    "name": "hum",
+    "gain": -32
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "blip",
+     "gain": -6,
+     "pitch": 0.8
+    }
+   ]
   },
   {
    "id": "s121",
@@ -1582,7 +3059,24 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/06_river.js"
+   "notes": "shots/06_river.js",
+   "amb": {
+    "name": "wind",
+    "gain": -22
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "blip",
+     "gain": -6,
+     "pitch": 1.2
+    },
+    {
+     "at": 0.3,
+     "name": "rocket",
+     "gain": -8
+    }
+   ]
   },
   {
    "id": "s122",
@@ -1595,7 +3089,28 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/06_river.js"
+   "notes": "shots/06_river.js",
+   "amb": {
+    "name": "wind",
+    "gain": -22
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "rocket",
+     "gain": -2
+    },
+    {
+     "at": 0.1,
+     "name": "impact",
+     "gain": -6
+    },
+    {
+     "at": 0.2,
+     "name": "thunder",
+     "gain": -8
+    }
+   ]
   },
   {
    "id": "s123",
@@ -1608,7 +3123,25 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/06_river.js"
+   "notes": "shots/06_river.js",
+   "amb": {
+    "name": "hum",
+    "gain": -32
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "rocket",
+     "gain": -10,
+     "dur": 5.2
+    },
+    {
+     "at": 0.5,
+     "name": "heartbeat",
+     "gain": -14,
+     "dur": 4.0
+    }
+   ]
   },
   {
    "id": "s124",
@@ -1621,7 +3154,14 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/06_river.js"
+   "notes": "shots/06_river.js",
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "impact",
+     "gain": -12
+    }
+   ]
   },
   {
    "id": "s125",
@@ -1634,7 +3174,11 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/06_river.js"
+   "notes": "shots/06_river.js",
+   "amb": {
+    "name": "hum",
+    "gain": -32
+   }
   },
   {
    "id": "s126",
@@ -1647,7 +3191,18 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/06_river.js"
+   "notes": "shots/06_river.js",
+   "amb": {
+    "name": "hum",
+    "gain": -32
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "shimmer",
+     "gain": -14
+    }
+   ]
   },
   {
    "id": "s127",
@@ -1660,7 +3215,18 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/06_river.js"
+   "notes": "shots/06_river.js",
+   "amb": {
+    "name": "hum",
+    "gain": -32
+   },
+   "sfx": [
+    {
+     "at": 0.5,
+     "name": "shimmer",
+     "gain": -18
+    }
+   ]
   },
   {
    "id": "s128",
@@ -1673,7 +3239,18 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/06_river.js"
+   "notes": "shots/06_river.js",
+   "amb": {
+    "name": "hum",
+    "gain": -32
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "swish",
+     "gain": -18
+    }
+   ]
   },
   {
    "id": "s129",
@@ -1686,7 +3263,18 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/06_river.js"
+   "notes": "shots/06_river.js",
+   "amb": {
+    "name": "hum",
+    "gain": -32
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "shimmer",
+     "gain": -14
+    }
+   ]
   },
   {
    "id": "s130",
@@ -1700,7 +3288,11 @@
     "type": "dip",
     "dur": 0.35
    },
-   "notes": "shots/06_river.js"
+   "notes": "shots/06_river.js",
+   "amb": {
+    "name": "water",
+    "gain": -26
+   }
   },
   {
    "id": "s131",
@@ -1714,7 +3306,19 @@
     "type": "dip",
     "dur": 0.35
    },
-   "notes": "shots/07_science.js"
+   "notes": "shots/07_science.js",
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "riser",
+     "gain": -12
+    },
+    {
+     "at": 0.6,
+     "name": "impact",
+     "gain": -10
+    }
+   ]
   },
   {
    "id": "s132",
@@ -1727,7 +3331,14 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/07_science.js"
+   "notes": "shots/07_science.js",
+   "sfx": [
+    {
+     "at": 0.6,
+     "name": "glitch",
+     "gain": -10
+    }
+   ]
   },
   {
    "id": "s133",
@@ -1740,7 +3351,14 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/07_science.js"
+   "notes": "shots/07_science.js",
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "blip",
+     "gain": -16
+    }
+   ]
   },
   {
    "id": "s134",
@@ -1753,7 +3371,15 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/07_science.js"
+   "notes": "shots/07_science.js",
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "whoosh",
+     "gain": -10,
+     "dur": 2.0
+    }
+   ]
   },
   {
    "id": "s135",
@@ -1766,7 +3392,14 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/07_science.js"
+   "notes": "shots/07_science.js",
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "blip",
+     "gain": -16
+    }
+   ]
   },
   {
    "id": "s136",
@@ -1779,7 +3412,15 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/07_science.js"
+   "notes": "shots/07_science.js",
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "heartbeat",
+     "gain": -12,
+     "dur": 3.6
+    }
+   ]
   },
   {
    "id": "s137",
@@ -1792,7 +3433,14 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/07_science.js"
+   "notes": "shots/07_science.js",
+   "sfx": [
+    {
+     "at": 0.6,
+     "name": "hit",
+     "gain": -10
+    }
+   ]
   },
   {
    "id": "s138",
@@ -1805,7 +3453,14 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/07_science.js"
+   "notes": "shots/07_science.js",
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "blip",
+     "gain": -16
+    }
+   ]
   },
   {
    "id": "s139",
@@ -1818,7 +3473,14 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/07_science.js"
+   "notes": "shots/07_science.js",
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "blip",
+     "gain": -16
+    }
+   ]
   },
   {
    "id": "s140",
@@ -1831,7 +3493,14 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/07_science.js"
+   "notes": "shots/07_science.js",
+   "sfx": [
+    {
+     "at": 2.0,
+     "name": "crack",
+     "gain": -8
+    }
+   ]
   },
   {
    "id": "s141",
@@ -1844,7 +3513,14 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/07_science.js"
+   "notes": "shots/07_science.js",
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "blip",
+     "gain": -16
+    }
+   ]
   },
   {
    "id": "s142",
@@ -1857,7 +3533,14 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/07_science.js"
+   "notes": "shots/07_science.js",
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "bubbles",
+     "gain": -12
+    }
+   ]
   },
   {
    "id": "s143",
@@ -1870,7 +3553,14 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/07_science.js"
+   "notes": "shots/07_science.js",
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "splash",
+     "gain": -14
+    }
+   ]
   },
   {
    "id": "s144",
@@ -1883,7 +3573,14 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/07_science.js"
+   "notes": "shots/07_science.js",
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "blip",
+     "gain": -16
+    }
+   ]
   },
   {
    "id": "s145",
@@ -1896,7 +3593,14 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/07_science.js"
+   "notes": "shots/07_science.js",
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "swish",
+     "gain": -12
+    }
+   ]
   },
   {
    "id": "s146",
@@ -1909,7 +3613,14 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/07_science.js"
+   "notes": "shots/07_science.js",
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "carpass",
+     "gain": -14
+    }
+   ]
   },
   {
    "id": "s147",
@@ -1922,7 +3633,14 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/07_science.js"
+   "notes": "shots/07_science.js",
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "blip",
+     "gain": -16
+    }
+   ]
   },
   {
    "id": "s148",
@@ -1935,7 +3653,14 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/07_science.js"
+   "notes": "shots/07_science.js",
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "blip",
+     "gain": -16
+    }
+   ]
   },
   {
    "id": "s149",
@@ -1948,7 +3673,14 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/07_science.js"
+   "notes": "shots/07_science.js",
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "ding",
+     "gain": -16
+    }
+   ]
   },
   {
    "id": "s150",
@@ -1961,7 +3693,14 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/07_science.js"
+   "notes": "shots/07_science.js",
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "blip",
+     "gain": -16
+    }
+   ]
   },
   {
    "id": "s151",
@@ -1974,7 +3713,14 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/07_science.js"
+   "notes": "shots/07_science.js",
+   "sfx": [
+    {
+     "at": 0.5,
+     "name": "powerup",
+     "gain": -10
+    }
+   ]
   },
   {
    "id": "s152",
@@ -1987,7 +3733,14 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/07_science.js"
+   "notes": "shots/07_science.js",
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "blip",
+     "gain": -16
+    }
+   ]
   },
   {
    "id": "s153",
@@ -2000,7 +3753,27 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/07_science.js"
+   "notes": "shots/07_science.js",
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "hit",
+     "gain": -12,
+     "pitch": 0.8
+    },
+    {
+     "at": 1.3,
+     "name": "hit",
+     "gain": -12,
+     "pitch": 0.8
+    },
+    {
+     "at": 2.3,
+     "name": "hit",
+     "gain": -12,
+     "pitch": 0.8
+    }
+   ]
   },
   {
    "id": "s154",
@@ -2014,7 +3787,14 @@
     "type": "dip",
     "dur": 0.35
    },
-   "notes": "shots/08_twist.js"
+   "notes": "shots/08_twist.js",
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "swish",
+     "gain": -14
+    }
+   ]
   },
   {
    "id": "s155",
@@ -2027,7 +3807,18 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/08_twist.js"
+   "notes": "shots/08_twist.js",
+   "amb": {
+    "name": "hum",
+    "gain": -32
+   },
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "impact",
+     "gain": -6
+    }
+   ]
   },
   {
    "id": "s156",
@@ -2040,7 +3831,23 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/08_twist.js"
+   "notes": "shots/08_twist.js",
+   "amb": {
+    "name": "hum",
+    "gain": -32
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "swish",
+     "gain": -14
+    },
+    {
+     "at": 0.7,
+     "name": "impact",
+     "gain": -8
+    }
+   ]
   },
   {
    "id": "s157",
@@ -2053,7 +3860,18 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/08_twist.js"
+   "notes": "shots/08_twist.js",
+   "amb": {
+    "name": "hum",
+    "gain": -32
+   },
+   "sfx": [
+    {
+     "at": 1.4,
+     "name": "shimmer",
+     "gain": -16
+    }
+   ]
   },
   {
    "id": "s158",
@@ -2066,7 +3884,11 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/08_twist.js"
+   "notes": "shots/08_twist.js",
+   "amb": {
+    "name": "hum",
+    "gain": -32
+   }
   },
   {
    "id": "s159",
@@ -2079,7 +3901,19 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/08_twist.js"
+   "notes": "shots/08_twist.js",
+   "amb": {
+    "name": "hum",
+    "gain": -32
+   },
+   "sfx": [
+    {
+     "at": 1.2,
+     "name": "pop",
+     "gain": -10,
+     "pitch": 0.8
+    }
+   ]
   },
   {
    "id": "s160",
@@ -2092,7 +3926,18 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/08_twist.js"
+   "notes": "shots/08_twist.js",
+   "amb": {
+    "name": "hum",
+    "gain": -32
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "heartbeat",
+     "gain": -12
+    }
+   ]
   },
   {
    "id": "s161",
@@ -2105,7 +3950,18 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/08_twist.js"
+   "notes": "shots/08_twist.js",
+   "amb": {
+    "name": "hum",
+    "gain": -32
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "riser",
+     "gain": -10
+    }
+   ]
   },
   {
    "id": "s162",
@@ -2118,7 +3974,18 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/08_twist.js"
+   "notes": "shots/08_twist.js",
+   "amb": {
+    "name": "hum",
+    "gain": -32
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "stinger",
+     "gain": -6
+    }
+   ]
   },
   {
    "id": "s163",
@@ -2131,7 +3998,14 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/08_twist.js"
+   "notes": "shots/08_twist.js",
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "whoosh",
+     "gain": -14
+    }
+   ]
   },
   {
    "id": "s164",
@@ -2144,7 +4018,29 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/08_twist.js"
+   "notes": "shots/08_twist.js",
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "blip",
+     "gain": -16
+    },
+    {
+     "at": 1.38,
+     "name": "blip",
+     "gain": -16
+    },
+    {
+     "at": 2.36,
+     "name": "blip",
+     "gain": -16
+    },
+    {
+     "at": 3.34,
+     "name": "blip",
+     "gain": -16
+    }
+   ]
   },
   {
    "id": "s165",
@@ -2157,7 +4053,20 @@
    "in": {
     "type": "cut"
    },
-   "notes": "shots/08_twist.js"
+   "notes": "shots/08_twist.js",
+   "sfx": [
+    {
+     "at": 1.0,
+     "name": "riser",
+     "gain": -12,
+     "dur": 4.0
+    },
+    {
+     "at": 5.4,
+     "name": "impact",
+     "gain": -8
+    }
+   ]
   },
   {
    "id": "s166",
@@ -2171,9 +4080,303 @@
     "type": "fade",
     "dur": 0.35
    },
-   "notes": "shots/08_twist.js"
+   "notes": "shots/08_twist.js",
+   "sfx": [
+    {
+     "at": 0.6,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 0.9,
+     "name": "ding",
+     "gain": -12
+    },
+    {
+     "at": 7.16,
+     "name": "impact",
+     "gain": -8
+    }
+   ]
   }
  ],
- "music": [],
+ "music": [
+  {
+   "start": 0.0,
+   "end": 28.76,
+   "mood": "tension",
+   "intensity": 0.55
+  },
+  {
+   "start": 28.76,
+   "end": 34.14,
+   "mood": "epic",
+   "intensity": 0.6
+  },
+  {
+   "start": 34.14,
+   "end": 63.11,
+   "mood": "playful",
+   "intensity": 0.45
+  },
+  {
+   "start": 63.11,
+   "end": 68.82,
+   "mood": "mystery",
+   "intensity": 0.45
+  },
+  {
+   "start": 68.82,
+   "end": 88.0,
+   "mood": "playful",
+   "intensity": 0.55
+  },
+  {
+   "start": 88.0,
+   "end": 99.01,
+   "mood": "triumph",
+   "intensity": 0.55
+  },
+  {
+   "start": 99.01,
+   "end": 103.88,
+   "mood": "calm",
+   "intensity": 0.4
+  },
+  {
+   "start": 103.88,
+   "end": 118.58,
+   "mood": "wonder",
+   "intensity": 0.4
+  },
+  {
+   "start": 118.58,
+   "end": 123.46,
+   "mood": "tension",
+   "intensity": 0.55
+  },
+  {
+   "start": 123.46,
+   "end": 134.47,
+   "mood": "dark",
+   "intensity": 0.4
+  },
+  {
+   "start": 134.47,
+   "end": 142.33,
+   "mood": "sad",
+   "intensity": 0.4
+  },
+  {
+   "start": 142.33,
+   "end": 152.44,
+   "mood": "tension",
+   "intensity": 0.5
+  },
+  {
+   "start": 152.44,
+   "end": 157.9,
+   "mood": "sad",
+   "intensity": 0.35
+  },
+  {
+   "start": 157.9,
+   "end": 166.43,
+   "mood": "playful",
+   "intensity": 0.5
+  },
+  {
+   "start": 166.43,
+   "end": 169.97,
+   "mood": "action",
+   "intensity": 0.6
+  },
+  {
+   "start": 169.97,
+   "end": 177.5,
+   "mood": "playful",
+   "intensity": 0.5
+  },
+  {
+   "start": 177.5,
+   "end": 193.75,
+   "mood": "tension",
+   "intensity": 0.45
+  },
+  {
+   "start": 193.75,
+   "end": 199.81,
+   "mood": "sad",
+   "intensity": 0.4
+  },
+  {
+   "start": 199.81,
+   "end": 213.89,
+   "mood": "mystery",
+   "intensity": 0.4
+  },
+  {
+   "start": 213.89,
+   "end": 222.12,
+   "mood": "calm",
+   "intensity": 0.4
+  },
+  {
+   "start": 222.12,
+   "end": 232.25,
+   "mood": "mystery",
+   "intensity": 0.55
+  },
+  {
+   "start": 232.25,
+   "end": 253.05,
+   "mood": "tension",
+   "intensity": 0.6
+  },
+  {
+   "start": 253.05,
+   "end": 258.7,
+   "mood": "dark",
+   "intensity": 0.45
+  },
+  {
+   "start": 258.7,
+   "end": 274.31,
+   "mood": "tension",
+   "intensity": 0.5
+  },
+  {
+   "start": 274.31,
+   "end": 276.61,
+   "mood": "sad",
+   "intensity": 0.45
+  },
+  {
+   "start": 276.61,
+   "end": 281.45,
+   "mood": "epic",
+   "intensity": 0.55
+  },
+  {
+   "start": 281.45,
+   "end": 287.13,
+   "mood": "sad",
+   "intensity": 0.4
+  },
+  {
+   "start": 287.13,
+   "end": 299.04,
+   "mood": "hopeful",
+   "intensity": 0.4
+  },
+  {
+   "start": 299.04,
+   "end": 308.24,
+   "mood": "wonder",
+   "intensity": 0.45
+  },
+  {
+   "start": 308.24,
+   "end": 315.97,
+   "mood": "hopeful",
+   "intensity": 0.45
+  },
+  {
+   "start": 315.97,
+   "end": 318.32,
+   "mood": "tension",
+   "intensity": 0.4
+  },
+  {
+   "start": 318.32,
+   "end": 325.93,
+   "mood": "calm",
+   "intensity": 0.4
+  },
+  {
+   "start": 325.93,
+   "end": 333.74,
+   "mood": "sad",
+   "intensity": 0.45
+  },
+  {
+   "start": 333.74,
+   "end": 341.37,
+   "mood": "tension",
+   "intensity": 0.7
+  },
+  {
+   "start": 341.37,
+   "end": 345.01,
+   "mood": "tension",
+   "intensity": 0.85
+  },
+  {
+   "start": 345.01,
+   "end": 352.71,
+   "mood": "action",
+   "intensity": 0.95
+  },
+  {
+   "start": 352.71,
+   "end": 355.74,
+   "mood": "mystery",
+   "intensity": 0.3
+  },
+  {
+   "start": 355.74,
+   "end": 364.36,
+   "mood": "wonder",
+   "intensity": 0.55
+  },
+  {
+   "start": 364.36,
+   "end": 368.07,
+   "mood": "hopeful",
+   "intensity": 0.45
+  },
+  {
+   "start": 368.07,
+   "end": 372.43,
+   "mood": "mystery",
+   "intensity": 0.4
+  },
+  {
+   "start": 372.43,
+   "end": 455.83,
+   "mood": "calm",
+   "intensity": 0.35
+  },
+  {
+   "start": 455.83,
+   "end": 467.75,
+   "mood": "wonder",
+   "intensity": 0.45
+  },
+  {
+   "start": 467.75,
+   "end": 475.24,
+   "mood": "mystery",
+   "intensity": 0.45
+  },
+  {
+   "start": 475.24,
+   "end": 478.3,
+   "mood": "tension",
+   "intensity": 0.7
+  },
+  {
+   "start": 478.3,
+   "end": 491.23,
+   "mood": "epic",
+   "intensity": 0.6
+  },
+  {
+   "start": 491.23,
+   "end": 506.0,
+   "mood": "hopeful",
+   "intensity": 0.45
+  }
+ ],
  "sfx": []
 }

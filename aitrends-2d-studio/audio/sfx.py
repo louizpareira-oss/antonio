@@ -287,6 +287,67 @@ def buzz(dur=1.5, seed=35, **_):
     return normalize(np.stack([x * l, x * r], 1).astype(np.float32), -6)
 
 
+
+@sfx("water splash: a body plunging into water (thump + spray + drops)", 1.8)
+def splash(dur=1.8, seed=36, **_):
+    n = secs(dur); t = t_axis(n); r = rng(seed)
+    x = _thump(n, 140, 45, 0.18, 0.4, seed) * 0.7 + hp(noise(n, seed + 1), 900) * np.exp(-t / 0.3) * (1 - np.exp(-t / 0.012)) * 0.9
+    for _k in range(40):
+        a = int(r.integers(secs(0.15), n - secs(0.08))); m = secs(0.05); f = 600 + r.random() * 1600
+        x[a:a + m] += sine(f * (1 + np.linspace(0, 0.6, m)), m) * np.exp(-np.arange(m) / (m / 4)) * 0.18 * np.exp(-a / secs(0.9))
+    return normalize(reverb(stereo(x, 0, 0.7, seed), 1.2, 0.25, seed), -2)
+
+
+@sfx("bubbles rising (underwater burbles)", 2.0)
+def bubbles(dur=2.0, seed=37, **_):
+    n = secs(dur); r = rng(seed); x = np.zeros(n, np.float32)
+    for _k in range(int(dur * 14)):
+        a = int(r.integers(0, n - secs(0.12))); m = secs(0.04 + r.random() * 0.06); f0 = 250 + r.random() * 700
+        x[a:a + m] += sine(f0 * (1 + np.linspace(0, 1.2, m) ** 2), m) * np.sin(np.pi * np.linspace(0, 1, m)) * (0.3 + r.random() * 0.4)
+    return normalize(reverb(stereo(lp(x, 2500), 0, 0.6, seed), 0.8, 0.3, seed), -4)
+
+
+@sfx("underwater ambience: muffled low drone with distant bubbles (loopable)", 6.0)
+def underwater(dur=6.0, seed=38, **_):
+    n = secs(dur); t = t_axis(n)
+    x = lp(noise(n, seed, "brown"), 220) * 2.0 * (0.8 + 0.2 * np.sin(2 * np.pi * 0.2 * t)) + lp(bubbles(dur, seed + 1)[:, 0], 900) * 0.15
+    return normalize(stereo(x, 0, 1.0), -12)
+
+
+@sfx("lake / river water lapping at the shore (loopable)", 6.0)
+def water(dur=6.0, seed=39, **_):
+    n = secs(dur); t = t_axis(n); r = rng(seed)
+    x = bp(noise(n, seed, "pink"), 250, 1800) * (0.5 + 0.5 * lp(np.abs(noise(n, seed + 1)), 1.5) * 6)
+    for _k in range(int(dur * 6)):
+        a = int(r.integers(0, n - secs(0.2))); m = secs(0.12); x[a:a + m] += bp(noise(m, int(r.integers(1e6))), 500, 3000) * np.sin(np.pi * np.linspace(0, 1, m)) * 0.4
+    return normalize(stereo(x, 0, 1.0), -12)
+
+
+@sfx("rocket engine roar / launch rumble with crackle", 6.0)
+def rocket(dur=6.0, seed=40, **_):
+    n = secs(dur); t = t_axis(n); r = rng(seed)
+    x = lp(noise(n, seed, "brown"), 300) * 3.0 + bp(noise(n, seed + 1, "pink"), 300, 2500) * 0.6
+    crackle = hp(noise(n, seed + 2), 2500) * (r.random(n) > 0.997) * 6.0
+    env = np.minimum(1, t / 0.6) * (0.85 + 0.15 * lp(noise(n, seed + 3), 6) * 8)
+    return normalize(fade(stereo((x + lp(crackle, 6000)) * env, 0, 0.9, seed), 0.05, 0.8), -1)
+
+
+@sfx("crack and crumble (wood snapping, rock breaking)", 1.4)
+def crack(dur=1.4, seed=41, **_):
+    n = secs(dur); t = t_axis(n); r = rng(seed)
+    x = hp(noise(n, seed), 1500) * np.exp(-t / 0.03) * 1.2 + _thump(n, 160, 50, 0.2, 0.5, seed) * 0.8
+    for _k in range(30):
+        a = int(r.integers(secs(0.05), n - secs(0.03))); m = secs(0.012); x[a:a + m] += bp(noise(m, int(r.integers(1e6))), 1500, 6000) * 0.5 * np.exp(-a / secs(0.5))
+    return normalize(reverb(stereo(x, 0, 0.5, seed), 1.0, 0.2, seed), -1)
+
+
+@sfx("wooden creak (bed frame / floorboard straining)", 1.2)
+def creak(dur=1.2, seed=42, **_):
+    n = secs(dur); t = t_axis(n); r = rng(seed)
+    f = 180 + 120 * np.sin(2 * np.pi * 0.7 * t) + 30 * lp(noise(n, seed), 20) * 10
+    x = osc("saw", f, n) * (0.5 + 0.5 * (r.random(n) > 0.5)) * np.sin(np.pi * np.linspace(0, 1, n)) ** 0.6
+    return normalize(reverb(stereo(bp(x, 300, 2500), 0, 0.3, seed), 0.7, 0.2, seed), -4)
+
 def make(name, **kw):
     if name not in LIB: raise KeyError(f"unknown sfx '{name}'. Available: {', '.join(LIB)}")
     k = {"dur": LIB[name]["dur"], **{a: b for a, b in kw.items() if b is not None}}

@@ -1,0 +1,28 @@
+{
+ "title": "thumbnails",
+ "duration": 2,
+ "shots": [
+  {
+   "id": "thumbA",
+   "start": 0,
+   "end": 1,
+   "line": "",
+   "scene": "I CAN'T FLOAT.: sad hero face sinking underwater, bubbles, the lifeguard ring far above at the bright surface",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   }
+  },
+  {
+   "id": "thumbB",
+   "start": 1,
+   "end": 2,
+   "line": "",
+   "scene": "TOO HEAVY.: worried hero face, the 10 t bridge sign, 36 t badge, the bridge cracking",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   }
+  }
+ ]
+}
