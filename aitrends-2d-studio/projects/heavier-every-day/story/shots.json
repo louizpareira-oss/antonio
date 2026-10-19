@@ -1,0 +1,2179 @@
+{
+ "title": "What If You Got 2x Heavier Every Single Day?",
+ "duration": 506.0,
+ "shots": [
+  {
+   "id": "s001",
+   "start": 0.0,
+   "end": 1.5,
+   "line": "Day seven.",
+   "scene": "EXTREME CLOSE-UP, frame 1: your sneaker sinking into the asphalt, cracks radiating; DAY 7 · 8,960 kg",
+   "set": "insert",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/01_hook.js"
+  },
+  {
+   "id": "s002",
+   "start": 1.5,
+   "end": 4.0,
+   "line": "You take one step...",
+   "scene": "LOW ANGLE street: your foot lifts and comes down, the road dents like wet sand",
+   "set": "street",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/01_hook.js"
+  },
+  {
+   "id": "s003",
+   "start": 4.0,
+   "end": 5.9,
+   "line": "and your shoe sinks into the road",
+   "scene": "CLOSE: the shoe sinks ankle-deep, asphalt bulges around it",
+   "set": "insert",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/01_hook.js"
+  },
+  {
+   "id": "s004",
+   "start": 5.9,
+   "end": 8.13,
+   "line": "like it's wet sand.",
+   "scene": "WIDE: you stand in a trail of deep footprints, neighbours staring",
+   "set": "street",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/01_hook.js"
+  },
+  {
+   "id": "s005",
+   "start": 8.13,
+   "end": 9.6,
+   "line": "Day eight.",
+   "scene": "DRIVEWAY: Mom's car, DAY 8 · 17,920 kg",
+   "set": "street",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/01_hook.js"
+  },
+  {
+   "id": "s006",
+   "start": 9.6,
+   "end": 12.08,
+   "line": "You lean on your mom's car...",
+   "scene": "MEDIUM: you rest a hand on the car roof",
+   "set": "street",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/01_hook.js"
+  },
+  {
+   "id": "s007",
+   "start": 12.08,
+   "end": 14.21,
+   "line": "and the roof caves in.",
+   "scene": "the roof crumples under your hand, glass pops; Mom's shocked face",
+   "set": "street",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/01_hook.js"
+  },
+  {
+   "id": "s008",
+   "start": 14.21,
+   "end": 15.73,
+   "line": "Day nine.",
+   "scene": "golden river, the old bridge; DAY 9",
+   "set": "river",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/01_hook.js"
+  },
+  {
+   "id": "s009",
+   "start": 15.73,
+   "end": 18.94,
+   "line": "The bridge to your grandpa's house has a sign.",
+   "scene": "WIDE: the bridge, Grandpa's house with a porch on the far bank",
+   "set": "river",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/01_hook.js"
+  },
+  {
+   "id": "s010",
+   "start": 18.94,
+   "end": 21.66,
+   "line": "Ten tonnes, maximum.",
+   "scene": "INSERT: the round 10 t weight-limit sign",
+   "set": "insert",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/01_hook.js"
+  },
+  {
+   "id": "s011",
+   "start": 21.66,
+   "end": 23.69,
+   "line": "You weigh thirty-six.",
+   "scene": "BIG FACE: you stare at the sign; badge 35,840 kg",
+   "set": "face",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/01_hook.js"
+  },
+  {
+   "id": "s012",
+   "start": 23.69,
+   "end": 28.76,
+   "line": "And tonight, at midnight, you'll weigh twice as much.",
+   "scene": "INSERT: clock 11:59 → 12:00, ×2 stamp",
+   "set": "insert",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/01_hook.js"
+  },
+  {
+   "id": "s013",
+   "start": 28.76,
+   "end": 34.14,
+   "line": "What if you got two times heavier... every single day?",
+   "scene": "TITLE: you on a cracking road at golden hour, the ground bending under you; WHAT IF YOU GOT 2× HEAVIER EVERY DAY?",
+   "set": "title",
+   "bars": "scope",
+   "in": {
+    "type": "fade",
+    "dur": 0.35
+   },
+   "notes": "shots/01_hook.js"
+  },
+  {
+   "id": "s014",
+   "start": 34.14,
+   "end": 36.14,
+   "line": "It starts on a Monday.",
+   "scene": "ESTABLISH: bright bathroom morning, MON; you step onto the scale",
+   "set": "bathroom",
+   "bars": "wide",
+   "in": {
+    "type": "dip",
+    "dur": 0.35
+   },
+   "notes": "shots/02_rules.js"
+  },
+  {
+   "id": "s015",
+   "start": 36.14,
+   "end": 41.16,
+   "line": "You step on the bathroom scale, and it says one hundred and forty kilos.",
+   "scene": "INSERT: the scale digits roll up to 140 kg",
+   "set": "insert",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/02_rules.js"
+  },
+  {
+   "id": "s016",
+   "start": 41.16,
+   "end": 43.95,
+   "line": "Yesterday, it said seventy.",
+   "scene": "INSERT: a ghost 70 kg crossed out; SUN on the calendar",
+   "set": "insert",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/02_rules.js"
+  },
+  {
+   "id": "s017",
+   "start": 43.95,
+   "end": 46.6,
+   "line": "Your mom says the scale is broken.",
+   "scene": "MEDIUM: Mom taps the scale and shrugs",
+   "set": "bathroom",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/02_rules.js"
+  },
+  {
+   "id": "s018",
+   "start": 46.6,
+   "end": 48.47,
+   "line": "So you buy a new one.",
+   "scene": "INSERT: a new scale box opens",
+   "set": "insert",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/02_rules.js"
+  },
+  {
+   "id": "s019",
+   "start": 48.47,
+   "end": 50.56,
+   "line": "It says the same thing.",
+   "scene": "INSERT: the new scale says 140 kg too; your deadpan feet",
+   "set": "insert",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/02_rules.js"
+  },
+  {
+   "id": "s020",
+   "start": 50.56,
+   "end": 52.7,
+   "line": "You look exactly the same.",
+   "scene": "BIG FACE in the bathroom mirror, unchanged",
+   "set": "bathroom",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/02_rules.js"
+  },
+  {
+   "id": "s021",
+   "start": 52.7,
+   "end": 53.82,
+   "line": "Same size.",
+   "scene": "MEDICAL CHART UI: HEIGHT 172 cm ✓, X-RAY normal ✓",
+   "set": "ui",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/02_rules.js"
+  },
+  {
+   "id": "s022",
+   "start": 53.82,
+   "end": 55.53,
+   "line": "Same face.",
+   "scene": "MEDICAL CHART UI: WEIGHT 140 kg ⚠ ?!",
+   "set": "ui",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/02_rules.js"
+  },
+  {
+   "id": "s023",
+   "start": 55.53,
+   "end": 59.37,
+   "line": "You can still walk, run and jump like always.",
+   "scene": "LIVING ROOM: you jump, the landing cracks the floor tiles",
+   "set": "living",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/02_rules.js"
+  },
+  {
+   "id": "s024",
+   "start": 59.37,
+   "end": 61.21,
+   "line": "Your body keeps up.",
+   "scene": "BIG FACE: you grin, flex",
+   "set": "face",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/02_rules.js"
+  },
+  {
+   "id": "s025",
+   "start": 61.21,
+   "end": 63.11,
+   "line": "Everything else doesn't.",
+   "scene": "INSERT: a chair splits under you",
+   "set": "living",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/02_rules.js"
+  },
+  {
+   "id": "s026",
+   "start": 63.11,
+   "end": 68.82,
+   "line": "Because every night, at the stroke of midnight, your weight doubles.",
+   "scene": "NIGHT bedroom: midnight clock, ×2 stamp glows",
+   "set": "bedroom",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/02_rules.js"
+  },
+  {
+   "id": "s027",
+   "start": 68.82,
+   "end": 72.35,
+   "line": "Day one, you weigh as much as a gorilla.",
+   "scene": "WEIGHT LADDER: a seesaw, you vs a gorilla; the gorilla flies up; DAY 1 140 kg",
+   "set": "ladder",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/02_rules.js"
+  },
+  {
+   "id": "s028",
+   "start": 72.35,
+   "end": 75.02,
+   "line": "Day two, a piano.",
+   "scene": "SEESAW: you vs a piano; DAY 2 280 kg",
+   "set": "ladder",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/02_rules.js"
+  },
+  {
+   "id": "s029",
+   "start": 75.02,
+   "end": 77.7,
+   "line": "Day three, a horse.",
+   "scene": "SEESAW: you vs a horse; DAY 3 560 kg",
+   "set": "ladder",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/02_rules.js"
+  },
+  {
+   "id": "s030",
+   "start": 77.7,
+   "end": 80.34,
+   "line": "Day four, a car.",
+   "scene": "SEESAW: you vs a car; DAY 4 1,120 kg",
+   "set": "ladder",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/02_rules.js"
+  },
+  {
+   "id": "s031",
+   "start": 80.34,
+   "end": 83.86,
+   "line": "By day seven, you weigh as much as a T. rex.",
+   "scene": "SEESAW: you vs a T. rex; DAY 7 8,960 kg",
+   "set": "ladder",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/02_rules.js"
+  },
+  {
+   "id": "s032",
+   "start": 83.86,
+   "end": 88.0,
+   "line": "And by day twenty, you'd be heavier than the Titanic.",
+   "scene": "ZOOM OUT: the Titanic on the other end, and you still win; DAY 20 73,400 t",
+   "set": "ladder",
+   "bars": "none",
+   "in": {
+    "type": "zoom",
+    "dur": 0.35
+   },
+   "notes": "shots/02_rules.js"
+  },
+  {
+   "id": "s033",
+   "start": 88.0,
+   "end": 90.57,
+   "line": "At first, it's kind of awesome.",
+   "scene": "BIG FACE: grinning, thumbs up",
+   "set": "face",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/03_lake.js"
+  },
+  {
+   "id": "s034",
+   "start": 90.57,
+   "end": 92.67,
+   "line": "Nobody can push you over.",
+   "scene": "SCHOOL HALL: a big kid shoves you and bounces off",
+   "set": "school",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/03_lake.js"
+  },
+  {
+   "id": "s035",
+   "start": 92.67,
+   "end": 96.62,
+   "line": "In gym class, the whole team pulls on the other end of the rope...",
+   "scene": "GYM: the whole class pulls the rope against you",
+   "set": "gym",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/03_lake.js"
+  },
+  {
+   "id": "s036",
+   "start": 96.62,
+   "end": 99.01,
+   "line": "and you don't move an inch.",
+   "scene": "CLOSE: your feet planted; the coach's whistle drops from his mouth",
+   "set": "gym",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/03_lake.js"
+  },
+  {
+   "id": "s037",
+   "start": 99.01,
+   "end": 102.22,
+   "line": "But there's one person you really want to show.",
+   "scene": "you pick up a framed photo",
+   "set": "living",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/03_lake.js"
+  },
+  {
+   "id": "s038",
+   "start": 102.22,
+   "end": 103.88,
+   "line": "Your grandpa.",
+   "scene": "INSERT photo: you and Grandpa at the lake, red lifeguard jacket",
+   "set": "insert",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/03_lake.js"
+  },
+  {
+   "id": "s039",
+   "start": 103.88,
+   "end": 107.79,
+   "line": "Every summer since you were five, he's taken you to the lake.",
+   "scene": "SEPIA flashback: summer lake, the dock, little you and Grandpa",
+   "set": "lake",
+   "bars": "wide",
+   "in": {
+    "type": "dip",
+    "dur": 0.35
+   },
+   "notes": "shots/03_lake.js"
+  },
+  {
+   "id": "s040",
+   "start": 107.79,
+   "end": 109.74,
+   "line": "He used to be a lifeguard.",
+   "scene": "SEPIA: young Grandpa on a lifeguard chair, whistle",
+   "set": "lake",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/03_lake.js"
+  },
+  {
+   "id": "s041",
+   "start": 109.74,
+   "end": 112.13,
+   "line": "He's the one who taught you to float.",
+   "scene": "SEPIA: Grandpa in the water, little you on your back",
+   "set": "lake",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/03_lake.js"
+  },
+  {
+   "id": "s042",
+   "start": 112.13,
+   "end": 115.2,
+   "line": "\"Lie back. Spread your arms.",
+   "scene": "SEPIA BIG FACE: Grandpa, warm sun — his line",
+   "set": "face",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/03_lake.js"
+  },
+  {
+   "id": "s043",
+   "start": 115.2,
+   "end": 118.58,
+   "line": "Trust the water. It'll hold you up.\"",
+   "scene": "SEPIA: little you floating, arms spread, Grandpa's hand lets go",
+   "set": "lake",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/03_lake.js"
+  },
+  {
+   "id": "s044",
+   "start": 118.58,
+   "end": 121.68,
+   "line": "So on day three, you run to the end of the dock,",
+   "scene": "PRESENT: you run down the dock, Grandpa on the shore; DAY 3",
+   "set": "lake",
+   "bars": "wide",
+   "in": {
+    "type": "dip",
+    "dur": 0.35
+   },
+   "notes": "shots/03_lake.js"
+  },
+  {
+   "id": "s045",
+   "start": 121.68,
+   "end": 123.46,
+   "line": "and you jump.",
+   "scene": "you mid-air off the end of the dock",
+   "set": "lake",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/03_lake.js"
+  },
+  {
+   "id": "s046",
+   "start": 123.46,
+   "end": 125.05,
+   "line": "And you sink.",
+   "scene": "UNDERWATER: you plunge like a stone, a column of bubbles",
+   "set": "underwater",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/03_lake.js"
+  },
+  {
+   "id": "s047",
+   "start": 125.05,
+   "end": 127.12,
+   "line": "Straight to the bottom.",
+   "scene": "you thud onto the lakebed, a sand cloud",
+   "set": "underwater",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/03_lake.js"
+  },
+  {
+   "id": "s048",
+   "start": 127.12,
+   "end": 130.49,
+   "line": "Five meters down, you look up at the light...",
+   "scene": "LOOKING UP from the bottom: bright surface, light rays",
+   "set": "underwater",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/03_lake.js"
+  },
+  {
+   "id": "s049",
+   "start": 130.49,
+   "end": 134.47,
+   "line": "and then you walk out of the lake, along the bottom.",
+   "scene": "CUT-AWAY of the lake: you walk up the slope along the bottom",
+   "set": "underwater",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/03_lake.js"
+  },
+  {
+   "id": "s050",
+   "start": 134.47,
+   "end": 136.63,
+   "line": "Grandpa doesn't say a word.",
+   "scene": "SHORE: you come out dripping; Grandpa frozen",
+   "set": "lake",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/03_lake.js"
+  },
+  {
+   "id": "s051",
+   "start": 136.63,
+   "end": 139.63,
+   "line": "He just wraps a towel around your shoulders.",
+   "scene": "Grandpa wraps a towel around your shoulders",
+   "set": "lake",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/03_lake.js"
+  },
+  {
+   "id": "s052",
+   "start": 139.63,
+   "end": 142.33,
+   "line": "The water doesn't hold you up anymore.",
+   "scene": "BIG FACE: wet, sad, the towel",
+   "set": "face",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/03_lake.js"
+  },
+  {
+   "id": "s053",
+   "start": 142.33,
+   "end": 146.5,
+   "line": "Day four, the stairs give way under your feet.",
+   "scene": "STAIRS: the steps snap under you; DAY 4",
+   "set": "home",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/04_house.js"
+  },
+  {
+   "id": "s054",
+   "start": 146.5,
+   "end": 148.98,
+   "line": "Day five, at two in the morning,",
+   "scene": "NIGHT bedroom: clock 2:00, you asleep; DAY 5",
+   "set": "bedroom",
+   "bars": "wide",
+   "in": {
+    "type": "dip",
+    "dur": 0.35
+   },
+   "notes": "shots/04_house.js"
+  },
+  {
+   "id": "s055",
+   "start": 148.98,
+   "end": 152.44,
+   "line": "your bed goes through the floor and lands in the kitchen.",
+   "scene": "CUTAWAY house: the bed crashes from the bedroom into the kitchen",
+   "set": "cutaway",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/04_house.js"
+  },
+  {
+   "id": "s056",
+   "start": 152.44,
+   "end": 154.43,
+   "line": "You move into the garage.",
+   "scene": "GARAGE: you on a mattress on the concrete, a work lamp",
+   "set": "garage",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/04_house.js"
+  },
+  {
+   "id": "s057",
+   "start": 154.43,
+   "end": 157.9,
+   "line": "It's the only floor in the house made of concrete.",
+   "scene": "Mom in the garage doorway with a plate, you on the floor",
+   "set": "garage",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/04_house.js"
+  },
+  {
+   "id": "s058",
+   "start": 157.9,
+   "end": 161.28,
+   "line": "Day six, you're as heavy as an elephant.",
+   "scene": "DAY 6: an elephant on the seesaw = you",
+   "set": "ladder",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/04_house.js"
+  },
+  {
+   "id": "s059",
+   "start": 161.28,
+   "end": 164.79,
+   "line": "Your best friend ties a rope from you to his dad's pickup truck,",
+   "scene": "STREET: your friend ties a rope from you to his dad's pickup",
+   "set": "street",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/04_house.js"
+  },
+  {
+   "id": "s060",
+   "start": 164.79,
+   "end": 166.43,
+   "line": "and floors it.",
+   "scene": "the pickup lurches forward",
+   "set": "street",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/04_house.js"
+  },
+  {
+   "id": "s061",
+   "start": 166.43,
+   "end": 168.28,
+   "line": "The tires scream.",
+   "scene": "CLOSE: spinning tires, smoke",
+   "set": "insert",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/04_house.js"
+  },
+  {
+   "id": "s062",
+   "start": 168.28,
+   "end": 169.97,
+   "line": "The truck shakes.",
+   "scene": "the truck shudders, rope taut",
+   "set": "street",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/04_house.js"
+  },
+  {
+   "id": "s063",
+   "start": 169.97,
+   "end": 171.59,
+   "line": "You don't move.",
+   "scene": "you, calm, sipping a juice box",
+   "set": "street",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/04_house.js"
+  },
+  {
+   "id": "s064",
+   "start": 171.59,
+   "end": 174.32,
+   "line": "Ten million people watch the video.",
+   "scene": "PHONE UI: the video plays, views roll to 10,000,000",
+   "set": "ui",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/04_house.js"
+  },
+  {
+   "id": "s065",
+   "start": 174.32,
+   "end": 177.5,
+   "line": "They call you the Immovable Kid.",
+   "scene": "NEWS SITE UI: THE IMMOVABLE KID",
+   "set": "ui",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/04_house.js"
+  },
+  {
+   "id": "s066",
+   "start": 177.5,
+   "end": 181.89,
+   "line": "Day seven, every step leaves a footprint in the road.",
+   "scene": "TOP VIEW: a trail of deep footprints in the road; DAY 7",
+   "set": "street",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/04_house.js"
+  },
+  {
+   "id": "s067",
+   "start": 181.89,
+   "end": 183.83,
+   "line": "Cars can't carry you.",
+   "scene": "a car bottoms out as you sit in it",
+   "set": "street",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/04_house.js"
+  },
+  {
+   "id": "s068",
+   "start": 183.83,
+   "end": 185.84,
+   "line": "Buses can't carry you.",
+   "scene": "a bus driver shakes his head, the bus tilts",
+   "set": "street",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/04_house.js"
+  },
+  {
+   "id": "s069",
+   "start": 185.84,
+   "end": 190.11,
+   "line": "The city lays steel plates on the sidewalk, just for you.",
+   "scene": "workers lay steel plates; you walk alone on them",
+   "set": "street",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/04_house.js"
+  },
+  {
+   "id": "s070",
+   "start": 190.11,
+   "end": 193.75,
+   "line": "Day eight, you're as heavy as a fire truck.",
+   "scene": "DAY 8: a fire truck on the seesaw = you",
+   "set": "ladder",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/04_house.js"
+  },
+  {
+   "id": "s071",
+   "start": 193.75,
+   "end": 196.19,
+   "line": "Your school asks you to stay home.",
+   "scene": "EMAIL UI from school: Please stay home",
+   "set": "ui",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/04_house.js"
+  },
+  {
+   "id": "s072",
+   "start": 196.19,
+   "end": 198.45,
+   "line": "The floors were built for students.",
+   "scene": "SCHOOL: classroom floor with a load sign 200 kg/m²",
+   "set": "school",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/04_house.js"
+  },
+  {
+   "id": "s073",
+   "start": 198.45,
+   "end": 199.81,
+   "line": "Not for you.",
+   "scene": "BIG FACE: sad, hood up, garage",
+   "set": "face",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/04_house.js"
+  },
+  {
+   "id": "s074",
+   "start": 199.81,
+   "end": 201.72,
+   "line": "And day nine...",
+   "scene": "DUSK river; DAY 9",
+   "set": "river",
+   "bars": "wide",
+   "in": {
+    "type": "dip",
+    "dur": 0.35
+   },
+   "notes": "shots/04_house.js"
+  },
+  {
+   "id": "s075",
+   "start": 201.72,
+   "end": 203.46,
+   "line": "the bridge.",
+   "scene": "the bridge, long lens",
+   "set": "river",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/04_house.js"
+  },
+  {
+   "id": "s076",
+   "start": 203.46,
+   "end": 206.38,
+   "line": "Your grandpa lives on the other side of the river.",
+   "scene": "Grandpa's house across the river, porch light on",
+   "set": "river",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/04_house.js"
+  },
+  {
+   "id": "s077",
+   "start": 206.38,
+   "end": 209.11,
+   "line": "The sign says ten tonnes.",
+   "scene": "INSERT: 10 t sign",
+   "set": "insert",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/04_house.js"
+  },
+  {
+   "id": "s078",
+   "start": 209.11,
+   "end": 213.89,
+   "line": "You weigh thirty-six, as much as a fully loaded eighteen-wheeler.",
+   "scene": "36 t: an 18-wheeler on the seesaw = you",
+   "set": "ladder",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/04_house.js"
+  },
+  {
+   "id": "s079",
+   "start": 213.89,
+   "end": 216.09,
+   "line": "So he calls you every night.",
+   "scene": "VIDEO CALL UI: Grandpa on the phone; you small in the corner",
+   "set": "ui",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/04_house.js"
+  },
+  {
+   "id": "s080",
+   "start": 216.09,
+   "end": 219.55,
+   "line": "And every night, he asks the same thing.",
+   "scene": "GARAGE night: you on the floor, phone glow",
+   "set": "garage",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/04_house.js"
+  },
+  {
+   "id": "s081",
+   "start": 219.55,
+   "end": 222.12,
+   "line": "\"You still floating, kiddo?\"",
+   "scene": "VIDEO CALL: Grandpa's big face, smiling — his line",
+   "set": "face",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/04_house.js"
+  },
+  {
+   "id": "s082",
+   "start": 222.12,
+   "end": 226.89,
+   "line": "That night, a woman in a white coat walks into your garage.",
+   "scene": "NIGHT: the garage door rises, floodlights, Dr. Voss silhouette",
+   "set": "garage",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/05_atlas.js"
+  },
+  {
+   "id": "s083",
+   "start": 226.89,
+   "end": 229.74,
+   "line": "Her badge says Project Atlas.",
+   "scene": "INSERT: the PROJECT ATLAS badge",
+   "set": "insert",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/05_atlas.js"
+  },
+  {
+   "id": "s084",
+   "start": 229.74,
+   "end": 232.25,
+   "line": "She shows you what happens next.",
+   "scene": "ATLAS TABLET UI: forecast chart, weight by day",
+   "set": "ui",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/05_atlas.js"
+  },
+  {
+   "id": "s085",
+   "start": 232.25,
+   "end": 236.62,
+   "line": "Day fourteen, even solid rock can't hold you.",
+   "scene": "CUT-AWAY of the ground: you sinking into bedrock; DAY 14",
+   "set": "cutaway",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/05_atlas.js"
+  },
+  {
+   "id": "s086",
+   "start": 236.62,
+   "end": 239.87,
+   "line": "You'll sink into the ground with every step.",
+   "scene": "each step punches a hole, you knee-deep",
+   "set": "street",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/05_atlas.js"
+  },
+  {
+   "id": "s087",
+   "start": 239.87,
+   "end": 246.03,
+   "line": "Day thirty-one, you'll pull on anything a meter away as hard as the whole Earth does.",
+   "scene": "BLUEPRINT: you, pebbles pulled toward you, 1 g at 1 m; DAY 31",
+   "set": "blueprint",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/05_atlas.js"
+  },
+  {
+   "id": "s088",
+   "start": 246.03,
+   "end": 248.88,
+   "line": "The ground will start falling in on you.",
+   "scene": "CUT-AWAY: rock caving in around you",
+   "set": "cutaway",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/05_atlas.js"
+  },
+  {
+   "id": "s089",
+   "start": 248.88,
+   "end": 253.05,
+   "line": "Day seventy-seven, you'll weigh more than the planet.",
+   "scene": "BALANCE: you vs the Earth, the Earth goes up; DAY 77",
+   "set": "blueprint",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/05_atlas.js"
+  },
+  {
+   "id": "s090",
+   "start": 253.05,
+   "end": 258.7,
+   "line": "\"You can't stay on Earth. And after tomorrow, no rocket can lift you.\"",
+   "scene": "BIG FACE: Dr. Voss, cold light — her line",
+   "set": "face",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/05_atlas.js"
+  },
+  {
+   "id": "s091",
+   "start": 258.7,
+   "end": 261.23,
+   "line": "Atlas has one rocket big enough.",
+   "scene": "BLUEPRINT: the Atlas rocket",
+   "set": "blueprint",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/05_atlas.js"
+  },
+  {
+   "id": "s092",
+   "start": 261.23,
+   "end": 263.65,
+   "line": "It can carry a hundred tonnes.",
+   "scene": "PAYLOAD BAR: limit 100 t",
+   "set": "blueprint",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/05_atlas.js"
+  },
+  {
+   "id": "s093",
+   "start": 263.65,
+   "end": 266.35,
+   "line": "Tomorrow, you'll weigh seventy-two.",
+   "scene": "PAYLOAD BAR: 72 t fits ✓",
+   "set": "blueprint",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/05_atlas.js"
+  },
+  {
+   "id": "s094",
+   "start": 266.35,
+   "end": 269.41,
+   "line": "The day after, a hundred and forty-three.",
+   "scene": "PAYLOAD BAR: 143 t blows past the line ✗",
+   "set": "blueprint",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/05_atlas.js"
+  },
+  {
+   "id": "s095",
+   "start": 269.41,
+   "end": 272.7,
+   "line": "So if you go, you go tomorrow night.",
+   "scene": "COUNTDOWN UI: LAUNCH TOMORROW 23:00",
+   "set": "ui",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/05_atlas.js"
+  },
+  {
+   "id": "s096",
+   "start": 272.7,
+   "end": 274.31,
+   "line": "Before midnight.",
+   "scene": "INSERT: midnight clock, red",
+   "set": "insert",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/05_atlas.js"
+  },
+  {
+   "id": "s097",
+   "start": 274.31,
+   "end": 276.61,
+   "line": "And you can never come back.",
+   "scene": "BIG FACE: you, the floodlight on your face",
+   "set": "face",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/05_atlas.js"
+  },
+  {
+   "id": "s098",
+   "start": 276.61,
+   "end": 281.45,
+   "line": "By day twenty, coming home would mean hitting the ground like an asteroid.",
+   "scene": "re-entry: a fireball over a small town; DAY 20 = ASTEROID",
+   "set": "blueprint",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/05_atlas.js"
+  },
+  {
+   "id": "s099",
+   "start": 281.45,
+   "end": 284.22,
+   "line": "You have one day left on Earth.",
+   "scene": "GARAGE: you sitting on the floor, alone",
+   "set": "garage",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/05_atlas.js"
+  },
+  {
+   "id": "s100",
+   "start": 284.22,
+   "end": 287.13,
+   "line": "And there's one person you need to see.",
+   "scene": "INSERT: the photo of you and Grandpa on the garage wall",
+   "set": "insert",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/05_atlas.js"
+  },
+  {
+   "id": "s101",
+   "start": 287.13,
+   "end": 290.33,
+   "line": "Day ten. Seventy-two tonnes.",
+   "scene": "DAWN river, mist; DAY 10 · 72 t",
+   "set": "river",
+   "bars": "wide",
+   "in": {
+    "type": "dip",
+    "dur": 0.35
+   },
+   "notes": "shots/06_river.js"
+  },
+  {
+   "id": "s102",
+   "start": 290.33,
+   "end": 292.25,
+   "line": "You can't cross the bridge.",
+   "scene": "the bridge with an Atlas barrier",
+   "set": "river",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/06_river.js"
+  },
+  {
+   "id": "s103",
+   "start": 292.25,
+   "end": 294.27,
+   "line": "So you go under it.",
+   "scene": "you at the river edge in a brass diving helmet",
+   "set": "river",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/06_river.js"
+  },
+  {
+   "id": "s104",
+   "start": 294.27,
+   "end": 299.04,
+   "line": "Atlas gives you a diving helmet and an air hose, and you walk into the river.",
+   "scene": "the Atlas boat with the air hose; you wade in",
+   "set": "river",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/06_river.js"
+  },
+  {
+   "id": "s105",
+   "start": 299.04,
+   "end": 302.41,
+   "line": "Down, and down, and across the bottom.",
+   "scene": "UNDERWATER: you walk down the slope, light rays",
+   "set": "underwater",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/06_river.js"
+  },
+  {
+   "id": "s106",
+   "start": 302.41,
+   "end": 304.75,
+   "line": "Fish slide past your helmet.",
+   "scene": "CLOSE: fish pass your helmet window",
+   "set": "underwater",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/06_river.js"
+  },
+  {
+   "id": "s107",
+   "start": 304.75,
+   "end": 308.24,
+   "line": "Somewhere above you, the bridge you can't cross.",
+   "scene": "LOOKING UP: the bridge's underside through the water",
+   "set": "underwater",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/06_river.js"
+  },
+  {
+   "id": "s108",
+   "start": 308.24,
+   "end": 312.32,
+   "line": "On the other side, your grandpa is waiting at the edge of the water.",
+   "scene": "SUNRISE far bank: Grandpa waiting at the water's edge",
+   "set": "river",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/06_river.js"
+  },
+  {
+   "id": "s109",
+   "start": 312.32,
+   "end": 314.54,
+   "line": "He's been there since sunrise.",
+   "scene": "Grandpa with a thermos, the sun behind him",
+   "set": "river",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/06_river.js"
+  },
+  {
+   "id": "s110",
+   "start": 314.54,
+   "end": 315.97,
+   "line": "You can't hug him.",
+   "scene": "you come out of the river; you raise a hand: stop",
+   "set": "river",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/06_river.js"
+  },
+  {
+   "id": "s111",
+   "start": 315.97,
+   "end": 318.32,
+   "line": "If you tripped, you'd crush him.",
+   "scene": "IMAGINED: you trip, your shadow over Grandpa — red ✗",
+   "set": "river",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/06_river.js"
+  },
+  {
+   "id": "s112",
+   "start": 318.32,
+   "end": 321.54,
+   "line": "So you sit on the riverbank, one meter apart.",
+   "scene": "you and Grandpa sitting one meter apart, 1 m line",
+   "set": "river",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/06_river.js"
+  },
+  {
+   "id": "s113",
+   "start": 321.54,
+   "end": 325.93,
+   "line": "And he tells you the same thing he told you when you were five.",
+   "scene": "Grandpa turns to you",
+   "set": "river",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/06_river.js"
+  },
+  {
+   "id": "s114",
+   "start": 325.93,
+   "end": 330.44,
+   "line": "\"Lie back. Spread your arms. Trust it.",
+   "scene": "BIG FACE: Grandpa, tears, sunrise rim — his line",
+   "set": "face",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/06_river.js"
+  },
+  {
+   "id": "s115",
+   "start": 330.44,
+   "end": 333.74,
+   "line": "Up there, everything floats.\"",
+   "scene": "Grandpa points at the sky; you look up",
+   "set": "river",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/06_river.js"
+  },
+  {
+   "id": "s116",
+   "start": 333.74,
+   "end": 337.48,
+   "line": "That night, they lay you down at the top of the rocket.",
+   "scene": "NIGHT launch pad: the rocket under floodlights",
+   "set": "pad",
+   "bars": "wide",
+   "in": {
+    "type": "dip",
+    "dur": 0.35
+   },
+   "notes": "shots/06_river.js"
+  },
+  {
+   "id": "s117",
+   "start": 337.48,
+   "end": 339.11,
+   "line": "Eleven p.m.",
+   "scene": "MISSION CONTROL UI: 23:00, PAYLOAD 72 t / 100 t",
+   "set": "ui",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/06_river.js"
+  },
+  {
+   "id": "s118",
+   "start": 339.11,
+   "end": 341.37,
+   "line": "One hour before midnight.",
+   "scene": "INSERT: clock 23:00, 1 hour to midnight",
+   "set": "insert",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/06_river.js"
+  },
+  {
+   "id": "s119",
+   "start": 341.37,
+   "end": 342.56,
+   "line": "Three.",
+   "scene": "COUNTDOWN 3: your face in the capsule",
+   "set": "capsule",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/06_river.js"
+  },
+  {
+   "id": "s120",
+   "start": 342.56,
+   "end": 343.68,
+   "line": "Two.",
+   "scene": "COUNTDOWN 2",
+   "set": "capsule",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/06_river.js"
+  },
+  {
+   "id": "s121",
+   "start": 343.68,
+   "end": 345.01,
+   "line": "One.",
+   "scene": "COUNTDOWN 1: ignition",
+   "set": "pad",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/06_river.js"
+  },
+  {
+   "id": "s122",
+   "start": 345.01,
+   "end": 347.47,
+   "line": "The whole launch pad shakes.",
+   "scene": "LIFTOFF: smoke, the pad shaking",
+   "set": "pad",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/06_river.js"
+  },
+  {
+   "id": "s123",
+   "start": 347.47,
+   "end": 352.71,
+   "line": "For eight minutes, the rocket pushes you down harder than anything ever has.",
+   "scene": "your face pressed into the seat, g-meter",
+   "set": "capsule",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/06_river.js"
+  },
+  {
+   "id": "s124",
+   "start": 352.71,
+   "end": 354.0,
+   "line": "And then...",
+   "scene": "the rocket in space, stage drops away",
+   "set": "orbit",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/06_river.js"
+  },
+  {
+   "id": "s125",
+   "start": 354.0,
+   "end": 355.74,
+   "line": "the engines stop.",
+   "scene": "silence in the capsule",
+   "set": "capsule",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/06_river.js"
+  },
+  {
+   "id": "s126",
+   "start": 355.74,
+   "end": 357.21,
+   "line": "And you float.",
+   "scene": "you lift off the seat",
+   "set": "capsule",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/06_river.js"
+  },
+  {
+   "id": "s127",
+   "start": 357.21,
+   "end": 361.43,
+   "line": "For the first time since day one, nothing has to hold you up.",
+   "scene": "you floating, a smile",
+   "set": "capsule",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/06_river.js"
+  },
+  {
+   "id": "s128",
+   "start": 361.43,
+   "end": 362.54,
+   "line": "You lie back.",
+   "scene": "you lie back in the air",
+   "set": "capsule",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/06_river.js"
+  },
+  {
+   "id": "s129",
+   "start": 362.54,
+   "end": 364.36,
+   "line": "You spread your arms.",
+   "scene": "arms spread, the Earth in the window",
+   "set": "capsule",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/06_river.js"
+  },
+  {
+   "id": "s130",
+   "start": 364.36,
+   "end": 368.07,
+   "line": "Somewhere down there, your grandpa is looking up.",
+   "scene": "NIGHT: Grandpa on his porch looks up at a moving star",
+   "set": "river",
+   "bars": "wide",
+   "in": {
+    "type": "dip",
+    "dur": 0.35
+   },
+   "notes": "shots/06_river.js"
+  },
+  {
+   "id": "s131",
+   "start": 368.07,
+   "end": 370.96,
+   "line": "So, is any of this real?",
+   "scene": "BLUEPRINT: IS ANY OF THIS REAL?",
+   "set": "blueprint",
+   "bars": "none",
+   "in": {
+    "type": "dip",
+    "dur": 0.35
+   },
+   "notes": "shots/07_science.js"
+  },
+  {
+   "id": "s132",
+   "start": 370.96,
+   "end": 372.43,
+   "line": "Not the doubling.",
+   "scene": "BLUEPRINT: the doubling curve crossed out",
+   "set": "blueprint",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/07_science.js"
+  },
+  {
+   "id": "s133",
+   "start": 372.43,
+   "end": 375.39,
+   "line": "And in real life, your body wouldn't keep up.",
+   "scene": "BLUEPRINT: body outline, heart",
+   "set": "blueprint",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/07_science.js"
+  },
+  {
+   "id": "s134",
+   "start": 375.39,
+   "end": 379.46,
+   "line": "Fighter pilots in tight turns can feel nine times their own weight,",
+   "scene": "BLUEPRINT: a jet in a tight turn, 9 g",
+   "set": "blueprint",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/07_science.js"
+  },
+  {
+   "id": "s135",
+   "start": 379.46,
+   "end": 383.51,
+   "line": "and even they need special suits and training not to black out.",
+   "scene": "BLUEPRINT: pilot in a G-suit",
+   "set": "blueprint",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/07_science.js"
+  },
+  {
+   "id": "s136",
+   "start": 383.51,
+   "end": 389.1,
+   "line": "At eight times your weight, on day three, your heart couldn't push blood up to your brain.",
+   "scene": "BLUEPRINT: heart pumping blood up to the brain fails, 8×",
+   "set": "blueprint",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/07_science.js"
+  },
+  {
+   "id": "s137",
+   "start": 389.1,
+   "end": 390.54,
+   "line": "You'd faint.",
+   "scene": "BLUEPRINT: outline faints, eyes X",
+   "set": "blueprint",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/07_science.js"
+  },
+  {
+   "id": "s138",
+   "start": 390.54,
+   "end": 392.63,
+   "line": "Floors have limits too.",
+   "scene": "BLUEPRINT: floor beam",
+   "set": "blueprint",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/07_science.js"
+  },
+  {
+   "id": "s139",
+   "start": 392.63,
+   "end": 397.67,
+   "line": "A normal house floor is built for about two hundred kilos on every square meter.",
+   "scene": "BLUEPRINT: a 1 m² tile, 200 kg",
+   "set": "blueprint",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/07_science.js"
+  },
+  {
+   "id": "s140",
+   "start": 397.67,
+   "end": 401.51,
+   "line": "On day five, your bed puts five times that on it.",
+   "scene": "BLUEPRINT: the bed, 1,000 kg on every m², ×5, beam cracks",
+   "set": "blueprint",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/07_science.js"
+  },
+  {
+   "id": "s141",
+   "start": 401.51,
+   "end": 408.16,
+   "line": "You float because, with air in your lungs, your body is a tiny bit lighter than the same amount of water.",
+   "scene": "BLUEPRINT: water tank, a body floats (air in lungs)",
+   "set": "blueprint",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/07_science.js"
+  },
+  {
+   "id": "s142",
+   "start": 408.16,
+   "end": 411.45,
+   "line": "Double your weight, and you sink like a stone.",
+   "scene": "BLUEPRINT: the 2× body sinks",
+   "set": "blueprint",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/07_science.js"
+  },
+  {
+   "id": "s143",
+   "start": 411.45,
+   "end": 415.56,
+   "line": "Archimedes figured that out more than two thousand years ago.",
+   "scene": "BLUEPRINT: Archimedes outline in a bath, ~250 BC; REAL",
+   "set": "blueprint",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/07_science.js"
+  },
+  {
+   "id": "s144",
+   "start": 415.56,
+   "end": 421.61,
+   "line": "The heavier something is, the harder it presses on the ground, and the harder it is to drag.",
+   "scene": "BLUEPRINT: weight arrow down, friction arrow back",
+   "set": "blueprint",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/07_science.js"
+  },
+  {
+   "id": "s145",
+   "start": 421.61,
+   "end": 423.19,
+   "line": "That's friction.",
+   "scene": "BLUEPRINT: FRICTION label",
+   "set": "blueprint",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/07_science.js"
+  },
+  {
+   "id": "s146",
+   "start": 423.19,
+   "end": 425.52,
+   "line": "It's why the truck couldn't move you.",
+   "scene": "BLUEPRINT: the truck pulls, you don't move",
+   "set": "blueprint",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/07_science.js"
+  },
+  {
+   "id": "s147",
+   "start": 425.52,
+   "end": 429.6,
+   "line": "And every object pulls on every other object.",
+   "scene": "BLUEPRINT: two balls pulling each other",
+   "set": "blueprint",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/07_science.js"
+  },
+  {
+   "id": "s148",
+   "start": 429.6,
+   "end": 432.3,
+   "line": "Right now, you're pulling on your phone.",
+   "scene": "BLUEPRINT: you and your phone, tiny arrows",
+   "set": "blueprint",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/07_science.js"
+  },
+  {
+   "id": "s149",
+   "start": 432.3,
+   "end": 435.98,
+   "line": "Just very, very weakly.",
+   "scene": "BLUEPRINT: a magnifier on the tiny arrow",
+   "set": "blueprint",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/07_science.js"
+  },
+  {
+   "id": "s150",
+   "start": 435.98,
+   "end": 441.84,
+   "line": "In 1798, Henry Cavendish measured that pull between lead balls, in a shed.",
+   "scene": "BLUEPRINT: Cavendish's torsion balance in a shed; 1798; REAL",
+   "set": "blueprint",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/07_science.js"
+  },
+  {
+   "id": "s151",
+   "start": 441.84,
+   "end": 446.14,
+   "line": "Make yourself heavy enough, and that tiny pull gets big.",
+   "scene": "BLUEPRINT: the arrows grow huge",
+   "set": "blueprint",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/07_science.js"
+  },
+  {
+   "id": "s152",
+   "start": 446.14,
+   "end": 449.99,
+   "line": "And astronauts don't float because there's no gravity up there.",
+   "scene": "BLUEPRINT: an astronaut in orbit, gravity arrow still there",
+   "set": "blueprint",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/07_science.js"
+  },
+  {
+   "id": "s153",
+   "start": 449.99,
+   "end": 455.83,
+   "line": "They float because they're falling around the Earth, all the time.",
+   "scene": "BLUEPRINT: Newton's cannon, the ball falls around the Earth",
+   "set": "blueprint",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/07_science.js"
+  },
+  {
+   "id": "s154",
+   "start": 455.83,
+   "end": 456.76,
+   "line": "Day twenty.",
+   "scene": "ORBIT: the capsule over the Earth; DAY 20",
+   "set": "orbit",
+   "bars": "wide",
+   "in": {
+    "type": "dip",
+    "dur": 0.35
+   },
+   "notes": "shots/08_twist.js"
+  },
+  {
+   "id": "s155",
+   "start": 456.76,
+   "end": 460.29,
+   "line": "Seventy-three thousand tonnes.",
+   "scene": "CAPSULE: badge 73,400 t",
+   "set": "capsule",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/08_twist.js"
+  },
+  {
+   "id": "s156",
+   "start": 460.29,
+   "end": 462.66,
+   "line": "Heavier than the Titanic.",
+   "scene": "Titanic icon on the seesaw = you",
+   "set": "capsule",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/08_twist.js"
+  },
+  {
+   "id": "s157",
+   "start": 462.66,
+   "end": 467.75,
+   "line": "You're floating, arms spread, just like Grandpa taught you.",
+   "scene": "you floating, arms spread",
+   "set": "capsule",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/08_twist.js"
+  },
+  {
+   "id": "s158",
+   "start": 467.75,
+   "end": 470.82,
+   "line": "Then your pen drifts across the capsule...",
+   "scene": "the pen drifts across the capsule",
+   "set": "capsule",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/08_twist.js"
+  },
+  {
+   "id": "s159",
+   "start": 470.82,
+   "end": 473.01,
+   "line": "and stops on your chest.",
+   "scene": "CLOSE: the pen lands on your chest",
+   "set": "capsule",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/08_twist.js"
+  },
+  {
+   "id": "s160",
+   "start": 473.01,
+   "end": 475.24,
+   "line": "It isn't floating anymore.",
+   "scene": "BIG FACE: you stare at the pen",
+   "set": "face",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/08_twist.js"
+  },
+  {
+   "id": "s161",
+   "start": 475.24,
+   "end": 476.82,
+   "line": "It's falling.",
+   "scene": "arrows: everything loose drifts toward you",
+   "set": "capsule",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/08_twist.js"
+  },
+  {
+   "id": "s162",
+   "start": 476.82,
+   "end": 478.3,
+   "line": "Toward you.",
+   "scene": "BIG FACE: eyes wide",
+   "set": "face",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/08_twist.js"
+  },
+  {
+   "id": "s163",
+   "start": 478.3,
+   "end": 480.98,
+   "line": "You left the Earth to keep it safe.",
+   "scene": "ORBIT: the tiny capsule and the big blue Earth",
+   "set": "orbit",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/08_twist.js"
+  },
+  {
+   "id": "s164",
+   "start": 480.98,
+   "end": 484.9,
+   "line": "But you're still going around it, every ninety minutes.",
+   "scene": "ORBIT DIAGRAM: every 92 min",
+   "set": "orbit",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/08_twist.js"
+  },
+  {
+   "id": "s165",
+   "start": 484.9,
+   "end": 491.23,
+   "line": "And on day fifty-three, you'll pull on its oceans harder than the Moon does.",
+   "scene": "the ocean bulging toward the capsule more than toward the Moon; DAY 53",
+   "set": "orbit",
+   "bars": "wide",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/08_twist.js"
+  },
+  {
+   "id": "s166",
+   "start": 491.23,
+   "end": 506.0,
+   "line": "What would YOU do if you got two times heavier every day? Tell us in the comments. And subscribe, because Part 2 is coming.",
+   "scene": "END SCREEN: WHAT WOULD YOU DO IF YOU GOT 2× HEAVIER EVERY DAY? comment bubble, subscribe, cast, PART 2",
+   "set": "end",
+   "bars": "none",
+   "in": {
+    "type": "fade",
+    "dur": 0.35
+   },
+   "notes": "shots/08_twist.js"
+  }
+ ],
+ "music": [],
+ "sfx": []
+}
