@@ -5,8 +5,9 @@ import { drawFigure, POSES, breathe, walkPose } from '/engine/rig2d.js';
 import * as FX from '/engine/fx2d.js';
 import { bathroom, living, bedroom, bed } from '/projects/stronger-couldnt-stop/scenes/sets/home.js';
 import { stage } from '../sets/world.js';
+import { ladder } from '../ladder.js';
 import { YOU, MOM } from '../cast.js';
-import { heroFace, hand, weightBadge, midnightClock, seesaw, LOADS, cracks, impact, wt, GOLD, CORAL, card, uiText, UIBG, UIT, UIS, checkMark, crossMark, kg, wStr } from '../lib.js';
+import { heroFace, hand, weightBadge, midnightClock, seesaw, LOADS, cracks, impact, wt, GOLD, CORAL, card, uiText, UIBG, UIT, UIS, checkMark, crossMark, kg, wStr, sleeper } from '../lib.js';
 
 const WARM = '#ffd8a8';
 // digital bathroom scale, top view, centred; str = the LCD reading
@@ -97,23 +98,14 @@ registerShot('s025', { draw(g, t, info) {
 // s026 — "Because every night, at the stroke of midnight, your weight doubles."  NIGHT bedroom, the clock, ×2
 registerShot('s026', { draw(g, t, info) {
   const k = t / info.dur, cam = { z: 1.15 + 0.05 * k, x: -260, y: 60 }, R = bedroom(g, t, cam, { night: true }), f = wt('doubles', info, t, 4.2);
-  layer(g, cam, 1, (g) => { const top = bed(g, R.CX - 380, R.GY, 1.0); drawFigure(g, { x: R.CX - 100, y: top + 60, s: 1.15, rot: -Math.PI / 2, facing: 1, outfit: YOU, pose: POSES.lie, expr: 'sleepy', rim: { color: '#cfe0ff', dir: [0, -1] }, shadow: false }); });
+  layer(g, cam, 1, (g) => { sleeper(g, R.CX - 380, R.GY, 1.0, 1.4, { outfit: YOU, rim: { color: '#cfe0ff', dir: [0, -1] } }); });
   midnightClock(g, E.W * 0.74, E.H * 0.4, 190, lerp(58, 60, ease.inOut(prog(t, 0.3, f))), { stampAt: t - f });
   if (t > f) { const a = clamp(1 - (t - f) * 2); g.fillStyle = alpha('#ffe2b0', 0.4 * a); g.fillRect(0, 0, E.W, E.H); }
 } });
-// the seesaw shot: you on the left; `load` on the right; win = tilt progress
-function ladder(g, t, info, day, loadKey, o = {}) {
-  const k = t / info.dur, z = o.z ?? 1, cam = { z: 1.0 * z + 0.03 * k, x: 0, y: o.camY ?? 0 }, R = stage(g, t, cam), tilt = 0.22 * ease.outBack(prog(t, 0.25, 0.75));
-  layer(g, cam, 1, (g) => { seesaw(g, R.CX, R.GY - 150, o.L || 1500, tilt,
-    (g) => drawFigure(g, { x: 0, y: 0, s: 1.3, facing: 1, outfit: YOU, pose: breathe(POSES.stand, t), expr: 'smirk', look: [1, -0.2], rim: { color: WARM, dir: [0.6, -0.6] } }),
-    (g) => { const up = o.fly ? Math.max(0, (t - 0.55)) * 900 - 0 : 0; g.save(); g.translate(0, -up); g.rotate(o.fly ? (t - 0.55 > 0 ? (t - 0.55) * 2 : 0) : 0); LOADS[loadKey](g, o.s || 0.9); g.restore(); }); });
-  const lab = o.label || loadKey.toUpperCase(); text(g, `= ${lab}`, E.W * 0.74, E.H * 0.2, { size: 64, color: '#ffffff', font: FONTS.ui, weight: 900, stroke: 9, strokeColor: '#140c1e', alpha: ease.out(prog(t, 0.1, 0.4)) });
-  weightBadge(g, { day, k: 1, flip: prog(t, 0, 0.3) });
-}
 // s027–s032 — the weight ladder
-registerShot('s027', { draw(g, t, info) { ladder(g, t, info, 1, 'gorilla', { fly: true, label: 'A GORILLA' }); } });
-registerShot('s028', { draw(g, t, info) { ladder(g, t, info, 2, 'piano', { fly: true, label: 'A PIANO' }); } });
+registerShot('s027', { draw(g, t, info) { ladder(g, t, info, 1, 'gorilla', { label: 'A GORILLA' }); } });
+registerShot('s028', { draw(g, t, info) { ladder(g, t, info, 2, 'piano', { label: 'A PIANO' }); } });
 registerShot('s029', { draw(g, t, info) { ladder(g, t, info, 3, 'horse', { label: 'A HORSE', s: 0.8 }); } });
 registerShot('s030', { draw(g, t, info) { ladder(g, t, info, 4, 'car', { label: 'A CAR' }); } });
 registerShot('s031', { draw(g, t, info) { ladder(g, t, info, 7, 'trex', { label: 'A T. REX', s: 0.85 }); } });
-registerShot('s032', { draw(g, t, info) { ladder(g, t, info, 20, 'titanic', { label: 'THE TITANIC', s: 0.75, L: 1700, z: 0.92, camY: -40 }); } });
+registerShot('s032', { draw(g, t, info) { ladder(g, t, info, 20, 'titanic', { label: 'THE TITANIC', win: true, s: 0.75, L: 1700, z: 0.92, camY: -40 }); } });

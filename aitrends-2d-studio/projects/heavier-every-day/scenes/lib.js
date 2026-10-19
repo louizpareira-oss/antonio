@@ -1,8 +1,9 @@
 // lib.js — helpers for "2x Heavier": the weight badge, midnight clock, Grandpa's face, the weight seesaw and its loads,
 // the 10 t sign, footprints, and flat UI screens (phone, browser, email, medical chart, video call, tablet, mission HUD).
 import { E, V, S, clamp, lerp, prog, ease, rng, seg, circle, ring, rr, poly, alpha, shade, mix, linGrad, radGrad, glow, text, measure, FONTS } from '/engine/core.js';
-import { drawFigure, POSES, bigFace } from '/engine/rig2d.js';
+import { drawFigure, POSES, bigFace, headPos } from '/engine/rig2d.js';
 import { GRANDPA } from './cast.js';
+import { bed } from '/projects/stronger-couldnt-stop/scenes/sets/home.js';
 export { heroFace, hand, say, chip, bigNum, checkMark, crossMark, impact, debris, cracks, stamp, palmUp, fallingDust, wt, GOLD, CORAL, fmt, car, realBox, sunrise, bodyOutline, plusMinus } from '/projects/stronger-couldnt-stop/scenes/lib.js';
 import { GOLD, CORAL, fmt, stamp } from '/projects/stronger-couldnt-stop/scenes/lib.js';
 
@@ -31,13 +32,27 @@ export function midnightClock(g, x, y, r, mins, o = {}) {
 }
 // Grandpa's big face: white visor, white moustache and eyebrows
 export function grandpaFace(g, cx, cy, r, o = {}) {
-  bigFace(g, cx, cy, r, { ...o, outfit: GRANDPA });
+  bigFace(g, cx, cy, r, { ...o, outfit: { ...GRANDPA, head: 'none' } });
   g.save(); g.translate(cx, cy); if (o.tilt) g.rotate(o.tilt);
-  g.fillStyle = '#f4f2ee'; g.beginPath(); g.moveTo(-r * 0.36, r * 0.2); g.quadraticCurveTo(-r * 0.2, r * 0.02, 0, r * 0.12); g.quadraticCurveTo(r * 0.2, r * 0.02, r * 0.36, r * 0.2); g.quadraticCurveTo(r * 0.18, r * 0.2, 0, r * 0.18); g.quadraticCurveTo(-r * 0.18, r * 0.2, -r * 0.36, r * 0.2); g.fill();
+  g.save(); g.beginPath(); g.arc(0, 0, r, 0, Math.PI * 2); g.clip(); g.fillStyle = '#ffffff'; g.fillRect(-r, -r * 0.78, r * 2, r * 0.2); g.restore();   // visor band
+  g.fillStyle = '#e8e4dc'; g.beginPath(); g.ellipse(0, -r * 0.6, r * 0.78, r * 0.13, 0, 0, Math.PI * 2); g.fill(); g.fillStyle = 'rgba(0,0,0,.18)'; g.beginPath(); g.ellipse(0, -r * 0.55, r * 0.7, r * 0.06, 0, 0, Math.PI); g.fill();
+  g.fillStyle = '#c9c4ba'; for (const sx of [-1, 1]) { g.beginPath(); g.ellipse(sx * r * 0.15, r * 0.1, r * 0.17, r * 0.07, sx * 0.25, 0, Math.PI * 2); g.fill(); }   // moustache
   g.restore();
 }
 // moustache for a full figure (call after drawFigure with the same o): small white bar under the face
 export function figMoustache(g, hx, hy, r, facing = 1) { g.fillStyle = '#f4f2ee'; rr(g, hx + facing * r * 0.2 - r * 0.32, hy + r * 0.18, r * 0.64, r * 0.16, r * 0.08); g.fill(); }
+
+// Grandpa as a full figure (with the moustache unless o.young)
+export function grandpa(g, o) { const outfit = o.outfit || GRANDPA; drawFigure(g, { ...o, outfit }); if (!o.young) { const [hx, hy, r] = headPos({ ...o, outfit }); figMoustache(g, hx, hy, r, o.facing ?? 1); } }
+// you asleep in a bed (head on the pillow, blanket over the legs); bed centre bx on floor gy. Returns { top, x, y }
+export function sleeper(g, bx, gy, bs, fs, o = {}) {
+  const top = bed(g, bx, gy, bs, o.bed || {}), x = bx - 253 * bs + 108 * fs, y = top + 52 * fs;
+  drawFigure(g, { x, y, s: fs, rot: -Math.PI / 2, facing: 1, outfit: o.outfit, pose: POSES.lie, expr: o.expr || 'sleepy', rim: o.rim, shadow: false });
+  const bl = x - 26 * fs; rr(g, bl, top - 62 * fs, bx + 336 * bs - bl, 70 * fs, 20 * fs); g.fillStyle = o.blanket || '#4a68b8'; g.fill(); g.fillStyle = 'rgba(255,255,255,.12)'; g.fillRect(bl + 10, top - 58 * fs, bx + 336 * bs - bl - 20, 8 * fs);
+  return { top, x, y };
+}
+// sitting on the floor (feet forward)
+export const FLOORSIT = { head: [-6, -112], sh: [-4, -80], hip: [0, -8], eF: [14, -48], hF: [34, -30], eB: [-16, -48], hB: [-30, -14], kF: [44, -44], fF: [84, -4], kB: [40, -40], fB: [78, -2] };
 
 // ---------- the weight seesaw ----------
 // plank pivot at (x, y), length L; tilt > 0 = left side down. left/right: (g, x, y) draw callbacks at each end (feet at y)
