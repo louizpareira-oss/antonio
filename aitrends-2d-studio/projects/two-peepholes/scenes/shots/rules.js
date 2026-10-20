@@ -94,7 +94,7 @@ registerShot('s11c',{draw(g,t,info){
   withCam(g,CLOSE,()=>{
     entry(g,info.globalT,{newHole:1,oldLight:0});
     sitting(g,ENTRY.sitX+3,P.poseBetween(BRACE,TUCK,ease.inOut(prog(t,.5,.8))));
-    beam(g,lensAt(ENTRY.oldY),a,{len:620,spread:.035,color:C.red,t,k:ease.out(prog(t,0,.2))});
+    beam(g,lensAt(ENTRY.oldY),a,{len:Math.min(620,(ENTRY.floorY-4-ENTRY.oldY)/Math.sin(a+.035)),spread:.035,color:C.red,t,k:ease.out(prog(t,0,.2))});
   });
 }});
 
