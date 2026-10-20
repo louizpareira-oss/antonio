@@ -20,14 +20,20 @@
 - **Thumbnails (rule from the user, Oct 20, replaces all earlier thumbnail rules):** prompt only. Never draw or code
   thumbnails (no `thumb.js`, no thumbnail projects) and never spend OpenArt credits on them. For every video, write
   **3 original, high-concept SeaArt prompts** in the video's `story/thumbnail.md`; the user generates them. Our own
-  visual hooks, never a copy of another channel's idea. Every prompt starts with this block, word for word:
-  "16:9 aspect ratio, YouTube thumbnail. Cinematic 2.5D 3D render of a slender stick-figure with thin limbs, a solid
-  black spherical head, and glowing white eyes, wearing a bright blue hoodie. High contrast, dramatic cyan and neon
-  orange rim lighting, epic disaster scale, 8k octane render. Strictly NO human skin, NO realistic faces, NO
-  thick/chibi bodies."
-  Then one epic, physical consequence of the video's rule, the hero big and readable, and an empty corner for text;
-  no small clutter, no tiny numbers, no signs. Each concept gets a punchy 2-word ALL-CAPS text overlay, saying which
-  word is white and which is yellow; the user adds the text.
+  visual hooks, never a copy of another channel's idea. Every prompt starts with this block, word for word
+  (updated by the user Oct 20: no 3D/octane render, it looks like fake AI; close-ups only):
+  "16:9 aspect ratio, YouTube thumbnail. 2D cel-shaded cartoon illustration style with bold black outlines, flat
+  vibrant colors, and dramatic comic-book glow. A slender stick-figure with thin limbs, a solid black spherical head,
+  and glowing white eyes, wearing a bright blue hoodie. Close-up: the stick-figure is huge in the foreground, taking
+  up 50-60% of the frame, his facial expression big and readable on a phone screen. High contrast, dramatic cyan and
+  neon orange glow. Strictly NO human skin, NO realistic faces, NO thick/chibi bodies, NO 3D render, NO realistic
+  textures."
+  Then one epic, physical consequence of the video's rule right around him, with a dynamic pose toward the camera
+  (foreshortening: a hand or sneaker coming at the lens), comic-book impact/speed lines and a simple, bright, flat
+  background (the user's "TOO FAST?" example). Never a wide shot, a whole street or a
+  cross-section; always the character big in the foreground with an empty corner for text. No small clutter, no tiny
+  numbers, no signs. Each concept gets a punchy 2-word ALL-CAPS text overlay, saying which word is white and which
+  is yellow; the user adds the text.
 - **Style rules from the measured references** (`docs/11-reference-analysis-500iq-and-zero-pain.md`):
   - Picture: brighter (aim for centre brightness ~85–100, ours was 60), big faces and close-ups, no stretch over
     ~15 s without a picture change.
