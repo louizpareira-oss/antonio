@@ -8,7 +8,7 @@ times after the new cut is rendered.
 What If You Got 2x Heavier Every Single Day?
 
 ## Thumbnail
-The user generates it in SeaArt from one of the 3 prompts in `story/thumbnail.md`.
+`out/thumbnail_ONE_STEP.jpg`: the user's SeaArt image (concept 1, the stomp) with ONE (white) / STEP. (yellow).
 
 ## Description (paste everything between the lines)
 ---

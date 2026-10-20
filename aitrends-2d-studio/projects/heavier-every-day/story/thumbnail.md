@@ -4,6 +4,10 @@ Three original concepts for the user to generate in SeaArt (rules in `CLAUDE.md`
 close-up only, character 50–60 % of the frame). Each prompt starts with the studio's required block, word for word.
 The user adds the 2-word text.
 
+**Picked (Oct 20):** the user's SeaArt result for concept 1 (sneaker stomping at the camera), finished here with
+**ONE** (white) / **STEP.** (yellow) top-left and the Nike swoosh painted out of the shoes →
+`out/thumbnail_ONE_STEP.jpg` (alternative text: `out/thumbnail_TOO_HEAVY.jpg`).
+
 **SeaArt negative prompt (all three):**
 `3d render, octane, photorealistic, realistic texture, wide shot, tiny character, full street, cross-section, human skin, realistic face, thick body, chibi, Pixar, text, letters, numbers, logo, watermark, signs, clutter, small objects, extra limbs`
 
