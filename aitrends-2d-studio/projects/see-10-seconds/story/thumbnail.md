@@ -4,6 +4,9 @@ Replaces the coded "TOO LATE?" thumbnail. Three original concepts for the user t
 `CLAUDE.md`). The video's signature is the **cyan hologram "blue world"** running ten seconds ahead, so each concept
 uses it. The user adds the 2-word text.
 
+**Picked (Oct 20):** the user's SeaArt result for concept 2 (racing the cyan future self), finished here with
+**TEN** (white) / **SECONDS.** (yellow) top-left → `out/thumbnail_TEN_SECONDS.jpg`.
+
 **SeaArt negative prompt (all three):**
 `3d render, octane, photorealistic, realistic texture, wide shot, tiny character, human skin, skin-colored hands, realistic face, thick body, chibi, Pixar, text, letters, numbers, logo, watermark, signs, clutter, small objects, extra limbs`
 
