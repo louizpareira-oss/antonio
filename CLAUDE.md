@@ -16,13 +16,18 @@
   title question, short "you" lines with a "Sounds amazing. Until…" turn, "This is Part 1." when there's a sequel, one
   specific "Be honest…" comment question, a 📺 link to our previous video, chapters, the Parallel You sign-off, 4
   hashtags at the end. Example: `aitrends-2d-studio/projects/stronger-couldnt-stop/story/youtube.md`.
-- **Tools (decided with the user, Oct 18):** the video is always built in the 2D studio (no AI video clips). Thumbnails
-  use OpenArt *images* in a 3D look like the "ONLY ME." reference (15–40 credits each; confirm before spending). The
-  OpenArt CDN is blocked here, so the user downloads the image and sends it; text and finishing are added here.
-- **Thumbnail update (Oct 18, from the viral examples the user shared: IFOLOGY "100x Stronger", "500 IQ", "Teleport"…):**
-  use the video's own stick-figure hero (black round head, white eyes, coloured hoodie), never a 3D/realistic human.
-  One big face or one big action, one strong prop, 2–3 heavy words in white + yellow with a thick black outline.
-  Draw it in the studio (`projects/<slug>-thumb/`, text added by `finish.py`); OpenArt only for that same 2D style.
+- **Tools:** the video is always built in the 2D studio (no AI video clips).
+- **Thumbnails (rule from the user, Oct 20, replaces all earlier thumbnail rules):** never draw or code thumbnails here
+  and never use OpenArt. Deliver only a text prompt for the user to run in SeaArt/Midjourney, plus the text overlay,
+  saved in the video's `story/thumbnail.md`. Every prompt must contain:
+  1. Style, word for word: "16:9 aspect ratio, YouTube thumbnail. Cinematic 2.5D 3D render of a slender stick-figure
+     with thin limbs, a solid black spherical head, and glowing white eyes. Wearing a brightly colored hoodie."
+  2. Ban list, word for word: "Strictly NO human skin, NO realistic faces, NO thick/chibi 3D bodies, NO Pixar styles."
+  3. Background: a high-stakes, dramatic disaster showing the physical consequence of the video's rule (shattered
+     glowing concrete, crushed vehicles, burning cities…), epic cinematic lighting, depth of field. No small details,
+     no math numbers, no traffic signs.
+  4. Text overlay: 2 words, all caps, punchy ("TOO HEAVY.", "ONLY ME.", "NOTHING."); say which word is white and
+     which is yellow. The user adds the text.
 - **Style rules from the measured references** (`docs/11-reference-analysis-500iq-and-zero-pain.md`):
   - Picture: brighter (aim for centre brightness ~85–100, ours was 60), big faces and close-ups, no stretch over
     ~15 s without a picture change.
@@ -30,8 +35,6 @@
   - Narration: ~130–145 words per minute.
   - Story: a family member with a backstory, a lasting price for the hero, a villain or organization, world-scale
     effects, a twist in the last 30 s that sets up a sequel, then the comment question.
-  - Thumbnail: one big face (40–55 % of the height) with one emotion, one contrasting element, 2–4 words ending in a
-    period that add the twist rather than repeat the title.
 
 # New video checklist (what a finished Parallel You video includes)
 
@@ -40,6 +43,6 @@
 3. Video in `aitrends-2d-studio/projects/<slug>/`, final MP4 in its `out/`.
    Long renders: render in 40-s pieces with `--from/--to --out build/segs/seg_NNN.mp4` and join them with ffmpeg concat;
    the cloud container can restart while idle and kill a single 2-hour render (it happened on video 4).
-4. Thumbnail in `projects/<slug>-thumb/` (1280×720, big text + one danger moment).
+4. Thumbnail: a SeaArt/Midjourney prompt + 2-word text overlay in `story/thumbnail.md` (rules above); the user makes it.
 5. `story/youtube.md` (title, description, chapters each ≥ 10 s, pinned comment, tags) and `story/tiktok.md`
    (short caption, 7 hashtags, same 16:9 file).
