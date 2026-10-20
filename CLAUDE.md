@@ -14,7 +14,8 @@
   Brand kit: `aitrends-2d-studio/projects/parallel-you-brand/channel.md`.
 - **YouTube metadata (rule from the user, Oct 20, replaces `docs/12-viral-descriptions.md`):** no keyword stuffing.
   The description is only: exactly 3 hashtags on the first line (e.g. `#whatif #animation #storytime`, never more
-  than 3), a 1-sentence hook, the chapter timestamps (each ≥ 10 s). Backend tags: 5–8 in total.
+  than 3), a 1-sentence hook, the chapter timestamps (each ≥ 10 s), and nothing else (no sign-off, links, email or
+  SEO text). Backend tags: 5–8 highly targeted ones, never more (user, repeated Oct 20).
   Example: `aitrends-2d-studio/projects/heavier-every-day/story/youtube.md`.
 - **Tools:** the video is always built in the 2D studio (no AI video clips).
 - **Thumbnails (rule from the user, Oct 20, replaces all earlier thumbnail rules):** prompt only. Never draw or code
