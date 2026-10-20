@@ -82,5 +82,308 @@
       "IN"
     ],
     "highlightColor": "#ef334e"
+  },
+  {
+    "start": 25.05,
+    "end": 26.05,
+    "text": "Rule two.",
+    "highlight": []
+  },
+  {
+    "start": 26.33,
+    "end": 29.85,
+    "text": "If both are dark, sit with your back against the door.",
+    "highlight": [
+      "door"
+    ],
+    "highlightColor": "#f4d34e"
+  },
+  {
+    "start": 29.85,
+    "end": 31.41,
+    "text": "You can't see out anymore.",
+    "highlight": []
+  },
+  {
+    "start": 31.61,
+    "end": 33.73,
+    "text": "But it can't see everything, either.",
+    "highlight": [
+      "everything"
+    ],
+    "highlightColor": "#f4d34e"
+  },
+  {
+    "start": 33.85,
+    "end": 36.17,
+    "text": "A peephole only looks one way.",
+    "highlight": [
+      "one"
+    ],
+    "highlightColor": "#f4d34e"
+  },
+  {
+    "start": 36.17,
+    "end": 37.89,
+    "text": "In, and a little down.",
+    "highlight": [
+      "down"
+    ],
+    "highlightColor": "#f4d34e"
+  },
+  {
+    "start": 38.09,
+    "end": 40.33,
+    "text": "So there's one place it can't reach:",
+    "highlight": []
+  },
+  {
+    "start": 40.33,
+    "end": 41.65,
+    "text": "right underneath it.",
+    "highlight": [
+      "underneath"
+    ],
+    "highlightColor": "#50d78c"
+  },
+  {
+    "start": 41.93,
+    "end": 42.85,
+    "text": "Sit there.",
+    "highlight": []
+  },
+  {
+    "start": 42.97,
+    "end": 44.45,
+    "text": "Back flat to the door.",
+    "highlight": []
+  },
+  {
+    "start": 44.65,
+    "end": 46.21,
+    "text": "Don't get up until morning.",
+    "highlight": [
+      "morning"
+    ],
+    "highlightColor": "#f4d34e"
+  },
+  {
+    "start": 46.33,
+    "end": 47.49,
+    "text": "It will look for you.",
+    "highlight": [
+      "look"
+    ],
+    "highlightColor": "#ef334e"
+  },
+  {
+    "start": 47.61,
+    "end": 48.65,
+    "text": "At the table.",
+    "highlight": [
+      "table"
+    ],
+    "highlightColor": "#f4d34e"
+  },
+  {
+    "start": 48.65,
+    "end": 49.77,
+    "text": "At the picture.",
+    "highlight": [
+      "picture"
+    ],
+    "highlightColor": "#f4d34e"
+  },
+  {
+    "start": 49.77,
+    "end": 51.86,
+    "text": "At the spot where the light used to be.",
+    "highlight": [
+      "spot"
+    ],
+    "highlightColor": "#f4d34e"
+  },
+  {
+    "start": 52.17,
+    "end": 53.22,
+    "text": "Let it look.",
+    "highlight": []
+  },
+  {
+    "start": 54.01,
+    "end": 55.09,
+    "text": "Rule three.",
+    "highlight": []
+  },
+  {
+    "start": 55.29,
+    "end": 56.53,
+    "text": "Don't cover them.",
+    "highlight": [
+      "cover"
+    ],
+    "highlightColor": "#ef334e"
+  },
+  {
+    "start": 56.73,
+    "end": 58.9,
+    "text": "Tape feels like the right idea.",
+    "highlight": []
+  },
+  {
+    "start": 59.359,
+    "end": 60.41,
+    "text": "It isn't.",
+    "highlight": [
+      "isn't"
+    ],
+    "highlightColor": "#ef334e"
+  },
+  {
+    "start": 60.41,
+    "end": 62.73,
+    "text": "Cover both, and it doesn't stop looking.",
+    "highlight": []
+  },
+  {
+    "start": 62.73,
+    "end": 65.09,
+    "text": "It just finds somewhere closer to look from.",
+    "highlight": [
+      "closer"
+    ],
+    "highlightColor": "#ef334e"
+  },
+  {
+    "start": 65.29,
+    "end": 67.89,
+    "text": "The picture on your wall has hung there for years.",
+    "highlight": []
+  },
+  {
+    "start": 67.89,
+    "end": 69.7,
+    "text": "It has never had a hole in it.",
+    "highlight": []
+  },
+  {
+    "start": 70.147,
+    "end": 71.37,
+    "text": "It does now.",
+    "highlight": [
+      "now"
+    ],
+    "highlightColor": "#ef334e"
+  },
+  {
+    "start": 71.37,
+    "end": 74.65,
+    "text": "And from there, it can see exactly where you're sitting.",
+    "highlight": [
+      "exactly"
+    ],
+    "highlightColor": "#ef334e"
+  },
+  {
+    "start": 74.65,
+    "end": 75.89,
+    "text": "Two holes you know about",
+    "highlight": []
+  },
+  {
+    "start": 75.89,
+    "end": 77.647,
+    "text": "are safer than one you don't.",
+    "highlight": [
+      "safer"
+    ],
+    "highlightColor": "#50d78c"
+  },
+  {
+    "start": 78.33,
+    "end": 79.33,
+    "text": "Rule four.",
+    "highlight": []
+  },
+  {
+    "start": 79.61,
+    "end": 81.13,
+    "text": "Wait for the light.",
+    "highlight": [
+      "light"
+    ],
+    "highlightColor": "#f4d34e"
+  },
+  {
+    "start": 81.21,
+    "end": 85.17,
+    "text": "Some time before morning, the hallway light will come back through the old one.",
+    "highlight": [
+      "light"
+    ],
+    "highlightColor": "#f4d34e"
+  },
+  {
+    "start": 85.17,
+    "end": 88.05,
+    "text": "It will land on your floor, right where it always does.",
+    "highlight": []
+  },
+  {
+    "start": 88.05,
+    "end": 90.09,
+    "text": "And the new one will be gone.",
+    "highlight": [
+      "gone"
+    ],
+    "highlightColor": "#50d78c"
+  },
+  {
+    "start": 90.09,
+    "end": 92.13,
+    "text": "That means it has let go of the door.",
+    "highlight": []
+  },
+  {
+    "start": 92.33,
+    "end": 94.65,
+    "text": "Before you get up, look at the light.",
+    "highlight": [
+      "light"
+    ],
+    "highlightColor": "#f4d34e"
+  },
+  {
+    "start": 94.65,
+    "end": 97.53,
+    "text": "If it's only light, you can go to bed.",
+    "highlight": [
+      "only"
+    ],
+    "highlightColor": "#50d78c"
+  },
+  {
+    "start": 97.827,
+    "end": 99.78,
+    "text": "If something is standing in it…",
+    "highlight": [
+      "standing"
+    ],
+    "highlightColor": "#ef334e"
+  },
+  {
+    "start": 100.863,
+    "end": 102.66,
+    "text": "it didn't go back outside.",
+    "highlight": []
+  },
+  {
+    "start": 102.97,
+    "end": 104.5,
+    "text": "It came IN.",
+    "highlight": [
+      "IN"
+    ],
+    "highlightColor": "#ef334e"
   }
 ]

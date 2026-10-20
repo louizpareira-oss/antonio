@@ -1,6 +1,6 @@
 {
- "title": "Two Peepholes — preview",
- "duration": 25.0,
+ "title": "Two Peepholes",
+ "duration": 108.0,
  "shots": [
   {
    "id": "s01",
@@ -234,6 +234,406 @@
    },
    "captions": true,
    "vignette": false
+  },
+  {
+   "id": "s08",
+   "start": 25.0,
+   "end": 26.3,
+   "line": "Rule two.",
+   "scene": "Rule card: RULE 2 / SIT AGAINST THE DOOR, progress 2 of 4.",
+   "purpose": "State rule two.",
+   "visual_change": "Hard cut to the card; rule 2 lit.",
+   "asset": "rule-card-v1",
+   "sfx": [
+    {
+     "at": 0.06,
+     "name": "hit",
+     "gain": -17,
+     "pitch": 0.6
+    }
+   ],
+   "in": {
+    "type": "cut"
+   },
+   "captions": true,
+   "vignette": false
+  },
+  {
+   "id": "s09",
+   "start": 26.3,
+   "end": 33.8,
+   "line": "If both are dark, sit with your back against the door. You can't see out anymore. But it can't see everything, either.",
+   "scene": "Same cutaway, both holes dark. The person walks to the door with the red sight-line still locked on their head. They turn and slide down to sit with their back flat against the door. The line can't bend down that far: it breaks lock, turns yellow and starts sweeping the room.",
+   "purpose": "Demonstrate the rule and show the watcher losing its target.",
+   "visual_change": "Standing at x 1060 under red lock -> walk to the door -> turn -> sit; red locked line -> yellow searching sweep; status WATCHED -> BOTH DARK.",
+   "asset": "entry-v1 / door-v1 / person-v1",
+   "sfx": [
+    {
+     "at": 1.4,
+     "name": "footstep",
+     "gain": -25
+    },
+    {
+     "at": 1.85,
+     "name": "footstep",
+     "gain": -25
+    },
+    {
+     "at": 2.3,
+     "name": "footstep",
+     "gain": -25
+    },
+    {
+     "at": 3.35,
+     "name": "impact",
+     "gain": -22,
+     "pitch": 0.6,
+     "dur": 1.0
+    }
+   ],
+   "cue_word": "sit",
+   "cue_at": 1.5,
+   "in": {
+    "type": "cut"
+   },
+   "captions": true,
+   "vignette": false
+  },
+  {
+   "id": "s10",
+   "start": 33.8,
+   "end": 41.4,
+   "line": "A peephole only looks one way. In, and a little down. So there's one place it can't reach: right underneath it.",
+   "scene": "Diagram over the held room: red view cones grow from both holes, then tilt down to their limit. The triangle under the door, where the person sits, fills green and is labelled BLIND SPOT with a check.",
+   "purpose": "Explain why the rule works with visible geometry.",
+   "visual_change": "No overlay -> cones on 'one way' -> cones tilt 'a little down' -> green blind spot and check on 'underneath'.",
+   "asset": "entry-v1 / sight-cones-v1",
+   "sfx": [
+    {
+     "at": 1.36,
+     "name": "blip",
+     "gain": -26,
+     "pitch": 0.7
+    },
+    {
+     "at": 6.56,
+     "name": "blip",
+     "gain": -24,
+     "pitch": 1.3
+    }
+   ],
+   "cue_word": "underneath",
+   "cue_at": 6.56,
+   "in": {
+    "type": "cut"
+   },
+   "captions": true,
+   "vignette": false
+  },
+  {
+   "id": "s11",
+   "start": 41.4,
+   "end": 53.9,
+   "line": "Sit there. Back flat to the door. Don't get up until morning. It will look for you. At the table. At the picture. At the spot where the light used to be. Let it look.",
+   "scene": "Same room, diagram fading. The person sits still. A yellow sight-line from the new hole hunts the room: the table, then the picture, then a dashed outline where the floor light used to be. It never reaches the person.",
+   "purpose": "Build tension with the threat searching while the rule holds.",
+   "visual_change": "Cones fade; status 02:47 AM; the search line jumps table -> picture -> old spot on each named word, then drifts.",
+   "asset": "entry-v1 / door-v1 / person-v1",
+   "sfx": [
+    {
+     "at": 6.56,
+     "name": "tick",
+     "gain": -27
+    },
+    {
+     "at": 7.6,
+     "name": "tick",
+     "gain": -27
+    },
+    {
+     "at": 8.72,
+     "name": "tick",
+     "gain": -26
+    }
+   ],
+   "cue_word": "table",
+   "cue_at": 6.56,
+   "in": {
+    "type": "cut"
+   },
+   "captions": true,
+   "vignette": false
+  },
+  {
+   "id": "s12",
+   "start": 53.9,
+   "end": 56.55,
+   "line": "Rule three. Don't cover them.",
+   "scene": "Rule card: RULE 3 / DON'T COVER THEM, progress 3 of 4.",
+   "purpose": "State rule three.",
+   "visual_change": "Hard cut to the card; rule 3 lit.",
+   "asset": "rule-card-v1",
+   "sfx": [
+    {
+     "at": 0.14,
+     "name": "hit",
+     "gain": -17,
+     "pitch": 0.6
+    }
+   ],
+   "in": {
+    "type": "cut"
+   },
+   "captions": true,
+   "vignette": false
+  },
+  {
+   "id": "s13",
+   "start": 56.55,
+   "end": 64.95,
+   "line": "Tape feels like the right idea. It isn't. Cover both, and it doesn't stop looking. It just finds somewhere closer to look from.",
+   "scene": "Hypothetical, tagged IF YOU COVER THEM. The person stands, tapes over the old hole and then the new one, and sits back down. A red pulse pushes behind the new tape. The picture on the wall starts to shake on 'closer'.",
+   "purpose": "Show the tempting mistake and its first consequence.",
+   "visual_change": "Sit -> stand -> reach -> tape old at 1.4 s -> reach up -> tape new at 1.85 s -> sit; tape pulse on 'looking'; picture shake ramps from 6.9 s.",
+   "asset": "entry-v1 / door-v1 / person-v1",
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "footstep",
+     "gain": -26
+    },
+    {
+     "at": 1.4,
+     "name": "swish",
+     "gain": -24
+    },
+    {
+     "at": 1.85,
+     "name": "swish",
+     "gain": -24
+    },
+    {
+     "at": 3.2,
+     "name": "impact",
+     "gain": -23,
+     "pitch": 0.6,
+     "dur": 1.0
+    },
+    {
+     "at": 7.2,
+     "name": "tone_low",
+     "gain": -16,
+     "dur": 2.0
+    }
+   ],
+   "cue_word": "Tape",
+   "cue_at": 0.21,
+   "in": {
+    "type": "cut"
+   },
+   "captions": true,
+   "vignette": false
+  },
+  {
+   "id": "s14",
+   "start": 64.95,
+   "end": 71.4,
+   "line": "The picture on your wall has hung there for years. It has never had a hole in it. It does now.",
+   "scene": "Insert of the same framed picture (hill line and sun) with a slow push-in. On 'does' a brass eye punches through its centre with cracks and a red pulse.",
+   "purpose": "Reveal the escalation in a readable insert.",
+   "visual_change": "Still picture -> brass eye pops through at 5.37 s -> red ring.",
+   "asset": "picture-v1",
+   "sfx": [
+    {
+     "at": 5.37,
+     "name": "impact",
+     "gain": -13,
+     "pitch": 0.8,
+     "dur": 1.6
+    },
+    {
+     "at": 5.37,
+     "name": "glitch",
+     "gain": -26,
+     "dur": 0.25
+    }
+   ],
+   "cue_word": "does",
+   "cue_at": 5.37,
+   "in": {
+    "type": "cut"
+   },
+   "captions": true,
+   "vignette": false
+  },
+  {
+   "id": "s15",
+   "start": 71.4,
+   "end": 74.62,
+   "line": "And from there, it can see exactly where you're sitting.",
+   "scene": "Back to the wide: tape on both door holes, a brass eye in the picture. A red sight-line from the picture reaches straight into the blind spot and locks on the sitting person, who flinches.",
+   "purpose": "Show that covering the holes destroys the blind spot.",
+   "visual_change": "Red line grows on 'see', locks on 'exactly', flinch on 'sitting'.",
+   "asset": "entry-v1 / door-v1 / person-v1",
+   "sfx": [
+    {
+     "at": 1.44,
+     "name": "stinger",
+     "gain": -21,
+     "dur": 2.5
+    }
+   ],
+   "cue_word": "exactly",
+   "cue_at": 1.44,
+   "in": {
+    "type": "cut"
+   },
+   "captions": true,
+   "vignette": false
+  },
+  {
+   "id": "s16",
+   "start": 74.62,
+   "end": 78.3,
+   "line": "Two holes you know about are safer than one you don't.",
+   "scene": "Two evidence cards. UNCOVERED / TWO YOU KNOW: a mini door with both lenses, which gets a green check. COVERED / ONE YOU DON'T: the taped door beside the picture eye, which gets a red cross.",
+   "purpose": "Summarise rule three as a comparison.",
+   "visual_change": "Left card -> check on 'safer' -> right card -> cross on 'don't'.",
+   "asset": "evidence-v1",
+   "sfx": [
+    {
+     "at": 1.46,
+     "name": "blip",
+     "gain": -25,
+     "pitch": 1.3
+    },
+    {
+     "at": 2.38,
+     "name": "blip",
+     "gain": -24,
+     "pitch": 0.5
+    }
+   ],
+   "cue_word": "safer",
+   "cue_at": 1.46,
+   "in": {
+    "type": "cut"
+   },
+   "captions": true,
+   "vignette": false
+  },
+  {
+   "id": "s17",
+   "start": 78.3,
+   "end": 81.1,
+   "line": "Rule four. Wait for the light.",
+   "scene": "Rule card: RULE 4 / WAIT FOR THE LIGHT, progress 4 of 4.",
+   "purpose": "State rule four.",
+   "visual_change": "Hard cut to the card; rule 4 lit.",
+   "asset": "rule-card-v1",
+   "sfx": [
+    {
+     "at": 0.06,
+     "name": "hit",
+     "gain": -17,
+     "pitch": 0.6
+    }
+   ],
+   "in": {
+    "type": "cut"
+   },
+   "captions": true,
+   "vignette": false
+  },
+  {
+   "id": "s18",
+   "start": 81.1,
+   "end": 93.5,
+   "line": "Some time before morning, the hallway light will come back through the old one. It will land on your floor, right where it always does. And the new one will be gone. That means it has let go of the door. Before you get up,",
+   "scene": "Same room back to reality (no tape, plain picture), 04:51 AM. Light returns through the old hole and the floor spot comes back with a yellow pulse; the brass new hole fades away; status ONE PEEPHOLE. The person leans forward toward the light.",
+   "purpose": "Apparent relief: the opening state restored.",
+   "visual_change": "Old beam fades in on 'old one'; spot pulse on 'always'; new hole fades on 'gone'; lean on 'Before you get up'.",
+   "asset": "entry-v1 / door-v1 / person-v1",
+   "sfx": [
+    {
+     "at": 3.18,
+     "name": "shimmer",
+     "gain": -27
+    },
+    {
+     "at": 7.98,
+     "name": "tick",
+     "gain": -25
+    }
+   ],
+   "cue_word": "gone",
+   "cue_at": 7.98,
+   "in": {
+    "type": "cut"
+   },
+   "captions": true,
+   "vignette": false
+  },
+  {
+   "id": "s19",
+   "start": 93.5,
+   "end": 100.9,
+   "line": "look at the light. If it's only light, you can go to bed. If something is standing in it…",
+   "scene": "Top-down insert of the warm floor spot on dark boards, the door at the right. A green check first. On 'standing', two dark feet and a long body-shaped shadow appear inside the light. In the pause one foot steps toward the door.",
+   "purpose": "Make the final threat concrete and specific.",
+   "visual_change": "Clean spot + check -> feet and shadow fade in on 'standing' -> one foot steps at 6.6 s.",
+   "asset": "floor-spot-v1",
+   "sfx": [
+    {
+     "at": 5.18,
+     "name": "tone_low",
+     "gain": -13,
+     "dur": 2.4
+    },
+    {
+     "at": 6.6,
+     "name": "footstep",
+     "gain": -17
+    }
+   ],
+   "cue_word": "standing",
+   "cue_at": 5.18,
+   "in": {
+    "type": "cut"
+   },
+   "captions": true,
+   "vignette": false
+  },
+  {
+   "id": "s20",
+   "start": 100.9,
+   "end": 108.0,
+   "line": "it didn't go back outside. It came IN.",
+   "scene": "Final wide: the beam through the old hole is broken by two unseen feet, whose shadow cuts the floor spot. A yellow glint appears in the empty air above the spot, higher than the door, and a red sight-line from it locks onto the sitting person. The glint blinks.",
+   "purpose": "Payoff: callbacks to the floor light, 'look IN' and the blink.",
+   "visual_change": "Shadowed spot -> glint and red line on 'came' -> lock with IT CAME IN on 'IN' -> blink at 5.0 s; hold and fade.",
+   "asset": "entry-v1 / door-v1 / person-v1",
+   "sfx": [
+    {
+     "at": 2.74,
+     "name": "stinger",
+     "gain": -18,
+     "dur": 3.0
+    },
+    {
+     "at": 5.0,
+     "name": "tone_low",
+     "gain": -15,
+     "dur": 2.0
+    }
+   ],
+   "cue_word": "IN",
+   "cue_at": 2.74,
+   "in": {
+    "type": "cut"
+   },
+   "captions": true,
+   "vignette": false
   }
  ],
  "music": [
@@ -247,6 +647,30 @@
    "start": 13.2,
    "end": 25.0,
    "mood": "dread",
+   "intensity": 0.42
+  },
+  {
+   "start": 25.0,
+   "end": 53.9,
+   "mood": "tension",
+   "intensity": 0.3
+  },
+  {
+   "start": 53.9,
+   "end": 78.3,
+   "mood": "dread",
+   "intensity": 0.4
+  },
+  {
+   "start": 78.3,
+   "end": 93.5,
+   "mood": "unease",
+   "intensity": 0.26
+  },
+  {
+   "start": 93.5,
+   "end": 108.0,
+   "mood": "terror",
    "intensity": 0.42
   }
  ]
