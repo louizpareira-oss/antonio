@@ -6,7 +6,7 @@ What If You Got Stronger and Couldn't Stop?
 vidIQ scored this title 98/100. A second title to test later: "What If Your Strength Doubled Every Day?" (scored 91).
 
 ## Thumbnail
-`projects/stronger-couldnt-stop-thumb/out/thumbnail.jpg` — version A, "I CAN'T HOLD HER." (picked by the user, Oct 18).
+Being replaced (Oct 20): the user generates a new one in SeaArt from the 3 prompts in `story/thumbnail.md`.
 
 ## Description (paste everything between the lines)
 Pattern from the viral examples (`docs/12-viral-descriptions.md`): 3 hashtags on top, the title question as the hook,
