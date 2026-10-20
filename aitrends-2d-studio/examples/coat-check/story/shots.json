@@ -1,0 +1,97 @@
+{
+  "title": "Coat Check \u2014 original visual calibration",
+  "duration": 28,
+  "shots": [
+    {
+      "id": "c001",
+      "start": 0,
+      "end": 5,
+      "scene": "One person enters the hallway; their white coat breathes on its fixed hook.",
+      "purpose": "Establish normal room and a concrete contradiction.",
+      "visual_change": "Person walks and stops; the coat expands without contact.",
+      "asset": "hallway-v1 / coat-v1 / person-v1",
+      "line": "See timeline/phrases.json; no recorded narration in this calibration.",
+      "in": {
+        "type": "cut"
+      },
+      "captions": true,
+      "vignette": false
+    },
+    {
+      "id": "c002",
+      "start": 5,
+      "end": 9,
+      "scene": "Insert of the same coat collar and breathing fabric.",
+      "purpose": "Make the impossible change readable at phone size.",
+      "visual_change": "The coat inhales and exhales while the hook stays still.",
+      "asset": "hallway-v1 / coat-v1 / person-v1",
+      "line": "See timeline/phrases.json; no recorded narration in this calibration.",
+      "in": {
+        "type": "cut"
+      },
+      "captions": true,
+      "vignette": false
+    },
+    {
+      "id": "c003",
+      "start": 9,
+      "end": 12,
+      "scene": "Three-rule title graphic, first rule highlighted.",
+      "purpose": "State the constraint using an original rule count.",
+      "visual_change": "Rule number and warning arrive on a hard cut.",
+      "asset": "hallway-v1 / coat-v1 / person-v1",
+      "line": "See timeline/phrases.json; no recorded narration in this calibration.",
+      "in": {
+        "type": "cut"
+      },
+      "captions": true,
+      "vignette": false
+    },
+    {
+      "id": "c004",
+      "start": 12,
+      "end": 18,
+      "scene": "Same hallway. Hand reaches the wall switch; light fails briefly; coat becomes an occupant.",
+      "purpose": "Demonstrate a visible consequence with aligned hand/switch contact.",
+      "visual_change": "Arm reaches switch; at 1.8 seconds the light fails; hook empties and a new figure appears.",
+      "asset": "hallway-v1 / coat-v1 / person-v1",
+      "line": "See timeline/phrases.json; no recorded narration in this calibration.",
+      "in": {
+        "type": "cut"
+      },
+      "captions": true,
+      "vignette": false
+    },
+    {
+      "id": "c005",
+      "start": 18,
+      "end": 23,
+      "scene": "Two original evidence panels compare occupied hook against occupied floor.",
+      "purpose": "Explain the state distinction through a diagram.",
+      "visual_change": "First panel establishes the coat; second adds a figure and red cross.",
+      "asset": "hallway-v1 / coat-v1 / person-v1",
+      "line": "See timeline/phrases.json; no recorded narration in this calibration.",
+      "in": {
+        "type": "cut"
+      },
+      "captions": true,
+      "vignette": false
+    },
+    {
+      "id": "c006",
+      "start": 23,
+      "end": 28,
+      "scene": "Same hallway. Original person exits left; the former coat occupant takes their former position.",
+      "purpose": "Pay off the starting coordinates and the emptied hook.",
+      "visual_change": "Person leaves while the new occupant moves to the original stopping point.",
+      "asset": "hallway-v1 / coat-v1 / person-v1",
+      "line": "See timeline/phrases.json; no recorded narration in this calibration.",
+      "in": {
+        "type": "cut"
+      },
+      "captions": true,
+      "vignette": false
+    }
+  ],
+  "music": []
+}

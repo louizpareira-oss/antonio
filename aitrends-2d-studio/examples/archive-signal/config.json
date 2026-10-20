@@ -1,0 +1,15 @@
+{
+  "title": "Archive Signal — silent motion calibration",
+  "aspect": "16:9",
+  "resolution": "720p",
+  "fps": 24,
+  "style": "archive",
+  "duration": 20,
+  "voiceover": null,
+  "captions": false,
+  "bars": "none",
+  "fadeIn": 0.2,
+  "fadeOut": 0.4,
+  "music": {"enabled": false},
+  "sfx": {"enabled": false}
+}

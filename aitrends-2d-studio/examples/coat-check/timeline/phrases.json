@@ -1,0 +1,95 @@
+[
+  {
+    "start": 0,
+    "end": 2.4,
+    "text": "YOUR COAT IS WHERE YOU LEFT IT.",
+    "highlight": []
+  },
+  {
+    "start": 2.4,
+    "end": 5,
+    "text": "BUT IT IS BREATHING.",
+    "highlight": [
+      "BREATHING"
+    ],
+    "highlightColor": "#ef334e"
+  },
+  {
+    "start": 5,
+    "end": 7,
+    "text": "YOU ARE NOT WEARING IT.",
+    "highlight": [
+      "NOT"
+    ],
+    "highlightColor": "#ef334e"
+  },
+  {
+    "start": 7,
+    "end": 9,
+    "text": "SOMETHING ELSE IS.",
+    "highlight": []
+  },
+  {
+    "start": 9,
+    "end": 12,
+    "text": "KEEP THE LIGHT ON.",
+    "highlight": [
+      "ON"
+    ],
+    "highlightColor": "#f4d34e"
+  },
+  {
+    "start": 12,
+    "end": 13.8,
+    "text": "IF IT GOES DARK...",
+    "highlight": []
+  },
+  {
+    "start": 13.8,
+    "end": 16,
+    "text": "THE HOOK WILL BE EMPTY.",
+    "highlight": [
+      "EMPTY"
+    ],
+    "highlightColor": "#ef334e"
+  },
+  {
+    "start": 16,
+    "end": 18,
+    "text": "THE ROOM WILL NOT.",
+    "highlight": [
+      "NOT"
+    ],
+    "highlightColor": "#ef334e"
+  },
+  {
+    "start": 18,
+    "end": 20.3,
+    "text": "SAME COAT.",
+    "highlight": []
+  },
+  {
+    "start": 20.3,
+    "end": 23,
+    "text": "DIFFERENT OCCUPANT.",
+    "highlight": [
+      "DIFFERENT"
+    ],
+    "highlightColor": "#f4d34e"
+  },
+  {
+    "start": 23,
+    "end": 25.2,
+    "text": "IT DOES NOT WANT YOUR COAT.",
+    "highlight": []
+  },
+  {
+    "start": 25.2,
+    "end": 28,
+    "text": "IT WANTS YOUR PLACE.",
+    "highlight": [
+      "PLACE"
+    ],
+    "highlightColor": "#ef334e"
+  }
+]

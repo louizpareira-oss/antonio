@@ -1,0 +1,253 @@
+{
+ "title": "Two Peepholes — preview",
+ "duration": 25.0,
+ "shots": [
+  {
+   "id": "s01",
+   "start": 0.0,
+   "end": 4.76,
+   "line": "Your front door has one peephole. If you come home and there are two…",
+   "scene": "Side cutaway of a dark entry, the front-door wall and the lit hallway. One peephole: hallway lamp light passes through it onto the entry floor. The person walks up the hallway, unlocks the door, steps in; the door shuts; they turn to face it and a second, brass peephole is there, higher than their head.",
+   "purpose": "Establish the normal door and the impossible second peephole.",
+   "visual_change": "One peephole with a floor light spot -> door opens, person enters, door shuts -> a second brass peephole appears with a yellow pulse on 'two'; status HOME -> PEEPHOLES: 2.",
+   "asset": "entry-v1 / door-v1 / person-v1",
+   "cue_word": "two",
+   "cue_at": 4.15,
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "footstep",
+     "gain": -24
+    },
+    {
+     "at": 0.8,
+     "name": "footstep",
+     "gain": -25
+    },
+    {
+     "at": 1.3,
+     "name": "footstep",
+     "gain": -24
+    },
+    {
+     "at": 2.35,
+     "name": "tick",
+     "gain": -22
+    },
+    {
+     "at": 3.1,
+     "name": "footstep",
+     "gain": -24
+    },
+    {
+     "at": 3.55,
+     "name": "footstep",
+     "gain": -24
+    },
+    {
+     "at": 3.98,
+     "name": "impact",
+     "gain": -17,
+     "pitch": 0.7,
+     "dur": 1.2
+    },
+    {
+     "at": 4.15,
+     "name": "blip",
+     "gain": -27,
+     "pitch": 0.6
+    }
+   ],
+   "in": {
+    "type": "cut"
+   },
+   "captions": true,
+   "vignette": false
+  },
+  {
+   "id": "s02",
+   "start": 4.76,
+   "end": 6.3,
+   "line": "don't use the NEW one.",
+   "scene": "Rule card: RULE 1 / DON'T USE THE NEW ONE with a four-step progress row.",
+   "purpose": "State the protocol rule on the turn.",
+   "visual_change": "Hard cut from the room to the rule title; rule 1 of 4 is lit.",
+   "asset": "rule-card-v1",
+   "sfx": [
+    {
+     "at": 0.04,
+     "name": "hit",
+     "gain": -17,
+     "pitch": 0.6
+    }
+   ],
+   "in": {
+    "type": "cut"
+   },
+   "captions": true,
+   "vignette": false
+  },
+  {
+   "id": "s03",
+   "start": 6.3,
+   "end": 10.4,
+   "line": "The old one lets the hallway light in. The new one stays dark.",
+   "scene": "Frontal insert of the inner door face: brass NEW lens above the gray OLD lens. The old glass glows warm with light rays; the new glass is pure black.",
+   "purpose": "Make the contradiction readable at phone size.",
+   "visual_change": "OLD label -> glow and rays swell with a green check on 'light' -> NEW label -> red ring and red cross on 'dark'.",
+   "asset": "door-face-v1",
+   "cue_word": "dark",
+   "cue_at": 3.22,
+   "sfx": [
+    {
+     "at": 1.46,
+     "name": "blip",
+     "gain": -26,
+     "pitch": 1.2
+    },
+    {
+     "at": 3.22,
+     "name": "blip",
+     "gain": -24,
+     "pitch": 0.5
+    }
+   ],
+   "in": {
+    "type": "cut"
+   },
+   "captions": true,
+   "vignette": false
+  },
+  {
+   "id": "s04",
+   "start": 10.4,
+   "end": 11.75,
+   "line": "Through the old one,",
+   "scene": "Back in the same cutaway. The person crosses to the door and presses an eye to the OLD peephole; their head blocks the beam and the floor spot disappears.",
+   "purpose": "Show the rule being followed with a visible contact beat.",
+   "visual_change": "Stand -> walk -> lean into the peer pose; contact with the old hole at about 0.9 s blocks the light.",
+   "asset": "entry-v1 / door-v1 / person-v1",
+   "cue_word": "old",
+   "cue_at": 0.56,
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "footstep",
+     "gain": -25
+    },
+    {
+     "at": 0.4,
+     "name": "footstep",
+     "gain": -25
+    }
+   ],
+   "in": {
+    "type": "cut"
+   },
+   "captions": true,
+   "vignette": false
+  },
+  {
+   "id": "s05",
+   "start": 11.75,
+   "end": 13.2,
+   "line": "the hallway is empty.",
+   "scene": "Fisheye POV through the old peephole: bowed hallway, neighbour door 4D, the same wall sconce. Nobody is there.",
+   "purpose": "Answer what the person sees; confirm the hallway is empty.",
+   "visual_change": "Lens view drifts slightly; a green check and NO ONE OUTSIDE status confirm 'empty'.",
+   "asset": "fisheye-v1",
+   "cue_word": "empty",
+   "cue_at": 0.65,
+   "in": {
+    "type": "cut"
+   },
+   "captions": true,
+   "vignette": false
+  },
+  {
+   "id": "s06",
+   "start": 13.2,
+   "end": 17.0,
+   "line": "So why is the new one still dark?",
+   "scene": "Extreme close-up of the brass NEW lens with black glass on the door face. A slow push-in. In the narration pause, the black glass blinks: a lid closes and reopens, and a catchlight appears.",
+   "purpose": "Reveal the impossible answer without words.",
+   "visual_change": "Static black lens with a glass reflection -> blink at 2.65 s -> eye catchlight and iris; status NO LIGHT -> NOT A LENS.",
+   "asset": "door-face-v1",
+   "cue_word": "(pause)",
+   "cue_at": 2.65,
+   "sfx": [
+    {
+     "at": 2.62,
+     "name": "tone_low",
+     "gain": -13,
+     "dur": 2.2
+    }
+   ],
+   "in": {
+    "type": "cut"
+   },
+   "captions": true,
+   "vignette": false
+  },
+  {
+   "id": "s07",
+   "start": 17.0,
+   "end": 25.0,
+   "line": "It isn't there for you to look out. It's there for something to look IN.",
+   "scene": "Same cutaway. The person pulls back from the door and backs across the room. A dotted sight-line grows from the NEW hole and tracks their head. On 'IN' it turns red and locks on. The old hole's floor light then goes out too.",
+   "purpose": "Payoff and escalation: the new hole watches in; final callback to the floor light spot.",
+   "visual_change": "Peer -> recoil -> backing away; yellow sight-line grows and follows; red lock with WATCHED on 'IN'; at 5.6 s the old beam and floor spot fade out.",
+   "asset": "entry-v1 / door-v1 / person-v1",
+   "cue_word": "IN",
+   "cue_at": 3.56,
+   "sfx": [
+    {
+     "at": 0.6,
+     "name": "footstep",
+     "gain": -26
+    },
+    {
+     "at": 1.2,
+     "name": "footstep",
+     "gain": -26
+    },
+    {
+     "at": 1.8,
+     "name": "footstep",
+     "gain": -26
+    },
+    {
+     "at": 3.56,
+     "name": "stinger",
+     "gain": -19,
+     "dur": 3.0
+    },
+    {
+     "at": 5.6,
+     "name": "tone_low",
+     "gain": -14,
+     "dur": 2.4
+    }
+   ],
+   "in": {
+    "type": "cut"
+   },
+   "captions": true,
+   "vignette": false
+  }
+ ],
+ "music": [
+  {
+   "start": 0,
+   "end": 13.2,
+   "mood": "unease",
+   "intensity": 0.28
+  },
+  {
+   "start": 13.2,
+   "end": 25.0,
+   "mood": "dread",
+   "intensity": 0.42
+  }
+ ]
+}

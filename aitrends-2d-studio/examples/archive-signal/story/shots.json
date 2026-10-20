@@ -1,0 +1,11 @@
+{
+  "title": "Archive Signal — original visual calibration",
+  "duration": 20,
+  "shots": [
+    {"id":"a001","start":0,"end":5,"line":"","scene":"One white person stands in a simple corridor. The people counter changes from 1 to red 2; no second person is visible.","purpose":"reveal","visual_change":"one visible person / count 1 → count becomes 2 → hold on the disagreement","asset":"signal-corridor","cue_at":2,"in":{"type":"cut"}},
+    {"id":"a002","start":5,"end":10,"line":"","scene":"Insert of the same sensor and a floor diagram: one white set of footprints stays still while a red second set approaches.","purpose":"threaten","visual_change":"one stationary footprint set → second red set advances → two paths overlap","asset":"signal-counter","cue_at":1,"in":{"type":"cut"}},
+    {"id":"a003","start":10,"end":15,"line":"","scene":"Return to the identical corridor framing. A tall dark red-edged figure gradually becomes visible behind the white person. The counter remains 2.","purpose":"reveal","visual_change":"one visible figure / count 2 → dark figure appears behind → two figures / count 2","asset":"signal-corridor","cue_at":2,"in":{"type":"glitch","dur":0.125}},
+    {"id":"a004","start":15,"end":20,"line":"","scene":"The white person leaves frame. One dark figure remains. The same counter returns to 1 in red. Final frame holds the altered meaning of the opening.","purpose":"payoff","visual_change":"two figures → white person exits → one dark figure and count 1","asset":"signal-corridor","cue_at":2.2,"in":{"type":"cut"}}
+  ],
+  "music":[]
+}
