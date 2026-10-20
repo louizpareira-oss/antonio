@@ -2,7 +2,8 @@
 
 **Format:** 16:9 YouTube, 1920 × 1080, 24 fps, about 8½ minutes (~1,190 words at ~138 words/min).
 **Style:** 2D studio, same stick-figure hero (blue hoodie). Follows the style rules in `CLAUDE.md`.
-**Status:** v2 (Oct 20), **waiting for the user's approval**. Changes from v1 (the user's notes):
+**Status:** v2 (Oct 20) approved as the plan, but **not produced**: the user uploads the finished v1 cut and will direct
+the next video. v2's changes are now studio rules (CLAUDE.md). Changes from v1 (the user's notes):
 - The science section "Is any of this real?" moved from the end to the **middle**, between Act 2 and Act 3.
 - **Dr. Voss and Project Atlas are gone.** NASA and SpaceX step in and launch you on Starship before the 100-tonne limit.
 - Act 4 (the river and the launch) now runs **straight into the Day 20 pen twist**, so the video ends at peak suspense.
