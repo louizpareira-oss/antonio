@@ -46,3 +46,13 @@ saturation, high contrast, empty space in the <corner> for text.
 Strictly NO human skin, NO realistic faces, NO thick/chibi 3D bodies, NO Pixar styles. No text, no letters, no numbers.
 ```
 Midjourney: add `--ar 16:9` at the end. SeaArt: put the "Strictly NO…" line in the negative prompt as well.
+
+## Lessons from our first SeaArt result (2x Heavier, Oct 20)
+- "Slender … thin limbs" alone gives a tiny head on very long legs: always add "large round head, about one quarter of
+  his total height" so the face reads at phone size.
+- "Glowing white eyes" alone comes out angry/evil: always describe the expression ("half-closed flat white eyes, small
+  sideways smirk, not angry, not evil").
+- Name only ONE consequence and say how it touches him (crushed under his foot, cracks starting at his feet); push
+  everything else "out of focus" in the background.
+- Reserve the text area in words ("the left 40% of the frame is calm, darker sky with nothing in it").
+- Vehicles with company markings (taxis) get fake lettering: use a plain shiny car and add "no logos, no signs".
