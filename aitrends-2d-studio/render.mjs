@@ -5,6 +5,7 @@
 //   node render.mjs --project P --stills 3.5,12,40                    stills at times -> build/stills
 //   node render.mjs --project P --styles dusk,midnight,golden,neon --at 3.5,12,40   style comparison grid
 // Options: --workers N  --scale K  --style ID  --debug  --format png|jpeg  --crf 18  --gl auto|gpu|swiftshader  --out FILE
+//          --reframe [plan.json]  render a 16:9 project as 9:16 through a per-shot window (default shorts/reframe.json)
 import http from 'node:http';
 import fs from 'node:fs';
 import os from 'node:os';
@@ -36,7 +37,7 @@ const CFG = JSON.parse(fs.readFileSync(path.join(PROJECT, 'config.json'), 'utf8'
 const FPS = CFG.fps || 24;
 
 async function openPlayer(browser, style) {
-  const qs = new URLSearchParams(); if (args.scale) qs.set('scale', args.scale); if (style || args.style) qs.set('style', style || args.style); if (args.debug) qs.set('debug', '1');
+  const qs = new URLSearchParams(); if (args.scale) qs.set('scale', args.scale); if (style || args.style) qs.set('style', style || args.style); if (args.debug) qs.set('debug', '1'); if (args.reframe) qs.set('reframe', args.reframe === true ? 'shorts/reframe.json' : args.reframe);
   const page = await browser.newPage({ viewport: { width: 640, height: 360 } });
   page.on('pageerror', e => console.log('[pageerror]', e.message));
   page.on('console', m => { const t = m.text(); if (/ERROR|missing/i.test(t)) console.log('[page]', t); });

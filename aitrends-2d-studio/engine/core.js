@@ -2,7 +2,9 @@
 // 16:9 stage = 1920x1080, 9:16 stage = 1080x1920. The player scales to output pixels.
 import { STYLES, BASE_MOODS } from './styles.js';
 
-export const E = { W: 1920, H: 1080, PX: 1, fps: 24, vertical: false, style: null, styleId: 'dusk', cfg: {}, words: [], shots: [] };
+export const E = { W: 1920, H: 1080, PX: 1, BASE: [1, 0, 0, 1, 0, 0], fps: 24, vertical: false, style: null, styleId: 'dusk', cfg: {}, words: [], shots: [] };
+// E.BASE = stage -> output pixels transform for the current shot (scale E.PX; in --reframe mode it also pans/zooms a
+// 9:16 window over the 16:9 stage). E.outW/E.outH = output size in pixels.
 export const V = (h, v) => (E.vertical ? v : h);           // pick a value by aspect: V(landscape, vertical)
 
 // ---------- math / timing ----------
@@ -107,19 +109,19 @@ export function layer(g, cam, depth, fn) {
 const _blurPool = [];
 export function blurLayer(g, amount, fn, cam = null, depth = 1) {
   if (amount <= 0.3) { cam ? layer(g, cam, depth, fn) : fn(g); return; }
-  const k = clamp(1 / (1 + amount / 3), 0.06, 1);
-  const w = Math.max(8, Math.round(E.W * E.PX * k)), h = Math.max(8, Math.round(E.H * E.PX * k));
+  const k = clamp(1 / (1 + amount / 3), 0.06, 1), B = E.BASE, OW = E.outW || E.W * E.PX, OH = E.outH || E.H * E.PX;
+  const w = Math.max(8, Math.round(OW * k)), h = Math.max(8, Math.round(OH * k)), kx = w / OW, ky = h / OH;
   let c = _blurPool.find(b => !b.busy && b.width === w && b.height === h);
   if (!c) { c = document.createElement('canvas'); c.width = w; c.height = h; _blurPool.push(c); }
   c.busy = true; const x = c.getContext('2d'); x.setTransform(1, 0, 0, 1, 0, 0); x.clearRect(0, 0, w, h);
-  x.setTransform(w / E.W, 0, 0, h / E.H, 0, 0); cam ? layer(x, cam, depth, fn) : fn(x);
+  x.setTransform(B[0] * kx, 0, 0, B[3] * ky, B[4] * kx, B[5] * ky); cam ? layer(x, cam, depth, fn) : fn(x);
   // blur at the small size (fast), then upscale smoothly
   if (!c.b) { c.b = document.createElement('canvas'); }
   if (c.b.width !== w || c.b.height !== h) { c.b.width = w; c.b.height = h; }
   const bx = c.b.getContext('2d'); bx.setTransform(1, 0, 0, 1, 0, 0); bx.clearRect(0, 0, w, h);
-  bx.filter = `blur(${Math.max(0.4, amount * E.PX * k)}px)`; bx.drawImage(c, 0, 0); bx.filter = 'none';
+  bx.filter = `blur(${Math.max(0.4, amount * B[0] * kx)}px)`; bx.drawImage(c, 0, 0); bx.filter = 'none';
   g.save(); g.setTransform(1, 0, 0, 1, 0, 0); g.imageSmoothingEnabled = true; g.imageSmoothingQuality = 'high';
-  g.drawImage(c.b, 0, 0, E.W * E.PX, E.H * E.PX); g.restore(); c.busy = false;
+  g.drawImage(c.b, 0, 0, OW, OH); g.restore(); c.busy = false;
 }
 
 // ---------- shot registry ----------

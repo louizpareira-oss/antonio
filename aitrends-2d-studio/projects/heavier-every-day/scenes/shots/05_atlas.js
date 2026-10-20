@@ -177,10 +177,10 @@ registerShot('s097', { draw(g, t, info) {
 // s098 — "By day twenty, coming home would mean hitting the ground like an asteroid."  a fireball over a small town
 registerShot('s098', { draw(g, t, info) {
   const k = t / info.dur, p = ease.in(prog(t, 0.2, info.dur - 0.4)), hx = lerp(E.W * 1.05, E.W * 0.38, p), hy = lerp(-80, E.H * 0.7, p);
-  g.fillStyle = linGrad(g, 0, 0, 0, E.H, ['#0e1430', '#2a2a5a', '#6a3a5a']); g.fillRect(0, 0, E.W, E.H); FX.stars(g, t, { count: 120, area: [0, 0, E.W, E.H * 0.6] }); glow(g, hx, hy, 900 * (0.4 + p), '#ff8a3a', 0.35 + 0.4 * p);
+  g.fillStyle = linGrad(g, 0, 0, 0, E.H, ['#0e1430', '#2a2a5a', '#6a3a5a']); g.fillRect(-E.W, -E.H, E.W * 3, E.H * 3); FX.stars(g, t, { count: 120, area: [0, 0, E.W, E.H * 0.6] }); glow(g, hx, hy, 900 * (0.4 + p), '#ff8a3a', 0.35 + 0.4 * p);
   FX.skyline(g, { x: -100, y: E.H * 0.86, w: E.W + 200, minH: 60, maxH: 180, color: '#14102a', windowColor: '#ffcf8a', lit: 0.4, seed: 9 }); g.fillStyle = '#100c20'; g.fillRect(0, E.H * 0.86, E.W, E.H);
   for (let i = 18; i >= 0; i--) { const q = Math.max(0, p - i * 0.025), tx = lerp(E.W * 1.05, E.W * 0.38, q), ty = lerp(-80, E.H * 0.7, q); circle(g, tx, ty, (60 - i * 2.4) * (0.6 + p), alpha(mix('#fff2c8', '#ff5a1a', i / 18), 0.8 * (1 - i / 19))); }
-  circle(g, hx, hy, 40 * (0.6 + p), '#ffffff'); if (t > info.dur - 0.4) { const f = (t - info.dur + 0.4) / 0.4; g.fillStyle = alpha('#fff2d0', f * 0.8); g.fillRect(0, 0, E.W, E.H); }
+  circle(g, hx, hy, 40 * (0.6 + p), '#ffffff'); if (t > info.dur - 0.4) { const f = (t - info.dur + 0.4) / 0.4; g.fillStyle = alpha('#fff2d0', f * 0.8); g.fillRect(-E.W, -E.H, E.W * 3, E.H * 3); }
   chip(g, 'DAY 20 = AN ASTEROID', E.W / 2, E.H * 0.2, { size: 48, k: prog(t, 0.4, 0.8) }); weightBadge(g, { day: 20, k: 1, danger: true });
 } });
 // s099 — "You have one day left on Earth."  GARAGE: you on the floor, alone

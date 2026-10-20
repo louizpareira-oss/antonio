@@ -59,7 +59,7 @@ registerShot('s020', { draw(g, t, info) {
 } });
 // medical chart card: rows [label, value, ok]
 function chart(g, t, rows, hiRow = -1) {
-  g.fillStyle = linGrad(g, 0, 0, 0, E.H, ['#dfeaf2', '#b8cad8']); g.fillRect(0, 0, E.W, E.H);
+  g.fillStyle = linGrad(g, 0, 0, 0, E.H, ['#dfeaf2', '#b8cad8']); g.fillRect(-E.W, -E.H, E.W * 3, E.H * 3);
   const x = E.W * 0.14, y = E.H * 0.13, w = E.W * 0.72, h = E.H * 0.74; card(g, x, y, w, h, { r: 30 });
   g.fillStyle = '#3a8ac0'; rr(g, x, y, w, 110, 30); g.fill(); g.fillRect(x, y + 70, w, 40); uiText(g, '+ CITY CLINIC · CHECK-UP', x + 50, y + 56, 48, { color: '#ffffff', weight: 900 });
   uiText(g, 'PATIENT: YOU · AGE 15', x + 50, y + 175, 40, { color: UIS });
@@ -100,7 +100,7 @@ registerShot('s026', { draw(g, t, info) {
   const k = t / info.dur, cam = { z: 1.15 + 0.05 * k, x: -260, y: 60 }, R = bedroom(g, t, cam, { night: true }), f = wt('doubles', info, t, 4.2);
   layer(g, cam, 1, (g) => { sleeper(g, R.CX - 380, R.GY, 1.0, 1.4, { outfit: YOU, rim: { color: '#cfe0ff', dir: [0, -1] } }); });
   midnightClock(g, E.W * 0.74, E.H * 0.4, 190, lerp(58, 60, ease.inOut(prog(t, 0.3, f))), { stampAt: t - f });
-  if (t > f) { const a = clamp(1 - (t - f) * 2); g.fillStyle = alpha('#ffe2b0', 0.4 * a); g.fillRect(0, 0, E.W, E.H); }
+  if (t > f) { const a = clamp(1 - (t - f) * 2); g.fillStyle = alpha('#ffe2b0', 0.4 * a); g.fillRect(-E.W, -E.H, E.W * 3, E.H * 3); }
 } });
 // s027–s032 — the weight ladder
 registerShot('s027', { draw(g, t, info) { ladder(g, t, info, 1, 'gorilla', { label: 'A GORILLA' }); } });

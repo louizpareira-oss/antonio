@@ -64,7 +64,7 @@ registerShot('s162', { draw(g, t, info) {
 registerShot('s163', { draw(g, t, info) { orbit(g, t, { z: 1.0 + 0.03 * t, x: 0, y: 0 }, { cap: [E.W * 0.3 + 25 * t, E.H * 0.24], capS: 0.55, earthTop: 560 }); weightBadge(g, { day: 20, k: 1 }); } });
 // s164 — "But you're still going around it, every ninety minutes."  ORBIT DIAGRAM: one lap = 92 min
 registerShot('s164', { draw(g, t, info) {
-  g.fillStyle = '#04060e'; g.fillRect(0, 0, E.W, E.H); FX.stars(g, t, { count: 200, area: [0, 0, E.W, E.H] }); const cx = E.W * 0.42, cy = E.H * 0.52, er = 280, or = 380, a = -Math.PI / 2 + t * 1.6;
+  g.fillStyle = '#04060e'; g.fillRect(-E.W, -E.H, E.W * 3, E.H * 3); FX.stars(g, t, { count: 200, area: [0, 0, E.W, E.H] }); const cx = E.W * 0.42, cy = E.H * 0.52, er = 280, or = 380, a = -Math.PI / 2 + t * 1.6;
   glow(g, cx, cy, er * 1.5, '#6ac8ff', 0.35); circle(g, cx, cy, er, '#2a6ad0'); g.save(); g.beginPath(); g.arc(cx, cy, er, 0, Math.PI * 2); g.clip(); g.fillStyle = '#4a9a4a'; for (const [x, y, rx, ry] of [[-90, -80, 110, 60], [70, 70, 90, 110], [-120, 110, 60, 40]]) { g.beginPath(); g.ellipse(cx + x, cy + y, rx, ry, 0.4, 0, Math.PI * 2); g.fill(); } g.restore();
   g.setLineDash([14, 12]); ring(g, cx, cy, or, 3, alpha('#ffffff', 0.6)); g.setLineDash([]); g.strokeStyle = GOLD(); g.lineWidth = 6; g.beginPath(); g.arc(cx, cy, or, -Math.PI / 2, a); g.stroke();
   glow(g, cx + Math.cos(a) * or, cy + Math.sin(a) * or, 50, '#ffffff', 0.6); circle(g, cx + Math.cos(a) * or, cy + Math.sin(a) * or, 14, '#ffffff');

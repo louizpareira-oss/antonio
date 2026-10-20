@@ -151,7 +151,7 @@ registerShot('s116', { draw(g, t, info) {
 } });
 // s117 — "Eleven p.m."  MISSION CONTROL: 23:00, payload 72 / 100 t, all GO
 registerShot('s117', { draw(g, t, info) {
-  g.fillStyle = linGrad(g, 0, 0, 0, E.H, ['#0a1020', '#14203a']); g.fillRect(0, 0, E.W, E.H); glow(g, E.W / 2, E.H * 0.4, 900, ATLAS, 0.2);
+  g.fillStyle = linGrad(g, 0, 0, 0, E.H, ['#0a1020', '#14203a']); g.fillRect(-E.W, -E.H, E.W * 3, E.H * 3); glow(g, E.W / 2, E.H * 0.4, 900, ATLAS, 0.2);
   atlasLogo(g, E.W * 0.1, E.H * 0.14, 1, ATLAS); text(g, 'ATLAS MISSION CONTROL', E.W * 0.14, E.H * 0.14, { size: 40, color: ATLAS, font: FONTS.ui, weight: 900, spacing: 5, align: 'left' });
   text(g, '23:00', E.W * 0.32, E.H * 0.5, { size: 220, color: '#ffffff', font: FONTS.ui, weight: 900, glow: 20, glowColor: alpha(ATLAS, 0.6) });
   [['PAYLOAD', '72 t / 100 t'], ['WEATHER', 'GO'], ['CREW', '1 · GO'], ['MIDNIGHT IN', '60 min']].forEach(([a, b], i) => { const y = E.H * 0.32 + i * 120, al = ease.out(prog(t, 0.1 + i * 0.15, 0.4 + i * 0.15)); text(g, a, E.W * 0.6, y, { size: 38, color: alpha('#cfd8e8', al), font: FONTS.ui, weight: 900, align: 'left', spacing: 2 }); text(g, b, E.W * 0.92, y, { size: 44, color: alpha(i === 3 ? GOLD() : '#5fd38a', al), font: FONTS.ui, weight: 900, align: 'right' }); });
@@ -175,7 +175,7 @@ registerShot('s121', { draw(g, t, info) { pad(g, t, { z: 1.4, x: -40, y: 120 }, 
 // s122 — "The whole launch pad shakes."  LIFTOFF
 registerShot('s122', { draw(g, t, info) {
   const [sx, sy] = shake(t, 16, 30), lift = 600 * ease.in(prog(t, 0.2, info.dur)), cam = { z: 1.0 + 0.04 * t, x: sx, y: -80 - lift * 0.6 + sy };
-  pad(g, t, cam, { lift, ignite: 1 }); g.fillStyle = alpha('#fff2d0', 0.12 + 0.08 * Math.sin(t * 30)); g.fillRect(0, 0, E.W, E.H); weightBadge(g, { day: 10, k: 1 });
+  pad(g, t, cam, { lift, ignite: 1 }); g.fillStyle = alpha('#fff2d0', 0.12 + 0.08 * Math.sin(t * 30)); g.fillRect(-E.W, -E.H, E.W * 3, E.H * 3); weightBadge(g, { day: 10, k: 1 });
 } });
 // s123 — "For eight minutes, the rocket pushes you down harder than anything ever has."  your face pressed; g-meter, timer
 registerShot('s123', { draw(g, t, info) {

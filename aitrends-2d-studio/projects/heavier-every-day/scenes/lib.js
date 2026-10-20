@@ -16,7 +16,10 @@ export function weightBadge(g, o = {}) {
   const { day = 1, k = 1, flip = 1, danger = false, x = V(70, 50), y = V(118, 210), label = null, value = null } = o; if (k <= 0.01) return;
   const col = danger ? CORAL() : GOLD(), left = label ?? `DAY ${day}`, q = clamp(flip), right = value ?? (q < 0.5 && day > 0 ? wStr(day - 1) : wStr(day));
   const ls = 30, rs = 40, lw = measure(g, left, ls, FONTS.ui, 900), rw = measure(g, right, rs, FONTS.ui, 900), w = lw + rw + 92, h = 66, sc = 0.8 + 0.2 * ease.outBack(clamp(k));
-  g.save(); g.globalAlpha *= clamp(k * 2); g.translate(x, y); g.scale(sc, sc);
+  g.save(); g.globalAlpha *= clamp(k * 2);
+  // reframed 9:16 Shorts: pin the badge to the top centre of the vertical frame, under the Short's title
+  if (E.REFRAME) { const s = sc * 1.15; g.setTransform(E.REFRAME.s, 0, 0, E.REFRAME.s, 0, 0); g.translate(540 - (w * s) / 2, 400); g.scale(s, s); }
+  else { g.translate(x, y); g.scale(sc, sc); }
   rr(g, 0, -h / 2, w, h, h / 2); g.fillStyle = 'rgba(10,12,24,.82)'; g.fill(); g.strokeStyle = alpha(col, 0.7); g.lineWidth = 2.5; g.stroke();
   text(g, left, 24, 2, { size: ls, color: S().ui.cream, font: FONTS.ui, weight: 900, align: 'left', spacing: 2 }); seg(g, [[lw + 44, -20], [lw + 44, 20]], 2, alpha(col, 0.5));
   g.save(); g.translate(lw + 68 + rw / 2, 2); g.scale(1, Math.max(0.05, Math.abs(1 - 2 * q))); text(g, right, 0, 0, { size: rs, color: col, font: FONTS.ui, weight: 900, glow: 14, glowColor: alpha(col, 0.7) }); g.restore();

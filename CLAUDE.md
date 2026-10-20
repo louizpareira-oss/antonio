@@ -35,6 +35,12 @@
   cross-section; always the character big in the foreground with an empty corner for text. No small clutter, no tiny
   numbers, no signs. Each concept gets a punchy 2-word ALL-CAPS text overlay, saying which word is white and which
   is yellow; the user adds the text.
+- **Shorts (rule from the user, Oct 20):** cut from the long video, **full-screen 9:16** like the user's reference
+  (no card, no blurred bars). The picture is re-rendered by the studio in 9:16 with
+  `node render.mjs --project P --reframe` (a per-shot window over the 16:9 stage, planned in `shorts/reframe.json`;
+  check the window on contact sheets before rendering). On top: the video's question as a 2-line title (white /
+  yellow) and big yellow 1–3-word captions at ~64 % height. Maker and example:
+  `aitrends-2d-studio/projects/heavier-every-day/shorts/make_shorts.py`; titles/descriptions in `story/shorts.md`.
 - **Style rules from the measured references** (`docs/11-reference-analysis-500iq-and-zero-pain.md`):
   - Picture: brighter (aim for centre brightness ~85–100, ours was 60), big faces and close-ups, no stretch over
     ~15 s without a picture change.

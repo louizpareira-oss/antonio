@@ -1,6 +1,6 @@
 // engine/player.js — loads a project, maps global time -> shot, renders frames deterministically.
 // window.renderFrame(frameIndex) draws one frame onto #main. Used by render.mjs (headless).
-import { E, V, setStyle, getShot, clamp, ease, prog, alpha, text, FONTS } from './core.js';
+import { E, V, setStyle, getShot, clamp, lerp, ease, prog, alpha, text, FONTS } from './core.js';
 import { STYLES } from './styles.js';
 import { captions } from './ui2d.js';
 
@@ -24,9 +24,13 @@ async function boot() {
   const vertical = (cfg.aspect || '16:9') === '9:16';
   const short = RES[cfg.resolution || '1080p'] || 1080, long = Math.round((short * 16) / 9 / 2) * 2;
   const scale = +(q.get('scale') || 1);
-  const outW = Math.round(((vertical ? short : long) * scale) / 2) * 2, outH = Math.round(((vertical ? long : short) * scale) / 2) * 2;
+  // ?reframe=<plan.json in the project>: render a 16:9 project as 9:16 by moving a window over the stage (see baseFor)
+  const reframe = q.get('reframe'), tall = vertical || !!reframe;
+  const outW = Math.round(((tall ? short : long) * scale) / 2) * 2, outH = Math.round(((tall ? long : short) * scale) / 2) * 2;
   Object.assign(E, { vertical, W: vertical ? 1080 : 1920, H: vertical ? 1920 : 1080, fps: cfg.fps || 24, cfg, words: words.words || words, shots: story.shots, outW, outH });
   E.PX = outW / E.W;
+  if (reframe) { E.REFRAME = { s: outW / 1080, plan: await (await fetch(`${PROJ}/${reframe}`)).json() }; E.PX = E.REFRAME.s * 1.8; }
+  E.BASE = [E.PX, 0, 0, E.PX, 0, 0];
   setStyle(q.get('style') || cfg.style || 'dusk');
   await loadFonts();
   main = document.getElementById('main'); main.width = outW; main.height = outH; mg = main.getContext('2d', { willReadFrequently: true });
@@ -67,20 +71,30 @@ function state3D(shot, def, info) {
   for (const [k, v] of cache3D) if (cache3D.size >= 2) { v.dispose?.(); v.stage?.dispose?.(); cache3D.delete(k); }
   const st = def.init(three, info); cache3D.set(shot.id, st); return st;
 }
+// stage -> output transform. Reframe plan: { default: {x, y, z}, shots: { s012: {x, y, z, at} } }; x/y = window centre in
+// stage units, z = zoom (1 = 1080 stage px across the 9:16 frame); a [from, to] pair eases over the shot (or over `at`).
+function baseFor(shot, lt) {
+  if (!E.REFRAME) return [E.PX, 0, 0, E.PX, 0, 0];
+  const R = E.REFRAME, p = R.plan.shots?.[shot.id] || {}, d = R.plan.default || {}, [a, b] = p.at || [0, 1];
+  const k = ease.inOut(prog(lt / (shot.end - shot.start), a, b));
+  const v = (name, def) => { const x = p[name] ?? d[name] ?? def; return Array.isArray(x) ? lerp(x[0], x[1], k) : x; };
+  const z = v('z', 1.6) * R.s, cx = v('x', E.W / 2), cy = v('y', E.H / 2);
+  return [z, 0, 0, z, E.outW / 2 - cx * z, E.outH / 2 - cy * z];
+}
 function drawShot(buf, shot, lt) {
   const g = buf.getContext('2d'); g.setTransform(1, 0, 0, 1, 0, 0); g.globalAlpha = 1; g.globalCompositeOperation = 'source-over'; g.filter = 'none';
-  g.fillStyle = '#000'; g.fillRect(0, 0, buf.width, buf.height); g.setTransform(E.PX, 0, 0, E.PX, 0, 0);
+  g.fillStyle = '#000'; g.fillRect(0, 0, buf.width, buf.height); E.BASE = baseFor(shot, lt); g.setTransform(...E.BASE);
   const def = getShot(shot.id); const dur = shot.end - shot.start;
   const info = { ...(shot.params || {}), shot, dur, globalT: shot.start + lt, p: clamp(lt / dur), line: shot.line };
   if (!def) { g.fillStyle = '#20141c'; g.fillRect(0, 0, E.W, E.H); text(g, `MISSING SHOT ${shot.id}`, E.W / 2, E.H / 2 - 30, { size: 60, color: '#ff6f61' }); text(g, (shot.line || '').slice(0, 80), E.W / 2, E.H / 2 + 50, { size: 30, color: '#fff', font: FONTS.ui, weight: 800 }); return; }
   try {
     if (def.kind === '3d') {
       const st = state3D(shot, def, info); def.draw(st, lt, info, three); (st.stage || st).render();
-      g.save(); g.setTransform(1, 0, 0, 1, 0, 0); g.drawImage(glCanvas, 0, 0, buf.width, buf.height); g.restore();
+      g.save(); g.setTransform(...E.BASE); g.drawImage(glCanvas, 0, 0, E.W, E.H); g.restore();
       if (def.overlay) { g.save(); def.overlay(g, lt, info, st); g.restore(); }
     } else { g.save(); def.draw(g, lt, info); g.restore(); }
   } catch (e) { const msg = `${shot.id}@${lt.toFixed(2)}: ${e.message}`; if (!errors.includes(msg) && errors.length < 200) errors.push(msg); console.log('SHOT ERROR', msg, e.stack?.split('\n')[1]);
-    g.setTransform(E.PX, 0, 0, E.PX, 0, 0); text(g, 'ERROR ' + msg.slice(0, 90), E.W / 2, E.H / 2, { size: 34, color: '#ff4040', font: FONTS.ui, weight: 900 }); }
+    g.setTransform(...E.BASE); text(g, 'ERROR ' + msg.slice(0, 90), E.W / 2, E.H / 2, { size: 34, color: '#ff4040', font: FONTS.ui, weight: 900 }); }
 }
 const BARS = () => ({ none: 0, wide: V(60, 0), scope: V(138, 170), thin: V(30, 60) });
 const barVal = (s) => (typeof (s?.bars ?? E.cfg.bars) === 'number' ? (s.bars ?? E.cfg.bars) : BARS()[s?.bars ?? E.cfg.bars ?? V('wide', 'none')] ?? 0);
@@ -88,7 +102,7 @@ const barVal = (s) => (typeof (s?.bars ?? E.cfg.bars) === 'number' ? (s.bars ?? 
 window.renderFrame = function (f) {
   const t = f / E.fps, i = shotIndexAt(t), shot = E.shots[i], lt = t - shot.start;
   drawShot(bufA, shot, lt);
-  const tr = shot.in || { type: 'cut' }, tdur = tr.dur ?? (tr.type === 'whip' ? 0.35 : 0.5);
+  const tr = (E.REFRAME?.plan.shots?.[shot.id]?.cut ? null : shot.in) || { type: 'cut' }, tdur = tr.dur ?? (tr.type === 'whip' ? 0.35 : 0.5);
   const W = main.width, H = main.height; mg.setTransform(1, 0, 0, 1, 0, 0); mg.globalAlpha = 1; mg.globalCompositeOperation = 'source-over';
   const grade = E.style.grade; mg.filter = grade.filter && grade.filter !== 'none' ? grade.filter : 'none';
   if (tr.type !== 'cut' && i > 0 && lt < tdur) {
@@ -106,12 +120,15 @@ window.renderFrame = function (f) {
   if (shot.vignette !== false && grade.vignette > 0) { const v = mg.createRadialGradient(W / 2, H / 2, Math.min(W, H) * 0.35, W / 2, H / 2, Math.max(W, H) * 0.62); v.addColorStop(0, 'rgba(0,0,0,0)'); v.addColorStop(1, `rgba(0,0,0,${grade.vignette})`); mg.fillStyle = v; mg.fillRect(0, 0, W, H); }
   if (grade.grain > 0) { mg.save(); mg.globalAlpha = grade.grain; mg.globalCompositeOperation = 'overlay'; mg.drawImage(grainTiles[f % 4], 0, 0, W, H); mg.restore(); }
   mg.setTransform(E.PX, 0, 0, E.PX, 0, 0);
-  if (E.cfg.captions && shot.captions !== false) captions(mg, t, E.cfg.captionStyle || {});
-  const cur = barVal(shot), prevB = i > 0 ? barVal(E.shots[i - 1]) : cur, bar = prevB + (cur - prevB) * ease.inOut(prog(lt, 0, 0.6));
-  if (bar > 0) { mg.fillStyle = '#000'; mg.fillRect(0, 0, E.W, bar); mg.fillRect(0, E.H - bar, E.W, bar); }
-  const fi = E.cfg.fadeIn ?? 0.5, fo = E.cfg.fadeOut ?? 0.8, dur = window.DURATION, fade = Math.max(fi > 0 ? 1 - t / fi : 0, fo > 0 ? 1 - (dur - t) / fo : 0);
-  if (fade > 0) { mg.fillStyle = `rgba(0,0,0,${clamp(fade)})`; mg.fillRect(0, 0, E.W, E.H); }
-  if (q.has('debug')) { mg.fillStyle = 'rgba(0,0,0,.6)'; mg.fillRect(0, E.H - 54, E.W, 54); text(mg, `${shot.id}  ${t.toFixed(2)}s  (${lt.toFixed(2)}/${(shot.end - shot.start).toFixed(2)})  ${(shot.line || '').slice(0, 70)}`, 20, E.H - 27, { size: 26, color: '#fff', font: FONTS.ui, weight: 800, align: 'left' }); }
+  if (!E.REFRAME) {   // reframed Shorts get their captions, no bars and no fades from the Shorts maker
+    if (E.cfg.captions && shot.captions !== false) captions(mg, t, E.cfg.captionStyle || {});
+    const cur = barVal(shot), prevB = i > 0 ? barVal(E.shots[i - 1]) : cur, bar = prevB + (cur - prevB) * ease.inOut(prog(lt, 0, 0.6));
+    if (bar > 0) { mg.fillStyle = '#000'; mg.fillRect(0, 0, E.W, bar); mg.fillRect(0, E.H - bar, E.W, bar); }
+    const fi = E.cfg.fadeIn ?? 0.5, fo = E.cfg.fadeOut ?? 0.8, dur = window.DURATION, fade = Math.max(fi > 0 ? 1 - t / fi : 0, fo > 0 ? 1 - (dur - t) / fo : 0);
+    if (fade > 0) { mg.fillStyle = `rgba(0,0,0,${clamp(fade)})`; mg.fillRect(0, 0, E.W, E.H); }
+  } else mg.setTransform(E.REFRAME.s, 0, 0, E.REFRAME.s, 0, 0);
+  const LW = E.REFRAME ? 1080 : E.W, LH = E.REFRAME ? 1920 : E.H;
+  if (q.has('debug')) { mg.fillStyle = 'rgba(0,0,0,.6)'; mg.fillRect(0, LH - 54, LW, 54); text(mg, `${shot.id}  ${t.toFixed(2)}s  (${lt.toFixed(2)}/${(shot.end - shot.start).toFixed(2)})  ${(shot.line || '').slice(0, 70)}`, 20, LH - 27, { size: 26, color: '#fff', font: FONTS.ui, weight: 800, align: 'left' }); }
   mg.setTransform(1, 0, 0, 1, 0, 0);
 };
 boot().catch(e => { window.BOOT_ERROR = e.message + '\n' + e.stack; console.log('BOOT ERROR', e.message); });

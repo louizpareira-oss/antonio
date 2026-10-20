@@ -11,7 +11,7 @@ import { heroFace, hand, chip, impact, wt, CORAL, weightBadge, grandpaFace, gran
 
 const WARM = '#ffd8a8', SUNL = '#fff2c8';
 // old-photo grade for the flashbacks: desaturate, warm, vignette
-const sepia = (g) => { veil(g, '#808080', 0.55, 'saturation'); veil(g, '#ffc88a', 0.42, 'multiply'); veil(g, '#ffb060', 0.14, 'overlay'); veil(g, '#fff0d8', 0.1); g.fillStyle = radGrad(g, E.W / 2, E.H / 2, E.H * 0.35, E.W * 0.72, ['rgba(70,40,10,0)', 'rgba(70,40,10,.45)']); g.fillRect(0, 0, E.W, E.H); };
+const sepia = (g) => { veil(g, '#808080', 0.55, 'saturation'); veil(g, '#ffc88a', 0.42, 'multiply'); veil(g, '#ffb060', 0.14, 'overlay'); veil(g, '#fff0d8', 0.1); g.fillStyle = radGrad(g, E.W / 2, E.H / 2, E.H * 0.35, E.W * 0.72, ['rgba(70,40,10,0)', 'rgba(70,40,10,.45)']); g.fillRect(-E.W, -E.H, E.W * 3, E.H * 3); };
 // school gym: wood floor, a hoop, a banner
 function schoolGym(g, t, cam) {
   const R = room(g, t, cam, { wall: '#d8c8a0', floor: '#c8935a', window: { x: E.W / 2 + 420, w: 700, h: 300, y: 900, cols: 4, rows: 1 } }), { GY, CX } = R;

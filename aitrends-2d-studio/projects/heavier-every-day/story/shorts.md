@@ -1,9 +1,10 @@
 # YouTube Shorts — What If You Got 2x Heavier Every Single Day?
 
-Seven 9:16 Shorts (1080×1920, 24 fps) cut from the long video in the user's reference layout: the picture inside a
-rounded cream player card with a yellow progress bar and timer, a hook title on top, big word-by-word captions.
-Files: `out/shorts/short_N_*.mp4`. Rebuild: `python3 shorts/make_shorts.py [N ...]` (about 4 minutes for all seven).
-The Atlas/Voss part and the science part are left out.
+Seven full-screen 9:16 Shorts (1080×1920, 24 fps) cut from the long video in the user's reference layout (Oct 20):
+the picture fills the frame (re-rendered by the studio in 9:16 through the per-shot windows in `shorts/reframe.json`),
+the question "WHAT IF YOU GOT / 2X HEAVIER EVERY DAY?" on top (white / yellow) and big yellow captions.
+Files: `out/shorts/short_N_*.mp4`. Rebuild: `python3 shorts/make_shorts.py render` (the 9:16 picture, ~1.5 h, resumable)
+then `python3 shorts/make_shorts.py [N ...]` (compose, a few minutes). The Atlas/Voss and science parts are left out.
 
 **For every Short:**
 - Description = the 3 hashtags on the first line + the 1-sentence hook below (nothing else).

@@ -162,7 +162,7 @@ registerShot('s064', { draw(g, t, info) {
 } });
 // s065 — "They call you the Immovable Kid."  NEWS SITE
 registerShot('s065', { draw(g, t, info) {
-  const k = t / info.dur; g.fillStyle = linGrad(g, 0, 0, 0, E.H, ['#dfe6ee', '#b8c4d4']); g.fillRect(0, 0, E.W, E.H);
+  const k = t / info.dur; g.fillStyle = linGrad(g, 0, 0, 0, E.H, ['#dfe6ee', '#b8c4d4']); g.fillRect(-E.W, -E.H, E.W * 3, E.H * 3);
   const s = 1 + 0.04 * k; g.save(); g.translate(E.W / 2, E.H / 2); g.scale(s, s); g.translate(-E.W / 2, -E.H / 2);
   browserFrame(g, E.W * 0.1, E.H * 0.1, E.W * 0.8, E.H * 0.82, 'citytimes · local news', (g, x, y, w, h) => {
     g.fillStyle = '#1e2433'; g.fillRect(x, y, w, 90); uiText(g, 'THE CITY TIMES', x + 40, y + 46, 40, { color: '#ffffff', weight: 900, spacing: 4 }); uiText(g, 'LOCAL · SCIENCE · VIRAL', x + w - 420, y + 46, 22, { color: '#9aa4b8' });
@@ -176,7 +176,7 @@ registerShot('s065', { draw(g, t, info) {
 // s066 — "Day seven, every step leaves a footprint in the road."  TOP VIEW: deep footprints across the asphalt
 registerShot('s066', { draw(g, t, info) {
   const k = t / info.dur, walk = 3 + t * 2, step = 120, oy = walk * step - E.H * 0.6, n = 16;
-  g.fillStyle = linGrad(g, 0, 0, E.W, 0, ['#5a5660', '#4a4650', '#545058']); g.fillRect(0, 0, E.W, E.H); const r = rng(8); for (let i = 0; i < 300; i++) circle(g, r() * E.W, ((r() * E.H * 2 + oy) % (E.H + 20) + E.H + 20) % (E.H + 20), 2 + r() * 3, alpha(r() < 0.5 ? '#6e6a74' : '#2e2c34', 0.6));
+  g.fillStyle = linGrad(g, 0, 0, E.W, 0, ['#5a5660', '#4a4650', '#545058']); g.fillRect(-E.W, -E.H, E.W * 3, E.H * 3); const r = rng(8); for (let i = 0; i < 300; i++) circle(g, r() * E.W, ((r() * E.H * 2 + oy) % (E.H + 20) + E.H + 20) % (E.H + 20), 2 + r() * 3, alpha(r() < 0.5 ? '#6e6a74' : '#2e2c34', 0.6));
   g.fillStyle = '#b8b0a4'; g.fillRect(0, 0, E.W * 0.16, E.H); g.fillStyle = '#d8d0c4'; g.fillRect(E.W * 0.16, 0, 24, E.H);
   for (let i = -1; i < 8; i++) { g.fillStyle = alpha('#f2d27a', 0.8); g.fillRect(E.W * 0.7, (((i * 260 + oy) % (E.H + 260)) + E.H + 260) % (E.H + 260) - 130, 18, 130); }
   for (let i = 0; i < n; i++) { if (i > walk) break; const age = (walk - i) / 2, x = E.W * 0.42 + (i % 2 ? 50 : -50), y = E.H * 0.95 - i * step + oy;
