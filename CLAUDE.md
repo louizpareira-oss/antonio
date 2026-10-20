@@ -11,34 +11,33 @@
   counts), so there "AI-generated content" stays on.
 - Voiceovers come from the ElevenLabs connector; word timings from `tools/align_offline.py` (huggingface.co is blocked here).
 - Channel: **Parallel You** (@ParallelYou), tagline "Every what if, lived by you.", business email parallelyou.business@gmail.com.
-  Brand kit: `aitrends-2d-studio/projects/parallel-you-brand/channel.md`. Descriptions follow the template in
-  `docs/12-viral-descriptions.md` (measured from the viral examples the user shared, Oct 19): 3 hashtags on top, the
-  title question, short "you" lines with a "Sounds amazing. Until…" turn, "This is Part 1." when there's a sequel, one
-  specific "Be honest…" comment question, a 📺 link to our previous video, chapters, the Parallel You sign-off, 4
-  hashtags at the end. Example: `aitrends-2d-studio/projects/stronger-couldnt-stop/story/youtube.md`.
+  Brand kit: `aitrends-2d-studio/projects/parallel-you-brand/channel.md`.
+- **YouTube metadata (rule from the user, Oct 20, replaces `docs/12-viral-descriptions.md`):** no keyword stuffing.
+  The description is only: exactly 3 hashtags on the first line (e.g. `#whatif #animation #storytime`, never more
+  than 3), a 1-sentence hook, the chapter timestamps (each ≥ 10 s). Backend tags: 5–8 in total.
+  Example: `aitrends-2d-studio/projects/heavier-every-day/story/youtube.md`.
 - **Tools:** the video is always built in the 2D studio (no AI video clips).
-- **Thumbnails (rule from the user, Oct 20, replaces all earlier thumbnail rules):** never draw or code thumbnails here
-  and never use OpenArt. Deliver only a text prompt for the user to run in SeaArt/Midjourney, plus the text overlay,
-  saved in the video's `story/thumbnail.md`. Every prompt must contain:
-  1. Style, word for word: "16:9 aspect ratio, YouTube thumbnail. Cinematic 2.5D 3D render of a slender stick-figure
-     with thin limbs, a solid black spherical head, and glowing white eyes. Wearing a brightly colored hoodie."
-  2. Ban list, word for word: "Strictly NO human skin, NO realistic faces, NO thick/chibi 3D bodies, NO Pixar styles."
-  3. Background: a high-stakes, dramatic disaster showing the physical consequence of the video's rule (shattered
-     glowing concrete, crushed vehicles, burning cities…), epic cinematic lighting, depth of field. No small details,
-     no math numbers, no traffic signs.
-  4. Text overlay: 2 words, all caps, punchy ("TOO HEAVY.", "ONLY ME.", "NOTHING."); say which word is white and
-     which is yellow. The user adds the text.
-  5. Our own look, not a copy of other channels (`docs/13-thumbnail-patterns.md`): one stylized world (nothing
-     photoreal), the hero outlined by a thin glowing cyan rim light (brand signature) against warm gold light, one
-     impossible physical image built around a big calm face (low close camera, head 35–45 % of the height), text in
-     the empty dark corner. Example: `heavier-every-day/story/thumbnail.md`.
+- **Thumbnails (rule from the user, Oct 20, replaces all earlier thumbnail rules):** prompt only. Never draw or code
+  thumbnails (no `thumb.js`, no thumbnail projects) and never spend OpenArt credits on them. For every video, write
+  **3 original, high-concept SeaArt prompts** in the video's `story/thumbnail.md`; the user generates them. Our own
+  visual hooks, never a copy of another channel's idea. Every prompt starts with this block, word for word:
+  "16:9 aspect ratio, YouTube thumbnail. Cinematic 2.5D 3D render of a slender stick-figure with thin limbs, a solid
+  black spherical head, and glowing white eyes, wearing a bright blue hoodie. High contrast, dramatic cyan and neon
+  orange rim lighting, epic disaster scale, 8k octane render. Strictly NO human skin, NO realistic faces, NO
+  thick/chibi bodies."
+  Then one epic, physical consequence of the video's rule, the hero big and readable, and an empty corner for text;
+  no small clutter, no tiny numbers, no signs. Each concept gets a punchy 2-word ALL-CAPS text overlay, saying which
+  word is white and which is yellow; the user adds the text.
 - **Style rules from the measured references** (`docs/11-reference-analysis-500iq-and-zero-pain.md`):
   - Picture: brighter (aim for centre brightness ~85–100, ours was 60), big faces and close-ups, no stretch over
     ~15 s without a picture change.
   - Opening: a close-up of something impossible within the first second.
   - Narration: ~130–145 words per minute.
-  - Story: a family member with a backstory, a lasting price for the hero, a villain or organization, world-scale
-    effects, a twist in the last 30 s that sets up a sequel, then the comment question.
+  - Story: a family member with a backstory, a lasting price for the hero, world-scale effects, a twist in the last
+    30 s that sets up a sequel, then the comment question. When an organization is needed, use real-world ones
+    (NASA, SpaceX…) shown as plain text names without logos; no secret labs or white-coat agencies (user, Oct 20).
+  - Structure (user, Oct 20): the "Is any of this real?" science section goes in the **middle** (between Act 2 and
+    Act 3), never at the end. The final act runs from the climax straight into the twist and the end question.
 
 # New video checklist (what a finished Parallel You video includes)
 
@@ -47,6 +46,6 @@
 3. Video in `aitrends-2d-studio/projects/<slug>/`, final MP4 in its `out/`.
    Long renders: render in 40-s pieces with `--from/--to --out build/segs/seg_NNN.mp4` and join them with ffmpeg concat;
    the cloud container can restart while idle and kill a single 2-hour render (it happened on video 4).
-4. Thumbnail: a SeaArt/Midjourney prompt + 2-word text overlay in `story/thumbnail.md` (rules above); the user makes it.
-5. `story/youtube.md` (title, description, chapters each ≥ 10 s, pinned comment, tags) and `story/tiktok.md`
-   (short caption, 7 hashtags, same 16:9 file).
+4. Thumbnail: 3 SeaArt prompts + 2-word text overlays in `story/thumbnail.md` (rules above); the user makes it.
+5. `story/youtube.md` (title, 3 hashtags + 1-sentence hook + chapters each ≥ 10 s, 5–8 tags, optional pinned
+   comment) and `story/tiktok.md` (short caption, same 16:9 file).

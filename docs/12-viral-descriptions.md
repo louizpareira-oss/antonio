@@ -1,5 +1,7 @@
 # What viral What-If descriptions actually do (6 examples the user shared, Oct 19)
 
+> **Replaced (Oct 20):** the user's new rule is minimal metadata: exactly 3 hashtags on top, a 1-sentence hook, the chapters, 5–8 tags (see `CLAUDE.md`). This page is kept only as research.
+
 | Video | Views (when shared) | Length | First line | Comment question | Extras | Hashtags |
 |---|---|---|---|---|---|---|
 | What If You Had 500 IQ? (Ifverse) | 1,012,260 | medium (~80 words + chapters) | title question + "Not a genius. Not Einstein. Five hundred." | "What would YOU do with 500 IQ?" | "This is Part 1 of 3", 7 chapters, channel sign-off + subscribe + email | 3 on top, 3 + 3 at the end |

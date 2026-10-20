@@ -1,5 +1,7 @@
 # What the winning What-If thumbnails do (examples the user shared, Oct 20)
 
+> **Replaced (Oct 20):** thumbnails are now prompt-only: 3 original SeaArt prompts per video with the required style block from `CLAUDE.md`. No coded or OpenArt thumbnails. This page is kept only as research.
+
 | Channel | Video | Views (age) | Text | Hero | Big element |
 |---|---|---|---|---|---|
 | Ifverse | What If You Had 500 IQ? | 1M (5 d) | "500 IQ" + "TEST BROKE" | giant head, smug eyes, star glint in one eye | IQ gauge snapping past the top |

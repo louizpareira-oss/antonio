@@ -1,8 +1,11 @@
-# Script 04 — "What If You Got 2x Heavier Every Single Day?"
+# Script 04 — "What If You Got 2x Heavier Every Single Day?" (v2)
 
-**Format:** 16:9 YouTube, 1920 × 1080, 24 fps, about 8½ minutes (1,169 words at ~138 words/min).
+**Format:** 16:9 YouTube, 1920 × 1080, 24 fps, about 8½ minutes (~1,190 words at ~138 words/min).
 **Style:** 2D studio, same stick-figure hero (blue hoodie). Follows the style rules in `CLAUDE.md`.
-**Status:** approved by the user (Oct 19). Next: voices.
+**Status:** v2 (Oct 20), **waiting for the user's approval**. Changes from v1 (the user's notes):
+- The science section "Is any of this real?" moved from the end to the **middle**, between Act 2 and Act 3.
+- **Dr. Voss and Project Atlas are gone.** NASA and SpaceX step in and launch you on Starship before the 100-tonne limit.
+- Act 4 (the river and the launch) now runs **straight into the Day 20 pen twist**, so the video ends at peak suspense.
 
 ## The rule of the story
 - At every midnight your weight doubles, from 70 kg on day 0.
@@ -13,32 +16,33 @@
 | Character | Look | Voice |
 |---|---|---|
 | YOU (hero) | the channel's hero: black head, blue hoodie | narrator |
-| GRANDPA | retired lifeguard: red jacket with a white cross, whistle, white moustache, bald | 3 short lines |
-| DR. VOSS | Project Atlas (same design as video 3: lab coat, bun, glasses, teal lanyard) — "in every universe, Atlas finds you" | 1 line |
+| GRANDPA | retired lifeguard: red jacket with a white cross, whistle, white moustache | 3 short lines (already recorded) |
+| NASA FLIGHT DIRECTOR | white shirt, headset, NASA name on the shirt as plain text (no logo) | 1 line: new voice, or the narrator says it (your choice) |
+| SPACEX ENGINEER | black polo, SpaceX name as plain text (no logo) | no lines |
 | MOM | green top, bun | no lines |
 | BEST FRIEND + his DAD | orange cap / grey cap, pickup truck | no lines |
-| Gym class, coach, firefighters at the launch, mission control | extras | — |
+| Gym class, coach, NASA divers, mission control | extras | — |
 
 **Recurring elements:**
 - Top-left weight badge, "DAY 7 · 8,960 kg", that flips at midnight.
 - A midnight clock.
 - The "10 t" bridge sign.
 - A weight ladder (gorilla → piano → horse → car → … → Titanic).
-- The Project Atlas logo.
 - REAL fact boxes in the science part.
 - End card: "What would YOU do?", subscribe, PART 2.
+- **No logos:** NASA and SpaceX appear only as plain text names (NASA's insignia and SpaceX's logo have usage rules).
 
 ## Act structure (estimated times)
 | Act | Time | What happens |
 |---|---|---|
-| 1. Hook + rules | 0:00–1:25 | Shoe sinks into the road, the car roof caves in, the 10 t bridge, title; the scale, "your body keeps up", the weight ladder |
-| 2. Fun, then the price | 1:25–3:55 | Gym rope; Grandpa and the lake (you sink); stairs, bed through the floor, the garage; pickup tug-of-war; footprints in the road; school email; the bridge |
-| 3. Project Atlas | 3:55–5:05 | Voss's forecast (day 14 rock, day 31 gravity, day 77 heavier than Earth); one rocket, 100 t; launch tomorrow before midnight; you can never come back |
-| 4. The river and the launch | 5:05–6:45 | Walk across the riverbed in a diving helmet; Grandpa on the bank, one meter apart; the launch at 11 p.m.; engines stop, you float |
-| 5. Real science + twist | 6:45–8:30 | g-forces, floors, floating, friction, Cavendish, orbit; day 20 in orbit: the pen falls toward you; day 53 you out-pull the Moon on the oceans; question + Part 2 |
+| 1. Hook + rules | 0:00–1:28 | Shoe sinks into the road, the car roof caves in, the 10 t bridge, title; the scale, "your body keeps up", the weight ladder |
+| 2. Fun, then the price | 1:28–3:42 | Gym rope; Grandpa and the lake (you sink); stairs, bed through the floor, the garage; pickup tug-of-war; footprints; school email; the bridge; "You still floating, kiddo?" |
+| 3. Is any of this real? | 3:42–5:21 | g-forces, floors, floating (Archimedes), friction, Cavendish, why astronauts float — ends on "Remember that." |
+| 4. NASA and SpaceX | 5:21–6:27 | The knock; the forecast (day 14 rock, day 31 gravity, day 77 heavier than Earth); one rocket, 100 t; launch tomorrow before midnight; never coming back |
+| 5. The river, the launch, the twist | 6:27–8:40 | Under the river in a diving helmet; Grandpa, one meter apart; launch at 11 p.m.; you float; Grandpa looks up → day 20: the pen falls toward you; day 53 you out-pull the Moon; question + Part 2 |
 
 ## The voiceover script
-Lines in quotes are characters. GRANDPA: "Lie back…" (×2) and "You still floating, kiddo?". VOSS: "You can't stay on Earth…"
+Lines marked **[NEW]** are new; everything else reuses the recorded voiceover (no new ElevenLabs cost for it).
 
 ```
 [ACT 1 — HOOK]
@@ -84,23 +88,36 @@ Your grandpa lives on the other side of the river. The sign says ten tonnes. You
 So he calls you every night. And every night, he asks the same thing.
 GRANDPA: "You still floating, kiddo?"
 
-[ACT 3 — PROJECT ATLAS]
-That night, a woman in a white coat walks into your garage. Her badge says Project Atlas.
-She shows you what happens next.
+[ACT 3 — IS ANY OF THIS REAL?]
+[NEW] Let's stop the clock on day nine for a moment.
+So, is any of this real?
+Not the doubling. And in real life, your body wouldn't keep up.
+Fighter pilots in tight turns can feel nine times their own weight, and even they need special suits and training not to black out. At eight times your weight, on day three, your heart couldn't push blood up to your brain. You'd faint.
+Floors have limits too. A normal house floor is built for about two hundred kilos on every square meter. On day five, your bed puts five times that on it.
+You float because, with air in your lungs, your body is a tiny bit lighter than the same amount of water. Double your weight, and you sink like a stone. Archimedes figured that out more than two thousand years ago.
+The heavier something is, the harder it presses on the ground, and the harder it is to drag. That's friction. It's why the truck couldn't move you.
+And every object pulls on every other object. Right now, you're pulling on your phone. Just very, very weakly. In 1798, Henry Cavendish measured that pull between lead balls, in a shed.
+Make yourself heavy enough, and that tiny pull gets big.
+And astronauts don't float because there's no gravity up there. They float because they're falling around the Earth, all the time.
+[NEW] Remember that. You're going to need it.
+
+[ACT 4 — NASA AND SPACEX]
+[NEW] Because that night, there's a knock on your garage door. Two people. One from NASA. One from SpaceX.
+[NEW] They show you what happens next.
 Day fourteen, even solid rock can't hold you. You'll sink into the ground with every step.
 Day thirty-one, you'll pull on anything a meter away as hard as the whole Earth does. The ground will start falling in on you.
 Day seventy-seven, you'll weigh more than the planet.
-VOSS: "You can't stay on Earth. And after tomorrow, no rocket can lift you."
-Atlas has one rocket big enough. It can carry a hundred tonnes.
+[NEW] FLIGHT DIRECTOR: "You can't stay on Earth. And after tomorrow, no rocket can lift you."
+[NEW] There's only one rocket big enough: Starship. It's built to carry about a hundred tonnes.
 Tomorrow, you'll weigh seventy-two. The day after, a hundred and forty-three.
 So if you go, you go tomorrow night. Before midnight.
 And you can never come back. By day twenty, coming home would mean hitting the ground like an asteroid.
 You have one day left on Earth. And there's one person you need to see.
 
-[ACT 4 — THE RIVER AND THE LAUNCH]
+[ACT 5 — THE RIVER, THE LAUNCH, THE TWIST]
 Day ten. Seventy-two tonnes.
 You can't cross the bridge. So you go under it.
-Atlas gives you a diving helmet and an air hose, and you walk into the river.
+[NEW] NASA's divers give you a helmet and an air hose, and you walk into the river.
 Down, and down, and across the bottom. Fish slide past your helmet. Somewhere above you, the bridge you can't cross.
 On the other side, your grandpa is waiting at the edge of the water. He's been there since sunrise.
 You can't hug him. If you tripped, you'd crush him. So you sit on the riverbank, one meter apart.
@@ -115,19 +132,6 @@ And you float.
 For the first time since day one, nothing has to hold you up.
 You lie back. You spread your arms.
 Somewhere down there, your grandpa is looking up.
-
-[ACT 5 — IS ANY OF THIS REAL?]
-So, is any of this real?
-Not the doubling. And in real life, your body wouldn't keep up.
-Fighter pilots in tight turns can feel nine times their own weight, and even they need special suits and training not to black out. At eight times your weight, on day three, your heart couldn't push blood up to your brain. You'd faint.
-Floors have limits too. A normal house floor is built for about two hundred kilos on every square meter. On day five, your bed puts five times that on it.
-You float because, with air in your lungs, your body is a tiny bit lighter than the same amount of water. Double your weight, and you sink like a stone. Archimedes figured that out more than two thousand years ago.
-The heavier something is, the harder it presses on the ground, and the harder it is to drag. That's friction. It's why the truck couldn't move you.
-And every object pulls on every other object. Right now, you're pulling on your phone. Just very, very weakly. In 1798, Henry Cavendish measured that pull between lead balls, in a shed.
-Make yourself heavy enough, and that tiny pull gets big.
-And astronauts don't float because there's no gravity up there. They float because they're falling around the Earth, all the time.
-
-[ACT 5 — TWIST]
 Day twenty. Seventy-three thousand tonnes. Heavier than the Titanic.
 You're floating, arms spread, just like Grandpa taught you.
 Then your pen drifts across the capsule... and stops on your chest.
@@ -137,110 +141,69 @@ And on day fifty-three, you'll pull on its oceans harder than the Moon does.
 What would YOU do if you got two times heavier every day? Tell us in the comments. And subscribe, because Part 2 is coming.
 ```
 
+**New recording needed:** 7 short narrator lines (~75 words) in the same narrator voice, plus the flight director line
+(new voice or narrator: your choice). The rest is cut from the existing voiceover.
+
 ## Scene-by-scene storyboard
-**Method:**
-- **CODE** means drawn natively in the 2D studio. That covers sets, stick figures, UI screens, HUD, charts and blueprints.
-- **ASSET?** means an optional illustrated background image, made in OpenArt and drawn into the canvas. It is only used if code can't match it.
+All scenes are drawn in the 2D studio. **Most shots already exist** from v1; this list says what is kept, moved or redrawn.
 
-Each scene is cut into 2–4 shots (about 22 shots per minute, with no stretch over ~15 s without a picture change).
+### Act 1 — Hook + rules (kept as is, shots s001–s032)
+| # | Narration | Picture |
+|---|---|---|
+| 1 | "Day seven. You take one step…" | Extreme close-up: your sneaker sinking into asphalt, cracks radiating, DAY 7 badge |
+| 2 | "Day eight… roof caves in" | Your hand on Mom's car roof, it crumples |
+| 3 | "Day nine. The bridge… ten tonnes… thirty-six" | The bridge, the 10 t sign, your worried face |
+| 4 | "tonight, at midnight…" + title | Midnight clock ×2; title card |
+| 5 | "It starts on a Monday…" | The scale, Mom, the new scale, the medical chart, the jump that cracks the tiles |
+| 6 | "Day one… gorilla… Titanic" | The weight seesaw: balanced at each "as much as", tips for the Titanic |
 
-### Act 1 — Hook + rules
-| # | Narration | Picture | Method |
-|---|---|---|---|
-| 1 | "Day seven. You take one step…" | Frame 1: extreme close-up of your sneaker sinking into asphalt, cracks radiating, DAY 7 · 8,960 kg badge | CODE |
-| 2 | "…like it's wet sand." | Wide: you stand ankle-deep in the road, people staring, footprints behind you | CODE |
-| 3 | "Day eight… mom's car… roof caves in" | Your hand on the car roof, it crumples; Mom's shocked face | CODE |
-| 4 | "Day nine. The bridge…" | Bridge with a big "10 t" sign; Grandpa's house across the river | CODE |
-| 5 | "You weigh thirty-six" | Your face, the sign reflected; badge 36,000 kg | CODE |
-| 6 | "tonight, at midnight…" | Midnight clock hits 12:00, badge flips ×2 | CODE |
-| 7 | Title | You on a cracked road at golden hour, the ground bending under you; title text | CODE |
-| 8 | "It starts on a Monday… scale" | Bathroom: the scale reads 140 kg; you stare | CODE |
-| 9 | "Your mom says the scale is broken…" | Mom taps the scale; a new box; the same number | CODE |
-| 10 | "You look exactly the same…" | **Medical chart UI:** HEIGHT 172 cm ✓, X-RAY normal ✓, WEIGHT 140 kg ⚠ "?!" | CODE (UI) |
-| 11 | "walk, run and jump" | You jump; landing cracks the tiles | CODE |
-| 12 | "every night, at midnight, doubles" | The midnight clock + ×2 stamp | CODE |
-| 13 | "Day one… gorilla… piano… horse… car" | **Weight ladder:** a seesaw, you vs each thing, the thing flies up | CODE |
-| 14 | "T. rex… Titanic" | Ladder zooms out: T. rex silhouette, then the Titanic | CODE |
+### Act 2 — Fun, then the price (kept as is, shots s033–s081)
+| # | Narration | Picture |
+|---|---|---|
+| 7 | "kind of awesome… rope" | Hallway shove, gym tug-of-war, "MOVED: 0 cm" |
+| 8 | "your grandpa… lake… float" | The photo; sepia flashback; Grandpa's line; little you floating |
+| 9 | "Day three… jump… sink" | The dock, the jump, underwater, walking out along the bottom, the towel |
+| 10 | "stairs… bed… garage" | Stairs snap, the bed falls into the kitchen, the garage |
+| 11 | "elephant… pickup… Immovable Kid" | Seesaw elephant, tug-of-war with the pickup, phone views, the news site |
+| 12 | "footprint… steel plates… fire truck… school" | Top-view footprints, car and bus, steel plates, school email, classroom |
+| 13 | "day nine… the bridge… calls you" | Dusk river, the bridge, Grandpa's house, the 10 t sign, the 18-wheeler seesaw, the video call |
 
-### Act 2 — Fun, then the price
-| # | Narration | Picture | Method |
-|---|---|---|---|
-| 15 | "kind of awesome… rope" | Gym: the whole class on the rope, you don't move, the coach's whistle drops | CODE |
-| 16 | "your grandpa… lake… lifeguard" | Sepia flashback: Grandpa (red lifeguard jacket) at the lake with little you | CODE |
-| 17 | GRANDPA "Lie back…" | Grandpa's big face, warm sun; little you floating, arms spread | CODE |
-| 18 | "Day three… end of the dock… jump" | You run down the dock, Grandpa watching | CODE |
-| 19 | "you sink. Straight to the bottom." | Underwater: you drop like a stone, bubbles | CODE |
-| 20 | "Five meters down… the light" | Underwater close-up looking up at the bright surface, light rays | CODE |
-| 21 | "walk out… along the bottom" | Side cut-away of the lake: you walking up the lakebed slope | CODE |
-| 22 | "Grandpa… towel" | Grandpa wraps a towel round you, no words | CODE |
-| 23 | "stairs give way" | Stairs snap under you | CODE |
-| 24 | "bed… kitchen" | Cut-away house: the bed crashes from bedroom to kitchen at 2:00 a.m. | CODE |
-| 25 | "move into the garage" | You lying on the garage floor, a lamp, Mom in the doorway | CODE |
-| 26 | "elephant… pickup… floors it" | Day 6 badge; the friend ties a rope, his dad in the pickup | CODE |
-| 27 | "tires scream… You don't move" | Close-up of the spinning tires and smoke; you calm, the rope taut | CODE |
-| 28 | "Ten million… Immovable Kid" | **Fake news site / phone video UI:** "THE IMMOVABLE KID" with a view counter rolling to 10,000,000 | CODE (UI) |
-| 29 | "footprint in the road" | Top view: a trail of deep footprints in asphalt | CODE |
-| 30 | "steel plates… just for you" | Workers laying steel plates; you walk alone on them | CODE |
-| 31 | "fire truck… school… stay home" | **Email UI** from the school: "Please stay home until further notice" | CODE (UI) |
-| 32 | "the bridge… ten tonnes… eighteen-wheeler" | The bridge sign vs your 36 t badge; an 18-wheeler icon = you | CODE |
-| 33 | "he calls you every night" | **Phone video-call UI:** Grandpa's face; "You still floating, kiddo?" | CODE (UI) |
+### Act 3 — Is any of this real? (moved here, shots s131–s153)
+| # | Narration | Picture |
+|---|---|---|
+| 14 | [NEW] "Let's stop the clock on day nine…" | **New:** the midnight clock freezes, the picture drains into the blueprint look |
+| 15 | "Is any of this real?" | Blueprint title card |
+| 16 | "Fighter pilots… nine times… faint" | The jet in a 9 g turn, the G-suit, blood can't reach the brain, the figure faints |
+| 17 | "floors… two hundred kilos… five times" | Floor joists, 1 m² tile with 200 kg, the bed ×5, the joist cracks |
+| 18 | "float… Archimedes" | Water tank: floating with air in the lungs, ×2 sinks, Archimedes' bath (REAL) |
+| 19 | "friction… the truck" | Weight and grip arrows, the truck pulls, "MOVED: 0 cm" |
+| 20 | "every object pulls… Cavendish" | Two balls, you and your phone, the magnifier, Cavendish's shed (REAL) |
+| 21 | "astronauts… falling around the Earth" | Gravity still ~90 % in orbit; Newton's cannon |
+| 22 | [NEW] "Remember that. You're going to need it." | **New:** the cannonball orbit glows; the blueprint flips back to your dark garage |
 
-### Act 3 — Project Atlas
-| # | Narration | Picture | Method |
-|---|---|---|---|
-| 34 | "a woman in a white coat… Project Atlas" | The garage door opens, floodlights, Dr. Voss; badge insert | CODE |
-| 35 | "what happens next" | **Atlas tablet UI:** a forecast chart (weight per day, log scale) | CODE (UI) |
-| 36 | "Day fourteen… solid rock" | Cut-away of the ground: you sinking into bedrock | CODE |
-| 37 | "Day thirty-one… a meter away" | Blueprint: you plus arrows pulling pebbles in, "1 g at 1 m" | CODE |
-| 38 | "Day seventy-seven… the planet" | A balance scale: you vs Earth, the Earth goes up | CODE |
-| 39 | VOSS "You can't stay on Earth…" | Voss big face, cold light | CODE |
-| 40 | "one rocket… a hundred tonnes… seventy-two… one forty-three" | Rocket blueprint with a payload bar: 72 t fits, 143 t is over the line | CODE |
-| 41 | "never come back… asteroid" | Re-entry fireball sketch over a town, "DAY 20 = ASTEROID" | CODE |
-| 42 | "one day left… one person" | You looking at Grandpa's photo on the garage wall | CODE |
+### Act 4 — NASA and SpaceX (redrawn, replaces Project Atlas, shots s082–s100)
+| # | Narration | Picture |
+|---|---|---|
+| 23 | [NEW] "a knock… One from NASA. One from SpaceX." | The garage door rises on floodlights; two figures: the flight director (white shirt, headset) and a SpaceX engineer (black polo); names as plain text on their shirts, no logos |
+| 24 | [NEW] "They show you what happens next." | Tablet: the forecast chart (weight by day, log scale), titled "FORECAST" |
+| 25 | "Day fourteen… Day thirty-one… Day seventy-seven" | Sinking into bedrock; the 1 g-at-1 m blueprint; the cave-in; the seesaw: you vs the Earth |
+| 26 | [NEW] FLIGHT DIRECTOR "You can't stay on Earth…" | The flight director's big face, cold floodlight |
+| 27 | [NEW] "one rocket… Starship… a hundred tonnes" | Blueprint of a tall stainless-steel rocket (generic shape, no logo) |
+| 28 | "seventy-two… one forty-three… before midnight" | The payload bar (72 t fits, 143 t doesn't), "TOMORROW · 23:00", the red midnight clock |
+| 29 | "never come back… asteroid… one person" | Your face in the floodlight; the re-entry fireball; you alone in the garage; Grandpa's photo |
 
-### Act 4 — The river and the launch
-| # | Narration | Picture | Method |
-|---|---|---|---|
-| 43 | "Day ten… under it" | You at the river edge in a brass diving helmet, the bridge behind | CODE |
-| 44 | "walk into the river… across the bottom… fish" | Underwater walk, light rays, fish, the air hose up to an Atlas boat | CODE (ASSET? optional underwater backdrop) |
-| 45 | "the bridge you can't cross" | Looking up from the riverbed at the bridge's underside | CODE |
-| 46 | "grandpa… waiting… since sunrise" | Sunrise riverbank, Grandpa standing at the water's edge | CODE |
-| 47 | "can't hug… one meter apart" | You and Grandpa sitting a meter apart, "1 m" dimension line | CODE |
-| 48 | GRANDPA "Lie back… Up there, everything floats." | Grandpa big face, tears, sunrise rim light | CODE |
-| 49 | "the top of the rocket" | Night launch pad: rocket under floodlights | **ASSET?** (wide perspective establishing shot) or CODE side view |
-| 50 | "Eleven p.m.… Three. Two. One." | **Mission control HUD:** T-minus countdown, PAYLOAD 72 t / 100 t, clock 23:00 | CODE (UI) |
-| 51 | "launch pad shakes… eight minutes" | Ignition, smoke, the rocket rising; your face pressed in the seat | CODE |
-| 52 | "engines stop… you float" | Capsule interior: you lift off the seat, floating | CODE |
-| 53 | "lie back… spread your arms" | You floating, arms spread, the Earth in the window | CODE (+ Earth ASSET?) |
-| 54 | "Grandpa is looking up" | Grandpa on his porch at night, looking at a moving star | CODE |
-
-### Act 5 — Is any of this real? + twist
-| # | Narration | Picture | Method |
-|---|---|---|---|
-| 55 | "Is any of this real?" | Blueprint title card | CODE |
-| 56 | "Fighter pilots… nine times… black out" | A jet in a tight turn, "9 g", the pilot outline with blood draining from the head | CODE |
-| 57 | "floor… two hundred kilos… five times" | A floor diagram, 200 kg/m² vs your bed's 1,000 kg/m² | CODE |
-| 58 | "float… Archimedes" | A water tank: a body with air floats, the 2× body sinks; "Archimedes" | CODE |
-| 59 | "friction… the truck" | Diagram: weight arrow ↓, friction arrow ←, the truck pulling | CODE |
-| 60 | "every object pulls… Cavendish… shed" | Cavendish's torsion balance in a shed, tiny arrows, "1798" | CODE |
-| 61 | "astronauts… falling around the Earth" | Diagram: a cannonball falling around the planet (Newton's cannon) | CODE |
-| 62 | "Day twenty… Titanic" | The capsule in orbit, badge 73,400 t, a Titanic icon | CODE (+ Earth ASSET?) |
-| 63 | "pen drifts… stops on your chest" | Close-up: the pen drifting and falling onto you | CODE |
-| 64 | "still going around it… ninety minutes" | An orbit diagram around the Earth, "every 92 min" | CODE |
-| 65 | "day fifty-three… oceans… the Moon" | The Earth's ocean bulging toward the tiny capsule more than toward the Moon | CODE |
-| 66 | End screen | "What would YOU do?", comment bubble, Subscribe, cast lineup, PART 2 | CODE |
-
-## Optional image assets
-- **Only if code can't match them:** an illustrated **Earth from orbit** backdrop (scenes 53, 62–65) and a **night launch pad** establishing shot (scene 49).
-- **Look:** the same flat 2D style, so they don't clash.
-- **Cost:** about 10–20 OpenArt credits each, balance 39; confirm before spending. The user downloads them (the CDN is blocked here).
-- **Engine work:** the studio needs a small image loader added before an asset can be drawn into the canvas.
-
-**Prompt A, Earth from orbit:**
-"Flat 2D cartoon illustration, clean vector style with soft gradients, 16:9: planet Earth seen from low orbit, curved horizon across the bottom third, deep blue oceans, simple green-brown continents, soft white clouds, thin glowing blue atmosphere line, black starry space above, sun glare on the right. No text, no spacecraft."
-
-**Prompt B, launch pad at night:**
-"Flat 2D cartoon illustration, clean vector style, 16:9: a tall white rocket on a launch pad at night, seen from a low angle, bright floodlights, steam clouds at the base, launch tower with red warning lights, dark blue sky with stars. No text, no people."
+### Act 5 — The river, the launch, the twist (kept, small edits, shots s101–s130 then s154–s166)
+| # | Narration | Picture |
+|---|---|---|
+| 30 | "Day ten… under it" | Dawn river; the closed bridge (plain "CLOSED" barrier, no Atlas); you in the brass diving helmet |
+| 31 | [NEW] "NASA's divers… air hose" | You wade in; the support boat now plain white with a "NASA" text strip, no logo |
+| 32 | "Down, and down… Grandpa… one meter apart" | Underwater walk, fish, the bridge from below; Grandpa at sunrise; one meter apart; his line |
+| 33 | "top of the rocket… Three. Two. One." | Night pad (rocket without the Atlas logo); "MISSION CONTROL · 23:00"; 3-2-1 |
+| 34 | "launch pad shakes… engines stop… you float" | Liftoff, g-meter, stage separation, floating, arms spread |
+| 35 | "Grandpa is looking up" | Grandpa on his porch, a moving star |
+| 36 | "Day twenty… Titanic… the pen… Toward you" | Orbit, 73,400 t stamp, the Titanic seesaw, the pen drifts and lands on your chest, your face |
+| 37 | "every ninety minutes… day fifty-three… the Moon" | The tiny capsule over the Earth, the 92-min orbit, the ocean bulge vs the Moon |
+| 38 | End screen | "What would YOU do?", comment bubble, Subscribe, cast lineup (flight director instead of Voss), PART 2 |
 
 ## Fact notes (checked)
 - **Weight by day** (70 kg on day 0, weight = 70 × 2^day kg):
@@ -251,31 +214,27 @@ Each scene is cut into 2–4 shots (about 22 shots per minute, with no stretch o
   | 2 | 280 kg | a piano |
   | 3 | 560 kg | a horse |
   | 4 | 1,120 kg | a small car |
-  | 5 | 2,240 kg | a pickup |
   | 6 | 4,480 kg | an elephant |
   | 7 | 8,960 kg | a T. rex (estimates ~8–9 t) |
   | 8 | 17,920 kg | a fire truck |
   | 9 | 35,840 kg | a loaded 18-wheeler (US limit 80,000 lb = 36.3 t) |
   | 10 | 71.7 t | |
   | 11 | 143 t | |
-  | 14 | 1,147 t | |
   | 20 | 73,400 t | more than the Titanic (52,310 t) |
 
-- **Day 14, rock:** standing on ~0.035 m² of feet is ~320 MPa, more than granite's compressive strength (~100–250 MPa).
-- **Day 31, gravity:** 1.5 × 10¹¹ kg gives G·M/r² = 10 m/s² at 1 m, the same as Earth's gravity.
-- **Heavier than the Moon and the Earth:** day 70 is 8.3 × 10²² kg (Moon 7.35 × 10²²). Day 77 is 1.06 × 10²⁵ kg (Earth 5.97 × 10²⁴).
-- **Tides from low orbit:** at ~6,770 km from Earth's centre, your tidal pull equals the Moon's at ~4 × 10¹⁷ kg (day 52.4). Day 53 is 6.3 × 10¹⁷ kg, about 1.6× the Moon.
-- **The pen:** on day 20, at 0.5 m away, your pull is ~0.02 m/s², enough to drift a floating pen ~25 cm in 5 s.
+- **Starship:** SpaceX designs Starship to carry about 100–150 t to low Earth orbit, so "about a hundred tonnes" holds.
+  NASA uses Starship as its Artemis lunar lander. Reaching orbit takes ~8–9 min; low orbit takes ~90–92 min per lap.
+- **Day 14, rock:** ~320 MPa under your feet, more than granite's compressive strength (~100–250 MPa).
+- **Day 31, gravity:** 1.5 × 10¹¹ kg gives 10 m/s² at 1 m, the same as Earth's gravity.
+- **Day 77:** 1.06 × 10²⁵ kg, more than the Earth (5.97 × 10²⁴ kg).
+- **Day 53, tides:** from low orbit your tidal pull passes the Moon's at ~4 × 10¹⁷ kg; day 53 is 6.3 × 10¹⁷ kg.
+- **The pen:** on day 20 at 0.5 m your pull is ~0.02 m/s², enough to drift a floating pen ~25 cm in 5 s.
 - **Re-entry:** 73,400 t at ~7.8 km/s is ~2 × 10¹⁵ J, about half a megaton of TNT.
-- **Rockets:** the Atlas rocket's "100 tonnes" is fiction. For comparison, Saturn V lifted ~140 t to low orbit. Reaching orbit takes ~8–9 min. Low orbit takes ~90–92 min per lap.
-- **g-forces:** fighter pilots pull up to 9 g with G-suits and training. Many untrained people lose consciousness around 4–6 g (G-LOC).
-- **Floors:** US homes are designed for a 40 lb/ft² live load, ≈ 195 kg/m². A 2,240 kg bed on ~2.2 m² is ≈ 1,000 kg/m².
-- **Floating:** with air in the lungs the body is slightly less dense than water. Archimedes lived c. 287–212 BC.
-- **Friction:** friction is roughly μ × weight. At day 6 (4.5 t) you outweigh a ~2.5 t pickup, whose pull is limited by its own tire friction.
-- **Cavendish:** he measured the gravitational pull between lead balls in 1797–98, in a shed at his house.
-- **Weightlessness in orbit:** astronauts float because they are in free fall, not because gravity is absent (at ~400 km it is about 90 % of the surface value).
+- **g-forces:** fighter pilots pull up to 9 g with G-suits and training; many untrained people black out around 4–6 g.
+- **Floors:** homes are designed for ~195 kg/m² live load; a 2,240 kg bed on ~2.2 m² is ≈ 1,000 kg/m².
+- **Floating / Archimedes:** with air in the lungs the body is slightly less dense than water; Archimedes c. 287–212 BC.
+- **Cavendish:** measured the pull between lead balls in 1797–98, in a shed at his house.
+- **Orbit:** astronauts float because they are in free fall; at ~400 km gravity is still about 90 % of the surface value.
 
-## Thumbnail ideas (stick-figure style, per `CLAUDE.md`)
-1. **"10 TONNES MAX."** Your worried big face; behind you a bridge sign "10 t" and the road cracking under your feet.
-2. **"I CAN'T FLOAT."** You sinking underwater, arms up, with Grandpa's hand reaching down from the surface.
-3. **"TOO HEAVY."** Your foot sunk deep in the road; a pickup truck pulling a rope tied to you, with smoke from its tires.
+## Thumbnail
+Three SeaArt prompts in `aitrends-2d-studio/projects/heavier-every-day/story/thumbnail.md`.
