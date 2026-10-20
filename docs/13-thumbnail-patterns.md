@@ -56,3 +56,16 @@ Midjourney: add `--ar 16:9` at the end. SeaArt: put the "Strictly NO…" line in
   everything else "out of focus" in the background.
 - Reserve the text area in words ("the left 40% of the frame is calm, darker sky with nothing in it").
 - Vehicles with company markings (taxis) get fake lettering: use a plain shiny car and add "no logos, no signs".
+
+## Our own look: the Parallel You thumbnail (Oct 20, after the second SeaArt result)
+The user doesn't want to copy the other channels. Their thumbnails are cheap flat art; they win on **one clear idea +
+a big readable face**, not on rendering. Our second SeaArt result looked fake because it mixed a photoreal Lamborghini,
+river and lava with a cartoon figure (pasted-in look), the car wasn't hurt, the lava/splash/sunset is the generic AI
+look, and the figure was a tiny head on stilt legs. Our own system:
+1. **One stylized world.** Everything (road, cars, buildings) simplified and matte like the hero, "like a frame from a
+   premium animated short"; nothing photoreal. Ban: photorealistic, lava, fire-ground, water splash.
+2. **A brand signature nobody else has:** a thin glowing **cyan rim light** around the hero ("he belongs to a parallel
+   world", from our channel's cyan/gold Mirror logo) against **warm gold** light on the world.
+3. **An impossible physical image you can say in 5 words**, built around the face (e.g. "sunk waist-deep into the
+   road"), with a low, close camera so the head is 35–45 % of the frame height.
+4. Calm, unbothered face; text in the empty dark corner.
