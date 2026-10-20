@@ -1,6 +1,7 @@
 # Channel profile picture — SeaArt prompts (Oct 20)
 
 Replaces the "Mirror" profile picture the user didn't like. Same 2D cel-shaded look as the new thumbnails.
+**Picked (Oct 20):** the user's SeaArt result for prompt 3 → `assets/parallel_you_profile_v2_800.png` (800×800, checked as a circle).
 YouTube shows it as a small circle (down to ~40 px in comments), so: one big face, centred, no text, no small details,
 strong contrast. Upload size 800×800; the user sends the result here for the circle check and crop.
 
