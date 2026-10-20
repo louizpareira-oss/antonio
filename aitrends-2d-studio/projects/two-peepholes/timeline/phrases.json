@@ -1,8 +1,14 @@
 [
   {
     "start": 0.05,
-    "end": 2.55,
-    "text": "Your front door has one peephole.",
+    "end": 0.93,
+    "text": "Your front door",
+    "highlight": []
+  },
+  {
+    "start": 0.93,
+    "end": 2.61,
+    "text": "has one peephole.",
     "highlight": [
       "one"
     ],
@@ -10,8 +16,14 @@
   },
   {
     "start": 2.61,
-    "end": 4.76,
-    "text": "If you come home and there are two…",
+    "end": 3.33,
+    "text": "If you come home",
+    "highlight": []
+  },
+  {
+    "start": 3.33,
+    "end": 4.77,
+    "text": "and there are two…",
     "highlight": [
       "two"
     ],
@@ -19,7 +31,7 @@
   },
   {
     "start": 4.77,
-    "end": 6.3,
+    "end": 6.22,
     "text": "don't use the NEW one.",
     "highlight": [
       "NEW"
@@ -28,8 +40,14 @@
   },
   {
     "start": 6.45,
-    "end": 8.45,
-    "text": "The old one lets the hallway light in.",
+    "end": 7.05,
+    "text": "The old one",
+    "highlight": []
+  },
+  {
+    "start": 7.05,
+    "end": 8.53,
+    "text": "lets the hallway light in.",
     "highlight": [
       "light"
     ],
@@ -37,7 +55,7 @@
   },
   {
     "start": 8.53,
-    "end": 10.4,
+    "end": 10.3,
     "text": "The new one stays dark.",
     "highlight": [
       "dark"
@@ -46,13 +64,13 @@
   },
   {
     "start": 10.61,
-    "end": 11.75,
+    "end": 11.69,
     "text": "Through the old one,",
     "highlight": []
   },
   {
-    "start": 11.75,
-    "end": 13.2,
+    "start": 11.69,
+    "end": 13.18,
     "text": "the hallway is empty.",
     "highlight": [
       "empty"
@@ -61,23 +79,41 @@
   },
   {
     "start": 13.33,
-    "end": 15.6,
-    "text": "So why is the new one still dark?",
+    "end": 14.73,
+    "text": "So why is the new one",
+    "highlight": []
+  },
+  {
+    "start": 14.73,
+    "end": 15.74,
+    "text": "still dark?",
     "highlight": [
       "dark"
     ],
     "highlightColor": "#ef334e"
   },
   {
-    "start": 17.0,
+    "start": 16.997,
+    "end": 17.89,
+    "text": "It isn't there for you",
+    "highlight": []
+  },
+  {
+    "start": 17.89,
     "end": 19.09,
-    "text": "It isn't there for you to look out.",
+    "text": "to look out.",
     "highlight": []
   },
   {
     "start": 19.09,
-    "end": 21.4,
-    "text": "It's there for something to look IN.",
+    "end": 20.13,
+    "text": "It's there for something",
+    "highlight": []
+  },
+  {
+    "start": 20.13,
+    "end": 21.34,
+    "text": "to look IN.",
     "highlight": [
       "IN"
     ],
@@ -85,14 +121,29 @@
   },
   {
     "start": 25.05,
-    "end": 26.05,
+    "end": 26.1,
     "text": "Rule two.",
     "highlight": []
   },
   {
     "start": 26.33,
+    "end": 27.77,
+    "text": "If both are dark,",
+    "highlight": [
+      "dark"
+    ],
+    "highlightColor": "#ef334e"
+  },
+  {
+    "start": 27.77,
+    "end": 28.57,
+    "text": "sit with your back",
+    "highlight": []
+  },
+  {
+    "start": 28.57,
     "end": 29.85,
-    "text": "If both are dark, sit with your back against the door.",
+    "text": "against the door.",
     "highlight": [
       "door"
     ],
@@ -100,23 +151,35 @@
   },
   {
     "start": 29.85,
-    "end": 31.41,
+    "end": 31.46,
     "text": "You can't see out anymore.",
     "highlight": []
   },
   {
     "start": 31.61,
-    "end": 33.73,
-    "text": "But it can't see everything, either.",
+    "end": 33.13,
+    "text": "But it can't see everything,",
     "highlight": [
       "everything"
     ],
     "highlightColor": "#f4d34e"
   },
   {
+    "start": 33.13,
+    "end": 33.78,
+    "text": "either.",
+    "highlight": []
+  },
+  {
     "start": 33.85,
+    "end": 35.13,
+    "text": "A peephole only looks",
+    "highlight": []
+  },
+  {
+    "start": 35.13,
     "end": 36.17,
-    "text": "A peephole only looks one way.",
+    "text": "one way.",
     "highlight": [
       "one"
     ],
@@ -124,7 +187,7 @@
   },
   {
     "start": 36.17,
-    "end": 37.89,
+    "end": 37.94,
     "text": "In, and a little down.",
     "highlight": [
       "down"
@@ -133,13 +196,19 @@
   },
   {
     "start": 38.09,
+    "end": 39.05,
+    "text": "So there's one place",
+    "highlight": []
+  },
+  {
+    "start": 39.05,
     "end": 40.33,
-    "text": "So there's one place it can't reach:",
+    "text": "it can't reach:",
     "highlight": []
   },
   {
     "start": 40.33,
-    "end": 41.65,
+    "end": 41.7,
     "text": "right underneath it.",
     "highlight": [
       "underneath"
@@ -148,19 +217,19 @@
   },
   {
     "start": 41.93,
-    "end": 42.85,
+    "end": 42.9,
     "text": "Sit there.",
     "highlight": []
   },
   {
     "start": 42.97,
-    "end": 44.45,
+    "end": 44.5,
     "text": "Back flat to the door.",
     "highlight": []
   },
   {
     "start": 44.65,
-    "end": 46.21,
+    "end": 46.26,
     "text": "Don't get up until morning.",
     "highlight": [
       "morning"
@@ -169,7 +238,7 @@
   },
   {
     "start": 46.33,
-    "end": 47.49,
+    "end": 47.54,
     "text": "It will look for you.",
     "highlight": [
       "look"
@@ -196,12 +265,18 @@
   },
   {
     "start": 49.77,
-    "end": 51.86,
-    "text": "At the spot where the light used to be.",
+    "end": 50.41,
+    "text": "At the spot",
     "highlight": [
       "spot"
     ],
     "highlightColor": "#f4d34e"
+  },
+  {
+    "start": 50.41,
+    "end": 51.86,
+    "text": "where the light used to be.",
+    "highlight": []
   },
   {
     "start": 52.17,
@@ -211,13 +286,13 @@
   },
   {
     "start": 54.01,
-    "end": 55.09,
+    "end": 55.14,
     "text": "Rule three.",
     "highlight": []
   },
   {
     "start": 55.29,
-    "end": 56.53,
+    "end": 56.58,
     "text": "Don't cover them.",
     "highlight": [
       "cover"
@@ -226,8 +301,14 @@
   },
   {
     "start": 56.73,
+    "end": 57.61,
+    "text": "Tape feels like",
+    "highlight": []
+  },
+  {
+    "start": 57.61,
     "end": 58.9,
-    "text": "Tape feels like the right idea.",
+    "text": "the right idea.",
     "highlight": []
   },
   {
@@ -241,14 +322,26 @@
   },
   {
     "start": 60.41,
+    "end": 61.17,
+    "text": "Cover both,",
+    "highlight": []
+  },
+  {
+    "start": 61.17,
     "end": 62.73,
-    "text": "Cover both, and it doesn't stop looking.",
+    "text": "and it doesn't stop looking.",
     "highlight": []
   },
   {
     "start": 62.73,
-    "end": 65.09,
-    "text": "It just finds somewhere closer to look from.",
+    "end": 63.77,
+    "text": "It just finds somewhere",
+    "highlight": []
+  },
+  {
+    "start": 63.77,
+    "end": 65.14,
+    "text": "closer to look from.",
     "highlight": [
       "closer"
     ],
@@ -256,15 +349,30 @@
   },
   {
     "start": 65.29,
+    "end": 66.33,
+    "text": "The picture on your wall",
+    "highlight": []
+  },
+  {
+    "start": 66.33,
     "end": 67.89,
-    "text": "The picture on your wall has hung there for years.",
+    "text": "has hung there for years.",
     "highlight": []
   },
   {
     "start": 67.89,
-    "end": 69.7,
-    "text": "It has never had a hole in it.",
+    "end": 68.57,
+    "text": "It has never",
     "highlight": []
+  },
+  {
+    "start": 68.57,
+    "end": 69.7,
+    "text": "had a hole in it.",
+    "highlight": [
+      "hole"
+    ],
+    "highlightColor": "#f4d34e"
   },
   {
     "start": 70.147,
@@ -277,12 +385,24 @@
   },
   {
     "start": 71.37,
-    "end": 74.65,
-    "text": "And from there, it can see exactly where you're sitting.",
+    "end": 72.25,
+    "text": "And from there,",
+    "highlight": []
+  },
+  {
+    "start": 72.25,
+    "end": 73.37,
+    "text": "it can see exactly",
     "highlight": [
       "exactly"
     ],
     "highlightColor": "#ef334e"
+  },
+  {
+    "start": 73.37,
+    "end": 74.65,
+    "text": "where you're sitting.",
+    "highlight": []
   },
   {
     "start": 74.65,
@@ -292,22 +412,28 @@
   },
   {
     "start": 75.89,
-    "end": 77.647,
-    "text": "are safer than one you don't.",
+    "end": 76.65,
+    "text": "are safer than",
     "highlight": [
       "safer"
     ],
     "highlightColor": "#50d78c"
   },
   {
+    "start": 76.65,
+    "end": 77.647,
+    "text": "one you don't.",
+    "highlight": []
+  },
+  {
     "start": 78.33,
-    "end": 79.33,
+    "end": 79.38,
     "text": "Rule four.",
     "highlight": []
   },
   {
     "start": 79.61,
-    "end": 81.13,
+    "end": 81.18,
     "text": "Wait for the light.",
     "highlight": [
       "light"
@@ -316,23 +442,59 @@
   },
   {
     "start": 81.21,
-    "end": 85.17,
-    "text": "Some time before morning, the hallway light will come back through the old one.",
+    "end": 82.61,
+    "text": "Some time before morning,",
+    "highlight": []
+  },
+  {
+    "start": 82.61,
+    "end": 83.37,
+    "text": "the hallway light",
     "highlight": [
       "light"
     ],
     "highlightColor": "#f4d34e"
   },
   {
+    "start": 83.37,
+    "end": 84.01,
+    "text": "will come back",
+    "highlight": []
+  },
+  {
+    "start": 84.01,
+    "end": 85.17,
+    "text": "through the old one.",
+    "highlight": [
+      "old"
+    ],
+    "highlightColor": "#f4d34e"
+  },
+  {
     "start": 85.17,
+    "end": 86.61,
+    "text": "It will land on your floor,",
+    "highlight": [
+      "floor"
+    ],
+    "highlightColor": "#f4d34e"
+  },
+  {
+    "start": 86.61,
     "end": 88.05,
-    "text": "It will land on your floor, right where it always does.",
+    "text": "right where it always does.",
     "highlight": []
   },
   {
     "start": 88.05,
+    "end": 88.81,
+    "text": "And the new one",
+    "highlight": []
+  },
+  {
+    "start": 88.81,
     "end": 90.09,
-    "text": "And the new one will be gone.",
+    "text": "will be gone.",
     "highlight": [
       "gone"
     ],
@@ -340,14 +502,26 @@
   },
   {
     "start": 90.09,
-    "end": 92.13,
-    "text": "That means it has let go of the door.",
+    "end": 90.89,
+    "text": "That means it has",
+    "highlight": []
+  },
+  {
+    "start": 90.89,
+    "end": 92.18,
+    "text": "let go of the door.",
     "highlight": []
   },
   {
     "start": 92.33,
+    "end": 93.53,
+    "text": "Before you get up,",
+    "highlight": []
+  },
+  {
+    "start": 93.53,
     "end": 94.65,
-    "text": "Before you get up, look at the light.",
+    "text": "look at the light.",
     "highlight": [
       "light"
     ],
@@ -355,17 +529,29 @@
   },
   {
     "start": 94.65,
-    "end": 97.53,
-    "text": "If it's only light, you can go to bed.",
+    "end": 96.01,
+    "text": "If it's only light,",
     "highlight": [
       "only"
     ],
     "highlightColor": "#50d78c"
   },
   {
+    "start": 96.01,
+    "end": 97.58,
+    "text": "you can go to bed.",
+    "highlight": []
+  },
+  {
     "start": 97.827,
+    "end": 98.33,
+    "text": "If something",
+    "highlight": []
+  },
+  {
+    "start": 98.33,
     "end": 99.78,
-    "text": "If something is standing in it…",
+    "text": "is standing in it…",
     "highlight": [
       "standing"
     ],

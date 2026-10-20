@@ -1,6 +1,6 @@
 # Two Peepholes — story bible
 
-Original Skotoma episode built from the creator's idea: *If your front door has two peepholes… don't use the new one.* Full episode: 1:48, 20 shots, 4 rules. The first 25 s is the approved preview, kept unchanged as the cold open; `out/Two_Peepholes__preview.mp4` is that preview render.
+Original WRONG KNOCK episode built from the creator's idea: *If your front door has two peepholes… don't use the new one.* Full episode: 1:48, 31 shots, 4 rules (revision 2, staging pass). The first 25 s is the approved preview, kept unchanged as the cold open; `out/Two_Peepholes__preview.mp4` is that preview render.
 
 ## Promise, contradiction, payoff
 
@@ -17,6 +17,15 @@ Original Skotoma episode built from the creator's idea: *If your front door has 
 | 0:25–0:54 | 2. **If both are dark, sit against the door.** | A peephole only sees in and a little down (−3° to 41°). Sitting under the door puts you in its blind spot; the search line hunts the table, the picture and the old spot but never reaches you. | View cones + green blind-spot triangle |
 | 0:54–1:18 | 3. **Don't cover them.** | Hypothetical, tagged IF YOU COVER THEM. Taping both holes makes it open a closer one: a brass eye punches through the picture on the wall and sees straight into the blind spot. | Picture-eye insert; red line into the blind spot; evidence cards |
 | 1:18–1:48 | 4. **Wait for the light.** | Before morning the old light returns and the new hole disappears: it let go of the door. Look at the light first. Two feet and a long body shadow stand in it. It came in. | Top-down floor spot with a body shadow; glint in the air above it, higher than the door, with a red lock |
+
+## Revision 2 (staging pass, same narration)
+
+- **Opening:** a front view of the door's inner face (`door-front-v1`) shows one lit lens; after the side-view arrival, the same front view shows a brass lens growing above it on "two". The PEEPHOLES badge is removed.
+- **Rule 2:** the cone diagram appears once (s10). Survival is shown as physical beats: a both-dark insert, the searching eye insert, a 2x medium close with the back pressed flat and a hand braced on the floor, a wide search beam that lights each named object, and a red beam that grazes the tucked head.
+- **Rule 3:** the "what if" is framed by a flash in, a dashed border, a faint red veil and a red IF YOU COVER THEM banner. In an insert, a sleeved hand presses an opaque tape patch onto each lens, and both stay. A white wipe from the door to the left erases tape, picture eye, line and frame, returning to the real room.
+- **Rule 4:** inserts show the old lens relighting and the brass lens closing; the wide returns to the established floor-spot position.
+- **Ending:** two dark legs stand in the old beam, warm-rimmed. A faceless silhouette taller than the door resolves on "came", with one yellow eye glint. The person recoils on "IN". The figure takes one slow step toward them, its shadow sliding across the floor light, then holds.
+- **Captions:** 78 short phrase cues of up to 28 characters each, with every spoken word preserved.
 
 **Prepared callbacks:** the floor light spot (shown from the first second) reveals the intruder. "Higher than anyone's eye" pays off as a glint above the door height. The cold open's "to look IN" is answered by the final "It came IN." The blink returns as the glint blinking.
 
@@ -35,7 +44,9 @@ Original Skotoma episode built from the creator's idea: *If your front door has 
 | Interior props | console table x 300–540, framed picture (420, 467), unlit pendant lamp x = 780 |
 | Seated position | `SIT` pose, facing left, x = 1395 (back on the door); taping position x = 1350 (`REACH_MID` / `REACH_UP`) |
 | Sight geometry | each hole sees from 3° up to 41° down (`SIGHT`, `aim()`); the blind spot is the triangle under the old hole to the floor at x ≈ 1129 |
-| Intruder (final) | unseen; feet at x ≈ 1010–1036 inside the old beam; eye glint at (1012, 296), above the door top (392) |
+| Intruder (final) `presence-v1` | dark pictogram at scale 1.78 (head top ≈ y 275, above the door top 392), standing at x = 1012, then stepping to 1072; warm rim only where the old beam hits; eye glint on the head |
+| Front door `door-front-v1` | 440-wide panel centred at x = 960, floor y = 880; old lens y = 420, new lens y = 250 (r 40); handle and deadbolt on the right |
+| Medium close | 2x camera on (1320, 661): door, both holes and the seated person; the floor maps to y = 860 |
 
 Insert `door-face-v1` (frontal) keeps the same order: new lens **above** old lens. The POV `fisheye-v1` shows the hallway's opposite wall, sconce and neighbour door 4D. It is always empty. Insert `picture-v1` is the same framed hill picture; `floor-spot-v1` is a top-down view of the old hole's light on the boards, with the door at the right.
 

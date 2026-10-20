@@ -2,22 +2,31 @@
 import {E,registerShot,ease,prog,lerp,clamp,text,circle,ring,seg,rr,alpha,noise} from '/engine/core.js';
 import * as P from '/engine/pictogram2d.js';
 import * as FX from '/engine/fx2d.js';
-import {C,ENTRY,PEER,DOOR_FILL,WARM,entry,lens,headOf} from '../sets/entry.js';
+import {C,CASE,ENTRY,PEER,DOOR_FILL,WARM,entry,lens,headOf,doorFront,doorFace,FACE} from '../sets/entry.js';
 const S=ENTRY.s;
-function base(g,globalT,status='',statusColor=C.red){P.background(g,globalT);P.hud(g,globalT,{title:'SKOTOMA / UNIT 4C — FRONT DOOR',step:1,count:4,status,statusColor});}
+function base(g,globalT,status='',statusColor=C.red){P.background(g,globalT);P.hud(g,globalT,{title:CASE,step:1,count:4,status,statusColor});}
 const person=(g,o)=>P.human(g,{y:ENTRY.floorY,s:S,look:1,...o});
 
-// s01 — arrive, unlock, step in, door shuts, turn: a second peephole is there ("two" 3.96).
+// s01f — front view of the inner door face: one ordinary peephole, lit by the hallway ("one" 1.28).
+registerShot('s01f',{draw(g,t,info){
+  base(g,info.globalT,'HOME',C.green);
+  doorFront(g,t,{oldLit:1,oldPulse:t>1.25?prog(t,1.25,2.05):-1});
+}});
+
+// s01 — side view, global-time beats: unlocking at the door, it opens on "come" (2.96), step in, door shuts (3.80), turn.
 registerShot('s01',{draw(g,t,info){
-  const reveal=4.15,turned=t>=4.08;
-  base(g,info.globalT,t<reveal?'HOME':'PEEPHOLES: 2',t<reveal?C.green:C.red);
-  const open=t>=2.85&&t<3.98;
-  entry(g,t,{doorOpen:open?1:0,newHole:t>=reveal?ease.out(prog(t,reveal,reveal+.12)):0,pulse:t>=reveal?prog(t,reveal,reveal+.7):-1,labels:ease.inOut(prog(t,4.35,4.65))});
-  const arrive=ease.out(prog(t,0,1.7)),enter=ease.inOut(prog(t,2.95,3.9));
-  const x=t<2.95?lerp(2010,ENTRY.outsideX,arrive):lerp(ENTRY.outsideX,ENTRY.standX,enter);
-  const moving=(t<1.65)||(t>2.95&&t<3.9);
-  const unlock=ease.inOut(prog(t,2.15,2.6))*(1-ease.inOut(prog(t,2.85,3.15)));
-  person(g,{x,facing:turned?1:-1,pose:P.poseBetween('stand','reach',unlock*.85),walk:moving?.9:0,phase:t*7.5,label:t<2.85||t>4.08?'YOU':''});
+  const T=info.globalT,open=T>=2.85&&T<3.80,turned=T>=3.86;
+  base(g,T,'HOME',C.green);
+  entry(g,T,{doorOpen:open?1:0,newHole:0});
+  const enter=ease.inOut(prog(T,2.95,3.75)),x=lerp(ENTRY.outsideX,ENTRY.standX,enter);
+  const unlock=.85*(1-ease.inOut(prog(T,2.85,3.1)));
+  person(g,{x,facing:turned?1:-1,pose:P.poseBetween('stand','reach',unlock),walk:enter>0&&enter<1?.9:0,phase:T*7.5,label:'YOU'});
+}});
+
+// s01r — back to the front view after the door shuts: a second, brass lens opens above the old one ("two" 3.96).
+registerShot('s01r',{draw(g,t,info){
+  base(g,info.globalT);
+  doorFront(g,t,{oldLit:1,shake:t<.15?1-t/.15:0,newHole:prog(t,.1,.42),newPulse:t>.12?prog(t,.12,.75):-1});
 }});
 
 // s02 — rule card on "don't".
@@ -26,18 +35,10 @@ registerShot('s02',{draw(g,t,info){base(g,info.globalT);P.ruleTitle(g,t,{number:
 // s03 — door-face insert: old lens passes light ("light" 1.46), new lens stays black ("dark" 3.22).
 registerShot('s03',{draw(g,t,info){
   base(g,info.globalT);
-  const z=1+.035*ease.inOut(t/info.dur),cx=960,cy=455;
-  g.save();g.translate(cx,cy);g.scale(z,z);g.translate(-cx,-cy);
-  // Door panel fades out above the caption band so no edge crosses the text.
-  const fade=(a)=>{const gr=g.createLinearGradient(0,700,0,900);gr.addColorStop(0,a);gr.addColorStop(1,'rgba(0,0,0,0)');return gr;};
-  g.fillStyle=fade(DOOR_FILL);g.fillRect(560,-40,800,1000);
-  g.strokeStyle=fade(alpha(C.white,.6));g.lineWidth=4;g.beginPath();g.moveTo(560,960);g.lineTo(560,-40);g.moveTo(1360,-40);g.lineTo(1360,960);g.stroke();
-  const oldLit=.45+.55*ease.out(prog(t,1.4,1.75)),newY=300,oldY=612;
-  if(t>1.4){const k=ease.out(prog(t,1.4,1.9));g.save();g.globalAlpha=k*.55;for(let i=0;i<10;i++){const a=i/10*Math.PI*2+.3;seg(g,[[cx+Math.cos(a)*112,oldY+Math.sin(a)*112],[cx+Math.cos(a)*(132+18*k),oldY+Math.sin(a)*(132+18*k)]],4,WARM);}g.restore();}
-  lens(g,cx,oldY,98,{lit:oldLit});
-  lens(g,cx,newY,98,{brass:true});
-  if(t>3.22){const k=prog(t,3.22,3.7);ring(g,cx,newY,104+30*ease.out(k),6*(1-k)+2,alpha(C.red,1-k*.6));}
-  g.restore();
+  const cx=FACE.cx,newY=FACE.newY,oldY=FACE.oldY;
+  doorFace(g,t,info.dur,{oldLit:.45+.55*ease.out(prog(t,1.4,1.75)),rays:t>1.4?ease.out(prog(t,1.4,1.9)):0},gg=>{
+    if(t>3.22){const k=prog(t,3.22,3.7);ring(gg,cx,newY,104+30*ease.out(k),6*(1-k)+2,alpha(C.red,1-k*.6));}
+  });
   const lab=(s,y,a,col)=>text(g,s,cx-150,y,{size:34,font:'Montserrat',weight:900,color:col,align:'right',alpha:a});
   lab('OLD',oldY,ease.out(prog(t,.3,.5)),C.muted);lab('NEW',newY,ease.out(prog(t,2.38,2.58)),C.yellow);
   if(t>1.46)P.mark(g,cx+170,oldY-70,{ok:true,size:30});
@@ -71,7 +72,7 @@ registerShot('s05',{draw(g,t,info){
   const v=g.createRadialGradient(cx,cy,r*.45,cx,cy,r);v.addColorStop(0,'rgba(0,0,0,0)');v.addColorStop(1,'rgba(0,0,0,.85)');g.fillStyle=v;g.fillRect(cx-r,cy-r,2*r,2*r);
   g.restore();
   ring(g,cx,cy,r+14,28,'#10141c');ring(g,cx,cy,r+1,4,alpha(C.white,.35));
-  P.hud(g,info.globalT,{title:'SKOTOMA / UNIT 4C — OLD PEEPHOLE',step:1,count:4,status:t>.65?'NO ONE OUTSIDE':'',statusColor:C.green});
+  P.hud(g,info.globalT,{title:'WRONG KNOCK / UNIT 4C — OLD PEEPHOLE',step:1,count:4,status:t>.65?'NO ONE OUTSIDE':'',statusColor:C.green});
   if(t>.65)P.mark(g,cx+r*.74,cy-r*.74,{ok:true,size:34});
 }});
 

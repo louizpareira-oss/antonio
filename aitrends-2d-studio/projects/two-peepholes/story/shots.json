@@ -3,61 +3,83 @@
  "duration": 108.0,
  "shots": [
   {
-   "id": "s01",
+   "id": "s01f",
    "start": 0.0,
-   "end": 4.76,
-   "line": "Your front door has one peephole. If you come home and there are two…",
-   "scene": "Side cutaway of a dark entry, the front-door wall and the lit hallway. One peephole: hallway lamp light passes through it onto the entry floor. The person walks up the hallway, unlocks the door, steps in; the door shuts; they turn to face it and a second, brass peephole is there, higher than their head.",
-   "purpose": "Establish the normal door and the impossible second peephole.",
-   "visual_change": "One peephole with a floor light spot -> door opens, person enters, door shuts -> a second brass peephole appears with a yellow pulse on 'two'; status HOME -> PEEPHOLES: 2.",
+   "end": 2.55,
+   "line": "Your front door has one peephole.",
+   "scene": "Front view of the inner face of the front door in the dark entry: one gray peephole lens glowing with hallway light, handle and deadbolt, light leaking under the door.",
+   "purpose": "Establish the normal door, readable at phone size.",
+   "visual_change": "Static door with one lit lens; a yellow ring pulses around it on 'one'.",
+   "asset": "door-front-v1",
+   "sfx": [],
+   "cue_word": "one",
+   "cue_at": 1.25,
+   "in": {
+    "type": "cut"
+   },
+   "captions": true,
+   "vignette": false
+  },
+  {
+   "id": "s01",
+   "start": 2.55,
+   "end": 3.95,
+   "line": "If you come home and there are",
+   "scene": "Side cutaway: the person, outside in the hallway, unlocks; the door opens on 'come'; they step in; the door shuts behind them; they turn to face it.",
+   "purpose": "Show arriving home in the recurring stage.",
+   "visual_change": "Unlock reach -> door open (2.85) -> walk in -> door shut (3.80) -> turn.",
    "asset": "entry-v1 / door-v1 / person-v1",
-   "cue_word": "two",
-   "cue_at": 4.15,
    "sfx": [
     {
-     "at": 0.3,
-     "name": "footstep",
-     "gain": -24
-    },
-    {
-     "at": 0.8,
-     "name": "footstep",
-     "gain": -25
-    },
-    {
-     "at": 1.3,
-     "name": "footstep",
-     "gain": -24
-    },
-    {
-     "at": 2.35,
+     "at": 0.12,
      "name": "tick",
      "gain": -22
     },
     {
-     "at": 3.1,
+     "at": 0.55,
      "name": "footstep",
      "gain": -24
     },
     {
-     "at": 3.55,
+     "at": 0.95,
      "name": "footstep",
      "gain": -24
     },
     {
-     "at": 3.98,
+     "at": 1.25,
      "name": "impact",
      "gain": -17,
      "pitch": 0.7,
      "dur": 1.2
-    },
+    }
+   ],
+   "cue_word": "come",
+   "cue_at": 0.41,
+   "in": {
+    "type": "cut"
+   },
+   "captions": true,
+   "vignette": false
+  },
+  {
+   "id": "s01r",
+   "start": 3.95,
+   "end": 4.76,
+   "line": "two…",
+   "scene": "Same front view of the door, just shut: a second lens with a brass ring opens above the old one.",
+   "purpose": "Make the impossible second peephole unmistakable without labels.",
+   "visual_change": "Door settles from the slam; at 0.1 s a brass lens grows above the old lens with a yellow pulse.",
+   "asset": "door-front-v1",
+   "sfx": [
     {
-     "at": 4.15,
+     "at": 0.12,
      "name": "blip",
-     "gain": -27,
+     "gain": -24,
      "pitch": 0.6
     }
    ],
+   "cue_word": "two",
+   "cue_at": 0.1,
    "in": {
     "type": "cut"
    },
@@ -122,7 +144,7 @@
    "id": "s04",
    "start": 10.4,
    "end": 11.75,
-   "line": "Through the old one,",
+   "line": "Through the old one, the",
    "scene": "Back in the same cutaway. The person crosses to the door and presses an eye to the OLD peephole; their head blocks the beam and the floor spot disappears.",
    "purpose": "Show the rule being followed with a visible contact beat.",
    "visual_change": "Stand -> walk -> lean into the peer pose; contact with the old hole at about 0.9 s blocks the light.",
@@ -151,7 +173,7 @@
    "id": "s05",
    "start": 11.75,
    "end": 13.2,
-   "line": "the hallway is empty.",
+   "line": "hallway is empty.",
    "scene": "Fisheye POV through the old peephole: bowed hallway, neighbour door 4D, the same wall sconce. Nobody is there.",
    "purpose": "Answer what the person sees; confirm the hallway is empty.",
    "visual_change": "Lens view drifts slightly; a green check and NO ONE OUTSIDE status confirm 'empty'.",
@@ -259,32 +281,50 @@
    "vignette": false
   },
   {
-   "id": "s09",
+   "id": "s09a",
    "start": 26.3,
-   "end": 33.8,
-   "line": "If both are dark, sit with your back against the door. You can't see out anymore. But it can't see everything, either.",
-   "scene": "Same cutaway, both holes dark. The person walks to the door with the red sight-line still locked on their head. They turn and slide down to sit with their back flat against the door. The line can't bend down that far: it breaks lock, turns yellow and starts sweeping the room.",
-   "purpose": "Demonstrate the rule and show the watcher losing its target.",
-   "visual_change": "Standing at x 1060 under red lock -> walk to the door -> turn -> sit; red locked line -> yellow searching sweep; status WATCHED -> BOTH DARK.",
+   "end": 27.75,
+   "line": "If both are dark,",
+   "scene": "Insert of the inner door face: both lenses black, the old one no longer lit. Thin red rings on 'dark'.",
+   "purpose": "Show that both are dark.",
+   "visual_change": "Static both-dark lenses; red rings on 'dark'.",
+   "asset": "door-face-v1",
+   "sfx": [],
+   "cue_word": "dark",
+   "cue_at": 0.7,
+   "in": {
+    "type": "cut"
+   },
+   "captions": true,
+   "vignette": false
+  },
+  {
+   "id": "s09",
+   "start": 27.75,
+   "end": 31.5,
+   "line": "sit with your back against the door. You can't see out anymore.",
+   "scene": "Side cutaway: the person walks from mid-room to the door under a red lock from the new hole, turns and slides down to sit with their back to the door. The lock breaks as they get under it.",
+   "purpose": "Demonstrate the rule's action.",
+   "visual_change": "Walk -> turn -> sit; red locked line -> yellow lost line fading.",
    "asset": "entry-v1 / door-v1 / person-v1",
    "sfx": [
     {
-     "at": 1.4,
+     "at": 0.15,
      "name": "footstep",
      "gain": -25
     },
     {
-     "at": 1.85,
+     "at": 0.6,
      "name": "footstep",
      "gain": -25
     },
     {
-     "at": 2.3,
+     "at": 1.05,
      "name": "footstep",
      "gain": -25
     },
     {
-     "at": 3.35,
+     "at": 2.05,
      "name": "impact",
      "gain": -22,
      "pitch": 0.6,
@@ -292,7 +332,36 @@
     }
    ],
    "cue_word": "sit",
-   "cue_at": 1.5,
+   "cue_at": 0.05,
+   "in": {
+    "type": "cut"
+   },
+   "captions": true,
+   "vignette": false
+  },
+  {
+   "id": "s09c",
+   "start": 31.5,
+   "end": 33.8,
+   "line": "But it can't see everything, either.",
+   "scene": "Extreme close-up of the brass new lens, now an eye: the iris and catchlight dart left, right and down, searching.",
+   "purpose": "A searching lens: the threat is active but blind to part of the room.",
+   "visual_change": "Eye looks left (0.25), right (1.05), down-left (1.8).",
+   "asset": "door-face-v1",
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "tick",
+     "gain": -28
+    },
+    {
+     "at": 1.05,
+     "name": "tick",
+     "gain": -28
+    }
+   ],
+   "cue_word": "everything",
+   "cue_at": 1.02,
    "in": {
     "type": "cut"
    },
@@ -331,33 +400,89 @@
    "vignette": false
   },
   {
-   "id": "s11",
+   "id": "s11a",
    "start": 41.4,
-   "end": 53.9,
-   "line": "Sit there. Back flat to the door. Don't get up until morning. It will look for you. At the table. At the picture. At the spot where the light used to be. Let it look.",
-   "scene": "Same room, diagram fading. The person sits still. A yellow sight-line from the new hole hunts the room: the table, then the picture, then a dashed outline where the floor light used to be. It never reaches the person.",
-   "purpose": "Build tension with the threat searching while the rule holds.",
-   "visual_change": "Cones fade; status 02:47 AM; the search line jumps table -> picture -> old spot on each named word, then drifts.",
+   "end": 46.25,
+   "line": "Sit there. Back flat to the door. Don't get up until morning.",
+   "scene": "Medium close (2x) on the seated person at the door: they press their back flat against the door, then brace a hand on the floor.",
+   "purpose": "Show survival as small physical actions, not captions.",
+   "visual_change": "Back presses flat (43.0) with contact marks; hand plants on the floor (44.7-45.1) with a small tap.",
    "asset": "entry-v1 / door-v1 / person-v1",
    "sfx": [
     {
-     "at": 6.56,
-     "name": "tick",
-     "gain": -27
+     "at": 2.2,
+     "name": "impact",
+     "gain": -26,
+     "pitch": 0.5,
+     "dur": 0.8
     },
     {
-     "at": 7.6,
-     "name": "tick",
+     "at": 3.7,
+     "name": "footstep",
      "gain": -27
-    },
+    }
+   ],
+   "cue_word": "Back",
+   "cue_at": 1.6,
+   "in": {
+    "type": "cut"
+   },
+   "captions": true,
+   "vignette": false
+  },
+  {
+   "id": "s11",
+   "start": 46.25,
+   "end": 51.9,
+   "line": "It will look for you. At the table. At the picture. At the spot where the light used to be.",
+   "scene": "Wide: a narrow yellow search beam from the new hole lands on the table, then the picture, then the dashed place where the floor light used to be. Each target flashes. It never reaches the door.",
+   "purpose": "The threat searches the familiar room; the blind spot holds.",
+   "visual_change": "Beam appears; table glow (1.71), picture glow (2.75), spot outline (3.87).",
+   "asset": "entry-v1 / door-v1 / person-v1",
+   "sfx": [
     {
-     "at": 8.72,
+     "at": 1.71,
      "name": "tick",
      "gain": -26
+    },
+    {
+     "at": 2.75,
+     "name": "tick",
+     "gain": -26
+    },
+    {
+     "at": 3.87,
+     "name": "tick",
+     "gain": -25
     }
    ],
    "cue_word": "table",
-   "cue_at": 6.56,
+   "cue_at": 1.71,
+   "in": {
+    "type": "cut"
+   },
+   "captions": true,
+   "vignette": false
+  },
+  {
+   "id": "s11c",
+   "start": 51.9,
+   "end": 53.9,
+   "line": "Let it look.",
+   "scene": "Medium close: a red beam from the old hole sweeps down to its limit and grazes just over the tucked head, holds, then withdraws.",
+   "purpose": "Near miss: suspense inside a quiet hold.",
+   "visual_change": "Beam angle 12 -> 41 degrees (0.3-1.0); the head tucks (0.5-0.8); hold; the beam lifts away (1.55-2.0).",
+   "asset": "entry-v1 / door-v1 / person-v1",
+   "sfx": [
+    {
+     "at": 0.6,
+     "name": "tone_low",
+     "gain": -17,
+     "dur": 1.6
+    }
+   ],
+   "cue_word": "look",
+   "cue_at": 0.3,
    "in": {
     "type": "cut"
    },
@@ -388,46 +513,90 @@
    "vignette": false
   },
   {
-   "id": "s13",
+   "id": "s13a",
    "start": 56.55,
-   "end": 64.95,
-   "line": "Tape feels like the right idea. It isn't. Cover both, and it doesn't stop looking. It just finds somewhere closer to look from.",
-   "scene": "Hypothetical, tagged IF YOU COVER THEM. The person stands, tapes over the old hole and then the new one, and sits back down. A red pulse pushes behind the new tape. The picture on the wall starts to shake on 'closer'.",
-   "purpose": "Show the tempting mistake and its first consequence.",
-   "visual_change": "Sit -> stand -> reach -> tape old at 1.4 s -> reach up -> tape new at 1.85 s -> sit; tape pulse on 'looking'; picture shake ramps from 6.9 s.",
+   "end": 57.2,
+   "line": "Tape feels",
+   "scene": "Hypothetical begins: the frame gets a dashed border, a faint red veil and a red IF YOU COVER THEM banner. The seated person stands up at the door.",
+   "purpose": "Make the start of the 'what if' unmistakable.",
+   "visual_change": "Banner and border drop in (0-0.25); sit -> stand.",
    "asset": "entry-v1 / door-v1 / person-v1",
    "sfx": [
     {
-     "at": 0.3,
-     "name": "footstep",
-     "gain": -26
+     "at": 0.02,
+     "name": "glitch",
+     "gain": -26,
+     "dur": 0.2
+    }
+   ],
+   "cue_word": "Tape",
+   "cue_at": 0.18,
+   "in": {
+    "type": "flash",
+    "dur": 0.25
+   },
+   "captions": true,
+   "vignette": false
+  },
+  {
+   "id": "s13b",
+   "start": 57.2,
+   "end": 59.35,
+   "line": "like the right idea.",
+   "scene": "Hypothetical insert of the inner door face: a hand presses an opaque gray tape patch over the old lens, then a second over the new lens. Both patches stay.",
+   "purpose": "Show the tape making contact with and covering both openings.",
+   "visual_change": "Tape 1 contact at 0.32 s (old lens), tape 2 contact at 1.12 s (new lens); the hand withdraws each time.",
+   "asset": "door-face-v1",
+   "sfx": [
+    {
+     "at": 0.32,
+     "name": "impact",
+     "gain": -19,
+     "pitch": 1.3,
+     "dur": 0.5
     },
     {
-     "at": 1.4,
-     "name": "swish",
-     "gain": -24
-    },
+     "at": 1.12,
+     "name": "impact",
+     "gain": -19,
+     "pitch": 1.3,
+     "dur": 0.5
+    }
+   ],
+   "cue_word": "idea",
+   "cue_at": 0.76,
+   "in": {
+    "type": "cut"
+   },
+   "captions": true,
+   "vignette": false
+  },
+  {
+   "id": "s13",
+   "start": 59.35,
+   "end": 64.95,
+   "line": "It isn't. Cover both, and it doesn't stop looking. It just finds somewhere closer to look from.",
+   "scene": "Hypothetical wide: both holes taped. The person sits back down. Pressure pulses behind the new tape; the picture on the wall begins to shake.",
+   "purpose": "First consequence of covering.",
+   "visual_change": "Sit (0.4-1.0); red pulse at the new tape (2.8-3.5); picture shake ramps (4.1-5.6).",
+   "asset": "entry-v1 / door-v1 / person-v1",
+   "sfx": [
     {
-     "at": 1.85,
-     "name": "swish",
-     "gain": -24
-    },
-    {
-     "at": 3.2,
+     "at": 1.0,
      "name": "impact",
      "gain": -23,
      "pitch": 0.6,
      "dur": 1.0
     },
     {
-     "at": 7.2,
+     "at": 4.4,
      "name": "tone_low",
      "gain": -16,
      "dur": 2.0
     }
    ],
-   "cue_word": "Tape",
-   "cue_at": 0.21,
+   "cue_word": "looking",
+   "cue_at": 2.89,
    "in": {
     "type": "cut"
    },
@@ -496,22 +665,21 @@
    "start": 74.62,
    "end": 78.3,
    "line": "Two holes you know about are safer than one you don't.",
-   "scene": "Two evidence cards. UNCOVERED / TWO YOU KNOW: a mini door with both lenses, which gets a green check. COVERED / ONE YOU DON'T: the taped door beside the picture eye, which gets a red cross.",
-   "purpose": "Summarise rule three as a comparison.",
-   "visual_change": "Left card -> check on 'safer' -> right card -> cross on 'don't'.",
-   "asset": "evidence-v1",
+   "scene": "Return to reality: a white wipe travels from the door to the left edge. Behind it the tape, the picture eye, the red line, the border and the banner are gone; the person sits safe under two dark holes. Check on 'safer'.",
+   "purpose": "Clearly end the hypothetical and return to the main situation.",
+   "visual_change": "Wipe 0.03-0.75 erases the hypothetical state; status 02:47 AM; green check near the holes on 'safer'.",
+   "asset": "entry-v1 / door-v1 / person-v1",
    "sfx": [
+    {
+     "at": 0.05,
+     "name": "whoosh",
+     "gain": -24
+    },
     {
      "at": 1.46,
      "name": "blip",
      "gain": -25,
      "pitch": 1.3
-    },
-    {
-     "at": 2.38,
-     "name": "blip",
-     "gain": -24,
-     "pitch": 0.5
     }
    ],
    "cue_word": "safer",
@@ -546,28 +714,83 @@
    "vignette": false
   },
   {
-   "id": "s18",
+   "id": "s18a",
    "start": 81.1,
-   "end": 93.5,
-   "line": "Some time before morning, the hallway light will come back through the old one. It will land on your floor, right where it always does. And the new one will be gone. That means it has let go of the door. Before you get up,",
-   "scene": "Same room back to reality (no tape, plain picture), 04:51 AM. Light returns through the old hole and the floor spot comes back with a yellow pulse; the brass new hole fades away; status ONE PEEPHOLE. The person leans forward toward the light.",
-   "purpose": "Apparent relief: the opening state restored.",
-   "visual_change": "Old beam fades in on 'old one'; spot pulse on 'always'; new hole fades on 'gone'; lean on 'Before you get up'.",
-   "asset": "entry-v1 / door-v1 / person-v1",
+   "end": 85.2,
+   "line": "Some time before morning, the hallway light will come back through the old one.",
+   "scene": "Insert of the inner door face, both lenses dark; the old lens fills with warm hallway light and rays.",
+   "purpose": "Show the old lens admitting light again.",
+   "visual_change": "Old lens dark -> lit with rays on 'old one' (84.28).",
+   "asset": "door-face-v1",
    "sfx": [
     {
-     "at": 3.18,
+     "at": 3.15,
      "name": "shimmer",
-     "gain": -27
-    },
+     "gain": -26
+    }
+   ],
+   "cue_word": "old",
+   "cue_at": 3.18,
+   "in": {
+    "type": "cut"
+   },
+   "captions": true,
+   "vignette": false
+  },
+  {
+   "id": "s18b",
+   "start": 85.2,
+   "end": 88.08,
+   "line": "It will land on your floor, right where it always does.",
+   "scene": "Wide: the beam draws from the old hole down to the floor, and the light spot returns to its established place; a yellow pulse marks it.",
+   "purpose": "Apparent safety, recognised by the returning floor light.",
+   "visual_change": "Beam grows (85.25-85.9), spot appears, pulse on 'always' (87.08).",
+   "asset": "entry-v1 / door-v1 / person-v1",
+   "sfx": [],
+   "cue_word": "floor",
+   "cue_at": 0.84,
+   "in": {
+    "type": "cut"
+   },
+   "captions": true,
+   "vignette": false
+  },
+  {
+   "id": "s18c",
+   "start": 88.08,
+   "end": 90.1,
+   "line": "And the new one will be gone.",
+   "scene": "Insert of the inner door face: the lit old lens below; the brass lens above shrinks, closes and the door surface heals over it.",
+   "purpose": "Show the extra lens disappearing unmistakably.",
+   "visual_change": "Brass lens scales to zero (89.0-89.45) on 'gone'; a fading ring; status ONE PEEPHOLE.",
+   "asset": "door-face-v1",
+   "sfx": [
     {
-     "at": 7.98,
+     "at": 0.95,
      "name": "tick",
-     "gain": -25
+     "gain": -24
     }
    ],
    "cue_word": "gone",
-   "cue_at": 7.98,
+   "cue_at": 1.0,
+   "in": {
+    "type": "cut"
+   },
+   "captions": true,
+   "vignette": false
+  },
+  {
+   "id": "s18",
+   "start": 90.1,
+   "end": 93.5,
+   "line": "That means it has let go of the door. Before you get up,",
+   "scene": "Wide: one peephole, the floor light in its place. The person leans toward the light.",
+   "purpose": "Apparent relief before the final check.",
+   "visual_change": "Hold; lean on 'Before you get up' (92.36).",
+   "asset": "entry-v1 / door-v1 / person-v1",
+   "sfx": [],
+   "cue_word": "Before",
+   "cue_at": 2.26,
    "in": {
     "type": "cut"
    },
@@ -578,7 +801,7 @@
    "id": "s19",
    "start": 93.5,
    "end": 100.9,
-   "line": "look at the light. If it's only light, you can go to bed. If something is standing in it…",
+   "line": "look at the light. If it's only light, you can go to bed. If something is standing in it… it",
    "scene": "Top-down insert of the warm floor spot on dark boards, the door at the right. A green check first. On 'standing', two dark feet and a long body-shaped shadow appear inside the light. In the pause one foot steps toward the door.",
    "purpose": "Make the final threat concrete and specific.",
    "visual_change": "Clean spot + check -> feet and shadow fade in on 'standing' -> one foot steps at 6.6 s.",
@@ -608,11 +831,11 @@
    "id": "s20",
    "start": 100.9,
    "end": 108.0,
-   "line": "it didn't go back outside. It came IN.",
-   "scene": "Final wide: the beam through the old hole is broken by two unseen feet, whose shadow cuts the floor spot. A yellow glint appears in the empty air above the spot, higher than the door, and a red sight-line from it locks onto the sitting person. The glint blinks.",
-   "purpose": "Payoff: callbacks to the floor light, 'look IN' and the blink.",
-   "visual_change": "Shadowed spot -> glint and red line on 'came' -> lock with IT CAME IN on 'IN' -> blink at 5.0 s; hold and fade.",
-   "asset": "entry-v1 / door-v1 / person-v1",
+   "line": "didn't go back outside. It came IN.",
+   "scene": "Final wide: two dark legs stand in the old beam, warm-lit at the edges. On 'came' a tall faceless silhouette resolves above them, taller than the door, with one yellow eye glint. The person recoils on 'IN'. The figure takes one slow step toward them; its shadow slides across the floor light. Hold.",
+   "purpose": "Payoff: something is physically inside the room.",
+   "visual_change": "Legs in the beam -> full silhouette (2.26-2.75) -> person recoils (2.74) -> one step (4.4-5.2) -> hold and fade.",
+   "asset": "entry-v1 / presence-v1",
    "sfx": [
     {
      "at": 2.74,
@@ -621,10 +844,14 @@
      "dur": 3.0
     },
     {
-     "at": 5.0,
-     "name": "tone_low",
-     "gain": -15,
-     "dur": 2.0
+     "at": 4.5,
+     "name": "footstep",
+     "gain": -16
+    },
+    {
+     "at": 5.1,
+     "name": "footstep",
+     "gain": -18
     }
    ],
    "cue_word": "IN",
