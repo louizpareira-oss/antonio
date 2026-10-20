@@ -1,0 +1,15 @@
+{
+ "title": "Two Peepholes thumbnail",
+ "aspect": "16:9",
+ "resolution": "720p",
+ "fps": 30,
+ "style": "casefile",
+ "voiceover": null,
+ "duration": 1.0,
+ "captions": false,
+ "bars": "none",
+ "fadeIn": 0,
+ "fadeOut": 0,
+ "music": {"enabled": false},
+ "sfx": {"enabled": false}
+}

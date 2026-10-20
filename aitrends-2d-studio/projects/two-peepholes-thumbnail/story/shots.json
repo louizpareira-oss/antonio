@@ -1,0 +1,12 @@
+{
+ "title": "Two Peepholes thumbnail",
+ "duration": 1.0,
+ "shots": [
+  {"id": "thumb", "start": 0, "end": 1.0, "line": "",
+   "scene": "DON'T LOOK in white and red on the left; a cropped flat navy door on the right with an enlarged dark brass lens above and the original lens below filled with warm hallway light; a red arrow points at the brass lens.",
+   "purpose": "Thumbnail in the episode's own style.",
+   "visual_change": "Static still.",
+   "asset": "door-front-v1 / lens-v1",
+   "in": {"type": "cut"}, "captions": false, "vignette": false}
+ ]
+}
