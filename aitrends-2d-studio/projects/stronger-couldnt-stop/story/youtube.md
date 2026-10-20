@@ -6,7 +6,7 @@ What If You Got Stronger and Couldn't Stop?
 vidIQ scored this title 98/100. A second title to test later: "What If Your Strength Doubled Every Day?" (scored 91).
 
 ## Thumbnail
-Being replaced (Oct 20): the user generates a new one in SeaArt from the 3 prompts in `story/thumbnail.md`.
+`out/thumbnail_DONT_TOUCH.jpg` (Oct 20): the user's SeaArt image (prompt 1b) with DON'T (white) / TOUCH. (yellow); alternative `out/thumbnail_TOO_STRONG.jpg`.
 
 ## Description (paste everything between the lines)
 Pattern from the viral examples (`docs/12-viral-descriptions.md`): 3 hashtags on top, the title question as the hook,
