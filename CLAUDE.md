@@ -28,6 +28,9 @@
      no math numbers, no traffic signs.
   4. Text overlay: 2 words, all caps, punchy ("TOO HEAVY.", "ONLY ME.", "NOTHING."); say which word is white and
      which is yellow. The user adds the text.
+  5. From the winning examples (`docs/13-thumbnail-patterns.md`, template there): calm smug hero (half-closed eyes,
+     small smirk) while one giant consequence breaks around him and touches him; hero fills ~70 % of the height on one
+     side; text in the empty corner; hoodie is the strongest colour. Example: `heavier-every-day/story/thumbnail.md`.
 - **Style rules from the measured references** (`docs/11-reference-analysis-500iq-and-zero-pain.md`):
   - Picture: brighter (aim for centre brightness ~85–100, ours was 60), big faces and close-ups, no stretch over
     ~15 s without a picture change.
