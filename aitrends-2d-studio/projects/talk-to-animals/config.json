@@ -3,7 +3,7 @@
  "aspect": "16:9",
  "resolution": "1080p",
  "fps": 24,
- "style": "golden",
+ "style": "clean",
  "voiceover": "input/voiceover.mp3",
  "captions": false,
  "bars": null,

@@ -42,6 +42,12 @@ export const STYLES = {
     grade: { contrast: 1.15, sat: 1.4, lift: [0.01, 0.0, 0.04], gamma: [1.0, 0.9, 1.06], gain: [1.12, 0.86, 1.18], vignette: 0.7, grain: 0.06, bloom: 0.9 },
     moods: { dusk: { sky: ['#120a2a', '#3a1a5a', '#a03a8a', '#ff7a9a'], rim: '#ff6ac8', key: '#ff8ad0', practical: '#5ff2e8' }, night: { sky: ['#06061a', '#140f3a', '#2a1a5a'], rim: '#5ff2e8', practical: '#ff4fa3' }, interiorWarm: { rim: '#ff7ab8', practical: '#5ff2e8', wall: '#2a1e3a' }, day: { rim: '#7ff0ff' } },
   },
+  clean: {
+    name: 'Clean Flat', desc: 'Bright, clean flat colours with almost no grade: light vignette, fine grain (the user\'s Oct 21 references).',
+    ink: '#16121a', inkFar: '#3a3440', feature: '#f6f2ea', rimWidth: 4, ui: { ...UI, card: 'rgba(30,26,40,.92)', accent: '#ff7a4a' },
+    grade: { contrast: 1.02, sat: 1.05, lift: [0, 0, 0], gamma: [1, 1, 1], gain: [1.02, 1.0, 0.98], vignette: 0.22, grain: 0.03, bloom: 0.25 },
+    moods: {},
+  },
   storybook: {
     name: 'Soft Storybook', desc: 'Lighter pastel palette, lower contrast, lavender shadows, gentle paper grain — friendlier, family tone.',
     ink: '#1a1622', inkFar: '#4a4258', feature: '#fffaf0', rimWidth: 5, ui: { ...UI, card: 'rgba(40,36,60,.9)', accent: '#ff8a7a', gold: '#ffd98a' },

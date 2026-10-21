@@ -1,7 +1,7 @@
 # Script 05 — "What If You Could Talk to Animals?"
 
 **Format:** 16:9 YouTube, 1920 × 1080, 24 fps, about 8¾ minutes (~1,240 words at ~140 words/min).
-**Style:** 2D studio, the channel's hero (blue hoodie). Follows `CLAUDE.md` and the fun → curse structure in
+**Style:** 2D studio, the channel's hero (blue hoodie), in the **v2 look** from the user's Oct 21 references: clothes with shoulders and sleeves, sneakers, big eyes with pupils and lids, hair/caps; colour animals; bright, detailed rooms; the `clean` grade (`projects/talk-to-animals/scenes/look.js`). Follows `CLAUDE.md` and the fun → curse structure in
 `docs/14-fun-to-curse-structure.md`.
 **Status:** draft v1 (Oct 21), waiting for the user's approval before any voicing.
 
@@ -14,7 +14,7 @@
 | Character | Look | Voice |
 |---|---|---|
 | YOU (hero) | the channel's hero: black head, blue hoodie | narrator (no spoken lines) |
-| BISCUIT | 14-year-old black Labrador mix, grey chin and eyebrows (old dog), red collar with a gold tag | warm, slow, a bit gravelly (new) |
+| BISCUIT | 14-year-old yellow Labrador mix, white old-dog face, red collar with a gold tag | warm, slow, a bit gravelly (new) |
 | PICKLES | the family cat, black and white, permanently unimpressed | dry, bored (new) |
 | MOM | green top, bun (same as before) | 1 short line |
 | THEO (best friend) | orange cap | no lines |
