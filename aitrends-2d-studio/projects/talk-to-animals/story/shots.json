@@ -1,8 +1,2142 @@
 {
  "title": "What If You Could Talk to Animals?",
- "duration": 4.0,
+ "duration": 551.0,
  "shots": [
-  {"id": "cast", "start": 0.0, "end": 4.0, "line": "", "scene": "CAST LINEUP (look test): the family and the animals in the seaside living room", "set": "living", "bars": "none", "in": {"type": "cut"}, "notes": "shots/00_cast.js"}
+  {
+   "id": "s001",
+   "start": 0.0,
+   "end": 1.08,
+   "line": "Bacon.",
+   "scene": "EXTREME CLOSE-UP, frame 1: Biscuit's face, mouth moving, speech bubble BACON.",
+   "set": "kitchen",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/01_hook.js"
+  },
+  {
+   "id": "s002",
+   "start": 1.08,
+   "end": 2.22,
+   "line": "Under the chair.",
+   "scene": "LOW ANGLE under the kitchen chair: a strip of bacon glows on the floor",
+   "set": "kitchen",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/01_hook.js"
+  },
+  {
+   "id": "s003",
+   "start": 2.22,
+   "end": 3.68,
+   "line": "Left side.",
+   "scene": "Biscuit's eyes slide left, a little nod",
+   "set": "kitchen",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/01_hook.js"
+  },
+  {
+   "id": "s004",
+   "start": 3.68,
+   "end": 4.93,
+   "line": "You look.",
+   "scene": "KITCHEN: you bend down and look under the chair",
+   "set": "kitchen",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/01_hook.js"
+  },
+  {
+   "id": "s005",
+   "start": 4.93,
+   "end": 8.92,
+   "line": "There's a piece of bacon under the chair. Left side.",
+   "scene": "POV under the chair: the bacon, left side, spotlight",
+   "set": "kitchen",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/01_hook.js"
+  },
+  {
+   "id": "s006",
+   "start": 8.92,
+   "end": 11.23,
+   "line": "That's forty-one pieces this year.",
+   "scene": "Biscuit, proud; a tally counter ticks 39-40-41",
+   "set": "kitchen",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/01_hook.js"
+  },
+  {
+   "id": "s007",
+   "start": 11.23,
+   "end": 12.76,
+   "line": "I've been counting.",
+   "scene": "INSERT: tally marks scratched on the side of his food bowl",
+   "set": "kitchen",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/01_hook.js"
+  },
+  {
+   "id": "s008",
+   "start": 12.76,
+   "end": 14.83,
+   "line": "The cat walks across the breakfast table.",
+   "scene": "Pickles strolls across the breakfast table between plates",
+   "set": "kitchen",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/01_hook.js"
+  },
+  {
+   "id": "s009",
+   "start": 14.83,
+   "end": 18.02,
+   "line": "Ugh. You're awake.",
+   "scene": "CLOSE: Pickles' heavy-lidded face, bubble",
+   "set": "kitchen",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/01_hook.js"
+  },
+  {
+   "id": "s010",
+   "start": 18.02,
+   "end": 23.57,
+   "line": "And outside, every bird on the street is screaming the same thing.",
+   "scene": "Through the kitchen window: birds on wires and in the tree",
+   "set": "garden",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/01_hook.js"
+  },
+  {
+   "id": "s011",
+   "start": 23.57,
+   "end": 26.97,
+   "line": "My tree! My tree! MY TREE!",
+   "scene": "CLOSE: a row of birds, beaks open, MY TREE! bubbles stacking; shake",
+   "set": "garden",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/01_hook.js"
+  },
+  {
+   "id": "s012",
+   "start": 26.97,
+   "end": 28.28,
+   "line": "So...",
+   "scene": "BIG FACE: you, eyes wide, bubbles popping all around",
+   "set": "kitchen",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/01_hook.js"
+  },
+  {
+   "id": "s013",
+   "start": 28.28,
+   "end": 30.97,
+   "line": "what if you could talk to animals?",
+   "scene": "TITLE: you in the middle, animals around you all talking; WHAT IF YOU COULD TALK TO ANIMALS?",
+   "set": "title",
+   "bars": "none",
+   "in": {
+    "type": "fade",
+    "dur": 0.35
+   },
+   "notes": "shots/01_hook.js"
+  },
+  {
+   "id": "s014",
+   "start": 30.97,
+   "end": 35.09,
+   "line": "Here's how it works. You understand every animal.",
+   "scene": "DIAGRAM: you, arrows out to animal icons",
+   "set": "diagram",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/01_hook.js"
+  },
+  {
+   "id": "s015",
+   "start": 35.09,
+   "end": 37.91,
+   "line": "And every animal understands you.",
+   "scene": "DIAGRAM: arrows come back; every animal turns to you",
+   "set": "diagram",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/01_hook.js"
+  },
+  {
+   "id": "s016",
+   "start": 37.91,
+   "end": 41.38,
+   "line": "There's no off switch. Not for a second.",
+   "scene": "INSERT: a big OFF switch; your hand flicks it, the bubbles keep coming",
+   "set": "insert",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/01_hook.js"
+  },
+  {
+   "id": "s017",
+   "start": 41.38,
+   "end": 43.5,
+   "line": "That part matters later.",
+   "scene": "you, a little worried, bubbles around your head",
+   "set": "kitchen",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/01_hook.js"
+  },
+  {
+   "id": "s018",
+   "start": 43.5,
+   "end": 45.58,
+   "line": "Biscuit is fourteen.",
+   "scene": "LIVING ROOM: Biscuit in his sunny spot; name card BISCUIT · 14",
+   "set": "living",
+   "bars": "none",
+   "in": {
+    "type": "dip",
+    "dur": 0.35
+   },
+   "notes": "shots/02_family.js"
+  },
+  {
+   "id": "s019",
+   "start": 45.58,
+   "end": 47.55,
+   "line": "He's a year older than you.",
+   "scene": "Height chart on the door frame: BISCUIT 14 / YOU 13",
+   "set": "living",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/02_family.js"
+  },
+  {
+   "id": "s020",
+   "start": 47.55,
+   "end": 52.24,
+   "line": "Mom found him at a gas station in the rain, the winter before you were born.",
+   "scene": "NIGHT RAIN, gas station: Mom crouches by a soaked puppy",
+   "set": "gasstation",
+   "bars": "none",
+   "in": {
+    "type": "dip",
+    "dur": 0.35
+   },
+   "notes": "shots/02_family.js"
+  },
+  {
+   "id": "s021",
+   "start": 52.24,
+   "end": 56.89,
+   "line": "A wet, angry puppy who bit her sleeve and wouldn't let go.",
+   "scene": "CLOSE: the puppy hangs off Mom's green sleeve; Mom laughs",
+   "set": "gasstation",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/02_family.js"
+  },
+  {
+   "id": "s022",
+   "start": 56.89,
+   "end": 59.84,
+   "line": "He's been there for every day of your life.",
+   "scene": "Photo wall: baby you with puppy Biscuit, birthdays",
+   "set": "living",
+   "bars": "none",
+   "in": {
+    "type": "dip",
+    "dur": 0.35
+   },
+   "notes": "shots/02_family.js"
+  },
+  {
+   "id": "s023",
+   "start": 59.84,
+   "end": 61.71,
+   "line": "Every scraped knee.",
+   "scene": "FLASHBACK: little you with a scraped knee, Biscuit licks your face",
+   "set": "garden",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/02_family.js"
+  },
+  {
+   "id": "s024",
+   "start": 61.71,
+   "end": 63.85,
+   "line": "Every bad dream.",
+   "scene": "FLASHBACK night: little you in bed, Biscuit on the end of the bed",
+   "set": "bedroom",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/02_family.js"
+  },
+  {
+   "id": "s025",
+   "start": 63.85,
+   "end": 66.98,
+   "line": "You've talked to him every single day.",
+   "scene": "You on the floor talking to Biscuit, years passing (hair, height)",
+   "set": "living",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/02_family.js"
+  },
+  {
+   "id": "s026",
+   "start": 66.98,
+   "end": 70.02,
+   "line": "Today, for the first time,",
+   "scene": "KITCHEN today: you and Biscuit face to face",
+   "set": "kitchen",
+   "bars": "none",
+   "in": {
+    "type": "dip",
+    "dur": 0.35
+   },
+   "notes": "shots/02_family.js"
+  },
+  {
+   "id": "s027",
+   "start": 70.02,
+   "end": 72.03,
+   "line": "he talks back.",
+   "scene": "CLOSE: Biscuit's mouth opens, a bubble pops; your face, shocked",
+   "set": "kitchen",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/02_family.js"
+  },
+  {
+   "id": "s028",
+   "start": 72.03,
+   "end": 76.48,
+   "line": "And at first, it's the best thing that has ever happened to you.",
+   "scene": "BIG FACE: you grin",
+   "set": "face",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/03_fun.js"
+  },
+  {
+   "id": "s029",
+   "start": 76.48,
+   "end": 79.19,
+   "line": "You ask Biscuit what he wants for his birthday.",
+   "scene": "You kneel by Biscuit with a party hat and a cake",
+   "set": "living",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/03_fun.js"
+  },
+  {
+   "id": "s030",
+   "start": 79.19,
+   "end": 82.5,
+   "line": "The couch. All of it. Forever.",
+   "scene": "Biscuit sprawled across the whole couch, crown on, FOREVER",
+   "set": "living",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/03_fun.js"
+  },
+  {
+   "id": "s031",
+   "start": 82.5,
+   "end": 86.0,
+   "line": "You ask Pickles why she keeps pushing cups off the table.",
+   "scene": "Pickles on the table next to a cup, paw raised",
+   "set": "kitchen",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/03_fun.js"
+  },
+  {
+   "id": "s032",
+   "start": 86.0,
+   "end": 88.27,
+   "line": "To check if they still fall.",
+   "scene": "SLOW MOTION: the cup tips off the edge; Pickles watches it fall",
+   "set": "kitchen",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/03_fun.js"
+  },
+  {
+   "id": "s033",
+   "start": 88.27,
+   "end": 90.84,
+   "line": "A pigeon gives you directions to school.",
+   "scene": "STREET CORNER: a pigeon on a bench, you with your backpack",
+   "set": "street",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/03_fun.js"
+  },
+  {
+   "id": "s034",
+   "start": 90.84,
+   "end": 92.27,
+   "line": "Left at the bakery.",
+   "scene": "The bakery corner, an arrow LEFT",
+   "set": "street",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/03_fun.js"
+  },
+  {
+   "id": "s035",
+   "start": 92.27,
+   "end": 94.36,
+   "line": "Right at the man with the sandwich.",
+   "scene": "The man with a sandwich, arrow RIGHT",
+   "set": "street",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/03_fun.js"
+  },
+  {
+   "id": "s036",
+   "start": 94.36,
+   "end": 97.22,
+   "line": "Stay near the man with the sandwich.",
+   "scene": "Three pigeons following the sandwich man",
+   "set": "street",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/03_fun.js"
+  },
+  {
+   "id": "s037",
+   "start": 97.22,
+   "end": 100.52,
+   "line": "A squirrel finds the house key you lost in May.",
+   "scene": "A squirrel pops out of a bush holding your key",
+   "set": "garden",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/03_fun.js"
+  },
+  {
+   "id": "s038",
+   "start": 100.52,
+   "end": 102.12,
+   "line": "He wants a peanut.",
+   "scene": "Squirrel bubble: ONE PEANUT",
+   "set": "garden",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/03_fun.js"
+  },
+  {
+   "id": "s039",
+   "start": 102.12,
+   "end": 104.92,
+   "line": "Then he wants forty peanuts.",
+   "scene": "A pile of peanuts grows; counter 40",
+   "set": "garden",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/03_fun.js"
+  },
+  {
+   "id": "s040",
+   "start": 104.92,
+   "end": 109.95,
+   "line": "You start leaving peanuts out for the crows, and the crows start leaving you presents.",
+   "scene": "Windowsill: you put out peanuts, crows land",
+   "set": "garden",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/03_fun.js"
+  },
+  {
+   "id": "s041",
+   "start": 109.95,
+   "end": 114.83,
+   "line": "A button. A bottle cap. A little piece of blue glass.",
+   "scene": "CLOSE windowsill: a button, a bottle cap, a piece of blue glass appear one by one",
+   "set": "garden",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/03_fun.js"
+  },
+  {
+   "id": "s042",
+   "start": 114.83,
+   "end": 120.5,
+   "line": "That really happens. A girl in Seattle got crow presents for years.",
+   "scene": "REAL: a girl in Seattle with a box of crow gifts",
+   "set": "real",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/03_fun.js"
+  },
+  {
+   "id": "s043",
+   "start": 120.5,
+   "end": 124.25,
+   "line": "On the school trip to the zoo, the prairie dogs see you coming.",
+   "scene": "ZOO: the class at the prairie dog enclosure",
+   "set": "zoo",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/03_fun.js"
+  },
+  {
+   "id": "s044",
+   "start": 124.25,
+   "end": 127.0,
+   "line": "Tall one. Blue top. Walks funny.",
+   "scene": "CLOSE: prairie dogs pop up, bubbles TALL ONE / BLUE TOP / WALKS FUNNY",
+   "set": "zoo",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/03_fun.js"
+  },
+  {
+   "id": "s045",
+   "start": 127.0,
+   "end": 129.75,
+   "line": "Theo films you talking to a pigeon.",
+   "scene": "Theo films you talking to a pigeon",
+   "set": "street",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/03_fun.js"
+  },
+  {
+   "id": "s046",
+   "start": 129.75,
+   "end": 132.52,
+   "line": "The video gets two million views.",
+   "scene": "PHONE: views count up to 2,000,000",
+   "set": "phone",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/03_fun.js"
+  },
+  {
+   "id": "s047",
+   "start": 132.52,
+   "end": 137.11,
+   "line": "The comments are full of people asking what their cat really thinks of them.",
+   "scene": "PHONE: comments about cats",
+   "set": "phone",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/03_fun.js"
+  },
+  {
+   "id": "s048",
+   "start": 137.11,
+   "end": 140.15,
+   "line": "You know. You're not telling them.",
+   "scene": "Pickles glares at the camera; you zip your lips",
+   "set": "kitchen",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/03_fun.js"
+  },
+  {
+   "id": "s049",
+   "start": 140.15,
+   "end": 145.63,
+   "line": "Then, at four forty-seven in the morning, the birds wake you up.",
+   "scene": "DARK BEDROOM: clock 4:47, you bolt upright",
+   "set": "bedroom",
+   "bars": "none",
+   "in": {
+    "type": "dip",
+    "dur": 0.35
+   },
+   "notes": "shots/04_curse.js"
+  },
+  {
+   "id": "s050",
+   "start": 145.63,
+   "end": 148.86,
+   "line": "My tree! My tree! MY TREE!",
+   "scene": "Dawn window: birds screaming; you with a pillow over your head",
+   "set": "garden",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/04_curse.js"
+  },
+  {
+   "id": "s051",
+   "start": 148.86,
+   "end": 151.17,
+   "line": "That's not a joke, by the way.",
+   "scene": "REAL: a robin singing, its territory drawn as a circle",
+   "set": "real",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/04_curse.js"
+  },
+  {
+   "id": "s052",
+   "start": 151.17,
+   "end": 156.72,
+   "line": "Most birdsong at dawn really means: this is my patch, stay out.",
+   "scene": "Map of the street: every bird's circle, MINE MINE MINE",
+   "set": "real",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/04_curse.js"
+  },
+  {
+   "id": "s053",
+   "start": 156.72,
+   "end": 160.54,
+   "line": "You can't sleep through it. You can't switch it off.",
+   "scene": "You in bed, eyes wide, dark circles",
+   "set": "bedroom",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/04_curse.js"
+  },
+  {
+   "id": "s054",
+   "start": 160.54,
+   "end": 163.35,
+   "line": "The mosquito in your room says nothing.",
+   "scene": "CLOSE: a mosquito, wings a blur",
+   "set": "bedroom",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/04_curse.js"
+  },
+  {
+   "id": "s055",
+   "start": 163.35,
+   "end": 168.78,
+   "line": "That whine is just its wings, beating hundreds of times a second.",
+   "scene": "REAL: the wing-beat wave, ~500 beats a second",
+   "set": "real",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/04_curse.js"
+  },
+  {
+   "id": "s056",
+   "start": 168.78,
+   "end": 171.86,
+   "line": "Somehow, that's worse.",
+   "scene": "BIG FACE: deadpan, tired",
+   "set": "face",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/04_curse.js"
+  },
+  {
+   "id": "s057",
+   "start": 171.86,
+   "end": 174.14,
+   "line": "Then you make a mistake.",
+   "scene": "PARK BENCH: you with a sandwich, a crow watching",
+   "set": "park",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/04_curse.js"
+  },
+  {
+   "id": "s058",
+   "start": 174.14,
+   "end": 175.94,
+   "line": "A crow steals your sandwich,",
+   "scene": "The crow snatches the sandwich and flies",
+   "set": "park",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/04_curse.js"
+  },
+  {
+   "id": "s059",
+   "start": 175.94,
+   "end": 177.91,
+   "line": "and you call him ugly.",
+   "scene": "You shout UGLY!; the crow turns, slowly",
+   "set": "park",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/04_curse.js"
+  },
+  {
+   "id": "s060",
+   "start": 177.91,
+   "end": 181.4,
+   "line": "The next morning, there are twenty crows on your fence.",
+   "scene": "The fence: twenty crows; counter 20",
+   "set": "garden",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/04_curse.js"
+  },
+  {
+   "id": "s061",
+   "start": 181.4,
+   "end": 183.86,
+   "line": "The morning after, a hundred.",
+   "scene": "The fence black with crows; counter 100",
+   "set": "garden",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/04_curse.js"
+  },
+  {
+   "id": "s062",
+   "start": 183.86,
+   "end": 187.07,
+   "line": "They dive at your head all the way to school.",
+   "scene": "Street: crows diving, you running, bag over your head",
+   "set": "street",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/04_curse.js"
+  },
+  {
+   "id": "s063",
+   "start": 187.07,
+   "end": 190.22,
+   "line": "Crows remember faces for years.",
+   "scene": "CLOSE: a crow's eye with your face reflected",
+   "set": "real",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/04_curse.js"
+  },
+  {
+   "id": "s064",
+   "start": 190.22,
+   "end": 195.29,
+   "line": "Scientists in Seattle once caught a few crows while wearing a caveman mask.",
+   "scene": "REAL: a scientist in a caveman mask with a net",
+   "set": "real",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/04_curse.js"
+  },
+  {
+   "id": "s065",
+   "start": 195.29,
+   "end": 200.44,
+   "line": "Years later, crows that were never caught still screamed at that mask.",
+   "scene": "YEARS LATER: crows scream at the mask",
+   "set": "real",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/04_curse.js"
+  },
+  {
+   "id": "s066",
+   "start": 200.44,
+   "end": 202.58,
+   "line": "The others had taught them.",
+   "scene": "An old crow teaching young crows, arrows",
+   "set": "real",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/04_curse.js"
+  },
+  {
+   "id": "s067",
+   "start": 202.58,
+   "end": 206.05,
+   "line": "Now every crow in the city knows your face.",
+   "scene": "City rooftops at dusk, crows turning toward you",
+   "set": "city",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/04_curse.js"
+  },
+  {
+   "id": "s068",
+   "start": 206.05,
+   "end": 209.7,
+   "line": "So you keep your hood up. All the time.",
+   "scene": "You walk, hood up, eyes down",
+   "set": "street",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/04_curse.js"
+  },
+  {
+   "id": "s069",
+   "start": 209.7,
+   "end": 214.04,
+   "line": "At school, people start calling you Squirrel Kid.",
+   "scene": "School hallway, kids whispering, SQUIRREL KID on your locker",
+   "set": "school",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/04_curse.js"
+  },
+  {
+   "id": "s070",
+   "start": 214.04,
+   "end": 218.51,
+   "line": "You sit alone at lunch, and a pigeon sits next to you.",
+   "scene": "Cafeteria, alone; a pigeon lands on the seat next to you",
+   "set": "school",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/04_curse.js"
+  },
+  {
+   "id": "s071",
+   "start": 218.51,
+   "end": 220.86,
+   "line": "It's not the same.",
+   "scene": "CLOSE: you and the pigeon",
+   "set": "school",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/04_curse.js"
+  },
+  {
+   "id": "s072",
+   "start": 220.86,
+   "end": 223.6,
+   "line": "And then there's the pet shop.",
+   "scene": "PET SHOP exterior",
+   "set": "petshop",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/04_curse.js"
+  },
+  {
+   "id": "s073",
+   "start": 223.6,
+   "end": 225.49,
+   "line": "You walk in for cat food,",
+   "scene": "You walk in, the bell rings",
+   "set": "petshop",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/04_curse.js"
+  },
+  {
+   "id": "s074",
+   "start": 225.49,
+   "end": 228.54,
+   "line": "and the whole room turns to you at once.",
+   "scene": "Every animal turns at once",
+   "set": "petshop",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/04_curse.js"
+  },
+  {
+   "id": "s075",
+   "start": 228.54,
+   "end": 230.07,
+   "line": "Every puppy.",
+   "scene": "Puppies pressed to the glass",
+   "set": "petshop",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/04_curse.js"
+  },
+  {
+   "id": "s076",
+   "start": 230.07,
+   "end": 231.57,
+   "line": "Every rabbit.",
+   "scene": "Rabbits",
+   "set": "petshop",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/04_curse.js"
+  },
+  {
+   "id": "s077",
+   "start": 231.57,
+   "end": 234.18,
+   "line": "Every bird in every cage.",
+   "scene": "Birds in cages",
+   "set": "petshop",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/04_curse.js"
+  },
+  {
+   "id": "s078",
+   "start": 234.18,
+   "end": 237.9,
+   "line": "Pick me. Pick me. Take me home.",
+   "scene": "PICK ME bubbles everywhere",
+   "set": "petshop",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/04_curse.js"
+  },
+  {
+   "id": "s079",
+   "start": 237.9,
+   "end": 240.05,
+   "line": "You can't take them all.",
+   "scene": "You among the cages, sad",
+   "set": "petshop",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/04_curse.js"
+  },
+  {
+   "id": "s080",
+   "start": 240.05,
+   "end": 242.5,
+   "line": "You can't even take one.",
+   "scene": "BIG FACE: sad",
+   "set": "face",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/04_curse.js"
+  },
+  {
+   "id": "s081",
+   "start": 242.5,
+   "end": 246.59,
+   "line": "You walk out with a bag of cat food, and you don't look back.",
+   "scene": "You walk out with cat food, the animals' eyes behind you",
+   "set": "petshop",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/04_curse.js"
+  },
+  {
+   "id": "s082",
+   "start": 246.59,
+   "end": 249.22,
+   "line": "Hey. What's wrong?",
+   "scene": "KITCHEN: Mom, worried",
+   "set": "kitchen",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/04_curse.js"
+  },
+  {
+   "id": "s083",
+   "start": 249.22,
+   "end": 251.0,
+   "line": "You say nothing.",
+   "scene": "You at the table, silent; Biscuit watching",
+   "set": "kitchen",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/04_curse.js"
+  },
+  {
+   "id": "s084",
+   "start": 251.0,
+   "end": 253.31,
+   "line": "Biscuit doesn't either.",
+   "scene": "CLOSE: Biscuit",
+   "set": "kitchen",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/04_curse.js"
+  },
+  {
+   "id": "s085",
+   "start": 253.31,
+   "end": 257.81,
+   "line": "But that night, he sleeps across your doorway.",
+   "scene": "NIGHT: Biscuit lying across your doorway",
+   "set": "bedroom",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/04_curse.js"
+  },
+  {
+   "id": "s086",
+   "start": 257.81,
+   "end": 261.59,
+   "line": "So... could animals really talk?",
+   "scene": "BLUEPRINT title: IS ANY OF THIS REAL?",
+   "set": "blueprint",
+   "bars": "none",
+   "in": {
+    "type": "dip",
+    "dur": 0.35
+   },
+   "notes": "shots/05_science.js"
+  },
+  {
+   "id": "s087",
+   "start": 261.59,
+   "end": 264.1,
+   "line": "In a way, they already do.",
+   "scene": "Animal icons with sound waves",
+   "set": "blueprint",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/05_science.js"
+  },
+  {
+   "id": "s088",
+   "start": 264.1,
+   "end": 267.66,
+   "line": "Remember the prairie dogs? That's real.",
+   "scene": "A prairie dog on lookout",
+   "set": "blueprint",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/05_science.js"
+  },
+  {
+   "id": "s089",
+   "start": 267.66,
+   "end": 272.18,
+   "line": "A biologist in Arizona spent years recording their alarm calls.",
+   "scene": "REAL: biologist with a microphone in the desert",
+   "set": "real",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/05_science.js"
+  },
+  {
+   "id": "s090",
+   "start": 272.18,
+   "end": 274.45,
+   "line": "They don't just shout \"danger\".",
+   "scene": "A call labelled DANGER, crossed out",
+   "set": "blueprint",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/05_science.js"
+  },
+  {
+   "id": "s091",
+   "start": 274.45,
+   "end": 280.14,
+   "line": "They describe what's coming: a person, how tall, even the colour of their shirt.",
+   "scene": "Different waves for a tall / short person and shirt colours",
+   "set": "blueprint",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/05_science.js"
+  },
+  {
+   "id": "s092",
+   "start": 280.14,
+   "end": 286.16,
+   "line": "Vervet monkeys have different alarms for a leopard, an eagle and a snake.",
+   "scene": "Three alarms: leopard, eagle, snake",
+   "set": "blueprint",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/05_science.js"
+  },
+  {
+   "id": "s093",
+   "start": 286.16,
+   "end": 289.18,
+   "line": "Hear \"eagle\", and they look up.",
+   "scene": "Monkeys look up, eagle above",
+   "set": "blueprint",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/05_science.js"
+  },
+  {
+   "id": "s094",
+   "start": 289.18,
+   "end": 292.48,
+   "line": "Hear \"snake\", and they look down.",
+   "scene": "Monkeys look down, snake below",
+   "set": "blueprint",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/05_science.js"
+  },
+  {
+   "id": "s095",
+   "start": 292.48,
+   "end": 297.6,
+   "line": "Honeybees dance to tell each other which way the flowers are, and how far.",
+   "scene": "The waggle dance on the comb, angle to the sun, flowers",
+   "set": "blueprint",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/05_science.js"
+  },
+  {
+   "id": "s096",
+   "start": 297.6,
+   "end": 301.6,
+   "line": "That dance won a Nobel Prize in nineteen seventy-three.",
+   "scene": "NOBEL PRIZE 1973 medal",
+   "set": "blueprint",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/05_science.js"
+  },
+  {
+   "id": "s097",
+   "start": 301.6,
+   "end": 307.78,
+   "line": "And in twenty twenty-four, scientists in Kenya found that wild elephants have names too.",
+   "scene": "KENYA savanna: elephants",
+   "set": "savanna",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/05_science.js"
+  },
+  {
+   "id": "s098",
+   "start": 307.78,
+   "end": 311.96,
+   "line": "Play an elephant a call meant for her, and she calls back.",
+   "scene": "A call for her: she turns and calls back",
+   "set": "savanna",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/05_science.js"
+  },
+  {
+   "id": "s099",
+   "start": 311.96,
+   "end": 315.71,
+   "line": "Meant for someone else? She mostly ignores it.",
+   "scene": "A call for someone else: she keeps eating",
+   "set": "savanna",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/05_science.js"
+  },
+  {
+   "id": "s100",
+   "start": 315.71,
+   "end": 321.76,
+   "line": "And here's one the internet gets wrong: one dog year isn't seven human years.",
+   "scene": "1 DOG YEAR = 7 HUMAN YEARS, crossed out",
+   "set": "blueprint",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/05_science.js"
+  },
+  {
+   "id": "s101",
+   "start": 321.76,
+   "end": 328.63,
+   "line": "A twenty twenty study of Labradors' DNA worked out that a fourteen-year-old dog is about seventy-three.",
+   "scene": "DNA helix and the curve; 14 -> 73",
+   "set": "blueprint",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/05_science.js"
+  },
+  {
+   "id": "s102",
+   "start": 328.63,
+   "end": 331.69,
+   "line": "Biscuit is seventy-three.",
+   "scene": "Biscuit in his sunny spot, badge 73",
+   "set": "living",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/05_science.js"
+  },
+  {
+   "id": "s103",
+   "start": 331.69,
+   "end": 339.27,
+   "line": "Right now, a team called Project CETI is using AI to decode the clicks of sperm whales.",
+   "scene": "Underwater: a sperm whale, clicks as dots; PROJECT CETI",
+   "set": "ocean",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/05_science.js"
+  },
+  {
+   "id": "s104",
+   "start": 339.27,
+   "end": 342.7,
+   "line": "They've already found patterns in them, like an alphabet.",
+   "scene": "Click patterns laid out like an alphabet",
+   "set": "blueprint",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/05_science.js"
+  },
+  {
+   "id": "s105",
+   "start": 342.7,
+   "end": 345.45,
+   "line": "None of these animals talk the way we do.",
+   "scene": "All the animals side by side",
+   "set": "blueprint",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/05_science.js"
+  },
+  {
+   "id": "s106",
+   "start": 345.45,
+   "end": 348.54,
+   "line": "But every one of them is saying something.",
+   "scene": "Bubbles over each animal",
+   "set": "blueprint",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/05_science.js"
+  },
+  {
+   "id": "s107",
+   "start": 348.54,
+   "end": 351.42,
+   "line": "We just never learned how to listen.",
+   "scene": "You, listening",
+   "set": "face",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/05_science.js"
+  },
+  {
+   "id": "s108",
+   "start": 351.42,
+   "end": 356.16,
+   "line": "Remember the whales. You're going to hear them again.",
+   "scene": "The whale glows; back to the story",
+   "set": "ocean",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/05_science.js"
+  },
+  {
+   "id": "s109",
+   "start": 356.16,
+   "end": 362.21,
+   "line": "A week later, an email arrives. Project CETI has seen your video.",
+   "scene": "LAPTOP: email from PROJECT CETI",
+   "set": "bedroom",
+   "bars": "none",
+   "in": {
+    "type": "dip",
+    "dur": 0.35
+   },
+   "notes": "shots/06_biscuit.js"
+  },
+  {
+   "id": "s110",
+   "start": 362.21,
+   "end": 364.07,
+   "line": "They send you a recording.",
+   "scene": "The audio file, a waveform",
+   "set": "bedroom",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/06_biscuit.js"
+  },
+  {
+   "id": "s111",
+   "start": 364.07,
+   "end": 365.92,
+   "line": "You put on the headphones.",
+   "scene": "BIG FACE: you in headphones",
+   "set": "face",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/06_biscuit.js"
+  },
+  {
+   "id": "s112",
+   "start": 365.92,
+   "end": 369.93,
+   "line": "Clicks. Long, slow clicks.",
+   "scene": "Clicks as glowing dots",
+   "set": "ocean",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/06_biscuit.js"
+  },
+  {
+   "id": "s113",
+   "start": 369.93,
+   "end": 373.32,
+   "line": "And under the clicks, words.",
+   "scene": "The waveform turns into words",
+   "set": "ocean",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/06_biscuit.js"
+  },
+  {
+   "id": "s114",
+   "start": 373.32,
+   "end": 375.77,
+   "line": "A mother whale calling her calf.",
+   "scene": "Underwater: a mother whale and her calf",
+   "set": "ocean",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/06_biscuit.js"
+  },
+  {
+   "id": "s115",
+   "start": 375.77,
+   "end": 379.24,
+   "line": "The same name, over and over.",
+   "scene": "The same bubble again and again",
+   "set": "ocean",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/06_biscuit.js"
+  },
+  {
+   "id": "s116",
+   "start": 379.24,
+   "end": 380.82,
+   "line": "You write it down.",
+   "scene": "Notebook: a strange word",
+   "set": "bedroom",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/06_biscuit.js"
+  },
+  {
+   "id": "s117",
+   "start": 380.82,
+   "end": 382.5,
+   "line": "They don't believe you.",
+   "scene": "Video call: skeptical scientists",
+   "set": "bedroom",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/06_biscuit.js"
+  },
+  {
+   "id": "s118",
+   "start": 382.5,
+   "end": 384.53,
+   "line": "Then they check their tapes.",
+   "scene": "Spectrograms side by side",
+   "set": "bedroom",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/06_biscuit.js"
+  },
+  {
+   "id": "s119",
+   "start": 384.53,
+   "end": 388.51,
+   "line": "Every time she calls that name, the calf answers.",
+   "scene": "Mother calls, calf answers, MATCH ticks",
+   "set": "ocean",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/06_biscuit.js"
+  },
+  {
+   "id": "s120",
+   "start": 388.51,
+   "end": 393.04,
+   "line": "The news calls you the kid who talks to whales.",
+   "scene": "TV news: THE KID WHO TALKS TO WHALES",
+   "set": "tv",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/06_biscuit.js"
+  },
+  {
+   "id": "s121",
+   "start": 393.04,
+   "end": 396.97,
+   "line": "But that night, Biscuit doesn't come up the stairs.",
+   "scene": "Night: you at the top of the stairs",
+   "set": "stairs",
+   "bars": "none",
+   "in": {
+    "type": "dip",
+    "dur": 0.35
+   },
+   "notes": "shots/06_biscuit.js"
+  },
+  {
+   "id": "s122",
+   "start": 396.97,
+   "end": 400.03,
+   "line": "You find him at the bottom, looking up at you.",
+   "scene": "Biscuit at the bottom, looking up",
+   "set": "stairs",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/06_biscuit.js"
+  },
+  {
+   "id": "s123",
+   "start": 400.03,
+   "end": 403.73,
+   "line": "It's my back legs. They do this now.",
+   "scene": "CLOSE: Biscuit, tired",
+   "set": "stairs",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/06_biscuit.js"
+  },
+  {
+   "id": "s124",
+   "start": 403.73,
+   "end": 407.3,
+   "line": "You carry him up. He's lighter than he used to be.",
+   "scene": "You carry him up the stairs",
+   "set": "stairs",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/06_biscuit.js"
+  },
+  {
+   "id": "s125",
+   "start": 407.3,
+   "end": 410.4,
+   "line": "Don't tell your mom. She'll worry.",
+   "scene": "Biscuit on your bed, whispering",
+   "set": "bedroom",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/06_biscuit.js"
+  },
+  {
+   "id": "s126",
+   "start": 410.4,
+   "end": 416.84,
+   "line": "He's been hurting since the winter. He just couldn't tell anyone. Until now.",
+   "scene": "FLASHBACK winter: Biscuit limping in the snow",
+   "set": "garden",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/06_biscuit.js"
+  },
+  {
+   "id": "s127",
+   "start": 416.84,
+   "end": 420.18,
+   "line": "You tell Mom. The vet is kind.",
+   "scene": "VET: kind vet, Mom, you, Biscuit on the table",
+   "set": "vet",
+   "bars": "none",
+   "in": {
+    "type": "dip",
+    "dur": 0.35
+   },
+   "notes": "shots/06_biscuit.js"
+  },
+  {
+   "id": "s128",
+   "start": 420.18,
+   "end": 423.79,
+   "line": "His hips are worn out, and his heart is tired.",
+   "scene": "X-ray of the hips, a tired heart",
+   "set": "vet",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/06_biscuit.js"
+  },
+  {
+   "id": "s129",
+   "start": 423.79,
+   "end": 426.98,
+   "line": "Weeks. Maybe less.",
+   "scene": "Calendar pages tearing off",
+   "set": "vet",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/06_biscuit.js"
+  },
+  {
+   "id": "s130",
+   "start": 426.98,
+   "end": 430.18,
+   "line": "So you spend every one of them together.",
+   "scene": "Beach at sunset: you and Biscuit",
+   "set": "beach",
+   "bars": "none",
+   "in": {
+    "type": "dip",
+    "dur": 0.35
+   },
+   "notes": "shots/06_biscuit.js"
+  },
+  {
+   "id": "s131",
+   "start": 430.18,
+   "end": 433.93,
+   "line": "He tells you he's hated the vacuum cleaner since day one.",
+   "scene": "Biscuit glares at the vacuum cleaner",
+   "set": "living",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/06_biscuit.js"
+  },
+  {
+   "id": "s132",
+   "start": 433.93,
+   "end": 437.07,
+   "line": "That he can hear Mom's car two streets away.",
+   "scene": "Biscuit's ears up; map: Mom's car two streets away",
+   "set": "living",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/06_biscuit.js"
+  },
+  {
+   "id": "s133",
+   "start": 437.07,
+   "end": 439.66,
+   "line": "That's why he's always at the door first.",
+   "scene": "Biscuit at the door before the car turns in",
+   "set": "living",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/06_biscuit.js"
+  },
+  {
+   "id": "s134",
+   "start": 439.66,
+   "end": 443.42,
+   "line": "The day you were born, everybody left in a hurry.",
+   "scene": "FLASHBACK: young Biscuit alone by the door",
+   "set": "living",
+   "bars": "none",
+   "in": {
+    "type": "dip",
+    "dur": 0.35
+   },
+   "notes": "shots/06_biscuit.js"
+  },
+  {
+   "id": "s135",
+   "start": 443.42,
+   "end": 446.16,
+   "line": "I waited by the door for two days.",
+   "scene": "Day and night pass at the window; he keeps waiting",
+   "set": "living",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/06_biscuit.js"
+  },
+  {
+   "id": "s136",
+   "start": 446.16,
+   "end": 448.23,
+   "line": "Then they came back with you.",
+   "scene": "Mom and Dad come in with a baby; Biscuit sniffs",
+   "set": "living",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/06_biscuit.js"
+  },
+  {
+   "id": "s137",
+   "start": 448.23,
+   "end": 451.33,
+   "line": "You were very small and very loud.",
+   "scene": "Baby you and young Biscuit, nose to nose",
+   "set": "living",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/06_biscuit.js"
+  },
+  {
+   "id": "s138",
+   "start": 451.33,
+   "end": 453.39,
+   "line": "I liked you right away.",
+   "scene": "Biscuit lying by the crib",
+   "set": "living",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/06_biscuit.js"
+  },
+  {
+   "id": "s139",
+   "start": 453.39,
+   "end": 458.61,
+   "line": "On the last night, he lies in his sunny spot, even though it's dark.",
+   "scene": "Night: moonlight on the sunny spot, Biscuit lying in it, you beside him",
+   "set": "living",
+   "bars": "none",
+   "in": {
+    "type": "dip",
+    "dur": 0.35
+   },
+   "notes": "shots/06_biscuit.js"
+  },
+  {
+   "id": "s140",
+   "start": 458.61,
+   "end": 463.35,
+   "line": "You talked to me every day of your life. I always understood.",
+   "scene": "CLOSE: your faces almost touching",
+   "set": "living",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/06_biscuit.js"
+  },
+  {
+   "id": "s141",
+   "start": 463.35,
+   "end": 467.39,
+   "line": "This year, you understood me back. Best year.",
+   "scene": "CLOSE: Biscuit, warm",
+   "set": "living",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/06_biscuit.js"
+  },
+  {
+   "id": "s142",
+   "start": 467.39,
+   "end": 470.31,
+   "line": "Don't be sad for too long. Okay?",
+   "scene": "Biscuit, gentle",
+   "set": "living",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/06_biscuit.js"
+  },
+  {
+   "id": "s143",
+   "start": 470.31,
+   "end": 472.57,
+   "line": "You say okay.",
+   "scene": "BIG FACE: you nod, tears",
+   "set": "face",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/06_biscuit.js"
+  },
+  {
+   "id": "s144",
+   "start": 472.57,
+   "end": 475.91,
+   "line": "It's the first time you ever lied to him.",
+   "scene": "WIDE quiet: the two of you in the moonlight",
+   "set": "living",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/06_biscuit.js"
+  },
+  {
+   "id": "s145",
+   "start": 475.91,
+   "end": 478.83,
+   "line": "He falls asleep with his head on your foot.",
+   "scene": "His head on your foot",
+   "set": "living",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/06_biscuit.js"
+  },
+  {
+   "id": "s146",
+   "start": 478.83,
+   "end": 481.43,
+   "line": "And he doesn't wake up.",
+   "scene": "Very still; the moonlight fades",
+   "set": "living",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/06_biscuit.js"
+  },
+  {
+   "id": "s147",
+   "start": 481.43,
+   "end": 484.53,
+   "line": "For weeks, you can't go to the park.",
+   "scene": "Park gate: you stay outside",
+   "set": "park",
+   "bars": "none",
+   "in": {
+    "type": "dip",
+    "dur": 0.35
+   },
+   "notes": "shots/06_biscuit.js"
+  },
+  {
+   "id": "s148",
+   "start": 484.53,
+   "end": 487.11,
+   "line": "Every dog there says hello.",
+   "scene": "Dogs running past, HI! HI!",
+   "set": "park",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/06_biscuit.js"
+  },
+  {
+   "id": "s149",
+   "start": 487.11,
+   "end": 489.19,
+   "line": "None of them sound like him.",
+   "scene": "BIG FACE: you",
+   "set": "face",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/06_biscuit.js"
+  },
+  {
+   "id": "s150",
+   "start": 489.19,
+   "end": 492.56,
+   "line": "And there's still no off switch.",
+   "scene": "The dusty OFF switch",
+   "set": "insert",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/06_biscuit.js"
+  },
+  {
+   "id": "s151",
+   "start": 492.56,
+   "end": 499.88,
+   "line": "Then one morning, at four forty-seven, you wake up, and something's wrong.",
+   "scene": "Bedroom: clock 4:47, your eyes open",
+   "set": "bedroom",
+   "bars": "none",
+   "in": {
+    "type": "dip",
+    "dur": 0.35
+   },
+   "notes": "shots/07_twist.js"
+  },
+  {
+   "id": "s152",
+   "start": 499.88,
+   "end": 501.39,
+   "line": "It's quiet.",
+   "scene": "The window: still, silent",
+   "set": "garden",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/07_twist.js"
+  },
+  {
+   "id": "s153",
+   "start": 501.39,
+   "end": 505.0,
+   "line": "No birds. No \"my tree\".",
+   "scene": "Empty branches, empty wires",
+   "set": "garden",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/07_twist.js"
+  },
+  {
+   "id": "s154",
+   "start": 505.0,
+   "end": 507.81,
+   "line": "Not one crow on the fence.",
+   "scene": "The empty fence",
+   "set": "garden",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/07_twist.js"
+  },
+  {
+   "id": "s155",
+   "start": 507.81,
+   "end": 513.73,
+   "line": "Pickles is sitting at the window, ears flat, staring toward the sea.",
+   "scene": "Pickles from behind at the window, the sea at dawn",
+   "set": "living",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/07_twist.js"
+  },
+  {
+   "id": "s156",
+   "start": 513.73,
+   "end": 517.12,
+   "line": "Then you hear it. Not from the garden.",
+   "scene": "You sit up, listening",
+   "set": "bedroom",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/07_twist.js"
+  },
+  {
+   "id": "s157",
+   "start": 517.12,
+   "end": 520.18,
+   "line": "From very, very far away.",
+   "scene": "The far sea at dawn",
+   "set": "sea",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/07_twist.js"
+  },
+  {
+   "id": "s158",
+   "start": 520.18,
+   "end": 523.15,
+   "line": "Deeper than any voice you've ever heard.",
+   "scene": "Dark shapes under the surface",
+   "set": "sea",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/07_twist.js"
+  },
+  {
+   "id": "s159",
+   "start": 523.15,
+   "end": 527.44,
+   "line": "Thousands of them. Saying the same three words.",
+   "scene": "Many whale backs and tails, all the way to the horizon",
+   "set": "sea",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/07_twist.js"
+  },
+  {
+   "id": "s160",
+   "start": 527.44,
+   "end": 532.25,
+   "line": "We hear you.",
+   "scene": "The surface, a slow ripple spreading toward the shore",
+   "set": "sea",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/07_twist.js"
+  },
+  {
+   "id": "s161",
+   "start": 532.25,
+   "end": 534.22,
+   "line": "Pickles doesn't turn around.",
+   "scene": "Pickles from behind",
+   "set": "living",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/07_twist.js"
+  },
+  {
+   "id": "s162",
+   "start": 534.22,
+   "end": 536.83,
+   "line": "They've been asking for you all night.",
+   "scene": "CLOSE: Pickles' eyes in the dark, reflecting the dawn",
+   "set": "living",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/07_twist.js"
+  },
+  {
+   "id": "s163",
+   "start": 536.83,
+   "end": 551.0,
+   "line": "So, if you could talk to animals, who would you talk to first, and what would you ask? Tell me in the comments. And subscribe, because the whales aren't done talking.",
+   "scene": "END SCREEN: What would YOU do?, comment bubble, Subscribe, cast lineup, PART 2",
+   "set": "end",
+   "bars": "none",
+   "in": {
+    "type": "fade",
+    "dur": 0.35
+   },
+   "notes": "shots/07_twist.js"
+  }
  ],
  "music": [],
  "sfx": []

@@ -112,3 +112,68 @@ export function faceV2(g, hx, hy, r, o = {}) {
   }
   g.restore();
 }
+
+// giant front-facing close-up (fills the frame): bigFaceV2(g, cx, cy, r, { outfit, expr, look, talk, blink, tears, rim, tilt, headphones })
+export function bigFaceV2(g, cx, cy, r, o = {}) {
+  const ink = S().ink, of = o.outfit || {}, top = of.color || '#2E72D2', rc = o.rim || '#ffd8a8';
+  const ex = { ...(EXPRS[o.expr] || EXPRS.neutral) }, look = o.look || [0, 0], lid = o.blink ? 1 : clamp(ex.lid);
+  g.save(); g.translate(cx, cy); if (o.tilt) g.rotate(o.tilt);
+  // shoulders + clothes
+  g.fillStyle = shade(top, -0.08); g.beginPath(); g.ellipse(0, r * 1.75, r * 1.35, r * 0.95, 0, Math.PI, Math.PI * 2); g.fill();
+  if (of.top === 'hoodie') { g.fillStyle = shade(top, -0.25); g.beginPath(); g.ellipse(0, r * 0.95, r * 0.95, r * 0.35, 0, 0, Math.PI * 2); g.fill();
+    for (const dx of [-0.28, 0.28]) seg(g, [[dx * r, r * 1.05], [dx * r * 1.1, r * 1.45]], r * 0.05, WHITE); }
+  if (of.top === 'tshirt' || of.top === 'sweater') { g.fillStyle = shade(top, -0.25); g.beginPath(); g.ellipse(0, r * 0.98, r * 0.42, r * 0.16, 0, 0, Math.PI * 2); g.fill(); }
+  seg(g, [[0, r * 0.7], [0, r * 0.95]], r * 0.36, ink);                                         // neck
+  hairBackBig(g, of, r, ink);
+  // rim crescent + head
+  g.save(); g.beginPath(); g.arc(0, 0, r * 1.05, 0, Math.PI * 2); g.arc(-r * 0.06, r * 0.03, r, 0, Math.PI * 2, true); g.fillStyle = rc; g.fill('evenodd'); g.restore();
+  circle(g, 0, 0, r, ink);
+  hairFrontBig(g, of, r, ink);
+  if (o.headphones) { g.strokeStyle = '#2a2a34'; g.lineWidth = r * 0.12; g.beginPath(); g.arc(0, -r * 0.05, r * 1.08, Math.PI * 1.08, Math.PI * 1.92); g.stroke();
+    for (const s of [-1, 1]) { rr(g, s * r * 1.02 - r * 0.16, -r * 0.2, r * 0.32, r * 0.5, r * 0.12); g.fillStyle = '#E8892A'; g.fill(); } }
+  // eyes
+  const ey = -r * 0.1;
+  for (const s of [-1, 1]) {
+    const x = s * r * 0.36, rx = r * 0.21, ry = r * 0.27;
+    g.save(); g.beginPath(); g.ellipse(x, ey, rx, ry, 0, 0, Math.PI * 2); g.clip();
+    g.fillStyle = WHITE; g.fillRect(x - rx, ey - ry, rx * 2, ry * 2);
+    circle(g, x + look[0] * rx * 0.45, ey + look[1] * ry * 0.4 + ry * 0.1, r * 0.11 * (ex.pupil || 1), ink);
+    circle(g, x + look[0] * rx * 0.45 + r * 0.04, ey + look[1] * ry * 0.4 + ry * 0.1 - r * 0.04, r * 0.03, '#ffffff');
+    g.fillStyle = ink; g.fillRect(x - rx - 1, ey - ry - 1, rx * 2 + 2, ry * 2 * lid + 1);
+    g.restore();
+    const by = ey - ry - r * 0.1;
+    if (ex.brows === 'sad') seg(g, [[x - s * rx * 0.9, by - r * 0.08], [x + s * rx * 0.9, by + r * 0.03]], r * 0.06, WHITE);
+    if (ex.brows === 'down') seg(g, [[x - s * rx * 0.9, by + r * 0.05], [x + s * rx * 0.9, by - r * 0.05]], r * 0.06, WHITE);
+    if (ex.brows === 'up') { g.strokeStyle = WHITE; g.lineWidth = r * 0.055; g.beginPath(); g.arc(x, by + r * 0.12, rx * 1.1, Math.PI * 1.2, Math.PI * 1.8); g.stroke(); }
+    if (o.tears) { const k = (o.tears === true ? 1 : o.tears); g.fillStyle = alpha('#8fd0ff', 0.9); g.beginPath(); g.ellipse(x + s * rx * 0.3, ey + ry + r * 0.08 + k * r * 0.25, r * 0.045, r * 0.08, 0, 0, Math.PI * 2); g.fill(); }
+  }
+  // mouth
+  const my = r * 0.45, talk = o.talk || 0;
+  if (talk > 0.05) { g.fillStyle = WHITE; g.beginPath(); g.ellipse(0, my, r * 0.17, r * (0.04 + 0.16 * talk), 0, 0, Math.PI * 2); g.fill(); }
+  else switch (ex.mouth) {
+    case 'smile': g.strokeStyle = WHITE; g.lineWidth = r * 0.07; g.lineCap = 'round'; g.beginPath(); g.arc(0, my - r * 0.18, r * 0.24, 0.45, Math.PI - 0.45); g.stroke(); break;
+    case 'grin': g.fillStyle = WHITE; g.beginPath(); g.moveTo(-r * 0.28, my - r * 0.05); g.quadraticCurveTo(0, my + r * 0.36, r * 0.28, my - r * 0.05); g.closePath(); g.fill(); break;
+    case 'frown': g.strokeStyle = WHITE; g.lineWidth = r * 0.065; g.lineCap = 'round'; g.beginPath(); g.arc(0, my + r * 0.18, r * 0.2, Math.PI + 0.55, Math.PI * 2 - 0.55); g.stroke(); break;
+    case 'o': g.fillStyle = WHITE; g.beginPath(); g.ellipse(0, my, r * 0.09, r * 0.13, 0, 0, Math.PI * 2); g.fill(); break;
+    case 'wavy': { g.strokeStyle = WHITE; g.lineWidth = r * 0.06; g.beginPath(); for (let i = 0; i <= 14; i++) { const u = i / 14; const x = -r * 0.22 + u * r * 0.44, y = my + Math.sin(u * Math.PI * 2) * r * 0.05; i ? g.lineTo(x, y) : g.moveTo(x, y); } g.stroke(); break; }
+    default: seg(g, [[-r * 0.16, my], [r * 0.16, my]], r * 0.065, WHITE);
+  }
+  g.restore();
+}
+function hairBackBig(g, of, r, ink) {
+  if (of.hair === 'bun') { circle(g, 0, -r * 1.02, r * 0.38, ink); }
+  if (of.hair === 'spiky' || of.hair === 'capSpiky') for (let i = 0; i < 9; i++) { const a = Math.PI * (1.05 + i * 0.1); g.fillStyle = ink; g.beginPath(); g.moveTo(Math.cos(a - 0.12) * r * 0.9, Math.sin(a - 0.12) * r * 0.9); g.lineTo(Math.cos(a) * r * 1.32, Math.sin(a) * r * 1.32); g.lineTo(Math.cos(a + 0.12) * r * 0.9, Math.sin(a + 0.12) * r * 0.9); g.fill(); }
+}
+function hairFrontBig(g, of, r, ink) {
+  if (of.hair === 'cap' || of.hair === 'capSpiky') { const c = of.capColor || of.color; g.fillStyle = c; g.beginPath(); g.arc(0, -r * 0.12, r * 1.02, Math.PI * 1.05, Math.PI * 1.95); g.closePath(); g.fill(); rr(g, -r * 0.9, -r * 0.24, r * 1.8, r * 0.16, r * 0.08); g.fillStyle = shade(c, -0.15); g.fill(); }
+}
+
+// extra poses for this video (same rig as the engine POSES)
+export const XP = {
+  kneelTalk: { head: [16, -150], sh: [8, -118], hip: [0, -60], eF: [30, -96], hF: [52, -104], eB: [20, -92], hB: [36, -80], kF: [36, -46], fF: [34, 0], kB: [-6, -4], fB: [-48, 0] },
+  floorSit: { head: [-4, -118], sh: [-2, -86], hip: [0, -14], eF: [18, -52], hF: [38, -34], eB: [-14, -52], hB: [-28, -16], kF: [44, -46], fF: [84, -4], kB: [40, -44], fB: [76, -4] },
+  carry: { head: [8, -208], sh: [2, -174], hip: [0, -100], eF: [30, -150], hF: [50, -150], eB: [24, -146], hB: [46, -146], kF: [6, -50], fF: [3, 0], kB: [-6, -50], fB: [-11, 0] },
+  hoodWalk: null,
+  pillow: { head: [6, -60], sh: [-30, -46], hip: [-110, -40], eF: [0, -86], hF: [24, -80], eB: [-10, -84], hB: [14, -76], kF: [-160, -46], fF: [-220, -40], kB: [-160, -40], fB: [-218, -34] },
+  sitBed: { head: [-2, -186], sh: [0, -152], hip: [0, -78], eF: [14, -116], hF: [30, -88], eB: [-10, -116], hB: [-22, -86], kF: [44, -78], fF: [50, 0], kB: [40, -76], fB: [42, 0] },
+};
