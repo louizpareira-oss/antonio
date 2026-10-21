@@ -13,13 +13,13 @@
 ## Cast
 | Character | Look | Voice |
 |---|---|---|
-| YOU (hero) | the channel's hero: black head, blue hoodie | narrator (no spoken lines) |
-| BISCUIT | 14-year-old yellow Labrador mix, white old-dog face, red collar with a gold tag | warm, slow, a bit gravelly (new) |
-| PICKLES | the family cat, black and white, permanently unimpressed | dry, bored (new) |
-| MOM | green top, bun (same as before) | 1 short line |
+| YOU (hero) | the channel's hero: black head, blue hoodie | narrator "What-If Narrator (relaxed)" (no spoken lines) |
+| BISCUIT | 14-year-old yellow Labrador mix, white old-dog face, red collar with a gold tag | **new voice**, designed from the user's description (pending) |
+| PICKLES | the family cat, black and white, permanently unimpressed | "Laura - Quirky" (ElevenLabs premade) |
+| MOM | green sweater, bun | 1 short line: "Mom (Stronger)" |
 | THEO (best friend) | orange cap | no lines |
-| BIRDS / CROWS / PIGEON / SQUIRREL / PRAIRIE DOG | street animals, zoo | short lines (one voice each, or one versatile voice) |
-| THE WHALES | never shown up close: a deep sea at dawn | 3 words, very deep (new, or the narrator pitched down) |
+| BIRDS / CROWS / PIGEON / SQUIRREL / PRAIRIE DOG | street animals, zoo | short lines: premade voices, sped up / pitched in the mix |
+| THE WHALES | never shown up close: a deep sea at dawn | 3 words: the narrator's line pitched very deep and layered (no new voice) |
 | Project CETI scientists | white T-shirts, "PROJECT CETI" as plain text, no logo | no lines |
 
 **Recurring elements:**
