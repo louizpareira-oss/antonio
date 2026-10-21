@@ -72,10 +72,12 @@ function torso(g, p, of, col, sil) {
 }
 
 function hairBack(g, h, of, ink, capCol) {
+  if (of.hood) circle(g, h[0] - 4, h[1] + 2, HR * 1.3, shade(of.color || '#2E72D2', -0.12));
   if (of.hair === 'bun') { circle(g, h[0] - HR * 0.62, h[1] - HR * 0.62, HR * 0.42, ink); circle(g, h[0] - HR * 0.75, h[1] - HR * 0.15, HR * 0.5, ink); }
   if (of.hair === 'spiky' || of.hair === 'capSpiky') for (let i = 0; i < 6; i++) { const a = Math.PI * (0.95 + i * 0.16); g.fillStyle = ink; g.beginPath(); g.moveTo(h[0] + Math.cos(a - 0.2) * HR * 0.9, h[1] + Math.sin(a - 0.2) * HR * 0.9); g.lineTo(h[0] + Math.cos(a) * HR * 1.45, h[1] + Math.sin(a) * HR * 1.45); g.lineTo(h[0] + Math.cos(a + 0.2) * HR * 0.9, h[1] + Math.sin(a + 0.2) * HR * 0.9); g.fill(); }
 }
 function hairFront(g, h, of, ink, capCol, sil) {
+  if (of.hood && !sil) { g.strokeStyle = shade(of.color || '#2E72D2', 0.12); g.lineWidth = 7; g.beginPath(); g.arc(h[0] - 4, h[1] + 2, HR * 1.22, Math.PI * 0.85, Math.PI * 1.8); g.stroke(); }
   if (of.hair === 'cap' || of.hair === 'capSpiky') {
     g.fillStyle = capCol; g.beginPath(); g.arc(h[0] + 2, h[1] - 4, HR * 1.04, Math.PI * 1.02, Math.PI * 1.98); g.closePath(); g.fill();
     rr(g, h[0] + HR * 0.55, h[1] - 9, HR * 0.95, 7, 3.5); g.fill();                                   // brim
@@ -161,10 +163,12 @@ export function bigFaceV2(g, cx, cy, r, o = {}) {
   g.restore();
 }
 function hairBackBig(g, of, r, ink) {
+  if (of.hood) circle(g, 0, r * 0.08, r * 1.28, shade(of.color || '#2E72D2', -0.15));
   if (of.hair === 'bun') { circle(g, 0, -r * 1.02, r * 0.38, ink); }
   if (of.hair === 'spiky' || of.hair === 'capSpiky') for (let i = 0; i < 9; i++) { const a = Math.PI * (1.05 + i * 0.1); g.fillStyle = ink; g.beginPath(); g.moveTo(Math.cos(a - 0.12) * r * 0.9, Math.sin(a - 0.12) * r * 0.9); g.lineTo(Math.cos(a) * r * 1.32, Math.sin(a) * r * 1.32); g.lineTo(Math.cos(a + 0.12) * r * 0.9, Math.sin(a + 0.12) * r * 0.9); g.fill(); }
 }
 function hairFrontBig(g, of, r, ink) {
+  if (of.hood) { g.strokeStyle = shade(of.color || '#2E72D2', 0.15); g.lineWidth = r * 0.08; g.beginPath(); g.arc(0, r * 0.08, r * 1.2, Math.PI * 1.05, Math.PI * 1.95); g.stroke(); }
   if (of.hair === 'cap' || of.hair === 'capSpiky') { const c = of.capColor || of.color; g.fillStyle = c; g.beginPath(); g.arc(0, -r * 0.12, r * 1.02, Math.PI * 1.05, Math.PI * 1.95); g.closePath(); g.fill(); rr(g, -r * 0.9, -r * 0.24, r * 1.8, r * 0.16, r * 0.08); g.fillStyle = shade(c, -0.15); g.fill(); }
 }
 

@@ -164,7 +164,7 @@ export function city(g, t, cam, o = {}) {
   const roofs = [];
   layer(g, cam, 0.8, (g) => {
     const r = rng(12);
-    for (let i = 0; i < 7; i++) { const x = -200 + i * 340, h = 220 + r() * 220; g.fillStyle = '#2a2448'; g.fillRect(x, gy - h, 320, h + 300); g.fillStyle = '#3a3460'; g.fillRect(x - 10, gy - h - 16, 340, 20); roofs.push([x, gy - h - 16, 340]);
+    for (let i = 0; i < 7; i++) { const x = -200 + i * 340, h = 220 + r() * 220; g.fillStyle = '#5a4a7a'; g.fillRect(x, gy - h, 320, h + 300); g.fillStyle = '#7a6a9a'; g.fillRect(x - 10, gy - h - 16, 340, 20); for (let wy = gy - h + 40; wy < gy + 200; wy += 90) for (let wx = x + 30; wx < x + 300; wx += 70) { g.fillStyle = (wx * 7 + wy) % 3 ? '#ffd28a' : '#3a3058'; g.fillRect(wx, wy, 34, 44); } roofs.push([x, gy - h - 16, 340]);
       if (i % 3 === 1) { rr(g, x + 200, gy - h - 140, 80, 100, 10); g.fillStyle = '#4a3a5a'; g.fill(); seg(g, [[x + 210, gy - h - 40], [x + 210, gy - h - 16]], 6, '#3a2a4a'); seg(g, [[x + 270, gy - h - 40], [x + 270, gy - h - 16]], 6, '#3a2a4a'); } }
   });
   return { GY: gy, roofs };

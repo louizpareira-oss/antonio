@@ -2,7 +2,7 @@
 // with a darker shade and a light side, a rim light, and eyes with a glint (like the colour animals in the user's
 // reference videos). All face right at facing = 1; y is the floor. Each shape(g, K, pass) asks K(name) for a colour:
 // the rim pass gets the rim colour for everything, the main pass gets the animal's palette.
-import { seg, circle, poly, alpha, clamp } from '/engine/core.js';
+import { seg, circle, poly, alpha, clamp, rr } from '/engine/core.js';
 
 const RIM = { dir: [-0.8, -0.5], w: 4.5, color: '#ffc68a' };
 const WHITE = '#f6f2ea';
