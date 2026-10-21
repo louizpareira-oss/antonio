@@ -3,7 +3,7 @@
 **Format:** 16:9 YouTube, 1920 × 1080, 24 fps, about 8¾ minutes (~1,240 words at ~140 words/min).
 **Style:** 2D studio, the channel's hero (blue hoodie), in the **v2 look** from the user's Oct 21 references: clothes with shoulders and sleeves, sneakers, big eyes with pupils and lids, hair/caps; colour animals; bright, detailed rooms; the `clean` grade (`projects/talk-to-animals/scenes/look.js`). Follows `CLAUDE.md` and the fun → curse structure in
 `docs/14-fun-to-curse-structure.md`.
-**Status:** draft v1 (Oct 21), waiting for the user's approval before any voicing.
+**Status:** approved by the user (Oct 21), script and the v2 look. Next: voices.
 
 ## The rule of the story
 - One morning you understand every animal, and they understand you.
