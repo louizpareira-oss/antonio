@@ -186,8 +186,8 @@ export function seaDawn(g, t, cam, o = {}) {
   layer(g, cam, 0.3, (g) => {
     g.fillStyle = linGrad(g, 0, H, 0, gy + 200, ['#c08a9a', '#4a4a7a', '#1e2650']); g.fillRect(-E.W, H, E.W * 3, gy + 400 - H);
     g.save(); g.globalCompositeOperation = 'lighter'; g.fillStyle = alpha('#ffd8b0', 0.4); for (let i = 0; i < 8; i++) g.fillRect(E.W * 0.3 - 90 + i * 10, H + 8 + i * 22, 180 - i * 20, 4); g.restore();
-    const n = Math.round((o.whales || 0) * 60), r = rng(21);
-    for (let i = 0; i < n; i++) { const d = r(), x = -400 + r() * (E.W + 800), y = H + 6 + d * d * 300, s = 0.15 + d * d * 0.9, ph = r() * 6;
+    const n = Math.round((o.whales || 0) * 80), r = rng(21);
+    for (let i = 0; i < n; i++) { const d = r(), x = -400 + r() * (E.W + 800), y = H + 6 + d * d * 300, s = 0.3 + d * d * 1.5, ph = r() * 6;
       if (i % 3) { g.fillStyle = alpha('#1a1e3a', 0.9); g.beginPath(); g.ellipse(x, y, 60 * s, 12 * s, 0, Math.PI, Math.PI * 2); g.fill(); }
       else { g.save(); g.translate(x, y); g.scale(s, s); g.fillStyle = '#1a1e3a'; g.beginPath(); g.moveTo(-6, 0); g.quadraticCurveTo(-4, -30, -2, -46 - 6 * Math.sin(t + ph)); g.quadraticCurveTo(-30, -52, -52, -70); g.quadraticCurveTo(-20, -74, 0, -58); g.quadraticCurveTo(20, -74, 52, -70); g.quadraticCurveTo(30, -52, 2, -46); g.quadraticCurveTo(4, -30, 6, 0); g.fill(); g.restore(); } }
     if (o.ripple) { g.strokeStyle = alpha('#ffe8d0', 0.5); g.lineWidth = 3; for (let k = 0; k < 4; k++) { const rr2 = ((t * 160 + k * 220) % 900); g.beginPath(); g.ellipse(E.W * 0.5, H + 60, rr2 * 1.6, rr2 * 0.2, 0, 0, Math.PI); g.stroke(); } }

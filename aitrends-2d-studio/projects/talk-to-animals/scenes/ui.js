@@ -130,6 +130,8 @@ export function speech(who, gT, tail = 0.5) {
 // draw that sentence as a bubble near the speaker
 export function speak(g, who, info, t, x, y, tx, ty, o = {}) {
   const sp = speech(who, info.globalT, o.tail ?? 0.5); if (!sp) return 0;
-  say(g, o.upper ? sp.text.toUpperCase() : sp.text, x, y, sp.age, 0, tx, ty, o);
+  let str = o.upper ? sp.text.toUpperCase() : sp.text;
+  if (o.wrap && str.length > o.wrap) { const mid = str.length / 2; let best = -1; for (let i = 0; i < str.length; i++) if (str[i] === ' ' && (best < 0 || Math.abs(i - mid) < Math.abs(best - mid))) best = i; if (best > 0) str = str.slice(0, best) + '\n' + str.slice(best + 1); }   // o.wrap: split a long line in two
+  say(g, str, x, y, sp.age, 0, tx, ty, o);
   return sp.talk;
 }
