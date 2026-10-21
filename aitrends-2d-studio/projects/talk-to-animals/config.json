@@ -13,5 +13,5 @@
  "music": {"enabled": true, "gainDb": -19},
  "sfx": {"enabled": true, "gainDb": -6},
  "loudness": -14,
- "duration": 4.0
+ "duration": 551.0
 }
