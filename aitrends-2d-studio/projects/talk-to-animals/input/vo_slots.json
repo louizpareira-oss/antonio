@@ -1,0 +1,112 @@
+{
+ "tempo": 0.93,
+ "extra_pause": 0.22,
+ "narrator": [
+  "takes/narrator_p1_v1.mp3",
+  "takes/narrator_p2_v1.mp3"
+ ],
+ "slots": [
+  {
+   "who": "BISCUIT",
+   "line": "Bacon. Under the chair. Left side.",
+   "start": 0.15,
+   "end": 3.21
+  },
+  {
+   "who": "BISCUIT",
+   "line": "That's forty-one pieces this year. I've been counting.",
+   "start": 9.01,
+   "end": 12.29
+  },
+  {
+   "who": "PICKLES",
+   "line": "Ugh. You're awake.",
+   "start": 15.46,
+   "end": 17.55
+  },
+  {
+   "who": "BIRDS",
+   "line": "My tree! My tree! MY TREE!",
+   "start": 23.15,
+   "end": 26.48
+  },
+  {
+   "who": "BISCUIT",
+   "line": "The couch. All of it. Forever.",
+   "start": 79.27,
+   "end": 82.04
+  },
+  {
+   "who": "PICKLES",
+   "line": "To check if they still fall.",
+   "start": 86.11,
+   "end": 87.8
+  },
+  {
+   "who": "PIGEON",
+   "line": "Left at the bakery. Right at the man with the sandwich. Stay near the man with the sandwich.",
+   "start": 90.95,
+   "end": 96.75
+  },
+  {
+   "who": "PRAIRIE DOG",
+   "line": "Tall one. Blue top. Walks funny.",
+   "start": 124.38,
+   "end": 126.53
+  },
+  {
+   "who": "BIRDS",
+   "line": "My tree! My tree! MY TREE!",
+   "start": 145.2,
+   "end": 148.39
+  },
+  {
+   "who": "ANIMALS",
+   "line": "Pick me. Pick me. Take me home.",
+   "start": 234.25,
+   "end": 237.41
+  },
+  {
+   "who": "MOM",
+   "line": "Hey. What's wrong?",
+   "start": 246.71,
+   "end": 248.75
+  },
+  {
+   "who": "BISCUIT",
+   "line": "It's my back legs. They do this now.",
+   "start": 400.09,
+   "end": 403.25
+  },
+  {
+   "who": "BISCUIT",
+   "line": "Don't tell your mom. She'll worry.",
+   "start": 407.43,
+   "end": 409.94
+  },
+  {
+   "who": "BISCUIT",
+   "line": "The day you were born, everybody left in a hurry. I waited by the door for two days. / Then they came back with you. You were very small and very loud. I liked you right away.",
+   "start": 439.8,
+   "end": 452.91
+  },
+  {
+   "who": "BISCUIT",
+   "line": "You talked to me every day of your life. I always understood. / This year, you understood me back. Best year. / Don't be sad for too long. Okay?",
+   "start": 458.74,
+   "end": 469.83
+  },
+  {
+   "who": "WHALES",
+   "line": "We hear you.",
+   "start": 527.52,
+   "end": 531.78
+  },
+  {
+   "who": "PICKLES",
+   "line": "They've been asking for you all night.",
+   "start": 534.32,
+   "end": 536.36
+  }
+ ]
+}

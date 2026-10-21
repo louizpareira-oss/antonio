@@ -5,6 +5,7 @@
  "fps": 24,
  "style": "clean",
  "voiceover": "input/voiceover.mp3",
+ "script": "input/script.txt",
  "captions": false,
  "bars": null,
  "fadeIn": 0.5,
