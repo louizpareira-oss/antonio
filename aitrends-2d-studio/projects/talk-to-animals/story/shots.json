@@ -1,0 +1,9 @@
+{
+ "title": "What If You Could Talk to Animals?",
+ "duration": 4.0,
+ "shots": [
+  {"id": "cast", "start": 0.0, "end": 4.0, "line": "", "scene": "CAST LINEUP (look test): the family and the animals in the seaside living room", "set": "living", "bars": "none", "in": {"type": "cut"}, "notes": "shots/00_cast.js"}
+ ],
+ "music": [],
+ "sfx": []
+}

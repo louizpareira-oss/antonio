@@ -14,7 +14,7 @@
 | Character | Look | Voice |
 |---|---|---|
 | YOU (hero) | the channel's hero: black head, blue hoodie | narrator (no spoken lines) |
-| BISCUIT | 14-year-old yellow Labrador mix, grey muzzle, one ear up, red collar | warm, slow, a bit gravelly (new) |
+| BISCUIT | 14-year-old black Labrador mix, grey chin and eyebrows (old dog), red collar with a gold tag | warm, slow, a bit gravelly (new) |
 | PICKLES | the family cat, black and white, permanently unimpressed | dry, bored (new) |
 | MOM | green top, bun (same as before) | 1 short line |
 | THEO (best friend) | orange cap | no lines |
