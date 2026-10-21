@@ -328,3 +328,23 @@ export function spermWhale(g, x, y, s = 1, o = {}) {
 export function iconEagle(g, x, y, s = 1, col = '#e8f0ff') { g.save(); g.translate(x, y); g.scale(s, s); g.strokeStyle = col; g.lineWidth = 4; g.lineJoin = 'round'; g.beginPath(); g.moveTo(-60, -10); g.quadraticCurveTo(-30, -30, -8, -4); g.lineTo(0, 6); g.lineTo(8, -4); g.quadraticCurveTo(30, -30, 60, -10); g.stroke(); circle(g, 0, -6, 6, col); g.restore(); }
 export function iconSnake(g, x, y, s = 1, col = '#e8f0ff') { g.save(); g.translate(x, y); g.scale(s, s); g.strokeStyle = col; g.lineWidth = 6; g.lineCap = 'round'; g.beginPath(); for (let i = 0; i <= 30; i++) { const u = i / 30; const px = -60 + u * 120, py = Math.sin(u * Math.PI * 3) * 12; i ? g.lineTo(px, py) : g.moveTo(px, py); } g.stroke(); circle(g, 62, 0, 7, col); g.restore(); }
 export function iconLeopard(g, x, y, s = 1, col = '#e8f0ff') { g.save(); g.translate(x, y); g.scale(s, s); g.strokeStyle = col; g.lineWidth = 4; g.lineJoin = 'round'; g.beginPath(); g.moveTo(-60, 0); g.quadraticCurveTo(-30, -24, 20, -20); g.lineTo(44, -30); g.lineTo(58, -18); g.lineTo(40, -6); g.quadraticCurveTo(10, 4, -40, 6); g.closePath(); g.stroke(); for (const [dx, dy] of [[-30, -8], [-12, -12], [6, -10]]) circle(g, dx, dy, 3, col); seg(g, [[-40, 6], [-44, 30]], 4, col); seg(g, [[30, -4], [34, 30]], 4, col); g.restore(); }
+
+// PICKLES walking (side view): o: { t, walk 0..1 }
+export function catWalk(g, o = {}) {
+  const { t = 0, walk = 1 } = o, ph = t * 7, sw = 0.4 * walk;
+  creature(g, { shadowW: 44, ...o }, CAT, (g, K) => {
+    const leg = (x, a, c, w = 7) => { g.save(); g.translate(x, -34); g.rotate(a); seg(g, [[0, 0], [0, 32]], w, c); g.restore(); };
+    leg(-24, Math.sin(ph) * sw, K('fur')); leg(20, -Math.sin(ph) * sw, K('fur'));
+    g.strokeStyle = K('fur'); g.lineWidth = 8; g.lineCap = 'round'; g.beginPath(); g.moveTo(-36, -40); g.quadraticCurveTo(-60, -60, -52, -96 + Math.sin(t * 3) * 4); g.stroke();
+    ell(g, -4, -42, 40, 16, 0, K('fur'));
+    leg(-16, -Math.sin(ph) * sw, K('fur'), 8); leg(26, Math.sin(ph) * sw, K('fur'), 8);
+    circle(g, 40, -58, 16, K('fur'));
+    poly(g, [[30, -66], [32, -88], [42, -70]], K('fur')); poly(g, [[42, -70], [52, -88], [54, -64]], K('fur'));
+    circle(g, 52, -54, 7, K('fur'));
+  }, (g, K) => {
+    ell(g, 18, -32, 12, 7, 0, K('white')); for (const x of [-16, 26]) ell(g, x + 1, -2, 6, 3.5, 0, K('white'));
+    ell(g, 54, -51, 6, 5, 0, K('white'));
+    const ex = 46, ey = -61; ell(g, ex, ey, 4.5, 4, 0, K('eye')); ell(g, ex + 1, ey, 1.2, 3.4, 0, '#101014'); g.fillStyle = K('fur'); g.fillRect(ex - 5.5, ey - 5.5, 11, 5);
+    circle(g, 59, -55, 2.2, K('nose'));
+  });
+}

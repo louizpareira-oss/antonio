@@ -9,7 +9,7 @@ export const GOLDC = '#ffd47e', CORALC = '#ff6f61', MINT = '#5fd39a', SKYC = '#8
 // speech bubble that pops in at `at` (s); tail points to [tx, ty]. o: { size, color, ink, shout, w }
 export function say(g, str, x, y, t, at = 0, tx = null, ty = null, o = {}) {
   const k = ease.outBack(prog(t, at, at + 0.22)); if (k <= 0) return;
-  const size = o.size || 34, lines = String(str).split('\n'), wmax = Math.max(...lines.map(l => measure(g, l, size, FONTS.ui, 900)));
+  const size = (o.size || 34) * (o.scale ?? 1.3), lines = String(str).split('\n'), wmax = Math.max(...lines.map(l => measure(g, l, size, FONTS.ui, 900)));
   const w = wmax + size * 1.4, h = lines.length * size * 1.18 + size * 0.9;
   g.save(); g.translate(x, y); g.scale(k, k);
   const col = o.color || PAPER;
@@ -32,12 +32,12 @@ export function sayWords(g, words, x, y, t, info, tx, ty, o = {}) {
 // "REAL" fact card. o: { x, y, w, title, lines[], at, color }
 export function realCard(g, t, o = {}) {
   const k = ease.out(prog(t, o.at || 0, (o.at || 0) + 0.35)); if (k <= 0) return;
-  const x = o.x ?? 80, y = o.y ?? 80, w = o.w ?? 640, lines = o.lines || [], h = 110 + lines.length * 52;
+  const x = o.x ?? 80, y = o.y ?? 80, w = o.w ?? 640, lines = o.lines || [], h = 124 + lines.length * 60;
   g.save(); g.globalAlpha *= k; g.translate(0, (1 - k) * 30);
   rr(g, x, y, w, h, 22); g.fillStyle = alpha('#16202e', 0.88); g.fill();
-  rr(g, x + 24, y + 26, 110, 44, 22); g.fillStyle = MINT; g.fill(); text(g, 'REAL', x + 79, y + 49, { size: 26, font: FONTS.ui, weight: 900, color: '#0e2a1e', spacing: 3 });
-  text(g, o.title || '', x + 152, y + 49, { size: 32, font: FONTS.ui, weight: 900, color: '#ffffff', align: 'left' });
-  lines.forEach((l, i) => text(g, l, x + 28, y + 106 + i * 52, { size: 30, font: FONTS.ui, weight: 800, color: '#dfe8f2', align: 'left' }));
+  rr(g, x + 24, y + 26, 124, 52, 26); g.fillStyle = MINT; g.fill(); text(g, 'REAL', x + 86, y + 53, { size: 30, font: FONTS.ui, weight: 900, color: '#0e2a1e', spacing: 3 });
+  text(g, o.title || '', x + 168, y + 53, { size: 40, font: FONTS.ui, weight: 900, color: '#ffffff', align: 'left' });
+  lines.forEach((l, i) => text(g, l, x + 28, y + 122 + i * 60, { size: 36, font: FONTS.ui, weight: 800, color: '#dfe8f2', align: 'left' }));
   g.restore();
 }
 
@@ -110,4 +110,26 @@ export function wave(g, x, y, w, h, t, o = {}) {
   for (let i = 0; i <= 120; i++) { const u = i / 120, px = x + u * w, env = o.env ? o.env(u) : Math.sin(u * Math.PI); const py = y + Math.sin(u * (o.freq || 40) + t * (o.speed || 8)) * h * env * (0.6 + 0.4 * Math.sin(u * 7 + (o.seed || 0)));
     i ? g.lineTo(px, py) : g.moveTo(px, py); }
   g.stroke();
+}
+
+// ---------- who is speaking right now (from scenes/slots.js + the word timings) ----------
+import { E as _E, talkAmount } from '/engine/core.js';
+import { SLOTS } from './slots.js';
+// the sentence a character is saying at global time gT: { text, age, talk } or null. tail = how long it stays up after
+export function speech(who, gT, tail = 0.5) {
+  const sl = SLOTS.find(s => s.who === who && gT >= s.start - 0.05 && gT <= s.end + tail); if (!sl) return null;
+  const nm = (x) => x.toLowerCase().replace(/[^a-z']/g, ''), inLine = new Set(sl.line.split(/\s+/).map(nm));
+  const ws = _E.words.filter(w => w.start >= sl.start - 0.8 && w.start <= sl.end + 0.05 && inLine.has(nm(w.word)));
+  const sents = []; let cur = [];
+  for (const w of ws) { cur.push(w); if (/[.?!]["”]?$/.test(w.word)) { sents.push(cur); cur = []; } }
+  if (cur.length) sents.push(cur);
+  let pick = null; for (const s of sents) if (s[0].start <= gT + 0.05) pick = s;
+  if (!pick) return null;
+  return { text: pick.map(w => w.word).join(' '), age: Math.max(0.05, gT - Math.max(pick[0].start, sl.start - 0.05)), talk: gT <= sl.end ? talkAmount(gT, sl.start, sl.end) : 0 };
+}
+// draw that sentence as a bubble near the speaker
+export function speak(g, who, info, t, x, y, tx, ty, o = {}) {
+  const sp = speech(who, info.globalT, o.tail ?? 0.5); if (!sp) return 0;
+  say(g, o.upper ? sp.text.toUpperCase() : sp.text, x, y, sp.age, 0, tx, ty, o);
+  return sp.talk;
 }
