@@ -348,6 +348,58 @@ def creak(dur=1.2, seed=42, **_):
     x = osc("saw", f, n) * (0.5 + 0.5 * (r.random(n) > 0.5)) * np.sin(np.pi * np.linspace(0, 1, n)) ** 0.6
     return normalize(reverb(stereo(bp(x, 300, 2500), 0, 0.3, seed), 0.7, 0.2, seed), -4)
 
+@sfx("songbird chirps: one short phrase of quick whistles", 0.8)
+def chirp(dur=0.8, seed=43, pitch=1.0, **_):
+    n = secs(dur); r = rng(seed); x = np.zeros(n, np.float32); a = secs(0.01)
+    while a < n - secs(0.12):
+        m = secs(0.035 + r.random() * 0.06); f0 = (2400 + r.random() * 2200) * pitch; f1 = f0 * (0.6 + r.random() * 0.9)
+        x[a:a + m] += sine(np.linspace(f0, f1, m), m) * np.sin(np.pi * np.linspace(0, 1, m)) ** 1.5 * (0.5 + 0.5 * r.random())
+        a += m + secs(0.02 + r.random() * 0.08)
+    return normalize(reverb(stereo(x, 0, 0.4, seed), 0.6, 0.15, seed), -4)
+
+
+@sfx("dawn chorus: many birds chirping (loopable ambience)", 6.0)
+def birds(dur=6.0, seed=44, **_):
+    n = secs(dur); r = rng(seed); x = np.zeros(n, np.float32)
+    for _k in range(int(dur * 5)):
+        c = chirp(0.3 + r.random() * 0.6, int(r.integers(1e6)), 0.7 + r.random() * 0.7)[:, 0]
+        a = int(r.integers(0, n - len(c))); x[a:a + len(c)] += c * (0.2 + 0.5 * r.random())
+    x += lp(noise(n, seed, "pink"), 1500) * 0.03
+    return normalize(stereo(x, 0, 1.0, seed), -10)
+
+
+@sfx("sperm-whale clicks: sharp underwater clicks (rate = clicks per second)", 2.0)
+def clicks(dur=2.0, seed=45, rate=3.0, **_):
+    n = secs(dur); r = rng(seed); x = np.zeros(n, np.float32); m = secs(0.012); tt = 0.02
+    while secs(tt) + secs(0.004) + m < n:
+        a = secs(tt); k = np.exp(-np.arange(m) / (m / 5))
+        x[a:a + m] += bp(noise(m, int(r.integers(1e6))), 1500, 9000) * k
+        x[a + secs(0.004):a + secs(0.004) + m] += bp(noise(m, int(r.integers(1e6))), 1000, 6000) * k * 0.4
+        tt += (1.0 / rate) * (0.85 + 0.3 * r.random())
+    return normalize(reverb(stereo(x, 0, 0.3, seed), 1.6, 0.35, seed), -3)
+
+
+@sfx("deep whale call: a slow low moan with vibrato and a long echo", 4.0)
+def whalesong(dur=4.0, seed=46, pitch=1.0, **_):
+    n = secs(dur); t = t_axis(n); u = np.linspace(0, 1, n)
+    f = (70 + 40 * np.sin(np.pi * u) + 6 * np.sin(2 * np.pi * 5 * t)) * pitch
+    x = lp(sine(f, n) * 0.8 + sine(f * 2, n) * 0.3 + sine(f * 3, n) * 0.12, 900) * np.sin(np.pi * u) ** 0.8
+    return normalize(reverb(stereo(x, 0, 0.6, seed), 3.5, 0.5, seed), -3)
+
+
+@sfx("sea at the shore: slow waves washing in (loopable)", 6.0)
+def waves(dur=6.0, seed=47, **_):
+    n = secs(dur); t = t_axis(n); sw = 0.35 + 0.65 * np.clip(np.sin(2 * np.pi * t / (dur / 2)), 0, 1) ** 2
+    x = lp(noise(n, seed, "pink"), 1400) * sw + lp(noise(n, seed + 1, "brown"), 200) * 0.8
+    return normalize(stereo(x, 0, 1.0, seed), -10)
+
+
+@sfx("vacuum cleaner motor whine", 2.0)
+def vacuum(dur=2.0, seed=48, **_):
+    n = secs(dur); u = np.linspace(0, 1, n); f = 180 + 60 * np.clip(u * 4, 0, 1)
+    x = osc("saw", f, n) * 0.3 + bp(noise(n, seed), 800, 5000) * 0.6
+    return normalize(fade(stereo(x, 0, 0.4, seed), 0.15, 0.3), -6)
+
 def make(name, **kw):
     if name not in LIB: raise KeyError(f"unknown sfx '{name}'. Available: {', '.join(LIB)}")
     k = {"dur": LIB[name]["dur"], **{a: b for a, b in kw.items() if b is not None}}
