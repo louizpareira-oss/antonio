@@ -34,7 +34,7 @@
   background (the user's "TOO FAST?" example). Never a wide shot, a whole street or a
   cross-section; always the character big in the foreground with an empty corner for text. No small clutter, no tiny
   numbers, no signs. Each concept gets a punchy 2-word ALL-CAPS text overlay, saying which word is white and which
-  is yellow; the user adds the text.
+  is yellow; the user adds the text. What makes them click (the user's reference sets): `docs/13-thumbnail-patterns.md`.
 - **Shorts (rule from the user, Oct 20):** cut from the long video, **full-screen 9:16** like the user's reference
   (no card, no blurred bars). The picture is re-rendered by the studio in 9:16 with
   `node render.mjs --project P --reframe` (a per-shot window over the 16:9 stage, planned in `shorts/reframe.json`;

@@ -71,3 +71,38 @@ look, and the figure was a tiny head on stilt legs. Our own system:
 3. **An impossible physical image you can say in 5 words**, built around the face (e.g. "sunk waist-deep into the
    road"), with a low, close camera so the head is 35–45 % of the frame height.
 4. Calm, unbothered face; text in the empty dark corner.
+
+## Second reference set (the user, Oct 22): what's new
+"Don't copy their style, take the idea of what is powerful." 18 thumbnails from 4 channels (views at 12 h – 4 d).
+
+| Video | Views (age) | Text | The one idea you get in 1 second |
+|---|---|---|---|
+| Woke Up in Kindergarten With All Your Memories | 271K (2 d) | "I KNEW." + red badge "09.11" | deadpan half-lidded face + a real event everyone recognises |
+| Turn Invisible at Will | 235K (4 d) | "TURN INVISIBLE." | an empty hoodie with a dotted outline of the face: the power shown as an *absence* |
+| Copy Powers | 141K (1 d) | "MINE TOO." | fire jumping from a scared kid's hand to the smug hero's, curved arrow between them |
+| Shapeshift | 112K (18 h) | none | the face split down the middle: half stick figure, half human, mid-change |
+| Freeze Time | 47K (3 d) | "TIME STOPPED!" | a coffee splash frozen in mid-air next to his raised palm |
+| Time Loop | 40K (12 h) | "AGAIN." + red badge "LIVES: 102" | bored eyes inside a glowing infinity loop with a clock |
+| Turn Invisible | 38K (12 h) | "RIGHT HERE." | see-through hero walking past two guards to the prize |
+| Double in Size / Clone | 11–12K (1 d) | "DOUBLE EVERY HOUR." / "CLONE INSTANTLY." | red arrow to the tiny original next to the giant / the 3 copies |
+| Money 10x / Infinite Money / No Pain | — | "$40 MILK." / "DAY 30" / "ONLY ME." | a price tag, a phone with an absurd number, the one crying face in a smiling crowd |
+| (untitled) wrecking ball | — | none | whole picture grey, only the blue hoodie in colour, ball shattering on his shoulder |
+
+**New lessons (on top of the 7 rules above):**
+1. **Show the power itself, not a story moment.** The title's verb is made visible: invisible = empty hoodie, copy =
+   fire jumping hand to hand, freeze = coffee stuck in the air. A stranger must guess the title from the picture.
+2. **Split / half-and-half** shows a change in one image (half stick figure half human, half-yellow half-red emoji).
+3. **Selective colour:** a grey world with only the hero (and the one consequence) in colour makes him jump out.
+4. **A big specific number in a red box** next to the 2 words ("LIVES: 102", "09.11", "$40.00") adds curiosity. It is
+   part of the text overlay the user adds, big, never tiny numbers inside the picture.
+5. **A red arrow** to the one detail you might miss (the tiny original, the clone, the copied fire).
+6. **Text in the hero's voice** wins over a description: "I KNEW.", "MINE TOO.", "AGAIN.", "RIGHT HERE." sound like
+   him talking; "CLONE INSTANTLY." only repeats the title (and got the fewest views).
+7. **Dark scene, lit face:** night purple/blue or dusk, with a glow patch right behind the black head so its outline
+   reads at phone size.
+8. **Two-character tension** (the scared kid losing his fire, the crier in a happy crowd) tells a story without words.
+
+**What we don't take:** brand products and creator lookalikes (the Feastables bars, the guards with a famous
+YouTuber's face), real tragedies as bait (9/11), their exact phrases ("ONLY ME.", "AGAIN."), the 3D-render look.
+Note: the first channel's hero (black ball head, blue hoodie, "What IF You Could…") looks almost like ours; we stand out
+with our own animals, the cyan/orange glow and our titles, not by copying their poses.
