@@ -7,7 +7,8 @@ For the finished video `out/What_If_You_Could_Talk_to_Animals.mp4` (9:11).
 What If You Could Talk to Animals?
 
 ## Thumbnail
-Pick one of the three SeaArt concepts in `story/thumbnail.md` and add its 2-word text.
+`out/thumbnail_MY_BAD.jpg` (the user's SeaArt crow-army image with **MY** white / **BAD.** yellow). In Test & compare,
+add `out/thumbnail_WRONG_BIRD.jpg` as the second option.
 
 ## Description (paste everything between the lines)
 ---

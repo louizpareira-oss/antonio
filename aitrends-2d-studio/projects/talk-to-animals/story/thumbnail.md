@@ -8,7 +8,11 @@ adds the 2-word text.
 each one shows the power itself in one glance (an animal talking *to him*), a dark or muted scene with a glow behind
 his head, text in his own voice, and one optional big overlay extra (a red badge or a red arrow).
 
-**Pick:** upload all three with YouTube's **Test & compare** (up to 3 thumbnails per video) and let it choose.
+**Picked (Oct 22):** the user's SeaArt result for concept 4 (the crow army), finished here with **MY** (white) /
+**BAD.** (yellow) → `out/thumbnail_MY_BAD.jpg`; alternative for Test & compare: `out/thumbnail_WRONG_BIRD.jpg`
+(source image: `out/thumbnail_source_crows.webp`).
+
+**Earlier pick:** upload all three with YouTube's **Test & compare** (up to 3 thumbnails per video) and let it choose.
 If only one: **#1 HE TALKS.**, because a stranger can guess the title from it in one second.
 
 **SeaArt negative prompt (all three):**
