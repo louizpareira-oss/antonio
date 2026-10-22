@@ -106,3 +106,18 @@ look, and the figure was a tiny head on stilt legs. Our own system:
 YouTuber's face), real tragedies as bait (9/11), their exact phrases ("ONLY ME.", "AGAIN."), the 3D-render look.
 Note: the first channel's hero (black ball head, blue hoodie, "What IF You Could…") looks almost like ours; we stand out
 with our own animals, the cyan/orange glow and our titles, not by copying their poses.
+
+## Our new thumbnail style (the user, Oct 22): the reference
+`docs/img/thumb-style-v2-my-bad.jpg` (Talk to Animals, "MY BAD."). The user picked it and called it a new style.
+Aim every future prompt at this look:
+- **Sky as the stage:** a rich dusk gradient (deep purple at the top to hot orange at the horizon) with flat painted
+  clouds and a dark city silhouette at the bottom; the whole left 40 % stays sky for the text.
+- **Glossy hero:** the black head has a soft white highlight and a thin orange rim on the dark side; the blue hoodie
+  gets bright cyan edge light; eyes are big white ovals with an expression (here: guilty, gritted teeth, sweat drops).
+- **The palm at the lens:** one black hand, huge and foreshortened, filling the bottom middle, cyan/orange rim on the
+  fingers.
+- **The threat as silhouettes:** the animals (crows) are flat black shapes with an orange outline and glowing orange
+  eyes, lined up on wires behind him, one big one swooping in; no small detail, so it reads at phone size.
+- **Small comic marks** (yellow "!" ticks near the head) instead of busy effects.
+- **Text:** Fredoka Bold, white line / yellow line, thick black outline, soft drop shadow, top-left in the sky.
+- The prompt that made it: concept 4 in `aitrends-2d-studio/projects/talk-to-animals/story/thumbnail.md`.
