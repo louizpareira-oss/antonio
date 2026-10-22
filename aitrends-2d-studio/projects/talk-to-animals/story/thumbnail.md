@@ -39,3 +39,11 @@ Head-and-shoulders close-up on the right side of the frame, in bed at dawn: he p
 ```
 **Text:** **TOO** (white) / **LOUD.** (yellow), top-left.
 **Optional extra:** a big red badge **4:47 AM** under the text (like a label, added by you; keep it large).
+
+## 4. "MY BAD." — the crow army remembers your face (new, Oct 22)
+```
+16:9 aspect ratio, YouTube thumbnail. 2D cel-shaded cartoon illustration style with bold black outlines, flat vibrant colors, and dramatic comic-book glow. A slender stick-figure with thin limbs, a solid black spherical head, and glowing white eyes, wearing a bright blue hoodie. Close-up: the stick-figure is huge in the foreground, taking up 50-60% of the frame, his facial expression big and readable on a phone screen. High contrast, dramatic cyan and neon orange glow. Strictly NO human skin, NO realistic faces, NO thick/chibi bodies, NO 3D render, NO realistic textures.
+Close-up on the right side of the frame at dusk: he slowly turns his head toward the camera with a frozen, guilty half-smile and wide eyes, one cartoon drop of sweat on his head, holding one open palm up toward the lens in a sorry gesture, the hand big and foreshortened. Behind him two power lines are packed with about twenty big black crows drawn as simple bold silhouettes, all leaning forward and glaring straight at him with glowing orange eyes, and one big crow swoops over his shoulder toward the camera with its wings spread wide. Bold comic-book tension lines around his head. Simple flat dusk sky in purple and orange, with a warm orange glow right behind his head so its round outline stands out. The left 40% of the frame is clean flat sky, empty space for text. No text, no letters, no numbers, no signs.
+```
+**Text:** **MY** (white) / **BAD.** (yellow), left side.
+**Optional extra:** a big red badge **×100** under the text.
