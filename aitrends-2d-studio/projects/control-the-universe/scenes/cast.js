@@ -11,4 +11,5 @@ export const YOU = BASE;                                                        
 export const YOU1 = { ...BASE, emblem: 1 };                                                                  // 1 stone: the badge appears
 export const YOU3 = { ...BASE, emblem: 3, trim: S.trim, accent: S.accent, gloves: S.gloves, belt: S.belt, legs: S.legs };   // 3 stones
 export const HERO = { ...BASE, ...S, emblem: 6 };                                                            // all six
-export const GRANDMA = { top: 'sweater', color: '#c0504d', legs: '#4a4250', shoes: '#c8a070', hair: 'bun' };  // retired astronomer, red cardigan
+export const GRANDMA = { top: 'sweater', color: '#c0504d', legs: '#4a4250', shoes: '#c8a070', hair: 'bun', hairColor: '#cfd2dc', glasses: true };  // retired astronomer: red cardigan, grey bun, glasses on her head
+export const THEO = { top: 'tshirt', color: '#E8892A', legs: '#3a5480', shoes: '#f6f2ea', hair: 'capSpiky', capColor: '#E8892A' };   // best friend, orange cap

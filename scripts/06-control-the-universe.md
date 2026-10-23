@@ -10,7 +10,8 @@ cape (all 6). Second colour: **red** with gold trim (the user picked A, Oct 23);
 Follows `CLAUDE.md` (science in the middle, family member with a backstory, lasting price, world-scale effects, twist
 in the last 30 s) and the fun → curse structure in `docs/14-fun-to-curse-structure.md`.
 **Voices (the user, Oct 23):** reuse the narrator and the existing side voices; design one new voice for Grandma Rosa.
-**Status:** cut to 4 minutes after the user's answer; waiting for approval before voicing.
+**Status:** approved by the user (Oct 23), 4-minute version. Next: design Grandma's voice and record (needs the
+ElevenLabs connector, which was disconnected in the Oct 23 session).
 
 ## Our own stones (not Marvel's)
 "Thanos", "Infinity Stones" and the gold glove are Marvel/Disney's: in a title or drawn on screen they invite copyright
