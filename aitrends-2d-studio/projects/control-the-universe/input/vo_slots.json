@@ -1,0 +1,45 @@
+{
+ "tempo": 1.0,
+ "extra_pause": 0.1,
+ "narrator": [
+  "takes/narrator_v1.mp3"
+ ],
+ "slots": [
+  {
+   "who": "GRANDMA",
+   "line": "That one's Vega. That one's a satellite. That one's... a plane. Never mind.",
+   "start": 42.78,
+   "end": 49.32
+  },
+  {
+   "who": "THEO",
+   "line": "I liked him better before.",
+   "start": 116.06,
+   "end": 117.63
+  },
+  {
+   "who": "GRANDMA",
+   "line": "Who are you? Where's my grandson?",
+   "start": 181.08,
+   "end": 183.62
+  },
+  {
+   "who": "GRANDMA",
+   "line": "There you are. You got tall.",
+   "start": 195.78,
+   "end": 198.46
+  },
+  {
+   "who": "GRANDMA",
+   "line": "You were six. You asked me if the stars could see us back. I said yes.",
+   "start": 208.29,
+   "end": 213.83
+  },
+  {
+   "who": "GRANDMA",
+   "line": "I've seen these stones before. Nineteen sixty-nine. Six lights. Same backyard.",
+   "start": 216.32,
+   "end": 222.57
+  }
+ ]
+}

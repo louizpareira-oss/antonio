@@ -1,64 +1,2446 @@
 {
  "title": "Can One Person Really Control the Universe?",
- "duration": 8.0,
+ "duration": 246.23,
  "shots": [
   {
-   "id": "look1",
+   "id": "s001",
    "start": 0.0,
-   "end": 1.0,
-   "set": "look",
-   "scene": "set look test"
+   "end": 3.19,
+   "line": "Can one person really control the universe?",
+   "scene": "EXTREME CLOSE-UP, frame 1: coffee frozen in mid-air, drops hanging, your wide eye behind it",
+   "set": "kitchen",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/01_hook.js",
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "freeze",
+     "gain": -10
+    },
+    {
+     "at": 0.3,
+     "name": "shimmer",
+     "gain": -18
+    }
+   ]
   },
   {
-   "id": "look2",
-   "start": 1.0,
-   "end": 2.0,
-   "set": "look",
-   "scene": "set look test"
+   "id": "s002",
+   "start": 3.19,
+   "end": 7.56,
+   "line": "Not in a movie. With real physics. Let's find out.",
+   "scene": "TITLE: CAN ONE PERSON REALLY CONTROL THE UNIVERSE? the six stones orbiting",
+   "set": "title",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/01_hook.js",
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "impact",
+     "gain": -10
+    },
+    {
+     "at": 0.3,
+     "name": "shimmer",
+     "gain": -14
+    }
+   ]
   },
   {
-   "id": "look3",
-   "start": 2.0,
-   "end": 3.0,
-   "set": "look",
-   "scene": "set look test"
+   "id": "s003",
+   "start": 7.56,
+   "end": 10.34,
+   "line": "This morning, at seven fifty-nine,",
+   "scene": "KITCHEN 7:59: the clock, you reaching for the mug",
+   "set": "kitchen",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/01_hook.js",
+   "amb": {
+    "name": "roomtone",
+    "gain": -28
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "clock",
+     "gain": -18
+    }
+   ]
   },
   {
-   "id": "look4",
-   "start": 3.0,
-   "end": 4.0,
-   "set": "look",
-   "scene": "set look test"
+   "id": "s004",
+   "start": 10.34,
+   "end": 12.42,
+   "line": "your coffee stopped falling.",
+   "scene": "The mug tips; the coffee stops in the air",
+   "set": "kitchen",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/01_hook.js",
+   "amb": {
+    "name": "roomtone",
+    "gain": -28
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "whoosh",
+     "gain": -14
+    },
+    {
+     "at": 0.45,
+     "name": "freeze",
+     "gain": -10
+    }
+   ]
   },
   {
-   "id": "look5",
-   "start": 4.0,
-   "end": 5.0,
-   "set": "look",
-   "scene": "set look test"
+   "id": "s005",
+   "start": 12.42,
+   "end": 15.96,
+   "line": "It's just hanging there. One inch from the floor.",
+   "scene": "LOW CLOSE: the coffee one inch from the floor",
+   "set": "kitchen",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/01_hook.js",
+   "amb": {
+    "name": "roomtone",
+    "gain": -28
+   }
   },
   {
-   "id": "look6",
-   "start": 5.0,
-   "end": 6.0,
-   "set": "look",
-   "scene": "set look test"
+   "id": "s006",
+   "start": 15.96,
+   "end": 20.46,
+   "line": "And there's a gold stone in your hand, humming like a phone on silent.",
+   "scene": "Your hand opens: the gold stone, glowing, hum rings",
+   "set": "kitchen",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/01_hook.js",
+   "amb": {
+    "name": "roomtone",
+    "gain": -28
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "hum",
+     "gain": -16,
+     "dur": 2.4
+    },
+    {
+     "at": 0.4,
+     "name": "shimmer",
+     "gain": -16
+    }
+   ]
   },
   {
-   "id": "look7",
-   "start": 6.0,
-   "end": 7.0,
-   "set": "look",
-   "scene": "set look test"
+   "id": "s007",
+   "start": 20.46,
+   "end": 24.02,
+   "line": "Last night, six lights fell into Grandma's backyard.",
+   "scene": "GRANDMA'S BACKYARD at night: six lights streak down",
+   "set": "backyard",
+   "bars": "none",
+   "in": {
+    "type": "dip",
+    "dur": 0.35
+   },
+   "notes": "shots/01_hook.js",
+   "amb": {
+    "name": "wind",
+    "gain": -30
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "whoosh",
+     "gain": -16,
+     "seed": 10
+    },
+    {
+     "at": 0.42,
+     "name": "whoosh",
+     "gain": -16,
+     "seed": 11
+    },
+    {
+     "at": 0.64,
+     "name": "whoosh",
+     "gain": -16,
+     "seed": 12
+    },
+    {
+     "at": 0.86,
+     "name": "whoosh",
+     "gain": -16,
+     "seed": 13
+    },
+    {
+     "at": 1.08,
+     "name": "whoosh",
+     "gain": -16,
+     "seed": 14
+    },
+    {
+     "at": 1.3,
+     "name": "whoosh",
+     "gain": -16,
+     "seed": 15
+    },
+    {
+     "at": 2.4,
+     "name": "impact",
+     "gain": -12
+    }
+   ]
   },
   {
-   "id": "look8",
-   "start": 7.0,
-   "end": 8.0,
-   "set": "look",
-   "scene": "set look test"
+   "id": "s008",
+   "start": 24.02,
+   "end": 25.6,
+   "line": "Six stones.",
+   "scene": "The crater: six stones glowing in the grass",
+   "set": "backyard",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/01_hook.js",
+   "amb": {
+    "name": "wind",
+    "gain": -30
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "shimmer",
+     "gain": -14
+    }
+   ]
+  },
+  {
+   "id": "s009",
+   "start": 25.6,
+   "end": 32.03,
+   "line": "Time. Space. Energy. Mind. Matter. And life.",
+   "scene": "The six stones line up, names light up one by one",
+   "set": "title",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/01_hook.js",
+   "sfx": [
+    {
+     "at": 0.15,
+     "name": "ding",
+     "gain": -16,
+     "pitch": 1.0
+    },
+    {
+     "at": 0.94,
+     "name": "ding",
+     "gain": -16,
+     "pitch": 1.08
+    },
+    {
+     "at": 2.06,
+     "name": "ding",
+     "gain": -16,
+     "pitch": 1.16
+    },
+    {
+     "at": 3.07,
+     "name": "ding",
+     "gain": -16,
+     "pitch": 1.24
+    },
+    {
+     "at": 4.03,
+     "name": "ding",
+     "gain": -16,
+     "pitch": 1.32
+    },
+    {
+     "at": 5.25,
+     "name": "ding",
+     "gain": -16,
+     "pitch": 1.4
+    }
+   ]
+  },
+  {
+   "id": "s010",
+   "start": 32.03,
+   "end": 35.49,
+   "line": "Here's the rule. Every stone gives you something.",
+   "scene": "DIAGRAM: a stone, arrow GIVES to you",
+   "set": "diagram",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/01_hook.js",
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "swish",
+     "gain": -16
+    }
+   ]
+  },
+  {
+   "id": "s011",
+   "start": 35.49,
+   "end": 38.08,
+   "line": "And every stone takes something back.",
+   "scene": "DIAGRAM: arrow TAKES back from you",
+   "set": "diagram",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/01_hook.js",
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "swish",
+     "gain": -16
+    },
+    {
+     "at": 0.6,
+     "name": "blip",
+     "gain": -16,
+     "pitch": 0.7
+    }
+   ]
+  },
+  {
+   "id": "s012",
+   "start": 38.08,
+   "end": 39.38,
+   "line": "Remember that.",
+   "scene": "BIG FACE: you, uneasy",
+   "set": "face",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/01_hook.js",
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "stinger",
+     "gain": -18
+    }
+   ]
+  },
+  {
+   "id": "s013",
+   "start": 39.38,
+   "end": 42.68,
+   "line": "Grandma Rosa was an astronomer for forty years.",
+   "scene": "Grandma at her telescope; name card GRANDMA ROSA · ASTRONOMER",
+   "set": "backyard",
+   "bars": "none",
+   "in": {
+    "type": "dip",
+    "dur": 0.35
+   },
+   "notes": "shots/01_hook.js",
+   "amb": {
+    "name": "wind",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s014",
+   "start": 42.68,
+   "end": 46.11,
+   "line": "That one's Vega. That one's a satellite.",
+   "scene": "Grandma points; Vega sparkles (bubble)",
+   "set": "backyard",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/01_hook.js",
+   "amb": {
+    "name": "wind",
+    "gain": -30
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "shimmer",
+     "gain": -20
+    },
+    {
+     "at": 0.1,
+     "name": "pop",
+     "gain": -24
+    }
+   ]
+  },
+  {
+   "id": "s015",
+   "start": 46.11,
+   "end": 49.79,
+   "line": "That one's... a plane. Never mind.",
+   "scene": "A plane blinks across; Grandma squints; you laugh",
+   "set": "backyard",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/01_hook.js",
+   "amb": {
+    "name": "wind",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s016",
+   "start": 49.79,
+   "end": 53.35,
+   "line": "Lately, she forgets things. Her glasses.",
+   "scene": "Grandma searching the kitchen for her glasses",
+   "set": "kitchen",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/01_hook.js",
+   "amb": {
+    "name": "roomtone",
+    "gain": -28
+   }
+  },
+  {
+   "id": "s017",
+   "start": 53.35,
+   "end": 54.95,
+   "line": "They're on her head.",
+   "scene": "CLOSE: the glasses on her head; you smile",
+   "set": "kitchen",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/01_hook.js",
+   "amb": {
+    "name": "roomtone",
+    "gain": -28
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "ding",
+     "gain": -18,
+     "pitch": 1.4
+    }
+   ]
+  },
+  {
+   "id": "s018",
+   "start": 54.95,
+   "end": 57.19,
+   "line": "Sometimes, your name.",
+   "scene": "CLOSE: Grandma looks at you, blank",
+   "set": "face",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/01_hook.js",
+   "amb": {
+    "name": "roomtone",
+    "gain": -28
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "heartbeat",
+     "gain": -20,
+     "dur": 2.0,
+     "bpm": 50
+    }
+   ]
+  },
+  {
+   "id": "s019",
+   "start": 57.19,
+   "end": 59.49,
+   "line": "But she never forgets a star.",
+   "scene": "Grandma at the window with the stars, peaceful",
+   "set": "backyard",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/01_hook.js",
+   "amb": {
+    "name": "wind",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s020",
+   "start": 59.49,
+   "end": 61.54,
+   "line": "Day one. You're late.",
+   "scene": "BEDROOM: alarm 7:59, you jump out of bed, late",
+   "set": "bedroom",
+   "bars": "none",
+   "in": {
+    "type": "dip",
+    "dur": 0.35
+   },
+   "notes": "shots/02_fun.js",
+   "amb": {
+    "name": "roomtone",
+    "gain": -28
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "clock",
+     "gain": -16
+    },
+    {
+     "at": 0.4,
+     "name": "hit",
+     "gain": -14
+    }
+   ]
+  },
+  {
+   "id": "s021",
+   "start": 61.54,
+   "end": 62.7,
+   "line": "You freeze time,",
+   "scene": "You snap; the street freezes (blue tint, a bird mid-flap)",
+   "set": "street",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/02_fun.js",
+   "amb": {
+    "name": "city",
+    "gain": -26
+   },
+   "sfx": [
+    {
+     "at": 0.29,
+     "name": "freeze",
+     "gain": -8
+    }
+   ]
+  },
+  {
+   "id": "s022",
+   "start": 62.7,
+   "end": 64.08,
+   "line": "walk past the frozen bus,",
+   "scene": "You stroll past the frozen bus and people mid-step",
+   "set": "street",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/02_fun.js",
+   "amb": {
+    "name": "city",
+    "gain": -26
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "footstep",
+     "gain": -18
+    },
+    {
+     "at": 0.75,
+     "name": "footstep",
+     "gain": -18
+    },
+    {
+     "at": 1.2,
+     "name": "footstep",
+     "gain": -18
+    },
+    {
+     "at": 1.65,
+     "name": "footstep",
+     "gain": -18
+    },
+    {
+     "at": 2.1,
+     "name": "footstep",
+     "gain": -18
+    }
+   ]
+  },
+  {
+   "id": "s023",
+   "start": 64.08,
+   "end": 65.7,
+   "line": "and sit down early.",
+   "scene": "CLASSROOM: you sit, time starts, the teacher blinks",
+   "set": "classroom",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/02_fun.js",
+   "amb": {
+    "name": "roomtone",
+    "gain": -28
+   },
+   "sfx": [
+    {
+     "at": 0.6,
+     "name": "pop",
+     "gain": -16
+    }
+   ]
+  },
+  {
+   "id": "s024",
+   "start": 65.7,
+   "end": 68.0,
+   "line": "Math test. Wrong answer.",
+   "scene": "INSERT: the test, question 4 wrong",
+   "set": "classroom",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/02_fun.js",
+   "amb": {
+    "name": "roomtone",
+    "gain": -28
+   },
+   "sfx": [
+    {
+     "at": 0.5,
+     "name": "hit",
+     "gain": -18,
+     "pitch": 1.6
+    }
+   ]
+  },
+  {
+   "id": "s025",
+   "start": 68.0,
+   "end": 69.96,
+   "line": "You rewind ten seconds.",
+   "scene": "REWIND: the answer un-writes, -10 s",
+   "set": "classroom",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/02_fun.js",
+   "amb": {
+    "name": "roomtone",
+    "gain": -28
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "glitch",
+     "gain": -12
+    },
+    {
+     "at": 1.5,
+     "name": "ding",
+     "gain": -14
+    }
+   ]
+  },
+  {
+   "id": "s026",
+   "start": 69.96,
+   "end": 72.47,
+   "line": "Blink. You're first in the lunch line.",
+   "scene": "CAFETERIA: blink, you pop in at the front of the line",
+   "set": "cafeteria",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/02_fun.js",
+   "amb": {
+    "name": "roomtone",
+    "gain": -28
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "flash",
+     "gain": -12
+    },
+    {
+     "at": 0.2,
+     "name": "pop",
+     "gain": -14
+    }
+   ]
+  },
+  {
+   "id": "s027",
+   "start": 72.47,
+   "end": 74.9,
+   "line": "Blink. Ramen in Tokyo.",
+   "scene": "TOKYO ramen stall: blink, you're eating",
+   "set": "tokyo",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/02_fun.js",
+   "amb": {
+    "name": "city",
+    "gain": -22
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "flash",
+     "gain": -12
+    },
+    {
+     "at": 0.2,
+     "name": "pop",
+     "gain": -14
+    }
+   ]
+  },
+  {
+   "id": "s028",
+   "start": 74.9,
+   "end": 77.41,
+   "line": "Blink. Back before the bell.",
+   "scene": "Classroom: blink, back in your seat as the bell rings",
+   "set": "classroom",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/02_fun.js",
+   "amb": {
+    "name": "roomtone",
+    "gain": -28
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "flash",
+     "gain": -12
+    },
+    {
+     "at": 0.3,
+     "name": "ding",
+     "gain": -14,
+     "pitch": 1.8
+    },
+    {
+     "at": 0.55,
+     "name": "ding",
+     "gain": -14,
+     "pitch": 1.8
+    },
+    {
+     "at": 0.8,
+     "name": "ding",
+     "gain": -14,
+     "pitch": 1.8
+    }
+   ]
+  },
+  {
+   "id": "s029",
+   "start": 77.41,
+   "end": 80.58,
+   "line": "Every dead phone in class charges in your hand.",
+   "scene": "Phones in your hand charge 0 -> 100 %; Theo holds his out",
+   "set": "classroom",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/02_fun.js",
+   "amb": {
+    "name": "roomtone",
+    "gain": -28
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "powerup",
+     "gain": -12
+    }
+   ]
+  },
+  {
+   "id": "s030",
+   "start": 80.58,
+   "end": 82.49,
+   "line": "Broccoli turns into fries.",
+   "scene": "INSERT: broccoli turns into fries",
+   "set": "cafeteria",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/02_fun.js",
+   "amb": {
+    "name": "roomtone",
+    "gain": -28
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "shimmer",
+     "gain": -14
+    }
+   ]
+  },
+  {
+   "id": "s031",
+   "start": 82.49,
+   "end": 85.64,
+   "line": "And every stone you touch snaps onto your hoodie.",
+   "scene": "CLOSE: stones snapping into the badge on your chest",
+   "set": "insert",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/02_fun.js",
+   "amb": {
+    "name": "roomtone",
+    "gain": -28
+   },
+   "sfx": [
+    {
+     "at": 0.25,
+     "name": "pop",
+     "gain": -14,
+     "pitch": 1.0
+    },
+    {
+     "at": 0.65,
+     "name": "pop",
+     "gain": -14,
+     "pitch": 1.06
+    },
+    {
+     "at": 1.05,
+     "name": "pop",
+     "gain": -14,
+     "pitch": 1.12
+    },
+    {
+     "at": 1.45,
+     "name": "pop",
+     "gain": -14,
+     "pitch": 1.18
+    },
+    {
+     "at": 1.85,
+     "name": "pop",
+     "gain": -14,
+     "pitch": 1.24
+    },
+    {
+     "at": 2.25,
+     "name": "pop",
+     "gain": -14,
+     "pitch": 1.3
+    }
+   ]
+  },
+  {
+   "id": "s032",
+   "start": 85.64,
+   "end": 88.41,
+   "line": "By Friday, you have gloves. Boots.",
+   "scene": "Gloves, then boots appear on you",
+   "set": "street",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/02_fun.js",
+   "amb": {
+    "name": "city",
+    "gain": -26
+   },
+   "sfx": [
+    {
+     "at": 1.33,
+     "name": "shimmer",
+     "gain": -16
+    },
+    {
+     "at": 2.26,
+     "name": "shimmer",
+     "gain": -16
+    }
+   ]
+  },
+  {
+   "id": "s033",
+   "start": 88.41,
+   "end": 89.73,
+   "line": "And a cape.",
+   "scene": "The red cape bursts out behind you",
+   "set": "street",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/02_fun.js",
+   "amb": {
+    "name": "city",
+    "gain": -26
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "whoosh",
+     "gain": -10
+    },
+    {
+     "at": 0.2,
+     "name": "shimmer",
+     "gain": -14
+    }
+   ]
+  },
+  {
+   "id": "s034",
+   "start": 89.73,
+   "end": 91.67,
+   "line": "You didn't ask for the cape.",
+   "scene": "BIG FACE: deadpan, the cape flapping into frame",
+   "set": "face",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/02_fun.js",
+   "amb": {
+    "name": "city",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s035",
+   "start": 91.67,
+   "end": 94.37,
+   "line": "But every stone takes something back.",
+   "scene": "The badge flickers; the light goes cold",
+   "set": "insert",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/03_curse.js",
+   "amb": {
+    "name": "city",
+    "gain": -26
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "stinger",
+     "gain": -10
+    }
+   ]
+  },
+  {
+   "id": "s036",
+   "start": 94.37,
+   "end": 97.17,
+   "line": "When you freeze time, you keep living.",
+   "scene": "Frozen city; you alone, shadows sweeping as your hours pass",
+   "set": "street",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/03_curse.js",
+   "amb": {
+    "name": "city",
+    "gain": -26
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "clock",
+     "gain": -18,
+     "rate": 1.0
+    }
+   ]
+  },
+  {
+   "id": "s037",
+   "start": 97.17,
+   "end": 100.48,
+   "line": "By Sunday, you're nine days older than your birthday.",
+   "scene": "Calendar: +9 days; mirror: tired eyes",
+   "set": "bedroom",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/03_curse.js",
+   "amb": {
+    "name": "roomtone",
+    "gain": -28
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "hit",
+     "gain": -16
+    }
+   ]
+  },
+  {
+   "id": "s038",
+   "start": 100.48,
+   "end": 105.07,
+   "line": "Every teleport leaves a hole in the air, and the air slams back in.",
+   "scene": "DIAGRAM: the air rushing into the hole you leave",
+   "set": "diagram",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/03_curse.js",
+   "amb": {
+    "name": "roomtone",
+    "gain": -28
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "whoosh",
+     "gain": -12,
+     "dur": 1.6
+    }
+   ]
+  },
+  {
+   "id": "s039",
+   "start": 105.07,
+   "end": 107.6,
+   "line": "Boom. The school windows crack.",
+   "scene": "Thunderclap ring; the school windows crack",
+   "set": "classroom",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/03_curse.js",
+   "amb": {
+    "name": "roomtone",
+    "gain": -28
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "impact",
+     "gain": -4
+    },
+    {
+     "at": 0.05,
+     "name": "crack",
+     "gain": -8
+    },
+    {
+     "at": 0.1,
+     "name": "thunder",
+     "gain": -14
+    }
+   ]
+  },
+  {
+   "id": "s040",
+   "start": 107.6,
+   "end": 110.02,
+   "line": "The mind stone has no off switch.",
+   "scene": "The OFF switch, stuck on ON; the violet stone glowing",
+   "set": "insert",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/03_curse.js",
+   "amb": {
+    "name": "roomtone",
+    "gain": -28
+   },
+   "sfx": [
+    {
+     "at": 0.6,
+     "name": "tick",
+     "gain": -12
+    },
+    {
+     "at": 1.1,
+     "name": "tick",
+     "gain": -12
+    },
+    {
+     "at": 1.6,
+     "name": "tick",
+     "gain": -12
+    }
+   ]
+  },
+  {
+   "id": "s041",
+   "start": 110.02,
+   "end": 113.71,
+   "line": "At the football game, you hear forty thousand thoughts at once.",
+   "scene": "STADIUM: thought bubbles everywhere",
+   "set": "stadium",
+   "bars": "none",
+   "in": {
+    "type": "dip",
+    "dur": 0.35
+   },
+   "notes": "shots/03_curse.js",
+   "amb": {
+    "name": "murmur",
+    "gain": -18
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "cheer",
+     "gain": -24
+    }
+   ]
+  },
+  {
+   "id": "s042",
+   "start": 113.71,
+   "end": 115.96,
+   "line": "One of them is your best friend's.",
+   "scene": "Theo in the stands, looking at you",
+   "set": "stadium",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/03_curse.js",
+   "amb": {
+    "name": "murmur",
+    "gain": -18
+   }
+  },
+  {
+   "id": "s043",
+   "start": 115.96,
+   "end": 118.1,
+   "line": "I liked him better before.",
+   "scene": "Theo's thought bubble; your face, hurt",
+   "set": "stadium",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/03_curse.js",
+   "amb": {
+    "name": "murmur",
+    "gain": -18
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "stinger",
+     "gain": -16
+    },
+    {
+     "at": 0.1,
+     "name": "pop",
+     "gain": -24
+    }
+   ]
+  },
+  {
+   "id": "s044",
+   "start": 118.1,
+   "end": 121.15,
+   "line": "And six stones together bend time around you.",
+   "scene": "You in the full suit, a ripple bending the space around you",
+   "set": "street",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/03_curse.js",
+   "amb": {
+    "name": "city",
+    "gain": -26
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "riser",
+     "gain": -12,
+     "dur": 2.0
+    },
+    {
+     "at": 0.2,
+     "name": "hum",
+     "gain": -18
+    }
+   ]
+  },
+  {
+   "id": "s045",
+   "start": 121.15,
+   "end": 123.49,
+   "line": "Just a few billionths of a second.",
+   "scene": "Counter 0.000000003 s",
+   "set": "diagram",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/03_curse.js",
+   "amb": {
+    "name": "city",
+    "gain": -26
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "blip",
+     "gain": -14
+    }
+   ]
+  },
+  {
+   "id": "s046",
+   "start": 123.49,
+   "end": 127.52,
+   "line": "That's enough. Every GPS near you is wrong.",
+   "scene": "PHONE: the map dot jumping, RECALCULATING",
+   "set": "phone",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/03_curse.js",
+   "amb": {
+    "name": "city",
+    "gain": -26
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "glitch",
+     "gain": -14
+    },
+    {
+     "at": 1.0,
+     "name": "glitch",
+     "gain": -16
+    }
+   ]
+  },
+  {
+   "id": "s047",
+   "start": 127.52,
+   "end": 129.89,
+   "line": "Map apps send cars into the river.",
+   "scene": "Cars driving into the river",
+   "set": "street",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/03_curse.js",
+   "amb": {
+    "name": "city",
+    "gain": -26
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "carpass",
+     "gain": -14
+    },
+    {
+     "at": 1.3,
+     "name": "splash",
+     "gain": -10,
+     "seed": 40
+    },
+    {
+     "at": 1.8,
+     "name": "splash",
+     "gain": -10,
+     "seed": 41
+    },
+    {
+     "at": 2.3,
+     "name": "splash",
+     "gain": -10,
+     "seed": 42
+    }
+   ]
+  },
+  {
+   "id": "s048",
+   "start": 129.89,
+   "end": 132.62,
+   "line": "NASA calls it the anomaly.",
+   "scene": "NASA screen: ANOMALY",
+   "set": "nasa",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/03_curse.js",
+   "amb": {
+    "name": "hum",
+    "gain": -28
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "blip",
+     "gain": -14,
+     "pitch": 1.5
+    },
+    {
+     "at": 0.4,
+     "name": "blip",
+     "gain": -14,
+     "pitch": 1.5
+    },
+    {
+     "at": 0.7,
+     "name": "blip",
+     "gain": -14,
+     "pitch": 1.5
+    },
+    {
+     "at": 1.0,
+     "name": "blip",
+     "gain": -14,
+     "pitch": 1.5
+    }
+   ]
+  },
+  {
+   "id": "s049",
+   "start": 132.62,
+   "end": 133.95,
+   "line": "It's you.",
+   "scene": "The red dot zooms to you on a rooftop in the suit",
+   "set": "face",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/03_curse.js",
+   "amb": {
+    "name": "hum",
+    "gain": -28
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "riser",
+     "gain": -14
+    },
+    {
+     "at": 0.33,
+     "name": "impact",
+     "gain": -10
+    }
+   ]
+  },
+  {
+   "id": "s050",
+   "start": 133.95,
+   "end": 136.79,
+   "line": "So. Is any of this real?",
+   "scene": "BLUEPRINT title: IS ANY OF THIS REAL?",
+   "set": "blueprint",
+   "bars": "none",
+   "in": {
+    "type": "dip",
+    "dur": 0.35
+   },
+   "notes": "shots/04_science.js",
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "impact",
+     "gain": -10
+    },
+    {
+     "at": 0.4,
+     "name": "shimmer",
+     "gain": -14
+    }
+   ]
+  },
+  {
+   "id": "s051",
+   "start": 136.79,
+   "end": 138.91,
+   "line": "Time really does bend.",
+   "scene": "Space-time grid bending around the Earth",
+   "set": "space",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/04_science.js",
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "whoosh",
+     "gain": -16,
+     "dur": 1.4
+    }
+   ]
+  },
+  {
+   "id": "s052",
+   "start": 138.91,
+   "end": 144.24,
+   "line": "Clocks on GPS satellites run thirty-eight millionths of a second faster every day.",
+   "scene": "GPS satellite over the Earth; clock +38 millionths of a second a day",
+   "set": "space",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/04_science.js",
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "blip",
+     "gain": -16
+    },
+    {
+     "at": 1.99,
+     "name": "ding",
+     "gain": -16
+    }
+   ]
+  },
+  {
+   "id": "s053",
+   "start": 144.24,
+   "end": 147.67,
+   "line": "Without a fix, your map would be ten kilometres off by tonight.",
+   "scene": "Map: your dot drifting 10 KM away",
+   "set": "phone",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/04_science.js",
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "swish",
+     "gain": -14
+    }
+   ]
+  },
+  {
+   "id": "s054",
+   "start": 147.67,
+   "end": 150.63,
+   "line": "Teleporting people? No.",
+   "scene": "A person scanner, crossed out",
+   "set": "blueprint",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/04_science.js",
+   "sfx": [
+    {
+     "at": 2.3,
+     "name": "hit",
+     "gain": -12
+    }
+   ]
+  },
+  {
+   "id": "s055",
+   "start": 150.63,
+   "end": 158.07,
+   "line": "But in twenty seventeen, scientists teleported the state of a particle of light to a satellite more than a thousand kilometres up.",
+   "scene": "REAL: China, 2017: a light beam from the ground to a satellite 1,400 km up",
+   "set": "real",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/04_science.js",
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "powerup",
+     "gain": -14
+    },
+    {
+     "at": 2.0,
+     "name": "shimmer",
+     "gain": -16
+    }
+   ]
+  },
+  {
+   "id": "s056",
+   "start": 158.07,
+   "end": 159.12,
+   "line": "Energy?",
+   "scene": "A paperclip on the blueprint",
+   "set": "blueprint",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/04_science.js",
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "pop",
+     "gain": -14
+    }
+   ]
+  },
+  {
+   "id": "s057",
+   "start": 159.12,
+   "end": 164.35,
+   "line": "Turn one paperclip completely into energy, and you'd beat the bomb that hit Hiroshima.",
+   "scene": "Paperclip = 21 kilotons vs Hiroshima 15 kilotons",
+   "set": "blueprint",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/04_science.js",
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "riser",
+     "gain": -16,
+     "dur": 1.0
+    },
+    {
+     "at": 4.1,
+     "name": "impact",
+     "gain": -8
+    }
+   ]
+  },
+  {
+   "id": "s058",
+   "start": 164.35,
+   "end": 167.93,
+   "line": "And there's a jellyfish that can turn itself back into a baby.",
+   "scene": "A jellyfish shrinking back into a baby polyp",
+   "set": "ocean",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/04_science.js",
+   "amb": {
+    "name": "underwater",
+    "gain": -18
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "bubbles",
+     "gain": -14
+    }
+   ]
+  },
+  {
+   "id": "s059",
+   "start": 167.93,
+   "end": 171.13,
+   "line": "Scientists call it the immortal jellyfish.",
+   "scene": "Name tag IMMORTAL JELLYFISH (REAL)",
+   "set": "ocean",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/04_science.js",
+   "amb": {
+    "name": "underwater",
+    "gain": -18
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "bubbles",
+     "gain": -18
+    }
+   ]
+  },
+  {
+   "id": "s060",
+   "start": 171.13,
+   "end": 172.87,
+   "line": "Every power is real.",
+   "scene": "The six stones, each with its real fact icon",
+   "set": "blueprint",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/04_science.js",
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "ding",
+     "gain": -18,
+     "pitch": 1.0
+    },
+    {
+     "at": 0.22,
+     "name": "ding",
+     "gain": -18,
+     "pitch": 1.1
+    },
+    {
+     "at": 0.34,
+     "name": "ding",
+     "gain": -18,
+     "pitch": 1.2
+    },
+    {
+     "at": 0.46,
+     "name": "ding",
+     "gain": -18,
+     "pitch": 1.3
+    },
+    {
+     "at": 0.58,
+     "name": "ding",
+     "gain": -18,
+     "pitch": 1.4
+    },
+    {
+     "at": 0.7,
+     "name": "ding",
+     "gain": -18,
+     "pitch": 1.5
+    }
+   ]
+  },
+  {
+   "id": "s061",
+   "start": 172.87,
+   "end": 175.38,
+   "line": "Just never all in one hand.",
+   "scene": "Your gloved hand holding all six, too bright",
+   "set": "insert",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/04_science.js",
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "riser",
+     "gain": -10,
+     "dur": 1.8
+    },
+    {
+     "at": 1.8,
+     "name": "flash",
+     "gain": -10
+    }
+   ]
+  },
+  {
+   "id": "s062",
+   "start": 175.38,
+   "end": 178.1,
+   "line": "One night, Grandma doesn't know you.",
+   "scene": "GRANDMA'S LIVING ROOM at night: she turns to you",
+   "set": "living",
+   "bars": "none",
+   "in": {
+    "type": "dip",
+    "dur": 0.35
+   },
+   "notes": "shots/05_grandma.js",
+   "amb": {
+    "name": "roomtone",
+    "gain": -28
+   }
+  },
+  {
+   "id": "s063",
+   "start": 178.1,
+   "end": 180.98,
+   "line": "She sees the cape, and she steps back.",
+   "scene": "Grandma steps back from the glowing suit",
+   "set": "living",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/05_grandma.js",
+   "amb": {
+    "name": "roomtone",
+    "gain": -28
+   },
+   "sfx": [
+    {
+     "at": 0.6,
+     "name": "hit",
+     "gain": -18
+    },
+    {
+     "at": 0.7,
+     "name": "stinger",
+     "gain": -18
+    }
+   ]
+  },
+  {
+   "id": "s064",
+   "start": 180.98,
+   "end": 184.09,
+   "line": "Who are you? Where's my grandson?",
+   "scene": "CLOSE: Grandma, scared (bubble)",
+   "set": "face",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/05_grandma.js",
+   "amb": {
+    "name": "roomtone",
+    "gain": -28
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "pop",
+     "gain": -24
+    }
+   ]
+  },
+  {
+   "id": "s065",
+   "start": 184.09,
+   "end": 188.68,
+   "line": "The life stone fixes what's broken. And it takes something back.",
+   "scene": "The pink LIFE stone in your palm",
+   "set": "insert",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/05_grandma.js",
+   "amb": {
+    "name": "roomtone",
+    "gain": -28
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "shimmer",
+     "gain": -14
+    },
+    {
+     "at": 0.2,
+     "name": "hum",
+     "gain": -20,
+     "dur": 2.0
+    }
+   ]
+  },
+  {
+   "id": "s066",
+   "start": 188.68,
+   "end": 191.17,
+   "line": "A memory, for a memory.",
+   "scene": "A memory bubble floating from your head to hers",
+   "set": "diagram",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/05_grandma.js",
+   "amb": {
+    "name": "roomtone",
+    "gain": -28
+   },
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "whoosh",
+     "gain": -16,
+     "dur": 1.6
+    }
+   ]
+  },
+  {
+   "id": "s067",
+   "start": 191.17,
+   "end": 193.1,
+   "line": "You press it into her hand.",
+   "scene": "Your hands and hers, pink glow",
+   "set": "living",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/05_grandma.js",
+   "amb": {
+    "name": "roomtone",
+    "gain": -28
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "powerup",
+     "gain": -14
+    },
+    {
+     "at": 0.9,
+     "name": "shimmer",
+     "gain": -14
+    }
+   ]
+  },
+  {
+   "id": "s068",
+   "start": 193.1,
+   "end": 195.77,
+   "line": "She blinks. She smiles.",
+   "scene": "CLOSE: Grandma's eyes clear; she smiles",
+   "set": "face",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/05_grandma.js",
+   "amb": {
+    "name": "roomtone",
+    "gain": -28
+   },
+   "sfx": [
+    {
+     "at": 1.57,
+     "name": "shimmer",
+     "gain": -18
+    }
+   ]
+  },
+  {
+   "id": "s069",
+   "start": 195.77,
+   "end": 198.94,
+   "line": "There you are. You got tall.",
+   "scene": "Grandma touches your face (bubble)",
+   "set": "living",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/05_grandma.js",
+   "amb": {
+    "name": "roomtone",
+    "gain": -28
+   },
+   "sfx": [
+    {
+     "at": 0.01,
+     "name": "pop",
+     "gain": -24
+    }
+   ]
+  },
+  {
+   "id": "s070",
+   "start": 198.94,
+   "end": 202.26,
+   "line": "You get one perfect day at the old observatory.",
+   "scene": "THE OLD OBSERVATORY: the dome opens; you and Grandma",
+   "set": "observatory",
+   "bars": "none",
+   "in": {
+    "type": "dip",
+    "dur": 0.35
+   },
+   "notes": "shots/05_grandma.js",
+   "amb": {
+    "name": "wind",
+    "gain": -32
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "creak",
+     "gain": -16,
+     "dur": 2.0
+    },
+    {
+     "at": 1.6,
+     "name": "shimmer",
+     "gain": -16
+    }
+   ]
+  },
+  {
+   "id": "s071",
+   "start": 202.26,
+   "end": 206.52,
+   "line": "And you realise you can't remember the first night she showed you the stars.",
+   "scene": "BIG FACE: a memory frame above your head goes blank",
+   "set": "face",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/05_grandma.js",
+   "amb": {
+    "name": "wind",
+    "gain": -32
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "glitch",
+     "gain": -18
+    }
+   ]
+  },
+  {
+   "id": "s072",
+   "start": 206.52,
+   "end": 208.16,
+   "line": "That's what the stone took.",
+   "scene": "The pink stone dims",
+   "set": "insert",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/05_grandma.js",
+   "amb": {
+    "name": "wind",
+    "gain": -32
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "whoosh",
+     "gain": -18
+    }
+   ]
+  },
+  {
+   "id": "s073",
+   "start": 208.16,
+   "end": 212.85,
+   "line": "You were six. You asked me if the stars could see us back.",
+   "scene": "FLASHBACK: little you in pyjamas under a coat at the telescope (bubble)",
+   "set": "flashback",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/05_grandma.js",
+   "amb": {
+    "name": "wind",
+    "gain": -32
+   },
+   "sfx": [
+    {
+     "at": 0.13,
+     "name": "pop",
+     "gain": -24
+    }
+   ]
+  },
+  {
+   "id": "s074",
+   "start": 212.85,
+   "end": 214.27,
+   "line": "I said yes.",
+   "scene": "The stars twinkle back",
+   "set": "observatory",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/05_grandma.js",
+   "amb": {
+    "name": "wind",
+    "gain": -32
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "shimmer",
+     "gain": -18
+    }
+   ]
+  },
+  {
+   "id": "s075",
+   "start": 214.27,
+   "end": 216.28,
+   "line": "Then she goes quiet.",
+   "scene": "Grandma looks at the stones on your chest",
+   "set": "observatory",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/05_grandma.js",
+   "amb": {
+    "name": "wind",
+    "gain": -32
+   }
+  },
+  {
+   "id": "s076",
+   "start": 216.28,
+   "end": 221.42,
+   "line": "I've seen these stones before. Nineteen sixty-nine. Six lights.",
+   "scene": "1969 FLASHBACK: young Grandma, six lights over the same backyard (bubble)",
+   "set": "flashback",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/05_grandma.js",
+   "amb": {
+    "name": "wind",
+    "gain": -32
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "whoosh",
+     "gain": -16,
+     "seed": 60
+    },
+    {
+     "at": 0.5,
+     "name": "whoosh",
+     "gain": -16,
+     "seed": 61
+    },
+    {
+     "at": 0.7,
+     "name": "whoosh",
+     "gain": -16,
+     "seed": 62
+    },
+    {
+     "at": 0.9,
+     "name": "whoosh",
+     "gain": -16,
+     "seed": 63
+    },
+    {
+     "at": 1.1,
+     "name": "whoosh",
+     "gain": -16,
+     "seed": 64
+    },
+    {
+     "at": 1.3,
+     "name": "whoosh",
+     "gain": -16,
+     "seed": 65
+    },
+    {
+     "at": 0.04,
+     "name": "pop",
+     "gain": -24
+    }
+   ]
+  },
+  {
+   "id": "s077",
+   "start": 221.42,
+   "end": 223.05,
+   "line": "Same backyard.",
+   "scene": "The same house, 1969 and today",
+   "set": "backyard",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/05_grandma.js",
+   "amb": {
+    "name": "wind",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s078",
+   "start": 223.05,
+   "end": 226.77,
+   "line": "That night, NASA picks up six new lights.",
+   "scene": "NASA radar: six new dots",
+   "set": "nasa",
+   "bars": "none",
+   "in": {
+    "type": "dip",
+    "dur": 0.35
+   },
+   "notes": "shots/05_grandma.js",
+   "amb": {
+    "name": "hum",
+    "gain": -28
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -12,
+     "pitch": 1.2
+    },
+    {
+     "at": 0.45,
+     "name": "blip",
+     "gain": -12,
+     "pitch": 1.2
+    },
+    {
+     "at": 0.6,
+     "name": "blip",
+     "gain": -12,
+     "pitch": 1.2
+    },
+    {
+     "at": 0.75,
+     "name": "blip",
+     "gain": -12,
+     "pitch": 1.2
+    },
+    {
+     "at": 0.9,
+     "name": "blip",
+     "gain": -12,
+     "pitch": 1.2
+    },
+    {
+     "at": 1.05,
+     "name": "blip",
+     "gain": -12,
+     "pitch": 1.2
+    }
+   ]
+  },
+  {
+   "id": "s079",
+   "start": 226.77,
+   "end": 232.02,
+   "line": "They're not falling. They're slowing down. They're not coming back for the stones.",
+   "scene": "Six lights slowing down, braking rings",
+   "set": "space",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/05_grandma.js",
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "riser",
+     "gain": -12,
+     "dur": 2.6
+    },
+    {
+     "at": 1.63,
+     "name": "whoosh",
+     "gain": -14
+    }
+   ]
+  },
+  {
+   "id": "s080",
+   "start": 232.02,
+   "end": 234.95,
+   "line": "They're coming back for whoever could hold them.",
+   "scene": "BIG FACE: you look up; the badge glows",
+   "set": "face",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/05_grandma.js",
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "impact",
+     "gain": -12
+    },
+    {
+     "at": 0.3,
+     "name": "heartbeat",
+     "gain": -16,
+     "dur": 2.5,
+     "bpm": 70
+    }
+   ]
+  },
+  {
+   "id": "s081",
+   "start": 234.95,
+   "end": 237.81,
+   "line": "Your coffee stops falling.",
+   "scene": "KITCHEN: the coffee freezes again; your hands are empty",
+   "set": "kitchen",
+   "bars": "none",
+   "in": {
+    "type": "cut"
+   },
+   "notes": "shots/05_grandma.js",
+   "sfx": [
+    {
+     "at": 0.05,
+     "name": "freeze",
+     "gain": -6
+    },
+    {
+     "at": 0.3,
+     "name": "stinger",
+     "gain": -10
+    }
+   ]
+  },
+  {
+   "id": "s082",
+   "start": 237.81,
+   "end": 246.23,
+   "line": "If you could keep only one stone, which one would you keep? Tell me in the comments. And subscribe, because they're almost here.",
+   "scene": "END SCREEN: which stone would YOU keep? comment, subscribe, cast",
+   "set": "end",
+   "bars": "none",
+   "in": {
+    "type": "dip",
+    "dur": 0.35
+   },
+   "notes": "shots/05_grandma.js",
+   "sfx": [
+    {
+     "at": 4.08,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 5.28,
+     "name": "ding",
+     "gain": -12
+    }
+   ]
   }
  ],
- "music": [],
+ "music": [
+  {
+   "start": 0.0,
+   "end": 3.19,
+   "mood": "mystery",
+   "intensity": 0.45
+  },
+  {
+   "start": 3.19,
+   "end": 7.56,
+   "mood": "epic",
+   "intensity": 0.5
+  },
+  {
+   "start": 7.56,
+   "end": 20.46,
+   "mood": "mystery",
+   "intensity": 0.4
+  },
+  {
+   "start": 20.46,
+   "end": 32.03,
+   "mood": "wonder",
+   "intensity": 0.45
+  },
+  {
+   "start": 32.03,
+   "end": 39.38,
+   "mood": "mystery",
+   "intensity": 0.35
+  },
+  {
+   "start": 39.38,
+   "end": 49.79,
+   "mood": "calm",
+   "intensity": 0.4
+  },
+  {
+   "start": 49.79,
+   "end": 57.19,
+   "mood": "sad",
+   "intensity": 0.3
+  },
+  {
+   "start": 57.19,
+   "end": 59.49,
+   "mood": "calm",
+   "intensity": 0.35
+  },
+  {
+   "start": 59.49,
+   "end": 82.49,
+   "mood": "playful",
+   "intensity": 0.55
+  },
+  {
+   "start": 82.49,
+   "end": 91.67,
+   "mood": "triumph",
+   "intensity": 0.55
+  },
+  {
+   "start": 91.67,
+   "end": 110.02,
+   "mood": "tension",
+   "intensity": 0.45
+  },
+  {
+   "start": 110.02,
+   "end": 115.96,
+   "mood": "action",
+   "intensity": 0.5
+  },
+  {
+   "start": 115.96,
+   "end": 118.1,
+   "mood": "sad",
+   "intensity": 0.4
+  },
+  {
+   "start": 118.1,
+   "end": 129.89,
+   "mood": "tension",
+   "intensity": 0.6
+  },
+  {
+   "start": 129.89,
+   "end": 133.95,
+   "mood": "dark",
+   "intensity": 0.45
+  },
+  {
+   "start": 133.95,
+   "end": 172.87,
+   "mood": "wonder",
+   "intensity": 0.45
+  },
+  {
+   "start": 172.87,
+   "end": 175.38,
+   "mood": "tension",
+   "intensity": 0.4
+  },
+  {
+   "start": 175.38,
+   "end": 193.1,
+   "mood": "sad",
+   "intensity": 0.4
+  },
+  {
+   "start": 193.1,
+   "end": 202.26,
+   "mood": "hopeful",
+   "intensity": 0.45
+  },
+  {
+   "start": 202.26,
+   "end": 208.16,
+   "mood": "sad",
+   "intensity": 0.4
+  },
+  {
+   "start": 208.16,
+   "end": 214.27,
+   "mood": "calm",
+   "intensity": 0.35
+  },
+  {
+   "start": 214.27,
+   "end": 223.05,
+   "mood": "mystery",
+   "intensity": 0.45
+  },
+  {
+   "start": 223.05,
+   "end": 232.02,
+   "mood": "tension",
+   "intensity": 0.55
+  },
+  {
+   "start": 232.02,
+   "end": 234.95,
+   "mood": "epic",
+   "intensity": 0.55
+  },
+  {
+   "start": 234.95,
+   "end": 237.81,
+   "mood": "mystery",
+   "intensity": 0.5
+  },
+  {
+   "start": 237.81,
+   "end": 246.23,
+   "mood": "hopeful",
+   "intensity": 0.45
+  }
+ ],
  "sfx": []
 }
