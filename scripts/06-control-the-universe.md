@@ -6,7 +6,7 @@
 **Style:** 2D studio, the v2 look (`projects/control-the-universe/scenes/look.js`), with the hero's blue hoodie turning
 into a **two-tone superhero suit** as he collects the stones (the user: "not blue only, mix it with another colour"):
 a chest badge (1 stone); a V-shaped shoulder yoke, upper sleeves, gloves and belt in the second colour (3); boots and a
-cape (all 6). Second colour to pick: **A red** (gold trim) or **B orange** (navy trim); `SUITS` in `scenes/cast.js`.
+cape (all 6). Second colour: **red** with gold trim (the user picked A, Oct 23); `SUITS.red` in `scenes/cast.js`.
 Follows `CLAUDE.md` (science in the middle, family member with a backstory, lasting price, world-scale effects, twist
 in the last 30 s) and the fun → curse structure in `docs/14-fun-to-curse-structure.md`.
 **Status:** DRAFT, waiting for the user's approval. Next: voices.
