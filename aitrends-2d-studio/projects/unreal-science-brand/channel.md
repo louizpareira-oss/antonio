@@ -9,7 +9,7 @@
 ## Images (in `assets/`, drawn in the studio: `scenes/shots/brand.js`, the hero of video 6 in his suit + the six stones)
 | file | where | size |
 |---|---|---|
-| `unreal_science_profile_800.png` | Customization → Branding → Picture | 800×800, shown as a circle: his grinning face, the stones in an arc above, a purple light burst |
+| `unreal_science_profile_800.png` | Customization → Branding → Picture | 800×800, shown as a circle: the character from the video (blue hoodie, no suit) with a swept-up haircut, grinning, on a warm orange sunburst |
 | `unreal_science_banner_2560x1440.png` | Customization → Branding → Banner image | 2560×1440: the hero arms up with the stones orbiting, UNREAL (white) SCIENCE (yellow) + tagline, all inside the 1546×423 area every device shows; planets in the desktop/TV strips |
 Re-render: `node render.mjs --project projects/unreal-science-brand --stills 0.5,1.5` (banner = 0.5 s, avatar = 1.5 s, cropped to the centre square).
 

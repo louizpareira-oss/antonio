@@ -6,7 +6,7 @@ import { E, registerShot, circle, alpha, glow, linGrad, radGrad, text, FONTS } f
 import { POSES } from '/engine/rig2d.js';
 import * as FX from '/engine/fx2d.js';
 import { person, bigFaceV2 } from '/projects/control-the-universe/scenes/look.js';
-import { HERO } from '/projects/control-the-universe/scenes/cast.js';
+import { YOU, HERO } from '/projects/control-the-universe/scenes/cast.js';
 import { stone, STONES } from '/projects/control-the-universe/scenes/stones.js';
 
 const SAFE = { x: 380, y: 381, w: 1160, h: 317 };
@@ -73,12 +73,29 @@ registerShot('banner', { draw(g) {
   text(g, 'IMPOSSIBLE IDEAS. REAL SCIENCE.', tx + 6, 686, { size: 34, color: '#ffffff', font: FONTS.ui, weight: 900, align: 'left', spacing: 6, stroke: 9, strokeColor: 'rgba(11,8,32,.9)' });
 } });
 
+// a swept-up quiff (in head radii): rim = the white outline drawn behind the head, else the hair itself + two sheen strands
+const QUIFF = [[-0.98, -0.3], [-1.08, -0.78], [-0.82, -0.98], [-0.7, -1.3], [-0.36, -1.14], [-0.1, -1.46], [0.18, -1.2], [0.56, -1.42], [0.62, -1.08], [1.04, -1.06], [0.92, -0.72], [1.0, -0.36],
+  [0.74, -0.5], [0.5, -0.64], [0.3, -0.46], [0.06, -0.62], [-0.2, -0.46], [-0.46, -0.62], [-0.72, -0.46]];
+function hair(g, cx, cy, r, rim) {
+  const P = QUIFF.map(([x, y]) => [cx + x * r, cy + y * r]);
+  g.save(); g.beginPath(); g.moveTo(...P[0]); for (let i = 1; i <= P.length; i++) { const a = P[i % P.length], b = P[(i + 1) % P.length]; g.quadraticCurveTo(a[0], a[1], (a[0] + b[0]) / 2, (a[1] + b[1]) / 2); } g.closePath();
+  g.lineJoin = 'round';
+  if (rim) { g.strokeStyle = '#ffffff'; g.lineWidth = r * 0.1; g.stroke(); g.restore(); return; }
+  g.fillStyle = INK; g.fill();
+  g.strokeStyle = '#3a3650'; g.lineWidth = r * 0.045; g.lineCap = 'round';
+  for (const [x0, y0, x1, y1, x2, y2] of [[-0.6, -0.62, -0.5, -0.95, -0.2, -1.15], [0.0, -0.66, 0.15, -0.95, 0.45, -1.15]]) { g.beginPath(); g.moveTo(cx + x0 * r, cy + y0 * r); g.quadraticCurveTo(cx + x1 * r, cy + y1 * r, cx + x2 * r, cy + y2 * r); g.stroke(); }
+  g.restore();
+}
 registerShot('avatar', { draw(g) {
+  // just the character from the video (blue hoodie, no suit) with spiky hair, on a warm sunburst (the user, Oct 24)
   const cx = E.W / 2, hy = 560, r = 270;
-  burst(g, cx, hy - 40, 820, { rays: 32, seed: 3 });
-  FX.stars(g, 0, { seed: 4, count: 120, area: [cx - 540, 0, 1080, E.H] });
-  glow(g, cx, hy, r * 1.9, '#ffffff', 0.5);
-  // the six stones in an arc over his head
-  STONES.forEach(([, col], i) => { const a = Math.PI * (1.12 + i * 0.152); stone(g, cx + Math.cos(a) * 420, hy - 30 + Math.sin(a) * 400, 1.25, col, { rot: (i - 2.5) * 0.18, glow: 1 }); });
-  bigFaceV2(g, cx, hy, r, { outfit: HERO, expr: 'grin', look: [0, -0.15], rim: '#ffffff' });
+  g.fillStyle = radGrad(g, cx, hy - 40, 0, 760, ['#fff6c8', '#ffd23a', '#ff9a2a', '#f0602a']); g.fillRect(0, 0, E.W, E.H);
+  g.save(); g.globalCompositeOperation = 'lighter';
+  for (let i = 0; i < 28; i++) { const a = (i / 28) * Math.PI * 2, w = 0.05; g.fillStyle = radGrad(g, cx, hy - 40, 0, 900, [alpha('#ffffff', 0.35), alpha('#ffffff', 0.12), alpha('#ffffff', 0)]);
+    g.beginPath(); g.moveTo(cx, hy - 40); g.arc(cx, hy - 40, 900, a - w, a + w); g.closePath(); g.fill(); }
+  g.restore();
+  glow(g, cx, hy - 20, r * 1.8, '#ffffff', 0.45);
+  hair(g, cx, hy, r, true);                                       // white rim of the hair, behind the head
+  bigFaceV2(g, cx, hy, r, { outfit: YOU, expr: 'grin', look: [0, -0.1], rim: '#ffffff' });
+  hair(g, cx, hy, r, false);
 } });
