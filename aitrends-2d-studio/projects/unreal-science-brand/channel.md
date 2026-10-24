@@ -6,7 +6,14 @@
 - **Tagline:** Impossible ideas. Real science.
 - **Business email (create it first in Gmail):** unrealscience.business@gmail.com (or the closest free one)
 
-## Profile picture (SeaArt prompt, 1:1, shown as a circle at 800×800)
+## Images (in `assets/`, drawn in the studio: `scenes/shots/brand.js`, the hero of video 6 in his suit + the six stones)
+| file | where | size |
+|---|---|---|
+| `unreal_science_profile_800.png` | Customization → Branding → Picture | 800×800, shown as a circle: his grinning face, the stones in an arc above, a purple light burst |
+| `unreal_science_banner_2560x1440.png` | Customization → Branding → Banner image | 2560×1440: the hero arms up with the stones orbiting, UNREAL (white) SCIENCE (yellow) + tagline, all inside the 1546×423 area every device shows; planets in the desktop/TV strips |
+Re-render: `node render.mjs --project projects/unreal-science-brand --stills 0.5,1.5` (banner = 0.5 s, avatar = 1.5 s, cropped to the centre square).
+
+## Profile picture (SeaArt prompt alternative, 1:1, shown as a circle at 800×800)
 "1:1 square, YouTube channel profile picture, centered composition that still reads inside a circle. 2D cel-shaded
 cartoon illustration style with bold black outlines, flat vibrant colors, and dramatic comic-book glow. A slender
 stick-figure with thin limbs, a solid black spherical head, and glowing white eyes, wearing a bright blue hoodie.
@@ -15,7 +22,7 @@ cyan atom spinning above his open palm. Simple flat bright orange background wit
 High contrast, cyan and neon orange. No text, no letters. Strictly NO human skin, NO realistic faces, NO thick/chibi
 bodies, NO 3D render, NO realistic textures."
 
-## Banner (SeaArt prompt, 16:9, upscale/crop to 2560×1440)
+## Banner (SeaArt prompt alternative, 16:9, upscale/crop to 2560×1440)
 "16:9 wide YouTube channel banner, 2560x1440. 2D cel-shaded cartoon illustration style with bold black outlines, flat
 vibrant colors, and dramatic comic-book glow. A slender stick-figure with thin limbs, a solid black spherical head, and
 glowing white eyes, wearing a bright blue hoodie, standing on the left third, pointing up in wonder at a sky full of
