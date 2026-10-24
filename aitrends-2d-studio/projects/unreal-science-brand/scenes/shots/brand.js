@@ -2,7 +2,7 @@
 // the six stones and a cosmic burst (the GOD MODE thumbnail look).
 // Logical stage 1920x1080 (rendered at 2560x1440). Banner safe area for every device: 1546x423 px -> logical 1160x317,
 // centred (x 380..1540, y 381..698). Avatar = centre 1080x1080 square, cropped later and shown as a circle.
-import { E, registerShot, circle, alpha, glow, linGrad, radGrad, text, FONTS } from '/engine/core.js';
+import { E, registerShot, rr, circle, alpha, shade, glow, linGrad, radGrad, text, FONTS } from '/engine/core.js';
 import { POSES } from '/engine/rig2d.js';
 import * as FX from '/engine/fx2d.js';
 import { person, bigFaceV2 } from '/projects/control-the-universe/scenes/look.js';
@@ -51,26 +51,34 @@ function bigWord(g, str, x, y, size, color, glowColor, align = 'left') {
 }
 
 registerShot('banner', { draw(g) {
-  const hx = 600, feet = 676;                                   // the hero floats on the left of the safe area
-  burst(g, hx, 520, 1250, { rays: 44 });
-  FX.stars(g, 0, { seed: 9, count: 260, area: [0, 0, E.W, E.H] });
+  // matches the profile picture (the user, Oct 24): the plain character with his haircut on a warm sunburst,
+  // fading into deep space on the right where the name sits
+  const fx = 630, fy = 575, r = 128;
+  g.fillStyle = radGrad(g, fx, fy - 30, 0, 1500, ['#fff6c8', '#ffd23a', '#ff9a2a', '#e8502a', '#7a1f5a', '#2a1660', '#140a3a']); g.fillRect(0, 0, E.W, E.H);
+  g.save(); g.globalCompositeOperation = 'lighter';
+  for (let i = 0; i < 40; i++) { const a = (i / 40) * Math.PI * 2, w = 0.04; g.fillStyle = radGrad(g, fx, fy - 30, 0, 1100, [alpha('#ffffff', 0.35), alpha('#ffffff', 0.1), alpha('#ffffff', 0)]);
+    g.beginPath(); g.moveTo(fx, fy - 30); g.arc(fx, fy - 30, 1100, a - w, a + w); g.closePath(); g.fill(); }
+  g.restore();
+  FX.stars(g, 0, { seed: 9, count: 200, area: [1000, 0, 920, E.H] });
   // darker band behind the name so it reads on every device
-  g.fillStyle = radGrad(g, 1150, 540, 40, 620, ['rgba(14,8,40,.72)', 'rgba(14,8,40,.4)', 'rgba(14,8,40,0)']); g.fillRect(0, 0, E.W, E.H);
+  g.fillStyle = radGrad(g, 1180, 540, 40, 560, ['rgba(20,10,58,.7)', 'rgba(20,10,58,.35)', 'rgba(20,10,58,0)']); g.fillRect(0, 0, E.W, E.H);
   // planets in the desktop / TV strips only (phones see just the safe area)
   planet(g, 1740, 330, 70, '#3ad8ff', '#ffd23a');
-  planet(g, 190, 780, 46, '#ff7a3a', null);
   planet(g, 1650, 820, 30, '#4fe08a', null);
-  planet(g, 250, 250, 26, '#ffd23a', null);
-  // the hero, arms up, the stones circling him
-  glow(g, hx, 470, 330, '#ffffff', 0.55);
-  orbit(g, hx, 560, 220, 70, 0.62, -1);
-  person(g, { x: hx, y: feet, s: 1.32, facing: 1, outfit: HERO, pose: POSES.cheer, expr: 'grin', look: [0.4, -0.3], rim: { color: '#ffffff', w: 6 }, shadow: false });
-  orbit(g, hx, 560, 220, 70, 0.62, 1);
-  // the name
-  const tx = 860;
-  bigWord(g, 'UNREAL', tx, 470, 168, '#ffffff', 'rgba(255,140,230,.9)');
-  bigWord(g, 'SCIENCE', tx, 612, 168, YELLOW, 'rgba(255,170,40,.9)');
-  text(g, 'IMPOSSIBLE IDEAS. REAL SCIENCE.', tx + 6, 686, { size: 34, color: '#ffffff', font: FONTS.ui, weight: 900, align: 'left', spacing: 6, stroke: 9, strokeColor: 'rgba(11,8,32,.9)' });
+  glow(g, fx, fy - 20, r * 1.9, '#ffffff', 0.5);
+  // the hoodie carries on below the frame: body widening to the bottom, darker sleeves on both sides
+  const sy = fy + r * 1.74, body = shade(YOU.color, -0.08), sleeve = shade(YOU.color, -0.22);
+  g.fillStyle = body; g.beginPath(); g.moveTo(fx - r * 1.35, sy - 2); g.lineTo(fx + r * 1.35, sy - 2); g.quadraticCurveTo(fx + r * 1.5, sy + r * 1.2, fx + r * 1.85, E.H); g.lineTo(fx - r * 1.85, E.H); g.quadraticCurveTo(fx - r * 1.5, sy + r * 1.2, fx - r * 1.35, sy - 2); g.fill();
+  for (const k of [-1, 1]) { g.fillStyle = sleeve; g.beginPath(); g.moveTo(fx + k * r * 1.3, sy); g.quadraticCurveTo(fx + k * r * 1.48, sy + r * 1.2, fx + k * r * 1.85, E.H); g.lineTo(fx + k * r * 1.25, E.H); g.quadraticCurveTo(fx + k * r * 1.05, sy + r * 1.0, fx + k * r * 1.3, sy); g.fill(); }
+  rr(g, fx - r * 0.75, sy + r * 1.3, r * 1.5, r * 0.75, r * 0.2); g.fillStyle = sleeve; g.fill();                       // front pocket
+  hair(g, fx, fy, r, true);
+  bigFaceV2(g, fx, fy, r, { outfit: YOU, expr: 'grin', look: [0.35, -0.1], rim: '#ffffff' });
+  hair(g, fx, fy, r, false);
+  // the name, inside the safe area (x 380..1540, y 381..698)
+  const tx = 840;
+  bigWord(g, 'UNREAL', tx, 462, 150, '#ffffff', 'rgba(255,140,230,.9)');
+  bigWord(g, 'SCIENCE', tx, 588, 150, YELLOW, 'rgba(255,170,40,.9)');
+  text(g, 'IMPOSSIBLE IDEAS. REAL SCIENCE.', tx + 6, 662, { size: 29, color: '#ffffff', font: FONTS.ui, weight: 900, align: 'left', spacing: 4, stroke: 8, strokeColor: 'rgba(11,8,32,.9)' });
 } });
 
 // a swept-up quiff (in head radii): rim = the white outline drawn behind the head, else the hair itself + two sheen strands

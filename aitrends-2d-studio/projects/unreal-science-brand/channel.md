@@ -10,7 +10,7 @@
 | file | where | size |
 |---|---|---|
 | `unreal_science_profile_800.png` | Customization → Branding → Picture | 800×800, shown as a circle: the character from the video (blue hoodie, no suit) with a swept-up haircut, grinning, on a warm orange sunburst |
-| `unreal_science_banner_2560x1440.png` | Customization → Branding → Banner image | 2560×1440: the hero arms up with the stones orbiting, UNREAL (white) SCIENCE (yellow) + tagline, all inside the 1546×423 area every device shows; planets in the desktop/TV strips |
+| `unreal_science_banner_2560x1440.png` | Customization → Branding → Banner image | 2560×1440: matches the picture (the character with his haircut on the warm sunburst, fading into space with planets), UNREAL (white) SCIENCE (yellow) + tagline, all inside the 1546×423 area every device shows; planets in the desktop/TV strips |
 Re-render: `node render.mjs --project projects/unreal-science-brand --stills 0.5,1.5` (banner = 0.5 s, avatar = 1.5 s, cropped to the centre square).
 
 ## Profile picture (SeaArt prompt alternative, 1:1, shown as a circle at 800×800)
