@@ -7,7 +7,8 @@ For the finished video `out/Can_One_Person_Really_Control_the_Universe.mp4` (4:0
 Can One Person Really Control the Universe?
 
 ## Thumbnail
-Pick one of the SeaArt concepts in `story/thumbnail.md` (or upload all three with Test & compare) and add its text.
+`out/thumbnail_GOD_MODE.jpg` (the user's SeaArt image for concept 7c, Earth in his hand, with **GOD** white / **MODE.**
+yellow in the comic 3D lettering). In Test & compare, add `out/thumbnail_MY_WORLD.jpg` as the second option.
 
 ## Description (paste everything between the lines)
 ---

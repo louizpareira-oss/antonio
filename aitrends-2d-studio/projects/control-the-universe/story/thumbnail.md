@@ -7,7 +7,11 @@ describes the blue + red superhero suit from this video. The user adds the 2-wor
 **SeaArt negative prompt (all three):**
 `3d render, octane, photorealistic, realistic texture, wide shot, tiny character, full street, cross-section, human skin, realistic face, thick body, chibi, Pixar, text, letters, numbers, logo, watermark, signs, clutter, small objects, extra limbs, gauntlet, gold glove, Marvel`
 
-**Pick:** upload all three with YouTube's Test & compare. If only one: **#1 ALL SIX.** (it shows the power itself).
+**Picked (Oct 24):** the user's SeaArt result for concept 7c (Earth in his hand), finished with **GOD** / **MODE.** in
+the comic 3D lettering → `out/thumbnail_GOD_MODE.jpg`; alternative `out/thumbnail_MY_WORLD.jpg` (source:
+`out/thumbnail_source_god.jpg`).
+
+**Earlier pick:** upload all three with YouTube's Test & compare. If only one: **#1 ALL SIX.** (it shows the power itself).
 
 ---
 
