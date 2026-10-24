@@ -4,10 +4,10 @@ Video 6, **"Can One Person Really Control the Universe?"** (`aitrends-2d-studio/
 for a **new channel**, not Parallel You. Its format: a real question title ("Can … Really …?", after the user's example
 "Can 2 People Really Restart Humanity?") answered with a short story and real science, about 4 minutes, 16:9.
 
-## Chosen name (the user, Oct 24: "just make a normal name")
-- **Simple Science**, handle @SimpleScienceTV (fallbacks @SimpleScienceStories, @TheSimpleScience, @SimpleScienceShow)
-- Tagline: **Big questions. Simple answers.**
-- Setup kit (profile picture + banner prompts, About text, keywords): `aitrends-2d-studio/projects/simple-science-brand/channel.md`
+## Chosen name (the user, Oct 24: "a normal name", then "a better name" than Simple Science)
+- **Unreal Science**, handle @UnrealScience (fallbacks @UnrealScienceTV, @TheUnrealScience, @UnrealScienceShow)
+- Tagline: **Impossible ideas. Real science.**
+- Setup kit (profile picture + banner prompts, About text, keywords): `aitrends-2d-studio/projects/unreal-science-brand/channel.md`
 
 ## Earlier name options (not chosen)
 | Name | Handle to check | Tagline | Why |
