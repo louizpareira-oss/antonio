@@ -51,34 +51,26 @@ function bigWord(g, str, x, y, size, color, glowColor, align = 'left') {
 }
 
 registerShot('banner', { draw(g) {
-  // matches the profile picture (the user, Oct 24): the plain character with his haircut on a warm sunburst,
-  // fading into deep space on the right where the name sits
-  const fx = 630, fy = 575, r = 128;
-  g.fillStyle = radGrad(g, fx, fy - 30, 0, 1500, ['#fff6c8', '#ffd23a', '#ff9a2a', '#e8502a', '#7a1f5a', '#2a1660', '#140a3a']); g.fillRect(0, 0, E.W, E.H);
+  // plain banner, no character (the user, Oct 24): warm glow in the middle fading into space, the name centred
+  const cx = E.W / 2, cy = 540;
+  g.fillStyle = radGrad(g, cx, cy, 0, 1150, ['#ffb84a', '#ff7a2a', '#c8304a', '#5a1a6a', '#22105a', '#120a36']); g.fillRect(0, 0, E.W, E.H);
   g.save(); g.globalCompositeOperation = 'lighter';
-  for (let i = 0; i < 40; i++) { const a = (i / 40) * Math.PI * 2, w = 0.04; g.fillStyle = radGrad(g, fx, fy - 30, 0, 1100, [alpha('#ffffff', 0.35), alpha('#ffffff', 0.1), alpha('#ffffff', 0)]);
-    g.beginPath(); g.moveTo(fx, fy - 30); g.arc(fx, fy - 30, 1100, a - w, a + w); g.closePath(); g.fill(); }
+  for (let i = 0; i < 48; i++) { const a = (i / 48) * Math.PI * 2, w = 0.03; g.fillStyle = radGrad(g, cx, cy, 0, 1200, [alpha('#ffffff', 0.22), alpha('#ffffff', 0.06), alpha('#ffffff', 0)]);
+    g.beginPath(); g.moveTo(cx, cy); g.arc(cx, cy, 1200, a - w, a + w); g.closePath(); g.fill(); }
   g.restore();
-  FX.stars(g, 0, { seed: 9, count: 200, area: [1000, 0, 920, E.H] });
-  // darker band behind the name so it reads on every device
-  g.fillStyle = radGrad(g, 1180, 540, 40, 560, ['rgba(20,10,58,.7)', 'rgba(20,10,58,.35)', 'rgba(20,10,58,0)']); g.fillRect(0, 0, E.W, E.H);
-  // planets in the desktop / TV strips only (phones see just the safe area)
-  planet(g, 1740, 330, 70, '#3ad8ff', '#ffd23a');
-  planet(g, 1650, 820, 30, '#4fe08a', null);
-  glow(g, fx, fy - 20, r * 1.9, '#ffffff', 0.5);
-  // the hoodie carries on below the frame: body widening to the bottom, darker sleeves on both sides
-  const sy = fy + r * 1.74, body = shade(YOU.color, -0.08), sleeve = shade(YOU.color, -0.22);
-  g.fillStyle = body; g.beginPath(); g.moveTo(fx - r * 1.35, sy - 2); g.lineTo(fx + r * 1.35, sy - 2); g.quadraticCurveTo(fx + r * 1.5, sy + r * 1.2, fx + r * 1.85, E.H); g.lineTo(fx - r * 1.85, E.H); g.quadraticCurveTo(fx - r * 1.5, sy + r * 1.2, fx - r * 1.35, sy - 2); g.fill();
-  for (const k of [-1, 1]) { g.fillStyle = sleeve; g.beginPath(); g.moveTo(fx + k * r * 1.3, sy); g.quadraticCurveTo(fx + k * r * 1.48, sy + r * 1.2, fx + k * r * 1.85, E.H); g.lineTo(fx + k * r * 1.25, E.H); g.quadraticCurveTo(fx + k * r * 1.05, sy + r * 1.0, fx + k * r * 1.3, sy); g.fill(); }
-  rr(g, fx - r * 0.75, sy + r * 1.3, r * 1.5, r * 0.75, r * 0.2); g.fillStyle = sleeve; g.fill();                       // front pocket
-  hair(g, fx, fy, r, true);
-  bigFaceV2(g, fx, fy, r, { outfit: YOU, expr: 'grin', look: [0.35, -0.1], rim: '#ffffff' });
-  hair(g, fx, fy, r, false);
-  // the name, inside the safe area (x 380..1540, y 381..698)
-  const tx = 840;
-  bigWord(g, 'UNREAL', tx, 462, 150, '#ffffff', 'rgba(255,140,230,.9)');
-  bigWord(g, 'SCIENCE', tx, 588, 150, YELLOW, 'rgba(255,170,40,.9)');
-  text(g, 'IMPOSSIBLE IDEAS. REAL SCIENCE.', tx + 6, 662, { size: 29, color: '#ffffff', font: FONTS.ui, weight: 900, align: 'left', spacing: 4, stroke: 8, strokeColor: 'rgba(11,8,32,.9)' });
+  FX.stars(g, 0, { seed: 9, count: 260, area: [0, 0, E.W, E.H] });
+  g.fillStyle = radGrad(g, cx, cy, 40, 640, ['rgba(20,10,58,.55)', 'rgba(20,10,58,.25)', 'rgba(20,10,58,0)']); g.fillRect(0, 0, E.W, E.H);
+  // planets in the desktop / TV strips only
+  planet(g, 1720, 330, 70, '#3ad8ff', '#ffd23a');
+  planet(g, 210, 760, 50, '#a86bff', null);
+  planet(g, 1640, 820, 30, '#4fe08a', null);
+  planet(g, 260, 250, 24, '#ffd23a', null);
+  // the name, centred in the safe area (x 380..1540, y 381..698)
+  const tw = (str, size) => { g.save(); g.font = `700 ${size}px "${FONTS.title}"`; const w = g.measureText(str).width + 4 * str.length; g.restore(); return w; };
+  const size = 124, w1 = tw('UNREAL ', size), w2 = tw('SCIENCE', size), x0 = cx - (w1 + w2) / 2;
+  bigWord(g, 'UNREAL', x0, 530, size, '#ffffff', 'rgba(255,140,230,.9)');
+  bigWord(g, 'SCIENCE', x0 + w1, 530, size, YELLOW, 'rgba(255,170,40,.9)');
+  text(g, 'IMPOSSIBLE IDEAS. REAL SCIENCE.', cx, 625, { size: 32, color: '#ffffff', font: FONTS.ui, weight: 900, align: 'center', spacing: 6, stroke: 9, strokeColor: 'rgba(11,8,32,.9)' });
 } });
 
 // a swept-up quiff (in head radii): rim = the white outline drawn behind the head, else the hair itself + two sheen strands
