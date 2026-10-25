@@ -1,0 +1,12 @@
+{
+ "scenes": 74,
+ "ecu": 26,
+ "ecu_pct": 35.1,
+ "words": 824,
+ "sentences": 159,
+ "avg_sentence_words": 5.2,
+ "narration_minutes": 4.58,
+ "holds_seconds": 17.9,
+ "runtime": "5:13.9",
+ "runtime_s": 313.9
+}
