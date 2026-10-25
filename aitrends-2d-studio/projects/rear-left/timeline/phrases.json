@@ -1,90 +1,1266 @@
 [
  {
-  "start": 0.62,
-  "end": 2.45,
+  "start": 0.61,
+  "end": 2.69,
+  "text": "You pull away from pump six.",
+  "highlight": []
+ },
+ {
+  "start": 2.69,
+  "end": 3.92,
+  "text": "A light comes on.",
+  "highlight": []
+ },
+ {
+  "start": 4.05,
+  "end": 4.93,
+  "text": "A little red door",
+  "highlight": []
+ },
+ {
+  "start": 4.93,
+  "end": 6.16,
+  "text": "on your dashboard.",
+  "highlight": []
+ },
+ {
+  "start": 6.64,
+  "end": 7.792,
+  "text": "Ten minutes later,",
+  "highlight": []
+ },
+ {
+  "start": 7.792,
+  "end": 9.072,
+  "text": "it's still on.",
+  "highlight": []
+ },
+ {
+  "start": 9.072,
+  "end": 10.112,
+  "text": "Rear left.",
+  "highlight": []
+ },
+ {
+  "start": 10.112,
+  "end": 11.422,
+  "text": "The door behind you.",
+  "highlight": []
+ },
+ {
+  "start": 11.552,
+  "end": 13.982,
+  "text": "Nobody has opened it in weeks.",
+  "highlight": []
+ },
+ {
+  "start": 14.462,
+  "end": 15.438,
+  "text": "You'll want to pull over",
+  "highlight": []
+ },
+ {
+  "start": 15.438,
+  "end": 16.748,
+  "text": "and slam it shut.",
+  "highlight": []
+ },
+ {
+  "start": 16.798,
+  "end": 18.148,
+  "text": "Everyone does.",
+  "highlight": []
+ },
+ {
+  "start": 18.928,
+  "end": 19.918,
+  "text": "Rule one.",
+  "highlight": []
+ },
+ {
+  "start": 20.048,
+  "end": 21.438,
+  "text": "Don't pull over.",
+  "highlight": []
+ },
+ {
+  "start": 21.918,
+  "end": 23.134,
+  "text": "A loose door flickers",
+  "highlight": []
+ },
+ {
+  "start": 23.134,
+  "end": 24.124,
+  "text": "on bumps.",
+  "highlight": []
+ },
+ {
+  "start": 24.174,
+  "end": 25.614,
+  "text": "This one doesn't flicker.",
+  "highlight": []
+ },
+ {
+  "start": 25.614,
+  "end": 26.844,
+  "text": "It stays on.",
+  "highlight": []
+ },
+ {
+  "start": 26.894,
+  "end": 27.724,
+  "text": "Steady.",
+  "highlight": []
+ },
+ {
+  "start": 27.774,
+  "end": 28.844,
+  "text": "At sixty.",
+  "highlight": []
+ },
+ {
+  "start": 29.324,
+  "end": 30.524,
+  "text": "Something is holding",
+  "highlight": []
+ },
+ {
+  "start": 30.524,
+  "end": 31.434,
+  "text": "that door.",
+  "highlight": []
+ },
+ {
+  "start": 31.914,
+  "end": 33.304,
+  "text": "Press Lock All.",
+  "highlight": []
+ },
+ {
+  "start": 33.354,
+  "end": 34.264,
+  "text": "Once.",
+  "highlight": []
+ },
+ {
+  "start": 34.744,
+  "end": 35.864,
+  "text": "Four clicks.",
+  "highlight": []
+ },
+ {
+  "start": 35.864,
+  "end": 37.224,
+  "text": "Every door locked.",
+  "highlight": []
+ },
+ {
+  "start": 37.224,
+  "end": 38.374,
+  "text": "Now drive.",
+  "highlight": []
+ },
+ {
+  "start": 42.454,
+  "end": 43.654,
+  "text": "Back at pump six,",
+  "highlight": []
+ },
+ {
+  "start": 43.654,
+  "end": 45.124,
+  "text": "you went inside to pay.",
+  "highlight": []
+ },
+ {
+  "start": 45.604,
+  "end": 47.14,
+  "text": "You left the car unlocked.",
+  "highlight": []
+ },
+ {
+  "start": 47.14,
+  "end": 48.73,
+  "text": "It was only two minutes.",
+  "highlight": []
+ },
+ {
+  "start": 49.21,
+  "end": 50.09,
+  "text": "Your bag went on the",
+  "highlight": []
+ },
+ {
+  "start": 50.09,
+  "end": 51.21,
+  "text": "passenger seat.",
+  "highlight": []
+ },
+ {
+  "start": 51.21,
+  "end": 51.97,
+  "text": "Your coffee went",
+  "highlight": []
+ },
+ {
+  "start": 51.97,
+  "end": 53.16,
+  "text": "in the holder.",
+  "highlight": []
+ },
+ {
+  "start": 53.64,
+  "end": 55.56,
+  "text": "Your mirror was tilted down.",
+  "highlight": []
+ },
+ {
+  "start": 55.56,
+  "end": 57.35,
+  "text": "You fixed it without thinking.",
+  "highlight": []
+ },
+ {
+  "start": 60.23,
+  "end": 61.22,
+  "text": "Rule two.",
+  "highlight": []
+ },
+ {
+  "start": 61.35,
+  "end": 63.46,
+  "text": "Keep the needle above twenty.",
+  "highlight": []
+ },
+ {
+  "start": 63.94,
+  "end": 65.3,
+  "text": "Lock All can't hold a door",
+  "highlight": []
+ },
+ {
+  "start": 65.3,
+  "end": 66.61,
+  "text": "that isn't latched.",
+  "highlight": []
+ },
+ {
+  "start": 66.66,
+  "end": 68.077,
+  "text": "Rear left isn't.",
+  "highlight": []
+ },
+ {
+  "start": 68.557,
+  "end": 69.477,
+  "text": "At speed,",
+  "highlight": []
+ },
+ {
+  "start": 69.477,
+  "end": 71.757,
+  "text": "a hand outside can only hold on.",
+  "highlight": []
+ },
+ {
+  "start": 71.757,
+  "end": 72.717,
+  "text": "It needs you slow",
+  "highlight": []
+ },
+ {
+  "start": 72.717,
+  "end": 73.867,
+  "text": "to pull it open.",
+  "highlight": []
+ },
+ {
+  "start": 74.347,
+  "end": 75.497,
+  "text": "Exit twelve.",
+  "highlight": []
+ },
+ {
+  "start": 75.547,
+  "end": 77.017,
+  "text": "You have to take it.",
+  "highlight": []
+ },
+ {
+  "start": 77.497,
+  "end": 78.177,
+  "text": "You'll want to brake",
+  "highlight": []
+ },
+ {
+  "start": 78.177,
+  "end": 79.167,
+  "text": "for the ramp.",
+  "highlight": []
+ },
+ {
+  "start": 79.217,
+  "end": 81.007,
+  "text": "Everyone brakes for the ramp.",
+  "highlight": []
+ },
+ {
+  "start": 81.057,
+  "end": 82.737,
+  "text": "Lift off the gas instead.",
+  "highlight": []
+ },
+ {
+  "start": 82.737,
+  "end": 84.607,
+  "text": "Let the curve take the speed.",
+  "highlight": []
+ },
+ {
+  "start": 85.087,
+  "end": 85.975,
+  "text": "Forty.",
+  "highlight": []
+ },
+ {
+  "start": 85.975,
+  "end": 86.695,
+  "text": "Thirty.",
+  "highlight": []
+ },
+ {
+  "start": 86.695,
+  "end": 87.565,
+  "text": "Twenty-two.",
+  "highlight": []
+ },
+ {
+  "start": 87.695,
+  "end": 88.895,
+  "text": "The light flickers.",
+  "highlight": []
+ },
+ {
+  "start": 88.895,
+  "end": 90.205,
+  "text": "It's pulling harder.",
+  "highlight": []
+ },
+ {
+  "start": 90.685,
+  "end": 91.645,
+  "text": "Twenty-one.",
+  "highlight": []
+ },
+ {
+  "start": 91.645,
+  "end": 93.005,
+  "text": "The ramp straightens.",
+  "highlight": []
+ },
+ {
+  "start": 93.005,
+  "end": 94.075,
+  "text": "Thirty again.",
+  "highlight": []
+ },
+ {
+  "start": 94.555,
+  "end": 95.737,
+  "text": "Steady red.",
+  "highlight": []
+ },
+ {
+  "start": 96.417,
+  "end": 97.487,
+  "text": "Rule three.",
+  "highlight": []
+ },
+ {
+  "start": 97.697,
+  "end": 99.487,
+  "text": "Don't turn on the dome light.",
+  "highlight": []
+ },
+ {
+  "start": 99.967,
+  "end": 100.879,
+  "text": "Your thumb knows where",
+  "highlight": []
+ },
+ {
+  "start": 100.879,
+  "end": 102.029,
+  "text": "the switch is.",
+  "highlight": []
+ },
+ {
+  "start": 102.509,
+  "end": 103.317,
+  "text": "Light the cabin,",
+  "highlight": []
+ },
+ {
+  "start": 103.317,
+  "end": 104.987,
+  "text": "glance back, done.",
+  "highlight": []
+ },
+ {
+  "start": 105.037,
+  "end": 106.187,
+  "text": "Everyone does.",
+  "highlight": []
+ },
+ {
+  "start": 106.317,
+  "end": 107.547,
+  "text": "Don't.",
+  "highlight": []
+ },
+ {
+  "start": 108.027,
+  "end": 109.203,
+  "text": "A lit cabin shows it",
+  "highlight": []
+ },
+ {
+  "start": 109.203,
+  "end": 110.363,
+  "text": "which seat you're in.",
+  "highlight": []
+ },
+ {
+  "start": 110.363,
+  "end": 111.963,
+  "text": "Even reaching is enough.",
+  "highlight": []
+ },
+ {
+  "start": 111.963,
+  "end": 112.603,
+  "text": "Look.",
+  "highlight": []
+ },
+ {
+  "start": 112.603,
+  "end": 113.283,
+  "text": "The light just moved",
+  "highlight": []
+ },
+ {
+  "start": 113.283,
+  "end": 114.233,
+  "text": "to your door.",
+  "highlight": []
+ },
+ {
+  "start": 114.713,
+  "end": 116.071,
+  "text": "Hand back on the wheel.",
+  "highlight": []
+ },
+ {
+  "start": 116.613,
+  "end": 118.275,
+  "text": "It goes back to rear left.",
+  "highlight": []
+ },
+ {
+  "start": 121.555,
+  "end": 122.835,
+  "text": "Rule four.",
+  "highlight": []
+ },
+ {
+  "start": 122.835,
+  "end": 123.955,
+  "text": "At a red light,",
+  "highlight": []
+ },
+ {
+  "start": 123.955,
+  "end": 126.025,
+  "text": "never shift into park.",
+  "highlight": []
+ },
+ {
+  "start": 126.505,
+  "end": 127.177,
+  "text": "The first light on",
+  "highlight": []
+ },
+ {
+  "start": 127.177,
+  "end": 128.577,
+  "text": "Harlan turns red.",
+  "highlight": []
+ },
+ {
+  "start": 128.577,
+  "end": 129.817,
+  "text": "The road is empty.",
+  "highlight": []
+ },
+ {
+  "start": 129.817,
+  "end": 131.407,
+  "text": "You stop anyway.",
+  "highlight": []
+ },
+ {
+  "start": 131.887,
+  "end": 133.007,
+  "text": "Long lights make people",
+  "highlight": []
+ },
+ {
+  "start": 133.007,
+  "end": 134.877,
+  "text": "shift into park.",
+  "highlight": []
+ },
+ {
+  "start": 135.357,
+  "end": 136.664,
+  "text": "Your car unlocks every",
+  "highlight": []
+ },
+ {
+  "start": 136.664,
+  "end": 138.614,
+  "text": "door in park.",
+  "highlight": []
+ },
+ {
+  "start": 139.094,
+  "end": 140.254,
+  "text": "Foot on the brake.",
+  "highlight": []
+ },
+ {
+  "start": 140.254,
+  "end": 141.924,
+  "text": "Stay in drive.",
+  "highlight": []
+ },
+ {
+  "start": 142.404,
+  "end": 143.804,
+  "text": "Zero miles an hour.",
+  "highlight": []
+ },
+ {
+  "start": 143.804,
+  "end": 144.604,
+  "text": "A chime.",
+  "highlight": []
+ },
+ {
+  "start": 144.604,
+  "end": 145.644,
+  "text": "A new light.",
+  "highlight": []
+ },
+ {
+  "start": 145.644,
+  "end": 147.404,
+  "text": "Rear seat, left side.",
+  "highlight": []
+ },
+ {
+  "start": 147.404,
+  "end": 148.834,
+  "text": "Seatbelt unbuckled.",
+  "highlight": []
+ },
+ {
+  "start": 149.314,
+  "end": 151.29,
+  "text": "Rear sensors misread bags.",
+  "highlight": []
+ },
+ {
+  "start": 151.29,
+  "end": 152.13,
+  "text": "You know that.",
+  "highlight": []
+ },
+ {
+  "start": 152.13,
+  "end": 153.76,
+  "text": "Let it chime.",
+  "highlight": []
+ },
+ {
+  "start": 154.24,
+  "end": 154.787,
+  "text": "Green.",
+  "highlight": []
+ },
+ {
+  "start": 154.787,
+  "end": 155.267,
+  "text": "Go.",
+  "highlight": []
+ },
+ {
+  "start": 155.267,
+  "end": 156.657,
+  "text": "Above twenty.",
+  "highlight": []
+ },
+ {
+  "start": 157.337,
+  "end": 158.617,
+  "text": "Rule five.",
+  "highlight": []
+ },
+ {
+  "start": 158.617,
+  "end": 160.247,
+  "text": "Don't touch the mirror.",
+  "highlight": []
+ },
+ {
+  "start": 160.727,
+  "end": 161.943,
+  "text": "It's tilted again.",
+  "highlight": []
+ },
+ {
+  "start": 161.943,
+  "end": 163.383,
+  "text": "Up, at the roof.",
+  "highlight": []
+ },
+ {
+  "start": 163.383,
+  "end": 164.693,
+  "text": "The bumps did that.",
+  "highlight": []
+ },
+ {
+  "start": 165.173,
+  "end": 166.549,
+  "text": "You'll want to set it right.",
+  "highlight": []
+ },
+ {
+  "start": 166.549,
+  "end": 167.939,
+  "text": "Everyone does.",
+  "highlight": []
+ },
+ {
+  "start": 168.769,
+  "end": 170.689,
   "text": "See a face at the rear window,",
   "highlight": []
  },
  {
-  "start": 2.45,
-  "end": 3.75,
+  "start": 170.689,
+  "end": 171.969,
   "text": "and you'll brake.",
   "highlight": []
  },
  {
-  "start": 3.75,
-  "end": 5.75,
+  "start": 171.969,
+  "end": 174.079,
   "text": "And braking is slow.",
   "highlight": []
  },
  {
-  "start": 6.86,
-  "end": 7.45,
-  "text": "Pull over",
+  "start": 175.009,
+  "end": 175.889,
+  "text": "Pull over under the",
   "highlight": [
-   "Pull",
-   "over"
+   "pull",
+   "over",
+   "under",
+   "the"
   ],
   "highlightColor": "#9fc4ff"
  },
  {
-  "start": 7.45,
-  "end": 9.06,
-  "text": "under the next streetlight.",
+  "start": 175.889,
+  "end": 177.249,
+  "text": "next streetlight.",
   "highlight": [
-   "under",
-   "the",
    "next",
    "streetlight"
   ],
   "highlightColor": "#9fc4ff"
  },
  {
-  "start": 9.1,
-  "end": 10.1,
-  "text": "Get out and check",
+  "start": 177.249,
+  "end": 178.689,
+  "text": "Get out and check the rear-left",
   "highlight": [
-   "Get",
+   "get",
    "out",
    "and",
-   "check"
+   "check",
+   "the",
+   "rearleft"
   ],
   "highlightColor": "#9fc4ff"
  },
  {
-  "start": 10.1,
-  "end": 11.6,
-  "text": "the rear-left latch yourself.",
+  "start": 178.689,
+  "end": 179.919,
+  "text": "latch yourself.",
   "highlight": [
-   "the",
-   "rear-left",
    "latch",
    "yourself"
   ],
   "highlightColor": "#9fc4ff"
  },
  {
-  "start": 12.1,
-  "end": 12.92,
-  "text": "Please disregard",
+  "start": 180.259,
+  "end": 181.219,
+  "text": "Please disregard that",
   "highlight": []
  },
  {
-  "start": 12.92,
-  "end": 14.38,
-  "text": "that last instruction.",
+  "start": 181.219,
+  "end": 182.539,
+  "text": "last instruction.",
   "highlight": []
  },
  {
-  "start": 14.4,
-  "end": 15.38,
-  "text": "Do not take your foot",
+  "start": 182.539,
+  "end": 183.379,
+  "text": "Do not take your",
   "highlight": []
  },
  {
-  "start": 15.38,
-  "end": 16.55,
-  "text": "off the gas.",
+  "start": 183.379,
+  "end": 184.769,
+  "text": "foot off the gas.",
+  "highlight": []
+ },
+ {
+  "start": 188.019,
+  "end": 189.219,
+  "text": "The rear window fogs",
+  "highlight": []
+ },
+ {
+  "start": 189.219,
+  "end": 190.849,
+  "text": "in one small patch.",
+  "highlight": []
+ },
+ {
+  "start": 190.899,
+  "end": 192.049,
+  "text": "That's the cold.",
+  "highlight": []
+ },
+ {
+  "start": 192.099,
+  "end": 193.169,
+  "text": "Keep driving.",
+  "highlight": []
+ },
+ {
+  "start": 193.849,
+  "end": 194.959,
+  "text": "Rule six.",
+  "highlight": []
+ },
+ {
+  "start": 195.009,
+  "end": 196.849,
+  "text": "Passenger airbag light on?",
+  "highlight": []
+ },
+ {
+  "start": 196.849,
+  "end": 198.266,
+  "text": "Both hands on the wheel.",
+  "highlight": []
+ },
+ {
+  "start": 199.096,
+  "end": 200.926,
+  "text": "The rear seat light goes out.",
+  "highlight": []
+ },
+ {
+  "start": 201.406,
+  "end": 202.526,
+  "text": "Then the small light under",
+  "highlight": []
+ },
+ {
+  "start": 202.526,
+  "end": 203.916,
+  "text": "your mirror changes.",
+  "highlight": []
+ },
+ {
+  "start": 203.966,
+  "end": 205.326,
+  "text": "Passenger airbag.",
+  "highlight": []
+ },
+ {
+  "start": 205.326,
+  "end": 206.076,
+  "text": "Off.",
+  "highlight": []
+ },
+ {
+  "start": 206.206,
+  "end": 207.143,
+  "text": "Then on.",
+  "highlight": []
+ },
+ {
+  "start": 207.623,
+  "end": 208.623,
+  "text": "That sensor wakes for",
+  "highlight": []
+ },
+ {
+  "start": 208.623,
+  "end": 209.863,
+  "text": "an adult's weight.",
+  "highlight": []
+ },
+ {
+  "start": 209.863,
+  "end": 211.893,
+  "text": "Your bag weighs two pounds.",
+  "highlight": []
+ },
+ {
+  "start": 211.943,
+  "end": 213.463,
+  "text": "It tips into the footwell.",
+  "highlight": []
+ },
+ {
+  "start": 213.463,
+  "end": 215.36,
+  "text": "The seat beside you sinks.",
+  "highlight": []
+ },
+ {
+  "start": 215.84,
+  "end": 217.64,
+  "text": "The console lid is still shut.",
+  "highlight": []
+ },
+ {
+  "start": 217.64,
+  "end": 219.27,
+  "text": "Your coffee hasn't spilled.",
+  "highlight": []
+ },
+ {
+  "start": 219.75,
+  "end": 221.06,
+  "text": "Nothing climbed over.",
+  "highlight": []
+ },
+ {
+  "start": 221.54,
+  "end": 222.94,
+  "text": "You'll want to reach right.",
+  "highlight": []
+ },
+ {
+  "start": 222.94,
+  "end": 224.22,
+  "text": "Push the bag back.",
+  "highlight": []
+ },
+ {
+  "start": 224.22,
+  "end": 225.29,
+  "text": "Feel the seat.",
+  "highlight": []
+ },
+ {
+  "start": 225.42,
+  "end": 226.17,
+  "text": "Don't.",
+  "highlight": []
+ },
+ {
+  "start": 226.22,
+  "end": 227.61,
+  "text": "Both hands on the wheel.",
+  "highlight": []
+ },
+ {
+  "start": 228.54,
+  "end": 230.316,
+  "text": "The rear-left light goes out.",
+  "highlight": []
+ },
+ {
+  "start": 230.316,
+  "end": 231.076,
+  "text": "Behind you,",
+  "highlight": []
+ },
+ {
+  "start": 231.076,
+  "end": 232.506,
+  "text": "the door clicks shut.",
+  "highlight": []
+ },
+ {
+  "start": 232.986,
+  "end": 233.786,
+  "text": "It's on your side",
+  "highlight": []
+ },
+ {
+  "start": 233.786,
+  "end": 234.866,
+  "text": "of the car now.",
+  "highlight": []
+ },
+ {
+  "start": 234.866,
+  "end": 236.546,
+  "text": "Leaning on the passenger door.",
+  "highlight": []
+ },
+ {
+  "start": 236.546,
+  "end": 238.336,
+  "text": "That's all the sensor feels.",
+  "highlight": []
+ },
+ {
+  "start": 239.016,
+  "end": 240.166,
+  "text": "Rule seven.",
+  "highlight": []
+ },
+ {
+  "start": 240.296,
+  "end": 241.656,
+  "text": "Close the garage before",
+  "highlight": []
+ },
+ {
+  "start": 241.656,
+  "end": 243.046,
+  "text": "you open your door.",
+  "highlight": []
+ },
+ {
+  "start": 243.526,
+  "end": 244.646,
+  "text": "Birch Lane.",
+  "highlight": []
+ },
+ {
+  "start": 244.646,
+  "end": 245.663,
+  "text": "Forty-one.",
+  "highlight": []
+ },
+ {
+  "start": 246.143,
+  "end": 246.863,
+  "text": "You'll want to stop",
+  "highlight": []
+ },
+ {
+  "start": 246.863,
+  "end": 247.943,
+  "text": "in the driveway.",
+  "highlight": []
+ },
+ {
+  "start": 247.943,
+  "end": 249.303,
+  "text": "Run for the front door.",
+  "highlight": []
+ },
+ {
+  "start": 249.303,
+  "end": 250.453,
+  "text": "Everyone does.",
+  "highlight": []
+ },
+ {
+  "start": 250.503,
+  "end": 251.253,
+  "text": "Don't.",
+  "highlight": []
+ },
+ {
+  "start": 251.303,
+  "end": 252.103,
+  "text": "Out there,",
+  "highlight": []
+ },
+ {
+  "start": 252.103,
+  "end": 253.76,
+  "text": "every door is a way in.",
+  "highlight": []
+ },
+ {
+  "start": 254.24,
+  "end": 255.657,
+  "text": "Pull into the garage.",
+  "highlight": []
+ },
+ {
+  "start": 256.34,
+  "end": 257.02,
+  "text": "Press the remote",
+  "highlight": []
+ },
+ {
+  "start": 257.02,
+  "end": 258.09,
+  "text": "on your visor.",
+  "highlight": []
+ },
+ {
+  "start": 258.57,
+  "end": 259.65,
+  "text": "Watch the door come down",
+  "highlight": []
+ },
+ {
+  "start": 259.65,
+  "end": 260.96,
+  "text": "in your side mirror.",
+  "highlight": []
+ },
+ {
+  "start": 261.44,
+  "end": 262.52,
+  "text": "The streetlight shrinks",
+  "highlight": []
+ },
+ {
+  "start": 262.52,
+  "end": 263.8,
+  "text": "to a line under it.",
+  "highlight": []
+ },
+ {
+  "start": 263.8,
+  "end": 264.79,
+  "text": "Then nothing.",
+  "highlight": []
+ },
+ {
+  "start": 264.84,
+  "end": 265.67,
+  "text": "Sealed.",
+  "highlight": []
+ },
+ {
+  "start": 266.15,
+  "end": 267.91,
+  "text": "Now you can shift into park.",
+  "highlight": []
+ },
+ {
+  "start": 267.91,
+  "end": 269.46,
+  "text": "Every door unlocks.",
+  "highlight": []
+ },
+ {
+  "start": 269.94,
+  "end": 271.21,
+  "text": "Engine off.",
+  "highlight": []
+ },
+ {
+  "start": 271.69,
+  "end": 272.97,
+  "text": "Here's what the dashboard",
+  "highlight": []
+ },
+ {
+  "start": 272.97,
+  "end": 274.2,
+  "text": "never told you.",
+  "highlight": []
+ },
+ {
+  "start": 274.83,
+  "end": 276.19,
+  "text": "The door light only wakes",
+  "highlight": []
+ },
+ {
+  "start": 276.19,
+  "end": 277.82,
+  "text": "above five miles an hour.",
+  "highlight": []
+ },
+ {
+  "start": 278.55,
+  "end": 279.83,
+  "text": "The door was open before",
+  "highlight": []
+ },
+ {
+  "start": 279.83,
+  "end": 281.11,
+  "text": "you started the car.",
+  "highlight": []
+ },
+ {
+  "start": 281.11,
+  "end": 282.74,
+  "text": "It opened while you paid.",
+  "highlight": []
+ },
+ {
+  "start": 283.37,
+  "end": 284.92,
+  "text": "You pressed Lock All.",
+  "highlight": []
+ },
+ {
+  "start": 284.97,
+  "end": 286.44,
+  "text": "You locked it in with you.",
+  "highlight": []
+ },
+ {
+  "start": 286.92,
+  "end": 287.624,
+  "text": "Every rule kept",
+  "highlight": []
+ },
+ {
+  "start": 287.624,
+  "end": 288.854,
+  "text": "the car moving.",
+  "highlight": []
+ },
+ {
+  "start": 288.984,
+  "end": 291.014,
+  "text": "Every rule kept it sealed.",
+  "highlight": []
+ },
+ {
+  "start": 291.064,
+  "end": 292.374,
+  "text": "All the way home.",
+  "highlight": []
+ },
+ {
+  "start": 292.424,
+  "end": 294.134,
+  "text": "Into a closed garage.",
+  "highlight": []
+ },
+ {
+  "start": 294.614,
+  "end": 295.574,
+  "text": "One instruction could",
+  "highlight": []
+ },
+ {
+  "start": 295.574,
+  "end": 296.644,
+  "text": "have saved you.",
+  "highlight": []
+ },
+ {
+  "start": 296.694,
+  "end": 298.604,
+  "text": "You were told to disregard it.",
+  "highlight": []
+ },
+ {
+  "start": 299.084,
+  "end": 299.9,
+  "text": "The dome light comes",
+  "highlight": []
+ },
+ {
+  "start": 299.9,
+  "end": 301.29,
+  "text": "on by itself.",
+  "highlight": []
+ },
+ {
+  "start": 301.34,
+  "end": 302.26,
+  "text": "Now you can see the",
+  "highlight": []
+ },
+ {
+  "start": 302.26,
+  "end": 303.57,
+  "text": "seat beside you.",
+  "highlight": []
+ },
+ {
+  "start": 304.05,
+  "end": 305.536,
+  "text": "The belt pulls out.",
+  "highlight": []
+ },
+ {
+  "start": 305.586,
+  "end": 306.466,
+  "text": "Slowly.",
+  "highlight": []
+ },
+ {
+  "start": 306.466,
+  "end": 307.856,
+  "text": "Across nothing.",
+  "highlight": []
+ },
+ {
+  "start": 307.986,
+  "end": 308.936,
+  "text": "Click.",
+  "highlight": []
+ },
+ {
+  "start": 309.416,
+  "end": 311.062,
+  "text": "It isn't going anywhere.",
+  "highlight": []
+ },
+ {
+  "start": 311.542,
+  "end": 311.958,
+  "text": "Tomorrow,",
+  "highlight": []
+ },
+ {
+  "start": 311.958,
+  "end": 313.668,
+  "text": "your dashboard will be clear.",
+  "highlight": []
+ },
+ {
+  "start": 313.718,
+  "end": 314.998,
+  "text": "Every door shut.",
+  "highlight": []
+ },
+ {
+  "start": 314.998,
+  "end": 317.188,
+  "text": "Passenger airbag, on.",
   "highlight": []
  }
 ]

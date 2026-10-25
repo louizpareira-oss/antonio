@@ -296,15 +296,19 @@ sc("SC74","ECU",sec,"Tomorrow, your dashboard will be clear. Every door shut. Pa
    "Same framing as SC01; the meaning has flipped.", hold=2.6)
 
 # ---------------- build ----------------
+# Once the narration is recorded, audio/build_timeline.py writes the real scene times; use them when present.
+TIMES = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "timeline", "scene_times.json")
+REAL = json.load(open(TIMES)) if os.path.exists(TIMES) else None
 t = 0.0; words_total = 0
 for s in S:
     w = len(re.findall(r"[A-Za-z0-9']+", s["narr"]))
     words_total += w
     dur = s["pre"] + w / WPS + s["hold"] + (0.3 if w else 0)
     s["start"], s["end"], s["words"] = t, t + dur, w
+    if REAL: s["start"], s["end"] = REAL[s["id"]]
     t += dur
-total = t
-fmt = lambda x: f"{int(x//60)}:{x%60:04.1f}"
+total = max(s["end"] for s in S) if REAL else t
+fmt = lambda x: (lambda d: f"{d // 600}:{(d % 600) / 10:04.1f}")(int(round(x * 10)))
 
 # Gates
 ids = [s["id"] for s in S]
@@ -319,7 +323,7 @@ for s in S:
         assert ref in ids, f"{s['id']} references missing {ref}"
 
 ecu = sum(1 for s in S if s["tag"] == "ECU"); n = len(S)
-cols = ["Scene ID & provisional time","Exact narration passage","New information / story purpose","Framing & camera behavior",
+cols = ["Scene ID & time" if REAL else "Scene ID & provisional time","Exact narration passage","New information / story purpose","Framing & camera behavior",
         "Character pose & movement","Prop / environment action","Primary light source","Falloff, shadows & occlusion",
         "Threat tracker state","On-screen text","Sound & synchronization","Continuity & acceptance check"]
 esc = lambda x: (x or "—").replace("|","/").replace("\n"," ")
@@ -335,8 +339,9 @@ for s in S:
 os.makedirs(OUT, exist_ok=True)
 open(os.path.join(OUT, "scene_table.md"), "w").write(
     "# Rear Left — scene breakdown (12 columns)\n\n"
-    "Times are **provisional** (~180 words/min plus authored holds), not verified playback. Re-time against the recorded narration's word timestamps.\n\n"
-    "Tags: W wide · M medium · CU character close-up · ECU object/interface/diagram extreme close-up · CARD rule/title card.\n\n"
+    + ("Times are **measured** from the recorded narration (ElevenLabs takes, Scribe word timings; see `audio/build_timeline.py`).\n\n" if REAL else
+       "Times are **provisional** (~180 words/min plus authored holds), not verified playback. Re-time against the recorded narration's word timestamps.\n\n")
+    + "Tags: W wide · M medium · CU character close-up · ECU object/interface/diagram extreme close-up · CARD rule/title card.\n\n"
     "Abbreviations: DASH instrument cluster · RL rear-left door-ajar segment · RB rear-left seatbelt-unbuckled icon · "
     "PAB passenger-airbag status lamp · MEDIA centre screen · YOU protagonist (cobalt hoodie) · [true: …] where it really is (never drawn).\n\n"
     + "\n".join(lines) + "\n")

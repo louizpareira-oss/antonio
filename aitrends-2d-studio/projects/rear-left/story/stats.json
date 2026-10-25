@@ -6,44 +6,44 @@
  "sentences": 163,
  "avg_sentence_words": 4.4,
  "max_sentence_words": 10,
- "runtime": "4:30.9",
- "runtime_s": 270.9,
- "breach": "2:23.3\u20132:33.6 (53% in)",
+ "runtime": "5:20.4",
+ "runtime_s": 320.4,
+ "breach": "2:54.5\u20133:04.8 (54% in)",
  "chapters": [
   [
    "0:00.0",
    "The light behind you"
   ],
   [
-   "0:33.1",
+   "0:42.2",
    "Pump six"
   ],
   [
-   "0:49.5",
+   "1:00.0",
    "Rule 2: Above twenty"
   ],
   [
-   "1:20.2",
+   "1:36.2",
    "Rule 3: The dome light"
   ],
   [
-   "1:42.1",
+   "2:01.3",
    "Rule 4: The red light"
   ],
   [
-   "2:09.1",
+   "2:37.1",
    "Rule 5: The mirror"
   ],
   [
-   "2:39.2",
+   "3:13.6",
    "Rule 6: Passenger airbag"
   ],
   [
-   "3:19.6",
+   "3:58.8",
    "Rule 7: The garage"
   ],
   [
-   "3:48.3",
+   "4:31.4",
    "What the dashboard never told you"
   ]
  ]

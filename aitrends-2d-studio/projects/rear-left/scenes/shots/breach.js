@@ -3,6 +3,8 @@ import {E,registerShot,ease,prog,lerp,clamp,text,circle,seg,poly,rr,alpha,glow,n
 import {K,line,FONT,header,lamp,limb,hand,head,torso,wheel,mirror,bag,screenMap,screenCall,screenStatic,carSide,CAR} from '../sets/car.js';
 
 const CALL_ON=6.60,STATIC=[11.75,11.75+4/30];
+// Slice-relative time: the approved slice was timed from SC41's start.
+const rel=info=>info.globalT-E.shots.find(s=>s.id==='SC41').start;
 const outline=(g,pts,a=.25,w=2)=>{g.strokeStyle=line(a);g.lineWidth=w;g.beginPath();g.moveTo(...pts[0]);for(const p of pts.slice(1))g.lineTo(...p);g.closePath();g.stroke();};
 const shape=(g,pts,fill,a=.25)=>{poly(g,pts,fill);outline(g,pts,a);};
 const box=(g,x,y,w,h,r,fill,a=.25)=>{rr(g,x,y,w,h,r);g.fillStyle=fill;g.fill();g.strokeStyle=line(a);g.lineWidth=2;g.stroke();};
@@ -13,7 +15,7 @@ const glassLit=(g,pts,k,a=.2)=>{if(k<=0)return;poly(g,pts,alpha(K.sodium,a*k));}
 
 // SC41 — frontal close-up through the windshield. The right hand comes down from the mirror to the wheel.
 registerShot('SC41',{draw(g,t,info){
-  const T=info.globalT,L1=lamp(T,1.9),sy=lerp(-260,1360,L1.u);
+  const T=rel(info),L1=lamp(T,1.9),sy=lerp(-260,1360,L1.u);
   g.fillStyle=K.bg;g.fillRect(0,0,E.W,E.H);
   // Rear cabin: back glass, both rear side windows, the rear bench and its headrests (rear-left is right of YOU's head).
   const back=[[760,250],[1210,250],[1250,420],[720,420]],rl=[[1440,200],[1700,150],[1700,470],[1440,430]],rr_=[[480,200],[220,150],[220,470],[480,430]];
@@ -44,7 +46,7 @@ registerShot('SC41',{draw(g,t,info){
 // SC42 — three-quarter from the passenger seat. The centre screen switches to a call; blue light rises on YOU; eyes flick to it.
 const SCR=[[1580,650],[1920,610],[1920,940],[1600,975]];
 registerShot('SC42',{draw(g,t,info){
-  const T=info.globalT,on=ease.out(prog(T,CALL_ON,CALL_ON+.25)),Lp=lamp(T,.6);
+  const T=rel(info),on=ease.out(prog(T,CALL_ON,CALL_ON+.25)),Lp=lamp(T,.6);
   g.fillStyle=K.bg;g.fillRect(0,0,E.W,E.H);
   shape(g,[[0,0],[1920,0],[1920,120],[0,150]],K.cabin,.15);
   const dw=[[360,170],[1080,140],[1080,560],[360,590]],rw=[[0,190],[300,175],[300,600],[0,620]];
@@ -71,7 +73,7 @@ registerShot('SC42',{draw(g,t,info){
   // Centre screen in the foreground: dim map, then the call screen.
   g.save();g.beginPath();g.moveTo(...SCR[0]);for(const p of SCR.slice(1))g.lineTo(...p);g.closePath();g.fillStyle='#030405';g.fill();g.clip();
   g.translate(1592,664);g.transform(1,-40/340,22/325,1,0,0);
-  if(T<CALL_ON)screenMap(g,0,0,360,300,T,{dim:.6,bar:false});else screenCall(g,0,0,360,300,T-CALL_ON,T,{bars:22,detail:false});
+  if(T<CALL_ON)screenMap(g,0,0,360,300,T,{dim:.6,bar:false});else screenCall(g,0,0,360,300,T-CALL_ON,info.globalT,{bars:22,detail:false});
   g.restore();outline(g,SCR,.4,3);
   if(on>0){g.save();g.globalCompositeOperation='lighter';glow(g,1700,800,520,K.screen,.28*on);g.restore();}
   header(g,'RULE 5');
@@ -93,12 +95,12 @@ function consoleECU(g,T,{spill=1,grey=0}={}){
   if(grey>0){g.fillStyle=alpha('#9ca1a8',.3*grey);g.fillRect(0,840,E.W,240);}
 }
 registerShot('SC43',{draw(g,t,info){
-  const T=info.globalT;consoleECU(g,T,{spill:1});
-  g.save();g.beginPath();g.rect(330,150,1260,660);g.clip();screenCall(g,330,150,1260,660,T-CALL_ON,T);g.restore();
+  const T=rel(info);consoleECU(g,T,{spill:1});
+  g.save();g.beginPath();g.rect(330,150,1260,660);g.clip();screenCall(g,330,150,1260,660,T-CALL_ON,info.globalT);g.restore();
   header(g,'RULE 5');
 }});
 registerShot('SC44',{draw(g,t,info){
-  const T=info.globalT,st=T<STATIC[1];
+  const T=rel(info),st=T<STATIC[1];
   consoleECU(g,T,{spill:st?.6:.35,grey:st?1:0});
   g.save();g.beginPath();g.rect(330,150,1260,660);g.clip();
   if(st)screenStatic(g,330,150,1260,660,T);else screenMap(g,330,150,1260,660,T);
@@ -108,7 +110,7 @@ registerShot('SC44',{draw(g,t,info){
 
 // SC45 — wide exterior side view: one tall streetlamp; the car passes through its pool without slowing.
 registerShot('SC45',{draw(g,t,info){
-  const T=info.globalT,v=1100,lx=2480-v*t,lit=clamp(1-Math.abs(lx-980)/420);
+  const T=rel(info),v=1100,lx=2480-v*t,lit=clamp(1-Math.abs(lx-980)/420);
   g.fillStyle=K.bg;g.fillRect(0,0,E.W,E.H);
   g.save();const sh=[noise(T*9,2)*1.2,noise(T*9,7)*1.2];g.translate(...sh);
   // Far hills (slow) and a few distant lights.

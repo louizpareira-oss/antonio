@@ -1,41 +1,2935 @@
 {
- "title": "Rear Left — vertical slice (SC41–SC45)",
- "duration": 19.6,
+ "title": "Rear Left",
+ "duration": 320.408,
  "shots": [
   {
-   "id": "SC41",
+   "id": "SC01",
    "start": 0.0,
-   "end": 6.3,
-   "line": "See a face at the rear window, and you'll brake. And braking is slow.",
-   "scene": "Frontal close-up through the windshield; rear-left headrest and rear glass dark behind YOU; mirror tilted up at the roof.",
-   "purpose": "Narrator's cover story for not touching the mirror.",
-   "visual_change": "Right hand lowers from beside the mirror to the wheel rim (contact 4.6 s); sodium pool sweeps the cabin.",
+   "end": 6.38,
+   "line": "You pull away from pump six. A light comes on. A little red door on your dashboard.",
+   "scene": "ECU DASH: speedometer low arc and door diagram. Locked-off camera.",
+   "purpose": "Anomaly in the first frame. The 5 mph trigger is visible but unexplained (seed for the ending).",
+   "visual_change": "Needle rises 0→5 mph. At exactly 5 the RL segment lights red.",
+   "asset": "car-v1:ECU",
    "in": {
     "type": "cut"
    },
    "captions": true,
+   "params": {
+    "w": [
+     [
+      "you",
+      0.66,
+      0.74
+     ],
+     [
+      "pull",
+      0.82,
+      0.9
+     ],
+     [
+      "away",
+      0.98,
+      1.22
+     ],
+     [
+      "from",
+      1.3,
+      1.38
+     ],
+     [
+      "pump",
+      1.46,
+      1.7
+     ],
+     [
+      "six",
+      1.78,
+      2.5
+     ],
+     [
+      "a",
+      2.74,
+      2.82
+     ],
+     [
+      "light",
+      2.94,
+      3.06
+     ],
+     [
+      "comes",
+      3.18,
+      3.3
+     ],
+     [
+      "on",
+      3.42,
+      3.62
+     ],
+     [
+      "a",
+      4.1,
+      4.14
+     ],
+     [
+      "little",
+      4.18,
+      4.34
+     ],
+     [
+      "red",
+      4.42,
+      4.58
+     ],
+     [
+      "door",
+      4.66,
+      4.9
+     ],
+     [
+      "on",
+      4.98,
+      5.06
+     ],
+     [
+      "your",
+      5.1,
+      5.14
+     ],
+     [
+      "dashboard",
+      5.22,
+      5.86
+     ]
+    ]
+   },
+   "sfx": [
+    {
+     "at": 0.55,
+     "name": "ding",
+     "pitch": 1.6,
+     "gain": -20,
+     "dur": 1.0
+    }
+   ]
+  },
+  {
+   "id": "SC02",
+   "start": 6.38,
+   "end": 14.202,
+   "line": "Ten minutes later, it's still on. Rear left. The door behind you. Nobody has opened it in weeks.",
+   "scene": "Medium interior from the passenger seat toward YOU. The rear-left door is visible over YOU's shoulder. 0.4 s cross-fade in (time passage).",
+   "purpose": "Geography: the warning is the door directly behind YOU, a door nobody uses.",
+   "visual_change": "Rear-left door looks shut from inside.",
+   "asset": "car-v1:M",
+   "in": {
+    "type": "fade",
+    "dur": 0.4
+   },
+   "captions": true,
+   "params": {
+    "w": [
+     [
+      "ten",
+      0.31,
+      0.342
+     ],
+     [
+      "minutes",
+      0.422,
+      0.662
+     ],
+     [
+      "later",
+      0.742,
+      1.382
+     ],
+     [
+      "it's",
+      1.462,
+      1.622
+     ],
+     [
+      "still",
+      1.782,
+      1.942
+     ],
+     [
+      "on",
+      2.102,
+      2.502
+     ],
+     [
+      "rear",
+      2.742,
+      2.902
+     ],
+     [
+      "left",
+      2.982,
+      3.462
+     ],
+     [
+      "the",
+      3.782,
+      3.822
+     ],
+     [
+      "door",
+      3.862,
+      4.022
+     ],
+     [
+      "behind",
+      4.102,
+      4.422
+     ],
+     [
+      "you",
+      4.502,
+      4.742
+     ],
+     [
+      "nobody",
+      5.222,
+      5.542
+     ],
+     [
+      "has",
+      5.622,
+      5.782
+     ],
+     [
+      "opened",
+      5.862,
+      6.102
+     ],
+     [
+      "it",
+      6.182,
+      6.262
+     ],
+     [
+      "in",
+      6.342,
+      6.502
+     ],
+     [
+      "weeks",
+      6.582,
+      7.302
+     ]
+    ]
+   },
+   "sfx": []
+  },
+  {
+   "id": "SC03",
+   "start": 14.202,
+   "end": 18.568,
+   "line": "You'll want to pull over and slam it shut. Everyone does.",
+   "scene": "Close-up YOU, three-quarter front.",
+   "purpose": "Name the automatic reaction.",
+   "visual_change": "—",
+   "asset": "car-v1:CU",
+   "in": {
+    "type": "cut"
+   },
+   "captions": true,
+   "params": {
+    "w": [
+     [
+      "you'll",
+      0.31,
+      0.406
+     ],
+     [
+      "want",
+      0.486,
+      0.566
+     ],
+     [
+      "to",
+      0.646,
+      0.726
+     ],
+     [
+      "pull",
+      0.806,
+      0.966
+     ],
+     [
+      "over",
+      1.086,
+      1.206
+     ],
+     [
+      "and",
+      1.286,
+      1.366
+     ],
+     [
+      "slam",
+      1.446,
+      1.686
+     ],
+     [
+      "it",
+      1.726,
+      1.766
+     ],
+     [
+      "shut",
+      1.926,
+      2.246
+     ],
+     [
+      "everyone",
+      2.646,
+      3.046
+     ],
+     [
+      "does",
+      3.126,
+      3.646
+     ]
+    ]
+   },
+   "sfx": []
+  },
+  {
+   "id": "SC04",
+   "start": 18.568,
+   "end": 21.658,
+   "line": "Rule one. Don't pull over.",
+   "scene": "Rule card over the DASH, dimmed to 25%.",
+   "purpose": "Rule 1, first half.",
+   "visual_change": "—",
+   "asset": "car-v1:CARD",
+   "in": {
+    "type": "cut"
+   },
+   "captions": true,
+   "params": {
+    "w": [
+     [
+      "rule",
+      0.41,
+      0.57
+     ],
+     [
+      "one",
+      0.73,
+      1.05
+     ],
+     [
+      "don't",
+      1.53,
+      1.77
+     ],
+     [
+      "pull",
+      1.93,
+      2.09
+     ],
+     [
+      "over",
+      2.17,
+      2.57
+     ]
+    ]
+   },
+   "sfx": []
+  },
+  {
+   "id": "SC05",
+   "start": 21.658,
+   "end": 29.064,
+   "line": "A loose door flickers on bumps. This one doesn't flicker. It stays on. Steady. At sixty.",
+   "scene": "ECU DASH, tighter on the door diagram and the needle at 60.",
+   "purpose": "Rule out the ordinary explanation.",
+   "visual_change": "Wheels hit a road seam: the needle shivers ±1 mph, the RL segment does not flicker.",
+   "asset": "car-v1:ECU",
+   "in": {
+    "type": "cut"
+   },
+   "captions": true,
+   "params": {
+    "w": [
+     [
+      "a",
+      0.31,
+      0.326
+     ],
+     [
+      "loose",
+      0.406,
+      0.646
+     ],
+     [
+      "door",
+      0.726,
+      0.966
+     ],
+     [
+      "flickers",
+      1.046,
+      1.446
+     ],
+     [
+      "on",
+      1.526,
+      1.606
+     ],
+     [
+      "bumps",
+      1.686,
+      2.166
+     ],
+     [
+      "this",
+      2.566,
+      2.726
+     ],
+     [
+      "one",
+      2.806,
+      2.886
+     ],
+     [
+      "doesn't",
+      3.006,
+      3.166
+     ],
+     [
+      "flicker",
+      3.206,
+      3.686
+     ],
+     [
+      "it",
+      4.006,
+      4.086
+     ],
+     [
+      "stays",
+      4.166,
+      4.486
+     ],
+     [
+      "on",
+      4.566,
+      4.886
+     ],
+     [
+      "steady",
+      5.286,
+      5.766
+     ],
+     [
+      "at",
+      6.166,
+      6.246
+     ],
+     [
+      "sixty",
+      6.406,
+      6.886
+     ]
+    ]
+   },
+   "sfx": [
+    {
+     "at": 1.046,
+     "name": "hit",
+     "pitch": 0.5,
+     "gain": -22
+    }
+   ]
+  },
+  {
+   "id": "SC06",
+   "start": 29.064,
+   "end": 31.654,
+   "line": "Something is holding that door.",
+   "scene": "Wide exterior side view. Camera locked to the car; road and lamps scroll past.",
+   "purpose": "The narrator's cover story. The frame shows nothing outside.",
+   "visual_change": "Rear-left door exterior: no hand, nothing on the handle.",
+   "asset": "car-v1:W",
+   "in": {
+    "type": "cut"
+   },
+   "captions": true,
+   "params": {
+    "w": [
+     [
+      "something",
+      0.31,
+      0.71
+     ],
+     [
+      "is",
+      0.79,
+      0.95
+     ],
+     [
+      "holding",
+      1.03,
+      1.43
+     ],
+     [
+      "that",
+      1.51,
+      1.67
+     ],
+     [
+      "door",
+      1.75,
+      2.07
+     ]
+    ]
+   },
+   "sfx": []
+  },
+  {
+   "id": "SC07",
+   "start": 31.654,
+   "end": 34.484,
+   "line": "Press Lock All. Once.",
+   "scene": "ECU centre console: LOCK ALL button, coffee cup in the holder beside it.",
+   "purpose": "Rule 1, second half: the act the ending turns against YOU.",
+   "visual_change": "Button's padlock glyph lights green. Coffee surface still.",
+   "asset": "car-v1:ECU",
+   "in": {
+    "type": "cut"
+   },
+   "captions": true,
+   "params": {
+    "w": [
+     [
+      "press",
+      0.31,
+      0.55
+     ],
+     [
+      "lock",
+      0.63,
+      0.87
+     ],
+     [
+      "all",
+      0.95,
+      1.35
+     ],
+     [
+      "once",
+      1.75,
+      2.31
+     ]
+    ]
+   },
+   "sfx": [
+    {
+     "at": 1.75,
+     "name": "tick",
+     "pitch": 0.9,
+     "gain": -16
+    }
+   ]
+  },
+  {
+   "id": "SC08",
+   "start": 34.484,
+   "end": 38.594,
+   "line": "Four clicks. Every door locked. Now drive.",
+   "scene": "ECU driver-door sill: lock pin drops; DASH padlock glyph appears in the corner.",
+   "purpose": "Confirm the sealed car.",
+   "visual_change": "Lock pin drops 8 mm.",
+   "asset": "car-v1:ECU",
+   "in": {
+    "type": "cut"
+   },
+   "captions": true,
+   "params": {
+    "w": [
+     [
+      "four",
+      0.31,
+      0.47
+     ],
+     [
+      "clicks",
+      0.55,
+      1.23
+     ],
+     [
+      "every",
+      1.43,
+      1.67
+     ],
+     [
+      "door",
+      1.75,
+      1.91
+     ],
+     [
+      "locked",
+      1.99,
+      2.59
+     ],
+     [
+      "now",
+      2.79,
+      2.95
+     ],
+     [
+      "drive",
+      3.03,
+      3.59
+     ]
+    ]
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "tick",
+     "pitch": 0.75,
+     "gain": -16
+    },
+    {
+     "at": 0.45,
+     "name": "tick",
+     "pitch": 0.78,
+     "gain": -17
+    },
+    {
+     "at": 0.6,
+     "name": "tick",
+     "pitch": 0.8,
+     "gain": -18
+    },
+    {
+     "at": 0.75,
+     "name": "tick",
+     "pitch": 0.8,
+     "gain": -26
+    }
+   ]
+  },
+  {
+   "id": "SC09",
+   "start": 38.594,
+   "end": 42.194,
+   "line": "",
+   "scene": "Black card.",
+   "purpose": "Title.",
+   "visual_change": "—",
+   "asset": "car-v1:CARD",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "params": {
+    "w": []
+   },
+   "sfx": []
+  },
+  {
+   "id": "SC10",
+   "start": 42.194,
+   "end": 45.344,
+   "line": "Back at pump six, you went inside to pay.",
+   "scene": "Wide: the shop interior from behind the counter. YOU at the till; the car at pump 6 through the window. 0.4 s cross-fade in.",
+   "purpose": "Flashback to the moment it got in.",
+   "visual_change": "Pump 6 screen lit. Outside, the car sits dark.",
+   "asset": "car-v1:W",
+   "in": {
+    "type": "fade",
+    "dur": 0.4
+   },
+   "captions": true,
+   "params": {
+    "w": [
+     [
+      "back",
+      0.31,
+      0.39
+     ],
+     [
+      "at",
+      0.47,
+      0.55
+     ],
+     [
+      "pump",
+      0.63,
+      0.79
+     ],
+     [
+      "six",
+      0.95,
+      1.43
+     ],
+     [
+      "you",
+      1.51,
+      1.59
+     ],
+     [
+      "went",
+      1.67,
+      1.75
+     ],
+     [
+      "inside",
+      1.91,
+      2.07
+     ],
+     [
+      "to",
+      2.15,
+      2.23
+     ],
+     [
+      "pay",
+      2.31,
+      2.63
+     ]
+    ]
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "ding",
+     "pitch": 2.2,
+     "gain": -26,
+     "dur": 0.8
+    },
+    {
+     "at": 1.4,
+     "name": "impact",
+     "pitch": 0.45,
+     "gain": -32,
+     "dur": 0.6
+    }
+   ]
+  },
+  {
+   "id": "SC11",
+   "start": 45.344,
+   "end": 48.95,
+   "line": "You left the car unlocked. It was only two minutes.",
+   "scene": "Medium exterior: YOU walking to the car, coffee in the left hand, paper bag in the right arm.",
+   "purpose": "Plant: the dome light is still fading as YOU walks back (a door closed seconds ago).",
+   "visual_change": "Inside the car, the dome light glows warm and fades to off over 1.5 s as YOU arrives.",
+   "asset": "car-v1:M",
+   "in": {
+    "type": "cut"
+   },
+   "captions": true,
+   "params": {
+    "w": [
+     [
+      "you",
+      0.31,
+      0.326
+     ],
+     [
+      "left",
+      0.406,
+      0.566
+     ],
+     [
+      "the",
+      0.606,
+      0.646
+     ],
+     [
+      "car",
+      0.726,
+      0.886
+     ],
+     [
+      "unlocked",
+      0.966,
+      1.686
+     ],
+     [
+      "it",
+      1.846,
+      1.926
+     ],
+     [
+      "was",
+      2.006,
+      2.086
+     ],
+     [
+      "only",
+      2.206,
+      2.326
+     ],
+     [
+      "two",
+      2.406,
+      2.486
+     ],
+     [
+      "minutes",
+      2.566,
+      3.086
+     ]
+    ]
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "footstep",
+     "gain": -24
+    },
+    {
+     "at": 0.8,
+     "name": "footstep",
+     "gain": -24
+    },
+    {
+     "at": 1.3,
+     "name": "footstep",
+     "gain": -24
+    }
+   ]
+  },
+  {
+   "id": "SC12",
+   "start": 48.95,
+   "end": 53.38,
+   "line": "Your bag went on the passenger seat. Your coffee went in the holder.",
+   "scene": "ECU passenger seat from the driver's side; the PAB lamp at the top edge of frame.",
+   "purpose": "Plant the baseline: a light bag leaves the passenger airbag OFF; plant the coffee.",
+   "visual_change": "Bag rests upright; cushion barely dents. PAB lamp reads PASSENGER AIRBAG OFF.",
+   "asset": "car-v1:ECU",
+   "in": {
+    "type": "cut"
+   },
+   "captions": true,
+   "params": {
+    "w": [
+     [
+      "your",
+      0.31,
+      0.47
+     ],
+     [
+      "bag",
+      0.59,
+      0.71
+     ],
+     [
+      "went",
+      0.79,
+      0.87
+     ],
+     [
+      "on",
+      0.95,
+      1.03
+     ],
+     [
+      "the",
+      1.07,
+      1.11
+     ],
+     [
+      "passenger",
+      1.19,
+      1.59
+     ],
+     [
+      "seat",
+      1.67,
+      2.23
+     ],
+     [
+      "your",
+      2.31,
+      2.39
+     ],
+     [
+      "coffee",
+      2.59,
+      2.79
+     ],
+     [
+      "went",
+      2.87,
+      3.03
+     ],
+     [
+      "in",
+      3.07,
+      3.11
+     ],
+     [
+      "the",
+      3.15,
+      3.19
+     ],
+     [
+      "holder",
+      3.27,
+      3.91
+     ]
+    ]
+   },
+   "sfx": [
+    {
+     "at": 0.5,
+     "name": "swish",
+     "pitch": 0.8,
+     "gain": -26,
+     "dur": 0.4
+    }
+   ]
+  },
+  {
+   "id": "SC13",
+   "start": 53.38,
+   "end": 57.57,
+   "line": "Your mirror was tilted down. You fixed it without thinking.",
+   "scene": "ECU rear-view mirror, tilted down: its glass shows the rear-left cushion, dented.",
+   "purpose": "Plant: someone in the back moved the mirror.",
+   "visual_change": "—",
+   "asset": "car-v1:ECU",
+   "in": {
+    "type": "cut"
+   },
+   "captions": true,
+   "params": {
+    "w": [
+     [
+      "your",
+      0.31,
+      0.39
+     ],
+     [
+      "mirror",
+      0.47,
+      0.79
+     ],
+     [
+      "was",
+      0.91,
+      1.03
+     ],
+     [
+      "tilted",
+      1.11,
+      1.43
+     ],
+     [
+      "down",
+      1.59,
+      2.15
+     ],
+     [
+      "you",
+      2.23,
+      2.31
+     ],
+     [
+      "fixed",
+      2.39,
+      2.55
+     ],
+     [
+      "it",
+      2.63,
+      2.71
+     ],
+     [
+      "without",
+      2.87,
+      3.03
+     ],
+     [
+      "thinking",
+      3.23,
+      3.67
+     ]
+    ]
+   },
+   "sfx": [
+    {
+     "at": 2.39,
+     "name": "tick",
+     "pitch": 1.2,
+     "gain": -20
+    }
+   ]
+  },
+  {
+   "id": "SC14",
+   "start": 57.57,
+   "end": 59.97,
+   "line": "",
+   "scene": "ECU exterior rear-left door seam as the car leaves pump 6.",
+   "purpose": "Plant: the rear-left door is visibly unlatched as the car rolls out.",
+   "visual_change": "A 1 cm dark gap along the rear-left door edge, unchanged as the car moves.",
+   "asset": "car-v1:ECU",
+   "in": {
+    "type": "cut"
+   },
+   "captions": true,
+   "params": {
+    "w": []
+   },
+   "sfx": []
+  },
+  {
+   "id": "SC15",
+   "start": 59.97,
+   "end": 63.68,
+   "line": "Rule two. Keep the needle above twenty.",
+   "scene": "Rule card over the dimmed speedometer.",
+   "purpose": "Rule 2.",
+   "visual_change": "—",
+   "asset": "car-v1:CARD",
+   "in": {
+    "type": "fade",
+    "dur": 0.4
+   },
+   "captions": true,
+   "params": {
+    "w": [
+     [
+      "rule",
+      0.31,
+      0.47
+     ],
+     [
+      "two",
+      0.63,
+      0.95
+     ],
+     [
+      "keep",
+      1.43,
+      1.59
+     ],
+     [
+      "the",
+      1.67,
+      1.75
+     ],
+     [
+      "needle",
+      1.83,
+      2.07
+     ],
+     [
+      "above",
+      2.23,
+      2.55
+     ],
+     [
+      "twenty",
+      2.71,
+      3.19
+     ]
+    ]
+   },
+   "sfx": []
+  },
+  {
+   "id": "SC16",
+   "start": 63.68,
+   "end": 68.297,
+   "line": "Lock All can't hold a door that isn't latched. Rear left isn't.",
+   "scene": "ECU DASH door diagram with the padlock glyph.",
+   "purpose": "Escalation: locking was not enough (and the viewer learns the door is unlatched).",
+   "visual_change": "Padlock lit, but the RL door panel in the diagram is drawn swung 10° out.",
+   "asset": "car-v1:ECU",
+   "in": {
+    "type": "cut"
+   },
+   "captions": true,
+   "params": {
+    "w": [
+     [
+      "lock",
+      0.31,
+      0.55
+     ],
+     [
+      "all",
+      0.63,
+      0.71
+     ],
+     [
+      "can't",
+      0.87,
+      1.07
+     ],
+     [
+      "hold",
+      1.11,
+      1.27
+     ],
+     [
+      "a",
+      1.35,
+      1.39
+     ],
+     [
+      "door",
+      1.43,
+      1.59
+     ],
+     [
+      "that",
+      1.67,
+      1.75
+     ],
+     [
+      "isn't",
+      1.83,
+      2.07
+     ],
+     [
+      "latched",
+      2.15,
+      2.63
+     ],
+     [
+      "rear",
+      3.03,
+      3.19
+     ],
+     [
+      "left",
+      3.27,
+      3.59
+     ],
+     [
+      "isn't",
+      3.67,
+      4.097
+     ]
+    ]
+   },
+   "sfx": []
+  },
+  {
+   "id": "SC17",
+   "start": 68.297,
+   "end": 74.087,
+   "line": "At speed, a hand outside can only hold on. It needs you slow to pull it open.",
+   "scene": "ECU exterior rear-left handle at 60 mph.",
+   "purpose": "Cover story; the frame contradicts it (no hand).",
+   "visual_change": "Handle empty; a sodium pool slides across it.",
+   "asset": "car-v1:ECU",
+   "in": {
+    "type": "cut"
+   },
+   "captions": true,
+   "params": {
+    "w": [
+     [
+      "at",
+      0.31,
+      0.47
+     ],
+     [
+      "speed",
+      0.71,
+      1.19
+     ],
+     [
+      "a",
+      1.23,
+      1.27
+     ],
+     [
+      "hand",
+      1.35,
+      1.51
+     ],
+     [
+      "outside",
+      1.59,
+      1.99
+     ],
+     [
+      "can",
+      2.07,
+      2.23
+     ],
+     [
+      "only",
+      2.31,
+      2.55
+     ],
+     [
+      "hold",
+      2.63,
+      2.79
+     ],
+     [
+      "on",
+      2.87,
+      3.31
+     ],
+     [
+      "it",
+      3.51,
+      3.59
+     ],
+     [
+      "needs",
+      3.67,
+      3.83
+     ],
+     [
+      "you",
+      3.91,
+      3.99
+     ],
+     [
+      "slow",
+      4.07,
+      4.39
+     ],
+     [
+      "to",
+      4.47,
+      4.55
+     ],
+     [
+      "pull",
+      4.63,
+      4.71
+     ],
+     [
+      "it",
+      4.79,
+      4.87
+     ],
+     [
+      "open",
+      5.03,
+      5.27
+     ]
+    ]
+   },
+   "sfx": []
+  },
+  {
+   "id": "SC18",
+   "start": 74.087,
+   "end": 77.237,
+   "line": "Exit twelve. You have to take it.",
+   "scene": "Wide exterior: overhead green sign EXIT 12, lit by the headlights.",
+   "purpose": "A forced slowdown approaches.",
+   "visual_change": "Sign rushes toward camera.",
+   "asset": "car-v1:W",
+   "in": {
+    "type": "cut"
+   },
+   "captions": true,
+   "params": {
+    "w": [
+     [
+      "exit",
+      0.31,
+      0.55
+     ],
+     [
+      "twelve",
+      0.63,
+      1.11
+     ],
+     [
+      "you",
+      1.51,
+      1.59
+     ],
+     [
+      "have",
+      1.75,
+      1.91
+     ],
+     [
+      "to",
+      1.99,
+      2.07
+     ],
+     [
+      "take",
+      2.15,
+      2.31
+     ],
+     [
+      "it",
+      2.39,
+      2.63
+     ]
+    ]
+   },
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "whoosh",
+     "gain": -20,
+     "dur": 1.0
+    }
+   ]
+  },
+  {
+   "id": "SC19",
+   "start": 77.237,
+   "end": 84.827,
+   "line": "You'll want to brake for the ramp. Everyone brakes for the ramp. Lift off the gas instead. Let the curve take the speed.",
+   "scene": "Close-up YOU's right foot in the footwell.",
+   "purpose": "Micro-habit (braking) replaced by an easing action.",
+   "visual_change": "—",
+   "asset": "car-v1:CU",
+   "in": {
+    "type": "cut"
+   },
+   "captions": true,
+   "params": {
+    "w": [
+     [
+      "you'll",
+      0.31,
+      0.43
+     ],
+     [
+      "want",
+      0.51,
+      0.59
+     ],
+     [
+      "to",
+      0.63,
+      0.67
+     ],
+     [
+      "brake",
+      0.75,
+      0.91
+     ],
+     [
+      "for",
+      0.99,
+      1.07
+     ],
+     [
+      "the",
+      1.15,
+      1.19
+     ],
+     [
+      "ramp",
+      1.23,
+      1.63
+     ],
+     [
+      "everyone",
+      2.03,
+      2.51
+     ],
+     [
+      "brakes",
+      2.59,
+      2.83
+     ],
+     [
+      "for",
+      2.87,
+      2.91
+     ],
+     [
+      "the",
+      2.99,
+      3.03
+     ],
+     [
+      "ramp",
+      3.07,
+      3.47
+     ],
+     [
+      "lift",
+      3.87,
+      4.11
+     ],
+     [
+      "off",
+      4.19,
+      4.27
+     ],
+     [
+      "the",
+      4.31,
+      4.35
+     ],
+     [
+      "gas",
+      4.43,
+      4.67
+     ],
+     [
+      "instead",
+      4.91,
+      5.23
+     ],
+     [
+      "let",
+      5.55,
+      5.71
+     ],
+     [
+      "the",
+      5.75,
+      5.79
+     ],
+     [
+      "curve",
+      5.87,
+      6.19
+     ],
+     [
+      "take",
+      6.27,
+      6.43
+     ],
+     [
+      "the",
+      6.47,
+      6.51
+     ],
+     [
+      "speed",
+      6.59,
+      7.07
+     ]
+    ]
+   },
+   "sfx": []
+  },
+  {
+   "id": "SC20",
+   "start": 84.827,
+   "end": 90.425,
+   "line": "Forty. Thirty. Twenty-two. The light flickers. It's pulling harder.",
+   "scene": "ECU DASH: needle and RL segment together.",
+   "purpose": "The tracker reacts to speed (cover story). Truthfully, it is shifting its weight.",
+   "visual_change": "Needle sweeps 40→30→22; RL flickers off/on (2 frames) at 22, 0.5 s before 'flickers'.",
+   "asset": "car-v1:ECU",
+   "in": {
+    "type": "cut"
+   },
+   "captions": true,
+   "params": {
+    "w": [
+     [
+      "forty",
+      0.31,
+      0.998
+     ],
+     [
+      "thirty",
+      1.198,
+      1.798
+     ],
+     [
+      "twentytwo",
+      1.918,
+      2.438
+     ],
+     [
+      "the",
+      2.918,
+      2.958
+     ],
+     [
+      "light",
+      2.998,
+      3.158
+     ],
+     [
+      "flickers",
+      3.318,
+      3.878
+     ],
+     [
+      "it's",
+      4.118,
+      4.238
+     ],
+     [
+      "pulling",
+      4.278,
+      4.518
+     ],
+     [
+      "harder",
+      4.598,
+      5.078
+     ]
+    ]
+   },
+   "sfx": [
+    {
+     "at": 3.318,
+     "name": "tick",
+     "pitch": 0.5,
+     "gain": -30
+    },
+    {
+     "at": 4.598,
+     "name": "tick",
+     "pitch": 0.5,
+     "gain": -30
+    }
+   ]
+  },
+  {
+   "id": "SC21",
+   "start": 90.425,
+   "end": 94.295,
+   "line": "Twenty-one. The ramp straightens. Thirty again.",
+   "scene": "Wide top-down of the curving ramp; the car follows the curve.",
+   "purpose": "Survive the slowdown.",
+   "visual_change": "Headlight cones sweep along the guardrail.",
+   "asset": "car-v1:W",
+   "in": {
+    "type": "cut"
+   },
+   "captions": true,
+   "params": {
+    "w": [
+     [
+      "twentyone",
+      0.31,
+      0.95
+     ],
+     [
+      "the",
+      1.27,
+      1.31
+     ],
+     [
+      "ramp",
+      1.35,
+      1.59
+     ],
+     [
+      "straightens",
+      1.67,
+      2.31
+     ],
+     [
+      "thirty",
+      2.63,
+      2.87
+     ],
+     [
+      "again",
+      3.07,
+      3.35
+     ]
+    ]
+   },
+   "sfx": []
+  },
+  {
+   "id": "SC22",
+   "start": 94.295,
+   "end": 96.157,
+   "line": "Steady red.",
+   "scene": "ECU of the RL segment only (tightest framing).",
+   "purpose": "The tracker settles.",
+   "visual_change": "RL steady again.",
+   "asset": "car-v1:ECU",
+   "in": {
+    "type": "cut"
+   },
+   "captions": true,
+   "params": {
+    "w": [
+     [
+      "steady",
+      0.31,
+      0.582
+     ],
+     [
+      "red",
+      0.662,
+      1.142
+     ]
+    ]
+   },
+   "sfx": []
+  },
+  {
+   "id": "SC23",
+   "start": 96.157,
+   "end": 99.707,
+   "line": "Rule three. Don't turn on the dome light.",
+   "scene": "Rule card over the dimmed roof liner.",
+   "purpose": "Rule 3.",
+   "visual_change": "—",
+   "asset": "car-v1:CARD",
+   "in": {
+    "type": "cut"
+   },
+   "captions": true,
+   "params": {
+    "w": [
+     [
+      "rule",
+      0.31,
+      0.55
+     ],
+     [
+      "three",
+      0.63,
+      1.03
+     ],
+     [
+      "don't",
+      1.59,
+      1.83
+     ],
+     [
+      "turn",
+      1.91,
+      2.07
+     ],
+     [
+      "on",
+      2.15,
+      2.23
+     ],
+     [
+      "the",
+      2.31,
+      2.39
+     ],
+     [
+      "dome",
+      2.43,
+      2.63
+     ],
+     [
+      "light",
+      2.71,
+      3.03
+     ]
+    ]
+   },
+   "sfx": []
+  },
+  {
+   "id": "SC24",
+   "start": 99.707,
+   "end": 102.249,
+   "line": "Your thumb knows where the switch is.",
+   "scene": "ECU overhead console: dome switch with the PAB lamp beside it.",
+   "purpose": "Micro-habit: reaching for the dome switch.",
+   "visual_change": "PAB lamp reads OFF.",
+   "asset": "car-v1:ECU",
+   "in": {
+    "type": "cut"
+   },
+   "captions": true,
+   "params": {
+    "w": [
+     [
+      "your",
+      0.31,
+      0.342
+     ],
+     [
+      "thumb",
+      0.422,
+      0.662
+     ],
+     [
+      "knows",
+      0.742,
+      0.982
+     ],
+     [
+      "where",
+      1.062,
+      1.142
+     ],
+     [
+      "the",
+      1.222,
+      1.302
+     ],
+     [
+      "switch",
+      1.462,
+      1.622
+     ],
+     [
+      "is",
+      1.742,
+      2.022
+     ]
+    ]
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "swish",
+     "pitch": 1.0,
+     "gain": -30,
+     "dur": 0.4
+    }
+   ]
+  },
+  {
+   "id": "SC25",
+   "start": 102.249,
+   "end": 107.767,
+   "line": "Light the cabin, glance back, done. Everyone does. Don't.",
+   "scene": "Close-up YOU, eyes up toward the switch.",
+   "purpose": "Name the habit and stop it.",
+   "visual_change": "—",
+   "asset": "car-v1:CU",
+   "in": {
+    "type": "cut"
+   },
+   "captions": true,
+   "params": {
+    "w": [
+     [
+      "light",
+      0.31,
+      0.358
+     ],
+     [
+      "the",
+      0.398,
+      0.438
+     ],
+     [
+      "cabin",
+      0.518,
+      1.078
+     ],
+     [
+      "glance",
+      1.118,
+      1.398
+     ],
+     [
+      "back",
+      1.478,
+      2.038
+     ],
+     [
+      "done",
+      2.198,
+      2.438
+     ],
+     [
+      "everyone",
+      2.838,
+      3.238
+     ],
+     [
+      "does",
+      3.398,
+      3.638
+     ],
+     [
+      "don't",
+      4.118,
+      4.998
+     ]
+    ]
+   },
+   "sfx": []
+  },
+  {
+   "id": "SC26",
+   "start": 107.767,
+   "end": 114.453,
+   "line": "A lit cabin shows it which seat you're in. Even reaching is enough. Look. The light just moved to your door.",
+   "scene": "ECU DASH door diagram.",
+   "purpose": "Escalation: the warning jumps to YOU's own door.",
+   "visual_change": "RL goes dark; the front-left (driver) segment lights red, 0.5 s before 'Look'.",
+   "asset": "car-v1:ECU",
+   "in": {
+    "type": "cut"
+   },
+   "captions": true,
+   "params": {
+    "w": [
+     [
+      "a",
+      0.31,
+      0.326
+     ],
+     [
+      "lit",
+      0.446,
+      0.566
+     ],
+     [
+      "cabin",
+      0.606,
+      0.966
+     ],
+     [
+      "shows",
+      1.046,
+      1.286
+     ],
+     [
+      "it",
+      1.326,
+      1.366
+     ],
+     [
+      "which",
+      1.486,
+      1.606
+     ],
+     [
+      "seat",
+      1.686,
+      1.846
+     ],
+     [
+      "you're",
+      1.886,
+      2.006
+     ],
+     [
+      "in",
+      2.086,
+      2.326
+     ],
+     [
+      "even",
+      2.646,
+      2.886
+     ],
+     [
+      "reaching",
+      2.966,
+      3.286
+     ],
+     [
+      "is",
+      3.326,
+      3.366
+     ],
+     [
+      "enough",
+      3.446,
+      4.046
+     ],
+     [
+      "look",
+      4.246,
+      4.566
+     ],
+     [
+      "the",
+      4.886,
+      4.926
+     ],
+     [
+      "light",
+      4.966,
+      5.126
+     ],
+     [
+      "just",
+      5.206,
+      5.286
+     ],
+     [
+      "moved",
+      5.366,
+      5.526
+     ],
+     [
+      "to",
+      5.566,
+      5.606
+     ],
+     [
+      "your",
+      5.686,
+      5.766
+     ],
+     [
+      "door",
+      5.926,
+      6.166
+     ]
+    ]
+   },
+   "sfx": [
+    {
+     "at": 4.246,
+     "name": "ding",
+     "pitch": 1.6,
+     "gain": -21,
+     "dur": 1.0
+    }
+   ]
+  },
+  {
+   "id": "SC27",
+   "start": 114.453,
+   "end": 116.353,
+   "line": "Hand back on the wheel.",
+   "scene": "Medium from the passenger side: driver's door panel, inside handle, lock pin down.",
+   "purpose": "Obey; show the door that lit.",
+   "visual_change": "Inside handle sits still.",
+   "asset": "car-v1:M",
+   "in": {
+    "type": "cut"
+   },
+   "captions": true,
+   "params": {
+    "w": [
+     [
+      "hand",
+      0.31,
+      0.358
+     ],
+     [
+      "back",
+      0.518,
+      0.678
+     ],
+     [
+      "on",
+      0.758,
+      0.838
+     ],
+     [
+      "the",
+      0.878,
+      0.918
+     ],
+     [
+      "wheel",
+      0.998,
+      1.318
+     ]
+    ]
+   },
+   "sfx": [
+    {
+     "at": 0.5,
+     "name": "swish",
+     "pitch": 0.4,
+     "gain": -30,
+     "dur": 0.4
+    }
+   ]
+  },
+  {
+   "id": "SC28",
+   "start": 116.353,
+   "end": 118.495,
+   "line": "It goes back to rear left.",
+   "scene": "ECU DASH door diagram, wider (includes the speed readout).",
+   "purpose": "The tracker returns.",
+   "visual_change": "Driver segment off; RL back on.",
+   "asset": "car-v1:ECU",
+   "in": {
+    "type": "cut"
+   },
+   "captions": true,
+   "params": {
+    "w": [
+     [
+      "it",
+      0.31,
+      0.342
+     ],
+     [
+      "goes",
+      0.382,
+      0.502
+     ],
+     [
+      "back",
+      0.582,
+      0.822
+     ],
+     [
+      "to",
+      0.862,
+      0.902
+     ],
+     [
+      "rear",
+      0.982,
+      1.142
+     ],
+     [
+      "left",
+      1.222,
+      1.622
+     ]
+    ]
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "ding",
+     "pitch": 1.6,
+     "gain": -22,
+     "dur": 1.0
+    }
+   ]
+  },
+  {
+   "id": "SC29",
+   "start": 118.495,
+   "end": 121.295,
+   "line": "",
+   "scene": "Medium side cross-section of the cabin (driver and rear seat visible).",
+   "purpose": "Plant: a streetlight sweep shows the rear-left cushion dented.",
+   "visual_change": "Rear-left cushion pressed 4 cm, nothing visible on it.",
+   "asset": "car-v1:M",
+   "in": {
+    "type": "cut"
+   },
+   "captions": true,
+   "params": {
+    "w": []
+   },
+   "sfx": []
+  },
+  {
+   "id": "SC30",
+   "start": 121.295,
+   "end": 126.245,
+   "line": "Rule four. At a red light, never shift into park.",
+   "scene": "Rule card over the dimmed street.",
+   "purpose": "Rule 4.",
+   "visual_change": "—",
+   "asset": "car-v1:CARD",
+   "in": {
+    "type": "cut"
+   },
+   "captions": true,
+   "params": {
+    "w": [
+     [
+      "rule",
+      0.31,
+      0.55
+     ],
+     [
+      "four",
+      0.71,
+      1.51
+     ],
+     [
+      "at",
+      1.59,
+      1.67
+     ],
+     [
+      "a",
+      1.71,
+      1.75
+     ],
+     [
+      "red",
+      1.83,
+      1.99
+     ],
+     [
+      "light",
+      2.07,
+      2.55
+     ],
+     [
+      "never",
+      2.71,
+      2.95
+     ],
+     [
+      "shift",
+      3.11,
+      3.35
+     ],
+     [
+      "into",
+      3.47,
+      3.59
+     ],
+     [
+      "park",
+      3.67,
+      4.43
+     ]
+    ]
+   },
+   "sfx": []
+  },
+  {
+   "id": "SC31",
+   "start": 126.245,
+   "end": 131.627,
+   "line": "The first light on Harlan turns red. The road is empty. You stop anyway.",
+   "scene": "Wide exterior: empty avenue, traffic signal ahead; the car rolls to a stop at the line.",
+   "purpose": "A forced stop.",
+   "visual_change": "Signal yellow → red 0.5 s before 'red'.",
+   "asset": "car-v1:W",
+   "in": {
+    "type": "cut"
+   },
+   "captions": true,
+   "params": {
+    "w": [
+     [
+      "the",
+      0.31,
+      0.342
+     ],
+     [
+      "first",
+      0.462,
+      0.582
+     ],
+     [
+      "light",
+      0.662,
+      0.742
+     ],
+     [
+      "on",
+      0.822,
+      0.902
+     ],
+     [
+      "harlan",
+      0.982,
+      1.302
+     ],
+     [
+      "turns",
+      1.422,
+      1.622
+     ],
+     [
+      "red",
+      1.702,
+      2.342
+     ],
+     [
+      "the",
+      2.382,
+      2.422
+     ],
+     [
+      "road",
+      2.502,
+      2.582
+     ],
+     [
+      "is",
+      2.662,
+      2.742
+     ],
+     [
+      "empty",
+      2.822,
+      3.542
+     ],
+     [
+      "you",
+      3.622,
+      3.702
+     ],
+     [
+      "stop",
+      3.822,
+      3.942
+     ],
+     [
+      "anyway",
+      4.022,
+      4.862
+     ]
+    ]
+   },
+   "sfx": [
+    {
+     "at": 3.822,
+     "name": "swish",
+     "pitch": 0.5,
+     "gain": -24,
+     "dur": 0.7
+    },
+    {
+     "at": 1.702,
+     "name": "tick",
+     "pitch": 1.4,
+     "gain": -26
+    }
+   ]
+  },
+  {
+   "id": "SC32",
+   "start": 131.627,
+   "end": 135.097,
+   "line": "Long lights make people shift into park.",
+   "scene": "ECU gear selector with YOU's hand on it.",
+   "purpose": "Micro-habit: shifting to park.",
+   "visual_change": "—",
+   "asset": "car-v1:ECU",
+   "in": {
+    "type": "cut"
+   },
+   "captions": true,
+   "params": {
+    "w": [
+     [
+      "long",
+      0.31,
+      0.55
+     ],
+     [
+      "lights",
+      0.63,
+      0.87
+     ],
+     [
+      "make",
+      0.95,
+      1.11
+     ],
+     [
+      "people",
+      1.23,
+      1.35
+     ],
+     [
+      "shift",
+      1.43,
+      1.67
+     ],
+     [
+      "into",
+      1.75,
+      1.99
+     ],
+     [
+      "park",
+      2.15,
+      2.95
+     ]
+    ]
+   },
+   "sfx": []
+  },
+  {
+   "id": "SC33",
+   "start": 135.097,
+   "end": 138.834,
+   "line": "Your car unlocks every door in park.",
+   "scene": "ECU DASH gear readout 'D' beside the padlock glyph.",
+   "purpose": "Stake of the rule.",
+   "visual_change": "Padlock locked; 'D' lit.",
+   "asset": "car-v1:ECU",
+   "in": {
+    "type": "cut"
+   },
+   "captions": true,
+   "params": {
+    "w": [
+     [
+      "your",
+      0.31,
+      0.337
+     ],
+     [
+      "car",
+      0.417,
+      0.657
+     ],
+     [
+      "unlocks",
+      0.737,
+      1.217
+     ],
+     [
+      "every",
+      1.297,
+      1.537
+     ],
+     [
+      "door",
+      1.617,
+      1.857
+     ],
+     [
+      "in",
+      1.937,
+      2.097
+     ],
+     [
+      "park",
+      2.297,
+      3.217
+     ]
+    ]
+   },
+   "sfx": []
+  },
+  {
+   "id": "SC34",
+   "start": 138.834,
+   "end": 142.144,
+   "line": "Foot on the brake. Stay in drive.",
+   "scene": "Close-up YOU's right foot on the brake pedal.",
+   "purpose": "Obey.",
+   "visual_change": "—",
+   "asset": "car-v1:CU",
+   "in": {
+    "type": "cut"
+   },
+   "captions": true,
+   "params": {
+    "w": [
+     [
+      "foot",
+      0.31,
+      0.39
+     ],
+     [
+      "on",
+      0.47,
+      0.55
+     ],
+     [
+      "the",
+      0.59,
+      0.63
+     ],
+     [
+      "brake",
+      0.71,
+      1.35
+     ],
+     [
+      "stay",
+      1.47,
+      1.59
+     ],
+     [
+      "in",
+      1.67,
+      1.75
+     ],
+     [
+      "drive",
+      1.99,
+      2.79
+     ]
+    ]
+   },
+   "sfx": []
+  },
+  {
+   "id": "SC35",
+   "start": 142.144,
+   "end": 149.054,
+   "line": "Zero miles an hour. A chime. A new light. Rear seat, left side. Seatbelt unbuckled.",
+   "scene": "ECU DASH rear-row seat diagram beside the door diagram.",
+   "purpose": "Escalation 1 → 2: the rear seat sensor says someone is sitting behind YOU.",
+   "visual_change": "Speed 0. The rear-left seat icon lights red with an unbuckled-belt glyph, 0.5 s before 'A chime'.",
+   "asset": "car-v1:ECU",
+   "in": {
+    "type": "cut"
+   },
+   "captions": true,
+   "params": {
+    "w": [
+     [
+      "zero",
+      0.31,
+      0.55
+     ],
+     [
+      "miles",
+      0.63,
+      0.87
+     ],
+     [
+      "an",
+      0.95,
+      1.03
+     ],
+     [
+      "hour",
+      1.19,
+      1.67
+     ],
+     [
+      "a",
+      1.71,
+      1.75
+     ],
+     [
+      "chime",
+      1.83,
+      2.47
+     ],
+     [
+      "a",
+      2.51,
+      2.55
+     ],
+     [
+      "new",
+      2.63,
+      2.71
+     ],
+     [
+      "light",
+      2.79,
+      3.51
+     ],
+     [
+      "rear",
+      3.55,
+      3.75
+     ],
+     [
+      "seat",
+      3.83,
+      4.23
+     ],
+     [
+      "left",
+      4.31,
+      4.47
+     ],
+     [
+      "side",
+      4.55,
+      5.19
+     ],
+     [
+      "seatbelt",
+      5.31,
+      5.67
+     ],
+     [
+      "unbuckled",
+      5.75,
+      6.39
+     ]
+    ]
+   },
+   "sfx": [
+    {
+     "at": 1.53,
+     "name": "ding",
+     "pitch": 1.3,
+     "gain": -22,
+     "dur": 0.8
+    },
+    {
+     "at": 2.53,
+     "name": "ding",
+     "pitch": 1.3,
+     "gain": -22,
+     "dur": 0.8
+    },
+    {
+     "at": 3.53,
+     "name": "ding",
+     "pitch": 1.3,
+     "gain": -22,
+     "dur": 0.8
+    },
+    {
+     "at": 4.53,
+     "name": "ding",
+     "pitch": 1.3,
+     "gain": -22,
+     "dur": 0.8
+    },
+    {
+     "at": 5.53,
+     "name": "ding",
+     "pitch": 1.3,
+     "gain": -22,
+     "dur": 0.8
+    }
+   ]
+  },
+  {
+   "id": "SC36",
+   "start": 149.054,
+   "end": 153.98,
+   "line": "Rear sensors misread bags. You know that. Let it chime.",
+   "scene": "Close-up YOU in red signal light.",
+   "purpose": "Cover story; the viewer knows the bag is in front.",
+   "visual_change": "—",
+   "asset": "car-v1:CU",
+   "in": {
+    "type": "cut"
+   },
+   "captions": true,
+   "params": {
+    "w": [
+     [
+      "rear",
+      0.31,
+      0.486
+     ],
+     [
+      "sensors",
+      0.566,
+      0.966
+     ],
+     [
+      "misread",
+      1.046,
+      1.446
+     ],
+     [
+      "bags",
+      1.526,
+      2.246
+     ],
+     [
+      "you",
+      2.286,
+      2.326
+     ],
+     [
+      "know",
+      2.406,
+      2.486
+     ],
+     [
+      "that",
+      2.566,
+      3.046
+     ],
+     [
+      "let",
+      3.126,
+      3.206
+     ],
+     [
+      "it",
+      3.286,
+      3.326
+     ],
+     [
+      "chime",
+      3.366,
+      4.406
+     ]
+    ]
+   },
+   "sfx": []
+  },
+  {
+   "id": "SC37",
+   "start": 153.98,
+   "end": 157.077,
+   "line": "Green. Go. Above twenty.",
+   "scene": "Wide exterior: the signal turns green; the car pulls away.",
+   "purpose": "Escape the stop.",
+   "visual_change": "Signal red → green.",
+   "asset": "car-v1:W",
+   "in": {
+    "type": "cut"
+   },
+   "captions": true,
+   "params": {
+    "w": [
+     [
+      "green",
+      0.31,
+      0.697
+     ],
+     [
+      "go",
+      0.857,
+      1.097
+     ],
+     [
+      "above",
+      1.337,
+      1.657
+     ],
+     [
+      "twenty",
+      1.737,
+      2.377
+     ]
+    ]
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "tick",
+     "pitch": 1.4,
+     "gain": -26
+    }
+   ]
+  },
+  {
+   "id": "SC38",
+   "start": 157.077,
+   "end": 160.467,
+   "line": "Rule five. Don't touch the mirror.",
+   "scene": "Rule card over the dimmed mirror.",
+   "purpose": "Rule 5.",
+   "visual_change": "—",
+   "asset": "car-v1:CARD",
+   "in": {
+    "type": "cut"
+   },
+   "captions": true,
+   "params": {
+    "w": [
+     [
+      "rule",
+      0.31,
+      0.47
+     ],
+     [
+      "five",
+      0.63,
+      1.35
+     ],
+     [
+      "don't",
+      1.59,
+      1.83
+     ],
+     [
+      "touch",
+      1.99,
+      2.23
+     ],
+     [
+      "the",
+      2.31,
+      2.35
+     ],
+     [
+      "mirror",
+      2.39,
+      2.87
+     ]
+    ]
+   },
+   "sfx": []
+  },
+  {
+   "id": "SC39",
+   "start": 160.467,
+   "end": 164.913,
+   "line": "It's tilted again. Up, at the roof. The bumps did that.",
+   "scene": "ECU rear-view mirror, tilted up 8°: the glass shows only roof liner.",
+   "purpose": "Clue: the mirror moved again, now so YOU can't see the back seat.",
+   "visual_change": "Mirror angle changed since YOU fixed it in SC13.",
+   "asset": "car-v1:ECU",
+   "in": {
+    "type": "cut"
+   },
+   "captions": true,
+   "params": {
+    "w": [
+     [
+      "it's",
+      0.31,
+      0.406
+     ],
+     [
+      "tilted",
+      0.486,
+      0.806
+     ],
+     [
+      "again",
+      0.966,
+      1.206
+     ],
+     [
+      "up",
+      1.526,
+      1.846
+     ],
+     [
+      "at",
+      2.006,
+      2.086
+     ],
+     [
+      "the",
+      2.166,
+      2.206
+     ],
+     [
+      "roof",
+      2.246,
+      2.646
+     ],
+     [
+      "the",
+      2.966,
+      3.046
+     ],
+     [
+      "bumps",
+      3.086,
+      3.366
+     ],
+     [
+      "did",
+      3.446,
+      3.526
+     ],
+     [
+      "that",
+      3.606,
+      3.926
+     ]
+    ]
+   },
+   "sfx": []
+  },
+  {
+   "id": "SC40",
+   "start": 164.913,
+   "end": 168.159,
+   "line": "You'll want to set it right. Everyone does.",
+   "scene": "Medium YOU from the passenger side, mirror at the top of frame.",
+   "purpose": "Micro-habit.",
+   "visual_change": "—",
+   "asset": "car-v1:M",
+   "in": {
+    "type": "cut"
+   },
+   "captions": true,
+   "params": {
+    "w": [
+     [
+      "you'll",
+      0.31,
+      0.406
+     ],
+     [
+      "want",
+      0.486,
+      0.566
+     ],
+     [
+      "to",
+      0.646,
+      0.686
+     ],
+     [
+      "set",
+      0.726,
+      0.886
+     ],
+     [
+      "it",
+      0.926,
+      0.966
+     ],
+     [
+      "right",
+      1.046,
+      1.366
+     ],
+     [
+      "everyone",
+      1.686,
+      2.006
+     ],
+     [
+      "does",
+      2.086,
+      2.726
+     ]
+    ]
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "swish",
+     "pitch": 1.0,
+     "gain": -30,
+     "dur": 0.4
+    }
+   ]
+  },
+  {
+   "id": "SC41",
+   "start": 168.159,
+   "end": 174.459,
+   "line": "See a face at the rear window, and you'll brake. And braking is slow.",
+   "scene": "Close-up YOU, eyes forward; the hand lowers back to the wheel at frame edge.",
+   "purpose": "Cover story for not looking.",
+   "visual_change": "—",
+   "asset": "car-v1:CU",
+   "in": {
+    "type": "cut"
+   },
+   "captions": true,
+   "params": {
+    "w": [
+     [
+      "see",
+      0.66,
+      0.82
+     ],
+     [
+      "a",
+      0.86,
+      0.9
+     ],
+     [
+      "face",
+      0.98,
+      1.22
+     ],
+     [
+      "at",
+      1.26,
+      1.3
+     ],
+     [
+      "the",
+      1.38,
+      1.46
+     ],
+     [
+      "rear",
+      1.58,
+      1.7
+     ],
+     [
+      "window",
+      1.78,
+      2.38
+     ],
+     [
+      "and",
+      2.58,
+      2.66
+     ],
+     [
+      "you'll",
+      2.74,
+      2.9
+     ],
+     [
+      "brake",
+      2.98,
+      3.58
+     ],
+     [
+      "and",
+      3.86,
+      3.94
+     ],
+     [
+      "braking",
+      4.1,
+      4.66
+     ],
+     [
+      "is",
+      4.74,
+      4.98
+     ],
+     [
+      "slow",
+      5.22,
+      5.62
+     ]
+    ]
+   },
    "sfx": [
     {
      "at": 4.6,
      "name": "tick",
-     "gain": -26,
-     "pitch": 0.6
+     "pitch": 0.6,
+     "gain": -26
     }
-   ],
-   "asset": "car-cabin-front-v1 / driver-v1"
+   ]
   },
   {
    "id": "SC42",
-   "start": 6.3,
-   "end": 9.06,
+   "start": 174.459,
+   "end": 177.219,
    "line": "Pull over under the next streetlight.",
-   "scene": "Three-quarter from the passenger seat; centre screen in the foreground switches from map to a call screen.",
-   "purpose": "The breach begins: the narrator's own voice comes out of the car.",
-   "visual_change": "Screen switches at 6.60; blue light rises on YOU's face and rim; eyes flick to the screen at 6.90.",
+   "scene": "Close-up YOU, three-quarter: the centre screen glows at frame right.",
+   "purpose": "The breach begins: the same voice, but from the car.",
+   "visual_change": "Centre screen switches from the map to a bright blue call screen.",
+   "asset": "car-v1:CU",
    "in": {
     "type": "cut"
    },
    "captions": true,
+   "params": {
+    "w": [
+     [
+      "pull",
+      0.6,
+      0.76
+     ],
+     [
+      "over",
+      0.84,
+      1.08
+     ],
+     [
+      "under",
+      1.2,
+      1.32
+     ],
+     [
+      "the",
+      1.36,
+      1.4
+     ],
+     [
+      "next",
+      1.48,
+      1.64
+     ],
+     [
+      "streetlight",
+      1.72,
+      2.68
+     ]
+    ]
+   },
    "sfx": [
     {
      "at": 0.27,
@@ -43,58 +2937,174 @@
      "gain": -20,
      "pitch": 0.75
     }
-   ],
-   "asset": "car-cabin-3q-v1 / driver-v1 / screen-v1"
+   ]
   },
   {
    "id": "SC43",
-   "start": 9.06,
-   "end": 11.75,
+   "start": 177.219,
+   "end": 179.909,
    "line": "Get out and check the rear-left latch yourself.",
-   "scene": "ECU centre screen: Incoming audio / Unknown device, live waveform, Phone not connected.",
+   "scene": "ECU MEDIA screen: INCOMING AUDIO / UNKNOWN DEVICE with a live waveform.",
    "purpose": "The one true instruction in the film.",
-   "visual_change": "Waveform follows the hijack audio; call timer counts.",
+   "visual_change": "Waveform moves with the voice.",
+   "asset": "car-v1:ECU",
    "in": {
     "type": "cut"
    },
    "captions": true,
-   "sfx": [],
-   "asset": "console-v1 / screen-call-v1"
+   "params": {
+    "w": [
+     [
+      "get",
+      0.08,
+      0.16
+     ],
+     [
+      "out",
+      0.24,
+      0.48
+     ],
+     [
+      "and",
+      0.56,
+      0.72
+     ],
+     [
+      "check",
+      0.8,
+      0.88
+     ],
+     [
+      "the",
+      0.96,
+      1.04
+     ],
+     [
+      "rearleft",
+      1.12,
+      1.44
+     ],
+     [
+      "latch",
+      1.52,
+      1.76
+     ],
+     [
+      "yourself",
+      1.88,
+      2.4
+     ]
+    ]
+   },
+   "sfx": []
   },
   {
    "id": "SC44",
-   "start": 11.75,
-   "end": 16.6,
+   "start": 179.909,
+   "end": 184.759,
    "line": "Please disregard that last instruction. Do not take your foot off the gas.",
-   "scene": "Same screen: 4-frame static failure, then the map returns.",
-   "purpose": "The narrator overrides the breach.",
-   "visual_change": "Static 11.75-11.88 (picture and sound), then the map.",
+   "scene": "Same MEDIA screen: a 4-frame static bar cut, then the map returns.",
+   "purpose": "The narrator overrides the breach (pays off in the ending).",
+   "visual_change": "Static bar (diegetic failure), then the normal map.",
+   "asset": "car-v1:ECU",
    "in": {
     "type": "cut"
    },
    "captions": true,
+   "params": {
+    "w": [
+     [
+      "please",
+      0.4,
+      0.56
+     ],
+     [
+      "disregard",
+      0.64,
+      1.12
+     ],
+     [
+      "that",
+      1.2,
+      1.28
+     ],
+     [
+      "last",
+      1.36,
+      1.52
+     ],
+     [
+      "instruction",
+      1.6,
+      2.56
+     ],
+     [
+      "do",
+      2.68,
+      2.8
+     ],
+     [
+      "not",
+      2.92,
+      3.04
+     ],
+     [
+      "take",
+      3.12,
+      3.28
+     ],
+     [
+      "your",
+      3.36,
+      3.44
+     ],
+     [
+      "foot",
+      3.52,
+      3.6
+     ],
+     [
+      "off",
+      3.68,
+      3.76
+     ],
+     [
+      "the",
+      3.8,
+      3.84
+     ],
+     [
+      "gas",
+      4.08,
+      4.56
+     ]
+    ]
+   },
    "sfx": [
     {
-     "at": 0.0,
+     "at": 0,
      "name": "static",
      "gain": 3,
      "dur": 0.14
     }
-   ],
-   "asset": "console-v1 / screen-static-v1 / screen-map-v1"
+   ]
   },
   {
    "id": "SC45",
-   "start": 16.6,
-   "end": 19.6,
+   "start": 184.759,
+   "end": 187.759,
    "line": "",
-   "scene": "Wide exterior side view: the car passes through one streetlamp's pool without slowing.",
-   "purpose": "YOU drives past the streetlight the voice meant.",
-   "visual_change": "Lamp pool crosses the car around 17.9 s.",
+   "scene": "Wide exterior: one tall streetlamp ahead; the car passes through its pool.",
+   "purpose": "YOU passes the streetlight the voice meant, without slowing.",
+   "visual_change": "Car keeps its speed.",
+   "asset": "car-v1:W",
    "in": {
     "type": "cut"
    },
    "captions": true,
+   "params": {
+    "w": []
+   },
    "sfx": [
     {
      "at": 0.9,
@@ -108,29 +3118,2428 @@
      "gain": -30,
      "dur": 1.6
     }
-   ],
-   "asset": "car-side-v1 / streetlamp-v1"
+   ]
+  },
+  {
+   "id": "SC46",
+   "start": 187.759,
+   "end": 193.589,
+   "line": "The rear window fogs in one small patch. That's the cold. Keep driving.",
+   "scene": "ECU rear window from outside, behind the car.",
+   "purpose": "Clue: breath on the inside of the glass.",
+   "visual_change": "A palm-sized fog patch blooms and fades on the inside of the glass.",
+   "asset": "car-v1:ECU",
+   "in": {
+    "type": "cut"
+   },
+   "captions": true,
+   "params": {
+    "w": [
+     [
+      "the",
+      0.31,
+      0.39
+     ],
+     [
+      "rear",
+      0.51,
+      0.63
+     ],
+     [
+      "window",
+      0.71,
+      1.03
+     ],
+     [
+      "fogs",
+      1.11,
+      1.43
+     ],
+     [
+      "in",
+      1.51,
+      1.59
+     ],
+     [
+      "one",
+      1.67,
+      1.83
+     ],
+     [
+      "small",
+      1.91,
+      2.15
+     ],
+     [
+      "patch",
+      2.31,
+      2.79
+     ],
+     [
+      "that's",
+      3.19,
+      3.43
+     ],
+     [
+      "the",
+      3.47,
+      3.51
+     ],
+     [
+      "cold",
+      3.59,
+      3.99
+     ],
+     [
+      "keep",
+      4.39,
+      4.55
+     ],
+     [
+      "driving",
+      4.63,
+      5.11
+     ]
+    ]
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "wind",
+     "gain": -30,
+     "dur": 2
+    }
+   ]
+  },
+  {
+   "id": "SC47",
+   "start": 193.589,
+   "end": 198.486,
+   "line": "Rule six. Passenger airbag light on? Both hands on the wheel.",
+   "scene": "Rule card over the dimmed passenger seat.",
+   "purpose": "Rule 6.",
+   "visual_change": "—",
+   "asset": "car-v1:CARD",
+   "in": {
+    "type": "cut"
+   },
+   "captions": true,
+   "params": {
+    "w": [
+     [
+      "rule",
+      0.31,
+      0.43
+     ],
+     [
+      "six",
+      0.59,
+      1.07
+     ],
+     [
+      "passenger",
+      1.47,
+      1.95
+     ],
+     [
+      "airbag",
+      2.03,
+      2.35
+     ],
+     [
+      "light",
+      2.43,
+      2.59
+     ],
+     [
+      "on",
+      2.71,
+      3.07
+     ],
+     [
+      "both",
+      3.31,
+      3.47
+     ],
+     [
+      "hands",
+      3.55,
+      3.79
+     ],
+     [
+      "on",
+      3.83,
+      3.87
+     ],
+     [
+      "the",
+      3.95,
+      3.99
+     ],
+     [
+      "wheel",
+      4.03,
+      4.377
+     ]
+    ]
+   },
+   "sfx": []
+  },
+  {
+   "id": "SC48",
+   "start": 198.486,
+   "end": 201.146,
+   "line": "The rear seat light goes out.",
+   "scene": "ECU DASH rear-row seat diagram.",
+   "purpose": "The rear seat empties.",
+   "visual_change": "RB goes dark.",
+   "asset": "car-v1:ECU",
+   "in": {
+    "type": "cut"
+   },
+   "captions": true,
+   "params": {
+    "w": [
+     [
+      "the",
+      0.66,
+      0.7
+     ],
+     [
+      "rear",
+      0.78,
+      0.94
+     ],
+     [
+      "seat",
+      1.1,
+      1.26
+     ],
+     [
+      "light",
+      1.34,
+      1.5
+     ],
+     [
+      "goes",
+      1.58,
+      1.74
+     ],
+     [
+      "out",
+      1.82,
+      2.14
+     ]
+    ]
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "swish",
+     "pitch": 0.35,
+     "gain": -26,
+     "dur": 0.7
+    }
+   ]
+  },
+  {
+   "id": "SC49",
+   "start": 201.146,
+   "end": 207.363,
+   "line": "Then the small light under your mirror changes. Passenger airbag. Off. Then on.",
+   "scene": "ECU overhead console PAB lamp (as in SC24).",
+   "purpose": "Escalation 3: an adult's weight on the seat beside YOU.",
+   "visual_change": "PAB OFF → ON, 0.5 s before 'Then on'.",
+   "asset": "car-v1:ECU",
+   "in": {
+    "type": "cut"
+   },
+   "captions": true,
+   "params": {
+    "w": [
+     [
+      "then",
+      0.31,
+      0.39
+     ],
+     [
+      "the",
+      0.43,
+      0.47
+     ],
+     [
+      "small",
+      0.55,
+      0.87
+     ],
+     [
+      "light",
+      0.95,
+      1.11
+     ],
+     [
+      "under",
+      1.19,
+      1.35
+     ],
+     [
+      "your",
+      1.43,
+      1.51
+     ],
+     [
+      "mirror",
+      1.59,
+      1.83
+     ],
+     [
+      "changes",
+      1.91,
+      2.47
+     ],
+     [
+      "passenger",
+      2.87,
+      3.27
+     ],
+     [
+      "airbag",
+      3.35,
+      4.03
+     ],
+     [
+      "off",
+      4.23,
+      4.63
+     ],
+     [
+      "then",
+      5.11,
+      5.27
+     ],
+     [
+      "on",
+      5.35,
+      5.697
+     ]
+    ]
+   },
+   "sfx": [
+    {
+     "at": 5.35,
+     "name": "tick",
+     "pitch": 1.6,
+     "gain": -26
+    }
+   ]
+  },
+  {
+   "id": "SC50",
+   "start": 207.363,
+   "end": 215.58,
+   "line": "That sensor wakes for an adult's weight. Your bag weighs two pounds. It tips into the footwell. The seat beside you sinks.",
+   "scene": "ECU passenger seat (same angle as SC12).",
+   "purpose": "Visual proof of weight.",
+   "visual_change": "Cushion sinks 3 cm; the bag tips and slides into the footwell; the seatbelt buckle sways.",
+   "asset": "car-v1:ECU",
+   "in": {
+    "type": "cut"
+   },
+   "captions": true,
+   "params": {
+    "w": [
+     [
+      "that",
+      0.31,
+      0.39
+     ],
+     [
+      "sensor",
+      0.47,
+      0.79
+     ],
+     [
+      "wakes",
+      0.87,
+      1.11
+     ],
+     [
+      "for",
+      1.19,
+      1.27
+     ],
+     [
+      "an",
+      1.31,
+      1.35
+     ],
+     [
+      "adult's",
+      1.43,
+      1.83
+     ],
+     [
+      "weight",
+      1.99,
+      2.23
+     ],
+     [
+      "your",
+      2.55,
+      2.71
+     ],
+     [
+      "bag",
+      2.79,
+      3.03
+     ],
+     [
+      "weighs",
+      3.15,
+      3.35
+     ],
+     [
+      "two",
+      3.43,
+      3.51
+     ],
+     [
+      "pounds",
+      3.67,
+      4.23
+     ],
+     [
+      "it",
+      4.63,
+      4.71
+     ],
+     [
+      "tips",
+      4.79,
+      4.95
+     ],
+     [
+      "into",
+      5.03,
+      5.19
+     ],
+     [
+      "the",
+      5.23,
+      5.27
+     ],
+     [
+      "footwell",
+      5.35,
+      5.91
+     ],
+     [
+      "the",
+      6.15,
+      6.23
+     ],
+     [
+      "seat",
+      6.31,
+      6.47
+     ],
+     [
+      "beside",
+      6.59,
+      6.87
+     ],
+     [
+      "you",
+      6.95,
+      7.11
+     ],
+     [
+      "sinks",
+      7.19,
+      7.697
+     ]
+    ]
+   },
+   "sfx": [
+    {
+     "at": 4.79,
+     "name": "swish",
+     "pitch": 0.6,
+     "gain": -22,
+     "dur": 0.4
+    },
+    {
+     "at": 7.19,
+     "name": "swish",
+     "pitch": 0.35,
+     "gain": -24,
+     "dur": 0.7
+    }
+   ]
+  },
+  {
+   "id": "SC51",
+   "start": 215.58,
+   "end": 219.49,
+   "line": "The console lid is still shut. Your coffee hasn't spilled.",
+   "scene": "ECU centre console: closed armrest lid, coffee cup in the holder.",
+   "purpose": "Proof it did not climb over.",
+   "visual_change": "Coffee surface still; lid shut.",
+   "asset": "car-v1:ECU",
+   "in": {
+    "type": "cut"
+   },
+   "captions": true,
+   "params": {
+    "w": [
+     [
+      "the",
+      0.31,
+      0.35
+     ],
+     [
+      "console",
+      0.43,
+      0.75
+     ],
+     [
+      "lid",
+      0.83,
+      0.99
+     ],
+     [
+      "is",
+      1.07,
+      1.15
+     ],
+     [
+      "still",
+      1.27,
+      1.39
+     ],
+     [
+      "shut",
+      1.55,
+      1.87
+     ],
+     [
+      "your",
+      2.11,
+      2.27
+     ],
+     [
+      "coffee",
+      2.35,
+      2.59
+     ],
+     [
+      "hasn't",
+      2.67,
+      2.87
+     ],
+     [
+      "spilled",
+      2.91,
+      3.39
+     ]
+    ]
+   },
+   "sfx": []
+  },
+  {
+   "id": "SC52",
+   "start": 219.49,
+   "end": 221.28,
+   "line": "Nothing climbed over.",
+   "scene": "Close-up YOU, eyes flick right 10° and back.",
+   "purpose": "Reaction.",
+   "visual_change": "—",
+   "asset": "car-v1:CU",
+   "in": {
+    "type": "cut"
+   },
+   "captions": true,
+   "params": {
+    "w": [
+     [
+      "nothing",
+      0.31,
+      0.47
+     ],
+     [
+      "climbed",
+      0.55,
+      0.79
+     ],
+     [
+      "over",
+      0.87,
+      1.27
+     ]
+    ]
+   },
+   "sfx": []
+  },
+  {
+   "id": "SC53",
+   "start": 221.28,
+   "end": 227.83,
+   "line": "You'll want to reach right. Push the bag back. Feel the seat. Don't. Both hands on the wheel.",
+   "scene": "Medium from the windshield: YOU and the passenger seat side by side.",
+   "purpose": "Micro-habit stopped.",
+   "visual_change": "Passenger seat dented, empty-looking.",
+   "asset": "car-v1:M",
+   "in": {
+    "type": "cut"
+   },
+   "captions": true,
+   "params": {
+    "w": [
+     [
+      "you'll",
+      0.31,
+      0.43
+     ],
+     [
+      "want",
+      0.51,
+      0.59
+     ],
+     [
+      "to",
+      0.67,
+      0.71
+     ],
+     [
+      "reach",
+      0.75,
+      0.99
+     ],
+     [
+      "right",
+      1.07,
+      1.47
+     ],
+     [
+      "push",
+      1.71,
+      1.87
+     ],
+     [
+      "the",
+      1.95,
+      2.03
+     ],
+     [
+      "bag",
+      2.15,
+      2.27
+     ],
+     [
+      "back",
+      2.35,
+      2.83
+     ],
+     [
+      "feel",
+      2.99,
+      3.15
+     ],
+     [
+      "the",
+      3.23,
+      3.31
+     ],
+     [
+      "seat",
+      3.39,
+      3.71
+     ],
+     [
+      "don't",
+      4.19,
+      4.59
+     ],
+     [
+      "both",
+      4.99,
+      5.15
+     ],
+     [
+      "hands",
+      5.23,
+      5.47
+     ],
+     [
+      "on",
+      5.51,
+      5.55
+     ],
+     [
+      "the",
+      5.63,
+      5.67
+     ],
+     [
+      "wheel",
+      5.71,
+      6.03
+     ]
+    ]
+   },
+   "sfx": [
+    {
+     "at": 4.19,
+     "name": "swish",
+     "pitch": 0.35,
+     "gain": -28,
+     "dur": 0.5
+    }
+   ]
+  },
+  {
+   "id": "SC54",
+   "start": 227.83,
+   "end": 232.726,
+   "line": "The rear-left light goes out. Behind you, the door clicks shut.",
+   "scene": "ECU DASH door diagram, centred on the rear-left panel.",
+   "purpose": "The door warning ends: nothing is holding that door any more.",
+   "visual_change": "Car crosses a road seam; nothing is holding the door now, so it swings in and latches. RL goes dark 0.5 s before the line.",
+   "asset": "car-v1:ECU",
+   "in": {
+    "type": "cut"
+   },
+   "captions": true,
+   "params": {
+    "w": [
+     [
+      "the",
+      0.76,
+      0.776
+     ],
+     [
+      "rearleft",
+      0.856,
+      1.336
+     ],
+     [
+      "light",
+      1.416,
+      1.576
+     ],
+     [
+      "goes",
+      1.656,
+      1.816
+     ],
+     [
+      "out",
+      1.896,
+      2.216
+     ],
+     [
+      "behind",
+      2.536,
+      2.856
+     ],
+     [
+      "you",
+      2.936,
+      3.256
+     ],
+     [
+      "the",
+      3.296,
+      3.336
+     ],
+     [
+      "door",
+      3.416,
+      3.576
+     ],
+     [
+      "clicks",
+      3.656,
+      3.936
+     ],
+     [
+      "shut",
+      3.976,
+      4.376
+     ]
+    ]
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "tick",
+     "pitch": 0.6,
+     "gain": -14
+    }
+   ]
+  },
+  {
+   "id": "SC55",
+   "start": 232.726,
+   "end": 238.756,
+   "line": "It's on your side of the car now. Leaning on the passenger door. That's all the sensor feels.",
+   "scene": "Close-up YOU in profile; the passenger window behind, dark and empty.",
+   "purpose": "The narrator's last cover story; the viewer has already seen the dent inside.",
+   "visual_change": "Passenger window exterior: nothing.",
+   "asset": "car-v1:CU",
+   "in": {
+    "type": "cut"
+   },
+   "captions": true,
+   "params": {
+    "w": [
+     [
+      "it's",
+      0.31,
+      0.43
+     ],
+     [
+      "on",
+      0.51,
+      0.59
+     ],
+     [
+      "your",
+      0.67,
+      0.83
+     ],
+     [
+      "side",
+      0.91,
+      1.07
+     ],
+     [
+      "of",
+      1.11,
+      1.15
+     ],
+     [
+      "the",
+      1.19,
+      1.23
+     ],
+     [
+      "car",
+      1.31,
+      1.47
+     ],
+     [
+      "now",
+      1.55,
+      1.87
+     ],
+     [
+      "leaning",
+      2.19,
+      2.43
+     ],
+     [
+      "on",
+      2.47,
+      2.51
+     ],
+     [
+      "the",
+      2.59,
+      2.63
+     ],
+     [
+      "passenger",
+      2.67,
+      3.15
+     ],
+     [
+      "door",
+      3.27,
+      3.55
+     ],
+     [
+      "that's",
+      3.87,
+      4.11
+     ],
+     [
+      "all",
+      4.19,
+      4.27
+     ],
+     [
+      "the",
+      4.35,
+      4.43
+     ],
+     [
+      "sensor",
+      4.59,
+      4.75
+     ],
+     [
+      "feels",
+      4.83,
+      5.31
+     ]
+    ]
+   },
+   "sfx": []
+  },
+  {
+   "id": "SC56",
+   "start": 238.756,
+   "end": 243.266,
+   "line": "Rule seven. Close the garage before you open your door.",
+   "scene": "Rule card over the dimmed house front.",
+   "purpose": "Rule 7.",
+   "visual_change": "—",
+   "asset": "car-v1:CARD",
+   "in": {
+    "type": "cut"
+   },
+   "captions": true,
+   "params": {
+    "w": [
+     [
+      "rule",
+      0.31,
+      0.55
+     ],
+     [
+      "seven",
+      0.63,
+      1.11
+     ],
+     [
+      "close",
+      1.59,
+      1.83
+     ],
+     [
+      "the",
+      1.91,
+      1.95
+     ],
+     [
+      "garage",
+      1.99,
+      2.39
+     ],
+     [
+      "before",
+      2.47,
+      2.87
+     ],
+     [
+      "you",
+      2.95,
+      3.03
+     ],
+     [
+      "open",
+      3.11,
+      3.35
+     ],
+     [
+      "your",
+      3.43,
+      3.51
+     ],
+     [
+      "door",
+      3.59,
+      3.99
+     ]
+    ]
+   },
+   "sfx": []
+  },
+  {
+   "id": "SC57",
+   "start": 243.266,
+   "end": 245.883,
+   "line": "Birch Lane. Forty-one.",
+   "scene": "Wide exterior: house 41 with an attached garage and a porch light.",
+   "purpose": "Home.",
+   "visual_change": "Porch light on.",
+   "asset": "car-v1:W",
+   "in": {
+    "type": "cut"
+   },
+   "captions": true,
+   "params": {
+    "w": [
+     [
+      "birch",
+      0.31,
+      0.55
+     ],
+     [
+      "lane",
+      0.63,
+      1.23
+     ],
+     [
+      "fortyone",
+      1.43,
+      2.097
+     ]
+    ]
+   },
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "tick",
+     "pitch": 1.0,
+     "gain": -24
+    },
+    {
+     "at": 0.9,
+     "name": "tick",
+     "pitch": 1.0,
+     "gain": -24
+    }
+   ]
+  },
+  {
+   "id": "SC58",
+   "start": 245.883,
+   "end": 253.98,
+   "line": "You'll want to stop in the driveway. Run for the front door. Everyone does. Don't. Out there, every door is a way in.",
+   "scene": "Close-up YOU looking left at the porch.",
+   "purpose": "Micro-habit: the dash for the front door.",
+   "visual_change": "—",
+   "asset": "car-v1:CU",
+   "in": {
+    "type": "cut"
+   },
+   "captions": true,
+   "params": {
+    "w": [
+     [
+      "you'll",
+      0.31,
+      0.43
+     ],
+     [
+      "want",
+      0.51,
+      0.59
+     ],
+     [
+      "to",
+      0.63,
+      0.67
+     ],
+     [
+      "stop",
+      0.75,
+      0.99
+     ],
+     [
+      "in",
+      1.03,
+      1.07
+     ],
+     [
+      "the",
+      1.15,
+      1.19
+     ],
+     [
+      "driveway",
+      1.23,
+      1.95
+     ],
+     [
+      "run",
+      2.11,
+      2.27
+     ],
+     [
+      "for",
+      2.35,
+      2.43
+     ],
+     [
+      "the",
+      2.47,
+      2.51
+     ],
+     [
+      "front",
+      2.59,
+      2.75
+     ],
+     [
+      "door",
+      2.83,
+      3.15
+     ],
+     [
+      "everyone",
+      3.47,
+      3.79
+     ],
+     [
+      "does",
+      3.87,
+      4.27
+     ],
+     [
+      "don't",
+      4.67,
+      5.07
+     ],
+     [
+      "out",
+      5.47,
+      5.63
+     ],
+     [
+      "there",
+      5.71,
+      6.19
+     ],
+     [
+      "every",
+      6.27,
+      6.51
+     ],
+     [
+      "door",
+      6.59,
+      6.75
+     ],
+     [
+      "is",
+      6.83,
+      6.91
+     ],
+     [
+      "a",
+      6.95,
+      6.99
+     ],
+     [
+      "way",
+      7.11,
+      7.23
+     ],
+     [
+      "in",
+      7.31,
+      7.577
+     ]
+    ]
+   },
+   "sfx": []
+  },
+  {
+   "id": "SC59",
+   "start": 253.98,
+   "end": 256.08,
+   "line": "Pull into the garage.",
+   "scene": "Wide exterior: the car drives into the open garage.",
+   "purpose": "Enter the trap.",
+   "visual_change": "Garage opener bulb on.",
+   "asset": "car-v1:W",
+   "in": {
+    "type": "cut"
+   },
+   "captions": true,
+   "params": {
+    "w": [
+     [
+      "pull",
+      0.31,
+      0.47
+     ],
+     [
+      "into",
+      0.59,
+      0.71
+     ],
+     [
+      "the",
+      0.75,
+      0.79
+     ],
+     [
+      "garage",
+      0.87,
+      1.377
+     ]
+    ]
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "swish",
+     "pitch": 0.4,
+     "gain": -24,
+     "dur": 0.9
+    }
+   ]
+  },
+  {
+   "id": "SC60",
+   "start": 256.08,
+   "end": 258.31,
+   "line": "Press the remote on your visor.",
+   "scene": "ECU visor remote button.",
+   "purpose": "Seal.",
+   "visual_change": "Remote LED blinks red.",
+   "asset": "car-v1:ECU",
+   "in": {
+    "type": "cut"
+   },
+   "captions": true,
+   "params": {
+    "w": [
+     [
+      "press",
+      0.31,
+      0.43
+     ],
+     [
+      "the",
+      0.47,
+      0.51
+     ],
+     [
+      "remote",
+      0.71,
+      0.91
+     ],
+     [
+      "on",
+      0.99,
+      1.03
+     ],
+     [
+      "your",
+      1.07,
+      1.15
+     ],
+     [
+      "visor",
+      1.23,
+      1.71
+     ]
+    ]
+   },
+   "sfx": [
+    {
+     "at": 0.31,
+     "name": "tick",
+     "pitch": 0.9,
+     "gain": -18
+    },
+    {
+     "at": 1.23,
+     "name": "hum",
+     "gain": -28,
+     "dur": 3.0
+    }
+   ]
+  },
+  {
+   "id": "SC61",
+   "start": 258.31,
+   "end": 261.18,
+   "line": "Watch the door come down in your side mirror.",
+   "scene": "ECU driver's side mirror showing the garage door descending.",
+   "purpose": "Watch the seal close.",
+   "visual_change": "Door panels descend in the mirror glass.",
+   "asset": "car-v1:ECU",
+   "in": {
+    "type": "cut"
+   },
+   "captions": true,
+   "params": {
+    "w": [
+     [
+      "watch",
+      0.31,
+      0.43
+     ],
+     [
+      "the",
+      0.51,
+      0.59
+     ],
+     [
+      "door",
+      0.71,
+      0.83
+     ],
+     [
+      "come",
+      0.91,
+      1.07
+     ],
+     [
+      "down",
+      1.15,
+      1.31
+     ],
+     [
+      "in",
+      1.39,
+      1.47
+     ],
+     [
+      "your",
+      1.55,
+      1.63
+     ],
+     [
+      "side",
+      1.71,
+      1.87
+     ],
+     [
+      "mirror",
+      1.95,
+      2.35
+     ]
+    ]
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "hum",
+     "gain": -28,
+     "dur": 2.5
+    }
+   ]
+  },
+  {
+   "id": "SC62",
+   "start": 261.18,
+   "end": 265.89,
+   "line": "The streetlight shrinks to a line under it. Then nothing. Sealed.",
+   "scene": "Wide interior garage side view: car, garage door, floor.",
+   "purpose": "The sealed space.",
+   "visual_change": "Door reaches the floor; the streetlight wedge on the concrete narrows to a line, then disappears.",
+   "asset": "car-v1:W",
+   "in": {
+    "type": "cut"
+   },
+   "captions": true,
+   "params": {
+    "w": [
+     [
+      "the",
+      0.31,
+      0.35
+     ],
+     [
+      "streetlight",
+      0.43,
+      0.91
+     ],
+     [
+      "shrinks",
+      0.99,
+      1.31
+     ],
+     [
+      "to",
+      1.39,
+      1.47
+     ],
+     [
+      "a",
+      1.51,
+      1.55
+     ],
+     [
+      "line",
+      1.63,
+      1.87
+     ],
+     [
+      "under",
+      1.99,
+      2.11
+     ],
+     [
+      "it",
+      2.19,
+      2.59
+     ],
+     [
+      "then",
+      2.67,
+      2.75
+     ],
+     [
+      "nothing",
+      2.83,
+      3.31
+     ],
+     [
+      "sealed",
+      3.71,
+      4.19
+     ]
+    ]
+   },
+   "sfx": [
+    {
+     "at": 2.83,
+     "name": "impact",
+     "pitch": 0.6,
+     "gain": -18,
+     "dur": 1.2
+    }
+   ]
+  },
+  {
+   "id": "SC63",
+   "start": 265.89,
+   "end": 269.68,
+   "line": "Now you can shift into park. Every door unlocks.",
+   "scene": "ECU gear selector (as in SC32), now moving.",
+   "purpose": "Payoff of Rule 4: the rules only cared until the garage was sealed.",
+   "visual_change": "DASH padlock glyph opens.",
+   "asset": "car-v1:ECU",
+   "in": {
+    "type": "cut"
+   },
+   "captions": true,
+   "params": {
+    "w": [
+     [
+      "now",
+      0.31,
+      0.47
+     ],
+     [
+      "you",
+      0.55,
+      0.63
+     ],
+     [
+      "can",
+      0.71,
+      0.79
+     ],
+     [
+      "shift",
+      0.87,
+      1.03
+     ],
+     [
+      "into",
+      1.11,
+      1.27
+     ],
+     [
+      "park",
+      1.35,
+      1.75
+     ],
+     [
+      "every",
+      2.07,
+      2.31
+     ],
+     [
+      "door",
+      2.39,
+      2.55
+     ],
+     [
+      "unlocks",
+      2.63,
+      3.27
+     ]
+    ]
+   },
+   "sfx": [
+    {
+     "at": 2.63,
+     "name": "tick",
+     "pitch": 0.8,
+     "gain": -18
+    },
+    {
+     "at": 2.75,
+     "name": "tick",
+     "pitch": 0.8,
+     "gain": -18
+    },
+    {
+     "at": 2.87,
+     "name": "tick",
+     "pitch": 0.8,
+     "gain": -18
+    },
+    {
+     "at": 2.99,
+     "name": "tick",
+     "pitch": 0.8,
+     "gain": -18
+    }
+   ]
+  },
+  {
+   "id": "SC64",
+   "start": 269.68,
+   "end": 271.43,
+   "line": "Engine off.",
+   "scene": "ECU start button; YOU's finger presses it.",
+   "purpose": "Stop.",
+   "visual_change": "DASH dims to accessory mode; the PAB lamp stays lit.",
+   "asset": "car-v1:ECU",
+   "in": {
+    "type": "cut"
+   },
+   "captions": true,
+   "params": {
+    "w": [
+     [
+      "engine",
+      0.31,
+      0.51
+     ],
+     [
+      "off",
+      0.67,
+      1.23
+     ]
+    ]
+   },
+   "sfx": [
+    {
+     "at": 0.67,
+     "name": "tick",
+     "pitch": 0.7,
+     "gain": -18
+    }
+   ]
+  },
+  {
+   "id": "SC65",
+   "start": 271.43,
+   "end": 274.42,
+   "line": "Here's what the dashboard never told you.",
+   "scene": "ECU dimmed DASH; the door diagram all dark.",
+   "purpose": "Turn to the reveal.",
+   "visual_change": "—",
+   "asset": "car-v1:ECU",
+   "in": {
+    "type": "cut"
+   },
+   "captions": true,
+   "params": {
+    "w": [
+     [
+      "here's",
+      0.31,
+      0.55
+     ],
+     [
+      "what",
+      0.63,
+      0.71
+     ],
+     [
+      "the",
+      0.75,
+      0.79
+     ],
+     [
+      "dashboard",
+      0.87,
+      1.43
+     ],
+     [
+      "never",
+      1.59,
+      1.83
+     ],
+     [
+      "told",
+      1.91,
+      2.15
+     ],
+     [
+      "you",
+      2.23,
+      2.47
+     ]
+    ]
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "tick",
+     "pitch": 0.5,
+     "gain": -32
+    },
+    {
+     "at": 1.1,
+     "name": "tick",
+     "pitch": 0.5,
+     "gain": -32
+    },
+    {
+     "at": 2.3,
+     "name": "tick",
+     "pitch": 0.5,
+     "gain": -32
+    }
+   ]
+  },
+  {
+   "id": "SC66",
+   "start": 274.42,
+   "end": 278.04,
+   "line": "The door light only wakes above five miles an hour.",
+   "scene": "ECU speedometer low arc (0–10 mph only), labelled; a new, tighter framing than SC01.",
+   "purpose": "Reveal 1: the 5 mph trigger seen in SC01.",
+   "visual_change": "Needle creeps 0→4 with RL dark; at 5 it lights.",
+   "asset": "car-v1:ECU",
+   "in": {
+    "type": "fade",
+    "dur": 0.4
+   },
+   "captions": true,
+   "params": {
+    "w": [
+     [
+      "the",
+      0.46,
+      0.5
+     ],
+     [
+      "door",
+      0.54,
+      0.7
+     ],
+     [
+      "light",
+      0.78,
+      1.02
+     ],
+     [
+      "only",
+      1.1,
+      1.34
+     ],
+     [
+      "wakes",
+      1.42,
+      1.66
+     ],
+     [
+      "above",
+      1.82,
+      1.98
+     ],
+     [
+      "five",
+      2.06,
+      2.22
+     ],
+     [
+      "miles",
+      2.3,
+      2.54
+     ],
+     [
+      "an",
+      2.62,
+      2.7
+     ],
+     [
+      "hour",
+      2.86,
+      3.1
+     ]
+    ]
+   },
+   "sfx": [
+    {
+     "at": 2.06,
+     "name": "ding",
+     "pitch": 1.6,
+     "gain": -30,
+     "dur": 1.0
+    }
+   ]
+  },
+  {
+   "id": "SC67",
+   "start": 278.04,
+   "end": 282.96,
+   "line": "The door was open before you started the car. It opened while you paid.",
+   "scene": "Wide from inside the shop (as SC10), desaturated, but the camera now looks past YOU at the car.",
+   "purpose": "Reveal 2: the door, the thunk and the dome light.",
+   "visual_change": "Outside: the car's dome light on; the rear-left door swings nearly shut and stops 1 cm short.",
+   "asset": "car-v1:W",
+   "in": {
+    "type": "fade",
+    "dur": 0.4
+   },
+   "captions": true,
+   "params": {
+    "w": [
+     [
+      "the",
+      0.56,
+      0.64
+     ],
+     [
+      "door",
+      0.72,
+      0.8
+     ],
+     [
+      "was",
+      0.88,
+      1.04
+     ],
+     [
+      "open",
+      1.12,
+      1.36
+     ],
+     [
+      "before",
+      1.44,
+      1.76
+     ],
+     [
+      "you",
+      1.84,
+      1.92
+     ],
+     [
+      "started",
+      2.0,
+      2.24
+     ],
+     [
+      "the",
+      2.28,
+      2.32
+     ],
+     [
+      "car",
+      2.4,
+      2.92
+     ],
+     [
+      "it",
+      3.12,
+      3.2
+     ],
+     [
+      "opened",
+      3.28,
+      3.6
+     ],
+     [
+      "while",
+      3.68,
+      3.76
+     ],
+     [
+      "you",
+      3.84,
+      3.92
+     ],
+     [
+      "paid",
+      4.0,
+      4.4
+     ]
+    ]
+   },
+   "sfx": [
+    {
+     "at": 4.0,
+     "name": "impact",
+     "pitch": 0.45,
+     "gain": -24,
+     "dur": 0.6
+    }
+   ]
+  },
+  {
+   "id": "SC68",
+   "start": 282.96,
+   "end": 286.66,
+   "line": "You pressed Lock All. You locked it in with you.",
+   "scene": "ECU Lock All button (as SC07), desaturated, with the rear-left lock pin in focus behind it.",
+   "purpose": "Reveal 3: complicity.",
+   "visual_change": "Glyph lights green; behind it, the rear-left pin drops while the door edge stays open.",
+   "asset": "car-v1:ECU",
+   "in": {
+    "type": "fade",
+    "dur": 0.4
+   },
+   "captions": true,
+   "params": {
+    "w": [
+     [
+      "you",
+      0.46,
+      0.54
+     ],
+     [
+      "pressed",
+      0.62,
+      0.86
+     ],
+     [
+      "lock",
+      0.94,
+      1.18
+     ],
+     [
+      "all",
+      1.26,
+      1.66
+     ],
+     [
+      "you",
+      2.06,
+      2.14
+     ],
+     [
+      "locked",
+      2.22,
+      2.38
+     ],
+     [
+      "it",
+      2.46,
+      2.54
+     ],
+     [
+      "in",
+      2.62,
+      2.7
+     ],
+     [
+      "with",
+      2.78,
+      2.86
+     ],
+     [
+      "you",
+      2.94,
+      3.18
+     ]
+    ]
+   },
+   "sfx": [
+    {
+     "at": 0.94,
+     "name": "tick",
+     "pitch": 0.7,
+     "gain": -20
+    },
+    {
+     "at": 1.14,
+     "name": "tick",
+     "pitch": 0.7,
+     "gain": -21
+    },
+    {
+     "at": 1.34,
+     "name": "tick",
+     "pitch": 0.7,
+     "gain": -22
+    },
+    {
+     "at": 1.54,
+     "name": "tick",
+     "pitch": 0.7,
+     "gain": -30
+    }
+   ]
+  },
+  {
+   "id": "SC69",
+   "start": 286.66,
+   "end": 294.354,
+   "line": "Every rule kept the car moving. Every rule kept it sealed. All the way home. Into a closed garage.",
+   "scene": "Wide interior garage (as SC62), back in the present.",
+   "purpose": "The pattern of the rules.",
+   "visual_change": "The opener bulb switches off (timer).",
+   "asset": "car-v1:W",
+   "in": {
+    "type": "fade",
+    "dur": 0.4
+   },
+   "captions": true,
+   "params": {
+    "w": [
+     [
+      "every",
+      0.31,
+      0.374
+     ],
+     [
+      "rule",
+      0.534,
+      0.694
+     ],
+     [
+      "kept",
+      0.774,
+      0.934
+     ],
+     [
+      "the",
+      1.014,
+      1.054
+     ],
+     [
+      "car",
+      1.094,
+      1.334
+     ],
+     [
+      "moving",
+      1.414,
+      1.894
+     ],
+     [
+      "every",
+      2.374,
+      2.614
+     ],
+     [
+      "rule",
+      2.774,
+      3.014
+     ],
+     [
+      "kept",
+      3.094,
+      3.254
+     ],
+     [
+      "it",
+      3.334,
+      3.414
+     ],
+     [
+      "sealed",
+      3.574,
+      4.054
+     ],
+     [
+      "all",
+      4.454,
+      4.614
+     ],
+     [
+      "the",
+      4.694,
+      4.734
+     ],
+     [
+      "way",
+      4.774,
+      4.934
+     ],
+     [
+      "home",
+      5.014,
+      5.414
+     ],
+     [
+      "into",
+      5.814,
+      5.974
+     ],
+     [
+      "a",
+      6.054,
+      6.134
+     ],
+     [
+      "closed",
+      6.214,
+      6.454
+     ],
+     [
+      "garage",
+      6.534,
+      7.174
+     ]
+    ]
+   },
+   "sfx": [
+    {
+     "at": 6.534,
+     "name": "tick",
+     "pitch": 1.2,
+     "gain": -24
+    }
+   ]
+  },
+  {
+   "id": "SC70",
+   "start": 294.354,
+   "end": 298.824,
+   "line": "One instruction could have saved you. You were told to disregard it.",
+   "scene": "ECU MEDIA screen, dark, with a faint burned-in ghost of 'Unknown device'.",
+   "purpose": "Recontextualise the breach.",
+   "visual_change": "The ghost text fades.",
+   "asset": "car-v1:ECU",
+   "in": {
+    "type": "cut"
+   },
+   "captions": true,
+   "params": {
+    "w": [
+     [
+      "one",
+      0.31,
+      0.39
+     ],
+     [
+      "instruction",
+      0.47,
+      1.03
+     ],
+     [
+      "could",
+      1.11,
+      1.19
+     ],
+     [
+      "have",
+      1.27,
+      1.35
+     ],
+     [
+      "saved",
+      1.43,
+      1.67
+     ],
+     [
+      "you",
+      1.75,
+      1.99
+     ],
+     [
+      "you",
+      2.39,
+      2.47
+     ],
+     [
+      "were",
+      2.55,
+      2.63
+     ],
+     [
+      "told",
+      2.67,
+      2.87
+     ],
+     [
+      "to",
+      2.95,
+      2.99
+     ],
+     [
+      "disregard",
+      3.03,
+      3.51
+     ],
+     [
+      "it",
+      3.59,
+      3.95
+     ]
+    ]
+   },
+   "sfx": []
+  },
+  {
+   "id": "SC71",
+   "start": 298.824,
+   "end": 303.79,
+   "line": "The dome light comes on by itself. Now you can see the seat beside you.",
+   "scene": "Medium interior: YOU and the passenger seat from the windshield (as SC53).",
+   "purpose": "Physical light reveals the dent.",
+   "visual_change": "Dome light fades up warm; the passenger cushion is deeply dented; the bag lies in the footwell.",
+   "asset": "car-v1:M",
+   "in": {
+    "type": "cut"
+   },
+   "captions": true,
+   "params": {
+    "w": [
+     [
+      "the",
+      0.31,
+      0.326
+     ],
+     [
+      "dome",
+      0.406,
+      0.566
+     ],
+     [
+      "light",
+      0.646,
+      0.806
+     ],
+     [
+      "comes",
+      0.886,
+      1.046
+     ],
+     [
+      "on",
+      1.126,
+      1.286
+     ],
+     [
+      "by",
+      1.366,
+      1.446
+     ],
+     [
+      "itself",
+      1.566,
+      2.166
+     ],
+     [
+      "now",
+      2.566,
+      2.726
+     ],
+     [
+      "you",
+      2.806,
+      2.886
+     ],
+     [
+      "can",
+      2.966,
+      3.046
+     ],
+     [
+      "see",
+      3.126,
+      3.206
+     ],
+     [
+      "the",
+      3.286,
+      3.366
+     ],
+     [
+      "seat",
+      3.486,
+      3.606
+     ],
+     [
+      "beside",
+      3.726,
+      4.006
+     ],
+     [
+      "you",
+      4.086,
+      4.446
+     ]
+    ]
+   },
+   "sfx": [
+    {
+     "at": 0.05,
+     "name": "tick",
+     "pitch": 1.4,
+     "gain": -24
+    }
+   ]
+  },
+  {
+   "id": "SC72",
+   "start": 303.79,
+   "end": 309.156,
+   "line": "The belt pulls out. Slowly. Across nothing. Click.",
+   "scene": "ECU passenger seat belt and buckle.",
+   "purpose": "The final deliberate action.",
+   "visual_change": "Webbing pays out 40 cm across the empty seat and latches; the passenger-belt glyph goes dark.",
+   "asset": "car-v1:ECU",
+   "in": {
+    "type": "cut"
+   },
+   "captions": true,
+   "params": {
+    "w": [
+     [
+      "the",
+      0.31,
+      0.326
+     ],
+     [
+      "belt",
+      0.406,
+      0.646
+     ],
+     [
+      "pulls",
+      0.726,
+      1.006
+     ],
+     [
+      "out",
+      1.046,
+      1.446
+     ],
+     [
+      "slowly",
+      1.846,
+      2.566
+     ],
+     [
+      "across",
+      2.726,
+      3.126
+     ],
+     [
+      "nothing",
+      3.286,
+      3.766
+     ],
+     [
+      "click",
+      4.246,
+      4.846
+     ]
+    ]
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "tick",
+     "pitch": 1.8,
+     "gain": -28
+    },
+    {
+     "at": 0.45,
+     "name": "tick",
+     "pitch": 1.8,
+     "gain": -28
+    },
+    {
+     "at": 0.6,
+     "name": "tick",
+     "pitch": 1.8,
+     "gain": -28
+    },
+    {
+     "at": 0.75,
+     "name": "tick",
+     "pitch": 1.8,
+     "gain": -28
+    },
+    {
+     "at": 0.9,
+     "name": "tick",
+     "pitch": 1.8,
+     "gain": -28
+    },
+    {
+     "at": 1.05,
+     "name": "tick",
+     "pitch": 1.8,
+     "gain": -28
+    },
+    {
+     "at": 4.246,
+     "name": "tick",
+     "pitch": 0.7,
+     "gain": -14
+    }
+   ]
+  },
+  {
+   "id": "SC73",
+   "start": 309.156,
+   "end": 311.282,
+   "line": "It isn't going anywhere.",
+   "scene": "Close-up YOU under the dome light.",
+   "purpose": "Reaction.",
+   "visual_change": "—",
+   "asset": "car-v1:CU",
+   "in": {
+    "type": "cut"
+   },
+   "captions": true,
+   "params": {
+    "w": [
+     [
+      "it",
+      0.31,
+      0.326
+     ],
+     [
+      "isn't",
+      0.406,
+      0.606
+     ],
+     [
+      "going",
+      0.646,
+      0.886
+     ],
+     [
+      "anywhere",
+      1.046,
+      1.606
+     ]
+    ]
+   },
+   "sfx": []
+  },
+  {
+   "id": "SC74",
+   "start": 311.282,
+   "end": 320.408,
+   "line": "Tomorrow, your dashboard will be clear. Every door shut. Passenger airbag, on.",
+   "scene": "ECU DASH, same framing as SC01.",
+   "purpose": "Reinterpreting final image: the mirror of SC01.",
+   "visual_change": "Dome light fades out; every door segment dark; the PAB lamp glows 'Passenger airbag ON' at the top edge.",
+   "asset": "car-v1:ECU",
+   "in": {
+    "type": "cut"
+   },
+   "captions": true,
+   "params": {
+    "w": [
+     [
+      "tomorrow",
+      0.31,
+      0.646
+     ],
+     [
+      "your",
+      0.726,
+      0.806
+     ],
+     [
+      "dashboard",
+      0.886,
+      1.286
+     ],
+     [
+      "will",
+      1.366,
+      1.446
+     ],
+     [
+      "be",
+      1.526,
+      1.606
+     ],
+     [
+      "clear",
+      1.686,
+      2.086
+     ],
+     [
+      "every",
+      2.486,
+      2.726
+     ],
+     [
+      "door",
+      2.806,
+      2.966
+     ],
+     [
+      "shut",
+      3.126,
+      3.446
+     ],
+     [
+      "passenger",
+      3.766,
+      4.246
+     ],
+     [
+      "airbag",
+      4.326,
+      4.806
+     ],
+     [
+      "on",
+      5.046,
+      5.606
+     ]
+    ]
+   },
+   "sfx": []
   }
  ],
  "music": [
   {
    "start": 0,
-   "end": 11.75,
+   "end": 38.594,
    "mood": "dread",
    "intensity": 0.3
   },
   {
-   "start": 11.75,
-   "end": 19.6,
+   "start": 38.594,
+   "end": 59.97,
    "mood": "unease",
-   "intensity": 0.24
+   "intensity": 0.22
+  },
+  {
+   "start": 59.97,
+   "end": 157.077,
+   "mood": "dread",
+   "intensity": 0.32
+  },
+  {
+   "start": 157.077,
+   "end": 193.589,
+   "mood": "unease",
+   "intensity": 0.26
+  },
+  {
+   "start": 193.589,
+   "end": 238.756,
+   "mood": "dread",
+   "intensity": 0.42
+  },
+  {
+   "start": 238.756,
+   "end": 271.43,
+   "mood": "unease",
+   "intensity": 0.3
+  },
+  {
+   "start": 271.43,
+   "end": 320.408,
+   "mood": "void",
+   "intensity": 0.34
   }
  ],
  "sfx": [
   {
    "t": 0.0,
-   "name": "input/road_bed.wav",
-   "gain": -5
+   "name": "input/ambience.wav",
+   "gain": 4
   },
   {
    "t": 0.0,

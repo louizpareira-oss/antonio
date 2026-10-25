@@ -36,20 +36,20 @@ Blocks: 1 hook · 2 setup · 3 what the rules cover (no spoilers) · 4 title lin
 analog horror, animated horror, horror stories, rules horror, car horror, night driving horror, Wrong Knock
 ```
 
-## Chapters (add only after re-timing)
+## Chapters (paste at the end of the description)
 
-These times are **provisional** (from the word-count estimate, not a recording). Re-time them against the final narration before pasting; YouTube needs the first one at 0:00 and at least three chapters of 10 s or more.
+Times come from the final cut (`timeline/scene_times.json`), rounded down to the second.
 
 ```
 0:00 The light behind you
-0:33 Pump six
-0:49 Rule 2: Above twenty
-1:20 Rule 3: The dome light
-1:42 Rule 4: The red light
-2:09 Rule 5: The mirror
-2:39 Rule 6: Passenger airbag
-3:19 Rule 7: The garage
-3:48 What the dashboard never told you
+0:42 Pump six
+1:00 Rule 2: Above twenty
+1:36 Rule 3: The dome light
+2:01 Rule 4: The red light
+2:37 Rule 5: The mirror
+3:13 Rule 6: Passenger airbag
+3:58 Rule 7: The garage
+4:31 What the dashboard never told you
 ```
 
 Optional: chapter titles can give away the airbag beat. If you want it hidden, rename "Rule 6: Passenger airbag" to "Rule 6: Both hands".

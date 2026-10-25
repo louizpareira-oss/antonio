@@ -43,6 +43,9 @@ function lightFill(g,bx,by,bw,bh,L){
     gr.addColorStop(0,alpha(K.sodium,0));gr.addColorStop(.5,alpha(K.sodium,(L.sodiumA??.3)*s.k));gr.addColorStop(1,alpha(K.sodium,0));g.fillStyle=gr;g.fillRect(bx,by,bw,bh);}
   if(L.screen&&L.screen.k>0){const s=L.screen,gr=g.createRadialGradient(s.x,s.y,0,s.x,s.y,s.r||bw*1.5);
     gr.addColorStop(0,alpha(K.screen,Math.min(.34,.3*s.k)));gr.addColorStop(1,alpha(K.screen,0));g.fillStyle=gr;g.fillRect(bx,by,bw,bh);}
+  // Any other physical source: {x,y,r,col,k,a}.
+  for(const s of L.keys||[]){if(!(s.k>0))continue;const gr=g.createRadialGradient(s.x,s.y,0,s.x,s.y,s.r||bw*1.5);
+    gr.addColorStop(0,alpha(s.col,(s.a??.34)*s.k));gr.addColorStop(1,alpha(s.col,0));g.fillStyle=gr;g.fillRect(bx,by,bw,bh);}
 }
 // Coloured edge light on an ellipse: arc from a0 to a1 (radians, 0 = right, clockwise in canvas space).
 function edge(g,x,y,rx,ry,a0,a1,w,col){g.save();g.lineCap='round';g.strokeStyle=col;g.lineWidth=w;g.beginPath();g.ellipse(x,y,rx,ry,0,a0,a1);g.stroke();g.restore();}
@@ -51,12 +54,13 @@ function edge(g,x,y,rx,ry,a0,a1,w,col){g.save();g.lineCap='round';g.strokeStyle=
 export function head(g,{x,y,r=150,face=0,gaze=[0,0],blink=0,L={}}){
   const rx=r*.86,ry=r;
   g.save();g.beginPath();g.ellipse(x,y,rx,ry,0,0,Math.PI*2);g.fillStyle=K.head;g.fill();g.clip();
-  lightFill(g,x-rx,y-ry,rx*2,ry*2,L);g.restore();
+  lightFill(g,x-rx,y-ry,rx*2,ry*2,{...L,keys:(L.keys||[]).map(s=>({...s,a:(s.a??.34)*.4}))});g.restore();
   g.lineWidth=2.5;g.strokeStyle=K.white;g.beginPath();g.ellipse(x,y,rx,ry,0,0,Math.PI*2);g.stroke();
   if(L.under>0)edge(g,x,y,rx-1,ry-1,Math.PI*.18,Math.PI*.82,4,alpha(K.dash,.75*L.under));
   if(L.sodium&&L.sodium.k>0){const s=L.sodium,top=clamp(1-Math.abs(s.y-(y-ry*.6))/(ry*1.4));edge(g,x,y,rx-1,ry-1,Math.PI*1.12,Math.PI*1.88,5,alpha(K.sodium,.9*s.k*top));}
   if(L.screen&&L.screen.k>0){const s=L.screen,a=Math.atan2(s.y-y,s.x-x);edge(g,x,y,rx-1.5,ry-1.5,a-.85,a+.85,6,alpha(K.screen,.95*s.k));}
   if(L.back&&L.back.k>0){const a=L.back.a??Math.PI;edge(g,x,y,rx-1.5,ry-1.5,a-.7,a+.7,5,alpha(L.back.col||K.sodium,.85*L.back.k));}
+  for(const s of L.keys||[])if(s.k>0){const a=Math.atan2(s.y-y,s.x-x);edge(g,x,y,rx-1.5,ry-1.5,a-.8,a+.8,5,alpha(s.col,.9*Math.min(1,s.k)));}
   // Eye-dots: shifted toward the facing side; the far eye shrinks as the head turns.
   const cx=x+face*rx*.42+gaze[0]*rx*.12,cy=y-ry*.06+gaze[1]*ry*.1,sp=rx*.4*(1-Math.abs(face)*.5);
   const er=rx*.085,sy=Math.max(.08,1-blink);
@@ -150,12 +154,12 @@ export function screenStatic(g,x,y,w,h,T){
 
 // ---- exterior: the car in side view, facing right ----
 export const CAR={x0:520,x1:1440,ground:862,roof:560,wheelR:62,wheels:[690,1270]};
-export function carSide(g,T,{lit=0,lampX=-999,speed=1100}={}){
+export function carSide(g,T,{lit=0,lampX=-999,speed=1100,driver=true,beam=true,dome=0,top=0,topCol=K.dash,gap=0}={}){
   const {ground,roof,wheelR}=CAR,body=[[525,830],[525,722],[560,700],[612,700],[712,572],[1250,572],[1352,700],[1418,712],[1442,742],[1442,830]];
   const path=()=>{g.beginPath();g.moveTo(...body[0]);for(const p of body.slice(1))g.lineTo(...p);g.closePath();};
   // Headlight beam forward along the road.
-  g.save();g.globalCompositeOperation='lighter';const hb=g.createLinearGradient(1440,0,E.W,0);hb.addColorStop(0,alpha(K.dash,.22));hb.addColorStop(1,alpha(K.dash,0));
-  g.fillStyle=hb;g.beginPath();g.moveTo(1440,728);g.lineTo(E.W,660);g.lineTo(E.W,ground+8);g.lineTo(1440,752);g.closePath();g.fill();g.restore();
+  if(beam){g.save();g.globalCompositeOperation='lighter';const hb=g.createLinearGradient(1440,0,E.W,0);hb.addColorStop(0,alpha(K.dash,.22));hb.addColorStop(1,alpha(K.dash,0));
+  g.fillStyle=hb;g.beginPath();g.moveTo(1440,728);g.lineTo(E.W,660);g.lineTo(E.W,ground+8);g.lineTo(1440,752);g.closePath();g.fill();g.restore();}
   path();g.fillStyle=K.panel;g.fill();
   if(lit>0){g.save();path();g.clip();const gr=g.createRadialGradient(lampX,roof-160,20,lampX,roof-160,700);gr.addColorStop(0,alpha(K.sodium,.55*lit));gr.addColorStop(1,alpha(K.sodium,0));g.fillStyle=gr;g.fillRect(500,roof-20,980,320);g.restore();}
   path();g.strokeStyle=alpha(K.white,.85);g.lineWidth=4;g.lineJoin='round';g.stroke();
@@ -163,13 +167,18 @@ export function carSide(g,T,{lit=0,lampX=-999,speed=1100}={}){
   for(const w of [rearWin,frontWin]){poly(g,w,K.deep);g.strokeStyle=alpha(K.white,.6);g.lineWidth=2.5;g.beginPath();g.moveTo(...w[0]);for(const p of w.slice(1))g.lineTo(...p);g.closePath();g.stroke();}
   // Driver visible through the front window; the rear-left window stays empty.
   g.save();g.beginPath();g.moveTo(...frontWin[0]);for(const p of frontWin.slice(1))g.lineTo(...p);g.closePath();g.clip();
-  poly(g,[[1060,694],[1068,660],[1150,654],[1176,694]],K.cobalt);
+  if(driver){poly(g,[[1060,694],[1068,660],[1150,654],[1176,694]],K.cobalt);
   g.beginPath();g.ellipse(1118,628,24,28,0,0,Math.PI*2);g.fillStyle=K.head;g.fill();g.strokeStyle=K.white;g.lineWidth=2.5;g.stroke();
-  circle(g,1130,624,3,K.white);circle(g,1140,624,2.4,K.white);
+  circle(g,1130,624,3,K.white);circle(g,1140,624,2.4,K.white);}
   if(lit>0){g.fillStyle=alpha(K.sodium,.18*lit);g.fillRect(985,584,360,110);}
   g.restore();
   if(lit>0){g.save();g.beginPath();g.moveTo(...rearWin[0]);for(const p of rearWin.slice(1))g.lineTo(...p);g.closePath();g.clip();g.fillStyle=alpha(K.sodium,.12*lit);g.fillRect(620,584,350,110);g.restore();}
+  if(dome>0){for(const w of [rearWin,frontWin]){g.save();g.beginPath();g.moveTo(...w[0]);for(const p of w.slice(1))g.lineTo(...p);g.closePath();g.clip();
+    const gr=g.createRadialGradient(975,600,10,975,600,420);gr.addColorStop(0,alpha('#ffc98a',.75*dome));gr.addColorStop(1,alpha('#ffc98a',.12*dome));g.fillStyle=gr;g.fillRect(600,580,760,120);g.restore();}}
+  if(top>0){g.save();path();g.clip();const gr=g.createLinearGradient(0,roof,0,roof+200);gr.addColorStop(0,alpha(topCol,.4*top));gr.addColorStop(1,alpha(topCol,0));g.fillStyle=gr;g.fillRect(500,roof-20,980,240);g.restore();
+    seg(g,[[712,572],[1250,572]],4,alpha(topCol,.9*top));}
   seg(g,[[975,584],[975,830]],3,alpha(K.white,.55));seg(g,[[712,700],[712,830]],2.5,alpha(K.white,.4));seg(g,[[1244,700],[1258,830]],2.5,alpha(K.white,.4));
+  if(gap>0){poly(g,[[712,700],[712+gap,702],[712+gap,830],[712,830]],'#000');seg(g,[[712+gap,702],[712+gap,830]],2.5,alpha(K.white,.55));}
   seg(g,[[530,760],[1440,760]],2,alpha(K.white,.18));
   for(const hx of [880,1150]){rr(g,hx,728,44,10,5);g.fillStyle=alpha(K.white,.75);g.fill();}
   circle(g,1428,735,9,K.white);glow(g,1430,735,40,K.dash,.5);
@@ -179,4 +188,28 @@ export function carSide(g,T,{lit=0,lampX=-999,speed=1100}={}){
   for(const wx of CAR.wheels){circle(g,wx,wy,wheelR+8,K.deep);circle(g,wx,wy,wheelR,'#030405');g.strokeStyle=alpha(K.white,.8);g.lineWidth=3;g.beginPath();g.arc(wx,wy,wheelR,0,Math.PI*2);g.stroke();
     g.beginPath();g.arc(wx,wy,wheelR*.52,0,Math.PI*2);g.stroke();
     for(let k=0;k<5;k++){const a=rot+k*Math.PI*2/5;seg(g,[[wx+Math.cos(a)*wheelR*.16,wy+Math.sin(a)*wheelR*.16],[wx+Math.cos(a)*wheelR*.5,wy+Math.sin(a)*wheelR*.5]],3,alpha(K.white,.6));}}
+}
+
+// Full-body YOU (cobalt hoodie) for the forecourt and the shop. walk 0..1 strides, phase in cycles; carry: coffee and bag.
+export function figure(g,{x,y,s=1,facing=1,walk=0,phase=0,carry=false,front=false}={}){
+  g.save();g.translate(x,y);g.scale(s*facing,s);
+  const sw=Math.sin(phase*Math.PI*2)*walk,lift=Math.max(0,Math.cos(phase*Math.PI*2))*walk;
+  const hip=[0,-150],knee=d=>[d*18,-80],foot=d=>[d*38,-4];
+  for(const d of [sw,-sw]){const k=knee(d),f=foot(d);seg(g,[hip,[k[0],k[1]-(d>0?lift*8:0)],[f[0],f[1]-(d>0?lift*10:0)]],20,K.white);}
+  rr(g,-44,-292,88,150,30);g.fillStyle=K.cobalt;g.fill();g.strokeStyle=alpha(K.white,.55);g.lineWidth=2.5;g.stroke();
+  seg(g,[[-10,-280],[-12,-236]],3,alpha(K.white,.85));seg(g,[[10,-280],[12,-236]],3,alpha(K.white,.85));
+  if(carry){bag(g,34,-170,.36);seg(g,[[-30,-270],[-48,-214],[-40,-176]],18,K.white);rr(g,-54,-196,28,36,5);g.fillStyle='#d9d4c8';g.fill();seg(g,[[30,-270],[56,-230]],18,K.white);}
+  else{seg(g,[[-30,-270],[-40-sw*14,-210],[-36-sw*20,-160]],18,K.white);seg(g,[[30,-270],[40+sw*14,-210],[36+sw*20,-160]],18,K.white);}
+  g.beginPath();g.ellipse(4,-338,40,46,0,0,Math.PI*2);g.fillStyle=K.head;g.fill();g.strokeStyle=K.white;g.lineWidth=2.5/s;g.stroke();
+  if(front){circle(g,-10,-342,4.5,K.white);circle(g,18,-342,4.5,K.white);}else{circle(g,22,-342,4.5,K.white);circle(g,36,-342,3.6,K.white);}
+  g.restore();
+}
+
+// A hand pointing with the index finger: tip at (x,y); ang = direction the forearm comes from (radians).
+export function pointer(g,[x,y],ang=-2.3,s=1){
+  const dx=Math.cos(ang),dy=Math.sin(ang),px=x+dx*70*s,py=y+dy*70*s;
+  limb(g,[[px+dx*900,py+dy*900],[px+dx*60*s,py+dy*60*s]],72*s);
+  g.save();g.translate(px,py);g.rotate(ang+Math.PI);rr(g,-60*s,-48*s,110*s,96*s,40*s);g.fillStyle=K.white;g.fill();
+  seg(g,[[-20*s,-30*s],[-20*s,30*s]],3,alpha(K.head,.28));g.restore();
+  seg(g,[[px,py],[x,y]],34*s,K.white);
 }

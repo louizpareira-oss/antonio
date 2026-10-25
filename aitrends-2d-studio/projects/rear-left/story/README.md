@@ -3,7 +3,7 @@
 Files in this folder:
 - `README.md` — premise, the four upgrades, mechanism, look, reference notes, self-review (this file)
 - [`script.md`](script.md) — complete narration, word for word; lines starting with ▸ are directions, not spoken
-- [`scene_table.md`](scene_table.md) — 74 scenes in the 12 required columns, with provisional times
+- [`scene_table.md`](scene_table.md) — 74 scenes in the 12 required columns, timed from the recorded narration
 - [`description.md`](description.md) — 6-block YouTube description, title, tags, chapters, thumbnail direction
 - `stats.json` — computed word count, runtime estimate, close-up count, breach position
 - `build_package.py` — regenerates the script, table and stats from one data source and fails if a framing repeats unchanged
@@ -29,7 +29,7 @@ You pull away from pump six and a red door icon lights on your dashboard: rear l
 
 | # | Upgrade | Implemented in |
 |---|---|---|
-| 1 | **Audio hijack instead of a verbal stumble.** | SC42–SC44 (2:23–2:34, 53% in). The narrator's *own* voice suddenly comes out of the car speakers; the centre screen shows `Incoming audio / Unknown device` with a live waveform: "Pull over under the next streetlight. Get out and check the rear-left latch yourself." A 4-frame static cut (picture and sound together, a diegetic failure), then the narrator, dry and level: "Please disregard that last instruction. Do not take your foot off the gas." SC45: you pass that streetlight without slowing. |
+| 1 | **Audio hijack instead of a verbal stumble.** | SC42–SC44 (2:55–3:05 in the final cut, 55% in). The narrator's *own* voice suddenly comes out of the car speakers; the centre screen shows `Incoming audio / Unknown device` with a live waveform: "Pull over under the next streetlight. Get out and check the rear-left latch yourself." A 4-frame static cut (picture and sound together, a diegetic failure), then the narrator, dry and level: "Please disregard that last instruction. Do not take your foot off the gas." SC45: you pass that streetlight without slowing. |
 | 2 | **Weight-sensor escalation.** | Door-ajar icon (SC01) → rear seatbelt-unbuckled chime at the red light (SC35) → in Rule 6 the rear seat light goes out (SC48) and `PASSENGER AIRBAG: OFF → ON` (SC49). The 2-lb bag tips into the footwell and the seat sinks (SC50); the console lid is shut and the coffee unspilled (SC51), so nothing climbed over. |
 | 3 | **Sharper complicity ending.** | Rule 1 makes you press Lock All (SC07). The ending: the light only wakes above five miles an hour (SC66); the door was open before you started the car, opened while you paid (SC67); "You pressed Lock All. You locked it in with you." (SC68); every rule kept the car moving and sealed, all the way into a closed garage (SC69). Then Rule 4 pays off: in the sealed garage, park unlocks every door (SC63). |
 | 4 | **Thumbnail text `DON'T PULL OVER`.** | `description.md`, thumbnail direction: `DON'T` white, `PULL OVER` red, over-the-shoulder on the hands gripping the wheel and the glowing red rear-left door icon. |
@@ -103,13 +103,16 @@ All names, places and events are fictional. There are no case files, recordings,
 | Light direction and blocking | Every lit surface has a listed source. Dark scenes stay readable through the cluster backlight and sweeping sodium pools, not added glow. |
 | Grounded movement | Contact points are listed for every action (wheel rim, pedals, heel on the mat, buttons, selector knob). Stillness is used for tension; there is no idle bobbing. |
 | No unchanged repeated shots | Enforced by `build_package.py`: no framing is reused unchanged, consecutive or not. The ending's callbacks (SC66–SC69) are re-framed, each with a new visible element. |
-| Narrator slip / breach | 2:23–2:34 of 4:31 (53% in). Two sentences, then the static cut and the correction, word for word as requested. Paid off in SC70: "One instruction could have saved you. You were told to disregard it." |
+| Narrator slip / breach | 2:55–3:05 of 5:20 (55% in). Two sentences, then the static cut and the correction, word for word as requested. Paid off in SC70: "One instruction could have saved you. You were told to disregard it." |
 | Clues for the ending | Nine physical clues, listed in section 3. |
 | Phone readability | Tracker states are single large glyphs on a dark cluster; captions stay to one or two lines; rule cards have one command each. |
 | Close-ups | 36 of 74 scenes (48.6%) are object, interface or diagram extreme close-ups (target ≥25%). |
 | Sentence length | 722 spoken words in 163 sentences, averaging 4.4 words; the longest is 10. |
-| Runtime | **About 4:31 provisional** (~180 wpm plus authored holds; not verified playback). This is below the brief's 6–8 minute range. Seven rules plus the reveal fill about four and a half minutes without padding, and the standards say never pad. |
+| Runtime | **5:20** in the final cut, timed from the recorded narration. The plan estimated 4:31 at 180 wpm; the recorded delivery is slower. Still below the brief's 6–8 minute range: seven rules plus the reveal fill this without padding, and the standards say never pad. |
 
-## 7. Next step
+## 7. Production record
 
-Following the standards, build a **one-scene vertical slice** before anything else. Recommended: **SC42–SC44, the breach**. It needs the dashboard environment, the centre-screen asset, a character close-up micro-action (eyes flicking to the screen), a light-state change (blue screen light rising on YOU's cheek) and captions, and it tests the same-voice speaker processing. Then record the narration and re-time the table to the real word timestamps.
+- **Vertical slice:** SC41–SC45 (the breach), approved. Kept in the film with its exact internal timing. Output: `out/Rear_Left__vertical_slice.mp4`.
+- **Narration:** ElevenLabs `eleven_v4`, *Charliee – Calm Cinematic Narrator*, recorded in four parts plus the slice take (two takes each). Chosen takes: part A take 1, B take 1, C take 1, D take 2, slice take B. Word times come from ElevenLabs Scribe (`timeline/scribe/`). `audio/build_timeline.py` cuts each scene's lines, levels the parts to each other, processes the hijack lines as car speakers, and writes the voice, ambience, captions and `story/shots.json`. The full-length WAVs are regenerated by that script and are not committed.
+- **Picture:** code-drawn scenes in `scenes/sets/` (`car.js` driver rig, car side view and centre screen; `dash.js` cluster, overhead console and cards; `cabin.js` interiors; `places.js` exteriors and close-ups) and `scenes/shots/` (one file per section).
+- **Output:** `out/Rear_Left.mp4` (1080p30, loudness-normalised to −14 LUFS).

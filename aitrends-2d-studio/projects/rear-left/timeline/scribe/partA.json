@@ -1,0 +1,836 @@
+{
+"generation": [
+"QF1yHvzvu4GZGT1VfRil"
+],
+"text": "[calmly] You pull away from pump six. A light comes on. A little red door on your dashboard. [pause] Ten minutes later, it's still on. Rear left. The door behind you. Nobody has opened it in weeks. [pause] You'll want to pull over and slam it shut. Everyone does. [pause] Rule one. Don't pull over. [pause] A loose door flickers on bumps. This one doesn't flicker. It stays on. Steady. At sixty. [pause] Something is holding that door. [pause] Press Lock All. Once. [pause] Four clicks. Every door locked. Now drive. [long pause] Back at pump six, you went inside to pay. [pause] You left the car unlocked. It was only two minutes. [pause] Your bag went on the passenger seat. Your coffee went in the holder. [pause] Your mirror was tilted down. You fixed it without thinking.",
+"words": [
+{
+"text": "[calmly]",
+"type": "word",
+"start": 0,
+"end": 0.137
+},
+{
+"text": "You",
+"type": "word",
+"start": 0.16,
+"end": 0.24
+},
+{
+"text": "pull",
+"type": "word",
+"start": 0.32,
+"end": 0.4
+},
+{
+"text": "away",
+"type": "word",
+"start": 0.48,
+"end": 0.72
+},
+{
+"text": "from",
+"type": "word",
+"start": 0.8,
+"end": 0.88
+},
+{
+"text": "pump",
+"type": "word",
+"start": 0.96,
+"end": 1.2
+},
+{
+"text": "six.",
+"type": "word",
+"start": 1.28,
+"end": 2
+},
+{
+"text": "A",
+"type": "word",
+"start": 2.24,
+"end": 2.32
+},
+{
+"text": "light",
+"type": "word",
+"start": 2.44,
+"end": 2.56
+},
+{
+"text": "comes",
+"type": "word",
+"start": 2.68,
+"end": 2.8
+},
+{
+"text": "on.",
+"type": "word",
+"start": 2.92,
+"end": 3.12
+},
+{
+"text": "A",
+"type": "word",
+"start": 3.6,
+"end": 3.64
+},
+{
+"text": "little",
+"type": "word",
+"start": 3.68,
+"end": 3.84
+},
+{
+"text": "red",
+"type": "word",
+"start": 3.92,
+"end": 4.08
+},
+{
+"text": "door",
+"type": "word",
+"start": 4.16,
+"end": 4.4
+},
+{
+"text": "on",
+"type": "word",
+"start": 4.48,
+"end": 4.56
+},
+{
+"text": "your",
+"type": "word",
+"start": 4.6,
+"end": 4.64
+},
+{
+"text": "dashboard.",
+"type": "word",
+"start": 4.72,
+"end": 5.36
+},
+{
+"text": "[pause]",
+"type": "word",
+"start": 5.84,
+"end": 5.936
+},
+{
+"text": "Ten",
+"type": "word",
+"start": 5.968,
+"end": 6
+},
+{
+"text": "minutes",
+"type": "word",
+"start": 6.08,
+"end": 6.32
+},
+{
+"text": "later,",
+"type": "word",
+"start": 6.4,
+"end": 7.04
+},
+{
+"text": "it's",
+"type": "word",
+"start": 7.12,
+"end": 7.28
+},
+{
+"text": "still",
+"type": "word",
+"start": 7.44,
+"end": 7.6
+},
+{
+"text": "on.",
+"type": "word",
+"start": 7.76,
+"end": 8.16
+},
+{
+"text": "Rear",
+"type": "word",
+"start": 8.4,
+"end": 8.56
+},
+{
+"text": "left.",
+"type": "word",
+"start": 8.64,
+"end": 9.12
+},
+{
+"text": "The",
+"type": "word",
+"start": 9.44,
+"end": 9.48
+},
+{
+"text": "door",
+"type": "word",
+"start": 9.52,
+"end": 9.68
+},
+{
+"text": "behind",
+"type": "word",
+"start": 9.76,
+"end": 10.08
+},
+{
+"text": "you.",
+"type": "word",
+"start": 10.16,
+"end": 10.4
+},
+{
+"text": "Nobody",
+"type": "word",
+"start": 10.88,
+"end": 11.2
+},
+{
+"text": "has",
+"type": "word",
+"start": 11.28,
+"end": 11.44
+},
+{
+"text": "opened",
+"type": "word",
+"start": 11.52,
+"end": 11.76
+},
+{
+"text": "it",
+"type": "word",
+"start": 11.84,
+"end": 11.92
+},
+{
+"text": "in",
+"type": "word",
+"start": 12,
+"end": 12.16
+},
+{
+"text": "weeks.",
+"type": "word",
+"start": 12.24,
+"end": 12.96
+},
+{
+"text": "[pause]",
+"type": "word",
+"start": 13.2,
+"end": 13.248
+},
+{
+"text": "You'll",
+"type": "word",
+"start": 13.264,
+"end": 13.36
+},
+{
+"text": "want",
+"type": "word",
+"start": 13.44,
+"end": 13.52
+},
+{
+"text": "to",
+"type": "word",
+"start": 13.6,
+"end": 13.68
+},
+{
+"text": "pull",
+"type": "word",
+"start": 13.76,
+"end": 13.92
+},
+{
+"text": "over",
+"type": "word",
+"start": 14.04,
+"end": 14.16
+},
+{
+"text": "and",
+"type": "word",
+"start": 14.24,
+"end": 14.32
+},
+{
+"text": "slam",
+"type": "word",
+"start": 14.4,
+"end": 14.64
+},
+{
+"text": "it",
+"type": "word",
+"start": 14.68,
+"end": 14.72
+},
+{
+"text": "shut.",
+"type": "word",
+"start": 14.88,
+"end": 15.2
+},
+{
+"text": "Everyone",
+"type": "word",
+"start": 15.6,
+"end": 16
+},
+{
+"text": "does.",
+"type": "word",
+"start": 16.08,
+"end": 16.6
+},
+{
+"text": "[pause]",
+"type": "word",
+"start": 16.8,
+"end": 16.86
+},
+{
+"text": "Rule",
+"type": "word",
+"start": 16.88,
+"end": 17.04
+},
+{
+"text": "one.",
+"type": "word",
+"start": 17.2,
+"end": 17.52
+},
+{
+"text": "Don't",
+"type": "word",
+"start": 18,
+"end": 18.24
+},
+{
+"text": "pull",
+"type": "word",
+"start": 18.4,
+"end": 18.56
+},
+{
+"text": "over.",
+"type": "word",
+"start": 18.64,
+"end": 19.04
+},
+{
+"text": "[pause]",
+"type": "word",
+"start": 19.44,
+"end": 19.488
+},
+{
+"text": "A",
+"type": "word",
+"start": 19.504,
+"end": 19.52
+},
+{
+"text": "loose",
+"type": "word",
+"start": 19.6,
+"end": 19.84
+},
+{
+"text": "door",
+"type": "word",
+"start": 19.92,
+"end": 20.16
+},
+{
+"text": "flickers",
+"type": "word",
+"start": 20.24,
+"end": 20.64
+},
+{
+"text": "on",
+"type": "word",
+"start": 20.72,
+"end": 20.8
+},
+{
+"text": "bumps.",
+"type": "word",
+"start": 20.88,
+"end": 21.36
+},
+{
+"text": "This",
+"type": "word",
+"start": 21.76,
+"end": 21.92
+},
+{
+"text": "one",
+"type": "word",
+"start": 22,
+"end": 22.08
+},
+{
+"text": "doesn't",
+"type": "word",
+"start": 22.2,
+"end": 22.36
+},
+{
+"text": "flicker.",
+"type": "word",
+"start": 22.4,
+"end": 22.88
+},
+{
+"text": "It",
+"type": "word",
+"start": 23.2,
+"end": 23.28
+},
+{
+"text": "stays",
+"type": "word",
+"start": 23.36,
+"end": 23.68
+},
+{
+"text": "on.",
+"type": "word",
+"start": 23.76,
+"end": 24.08
+},
+{
+"text": "Steady.",
+"type": "word",
+"start": 24.48,
+"end": 24.96
+},
+{
+"text": "At",
+"type": "word",
+"start": 25.36,
+"end": 25.44
+},
+{
+"text": "sixty.",
+"type": "word",
+"start": 25.6,
+"end": 26.08
+},
+{
+"text": "[pause]",
+"type": "word",
+"start": 26.4,
+"end": 26.46
+},
+{
+"text": "Something",
+"type": "word",
+"start": 26.48,
+"end": 26.88
+},
+{
+"text": "is",
+"type": "word",
+"start": 26.96,
+"end": 27.12
+},
+{
+"text": "holding",
+"type": "word",
+"start": 27.2,
+"end": 27.6
+},
+{
+"text": "that",
+"type": "word",
+"start": 27.68,
+"end": 27.84
+},
+{
+"text": "door.",
+"type": "word",
+"start": 27.92,
+"end": 28.24
+},
+{
+"text": "[pause]",
+"type": "word",
+"start": 28.56,
+"end": 28.62
+},
+{
+"text": "Press",
+"type": "word",
+"start": 28.64,
+"end": 28.88
+},
+{
+"text": "Lock",
+"type": "word",
+"start": 28.96,
+"end": 29.2
+},
+{
+"text": "All.",
+"type": "word",
+"start": 29.28,
+"end": 29.68
+},
+{
+"text": "Once.",
+"type": "word",
+"start": 30.08,
+"end": 30.64
+},
+{
+"text": "[pause]",
+"type": "word",
+"start": 30.8,
+"end": 30.86
+},
+{
+"text": "Four",
+"type": "word",
+"start": 30.88,
+"end": 31.04
+},
+{
+"text": "clicks.",
+"type": "word",
+"start": 31.12,
+"end": 31.8
+},
+{
+"text": "Every",
+"type": "word",
+"start": 32,
+"end": 32.24
+},
+{
+"text": "door",
+"type": "word",
+"start": 32.32,
+"end": 32.48
+},
+{
+"text": "locked.",
+"type": "word",
+"start": 32.56,
+"end": 33.16
+},
+{
+"text": "Now",
+"type": "word",
+"start": 33.36,
+"end": 33.52
+},
+{
+"text": "drive.",
+"type": "word",
+"start": 33.6,
+"end": 34.16
+},
+{
+"text": "[long",
+"type": "word",
+"start": 34.24,
+"end": 34.88
+},
+{
+"text": "pause]",
+"type": "word",
+"start": 35.2,
+"end": 35.84
+},
+{
+"text": "Back",
+"type": "word",
+"start": 35.92,
+"end": 36
+},
+{
+"text": "at",
+"type": "word",
+"start": 36.08,
+"end": 36.16
+},
+{
+"text": "pump",
+"type": "word",
+"start": 36.24,
+"end": 36.4
+},
+{
+"text": "six,",
+"type": "word",
+"start": 36.56,
+"end": 37.04
+},
+{
+"text": "you",
+"type": "word",
+"start": 37.12,
+"end": 37.2
+},
+{
+"text": "went",
+"type": "word",
+"start": 37.28,
+"end": 37.36
+},
+{
+"text": "inside",
+"type": "word",
+"start": 37.52,
+"end": 37.68
+},
+{
+"text": "to",
+"type": "word",
+"start": 37.76,
+"end": 37.84
+},
+{
+"text": "pay.",
+"type": "word",
+"start": 37.92,
+"end": 38.24
+},
+{
+"text": "[pause]",
+"type": "word",
+"start": 38.56,
+"end": 38.608
+},
+{
+"text": "You",
+"type": "word",
+"start": 38.624,
+"end": 38.64
+},
+{
+"text": "left",
+"type": "word",
+"start": 38.72,
+"end": 38.88
+},
+{
+"text": "the",
+"type": "word",
+"start": 38.92,
+"end": 38.96
+},
+{
+"text": "car",
+"type": "word",
+"start": 39.04,
+"end": 39.2
+},
+{
+"text": "unlocked.",
+"type": "word",
+"start": 39.28,
+"end": 40
+},
+{
+"text": "It",
+"type": "word",
+"start": 40.16,
+"end": 40.24
+},
+{
+"text": "was",
+"type": "word",
+"start": 40.32,
+"end": 40.4
+},
+{
+"text": "only",
+"type": "word",
+"start": 40.52,
+"end": 40.64
+},
+{
+"text": "two",
+"type": "word",
+"start": 40.72,
+"end": 40.8
+},
+{
+"text": "minutes.",
+"type": "word",
+"start": 40.88,
+"end": 41.4
+},
+{
+"text": "[pause]",
+"type": "word",
+"start": 41.52,
+"end": 41.58
+},
+{
+"text": "Your",
+"type": "word",
+"start": 41.6,
+"end": 41.76
+},
+{
+"text": "bag",
+"type": "word",
+"start": 41.88,
+"end": 42
+},
+{
+"text": "went",
+"type": "word",
+"start": 42.08,
+"end": 42.16
+},
+{
+"text": "on",
+"type": "word",
+"start": 42.24,
+"end": 42.32
+},
+{
+"text": "the",
+"type": "word",
+"start": 42.36,
+"end": 42.4
+},
+{
+"text": "passenger",
+"type": "word",
+"start": 42.48,
+"end": 42.88
+},
+{
+"text": "seat.",
+"type": "word",
+"start": 42.96,
+"end": 43.52
+},
+{
+"text": "Your",
+"type": "word",
+"start": 43.6,
+"end": 43.68
+},
+{
+"text": "coffee",
+"type": "word",
+"start": 43.88,
+"end": 44.08
+},
+{
+"text": "went",
+"type": "word",
+"start": 44.16,
+"end": 44.32
+},
+{
+"text": "in",
+"type": "word",
+"start": 44.36,
+"end": 44.4
+},
+{
+"text": "the",
+"type": "word",
+"start": 44.44,
+"end": 44.48
+},
+{
+"text": "holder.",
+"type": "word",
+"start": 44.56,
+"end": 45.2
+},
+{
+"text": "[pause]",
+"type": "word",
+"start": 45.216,
+"end": 45.264
+},
+{
+"text": "Your",
+"type": "word",
+"start": 45.28,
+"end": 45.36
+},
+{
+"text": "mirror",
+"type": "word",
+"start": 45.44,
+"end": 45.76
+},
+{
+"text": "was",
+"type": "word",
+"start": 45.88,
+"end": 46
+},
+{
+"text": "tilted",
+"type": "word",
+"start": 46.08,
+"end": 46.4
+},
+{
+"text": "down.",
+"type": "word",
+"start": 46.56,
+"end": 47.12
+},
+{
+"text": "You",
+"type": "word",
+"start": 47.2,
+"end": 47.28
+},
+{
+"text": "fixed",
+"type": "word",
+"start": 47.36,
+"end": 47.52
+},
+{
+"text": "it",
+"type": "word",
+"start": 47.6,
+"end": 47.68
+},
+{
+"text": "without",
+"type": "word",
+"start": 47.84,
+"end": 48
+},
+{
+"text": "thinking.",
+"type": "word",
+"start": 48.2,
+"end": 48.64
+}
+]
+}
