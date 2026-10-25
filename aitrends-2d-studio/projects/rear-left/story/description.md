@@ -2,13 +2,9 @@
 
 ## Title
 
-**Recommended:** If Your Car Says the Door Behind You Is Open
+**Use:** If Your Car Says The Door Behind You Is Open... DON'T PULL OVER
 
-It names the anomaly; the thumbnail (`DON'T PULL OVER`) gives the rule, so the two complement rather than repeat each other (per `PRODUCTION_STANDARDS.md` §6). The in-video title card (SC09) uses this title.
-
-Alternates:
-- If Your Car Says a Door Is Open, Don't Pull Over *(the premise title; it repeats the thumbnail text. If you pick it, change the SC09 title card too)*
-- If the Rear-Left Door Light Comes On, Keep Driving
+It follows the format of the owner's reference channels (the situation, then the rule from the thumbnail in capitals). The first half matches the in-video title card (SC09).
 
 ## Description (paste as is: 6 blocks)
 
