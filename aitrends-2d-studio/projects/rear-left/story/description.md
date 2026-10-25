@@ -54,13 +54,11 @@ Times come from the final cut (`timeline/scene_times.json`), rounded down to the
 
 Optional: chapter titles can give away the airbag beat. If you want it hidden, rename "Rule 6: Passenger airbag" to "Rule 6: Both hands".
 
-## Thumbnail direction (you finalise the thumbnail)
+## Thumbnail
 
-Per `CLAUDE.md`, this is a direction only. Nothing is designed until you ask.
+Made on request in the owner's red flat style (`thumbnail/thumb_red.mjs`; files in `thumbnail/out/`):
 
-- **Text (2–3 words):** `DON'T PULL OVER`. `DON'T` in `#FFFFFF`, `PULL OVER` in `#FF1E27`. Heavy geometric sans, stacked on two lines in the black windshield area, top half of the frame.
-- **Staging:** over the shoulder from the **rear-left seat**, the exact spot where it sits, so the viewer is looking from the threat's position without knowing it. The protagonist's obsidian head with its white rim and the cobalt `#1E5EFF` hoodie shoulder fill the left third. Both white hands grip the wheel at 10 and 2.
-- **Focal point:** the instrument cluster, enlarged beyond real scale. The door diagram's rear-left panel glows `#FF1E27` and is the brightest point in the image (about 15–20% of frame height, so it reads at 160×90).
-- **Light:** cluster backlight from below on the hands; one sodium streetlamp pool on the windshield edge for depth. Everything else near-black.
-- **Avoid:** the 50/50 red box, curved arrow or framed-monster template; drawing any creature.
-- **Check** at 320×180 and 160×90: the red door icon and the hands on the wheel must read in under a second.
+- **Ground:** solid red. **Title:** `DON'T` in white over `PULL OVER` in black (Montserrat Black). On a red ground, red lettering would disappear, so the second line is black, as in the owner's references.
+- **Illustration:** over the driver's shoulder. The cobalt-hoodie driver (obsidian head, one eye-dot glancing back) grips the wheel at ten and two. Above, the instrument cluster: speedometer, and the car-door icon with only the rear-left door swung open and glowing red.
+- **A:** exactly that. **B:** adds the rear-view mirror with two red eyes (a tease: the film never shows it).
+- No framed panel and no curved arrow (`PRODUCTION_STANDARDS.md` §6). Checked at 320×180 and 160×90.
