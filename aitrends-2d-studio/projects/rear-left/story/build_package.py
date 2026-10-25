@@ -187,7 +187,7 @@ sc("SC42","CU",sec,"Pull over under the next streetlight.",
    "Screen change lands 0.3 s before the first word.", voice="HIJACK")
 sc("SC43","ECU",sec,"Get out and check the rear-left latch yourself.",
    "The one true instruction in the film.","ECU MEDIA screen: INCOMING AUDIO / UNKNOWN DEVICE with a live waveform.",
-   "—","Waveform moves with the voice.","MEDIA screen.","Screen light falls on the console and YOU's right knee only.",
+   "—","Waveform moves with the voice.","MEDIA screen.","Screen light falls on the console buttons and the coffee lid only.",
    "RL red; RB red.","MEDIA: 'Incoming audio' / 'Unknown device' (32 px).","HIJACK VOICE continues, same processing.",
    "Waveform peaks match the syllables.", voice="HIJACK")
 sc("SC44","ECU",sec,"Please disregard that last instruction. Do not take your foot off the gas.",

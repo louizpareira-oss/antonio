@@ -37,6 +37,13 @@ export const STYLES = {
     grade:{contrast:1.03,sat:.85,lift:[0,0,0],gamma:[1,1,1],gain:[1,1,1],vignette:.2,grain:.018,bloom:.2},
     moods:{abyss:{key:'#e9e9ed',rim:'#ee2538',wall:'#111116',floor:'#09090d',practical:'#ece9d7'},void:{sky:['#050509','#09090d'],wall:'#101015',rim:'#ee2538'},night:{sky:['#040407','#09090d','#101016'],rim:'#ee2538',practical:'#e9e3c9'}}
   },
+  citynight: {
+    name:'City Night', desc:'WRONG KNOCK night-drive look: black base, crisp white line art, colour only from physical sources (dash, sodium, screens).',
+    ink:'#edf0f3',inkFar:'#9aa3b0',feature:'#0a0a0f',rimWidth:2.5,
+    ui:{...HORROR_UI,card:'rgba(8,9,13,.95)',gold:'#f4d34e',accent:'#ff1e27',warning:'#ff1e27',blueprint:'#b5bcc8',bpBg:'#07080c'},
+    grade:{contrast:1,sat:1,lift:[0,0,0],gamma:[1,1,1],gain:[1,1,1],vignette:.22,grain:.012,bloom:0},
+    moods:{}
+  },
   dusk: {
     name: 'Cinematic Dusk', desc: 'Reference look: mauve-purple shadows, amber key light, cream rim light, soft grain, 2:1 letterbox.',
     ink: '#0e0b12', inkFar: '#2b2333', feature: '#f4efe6', rimWidth: 4, ui: UI,

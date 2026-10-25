@@ -1,0 +1,141 @@
+{
+ "title": "Rear Left — vertical slice (SC41–SC45)",
+ "duration": 19.6,
+ "shots": [
+  {
+   "id": "SC41",
+   "start": 0.0,
+   "end": 6.3,
+   "line": "See a face at the rear window, and you'll brake. And braking is slow.",
+   "scene": "Frontal close-up through the windshield; rear-left headrest and rear glass dark behind YOU; mirror tilted up at the roof.",
+   "purpose": "Narrator's cover story for not touching the mirror.",
+   "visual_change": "Right hand lowers from beside the mirror to the wheel rim (contact 4.6 s); sodium pool sweeps the cabin.",
+   "in": {
+    "type": "cut"
+   },
+   "captions": true,
+   "sfx": [
+    {
+     "at": 4.6,
+     "name": "tick",
+     "gain": -26,
+     "pitch": 0.6
+    }
+   ],
+   "asset": "car-cabin-front-v1 / driver-v1"
+  },
+  {
+   "id": "SC42",
+   "start": 6.3,
+   "end": 9.06,
+   "line": "Pull over under the next streetlight.",
+   "scene": "Three-quarter from the passenger seat; centre screen in the foreground switches from map to a call screen.",
+   "purpose": "The breach begins: the narrator's own voice comes out of the car.",
+   "visual_change": "Screen switches at 6.60; blue light rises on YOU's face and rim; eyes flick to the screen at 6.90.",
+   "in": {
+    "type": "cut"
+   },
+   "captions": true,
+   "sfx": [
+    {
+     "at": 0.27,
+     "name": "blip",
+     "gain": -20,
+     "pitch": 0.75
+    }
+   ],
+   "asset": "car-cabin-3q-v1 / driver-v1 / screen-v1"
+  },
+  {
+   "id": "SC43",
+   "start": 9.06,
+   "end": 11.75,
+   "line": "Get out and check the rear-left latch yourself.",
+   "scene": "ECU centre screen: Incoming audio / Unknown device, live waveform, Phone not connected.",
+   "purpose": "The one true instruction in the film.",
+   "visual_change": "Waveform follows the hijack audio; call timer counts.",
+   "in": {
+    "type": "cut"
+   },
+   "captions": true,
+   "sfx": [],
+   "asset": "console-v1 / screen-call-v1"
+  },
+  {
+   "id": "SC44",
+   "start": 11.75,
+   "end": 16.6,
+   "line": "Please disregard that last instruction. Do not take your foot off the gas.",
+   "scene": "Same screen: 4-frame static failure, then the map returns.",
+   "purpose": "The narrator overrides the breach.",
+   "visual_change": "Static 11.75-11.88 (picture and sound), then the map.",
+   "in": {
+    "type": "cut"
+   },
+   "captions": true,
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "static",
+     "gain": 3,
+     "dur": 0.14
+    }
+   ],
+   "asset": "console-v1 / screen-static-v1 / screen-map-v1"
+  },
+  {
+   "id": "SC45",
+   "start": 16.6,
+   "end": 19.6,
+   "line": "",
+   "scene": "Wide exterior side view: the car passes through one streetlamp's pool without slowing.",
+   "purpose": "YOU drives past the streetlight the voice meant.",
+   "visual_change": "Lamp pool crosses the car around 17.9 s.",
+   "in": {
+    "type": "cut"
+   },
+   "captions": true,
+   "sfx": [
+    {
+     "at": 0.9,
+     "name": "whoosh",
+     "gain": -22,
+     "dur": 1.4
+    },
+    {
+     "at": 1.0,
+     "name": "hum",
+     "gain": -30,
+     "dur": 1.6
+    }
+   ],
+   "asset": "car-side-v1 / streetlamp-v1"
+  }
+ ],
+ "music": [
+  {
+   "start": 0,
+   "end": 11.75,
+   "mood": "dread",
+   "intensity": 0.3
+  },
+  {
+   "start": 11.75,
+   "end": 19.6,
+   "mood": "unease",
+   "intensity": 0.24
+  }
+ ],
+ "sfx": [
+  {
+   "t": 0.0,
+   "name": "input/road_bed.wav",
+   "gain": -5
+  },
+  {
+   "t": 0.0,
+   "name": "input/hijack_car.wav",
+   "gain": 11.5
+  }
+ ]
+}
