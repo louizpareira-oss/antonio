@@ -1,0 +1,38 @@
+[
+ {
+  "start": 0.5,
+  "end": 3.9,
+  "text": "Stay inside your circle.",
+  "highlight": []
+ },
+ {
+  "start": 4.7,
+  "end": 8.3,
+  "text": "Everyone else is waiting too.",
+  "highlight": []
+ },
+ {
+  "start": 9.1,
+  "end": 12.5,
+  "text": "The attendant smiles at 3:12.",
+  "highlight": []
+ },
+ {
+  "start": 16.5,
+  "end": 19.5,
+  "text": "Load 6 was never claimed.",
+  "highlight": []
+ },
+ {
+  "start": 20.3,
+  "end": 23.3,
+  "text": "It moves when the dryers stop.",
+  "highlight": []
+ },
+ {
+  "start": 24.1,
+  "end": 26.9,
+  "text": "Something is still in the drum.",
+  "highlight": []
+ }
+]

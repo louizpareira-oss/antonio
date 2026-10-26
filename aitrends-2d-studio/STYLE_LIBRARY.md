@@ -47,6 +47,52 @@ Baseline (already produced): **Casefile**, the look of *Two Peepholes*. Muted na
 - **Icon-based rules:** each rule has one bold icon: a red eye pill (don't look), red lips (don't speak), raised palm (stop), music note with lock (the song), calendar day. The icon is the rule title.
 - **Devices:** large numerals (`2021`, `13`, `11`); red ECG / sound-wave lines; a progress row with check marks; an `UNFILED` folder stamp; a white smiling face as the uncanny presence; ×2 multipliers.
 
+## 5. Field report (pictogram + zones)
+
+*Best for:* open spaces with groups of people, "stay in your area" rules, anything mapped from above.
+
+- **Base:** pure black; a perspective floor (lines converging to a vanishing point, fading into the dark); background props in mid grey (vehicles, machines) along the horizon, softly out of focus.
+- **Figures:** solid white pictograms (round head, rounded body, thick limbs) with two-tone shading; the threat or the odd one out marked by a single accent (a yellow object, red eyes).
+- **Zones:** glowing white rings on the floor in perspective, drawn on when a rule starts.
+- **HUD:** file label top left (`FILE 049 // NAME`), numbered chapter boxes top centre with the current one filled, a running timecode top right.
+- **Captions:** bold white uppercase, centred low, one short phrase at a time.
+
+## 6. Crowd grid (rows of seated people)
+
+*Best for:* classrooms, waiting rooms, theatres, buses: places where many people face the same way.
+
+- **Stage:** rows of seated figures seen from behind, receding in perspective (front rows bigger and brighter, back rows smaller, greyer, slightly blurred).
+- **Beats:** everyone turns at once (a wave of heads), one figure with red eyes, a red marker circle drawn around the one that matters.
+- **Props:** paper sheets with ruled lines and handwriting, folded paper, speech bubbles, red outlined stamps (`DO NOT LOOK UP`), a few drifting red dots.
+
+## 7. Shaded portrait (semi-real cartoon)
+
+*Best for:* character beats: a face that changes, a smile that is wrong.
+
+- **Faces:** grey-skinned cartoon heads with soft shading, rim light and heavy upper lids; expressions go from neutral to a too-wide grin; red irises with a glow for the uncanny turn.
+- **Setting:** dark red and black spaces (red seats, an exit sign), a big bright screen as the light source.
+- **Devices:** big chapter numerals (`02`) with a red underline and a one-line rule; seat-grid diagrams with one red seat; phone screens; glitch frames only as a diegetic failure; a big red closing line (`YOUR TURN.`).
+
+The three looks above were studied from contact sheets the owner supplied on 2026-10-26. Use their conventions only, never their stories, characters or wording.
+
+## Pro finish kit (`engine/pro2d.js`)
+
+Built to match and beat the references above; proven in `projects/pro-look-test/` (`out/Pro_Look_Test.mp4`).
+
+| Need | Function |
+|---|---|
+| Slow camera push with a little handheld drift | `camAt(t, keys)` with `core.layer` for parallax and `core.blurLayer` for depth of field |
+| Perspective floor, contact shadows, zone rings that draw on and pulse | `floor`, `contact`, `ring` |
+| Two-tone pictogram figures (white, or the cobalt-hoodie protagonist) in poses | `figure`, `POSE`, `poseMix` |
+| Rows of seated people whose heads turn in a wave; red-eyed individuals | `crowd`, `seatedBack` |
+| Semi-real shaded portrait: blink, gaze, grin, red eyes, rim light, optional cap | `portrait` |
+| File label, chapter boxes, running timecode | `hud` |
+| Big-numeral chapter card with a red bar that draws under the rule | `chapterCard` |
+| Red marker circle, stamp, speech bubble, paper with handwriting | `markerCircle`, `stamp`, `bubble`, `paper` |
+| Drifting red embers, light shafts with dust | `embers`, `shaft` |
+| Big closing line | `bigType` |
+| Dark band under captions so they stay readable over bright figures | `scrim` |
+
 ---
 
 ## Shared devices across the new looks

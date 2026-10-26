@@ -1,0 +1,29 @@
+{
+ "title": "Pro Look Test",
+ "aspect": "16:9",
+ "resolution": "1080p",
+ "fps": 30,
+ "style": "citynight",
+ "voiceover": "input/silence.wav",
+ "duration": 30.4,
+ "captions": true,
+ "bars": "none",
+ "fadeIn": 0.3,
+ "fadeOut": 0.8,
+ "music": {
+  "enabled": true,
+  "gainDb": -14,
+  "seed": 5
+ },
+ "sfx": {
+  "enabled": true,
+  "gainDb": -4
+ },
+ "loudness": -16,
+ "captionStyle": {
+  "mode": "phrase",
+  "font": "Montserrat",
+  "size": 46,
+  "y": 960
+ }
+}

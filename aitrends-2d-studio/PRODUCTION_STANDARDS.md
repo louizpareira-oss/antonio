@@ -76,3 +76,15 @@ Do not use the competitor 50/50 red box + curved white arrow + framed monster te
 2. Check the table against the review gates: no unmotivated shot repetition, grounded contact points, source-driven lighting, causal rule logic.
 3. Build a **one-scene representative vertical slice** (environment + close-up + character micro-action + light state change + caption) to lock the look.
 4. Only then render the full film.
+
+## 8. Pro finish (added 2026-10-26 at the owner's request)
+
+Every new film is built with `engine/pro2d.js` and checked against this list before the full render:
+
+1. **Depth in every wide shot:** a foreground plane, a sharp subject plane and a soft, darker background (`blurLayer`, `toneAt`). Nothing floats: figures and props get a contact shadow.
+2. **The camera is never dead:** a slow push or drift on every shot (`camAt`), faster only on a story beat. Parallax between planes.
+3. **Volume on figures:** two-tone shading with a consistent light side per scene; rim light on portraits.
+4. **One accent colour does the pointing:** red for the threat (eyes, marker circles, stamps, the rule bar); nothing else is red.
+5. **Readable type at phone size:** captions over a scrim; HUD (file label, chapter boxes, running timecode) at 0.55 opacity; chapter cards with big numerals.
+6. **Motion beats are designed, not incidental:** at least one group action per act (heads turning in a wave, lights failing in order), eased, with overlap between figures.
+7. **Texture:** grain and vignette from the style grade; embers or dust only where the scene's light would show them.

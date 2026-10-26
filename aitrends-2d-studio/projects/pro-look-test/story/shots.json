@@ -1,0 +1,205 @@
+{
+ "title": "Pro look test",
+ "duration": 30.4,
+ "shots": [
+  {
+   "id": "A",
+   "start": 0,
+   "end": 4.2,
+   "line": "Stay inside your circle.",
+   "scene": "pro look test",
+   "purpose": "style proof",
+   "visual_change": "see reel.js",
+   "asset": "pro2d-v1",
+   "in": {
+    "type": "cut"
+   },
+   "captions": true,
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "hum",
+     "gain": -26,
+     "dur": 3.5
+    }
+   ]
+  },
+  {
+   "id": "B",
+   "start": 4.2,
+   "end": 8.6,
+   "line": "Everyone else is waiting too.",
+   "scene": "pro look test",
+   "purpose": "style proof",
+   "visual_change": "see reel.js",
+   "asset": "pro2d-v1",
+   "in": {
+    "type": "cut"
+   },
+   "captions": true,
+   "sfx": [
+    {
+     "at": 1.0,
+     "name": "swish",
+     "gain": -20,
+     "dur": 1.2,
+     "pitch": 0.6
+    },
+    {
+     "at": 2.4,
+     "name": "tone_low",
+     "gain": -20,
+     "dur": 1.6
+    }
+   ]
+  },
+  {
+   "id": "C",
+   "start": 8.6,
+   "end": 12.8,
+   "line": "The attendant smiles at 3:12.",
+   "scene": "pro look test",
+   "purpose": "style proof",
+   "visual_change": "see reel.js",
+   "asset": "pro2d-v1",
+   "in": {
+    "type": "cut"
+   },
+   "captions": true,
+   "sfx": [
+    {
+     "at": 3.3,
+     "name": "stinger",
+     "gain": -14,
+     "dur": 1.2
+    }
+   ]
+  },
+  {
+   "id": "D",
+   "start": 12.8,
+   "end": 16.0,
+   "line": "",
+   "scene": "pro look test",
+   "purpose": "style proof",
+   "visual_change": "see reel.js",
+   "asset": "pro2d-v1",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0,
+     "name": "hit",
+     "gain": -12,
+     "pitch": 0.6
+    }
+   ]
+  },
+  {
+   "id": "E",
+   "start": 16.0,
+   "end": 19.8,
+   "line": "Load 6 was never claimed.",
+   "scene": "pro look test",
+   "purpose": "style proof",
+   "visual_change": "see reel.js",
+   "asset": "pro2d-v1",
+   "in": {
+    "type": "cut"
+   },
+   "captions": true,
+   "sfx": [
+    {
+     "at": 1.6,
+     "name": "impact",
+     "gain": -14,
+     "pitch": 0.8,
+     "dur": 0.8
+    }
+   ]
+  },
+  {
+   "id": "F",
+   "start": 19.8,
+   "end": 23.6,
+   "line": "It moves when the dryers stop.",
+   "scene": "pro look test",
+   "purpose": "style proof",
+   "visual_change": "see reel.js",
+   "asset": "pro2d-v1",
+   "in": {
+    "type": "cut"
+   },
+   "captions": true,
+   "sfx": [
+    {
+     "at": 2.6,
+     "name": "blip",
+     "gain": -16,
+     "pitch": 0.7
+    }
+   ]
+  },
+  {
+   "id": "G",
+   "start": 23.6,
+   "end": 27.2,
+   "line": "Something is still in the drum.",
+   "scene": "pro look test",
+   "purpose": "style proof",
+   "visual_change": "see reel.js",
+   "asset": "pro2d-v1",
+   "in": {
+    "type": "cut"
+   },
+   "captions": true,
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "hum",
+     "gain": -24,
+     "dur": 1.8
+    },
+    {
+     "at": 2.2,
+     "name": "heartbeat",
+     "gain": -16,
+     "dur": 1.2
+    }
+   ]
+  },
+  {
+   "id": "H",
+   "start": 27.2,
+   "end": 30.4,
+   "line": "",
+   "scene": "pro look test",
+   "purpose": "style proof",
+   "visual_change": "see reel.js",
+   "asset": "pro2d-v1",
+   "in": {
+    "type": "cut"
+   },
+   "captions": false,
+   "sfx": [
+    {
+     "at": 0,
+     "name": "impact",
+     "gain": -10,
+     "pitch": 0.5,
+     "dur": 2
+    }
+   ]
+  }
+ ],
+ "music": [
+  {
+   "start": 0,
+   "end": 30.4,
+   "mood": "dread",
+   "intensity": 0.35
+  }
+ ]
+}
