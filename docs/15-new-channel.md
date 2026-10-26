@@ -4,7 +4,12 @@ Video 6, **"Can One Person Really Control the Universe?"** (`aitrends-2d-studio/
 for a **new channel**, not Parallel You. Its format: a real question title ("Can … Really …?", after the user's example
 "Can 2 People Really Restart Humanity?") answered with a short story and real science, about 4 minutes, 16:9.
 
-## Name options (to pick with the user)
+## Chosen name (the user, Oct 24: "a normal name", then "a better name" than Simple Science)
+- **Unreal Science**, handle @UnrealScience (fallbacks @UnrealScienceTV, @TheUnrealScience, @UnrealScienceShow)
+- Tagline: **Impossible ideas. Real science.**
+- Setup kit (profile picture + banner prompts, About text, keywords): `aitrends-2d-studio/projects/unreal-science-brand/channel.md`
+
+## Earlier name options (not chosen)
 | Name | Handle to check | Tagline | Why |
 |---|---|---|---|
 | **Could It Really?** (recommended) | @CouldItReally | Impossible questions. Real science. | Says the format: every title asks "Can … really …?" |
@@ -21,8 +26,6 @@ Check that the name and handle are free on YouTube before creating the channel.
 - Nothing in the video, thumbnail or description names Parallel You; the TikTok caption's #parallelyou was removed.
 
 ## Still to decide for the new channel
-- The name, handle, tagline, profile picture and banner (Parallel You's brand kit is
-  `aitrends-2d-studio/projects/parallel-you-brand/`; the new channel needs its own).
 - Which `CLAUDE.md` rules carry over (2D studio, 16:9, voices, thumbnails as SeaArt prompts, clean YouTube metadata)
   and what is different (channel name, tagline, email, length ~4 min, "Can … Really …?" titles). Until then,
   `CLAUDE.md` describes Parallel You only.
