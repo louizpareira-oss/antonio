@@ -31,7 +31,10 @@ const server = http.createServer((req, res) => {
 }).listen(0);
 const PORT = server.address().port;
 const gl = args.gl || (process.platform === 'linux' ? 'swiftshader' : 'auto');
-const LAUNCH = { args: ['--ignore-gpu-blocklist', '--enable-unsafe-swiftshader', '--disable-dev-shm-usage', ...(gl === 'swiftshader' ? ['--use-angle=swiftshader'] : []), ...(gl === 'gpu' ? ['--enable-gpu', '--use-angle=default'] : [])] };
+// cloud containers ship one pre-installed Chromium; use it when the npm Playwright's own browser is not downloaded
+const SYS_CHROME = process.env.CHROME_PATH || '/opt/pw-browsers/chromium';
+const OWN_CHROME = (() => { try { return chromium.executablePath(); } catch { return ''; } })();
+const LAUNCH = { ...(!fs.existsSync(OWN_CHROME) && fs.existsSync(SYS_CHROME) ? { executablePath: SYS_CHROME } : {}), args: ['--ignore-gpu-blocklist', '--enable-unsafe-swiftshader', '--disable-dev-shm-usage', ...(gl === 'swiftshader' ? ['--use-angle=swiftshader'] : []), ...(gl === 'gpu' ? ['--enable-gpu', '--use-angle=default'] : [])] };
 const FORMAT = args.format === 'jpeg' ? 'jpeg' : 'png';
 const CFG = JSON.parse(fs.readFileSync(path.join(PROJECT, 'config.json'), 'utf8'));
 const FPS = CFG.fps || 24;
