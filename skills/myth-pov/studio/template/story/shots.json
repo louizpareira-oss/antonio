@@ -1,0 +1,3 @@
+{ "duration": 6, "shots": [
+  { "id": "s01", "start": 0, "end": 3, "line": "hook: hero, day, pushIn" },
+  { "id": "s02", "start": 3, "end": 6, "line": "candle secret, heroLow", "in": { "type": "flash", "dur": 0.15 } } ] }

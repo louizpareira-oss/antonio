@@ -1,0 +1,2 @@
+{ "out": "assets/hero.glb", "clips": ["../../../skills/myth-pov/mocap/07_01.bvh"], "height": 1.75,
+  "skin": [0.62, 0.58, 0.55], "cloth": [0.10, 0.18, 0.36], "cloth2": [0.30, 0.22, 0.16], "thread": true, "glow": null, "helmet": "hood" }
