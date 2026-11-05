@@ -1,0 +1,332 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>
+  @font-face{font-family:"Fredoka";src:url("fonts/Fredoka-Bold.woff2") format("woff2");font-weight:700}
+  html,body{margin:0;width:1920px;height:1080px;overflow:hidden;background:#2a2340;font-family:"Fredoka",sans-serif}
+  canvas{position:absolute;left:0;top:0}
+  #fx{position:absolute;inset:0;pointer-events:none}
+  .bokeh{position:absolute;border-radius:50%;filter:blur(6px)}
+  .vignette{position:absolute;inset:0;background:radial-gradient(ellipse at center, rgba(0,0,0,0) 55%, rgba(20,10,40,.45) 100%)}
+  #title{position:absolute;top:44px;left:56px;background:#2E3A59;color:#E8B53A;font-size:44px;letter-spacing:.06em;padding:12px 34px;border-radius:999px;box-shadow:0 6px 0 rgba(0,0,0,.25);transform-origin:left center}
+  #hotbar{position:absolute;left:50%;bottom:46px;transform:translateX(-50%);display:flex;gap:12px}
+  .slot{width:92px;height:92px;border-radius:16px;background:rgba(46,58,89,.78);border:5px solid #F4F1EA;box-sizing:border-box;position:relative;box-shadow:0 6px 0 rgba(0,0,0,.25)}
+  .slot.sel{border-color:#E8B53A}
+  .count{position:absolute;right:6px;bottom:0;color:#fff;font-size:26px;text-shadow:2px 2px 0 #1E2A30}
+  #icon{position:absolute;width:60px;height:60px;left:0;top:0;transform-origin:center}
+  #caption{position:absolute;left:0;right:0;bottom:178px;text-align:center;color:#fff;font-size:58px;line-height:1.15;padding:0 120px;
+    text-shadow:0 0 0 #1E2A30,-4px -4px 0 #1E2A30,4px -4px 0 #1E2A30,-4px 4px 0 #1E2A30,4px 4px 0 #1E2A30,0 5px 0 #1E2A30,0 -5px 0 #1E2A30,5px 0 0 #1E2A30,-5px 0 0 #1E2A30,0 8px 10px rgba(0,0,0,.4)}
+  #caption em{font-style:normal;color:#E8B53A}
+  .z{position:absolute;color:#F4F1EA;font-size:62px;text-shadow:3px 3px 0 #1E2A30}
+</style></head>
+<body>
+<div id="fx"></div>
+<div class="vignette"></div>
+<div id="title">INVENTORY</div>
+<div id="hotbar"></div>
+<div id="caption"></div>
+<svg id="icon" viewBox="0 0 60 60"><rect x="16" y="4" width="28" height="52" rx="7" fill="#1E2A30" stroke="#F4F1EA" stroke-width="3"/><rect x="20" y="10" width="20" height="36" rx="3" fill="#7EC4F0"/><circle cx="30" cy="51" r="2.2" fill="#F4F1EA"/></svg>
+<div class="z" id="z1">z</div><div class="z" id="z2">z</div>
+<script src="node_modules/three/build/three.min.js"></script>
+<script>
+const W = 1920, H = 1080;
+const P = { head:'#F4F1EA', ink:'#1E2A30', mustard:'#E8B53A', navy:'#2E3A59', amber:'#FFB347' };
+
+// ---------- helpers ----------
+const clamp = (x,a=0,b=1)=>Math.min(b,Math.max(a,x));
+const lerp = (a,b,t)=>a+(b-a)*t;
+const ease = t=>{t=clamp(t);return t<.5?4*t*t*t:1-Math.pow(-2*t+2,3)/2;};
+const easeOutBack = t=>{t=clamp(t);const c1=1.70158,c3=c1+1;return 1+c3*Math.pow(t-1,3)+c1*Math.pow(t-1,2);};
+const seg = (t,a,b)=>clamp((t-a)/(b-a));
+const pulse = (t,a,b)=>t>=a&&t<b;
+
+// ---------- renderer ----------
+const renderer = new THREE.WebGLRenderer({antialias:true, preserveDrawingBuffer:true});
+renderer.setPixelRatio(1); renderer.setSize(W,H);
+renderer.shadowMap.enabled = true; renderer.shadowMap.type = THREE.PCFSoftShadowMap;
+renderer.outputColorSpace = THREE.SRGBColorSpace;
+document.body.insertBefore(renderer.domElement, document.body.firstChild);
+const scene = new THREE.Scene();
+scene.background = new THREE.Color('#2a2340');
+
+const ramp = new Uint8Array([95,175,255]);
+const gradientMap = new THREE.DataTexture(ramp, ramp.length, 1, THREE.RedFormat);
+gradientMap.minFilter = gradientMap.magFilter = THREE.NearestFilter; gradientMap.needsUpdate = true;
+const toon = c => new THREE.MeshToonMaterial({color:c, gradientMap});
+const outlineMat = new THREE.ShaderMaterial({
+  uniforms:{ink:{value:new THREE.Color(P.ink)}, t:{value:0.012}},
+  vertexShader:`uniform float t; void main(){ vec3 p = position + normal * t; gl_Position = projectionMatrix * modelViewMatrix * vec4(p,1.0); }`,
+  fragmentShader:`uniform vec3 ink; void main(){ gl_FragColor = vec4(ink,1.0); }`,
+  side:THREE.BackSide
+});
+function part(geo, color, {outline=true, shadow=true, receive=false} = {}) {
+  const g = new THREE.Group();
+  const m = new THREE.Mesh(geo, toon(color)); m.castShadow = shadow; m.receiveShadow = receive; g.add(m);
+  if (outline) g.add(new THREE.Mesh(geo, outlineMat));
+  g.userData.mesh = m;
+  return g;
+}
+
+// ---------- room ----------
+scene.add(new THREE.HemisphereLight('#c9b8f2', '#4d3d60', 1.05));
+const sun = new THREE.DirectionalLight('#ffd09a', 2.3);
+sun.position.set(3.2, 3.6, -0.8); sun.target.position.set(0, 0.6, -0.4);
+sun.castShadow = true; sun.shadow.mapSize.set(2048,2048); sun.shadow.radius = 5; sun.shadow.bias = -0.0006;
+Object.assign(sun.shadow.camera,{left:-4,right:4,top:4,bottom:-4,near:0.5,far:15});
+scene.add(sun); scene.add(sun.target);
+const fill = new THREE.DirectionalLight('#9aa6ff', 0.55); fill.position.set(-3, 2, 4); scene.add(fill);
+const winGlow = new THREE.PointLight('#ffbf80', 3.5, 5); winGlow.position.set(1.3, 1.8, -1.6); scene.add(winGlow);
+
+const floor = new THREE.Mesh(new THREE.PlaneGeometry(12,12), toon('#7d5f5a')); floor.rotation.x = -Math.PI/2; floor.receiveShadow = true; scene.add(floor);
+const backWall = new THREE.Mesh(new THREE.PlaneGeometry(12,6), toon('#4b3f70')); backWall.position.set(0,3,-2.1); backWall.receiveShadow = false; scene.add(backWall);
+const leftWall = new THREE.Mesh(new THREE.PlaneGeometry(12,6), toon('#43386a')); leftWall.rotation.y = Math.PI/2; leftWall.position.set(-1.9,3,0); leftWall.receiveShadow = false; scene.add(leftWall);
+// window
+const win = new THREE.Group();
+const pane = new THREE.Mesh(new THREE.PlaneGeometry(1.0,1.1), new THREE.MeshBasicMaterial({color:'#ffd9a8'})); win.add(pane);
+for (const [w,h,x,y] of [[1.12,0.07,0,0.58],[1.12,0.07,0,-0.58],[0.07,1.2,0.53,0],[0.07,1.2,-0.53,0],[0.05,1.1,0,0],[1.0,0.05,0,0]]) {
+  const f = part(new THREE.BoxGeometry(w,h,0.05), '#2E2747', {outline:false, shadow:false}); f.position.set(x,y,0.02); win.add(f);
+}
+win.position.set(1.25, 1.75, -2.08); scene.add(win);
+// posters
+for (const [x,y,c,w,h] of [[-0.95,1.9,'#E8B53A',0.55,0.75],[-0.25,2.05,'#FF6B5B',0.45,0.55]]) {
+  const p = part(new THREE.BoxGeometry(w,h,0.02), c, {shadow:false}); p.position.set(x,y,-2.08); scene.add(p);
+}
+const sidePoster = part(new THREE.BoxGeometry(0.02,0.7,0.5), '#7FD1B9', {shadow:false}); sidePoster.position.set(-1.88,1.7,-0.6); scene.add(sidePoster);
+// bed
+const bed = new THREE.Group(); scene.add(bed);
+const frame = part(new THREE.BoxGeometry(1.6,0.22,2.75), '#6C5A8E', {receive:true}); frame.position.set(0,0.19,-0.7); bed.add(frame);
+const mattress = part(new THREE.BoxGeometry(1.5,0.25,2.6), '#EDE8F5', {receive:true}); mattress.position.set(0,0.425,-0.7); bed.add(mattress);
+const headboard = part(new THREE.BoxGeometry(1.7,1.25,0.12), '#6C5A8E', {receive:true}); headboard.position.set(0,0.62,-2.03); bed.add(headboard);
+const pillow = part(new THREE.CapsuleGeometry(0.16,0.6,8,20), '#F4F1EA', {receive:true}); pillow.rotation.z = Math.PI/2; pillow.scale.set(1,1,1.4); pillow.position.set(0,0.63,-1.62); bed.add(pillow);
+// blanket (elliptic half-tube along z)
+const blanketGeo = new THREE.CylinderGeometry(0.5,0.5,1,40,1); blanketGeo.rotateX(Math.PI/2);
+const blanket = part(blanketGeo, '#8F9BD8', {receive:true}); scene.add(blanket);
+function setBlanket(z0, z1, height) {
+  blanket.scale.set(1.62, height*2, z1 - z0);
+  blanket.position.set(0, 0.55, (z0+z1)/2);
+}
+// nightstand
+const stand = part(new THREE.BoxGeometry(0.5,0.6,0.5), '#5E4E7E', {receive:true}); stand.position.set(1.12,0.3,-0.2); scene.add(stand);
+const knob = part(new THREE.SphereGeometry(0.03,10,8), P.amber, {outline:false}); knob.position.set(1.12,0.36,0.06); scene.add(knob);
+// alarm clock with red digits
+const cv = document.createElement('canvas'); cv.width = 256; cv.height = 128;
+const cx = cv.getContext('2d'); cx.fillStyle = '#16121f'; cx.fillRect(0,0,256,128);
+cx.fillStyle = '#ff3b3b'; cx.font = 'bold 84px monospace'; cx.textAlign = 'center'; cx.textBaseline = 'middle'; cx.fillText('7:00',128,68);
+const clockTex = new THREE.CanvasTexture(cv); clockTex.colorSpace = THREE.SRGBColorSpace;
+const clock = part(new THREE.BoxGeometry(0.28,0.14,0.12), '#1E2A30'); clock.position.set(1.24,0.67,-0.32); clock.rotation.y = -0.35; scene.add(clock);
+const clockFace = new THREE.Mesh(new THREE.PlaneGeometry(0.24,0.11), new THREE.MeshBasicMaterial({map:clockTex})); clockFace.position.set(0,0,0.061); clock.add(clockFace);
+// phone
+const phone = new THREE.Group();
+const pbody = part(new THREE.BoxGeometry(0.12,0.022,0.22), '#1E2A30'); phone.add(pbody);
+const pscreen = new THREE.Mesh(new THREE.PlaneGeometry(0.1,0.19), new THREE.MeshBasicMaterial({color:'#7EC4F0'})); pscreen.rotation.x = -Math.PI/2; pscreen.position.y = 0.012; phone.add(pscreen);
+phone.position.set(0.98,0.612,-0.05); phone.rotation.y = 0.3; scene.add(phone);
+// sparkles
+const sparkles = [];
+for (let i=0;i<16;i++){
+  const m = new THREE.Mesh(new THREE.SphereGeometry(0.022,8,6), new THREE.MeshBasicMaterial({color: i%3===0?'#E8B53A':'#ffffff', transparent:true}));
+  const a = i/16*Math.PI*2, el = (i%4)/4*1.2 - 0.2;
+  m.userData.dir = new THREE.Vector3(Math.cos(a)*Math.cos(el), Math.sin(el)+0.5, Math.sin(a)*Math.cos(el)).normalize();
+  m.visible = false; scene.add(m); sparkles.push(m);
+}
+
+// ---------- character ----------
+function makeHero({hoodie=P.mustard, pants=P.navy} = {}) {
+  const root = new THREE.Group();
+  const upper = new THREE.Group(); root.add(upper);
+  const hips = part(new THREE.CylinderGeometry(0.25,0.24,0.14,32), pants); hips.scale.z = 0.75; upper.add(hips);
+  const torso = part(new THREE.CylinderGeometry(0.25,0.28,0.62,32), hoodie); torso.scale.z = 0.75; torso.position.y = 0.35; upper.add(torso);
+  const shoulders = part(new THREE.SphereGeometry(0.25,32,16,0,Math.PI*2,0,Math.PI/2), hoodie); shoulders.scale.set(1,0.42,0.75); shoulders.position.y = 0.66; upper.add(shoulders);
+  const hem = part(new THREE.TorusGeometry(0.27,0.035,10,40), new THREE.Color(hoodie).multiplyScalar(0.9)); hem.rotation.x = Math.PI/2; hem.scale.y = 0.75; hem.position.y = 0.05; upper.add(hem);
+  const collar = part(new THREE.TorusGeometry(0.17,0.07,12,32), hoodie); collar.rotation.x = Math.PI/2; collar.position.y = 0.68; upper.add(collar);
+  const hood = part(new THREE.SphereGeometry(1,24,16), hoodie); hood.scale.set(0.24,0.2,0.12); hood.position.set(0,0.61,-0.24); upper.add(hood);
+  const pocket = part(new THREE.BoxGeometry(0.3,0.13,0.03), new THREE.Color(hoodie).multiplyScalar(0.85), {outline:false}); pocket.position.set(0,0.2,0.205); upper.add(pocket);
+  for (const sx of [-0.06,0.06]) { const s = part(new THREE.CylinderGeometry(0.011,0.011,0.18,8), P.head, {outline:false}); s.position.set(sx,0.56,0.21); upper.add(s); }
+  const arms = {};
+  for (const sx of [-1,1]) {
+    const arm = new THREE.Group();
+    const sleeve = part(new THREE.CapsuleGeometry(0.075,0.34,8,16), hoodie); sleeve.position.y = -0.22; arm.add(sleeve);
+    const hand = part(new THREE.SphereGeometry(0.085,20,14), P.head); hand.position.y = -0.5; arm.add(hand);
+    arm.position.set(sx*0.29,0.6,0); upper.add(arm);
+    arms[sx] = arm;
+  }
+  // head
+  const headPivot = new THREE.Group(); headPivot.position.y = 0.68; upper.add(headPivot);
+  const neck = part(new THREE.CylinderGeometry(0.045,0.045,0.24,12), P.head); neck.position.y = 0.12; headPivot.add(neck);
+  const HR = 0.42;
+  const hc = new THREE.Group(); hc.position.y = 0.62; headPivot.add(hc);
+  hc.add(part(new THREE.SphereGeometry(HR,48,32), P.head));
+  const inkMat = new THREE.MeshBasicMaterial({color:P.ink});
+  const onFace = (mesh, x, y, spin=0) => {
+    const z = Math.sqrt(HR*HR - x*x - y*y);
+    mesh.position.set(x, y, z + 0.004); mesh.lookAt(x*3, y*3, z*3); mesh.rotateZ(spin); hc.add(mesh); return mesh;
+  };
+  const face = {dash:[], wide:[], line:null, o:null};
+  for (const sx of [-1,1]) {
+    face.dash.push(onFace(new THREE.Mesh(new THREE.CapsuleGeometry(0.014,0.07,4,8), inkMat), sx*0.14, 0.05, Math.PI/2));
+    const w = new THREE.Group();
+    const e = new THREE.Mesh(new THREE.CircleGeometry(0.045,24), inkMat); w.add(e);
+    const hl = new THREE.Mesh(new THREE.CircleGeometry(0.013,12), new THREE.MeshBasicMaterial({color:'#ffffff'})); hl.position.set(0.014,0.016,0.001); w.add(hl);
+    face.wide.push(onFace(w, sx*0.14, 0.06));
+  }
+  face.line = onFace(new THREE.Mesh(new THREE.CapsuleGeometry(0.01,0.045,4,8), inkMat), 0, -0.1, Math.PI/2);
+  face.o = onFace(new THREE.Mesh(new THREE.RingGeometry(0.018,0.034,20), inkMat), 0, -0.12);
+  // legs
+  const legs = {};
+  for (const sx of [-1,1]) {
+    const hip = new THREE.Group(); hip.position.set(sx*0.12,0,0); root.add(hip);
+    const thigh = part(new THREE.CylinderGeometry(0.075,0.073,0.3,16), pants); thigh.position.y = -0.15; hip.add(thigh);
+    const knee = new THREE.Group(); knee.position.y = -0.3; hip.add(knee);
+    const shin = part(new THREE.CylinderGeometry(0.073,0.07,0.28,16), pants); shin.position.y = -0.14; knee.add(shin);
+    const ankle = part(new THREE.CylinderGeometry(0.045,0.045,0.06,12), P.head); ankle.position.y = -0.3; knee.add(ankle);
+    const foot = part(new THREE.CapsuleGeometry(0.075,0.1,6,16), P.head); foot.rotation.x = Math.PI/2; foot.position.set(0,-0.345,0.05); knee.add(foot);
+    legs[sx] = {hip, knee};
+  }
+  return {root, upper, arms, headPivot, hc, face, legs};
+}
+const hero = makeHero(); scene.add(hero.root);
+function setFace(eyes, mouth, blink=1) {
+  hero.face.dash.forEach(m=>{ m.visible = eyes==='dash'; m.scale.set(1,1,1); });
+  hero.face.wide.forEach(m=>{ m.visible = eyes==='wide'; m.scale.set(1, Math.max(0.08,blink), 1); });
+  if (eyes==='dash' && blink<1) hero.face.dash.forEach(m=>m.scale.set(1,1,1));
+  hero.face.line.visible = mouth==='line'; hero.face.o.visible = mouth==='o';
+}
+
+// ---------- overlay ----------
+const hotbar = document.getElementById('hotbar');
+const slots = [];
+for (let i=0;i<9;i++){ const s=document.createElement('div'); s.className='slot'+(i===0?' sel':''); hotbar.appendChild(s); slots.push(s); }
+const count = document.createElement('div'); count.className='count'; count.textContent='1'; slots[0].appendChild(count);
+const icon = document.getElementById('icon');
+const title = document.getElementById('title');
+const caption = document.getElementById('caption');
+const fx = document.getElementById('fx');
+const bokeh = [];
+for (let i=0;i<14;i++){
+  const b=document.createElement('div'); b.className='bokeh';
+  const r = 18 + (i*37)%46; b.style.width=b.style.height=r+'px';
+  b.style.background = i%3===0 ? 'rgba(255,200,140,.28)' : (i%3===1 ? 'rgba(255,170,200,.22)' : 'rgba(200,190,255,.22)');
+  b.userData = {x:(i*263)%1920, y:120+(i*151)%700, s:0.6+(i%5)*0.25}; fx.appendChild(b); bokeh.push(b);
+}
+const z1 = document.getElementById('z1'), z2 = document.getElementById('z2');
+const CAPTIONS = [
+  [0.25, 2.95, 'You wake up…'],
+  [3.0, 4.8, '…and there’s a row of little boxes floating in front of you.'],
+  [4.8, 6.2, 'You blink. Still there.'],
+  [6.2, 7.9, 'You touch your phone and think, <em>“take.”</em>'],
+  [7.9, 10.01, 'It’s gone. It’s in <em>slot one.</em>'],
+];
+const camera = new THREE.PerspectiveCamera(32, W/H, 0.05, 50);
+const v3 = new THREE.Vector3();
+function toScreen(obj, off=new THREE.Vector3()) {
+  obj.updateMatrixWorld(true);
+  v3.copy(off).applyMatrix4(obj.matrixWorld).project(camera);
+  return {x:(v3.x*0.5+0.5)*W, y:(-v3.y*0.5+0.5)*H};
+}
+
+// ---------- timeline ----------
+window.render = function(t) {
+  // --- body pose ---
+  const sitUp = ease(seg(t, 1.0, 2.0));
+  hero.root.position.set(0, lerp(0.77, 0.645, sitUp), -0.1);
+  let upperX = lerp(-Math.PI/2, 0, sitUp);
+  // startle recoil when the hotbar appears
+  upperX += -0.13 * Math.sin(Math.PI * seg(t, 3.12, 3.5));
+  // lean toward phone
+  const reach = ease(seg(t, 6.55, 7.4)) * (1 - ease(seg(t, 8.15, 8.75)));
+  hero.upper.rotation.set(upperX, 0, -0.45 * reach);
+  for (const sx of [-1,1]) { hero.legs[sx].hip.rotation.x = -Math.PI/2; hero.legs[sx].knee.rotation.x = 0; }
+  // arms: rest, stretch (2.1-2.9), reach (left arm, +x)
+  const stretch = ease(seg(t, 2.05, 2.45)) * (1 - ease(seg(t, 2.65, 2.95)));
+  for (const sx of [-1,1]) {
+    let z = sx*0.2;
+    z = lerp(z, sx*2.75, stretch);
+    if (sx === 1) z = lerp(z, 1.2, reach);
+    const breathe = 0.03*Math.sin(t*2.2 + sx);
+    hero.arms[sx].rotation.set(0.05 + (sx===1 ? -0.1*reach : 0), 0, z + breathe*(1-reach));
+  }
+  // head: turn to phone, then back
+  const look = ease(seg(t, 6.2, 6.75)) * (1 - ease(seg(t, 8.55, 9.1)));
+  hero.headPivot.rotation.set(0.28*look + 0.04*Math.sin(t*1.7)*(t>2?1:0), 0.62*look, 0.12*stretch);
+  // face
+  let eyes='dash', mouth='line', blink=1;
+  if (t >= 3.15 && t < 5.7) { eyes='wide'; mouth = t < 4.4 ? 'o' : 'line'; }
+  for (const [b0] of [[5.0],[5.42]]) { if (t>=b0 && t<b0+0.16) { blink = Math.abs(Math.cos(Math.PI*seg(t,b0,b0+0.16))); } }
+  if (t >= 8.05 && t < 9.15) { eyes='wide'; mouth='o'; }
+  setFace(eyes, mouth, blink);
+  // blanket follows sit-up
+  setBlanket(lerp(-1.02, -0.18, sitUp), 0.74, lerp(0.47, 0.32, sitUp));
+
+  // --- phone + sparkles ---
+  const vanish = seg(t, 7.75, 8.05);
+  phone.visible = t < 8.05;
+  phone.scale.setScalar(1 - ease(vanish)*0.95);
+  phone.position.y = 0.612 + 0.08*ease(vanish);
+  const sp = seg(t, 7.72, 8.35);
+  sparkles.forEach((m,i)=>{
+    m.visible = sp>0 && sp<1;
+    const d = 0.05 + 0.38*Math.pow(sp,0.6)*(0.7+0.3*((i*7)%5)/5);
+    m.position.set(0.98,0.65,-0.05).addScaledVector(m.userData.dir, d);
+    m.material.opacity = 1 - sp; m.scale.setScalar(1 - 0.6*sp);
+  });
+
+  // --- camera: A wide (0-3), B medium (3-4.8), C face close-up (4.8-6.2), D medium + nightstand (6.2-10) ---
+  const shot = (p0, p1, look, a0, a1) => {
+    const k = ease(seg(t, a0, a1));
+    camera.position.set(lerp(p0[0],p1[0],k), lerp(p0[1],p1[1],k), lerp(p0[2],p1[2],k));
+    camera.lookAt(look[0], look[1], look[2]);
+  };
+  if (t < 3.0)      shot([3.3,3.0,3.7], [3.0,2.75,3.35], [0.1,1.0,-0.8], 0, 3.0);
+  else if (t < 4.8) shot([0.75,1.7,3.9], [0.7,1.68,3.6], [0.35,1.45,-0.1], 3.0, 4.8);
+  else if (t < 6.2) shot([0.05,1.98,1.45], [0.05,1.97,1.3], [0.0,1.92,-0.1], 4.8, 6.2);
+  else              shot([1.15,1.6,4.6], [1.1,1.58,4.3], [0.55,1.15,-0.15], 6.2, 10.0);
+  if (t >= 3.0 && t < 3.4) camera.position.x += 0.012*Math.sin(t*90)*(1-seg(t,3.0,3.4));
+  camera.updateMatrixWorld();
+  renderer.render(scene, camera);
+
+  // --- overlay ---
+  const tIn = easeOutBack(seg(t, 3.0, 3.35));
+  title.style.opacity = t>=3.0 ? 1 : 0;
+  title.style.transform = `scale(${t>=3.0? tIn : 0})`;
+  slots.forEach((s,i)=>{
+    const a = 3.0 + i*0.05;
+    const k = easeOutBack(seg(t, a, a+0.3));
+    s.style.transform = `translateY(${(1-k)*40}px) scale(${Math.max(0,k)})`;
+    s.style.opacity = t>=a ? 1 : 0;
+  });
+  // slot-1 bounce when the phone lands
+  if (t >= 8.45) { const b = Math.sin(Math.PI*seg(t,8.45,8.7)); slots[0].style.transform = `scale(${1+0.18*b})`; }
+  count.style.opacity = t >= 8.45 ? 1 : 0;
+  // phone icon flight
+  const fly = seg(t, 8.0, 8.45);
+  if (t >= 7.98) {
+    const from = toScreen(phone.parent === scene ? phone : phone, new THREE.Vector3(0,0,0));
+    const r = slots[0].getBoundingClientRect();
+    const to = {x:r.left + r.width/2, y:r.top + r.height/2};
+    const e = ease(fly);
+    const x = lerp(from.x, to.x, e), y = lerp(from.y, to.y, e) - 160*Math.sin(Math.PI*e);
+    const sc = lerp(0.6, 1.0, e);
+    icon.style.display = 'block';
+    icon.style.transform = `translate(${x-30}px, ${y-30}px) scale(${sc}) rotate(${(1-e)*-25}deg)`;
+  } else icon.style.display = 'none';
+  // captions
+  const c = CAPTIONS.find(([a,b])=>t>=a && t<b);
+  caption.innerHTML = c ? c[2] : '';
+  caption.style.opacity = c ? clamp(seg(t, c[0], c[0]+0.12)) : 0;
+  // sleepy z's
+  const hs = toScreen(hero.hc, new THREE.Vector3(0.1, 0.35, 0));
+  [[z1,0],[z2,0.45]].forEach(([el,off])=>{
+    const p = ((t + off) % 0.9)/0.9;
+    const show = t < 1.05;
+    el.style.opacity = show ? (1-p) : 0;
+    el.style.transform = `translate(${hs.x + 20 + p*40}px, ${hs.y - 40 - p*70}px) scale(${0.7+p*0.6})`;
+  });
+  // drifting bokeh
+  bokeh.forEach((b,i)=>{
+    const u = b.userData;
+    b.style.transform = `translate(${(u.x + t*14*u.s)%1920}px, ${u.y + 10*Math.sin(t*0.8+i)}px)`;
+    b.style.opacity = 0.9;
+  });
+  return true;
+};
+window.__ready = true;
+</script>
+</body></html>
