@@ -1,125 +1,91 @@
-# Style guide: "Toy Box"
+# Style guide
 
-The channel's own look. It belongs to the same genre as the reference channel (cute 3D,
-one simple hero, film-style camera work), but every visible choice is different, so a viewer
-scrolling past knows within a second whose video it is.
+**Rule: same 3D look as the reference channel. Only the clothes change color.**
 
-![Sprout model sheet](img/sprout-model-sheet.png)
+![Model sheet](img/model-sheet.png)
 
-![Toy Box style test](img/toybox-style-test.png)
+![Style test](img/style-test.png)
 
-These two images are rough 3D renders of the design. They're there to lock in Sprout's shape
-and colors, not to show final quality. You can upload the model sheet straight to your image
-generator as the character reference. To re-render them after a change, see
-[`render/README.md`](render/README.md).
+These two images are rough 3D renders that lock in the design and colors. They aren't meant to
+show final quality. Upload `img/model-sheet.png` to your image generator as the character
+reference. To try different colors, see [`render/README.md`](render/README.md).
 
-## Reference vs ours
+## What stays the same as the reference
 
-| | Reference channel | **Ours: Toy Box** |
+- **Characters:** a big white ball head on a thin white stick neck. The face is drawn in
+  simple black lines: dash eyes for neutral, curved closed eyes with pink blush for happy,
+  half-closed eyes for smug. Thin white arms, white ball hands, rounded white shoes.
+- **Clothes:** a chunky hoodie with a hood, a front pocket and white drawstrings.
+- **Rendering:** toon/cel shading with thin dark outlines.
+- **Sets:** simple low-poly shapes, like rounded cone trees, blocky lockers and beds.
+- **Lighting:** dusky purple and pink, warm glowing lamps and string lights, soft bokeh.
+- **Camera:** like a film, with high wide shots, big face close-ups and low angles.
+
+## What changes: the clothes
+
+### The hero, "Mustard"
+
+The viewer's stand-in, in every video:
+
+| Item | Color | Hex |
 |---|---|---|
-| **Character shape** | White ball head on a thin stick neck and stick limbs | **One-piece bean body**: no neck, head and body are one soft capsule, with short stubby arms and legs |
-| **Face** | Drawn black lines: dash eyes, tiny mouth | **Big glossy oval eyes** with white highlights, small simple mouth, printed on like a toy |
-| **Material** | Toon-shaded with thin black outlines | **Soft matte vinyl and clay**, rounded edges, **no outlines** |
-| **World** | Low-poly blocky sets | **Miniature diorama**: tabletop-model sets with puffball trees and tilt-shift blur |
-| **Palette** | Dusky purple and pink | **Sherbet daylight**: mint, peach, butter yellow, sky blue. Night is deep teal, never purple. |
-| **Crowd** | Everyone is white | **Everyone else has a pastel body color**, so cream-colored Sprout always stands out |
-| **On-screen labels** | Gold serif text on a dark pill | **Sticker labels**: white rounded stickers with a thick ink border, slightly tilted, that pop in with a bounce |
+| Hoodie | Mustard yellow | `#E8B53A` |
+| Pants | Dark navy | `#2E3A59` |
+| Shoes | White | `#F4F1EA` |
 
-## The hero: Sprout
+The reference hero wears a blue hoodie with bare white legs. Ours has a **mustard hoodie and
+navy pants**, so Mustard is recognizable in a crowd shot and on every thumbnail. No other
+character ever wears this combination.
 
-- **Body:** soft cream bean, about 1.6 times as tall as it is wide. Sprout is the only cream
-  character in the whole world.
-- **Eyes:** two big glossy black ovals in the upper third of the body, with one white highlight each.
-- **Mouth:** a small simple curve. Expressions come from the eyes and mouth only: no eyebrows,
-  no nose.
-- **Signature 1:** a **two-leaf green sprout** on top. It droops when Sprout is sad and perks up
-  when Sprout is excited, which gives you a free emotion cue in every shot.
-- **Signature 2:** an **oversized mustard-yellow hoodie**, sleeves too long, with a front pocket.
-- **Arms and legs:** short rounded nubs with no fingers. Sprout holds things like a toy would.
+### The supporting cast
 
-**Supporting cast:** the same bean body in mint, peach, lilac or sky blue. Tell them apart
-by hair tufts, hats, glasses and clothes. Parents are taller beans; little siblings are
-shorter and rounder.
+The same body as the hero, with their own outfit colors plus hair or hats. Some combinations to use:
 
-## Palette
+| Hoodie | Pants |
+|---|---|
+| Coral `#FF6B5B` | Light denim `#8FB4D9` |
+| Mint `#7FD1B9` | Charcoal `#3A3A42` |
+| Lilac `#B9A3E3` | Khaki `#CDB48A` |
+| Sky blue `#7EC4F0` | Black `#1E2A30` |
+| Cherry red `#D94A4A` | Grey `#9AA0A6` |
 
-| Use | Color | Hex |
-|---|---|---|
-| Sprout's body | Cream | `#F6EFE3` |
-| Signature hoodie | Mustard | `#E8B53A` |
-| Sprout's leaves | Leaf green | `#6CC24A` |
-| Daytime sky and backgrounds | Sky blue | `#9FD3F0` |
-| Cast and sets | Mint | `#A8E6CF` |
-| Cast and sets | Peach | `#FFC8A8` |
-| Cast and sets | Lilac | `#CDB8F0` |
-| Cast and sets | Butter | `#FFE8A3` |
-| Night and tension | Deep teal | `#1E4E5F` |
-| Warnings and danger labels | Coral | `#FF6B5B` |
-| Text outlines and sticker borders | Ink | `#2B2B3A` |
+Give each recurring character (mom, best friend, rival) one fixed outfit and keep it in
+every video, just like the hero.
 
-### The color arc
+## On-screen labels and captions
 
-The palette follows the structure of the script, so viewers can *feel* the turn before the
-narrator says it:
-
-- **Hook, rules, fun part:** full sherbet daylight, bright and saturated.
-- **The cost:** the same sets get cooler and slightly desaturated, with teal creeping into the
-  shadows.
-- **The choice:** deep teal night, lit only by warm gold lamps and the glowing UI.
-
-## Graphics and captions
-
-- **Font:** [Fredoka](https://fonts.google.com/specimen/Fredoka), Bold or SemiBold. It's free,
-  rounded and matches the toy look. Use it for every label, caption and thumbnail.
-- **Captions:** white text with a thick ink outline, 2–5 words at a time, centered in the lower third.
-  Color the key word mustard. Warning words like "FULL" or "DANGER" go in coral.
-- **Sticker labels** for game terms ("+1 PENCIL", "x64", "INVENTORY FULL"): a white rounded
-  rectangle with a 6 px ink border, tilted about −3°, with a soft drop shadow. They pop in
-  with a quick overshoot bounce and a "pop" sound.
-- **Game UI** (hotbars, grids, health bars): the same sticker treatment, white rounded slots
-  with ink borders, so it looks like part of the toy world instead of a real game's menu.
-
-## Camera
-
-- **Wide shots** use strong tilt-shift, so the world looks like a tabletop model.
-- **Close-ups** sit at Sprout's eye level, with the background melting into soft bokeh.
-- **One "toy moment" per video:** the camera pulls back to show the whole scene is a diorama
-  on a table. Save it for the biggest beat. In Script 01 that's the cafeteria explosion.
+- **Labels** for game terms ("x64", "INVENTORY FULL"): a navy pill `#2E3A59` with mustard
+  `#E8B53A` bold text, placed in a top corner. The hero's colors carry over into the graphics.
+- **Captions:** white text with a dark outline in the lower third, a few words at a time.
+- **Font:** [Fredoka](https://fonts.google.com/specimen/Fredoka) Bold. It's free and rounded.
 
 ## Thumbnails
 
-Sprout's face fills about 40% of the frame with a huge expression and the sprout reacting.
-Add the one rule graphic as a sticker, three words at most in Fredoka with an ink outline,
-and a single bright background color from the palette. Use a different background color
-for each video so the channel page looks like a row of candy.
+Mustard's face big in the frame with a strong expression, the mustard hoodie clearly visible,
+the one rule graphic as a navy and mustard label, and three words at most.
 
 ## Prompt building blocks
 
-Every scene prompt is **CHARACTER + scene + PALETTE + STYLE**. These blocks are already
+Every scene prompt is **CHARACTER + scene + LIGHTING + STYLE**. These blocks are already
 filled in for Script 01 in [`prompts/01-inventory-in-real-life-visuals.txt`](prompts/01-inventory-in-real-life-visuals.txt).
 
-**CHARACTER**
+**CHARACTER (Mustard)**
 ```
-cute 3D vinyl-toy character: a soft cream-colored bean-shaped body with no neck (head and body are one rounded capsule), short stubby arms and legs, big glossy black oval eyes with white highlights and a small simple mouth printed on the front, a small two-leaf green sprout growing from the top, wearing an oversized mustard-yellow hoodie with long sleeves
+3D stick-figure character: large perfectly round smooth white sphere head, simple black hand-drawn face with small line eyes and a tiny mouth, thin white cylinder neck, round white ball hands, wearing a chunky mustard-yellow hoodie with a front pocket and white drawstrings, dark navy pants, small rounded white shoes
 ```
 
-**PALETTE** (pick the one for that part of the script)
+**LIGHTING** (pick the one for that part of the script)
 ```
-Day:     bright sherbet pastel palette of mint, peach, butter yellow and sky blue
-Turning: cooler slightly desaturated pastel palette with teal shadows
-Night:   deep teal night palette with warm gold lamp light
+Day:     soft lavender daylight with pink highlights
+Evening: dusky purple and pink evening light
+Night:   dark purple night lit by warm glowing lamps
 ```
 
 **STYLE**
 ```
-miniature diorama world, soft matte vinyl and clay toy materials, rounded chunky shapes, tilt-shift depth of field, soft diffused light with gentle contact shadows, high quality 3D render, no text --ar 16:9 --no outlines, stick figure, neck, purple
+stylized low-poly 3D animation, cel-shaded with thin dark outlines, simple rounded set pieces, soft pastel colors, warm glowing practical lights, gentle bokeh, shallow depth of field, cinematic camera angle, no text --ar 16:9
 ```
 
-`--no` keeps the generator away from the reference channel's look. In generators without
-`--no`, put those words in the negative-prompt box.
-
-**Lock the character first.** Upload [`img/sprout-model-sheet.png`](img/sprout-model-sheet.png)
-as the character reference, then generate 4–8 images of Sprout alone on a plain sky-blue
-background (prompts REF-A to REF-C at the bottom of the prompt pack). Pick the best one, save it
-as `sprout-reference.png`, and use that same image as the reference for every scene in every
-video. The character only stays consistent if you always use the same reference image.
+**Lock the character first.** Upload `img/model-sheet.png` as the character reference and
+generate REF-A to REF-C from the bottom of the prompt pack. Pick the best image, save it as
+`hero-reference.png`, and use that same image as the reference for every scene in every video.

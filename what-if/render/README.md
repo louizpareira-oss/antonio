@@ -1,7 +1,7 @@
-# Sprout render
+# Character render
 
-Draws Sprout and the Toy Box test scene in 3D with three.js and saves two PNGs. Use it to try a
-new hoodie color, body shape or palette before you change every prompt.
+Draws the hero (Mustard) and a test scene in 3D with three.js and saves two PNGs. Use it to
+try new outfit colors before you change every prompt.
 
 Run these from this folder:
 
@@ -13,6 +13,6 @@ npm init -y && npm install three@0.160.0
 node shot.js
 ```
 
-That writes `sprout-turnaround.png` and `sprout-scene.png` here. Colors are set in
-`makeBean()` in `sprout.html`: `body`, `hoodie`, `hair` and `cap`. `shot.js` needs Playwright
-installed.
+That writes `render-sheet.png` and `render-scene.png` here. Outfit colors are at the top of
+`character.html` in the `P` object. Each person is made with `makePerson({hoodie, pants, hair,
+beanie, mood})`, where `mood` is `'flat'` or `'happy'`. `shot.js` needs Playwright installed.

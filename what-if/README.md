@@ -1,16 +1,16 @@
 # What If: faceless YouTube channel
 
 A cute-cartoon "what if this happened to you" channel aimed at young viewers, especially gamers.
-It's the same genre as the hypothetical-animation channels doing well right now. The topics,
-scripts, character and jokes here are all original, and that's what keeps the channel monetizable
-(see the last section).
+It uses the same 3D look as the reference channel, with our own outfit colors. The topics,
+scripts and jokes are all original, and that's what keeps the channel monetizable (see the last
+section).
 
 ## Files
 
 | File | What it is |
 |---|---|
 | [`01-topics.md`](01-topics.md) | 10 topics, each with its rule, 3 titles and why it should get clicks. Includes the order to make them in. |
-| [`02-style-guide.md`](02-style-guide.md) | The channel's own visual style ("Toy Box"): the character, palette, font, labels, camera and thumbnails. |
+| [`02-style-guide.md`](02-style-guide.md) | The look: same 3D style as the reference, with our own outfit colors. Includes the model sheet, colors, labels and thumbnails. |
 | [`scripts/01-inventory-in-real-life.md`](scripts/01-inventory-in-real-life.md) | Full ~10-minute script with a visual note on every line. |
 | [`prompts/01-inventory-in-real-life-visuals.txt`](prompts/01-inventory-in-real-life-visuals.txt) | 45 copy-paste image prompts, one per scene, plus what to overlay in the edit. |
 
@@ -42,14 +42,11 @@ At 1,300–1,600 words, the voiceover runs about 9:30–10:00 at a normal-to-sli
 
 ## The character and look
 
-The channel has its own style, **"Toy Box"**: soft vinyl-toy characters in a miniature
-diorama world, with sherbet colors by day and deep teal by night. The hero is **Sprout**, a
-cream-colored bean with big glossy eyes, a mustard-yellow hoodie and a two-leaf sprout on top.
-Everyone else is a pastel bean.
-
-It's deliberately different from the reference channel on every visible point: body shape,
-face, materials, palette and graphics. The full rules, hex colors, font, sticker-label
-style and prompt blocks are in [`02-style-guide.md`](02-style-guide.md).
+The look is the same as the reference channel: big white ball heads on stick bodies,
+toon-shaded 3D, dusky purple and pink lighting. **Only the clothes change.** The hero,
+**Mustard**, always wears a mustard-yellow hoodie and dark navy pants, and the supporting cast
+each have their own fixed outfit colors. The model sheet, color codes, label style and prompt
+blocks are in [`02-style-guide.md`](02-style-guide.md).
 
 ## Voiceover (ElevenLabs)
 
@@ -70,20 +67,20 @@ listings and haven't listened to them, so play the previews before you choose:
 - **Generate one script section at a time, not all 10 minutes at once.** It's easier to redo
   one line, and the energy stays even across the video.
 - Once you've picked a voice and these settings, keep them for every video. The narrator's voice
-  is part of the brand, just like Sprout.
+  is part of the brand, just like Mustard's hoodie.
 
 ## Making one video
 
 1. Pick the next topic from `01-topics.md` and write the script, keeping the rules list at the top.
 2. Record or generate the voiceover section by section.
-3. Generate the scene images. Use the same `sprout-reference.png` as the character reference
+3. Generate the scene images. Use the same `hero-reference.png` as the character reference
    every time (see the style guide).
 4. Run the images through image-to-video for 3–5 second clips, aiming for a new shot every 4–6
    seconds.
 5. Edit: voiceover, then clips, then UI overlays, sound effects, and music kept quiet under
    the voice.
-6. Thumbnail: Sprout's face showing a big emotion, the one rule graphic as a sticker, three words
-   at most, and a single bright background color (style guide, "Thumbnails").
+6. Thumbnail: Mustard's face showing a big emotion, the mustard hoodie visible, the one rule
+   graphic as a label, and three words at most.
 
 ## Staying monetizable on YouTube
 
@@ -97,8 +94,7 @@ channels rejected is when *everything* about the videos is generic.
 What keeps this channel on the right side of that rule:
 - **Original scripts.** Every script is written for this channel, with no reworded scripts
   from other channels.
-- **An original style and recurring character** (Toy Box and Sprout), not a lookalike of the
-  reference channel.
+- **A recurring hero with a fixed look** (Mustard, in the mustard hoodie and navy pants).
 - **Real editing:** custom UI overlays, timed sound effects, and a new shot every few seconds.
   Not a slideshow of still images under a voiceover.
 - **Don't reuse the source channel's titles or topics.** `01-topics.md` lists the ones to avoid.

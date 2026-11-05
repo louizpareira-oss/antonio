@@ -1,0 +1,194 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>
+  :root{--ink:#1E2A30;--teal:#2E3A59;--amber:#FFB347}
+  html,body{margin:0;overflow:hidden;font-family:"Fredoka","Nunito","Arial Rounded MT Bold","Helvetica Neue",Arial,sans-serif}
+  body.sheet{background:#B9AED6}
+  body.scene{background:linear-gradient(180deg,#5E4E86 0%,#8E7BB0 35%,#C99BBE 65%,#E8A9B8 100%)}
+  canvas{display:block}
+  .pill{position:absolute;background:var(--teal);color:var(--amber);border-radius:999px;font-weight:800;letter-spacing:.04em;box-shadow:0 5px 0 rgba(30,42,48,.25)}
+  .title{top:26px;left:36px;padding:10px 26px;font-size:34px}
+  .labels{position:absolute;left:0;right:0;bottom:118px;display:flex;justify-content:space-around;padding:0 90px}
+  .labels .pill{position:static;padding:6px 20px;font-size:22px}
+  .swatches{position:absolute;left:36px;right:36px;bottom:24px;display:flex;gap:10px}
+  .sw{flex:1;height:70px;border-radius:14px;display:flex;align-items:flex-end;padding:6px 10px;box-sizing:border-box;font-size:13px;font-weight:700;color:#1E2A30;box-shadow:inset 0 0 0 3px rgba(30,42,48,.15)}
+  .sw.dark{color:#fff}
+</style></head>
+<body>
+<div class="pill title" id="title"></div>
+<div class="labels" id="labels"></div>
+<div class="swatches" id="swatches"></div>
+<script src="node_modules/three/build/three.min.js"></script>
+<script>
+const MODE = new URLSearchParams(location.search).get('mode') || 'sheet';
+document.body.className = MODE === 'sheet' ? 'sheet' : 'scene';
+const W = 1600, H = 900;
+const renderer = new THREE.WebGLRenderer({antialias:true, alpha:true, preserveDrawingBuffer:true});
+renderer.setPixelRatio(1); renderer.setSize(W, H); renderer.setClearColor(0x000000, 0);
+renderer.shadowMap.enabled = true; renderer.shadowMap.type = THREE.PCFSoftShadowMap;
+renderer.outputColorSpace = THREE.SRGBColorSpace;
+document.body.appendChild(renderer.domElement);
+const scene = new THREE.Scene();
+
+// palette ("Teal Hour")
+const P = {
+  head:'#F4F1EA', ink:'#1E2A30', amber:'#FFB347', brown:'#6B4A35', blush:'#F4A3A8',
+  // our clothing colors
+  mustard:'#E8B53A', navy:'#2E3A59', coral:'#FF6B5B', denim:'#8FB4D9', mint:'#7FD1B9', charcoal:'#3A3A42',
+  // reference-style world
+  skyTop:'#8E7BB0', skyLow:'#E8A9B8', grass:'#7E8F7A', walk:'#C9A6B0', treeA:'#B98C9C', treeB:'#9E7790', bench:'#6C5A8E'
+};
+
+// 3-step toon ramp
+const ramp = new Uint8Array([90, 170, 255]);
+const gradientMap = new THREE.DataTexture(ramp, ramp.length, 1, THREE.RedFormat);
+gradientMap.minFilter = gradientMap.magFilter = THREE.NearestFilter; gradientMap.needsUpdate = true;
+const toon = c => new THREE.MeshToonMaterial({color:c, gradientMap});
+
+const outlineMat = new THREE.ShaderMaterial({
+  uniforms:{ink:{value:new THREE.Color(P.ink)}, t:{value:0.014}},
+  vertexShader:`uniform float t; void main(){ vec3 p = position + normal * t; gl_Position = projectionMatrix * modelViewMatrix * vec4(p,1.0); }`,
+  fragmentShader:`uniform vec3 ink; void main(){ gl_FragColor = vec4(ink,1.0); }`,
+  side:THREE.BackSide
+});
+function part(geo, color, {outline=true, shadow=true} = {}) {
+  const g = new THREE.Group();
+  const m = new THREE.Mesh(geo, toon(color)); m.castShadow = shadow; g.add(m);
+  if (outline) g.add(new THREE.Mesh(geo, outlineMat));
+  return g;
+}
+
+function makePerson({hoodie=P.mustard, pants=P.navy, hair=null, beanie=null, mood='flat'} = {}) {
+  const g = new THREE.Group();
+  // legs + feet
+  for (const sx of [-1,1]) {
+    const leg = part(new THREE.CylinderGeometry(0.075, 0.07, 0.6, 16), pants);
+    leg.position.set(sx*0.12, 0.42, 0); g.add(leg);
+    const ankle = part(new THREE.CylinderGeometry(0.045, 0.045, 0.1, 12), P.head);
+    ankle.position.set(sx*0.12, 0.12, 0); g.add(ankle);
+    const foot = part(new THREE.CapsuleGeometry(0.075, 0.1, 6, 16), P.head);
+    foot.rotation.x = Math.PI/2; foot.position.set(sx*0.12, 0.075, 0.05); g.add(foot);
+  }
+  const hips = part(new THREE.CylinderGeometry(0.25, 0.24, 0.14, 32), pants);
+  hips.scale.z = 0.75; hips.position.y = 0.72; g.add(hips);
+  // hoodie torso (straight, slightly flared)
+  const torso = part(new THREE.CylinderGeometry(0.25, 0.28, 0.62, 32), hoodie);
+  torso.scale.z = 0.75; torso.position.y = 1.07; g.add(torso);
+  const shoulders = part(new THREE.SphereGeometry(0.25, 32, 16, 0, Math.PI*2, 0, Math.PI/2), hoodie);
+  shoulders.scale.set(1, 0.42, 0.75); shoulders.position.y = 1.38; g.add(shoulders);
+  const hem = part(new THREE.TorusGeometry(0.27, 0.035, 10, 40), new THREE.Color(hoodie).multiplyScalar(0.9));
+  hem.rotation.x = Math.PI/2; hem.scale.y = 0.75; hem.position.y = 0.77; g.add(hem);
+  const collar = part(new THREE.TorusGeometry(0.17, 0.07, 12, 32), hoodie);
+  collar.rotation.x = Math.PI/2; collar.position.y = 1.4; g.add(collar);
+  const hood = part(new THREE.SphereGeometry(1, 24, 16), hoodie);
+  hood.scale.set(0.24, 0.2, 0.12); hood.position.set(0, 1.33, -0.24); g.add(hood);
+  const pocket = part(new THREE.BoxGeometry(0.3, 0.13, 0.03), new THREE.Color(hoodie).multiplyScalar(0.85), {outline:false});
+  pocket.position.set(0, 0.92, 0.205); g.add(pocket);
+  for (const sx of [-0.06, 0.06]) {
+    const s = part(new THREE.CylinderGeometry(0.011, 0.011, 0.18, 8), P.head, {outline:false});
+    s.position.set(sx, 1.28, 0.21); g.add(s);
+  }
+  // arms
+  for (const sx of [-1,1]) {
+    const arm = new THREE.Group();
+    const sleeve = part(new THREE.CapsuleGeometry(0.075, 0.34, 8, 16), hoodie);
+    sleeve.position.y = -0.22; arm.add(sleeve);
+    const hand = part(new THREE.SphereGeometry(0.085, 20, 14), P.head);
+    hand.position.y = -0.5; arm.add(hand);
+    arm.position.set(sx*0.29, 1.32, 0); arm.rotation.z = sx*0.2; arm.rotation.x = 0.05;
+    g.add(arm);
+  }
+  // neck + head
+  const neck = part(new THREE.CylinderGeometry(0.045, 0.045, 0.24, 12), P.head);
+  neck.position.y = 1.52; g.add(neck);
+  const HR = 0.42, HY = 2.02;
+  const head = part(new THREE.SphereGeometry(HR, 48, 32), P.head);
+  head.position.y = HY; g.add(head);
+  // drawn-on face
+  const inkMat = new THREE.MeshBasicMaterial({color:P.ink});
+  const onHead = (x, y) => { const dy = y - HY; return Math.sqrt(HR*HR - x*x - dy*dy); };
+  const stick = (mesh, x, y, spin=0) => { const z = onHead(x, y); mesh.position.set(x, y, z + 0.003); mesh.lookAt(x*3, HY + (y-HY)*3, z*3); mesh.rotateZ(spin); g.add(mesh); };
+  for (const sx of [-1,1]) {
+    if (mood === 'happy') {
+      stick(new THREE.Mesh(new THREE.TorusGeometry(0.04, 0.011, 6, 16, Math.PI), inkMat), sx*0.14, HY + 0.05);
+      const bl = new THREE.Mesh(new THREE.CircleGeometry(0.05, 20), new THREE.MeshBasicMaterial({color:P.blush, transparent:true, opacity:0.75}));
+      bl.scale.y = 0.6; stick(bl, sx*0.2, HY - 0.05);
+    } else {
+      stick(new THREE.Mesh(new THREE.CapsuleGeometry(0.014, 0.07, 4, 8), inkMat), sx*0.14, HY + 0.05, Math.PI/2);
+    }
+  }
+  if (mood === 'happy') {
+    const smile = new THREE.Mesh(new THREE.CircleGeometry(0.06, 20, Math.PI, Math.PI), inkMat);
+    stick(smile, 0, HY - 0.07);
+  } else {
+    stick(new THREE.Mesh(new THREE.CapsuleGeometry(0.01, 0.045, 4, 8), inkMat), 0, HY - 0.1, Math.PI/2);
+  }
+  if (hair) {
+    const top = part(new THREE.SphereGeometry(HR+0.03, 40, 20, 0, Math.PI*2, 0, Math.PI*0.36), hair);
+    top.position.y = HY; g.add(top);
+    const back = part(new THREE.SphereGeometry(HR+0.025, 40, 24, Math.PI*0.75, Math.PI*1.5, 0, Math.PI*0.62), hair);
+    back.position.y = HY; g.add(back);
+  }
+  if (beanie) {
+    const dome = part(new THREE.SphereGeometry(HR+0.035, 40, 20, 0, Math.PI*2, 0, Math.PI*0.38), beanie);
+    dome.position.y = HY; g.add(dome);
+    const band = part(new THREE.TorusGeometry(HR*0.93, 0.05, 12, 40), beanie);
+    band.rotation.x = Math.PI/2; band.position.y = HY + HR*0.36; g.add(band);
+    const pom = part(new THREE.SphereGeometry(0.07, 16, 12), P.head);
+    pom.position.y = HY + HR + 0.06; g.add(pom);
+  }
+  return g;
+}
+
+let camera;
+if (MODE === 'sheet') {
+  document.getElementById('title').textContent = 'MUSTARD  ·  MODEL SHEET';
+  scene.add(new THREE.HemisphereLight('#ffffff', '#d9cfe8', 1.6));
+  const key = new THREE.DirectionalLight('#fff1dc', 2.2); key.position.set(3, 5, 5); key.castShadow = true;
+  key.shadow.mapSize.set(2048,2048); key.shadow.radius = 6;
+  Object.assign(key.shadow.camera,{left:-8,right:8,top:8,bottom:-8}); scene.add(key);
+  const ground = new THREE.Mesh(new THREE.PlaneGeometry(40,40), new THREE.ShadowMaterial({opacity:0.16}));
+  ground.rotation.x = -Math.PI/2; ground.receiveShadow = true; scene.add(ground);
+  const views = [['FRONT',0],['3/4',-0.75],['SIDE',-Math.PI/2],['BACK',Math.PI]];
+  views.forEach(([n,r],i)=>{ const p = makePerson(); p.position.x = (i-1.5)*1.7; p.rotation.y = r; scene.add(p); });
+  document.getElementById('labels').innerHTML = views.map(v=>`<div class="pill">${v[0]}</div>`).join('');
+  const sw = [['Hero hoodie',P.mustard],['Hero pants',P.navy,1],['Coral',P.coral],['Denim',P.denim],['Mint',P.mint],['Charcoal',P.charcoal,1],['Head',P.head],['Ink',P.ink,1]];
+  document.getElementById('swatches').innerHTML = sw.map(([n,c,d])=>`<div class="sw${d?' dark':''}" style="background:${c}">${n} ${c}</div>`).join('');
+  camera = new THREE.PerspectiveCamera(30, W/H, 0.1, 100);
+  camera.position.set(0, 1.9, 11.2); camera.lookAt(0, 1.05, 0);
+} else {
+  document.getElementById('title').textContent = 'MUSTARD  ·  STYLE TEST';
+  scene.add(new THREE.HemisphereLight('#d8c8f0', '#7a5f7a', 1.2));
+  const sun = new THREE.DirectionalLight('#ffc2b0', 2.0); sun.position.set(-6, 3.2, 3); sun.castShadow = true;
+  sun.shadow.mapSize.set(2048,2048); sun.shadow.radius = 4;
+  Object.assign(sun.shadow.camera,{left:-12,right:12,top:12,bottom:-12,near:0.5,far:40}); scene.add(sun);
+  const grass = new THREE.Mesh(new THREE.PlaneGeometry(60,60), toon(P.grass)); grass.rotation.x = -Math.PI/2; grass.receiveShadow = true; scene.add(grass);
+  const walk = new THREE.Mesh(new THREE.BoxGeometry(60, 0.04, 2.4), toon(P.walk)); walk.position.set(0, 0.02, 0.6); walk.receiveShadow = true; scene.add(walk);
+  const tree = (x, z, s, c) => {
+    const t = new THREE.Group();
+    const trunk = part(new THREE.CylinderGeometry(0.07, 0.1, 0.6, 8), P.brown); trunk.position.y = 0.3; t.add(trunk);
+    const cone = part(new THREE.ConeGeometry(0.6, 1.6, 16), c); cone.position.y = 1.3; t.add(cone);
+    const cap = part(new THREE.SphereGeometry(0.2, 16, 10), c); cap.position.y = 2.0; t.add(cap);
+    t.position.set(x, 0, z); t.scale.setScalar(s); scene.add(t);
+  };
+  [[-5.2,-2.6,1.4,P.treeA],[-3.4,-3.6,1.1,P.treeB],[-1.0,-4.4,1.3,P.treeA],[1.6,-3.9,1.15,P.treeB],[3.8,-3.0,1.45,P.treeA],[5.9,-2.2,1.2,P.treeB],[7.2,-4.6,1.3,P.treeA],[-7.0,-4.0,1.25,P.treeB]].forEach(a=>tree(...a));
+  const bench = new THREE.Group();
+  const seat = part(new THREE.BoxGeometry(1.6, 0.08, 0.45), P.bench); seat.position.y = 0.45; bench.add(seat);
+  const backr = part(new THREE.BoxGeometry(1.6, 0.35, 0.06), P.bench); backr.position.set(0, 0.75, -0.2); bench.add(backr);
+  for (const sx of [-0.7,0.7]) { const l = part(new THREE.BoxGeometry(0.08, 0.45, 0.4), P.ink); l.position.set(sx, 0.22, 0); bench.add(l); }
+  bench.position.set(-2.6, 0, -1.3); bench.rotation.y = 0.25; scene.add(bench);
+  const lamp = new THREE.Group();
+  const pole = part(new THREE.CylinderGeometry(0.05, 0.06, 3.2, 10), P.ink); pole.position.y = 1.6; lamp.add(pole);
+  const bulb = new THREE.Mesh(new THREE.SphereGeometry(0.2, 20, 14), new THREE.MeshBasicMaterial({color:'#FFE3B0'})); bulb.position.y = 3.25; lamp.add(bulb);
+  const glow = new THREE.PointLight(P.amber, 6, 6); glow.position.y = 3.1; lamp.add(glow);
+  lamp.position.set(3.4, 0, -1.4); scene.add(lamp);
+  const hero = makePerson(); hero.position.set(0, 0, 0.7); hero.rotation.y = -0.2; scene.add(hero);
+  const f1 = makePerson({hoodie:P.coral, pants:P.denim, hair:P.brown, mood:'happy'}); f1.position.set(-1.3, 0, 0.2); f1.rotation.y = 0.5; scene.add(f1);
+  const f2 = makePerson({hoodie:P.mint, pants:P.charcoal, beanie:P.amber}); f2.position.set(1.35, 0, 0.0); f2.rotation.y = -0.6; scene.add(f2);
+  camera = new THREE.PerspectiveCamera(30, W/H, 0.1, 100);
+  camera.position.set(1.2, 2.6, 9.2); camera.lookAt(0, 1.2, 0);
+}
+renderer.render(scene, camera);
+window.__done = true;
+</script>
+</body></html>
