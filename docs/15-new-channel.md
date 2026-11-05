@@ -9,6 +9,18 @@ for a **new channel**, not Parallel You. Its format: a real question title ("Can
 - Tagline: **Impossible ideas. Real science.**
 - Setup kit (profile picture + banner prompts, About text, keywords): `aitrends-2d-studio/projects/unreal-science-brand/channel.md`
 
+## New name options (the user, Nov 5: "start a new channel name, don't go back from the base")
+Same base system (`docs/16-master-prompt.md`: the hero, the 2D look, the story formula, the thumbnail and upload
+rules); only the name changes. All new, none of the earlier ones. Check that the name and handle are free.
+| Name | Handle | Tagline |
+|---|---|---|
+| **The Big If** (recommended) | @TheBigIf | One impossible question. Real science. |
+| Physics of If | @PhysicsOfIf | If it happened, here's what science says. |
+| Gravity Optional | @GravityOptional | Break the rules. Then check the physics. |
+| Bend Reality | @BendReality | Bend the rules. Check the science. |
+| Science of Maybe | @ScienceOfMaybe | Could it happen? Here's the science. |
+| Plot Physics | @PlotPhysics | Stories that break physics, explained. |
+
 ## Earlier name options (not chosen)
 | Name | Handle to check | Tagline | Why |
 |---|---|---|---|
