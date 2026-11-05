@@ -52,7 +52,7 @@ add(3.15, 0.5, lambda t: env(t, 0.01, 0.15) * math.sin(2 * math.pi * (300 + 260 
 
 # blink ticks
 for b in (5.0, 5.42):
-    add(b + 0.07, 0.05, pop(2400, 0.008), 0.18)
+    add(b + 0.06, 0.05, pop(2400, 0.008), 0.18)
 
 
 # sparkle shimmer as the phone vanishes
