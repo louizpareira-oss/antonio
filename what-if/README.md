@@ -10,6 +10,7 @@ scripts, character and jokes here are all original, and that's what keeps the ch
 | File | What it is |
 |---|---|
 | [`01-topics.md`](01-topics.md) | 10 topics, each with its rule, 3 titles and why it should get clicks. Includes the order to make them in. |
+| [`02-style-guide.md`](02-style-guide.md) | The channel's own visual style ("Toy Box"): the character, palette, font, labels, camera and thumbnails. |
 | [`scripts/01-inventory-in-real-life.md`](scripts/01-inventory-in-real-life.md) | Full ~10-minute script with a visual note on every line. |
 | [`prompts/01-inventory-in-real-life-visuals.txt`](prompts/01-inventory-in-real-life-visuals.txt) | 45 copy-paste image prompts, one per scene, plus what to overlay in the edit. |
 
@@ -41,16 +42,14 @@ At 1,300–1,600 words, the voiceover runs about 9:30–10:00 at a normal-to-sli
 
 ## The character and look
 
-**Blob** is a small round white blob with big glossy eyes, an oversized **mustard-yellow hoodie**
-and a **tiny green leaf sprout** on top of its head. Everyone else in the world is a white blob too,
-told apart by clothes and props.
+The channel has its own style, **"Toy Box"**: soft vinyl-toy characters in a miniature
+diorama world, with sherbet colors by day and deep teal by night. The hero is **Sprout**, a
+cream-colored bean with big glossy eyes, a mustard-yellow hoodie and a two-leaf sprout on top.
+Everyone else is a pastel bean.
 
-The hoodie color and the sprout are what make Blob *your* character rather than a lookalike of
-another channel's. Keep them in every video, every thumbnail and your profile picture.
-
-The base style is in every prompt: *clean minimalist animation style, bright vibrant colors,
-soft lighting, high quality, 16:9.* Build UI elements like hotbars, health bars and counters as
-reusable graphics in the editor. Don't generate them.
+It's deliberately different from the reference channel on every visible point: body shape,
+face, materials, palette and graphics. The full rules, hex colors, font, sticker-label
+style and prompt blocks are in [`02-style-guide.md`](02-style-guide.md).
 
 ## Voiceover (ElevenLabs)
 
@@ -71,20 +70,20 @@ listings and haven't listened to them, so play the previews before you choose:
 - **Generate one script section at a time, not all 10 minutes at once.** It's easier to redo
   one line, and the energy stays even across the video.
 - Once you've picked a voice and these settings, keep them for every video. The narrator's voice
-  is part of the brand, just like Blob.
+  is part of the brand, just like Sprout.
 
 ## Making one video
 
 1. Pick the next topic from `01-topics.md` and write the script, keeping the rules list at the top.
 2. Record or generate the voiceover section by section.
-3. Generate the scene images. Do Blob's close-up first and use it as the character reference
-   for every other scene.
+3. Generate the scene images. Use the same `sprout-reference.png` as the character reference
+   every time (see the style guide).
 4. Run the images through image-to-video for 3–5 second clips, aiming for a new shot every 4–6
    seconds.
 5. Edit: voiceover, then clips, then UI overlays, sound effects, and music kept quiet under
    the voice.
-6. Thumbnail: Blob's face showing a big emotion, the one rule-graphic (hotbar, health bar,
-   counter), and three words at most.
+6. Thumbnail: Sprout's face showing a big emotion, the one rule graphic as a sticker, three words
+   at most, and a single bright background color (style guide, "Thumbnails").
 
 ## Staying monetizable on YouTube
 
@@ -98,7 +97,8 @@ channels rejected is when *everything* about the videos is generic.
 What keeps this channel on the right side of that rule:
 - **Original scripts.** Every script is written for this channel, with no reworded scripts
   from other channels.
-- **An original recurring character** (Blob, with the hoodie and sprout) and a consistent world.
+- **An original style and recurring character** (Toy Box and Sprout), not a lookalike of the
+  reference channel.
 - **Real editing:** custom UI overlays, timed sound effects, and a new shot every few seconds.
   Not a slideshow of still images under a voiceover.
 - **Don't reuse the source channel's titles or topics.** `01-topics.md` lists the ones to avoid.
