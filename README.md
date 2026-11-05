@@ -19,6 +19,13 @@ Plan to make the account eligible for the TikTok Creator Rewards Program after t
 - [`scripts/01-forgive-the-past.md`](scripts/01-forgive-the-past.md) — 70s, 20 beats, full shot list and generation prompts.
 - [`prompts/01-forgive-the-past-anime.txt`](prompts/01-forgive-the-past-anime.txt) — **copy-paste pack: all 22 clip prompts, anime style, ready for an AI video generator.**
 
+## New: "What If" YouTube channel
+
+- [`what-if/README.md`](what-if/README.md) — how the scripts are written, the character, voice settings, and staying monetizable.
+- [`what-if/01-topics.md`](what-if/01-topics.md) — 10 topics with titles.
+- [`what-if/scripts/01-inventory-in-real-life.md`](what-if/scripts/01-inventory-in-real-life.md) — full 10-minute script.
+- [`what-if/prompts/01-inventory-in-real-life-visuals.txt`](what-if/prompts/01-inventory-in-real-life-visuals.txt) — 45 copy-paste image prompts.
+
 ## Account snapshot (Sep 2026)
 
 | Metric | Value |
